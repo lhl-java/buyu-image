@@ -1,0 +1,300 @@
+{
+  "schemaVersion": 1,
+  "inspectedAt": "2026-10-28T15:16:45.799787+00:00",
+  "source": "designs/motion-frames-v1/01-qingqi/swim/01-qingqi-swim-contained-v2.png",
+  "sourceSHA256": "8062b4d48c58d7d0d64f776e24a670ae3b100fe0898208d12132c1d0ba856bfd",
+  "nativeSourceSize": [
+    1774,
+    887
+  ],
+  "sourceAlphaExtrema": [
+    0,
+    255
+  ],
+  "grid": [
+    4,
+    2
+  ],
+  "sharedCanvas": [
+    444,
+    444
+  ],
+  "padding": "Only right/bottom 0-1px per native grid cell to shared ceil canvas; no scaling.",
+  "frames": [
+    {
+      "id": "frame-00",
+      "sourceRect": [
+        0,
+        0,
+        444,
+        444
+      ],
+      "canvas": [
+        444,
+        444
+      ],
+      "bodyBBoxAlphaGt3": [
+        88,
+        195,
+        392,
+        393
+      ],
+      "marginsLTRB": [
+        0.1981981981981982,
+        0.4391891891891892,
+        0.11711711711711711,
+        0.11486486486486487
+      ],
+      "minMargin": 0.11486486486486487,
+      "edgeAlphaMax": 0,
+      "sha256": "d1d7b6ed64e369a98aebfd95e7dffc12b7cbb7bd8d11cc75b5b955b30d834baf"
+    },
+    {
+      "id": "frame-01",
+      "sourceRect": [
+        444,
+        0,
+        887,
+        444
+      ],
+      "canvas": [
+        444,
+        444
+      ],
+      "bodyBBoxAlphaGt3": [
+        74,
+        195,
+        396,
+        393
+      ],
+      "marginsLTRB": [
+        0.16666666666666666,
+        0.4391891891891892,
+        0.10810810810810811,
+        0.11486486486486487
+      ],
+      "minMargin": 0.10810810810810811,
+      "edgeAlphaMax": 0,
+      "sha256": "6c79f7940a73b25ffbecca56009c97bd8d3f3a2c9ff4e65cab3cca2aeb020255"
+    },
+    {
+      "id": "frame-02",
+      "sourceRect": [
+        887,
+        0,
+        1330,
+        444
+      ],
+      "canvas": [
+        444,
+        444
+      ],
+      "bodyBBoxAlphaGt3": [
+        66,
+        167,
+        387,
+        402
+      ],
+      "marginsLTRB": [
+        0.14864864864864866,
+        0.3761261261261261,
+        0.12837837837837837,
+        0.0945945945945946
+      ],
+      "minMargin": 0.0945945945945946,
+      "edgeAlphaMax": 0,
+      "sha256": "f8a18102a8351ff3d5daef04d8ccd4f6d07b5fb7647cce41fbe4acc1e055f39e"
+    },
+    {
+      "id": "frame-03",
+      "sourceRect": [
+        1330,
+        0,
+        1774,
+        444
+      ],
+      "canvas": [
+        444,
+        444
+      ],
+      "bodyBBoxAlphaGt3": [
+        64,
+        195,
+        380,
+        394
+      ],
+      "marginsLTRB": [
+        0.14414414414414414,
+        0.4391891891891892,
+        0.14414414414414414,
+        0.11261261261261261
+      ],
+      "minMargin": 0.11261261261261261,
+      "edgeAlphaMax": 0,
+      "sha256": "cc2c9f04be2f53c19eb892ca5f1c66c7f4a061663a1c2a99eac8460ce4e6d25a"
+    },
+    {
+      "id": "frame-04",
+      "sourceRect": [
+        0,
+        444,
+        444,
+        887
+      ],
+      "canvas": [
+        444,
+        444
+      ],
+      "bodyBBoxAlphaGt3": [
+        93,
+        109,
+        398,
+        297
+      ],
+      "marginsLTRB": [
+        0.20945945945945946,
+        0.24549549549549549,
+        0.1036036036036036,
+        0.3310810810810811
+      ],
+      "minMargin": 0.1036036036036036,
+      "edgeAlphaMax": 0,
+      "sha256": "05c93fa02068695940940744e78da67ccb9d7fb407186c888b162b724309281b"
+    },
+    {
+      "id": "frame-05",
+      "sourceRect": [
+        444,
+        444,
+        887,
+        887
+      ],
+      "canvas": [
+        444,
+        444
+      ],
+      "bodyBBoxAlphaGt3": [
+        74,
+        114,
+        397,
+        307
+      ],
+      "marginsLTRB": [
+        0.16666666666666666,
+        0.25675675675675674,
+        0.10585585585585586,
+        0.30855855855855857
+      ],
+      "minMargin": 0.10585585585585586,
+      "edgeAlphaMax": 0,
+      "sha256": "ac44bde0f86bf5410b19cbe7a4836abd56157576f35d6f866c439511e6c0bfa6"
+    },
+    {
+      "id": "frame-06",
+      "sourceRect": [
+        887,
+        444,
+        1330,
+        887
+      ],
+      "canvas": [
+        444,
+        444
+      ],
+      "bodyBBoxAlphaGt3": [
+        72,
+        115,
+        392,
+        307
+      ],
+      "marginsLTRB": [
+        0.16216216216216217,
+        0.25900900900900903,
+        0.11711711711711711,
+        0.30855855855855857
+      ],
+      "minMargin": 0.11711711711711711,
+      "edgeAlphaMax": 0,
+      "sha256": "43ecc6248134f86c736d107914df3f9703f7d3005d4c185b3ef2e6b793777a97"
+    },
+    {
+      "id": "frame-07",
+      "sourceRect": [
+        1330,
+        444,
+        1774,
+        887
+      ],
+      "canvas": [
+        444,
+        444
+      ],
+      "bodyBBoxAlphaGt3": [
+        67,
+        113,
+        383,
+        305
+      ],
+      "marginsLTRB": [
+        0.15090090090090091,
+        0.2545045045045045,
+        0.1373873873873874,
+        0.3130630630630631
+      ],
+      "minMargin": 0.1373873873873874,
+      "edgeAlphaMax": 0,
+      "sha256": "87dfd281e054f4cc247afedf2db3430067aca3671e0a80d429ed58111672e4c7"
+    }
+  ],
+  "borderWarnings": [],
+  "sourceMarginWarnings": [
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 0,
+      "actual": 0.11486486486486487,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 1,
+      "actual": 0.10810810810810811,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 2,
+      "actual": 0.0945945945945946,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 3,
+      "actual": 0.11261261261261261,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 4,
+      "actual": 0.1036036036036036,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 5,
+      "actual": 0.10585585585585586,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 6,
+      "actual": 0.11711711711711711,
+      "required": 0.12
+    }
+  ],
+  "noUpscaling": true,
+  "uniqueFrameHashes": 8,
+  "uniquenessIsNotMotionEvidence": true,
+  "actualMotionStatus": "pending_root_visual",
+  "rootRegistration": "Grid root is metadata only; generated head/torso landmarks not registered. Top/bottom row vertical drift must be inspected and corrected by root before animation acceptance.",
+  "playback": "Not yet reviewed; static QA cannot certify loop."
+}

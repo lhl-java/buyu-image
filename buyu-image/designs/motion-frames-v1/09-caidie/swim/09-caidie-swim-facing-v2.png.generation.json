@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/motion-frames-v1/09-caidie/swim/09-caidie-swim-facing-v2.png",
+  "sha256": "fe6fbcf7e20c5d68bcf4b5175d276e1647866a71cb23c3ab2f1bf1ba7cfd6052",
+  "generatedAt": "2026-10-28T17:19:36.812Z",
+  "startedAt": "2026-10-28T17:18:44.165Z",
+  "width": 1774,
+  "height": 887,
+  "format": "PNG",
+  "pixelFormat": "Format32bppArgb",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-28",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "builtin_evidence": {
+      "model_parameter_exposed": false,
+      "quality_parameter_exposed": false,
+      "actual_model": null,
+      "actual_quality": null,
+      "note": "Configuration targets only; verify actual model and quality per generated image."
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\buyu-image\\designs\\motion-frames-v1\\09-caidie\\swim\\09-caidie-swim-v1.png",
+      "D:\\work\\buyu-image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\buyu-image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "D:\\work\\buyu-image\\assets\\fish\\batch-2\\09-caidie.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具未开放 model/quality 参数，本次结果未披露实际型号及质量。",
+  "evidence": {
+    "toolResult": "09-caidie-swim-facing-v2.tool-result.txt",
+    "sourceOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a18186-fd02-7812-b30d-2810b1c9973a\\exec-6436a3ed-a7a6-4562-81fa-d201627b9c9d.png",
+    "toolResultId": "exec-6436a3ed-a7a6-4562-81fa-d201627b9c9d",
+    "request": "09-caidie-swim-facing-v2.request.json"
+  },
+  "prompt": "09-caidie-swim-facing-v2.prompt.txt",
+  "references": [
+    {
+      "file": "designs/motion-frames-v1/09-caidie/swim/09-caidie-swim-v1.png",
+      "sha256": "0eb5f4677547848abe3b42a201109da60fbeff9add1a54807761d0ab26cc725d",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role.",
+      "retentionState": "historical_input_image_removed_or_scheduled; original file/hash evidence retained",
+      "imageCurrentlyExists": false
+    },
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "assets/fish/batch-2/09-caidie.png",
+      "sha256": "1cd10e06ecb752a8c0812dc2a194355bcb668361b9916d59ea956d9b9f3abfbf",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    }
+  ],
+  "requestedCanvasInPrompt": "Native2:1 4x2 true-alpha action table requested; actual size recorded.",
+  "resampled": false,
+  "status": "draft_pending_user_review",
+  "visualReview": "Native eight-frame candidate; actual identity, direction, anatomical pose, alpha and native scale pending visual review.",
+  "scope": "01-12 fish action native AI production; paid route and procedural character animation unused.",
+  "retentionRole": "selected_current_animation_source_candidate",
+  "producerStillReview": "native source and registered light/dark composite inspected; root/Unity pending"
+}

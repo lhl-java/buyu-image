@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/production-v1/kit-hud/kit-hud.png",
+  "sha256": "fa7025d75e40f5a7fa1a8758c12738fffaacb0b275c6764bbd6fc9daeefd46a3",
+  "generatedAt": "2026-10-26T19:25:20.158Z",
+  "startedAt": "2026-10-26T19:24:07.459Z",
+  "width": 1448,
+  "height": 1086,
+  "format": "PNG",
+  "pixelFormat": "Format32bppArgb",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "builtin_evidence": {
+      "model_parameter_exposed": false,
+      "quality_parameter_exposed": false,
+      "actual_model": null,
+      "actual_quality": null,
+      "note": "Configuration targets only; verify actual model and quality per generated image."
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\buyu-image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\buyu-image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "D:\\work\\buyu-image\\designs\\ui\\full-suite-v1\\31-components\\31-components.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具未开放 model/quality 参数，本次结果未披露实际型号及质量。",
+  "evidence": {
+    "toolResult": "kit-hud.tool-result.txt",
+    "sourceOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a1792c-499c-79e1-9da0-1d0b6d1d6515\\exec-9745817b-1540-490d-9f8c-86fca68b392f.png",
+    "toolResultId": "exec-9745817b-1540-490d-9f8c-86fca68b392f",
+    "request": "kit-hud.request.json"
+  },
+  "prompt": "kit-hud.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/ui/full-suite-v1/31-components/31-components.png",
+      "sha256": "f197742aac1dee57fee6c35daf72becda2eb8e16ae4ec6b285b4abec0fdca5e3",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    }
+  ],
+  "requestedCanvasInPrompt": "4 columns x 3 rows, requested 4:3; actual native returned recorded",
+  "resampled": false,
+  "status": "draft_pending_user_review",
+  "visualReview": "十二个 HUD 控件完整；实际目视源图及切片联系表。资源胶囊、底栏、进度槽/填充、开关、复选框及四种槽状态用途清楚；按实际透明间隙划分所有权矩形。",
+  "scope": "Textless reusable production HUD control skin sheet",
+  "visualReviewedAt": "2026-10-26T20:07:40.751031+00:00"
+}

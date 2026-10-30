@@ -1,0 +1,41 @@
+{
+  "actor": "36-xuanjing",
+  "action": "enrage",
+  "name": "玄海巨鲸怒态",
+  "canvas": [
+    1000,
+    1000
+  ],
+  "eyeRoot": [
+    680,
+    420
+  ],
+  "fps": 8,
+  "loop": true,
+  "bodyDisplayBox": [
+    340,
+    260
+  ],
+  "sheets": [
+    {
+      "qa": "designs/motion-frames-v1/36-xuanjing/enrage/source-a-qa.json",
+      "ownership": "designs/motion-frames-v1/36-xuanjing/enrage/extract-a.json",
+      "eyeCandidateIndices": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "qa": "designs/motion-frames-v1/36-xuanjing/enrage/source-b-qa.json",
+      "ownership": "designs/motion-frames-v1/36-xuanjing/enrage/extract-b.json",
+      "eyeCandidateIndices": [
+        0,
+        0,
+        1,
+        1
+      ]
+    }
+  ]
+}

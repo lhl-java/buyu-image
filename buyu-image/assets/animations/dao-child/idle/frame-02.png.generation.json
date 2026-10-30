@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-02",
+  "name": "道童待机候选相位 2/8",
+  "file": "assets/animations/dao-child/idle/frame-02.png",
+  "sha256": "8525551894da9519eb3715d4f2fb6481ac2e221c4ccbff3843a23adb07955684",
+  "width": 800,
+  "height": 800,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/motion-frames-v1/dao-child/idle/idle-a-contained.png",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/dao-child/idle/idle-a-contained.png",
+      "sha256": "af6b0d20f2989552910b9b65871a0abbacc6172ef2ab72eb87106c8ccb527f21",
+      "generationRecord": "designs/motion-frames-v1/dao-child/idle/idle-a-contained.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_grid_crop_integer_planted_sole_registration_and_transparent_padding",
+    "grid": {
+      "rows": 2,
+      "cols": 2
+    },
+    "sourceRect": [
+      0,
+      627,
+      627,
+      1254
+    ],
+    "cellCropRect": [
+      0,
+      0,
+      627,
+      627
+    ],
+    "registrationOffset": [
+      56,
+      100
+    ],
+    "registeredCanvas": [
+      800,
+      800
+    ],
+    "registrationReference": {
+      "type": "midpoint_of_two_sole_contact_centres_and_lowest_sole",
+      "sourcePoint": [
+        344,
+        580
+      ],
+      "sourceSoles": [
+        [
+          240,
+          580
+        ],
+        [
+          449,
+          578
+        ]
+      ],
+      "targetPoint": [
+        400,
+        680
+      ],
+      "detection": "Manually inspected shoe ROIs x150..345 and x345..550,y470..626; alpha>200 bottommost row, x centroid within bottom five rows; nearest integer."
+    },
+    "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+    "resized": false,
+    "upscaled": false,
+    "poseWarped": false,
+    "sourcePixelsRoundTripVerified": true
+  },
+  "anchor": [
+    0.5,
+    0.85
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See actual AI source generation record; slicing is not a new model call.",
+  "status": "candidate_pending_root_visual_and_playback_review",
+  "animation": {
+    "id": "dao-child/idle",
+    "frames": 8,
+    "fps": 8,
+    "loop": true,
+    "order": "first sheet row-major then second sheet row-major",
+    "phase": 0.25,
+    "durationMs": 125,
+    "root": [
+      0.5,
+      0.85
+    ]
+  },
+  "qa": {
+    "nativeBodyBoxAlpha16": [
+      89,
+      84,
+      593,
+      583
+    ],
+    "nativeBodyHeight": 499,
+    "rawCellEdgeMaxAlpha": 1,
+    "rawCellMargin12PercentPassed": false,
+    "registeredBodyBoxAlpha16": [
+      145,
+      184,
+      649,
+      683
+    ],
+    "registeredSolePoints": [
+      [
+        296,
+        680
+      ],
+      [
+        505,
+        678
+      ]
+    ],
+    "registeredMarginsFraction": [
+      0.18125,
+      0.23,
+      0.18875,
+      0.14625
+    ],
+    "registeredMargin12PercentPassed": true,
+    "nativeHeight280Passed": true,
+    "noUpscalePassed": true,
+    "visualMotionAccepted": false,
+    "loopAccepted": false
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "panel-large",
+  "name": "大窗框",
+  "file": "assets/ui/panels/panel-large.png",
+  "sha256": "5a63a75d427b4c6bfca7de0b19b9e4f0b2b3222ae09f9f625c0792bc0d27dd42",
+  "width": 571,
+  "height": 450,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/production-v1/kit-panels/kit-panels.png",
+  "derivedFrom": [
+    {
+      "file": "designs/production-v1/kit-panels/kit-panels.png",
+      "sha256": "7beb64df946a6e3044e0d4a19e250f403acfd18f9832a09d62d017435aa6e11a",
+      "generationRecord": "designs/production-v1/kit-panels/kit-panels.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_ownership_crop",
+    "grid": {
+      "rows": 2,
+      "cols": 3
+    },
+    "sourceRect": [
+      20,
+      65,
+      625,
+      550
+    ],
+    "cellCropRect": [
+      19,
+      19,
+      590,
+      469
+    ],
+    "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+    "resized": false,
+    "upscaled": false
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "displaySize": [
+    128,
+    128
+  ],
+  "status": "visual_reviewed_pending_runtime_integration",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source generation record; no new model call for this slice.",
+  "nineSlice": [
+    52,
+    52,
+    52,
+    52
+  ],
+  "visualReview": {
+    "reviewedAt": "2026-10-26T20:07:40.751031+00:00",
+    "sourceAndContactSheetViewed": true,
+    "result": "pass_for_static_visual_asset",
+    "notes": "六块独立无字窗框、标题牌、列表行、提示框及头像框；实际目视源图及切片联系表。标题牌右端轮廓完整，头像框中央真透明。原排布不等宽，按实际所有权矩形裁切。",
+    "runtimeIntegrationVerified": false
+  }
+}

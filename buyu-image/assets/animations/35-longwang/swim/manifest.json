@@ -1,0 +1,1582 @@
+{
+  "schemaVersion": 1,
+  "source": [
+    "designs/motion-frames-v1/35-longwang/swim/35-longwang-swim-v1.png"
+  ],
+  "output": "assets/animations/35-longwang/swim",
+  "sourceEvidence": [
+    {
+      "file": "designs/motion-frames-v1/35-longwang/swim/35-longwang-swim-v1.png",
+      "sha256": "4f8fb7a9a9cf8331dda8e3e4b5ffbfc3a889e729cda3a0ca5768e1ab9e9a0901",
+      "generationRecord": "designs/motion-frames-v1/35-longwang/swim/35-longwang-swim-v1.png.generation.json"
+    }
+  ],
+  "frameCount": 8,
+  "items": [
+    {
+      "schemaVersion": 1,
+      "id": "frame-00",
+      "name": "龙王海龙游动 1/8",
+      "file": "assets/animations/35-longwang/swim/frame-00.png",
+      "sha256": "69e72b734a088c820ed4ac667a9a9256424d4edd1a3a0fb02c0b621d46a94ebb",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T19:38:03.651720+00:00",
+      "nativeSource": "designs/motion-frames-v1/35-longwang/swim/35-longwang-swim-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/35-longwang/swim/35-longwang-swim-v1.png",
+          "sha256": "4f8fb7a9a9cf8331dda8e3e4b5ffbfc3a889e729cda3a0ca5768e1ab9e9a0901",
+          "generationRecord": "designs/motion-frames-v1/35-longwang/swim/35-longwang-swim-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/35-longwang/swim/extract-v1.json",
+          "sourceRect": [
+            30,
+            114,
+            442,
+            411
+          ],
+          "evidence": {
+            "sourceFrame": 0,
+            "file": "designs/motion-frames-v1/35-longwang/swim/extract-v1-pose-00.png",
+            "sourceRect": [
+              30,
+              114,
+              442,
+              411
+            ],
+            "nominalSourceRect": [
+              0,
+              0,
+              444,
+              444
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              412,
+              297
+            ],
+            "ownedPixelCount": 67299,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 5
+          }
+        },
+        "sourceEyePoint": [
+          337.95,
+          109.83571428571429
+        ],
+        "globalSourceEye": [
+          367.95,
+          223.8357142857143
+        ],
+        "registrationOffset": [
+          342,
+          310
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        342,
+        310,
+        754,
+        607
+      ],
+      "registeredMinMargin": 0.246,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "visible_eye_pupil_ROI_component_center",
+        "qa": "designs/motion-frames-v1/35-longwang/swim/source-v1-qa.json",
+        "sourceFrame": 0,
+        "candidateIndex": 0,
+        "detection": {
+          "roi": [
+            310,
+            130,
+            425,
+            280
+          ],
+          "darkMaxExclusive": 28,
+          "warmRAtLeastGAndB": false,
+          "alphaMinExclusive": 220,
+          "componentConnectivity": 4
+        },
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review. Closed eyelid proxies are not true pupils and must be excluded from pixel-density calibration."
+      },
+      "displaySize": [
+        825.2427184466019,
+        825.2427184466019
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.8252427184466019,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          412,
+          297
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "35-longwang/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 0,
+        "durationMs": 83
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-01",
+      "name": "龙王海龙游动 2/8",
+      "file": "assets/animations/35-longwang/swim/frame-01.png",
+      "sha256": "313e69712ee01fb0edd9bedbf46a9573c1de269f53c09ac34d08368bda634466",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T19:38:03.651720+00:00",
+      "nativeSource": "designs/motion-frames-v1/35-longwang/swim/35-longwang-swim-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/35-longwang/swim/35-longwang-swim-v1.png",
+          "sha256": "4f8fb7a9a9cf8331dda8e3e4b5ffbfc3a889e729cda3a0ca5768e1ab9e9a0901",
+          "generationRecord": "designs/motion-frames-v1/35-longwang/swim/35-longwang-swim-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/35-longwang/swim/extract-v1.json",
+          "sourceRect": [
+            470,
+            104,
+            883,
+            391
+          ],
+          "evidence": {
+            "sourceFrame": 1,
+            "file": "designs/motion-frames-v1/35-longwang/swim/extract-v1-pose-01.png",
+            "sourceRect": [
+              470,
+              104,
+              883,
+              391
+            ],
+            "nominalSourceRect": [
+              444,
+              0,
+              887,
+              444
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              413,
+              287
+            ],
+            "ownedPixelCount": 63011,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 1
+          }
+        },
+        "sourceEyePoint": [
+          339.48571428571427,
+          113.7357142857143
+        ],
+        "globalSourceEye": [
+          809.4857142857143,
+          217.7357142857143
+        ],
+        "registrationOffset": [
+          341,
+          306
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        341,
+        306,
+        754,
+        593
+      ],
+      "registeredMinMargin": 0.246,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "visible_eye_pupil_ROI_component_center",
+        "qa": "designs/motion-frames-v1/35-longwang/swim/source-v1-qa.json",
+        "sourceFrame": 1,
+        "candidateIndex": 0,
+        "detection": {
+          "roi": [
+            310,
+            130,
+            425,
+            280
+          ],
+          "darkMaxExclusive": 28,
+          "warmRAtLeastGAndB": false,
+          "alphaMinExclusive": 220,
+          "componentConnectivity": 4
+        },
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review. Closed eyelid proxies are not true pupils and must be excluded from pixel-density calibration."
+      },
+      "displaySize": [
+        825.2427184466019,
+        825.2427184466019
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.8252427184466019,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          412,
+          297
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "35-longwang/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 1,
+        "durationMs": 84
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-02",
+      "name": "龙王海龙游动 3/8",
+      "file": "assets/animations/35-longwang/swim/frame-02.png",
+      "sha256": "3a544d33d17a880413374fd6f02d83193ad684634bf5917f6a84d0ef19cb5d7e",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T19:38:03.651720+00:00",
+      "nativeSource": "designs/motion-frames-v1/35-longwang/swim/35-longwang-swim-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/35-longwang/swim/35-longwang-swim-v1.png",
+          "sha256": "4f8fb7a9a9cf8331dda8e3e4b5ffbfc3a889e729cda3a0ca5768e1ab9e9a0901",
+          "generationRecord": "designs/motion-frames-v1/35-longwang/swim/35-longwang-swim-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/35-longwang/swim/extract-v1.json",
+          "sourceRect": [
+            935,
+            108,
+            1319,
+            388
+          ],
+          "evidence": {
+            "sourceFrame": 2,
+            "file": "designs/motion-frames-v1/35-longwang/swim/extract-v1-pose-02.png",
+            "sourceRect": [
+              935,
+              108,
+              1319,
+              388
+            ],
+            "nominalSourceRect": [
+              887,
+              0,
+              1330,
+              444
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              384,
+              280
+            ],
+            "ownedPixelCount": 68839,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 2
+          }
+        },
+        "sourceEyePoint": [
+          309.9655172413793,
+          115.62068965517241
+        ],
+        "globalSourceEye": [
+          1244.9655172413793,
+          223.6206896551724
+        ],
+        "registrationOffset": [
+          370,
+          304
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        370,
+        304,
+        754,
+        584
+      ],
+      "registeredMinMargin": 0.246,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "visible_eye_pupil_ROI_component_center",
+        "qa": "designs/motion-frames-v1/35-longwang/swim/source-v1-qa.json",
+        "sourceFrame": 2,
+        "candidateIndex": 0,
+        "detection": {
+          "roi": [
+            310,
+            130,
+            425,
+            280
+          ],
+          "darkMaxExclusive": 28,
+          "warmRAtLeastGAndB": false,
+          "alphaMinExclusive": 220,
+          "componentConnectivity": 4
+        },
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review. Closed eyelid proxies are not true pupils and must be excluded from pixel-density calibration."
+      },
+      "displaySize": [
+        825.2427184466019,
+        825.2427184466019
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.8252427184466019,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          412,
+          297
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "35-longwang/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 2,
+        "durationMs": 83
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-03",
+      "name": "龙王海龙游动 4/8",
+      "file": "assets/animations/35-longwang/swim/frame-03.png",
+      "sha256": "9b3a28d0897eb510527932d068001b2a55d697f903fdae838204ecc6327cd196",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T19:38:03.651720+00:00",
+      "nativeSource": "designs/motion-frames-v1/35-longwang/swim/35-longwang-swim-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/35-longwang/swim/35-longwang-swim-v1.png",
+          "sha256": "4f8fb7a9a9cf8331dda8e3e4b5ffbfc3a889e729cda3a0ca5768e1ab9e9a0901",
+          "generationRecord": "designs/motion-frames-v1/35-longwang/swim/35-longwang-swim-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/35-longwang/swim/extract-v1.json",
+          "sourceRect": [
+            1334,
+            111,
+            1766,
+            400
+          ],
+          "evidence": {
+            "sourceFrame": 3,
+            "file": "designs/motion-frames-v1/35-longwang/swim/extract-v1-pose-03.png",
+            "sourceRect": [
+              1334,
+              111,
+              1766,
+              400
+            ],
+            "nominalSourceRect": [
+              1330,
+              0,
+              1774,
+              444
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              432,
+              289
+            ],
+            "ownedPixelCount": 61544,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 3
+          }
+        },
+        "sourceEyePoint": [
+          359.76691729323306,
+          112.02255639097746
+        ],
+        "globalSourceEye": [
+          1693.766917293233,
+          223.02255639097746
+        ],
+        "registrationOffset": [
+          320,
+          308
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        320,
+        308,
+        752,
+        597
+      ],
+      "registeredMinMargin": 0.248,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "visible_eye_pupil_ROI_component_center",
+        "qa": "designs/motion-frames-v1/35-longwang/swim/source-v1-qa.json",
+        "sourceFrame": 3,
+        "candidateIndex": 0,
+        "detection": {
+          "roi": [
+            310,
+            130,
+            425,
+            280
+          ],
+          "darkMaxExclusive": 28,
+          "warmRAtLeastGAndB": false,
+          "alphaMinExclusive": 220,
+          "componentConnectivity": 4
+        },
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review. Closed eyelid proxies are not true pupils and must be excluded from pixel-density calibration."
+      },
+      "displaySize": [
+        825.2427184466019,
+        825.2427184466019
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.8252427184466019,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          412,
+          297
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "35-longwang/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 3,
+        "durationMs": 83
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-04",
+      "name": "龙王海龙游动 5/8",
+      "file": "assets/animations/35-longwang/swim/frame-04.png",
+      "sha256": "44971c19b7fe26123c5b1fc9c06e1bc6f9837f1a908864930a1f6ddbbe1cbc4f",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T19:38:03.651720+00:00",
+      "nativeSource": "designs/motion-frames-v1/35-longwang/swim/35-longwang-swim-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/35-longwang/swim/35-longwang-swim-v1.png",
+          "sha256": "4f8fb7a9a9cf8331dda8e3e4b5ffbfc3a889e729cda3a0ca5768e1ab9e9a0901",
+          "generationRecord": "designs/motion-frames-v1/35-longwang/swim/35-longwang-swim-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/35-longwang/swim/extract-v1.json",
+          "sourceRect": [
+            9,
+            515,
+            459,
+            790
+          ],
+          "evidence": {
+            "sourceFrame": 4,
+            "file": "designs/motion-frames-v1/35-longwang/swim/extract-v1-pose-04.png",
+            "sourceRect": [
+              9,
+              515,
+              459,
+              790
+            ],
+            "nominalSourceRect": [
+              0,
+              444,
+              444,
+              887
+            ],
+            "nominalGridCross": true,
+            "nativeVisibleSize": [
+              450,
+              275
+            ],
+            "ownedPixelCount": 64249,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 102
+          }
+        },
+        "sourceEyePoint": [
+          377.4761904761905,
+          108.68253968253964
+        ],
+        "globalSourceEye": [
+          386.4761904761905,
+          623.6825396825396
+        ],
+        "registrationOffset": [
+          303,
+          311
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        303,
+        311,
+        753,
+        586
+      ],
+      "registeredMinMargin": 0.247,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "visible_eye_pupil_ROI_component_center",
+        "qa": "designs/motion-frames-v1/35-longwang/swim/source-v1-qa.json",
+        "sourceFrame": 4,
+        "candidateIndex": 0,
+        "detection": {
+          "roi": [
+            310,
+            130,
+            425,
+            280
+          ],
+          "darkMaxExclusive": 28,
+          "warmRAtLeastGAndB": false,
+          "alphaMinExclusive": 220,
+          "componentConnectivity": 4
+        },
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review. Closed eyelid proxies are not true pupils and must be excluded from pixel-density calibration."
+      },
+      "displaySize": [
+        825.2427184466019,
+        825.2427184466019
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.8252427184466019,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          412,
+          297
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "35-longwang/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 4,
+        "durationMs": 84
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-05",
+      "name": "龙王海龙游动 6/8",
+      "file": "assets/animations/35-longwang/swim/frame-05.png",
+      "sha256": "936129c2ae8f52d8dafa741446325c786cca27f9067b7b4cc2e7ba1621230183",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T19:38:03.651720+00:00",
+      "nativeSource": "designs/motion-frames-v1/35-longwang/swim/35-longwang-swim-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/35-longwang/swim/35-longwang-swim-v1.png",
+          "sha256": "4f8fb7a9a9cf8331dda8e3e4b5ffbfc3a889e729cda3a0ca5768e1ab9e9a0901",
+          "generationRecord": "designs/motion-frames-v1/35-longwang/swim/35-longwang-swim-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/35-longwang/swim/extract-v1.json",
+          "sourceRect": [
+            462,
+            512,
+            891,
+            789
+          ],
+          "evidence": {
+            "sourceFrame": 5,
+            "file": "designs/motion-frames-v1/35-longwang/swim/extract-v1-pose-05.png",
+            "sourceRect": [
+              462,
+              512,
+              891,
+              789
+            ],
+            "nominalSourceRect": [
+              444,
+              444,
+              887,
+              887
+            ],
+            "nominalGridCross": true,
+            "nativeVisibleSize": [
+              429,
+              277
+            ],
+            "ownedPixelCount": 67025,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 100
+          }
+        },
+        "sourceEyePoint": [
+          359.30578512396687,
+          109.07438016528931
+        ],
+        "globalSourceEye": [
+          821.3057851239669,
+          621.0743801652893
+        ],
+        "registrationOffset": [
+          321,
+          311
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        321,
+        311,
+        750,
+        588
+      ],
+      "registeredMinMargin": 0.25,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "visible_eye_pupil_ROI_component_center",
+        "qa": "designs/motion-frames-v1/35-longwang/swim/source-v1-qa.json",
+        "sourceFrame": 5,
+        "candidateIndex": 0,
+        "detection": {
+          "roi": [
+            310,
+            130,
+            425,
+            280
+          ],
+          "darkMaxExclusive": 28,
+          "warmRAtLeastGAndB": false,
+          "alphaMinExclusive": 220,
+          "componentConnectivity": 4
+        },
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review. Closed eyelid proxies are not true pupils and must be excluded from pixel-density calibration."
+      },
+      "displaySize": [
+        825.2427184466019,
+        825.2427184466019
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.8252427184466019,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          412,
+          297
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "35-longwang/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 5,
+        "durationMs": 83
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-06",
+      "name": "龙王海龙游动 7/8",
+      "file": "assets/animations/35-longwang/swim/frame-06.png",
+      "sha256": "850806a34d5bcadcdd78f5b58dff4e1d0973f5f9c71d179d2edfd892be2d985e",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T19:38:03.651720+00:00",
+      "nativeSource": "designs/motion-frames-v1/35-longwang/swim/35-longwang-swim-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/35-longwang/swim/35-longwang-swim-v1.png",
+          "sha256": "4f8fb7a9a9cf8331dda8e3e4b5ffbfc3a889e729cda3a0ca5768e1ab9e9a0901",
+          "generationRecord": "designs/motion-frames-v1/35-longwang/swim/35-longwang-swim-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/35-longwang/swim/extract-v1.json",
+          "sourceRect": [
+            901,
+            511,
+            1335,
+            804
+          ],
+          "evidence": {
+            "sourceFrame": 6,
+            "file": "designs/motion-frames-v1/35-longwang/swim/extract-v1-pose-06.png",
+            "sourceRect": [
+              901,
+              511,
+              1335,
+              804
+            ],
+            "nominalSourceRect": [
+              887,
+              444,
+              1330,
+              887
+            ],
+            "nominalGridCross": true,
+            "nativeVisibleSize": [
+              434,
+              293
+            ],
+            "ownedPixelCount": 64499,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 99
+          }
+        },
+        "sourceEyePoint": [
+          360.3169014084506,
+          111.47183098591552
+        ],
+        "globalSourceEye": [
+          1261.3169014084506,
+          622.4718309859155
+        ],
+        "registrationOffset": [
+          320,
+          309
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        320,
+        309,
+        754,
+        602
+      ],
+      "registeredMinMargin": 0.246,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "visible_eye_pupil_ROI_component_center",
+        "qa": "designs/motion-frames-v1/35-longwang/swim/source-v1-qa.json",
+        "sourceFrame": 6,
+        "candidateIndex": 0,
+        "detection": {
+          "roi": [
+            310,
+            130,
+            425,
+            280
+          ],
+          "darkMaxExclusive": 28,
+          "warmRAtLeastGAndB": false,
+          "alphaMinExclusive": 220,
+          "componentConnectivity": 4
+        },
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review. Closed eyelid proxies are not true pupils and must be excluded from pixel-density calibration."
+      },
+      "displaySize": [
+        825.2427184466019,
+        825.2427184466019
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.8252427184466019,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          412,
+          297
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "35-longwang/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 6,
+        "durationMs": 83
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-07",
+      "name": "龙王海龙游动 8/8",
+      "file": "assets/animations/35-longwang/swim/frame-07.png",
+      "sha256": "120d287e5fbe93c1c97a783511b9b6b128c5c5e2ef2149d0c6753cfe48c36522",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T19:38:03.651720+00:00",
+      "nativeSource": "designs/motion-frames-v1/35-longwang/swim/35-longwang-swim-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/35-longwang/swim/35-longwang-swim-v1.png",
+          "sha256": "4f8fb7a9a9cf8331dda8e3e4b5ffbfc3a889e729cda3a0ca5768e1ab9e9a0901",
+          "generationRecord": "designs/motion-frames-v1/35-longwang/swim/35-longwang-swim-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/35-longwang/swim/extract-v1.json",
+          "sourceRect": [
+            1363,
+            514,
+            1765,
+            805
+          ],
+          "evidence": {
+            "sourceFrame": 7,
+            "file": "designs/motion-frames-v1/35-longwang/swim/extract-v1-pose-07.png",
+            "sourceRect": [
+              1363,
+              514,
+              1765,
+              805
+            ],
+            "nominalSourceRect": [
+              1330,
+              444,
+              1774,
+              887
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              402,
+              291
+            ],
+            "ownedPixelCount": 67491,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 101
+          }
+        },
+        "sourceEyePoint": [
+          330.0,
+          111.14705882352939
+        ],
+        "globalSourceEye": [
+          1693.0,
+          625.1470588235294
+        ],
+        "registrationOffset": [
+          350,
+          309
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        350,
+        309,
+        752,
+        600
+      ],
+      "registeredMinMargin": 0.248,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "visible_eye_pupil_ROI_component_center",
+        "qa": "designs/motion-frames-v1/35-longwang/swim/source-v1-qa.json",
+        "sourceFrame": 7,
+        "candidateIndex": 0,
+        "detection": {
+          "roi": [
+            310,
+            130,
+            425,
+            280
+          ],
+          "darkMaxExclusive": 28,
+          "warmRAtLeastGAndB": false,
+          "alphaMinExclusive": 220,
+          "componentConnectivity": 4
+        },
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review. Closed eyelid proxies are not true pupils and must be excluded from pixel-density calibration."
+      },
+      "displaySize": [
+        825.2427184466019,
+        825.2427184466019
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.8252427184466019,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          412,
+          297
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "35-longwang/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 7,
+        "durationMs": 84
+      }
+    }
+  ],
+  "animation": {
+    "id": "35-longwang/swim",
+    "frames": 8,
+    "fps": 12,
+    "loop": true,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "durationsMs": [
+      83,
+      84,
+      83,
+      83,
+      84,
+      83,
+      83,
+      84
+    ],
+    "root": [
+      0.68,
+      0.42
+    ],
+    "sourceRoute": "builtin_native_AI_sheet_user_requested",
+    "sourcePixelsNeverResampled": true,
+    "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+    "releaseReady": true
+  },
+  "sharedCanvas": [
+    1000,
+    1000
+  ],
+  "rootPixels": [
+    680,
+    420
+  ],
+  "eyePixels": [
+    680,
+    420
+  ],
+  "anchor": [
+    0.68,
+    0.42
+  ],
+  "uniformDisplayScale": 0.8252427184466019,
+  "bodyDisplayBox": [
+    340,
+    260
+  ],
+  "displaySize": [
+    825.2427184466019,
+    825.2427184466019
+  ],
+  "warnings": [
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 0,
+      "sourceMinMargin": 0.0045045045045045045,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 1,
+      "sourceMinMargin": 0.009029345372460496,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 2,
+      "sourceMinMargin": 0.024830699774266364,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 3,
+      "sourceMinMargin": 0.009009009009009009,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 4,
+      "sourceMinMargin": 0.0,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 5,
+      "sourceMinMargin": 0.0,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 6,
+      "sourceMinMargin": 0.0,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 7,
+      "sourceMinMargin": 0.0,
+      "retained": true
+    },
+    {
+      "id": "native_head_shape_and_inter_sheet_density",
+      "severity": "pending_playback_review",
+      "note": "Integer translation cannot correct generated head contour or native scale drift; do not treat pixel bounds as motion approval."
+    }
+  ],
+  "contactSheets": [
+    "tmp/art-qa/35-longwang-swim-registered-light.jpg",
+    "tmp/art-qa/35-longwang-swim-registered-dark.jpg"
+  ],
+  "qa": {
+    "nativeOwnedPixelsPreserved": true,
+    "registeredMarginStatus": "pass_12pct",
+    "sourceMarginStatus": "warnings_preserved",
+    "sourceCanvasClipping": "none_for_adopted_extractions",
+    "semanticOwnershipStatus": "pending_root_contact_sheet_review",
+    "poseAndIdentityStatus": "native_source_stills_observed_pending_registered_review",
+    "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+    "unityPlaybackStatus": "not_run"
+  },
+  "status": "accepted_first_release_art",
+  "releaseReady": true,
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+  "acceptedAt": "2026-10-30T04:07:09.085600+00:00",
+  "playbackReview": "docs/UNITY_FINAL_ACCEPTANCE.json"
+}

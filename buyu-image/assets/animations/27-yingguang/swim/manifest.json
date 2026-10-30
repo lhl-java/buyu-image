@@ -1,0 +1,1912 @@
+{
+  "schemaVersion": 1,
+  "source": "designs/motion-frames-v1/27-yingguang/swim/27-yingguang-swim-contained.png",
+  "sourceWidth": 1774,
+  "sourceHeight": 887,
+  "output": "assets/animations/27-yingguang/swim",
+  "status": "accepted_first_release_art",
+  "items": [
+    {
+      "schemaVersion": 1,
+      "id": "frame-00",
+      "name": "荧光乌贼 swim 0",
+      "file": "assets/animations/27-yingguang/swim/frame-00.png",
+      "sha256": "5a9d2809ccf2a3a38123776fc1e4acaffe3dacc3760410cbfe9fa97d5e45bfe3",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/27-yingguang/swim/27-yingguang-swim-contained.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/27-yingguang/swim/27-yingguang-swim-contained.png",
+          "sha256": "b04c6b54bc558fd9dcb9a306faa42d28a6605b6d054df1540832c28e434462fa",
+          "generationRecord": "designs/motion-frames-v1/27-yingguang/swim/27-yingguang-swim-contained.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          0,
+          0,
+          444,
+          444
+        ],
+        "registrationOffset": [
+          88,
+          71
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "bounded_dark_iris_component_centroid_candidate",
+          "sourcePointFloat": [
+            295.9398496240602,
+            249.4812030075188
+          ],
+          "sourcePointRounded": [
+            296,
+            249
+          ],
+          "targetPoint": [
+            384,
+            320
+          ],
+          "pupilBounds": [
+            287,
+            240,
+            311,
+            264
+          ],
+          "detectionRoi": [
+            240,
+            190,
+            335,
+            290
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed",
+          "priorCandidateLocator": {
+            "type": "black_pupil_connected_component_centroid",
+            "sourcePointFloat": [
+              298.81176470588235,
+              251.74117647058824
+            ],
+            "sourcePointRounded": [
+              299,
+              252
+            ],
+            "targetPoint": [
+              384,
+              320
+            ],
+            "pupilBounds": [
+              287,
+              240,
+              311,
+              264
+            ],
+            "detectionRoi": [
+              240,
+              190,
+              335,
+              290
+            ],
+            "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+          },
+          "poseOrCellLocalPointFloat": [
+            295.9398496240602,
+            249.4812030075188
+          ],
+          "poseOrCellLocalPointRounded": [
+            296,
+            249
+          ],
+          "refinement": {
+            "relativeIntegerShift": [
+              3,
+              3
+            ],
+            "criterion": "RGB max<170,alpha>220; bounded component inside71px inspected eye ROI, nearest prior eye target",
+            "nativeVisibleRGBAUnchanged": true
+          }
+        },
+        "nominalGridRect": [
+          0,
+          0,
+          444,
+          444
+        ],
+        "sourceRectType": "nominal_grid",
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceBoundaryClippingAssessment": "only_alpha0_3_at_boundary"
+      },
+      "anchor": [
+        0.6,
+        0.5
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "27-yingguang/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "root": [
+          0.6,
+          0.5
+        ],
+        "phase": 0.0,
+        "durationMs": 83,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_first_open_rest_bounded_dark_iris_interior",
+          "nativeReferenceEyeFeatureWidth": 35,
+          "sharedTargetDisplayedEyeFeatureWidth": 20.0,
+          "uniformDisplayScale": 0.5714285714285714,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            384,
+            320
+          ],
+          "sharedVisualPivotNormalized": [
+            0.6,
+            0.5
+          ],
+          "displayBodyMaxPixels": [
+            181.7142857142857,
+            154.28571428571428
+          ],
+          "warning": "Eye component is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered eye pivot when applying clip scales."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          88,
+          139,
+          387,
+          365
+        ],
+        "nativeVisibleSize": [
+          299,
+          226
+        ],
+        "rawCellEdgeMaxAlpha": 1,
+        "nominalGridEdgeMaxAlpha": 1,
+        "registeredBoxAlpha16": [
+          176,
+          210,
+          475,
+          436
+        ],
+        "registeredMarginsFraction": [
+          0.275,
+          0.328125,
+          0.2578125,
+          0.31875
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 340,
+          "bbox": [
+            287,
+            240,
+            311,
+            264
+          ],
+          "centroid": [
+            298.81176470588235,
+            251.74117647058824
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false,
+        "densityEyeComponent": {
+          "area": 665,
+          "bbox": [
+            363,
+            303,
+            398,
+            334
+          ],
+          "centroid": [
+            380.9398496240602,
+            317.4812030075188
+          ],
+          "type": "bounded_dark_iris_interior",
+          "isAnatomicalOuterEyeDiameter": false
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-01",
+      "name": "荧光乌贼 swim 1",
+      "file": "assets/animations/27-yingguang/swim/frame-01.png",
+      "sha256": "ec0e37e276ae031025a07f0cd02a01b7fb5e66d1086d7a1dd2c7a83e5ab62561",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/27-yingguang/swim/27-yingguang-swim-contained.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/27-yingguang/swim/27-yingguang-swim-contained.png",
+          "sha256": "b04c6b54bc558fd9dcb9a306faa42d28a6605b6d054df1540832c28e434462fa",
+          "generationRecord": "designs/motion-frames-v1/27-yingguang/swim/27-yingguang-swim-contained.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          444,
+          0,
+          887,
+          444
+        ],
+        "registrationOffset": [
+          95,
+          68
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "bounded_dark_iris_component_centroid_candidate",
+          "sourcePointFloat": [
+            288.9323308270677,
+            251.66466165413533
+          ],
+          "sourcePointRounded": [
+            289,
+            252
+          ],
+          "targetPoint": [
+            384,
+            320
+          ],
+          "pupilBounds": [
+            280,
+            243,
+            304,
+            266
+          ],
+          "detectionRoi": [
+            240,
+            190,
+            335,
+            290
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed",
+          "priorCandidateLocator": {
+            "type": "black_pupil_connected_component_centroid",
+            "sourcePointFloat": [
+              291.7834757834758,
+              253.97150997150996
+            ],
+            "sourcePointRounded": [
+              292,
+              254
+            ],
+            "targetPoint": [
+              384,
+              320
+            ],
+            "pupilBounds": [
+              280,
+              243,
+              304,
+              266
+            ],
+            "detectionRoi": [
+              240,
+              190,
+              335,
+              290
+            ],
+            "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+          },
+          "poseOrCellLocalPointFloat": [
+            288.9323308270677,
+            251.66466165413533
+          ],
+          "poseOrCellLocalPointRounded": [
+            289,
+            252
+          ],
+          "refinement": {
+            "relativeIntegerShift": [
+              3,
+              2
+            ],
+            "criterion": "RGB max<170,alpha>220; bounded component inside71px inspected eye ROI, nearest prior eye target",
+            "nativeVisibleRGBAUnchanged": true
+          }
+        },
+        "nominalGridRect": [
+          444,
+          0,
+          887,
+          444
+        ],
+        "sourceRectType": "nominal_grid",
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceBoundaryClippingAssessment": "only_alpha0_3_at_boundary"
+      },
+      "anchor": [
+        0.6,
+        0.5
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "27-yingguang/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "root": [
+          0.6,
+          0.5
+        ],
+        "phase": 0.125,
+        "durationMs": 84,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_first_open_rest_bounded_dark_iris_interior",
+          "nativeReferenceEyeFeatureWidth": 35,
+          "sharedTargetDisplayedEyeFeatureWidth": 20.0,
+          "uniformDisplayScale": 0.5714285714285714,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            384,
+            320
+          ],
+          "sharedVisualPivotNormalized": [
+            0.6,
+            0.5
+          ],
+          "displayBodyMaxPixels": [
+            181.7142857142857,
+            154.28571428571428
+          ],
+          "warning": "Eye component is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered eye pivot when applying clip scales."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          94,
+          108,
+          380,
+          368
+        ],
+        "nativeVisibleSize": [
+          286,
+          260
+        ],
+        "rawCellEdgeMaxAlpha": 1,
+        "nominalGridEdgeMaxAlpha": 1,
+        "registeredBoxAlpha16": [
+          189,
+          176,
+          475,
+          436
+        ],
+        "registeredMarginsFraction": [
+          0.2953125,
+          0.275,
+          0.2578125,
+          0.31875
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 351,
+          "bbox": [
+            280,
+            243,
+            304,
+            266
+          ],
+          "centroid": [
+            291.7834757834758,
+            253.97150997150996
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false,
+        "densityEyeComponent": {
+          "area": 665,
+          "bbox": [
+            362,
+            304,
+            397,
+            334
+          ],
+          "centroid": [
+            380.9323308270677,
+            317.66466165413533
+          ],
+          "type": "bounded_dark_iris_interior",
+          "isAnatomicalOuterEyeDiameter": false
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-02",
+      "name": "荧光乌贼 swim 2",
+      "file": "assets/animations/27-yingguang/swim/frame-02.png",
+      "sha256": "5d96ac09085febdf522bd5b9a53bce96acd6f408603dada36c2e0af589b9cd32",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/27-yingguang/swim/27-yingguang-swim-contained.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/27-yingguang/swim/27-yingguang-swim-contained.png",
+          "sha256": "b04c6b54bc558fd9dcb9a306faa42d28a6605b6d054df1540832c28e434462fa",
+          "generationRecord": "designs/motion-frames-v1/27-yingguang/swim/27-yingguang-swim-contained.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          887,
+          0,
+          1330,
+          444
+        ],
+        "registrationOffset": [
+          103,
+          68
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "bounded_dark_iris_component_centroid_candidate",
+          "sourcePointFloat": [
+            280.54848046309695,
+            251.87843704775685
+          ],
+          "sourcePointRounded": [
+            281,
+            252
+          ],
+          "targetPoint": [
+            384,
+            320
+          ],
+          "pupilBounds": [
+            271,
+            242,
+            296,
+            266
+          ],
+          "detectionRoi": [
+            240,
+            190,
+            335,
+            290
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed",
+          "priorCandidateLocator": {
+            "type": "black_pupil_connected_component_centroid",
+            "sourcePointFloat": [
+              283.54647887323944,
+              253.87042253521128
+            ],
+            "sourcePointRounded": [
+              284,
+              254
+            ],
+            "targetPoint": [
+              384,
+              320
+            ],
+            "pupilBounds": [
+              271,
+              242,
+              296,
+              266
+            ],
+            "detectionRoi": [
+              240,
+              190,
+              335,
+              290
+            ],
+            "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+          },
+          "poseOrCellLocalPointFloat": [
+            280.54848046309695,
+            251.87843704775685
+          ],
+          "poseOrCellLocalPointRounded": [
+            281,
+            252
+          ],
+          "refinement": {
+            "relativeIntegerShift": [
+              3,
+              2
+            ],
+            "criterion": "RGB max<170,alpha>220; bounded component inside71px inspected eye ROI, nearest prior eye target",
+            "nativeVisibleRGBAUnchanged": true
+          }
+        },
+        "nominalGridRect": [
+          887,
+          0,
+          1330,
+          444
+        ],
+        "sourceRectType": "nominal_grid",
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceBoundaryClippingAssessment": "only_alpha0_3_at_boundary"
+      },
+      "anchor": [
+        0.6,
+        0.5
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "27-yingguang/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "root": [
+          0.6,
+          0.5
+        ],
+        "phase": 0.25,
+        "durationMs": 83,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_first_open_rest_bounded_dark_iris_interior",
+          "nativeReferenceEyeFeatureWidth": 35,
+          "sharedTargetDisplayedEyeFeatureWidth": 20.0,
+          "uniformDisplayScale": 0.5714285714285714,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            384,
+            320
+          ],
+          "sharedVisualPivotNormalized": [
+            0.6,
+            0.5
+          ],
+          "displayBodyMaxPixels": [
+            181.7142857142857,
+            154.28571428571428
+          ],
+          "warning": "Eye component is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered eye pivot when applying clip scales."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          84,
+          97,
+          372,
+          367
+        ],
+        "nativeVisibleSize": [
+          288,
+          270
+        ],
+        "rawCellEdgeMaxAlpha": 1,
+        "nominalGridEdgeMaxAlpha": 1,
+        "registeredBoxAlpha16": [
+          187,
+          165,
+          475,
+          435
+        ],
+        "registeredMarginsFraction": [
+          0.2921875,
+          0.2578125,
+          0.2578125,
+          0.3203125
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 355,
+          "bbox": [
+            271,
+            242,
+            296,
+            266
+          ],
+          "centroid": [
+            283.54647887323944,
+            253.87042253521128
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false,
+        "densityEyeComponent": {
+          "area": 691,
+          "bbox": [
+            361,
+            303,
+            397,
+            337
+          ],
+          "centroid": [
+            380.54848046309695,
+            317.87843704775685
+          ],
+          "type": "bounded_dark_iris_interior",
+          "isAnatomicalOuterEyeDiameter": false
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-03",
+      "name": "荧光乌贼 swim 3",
+      "file": "assets/animations/27-yingguang/swim/frame-03.png",
+      "sha256": "9b4ec6965f4371ef9306b87a2c1b3b2c4ae8fdc6bac24a3e36ebd0551d9caf21",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/27-yingguang/swim/27-yingguang-swim-contained.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/27-yingguang/swim/27-yingguang-swim-contained.png",
+          "sha256": "b04c6b54bc558fd9dcb9a306faa42d28a6605b6d054df1540832c28e434462fa",
+          "generationRecord": "designs/motion-frames-v1/27-yingguang/swim/27-yingguang-swim-contained.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          1330,
+          0,
+          1774,
+          444
+        ],
+        "registrationOffset": [
+          106,
+          70
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "bounded_dark_iris_component_centroid_candidate",
+          "sourcePointFloat": [
+            278.4407027818448,
+            249.5387994143485
+          ],
+          "sourcePointRounded": [
+            278,
+            250
+          ],
+          "targetPoint": [
+            384,
+            320
+          ],
+          "pupilBounds": [
+            269,
+            239,
+            294,
+            264
+          ],
+          "detectionRoi": [
+            240,
+            190,
+            335,
+            290
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed",
+          "priorCandidateLocator": {
+            "type": "black_pupil_connected_component_centroid",
+            "sourcePointFloat": [
+              281.19783197831975,
+              251.43631436314362
+            ],
+            "sourcePointRounded": [
+              281,
+              251
+            ],
+            "targetPoint": [
+              384,
+              320
+            ],
+            "pupilBounds": [
+              269,
+              239,
+              294,
+              264
+            ],
+            "detectionRoi": [
+              240,
+              190,
+              335,
+              290
+            ],
+            "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+          },
+          "poseOrCellLocalPointFloat": [
+            278.4407027818448,
+            249.5387994143485
+          ],
+          "poseOrCellLocalPointRounded": [
+            278,
+            250
+          ],
+          "refinement": {
+            "relativeIntegerShift": [
+              3,
+              1
+            ],
+            "criterion": "RGB max<170,alpha>220; bounded component inside71px inspected eye ROI, nearest prior eye target",
+            "nativeVisibleRGBAUnchanged": true
+          }
+        },
+        "nominalGridRect": [
+          1330,
+          0,
+          1774,
+          444
+        ],
+        "sourceRectType": "nominal_grid",
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceBoundaryClippingAssessment": "only_alpha0_3_at_boundary"
+      },
+      "anchor": [
+        0.6,
+        0.5
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "27-yingguang/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "root": [
+          0.6,
+          0.5
+        ],
+        "phase": 0.375,
+        "durationMs": 83,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_first_open_rest_bounded_dark_iris_interior",
+          "nativeReferenceEyeFeatureWidth": 35,
+          "sharedTargetDisplayedEyeFeatureWidth": 20.0,
+          "uniformDisplayScale": 0.5714285714285714,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            384,
+            320
+          ],
+          "sharedVisualPivotNormalized": [
+            0.6,
+            0.5
+          ],
+          "displayBodyMaxPixels": [
+            181.7142857142857,
+            154.28571428571428
+          ],
+          "warning": "Eye component is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered eye pivot when applying clip scales."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          65,
+          137,
+          368,
+          367
+        ],
+        "nativeVisibleSize": [
+          303,
+          230
+        ],
+        "rawCellEdgeMaxAlpha": 1,
+        "nominalGridEdgeMaxAlpha": 1,
+        "registeredBoxAlpha16": [
+          171,
+          207,
+          474,
+          437
+        ],
+        "registeredMarginsFraction": [
+          0.2671875,
+          0.3234375,
+          0.259375,
+          0.3171875
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 369,
+          "bbox": [
+            269,
+            239,
+            294,
+            264
+          ],
+          "centroid": [
+            281.19783197831975,
+            251.43631436314362
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false,
+        "densityEyeComponent": {
+          "area": 683,
+          "bbox": [
+            363,
+            304,
+            398,
+            337
+          ],
+          "centroid": [
+            381.4407027818448,
+            318.5387994143485
+          ],
+          "type": "bounded_dark_iris_interior",
+          "isAnatomicalOuterEyeDiameter": false
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-04",
+      "name": "荧光乌贼 swim 4",
+      "file": "assets/animations/27-yingguang/swim/frame-04.png",
+      "sha256": "5ea559906176826ae2cf0fcbab3ebbaeb696de671b7974c5b1310ce4b50095b3",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/27-yingguang/swim/27-yingguang-swim-contained.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/27-yingguang/swim/27-yingguang-swim-contained.png",
+          "sha256": "b04c6b54bc558fd9dcb9a306faa42d28a6605b6d054df1540832c28e434462fa",
+          "generationRecord": "designs/motion-frames-v1/27-yingguang/swim/27-yingguang-swim-contained.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          0,
+          444,
+          444,
+          887
+        ],
+        "registrationOffset": [
+          87,
+          104
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "bounded_dark_iris_component_centroid_candidate",
+          "sourcePointFloat": [
+            296.5029761904762,
+            216.27232142857144
+          ],
+          "sourcePointRounded": [
+            297,
+            216
+          ],
+          "targetPoint": [
+            384,
+            320
+          ],
+          "pupilBounds": [
+            288,
+            207,
+            312,
+            230
+          ],
+          "detectionRoi": [
+            240,
+            190,
+            335,
+            290
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed",
+          "priorCandidateLocator": {
+            "type": "black_pupil_connected_component_centroid",
+            "sourcePointFloat": [
+              299.9067055393586,
+              218.01749271137027
+            ],
+            "sourcePointRounded": [
+              300,
+              218
+            ],
+            "targetPoint": [
+              384,
+              320
+            ],
+            "pupilBounds": [
+              288,
+              207,
+              312,
+              230
+            ],
+            "detectionRoi": [
+              240,
+              190,
+              335,
+              290
+            ],
+            "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+          },
+          "poseOrCellLocalPointFloat": [
+            296.5029761904762,
+            216.27232142857144
+          ],
+          "poseOrCellLocalPointRounded": [
+            297,
+            216
+          ],
+          "refinement": {
+            "relativeIntegerShift": [
+              3,
+              2
+            ],
+            "criterion": "RGB max<170,alpha>220; bounded component inside71px inspected eye ROI, nearest prior eye target",
+            "nativeVisibleRGBAUnchanged": true
+          }
+        },
+        "nominalGridRect": [
+          0,
+          444,
+          444,
+          887
+        ],
+        "sourceRectType": "nominal_grid",
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceBoundaryClippingAssessment": "only_alpha0_3_at_boundary"
+      },
+      "anchor": [
+        0.6,
+        0.5
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "27-yingguang/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "root": [
+          0.6,
+          0.5
+        ],
+        "phase": 0.5,
+        "durationMs": 84,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_first_open_rest_bounded_dark_iris_interior",
+          "nativeReferenceEyeFeatureWidth": 35,
+          "sharedTargetDisplayedEyeFeatureWidth": 20.0,
+          "uniformDisplayScale": 0.5714285714285714,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            384,
+            320
+          ],
+          "sharedVisualPivotNormalized": [
+            0.6,
+            0.5
+          ],
+          "displayBodyMaxPixels": [
+            181.7142857142857,
+            154.28571428571428
+          ],
+          "warning": "Eye component is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered eye pivot when applying clip scales."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          71,
+          95,
+          389,
+          331
+        ],
+        "nativeVisibleSize": [
+          318,
+          236
+        ],
+        "rawCellEdgeMaxAlpha": 1,
+        "nominalGridEdgeMaxAlpha": 1,
+        "registeredBoxAlpha16": [
+          158,
+          199,
+          476,
+          435
+        ],
+        "registeredMarginsFraction": [
+          0.246875,
+          0.3109375,
+          0.25625,
+          0.3203125
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 343,
+          "bbox": [
+            288,
+            207,
+            312,
+            230
+          ],
+          "centroid": [
+            299.9067055393586,
+            218.01749271137027
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false,
+        "densityEyeComponent": {
+          "area": 672,
+          "bbox": [
+            362,
+            304,
+            397,
+            333
+          ],
+          "centroid": [
+            380.5029761904762,
+            318.27232142857144
+          ],
+          "type": "bounded_dark_iris_interior",
+          "isAnatomicalOuterEyeDiameter": false
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-05",
+      "name": "荧光乌贼 swim 5",
+      "file": "assets/animations/27-yingguang/swim/frame-05.png",
+      "sha256": "a24baecbef356d17ddbe1362e42d30107038bff4e27977870ae0ed762da08dc6",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/27-yingguang/swim/27-yingguang-swim-contained.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/27-yingguang/swim/27-yingguang-swim-contained.png",
+          "sha256": "b04c6b54bc558fd9dcb9a306faa42d28a6605b6d054df1540832c28e434462fa",
+          "generationRecord": "designs/motion-frames-v1/27-yingguang/swim/27-yingguang-swim-contained.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          444,
+          444,
+          887,
+          887
+        ],
+        "registrationOffset": [
+          95,
+          102
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "bounded_dark_iris_component_centroid_candidate",
+          "sourcePointFloat": [
+            288.65954415954417,
+            218.4017094017094
+          ],
+          "sourcePointRounded": [
+            289,
+            218
+          ],
+          "targetPoint": [
+            384,
+            320
+          ],
+          "pupilBounds": [
+            280,
+            209,
+            304,
+            233
+          ],
+          "detectionRoi": [
+            240,
+            190,
+            335,
+            290
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed",
+          "priorCandidateLocator": {
+            "type": "black_pupil_connected_component_centroid",
+            "sourcePointFloat": [
+              292.0057803468208,
+              220.13294797687863
+            ],
+            "sourcePointRounded": [
+              292,
+              220
+            ],
+            "targetPoint": [
+              384,
+              320
+            ],
+            "pupilBounds": [
+              280,
+              209,
+              304,
+              233
+            ],
+            "detectionRoi": [
+              240,
+              190,
+              335,
+              290
+            ],
+            "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+          },
+          "poseOrCellLocalPointFloat": [
+            288.65954415954417,
+            218.4017094017094
+          ],
+          "poseOrCellLocalPointRounded": [
+            289,
+            218
+          ],
+          "refinement": {
+            "relativeIntegerShift": [
+              3,
+              2
+            ],
+            "criterion": "RGB max<170,alpha>220; bounded component inside71px inspected eye ROI, nearest prior eye target",
+            "nativeVisibleRGBAUnchanged": true
+          }
+        },
+        "nominalGridRect": [
+          444,
+          444,
+          887,
+          887
+        ],
+        "sourceRectType": "nominal_grid",
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceBoundaryClippingAssessment": "only_alpha0_3_at_boundary"
+      },
+      "anchor": [
+        0.6,
+        0.5
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "27-yingguang/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "root": [
+          0.6,
+          0.5
+        ],
+        "phase": 0.625,
+        "durationMs": 83,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_first_open_rest_bounded_dark_iris_interior",
+          "nativeReferenceEyeFeatureWidth": 35,
+          "sharedTargetDisplayedEyeFeatureWidth": 20.0,
+          "uniformDisplayScale": 0.5714285714285714,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            384,
+            320
+          ],
+          "sharedVisualPivotNormalized": [
+            0.6,
+            0.5
+          ],
+          "displayBodyMaxPixels": [
+            181.7142857142857,
+            154.28571428571428
+          ],
+          "warning": "Eye component is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered eye pivot when applying clip scales."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          77,
+          105,
+          383,
+          337
+        ],
+        "nativeVisibleSize": [
+          306,
+          232
+        ],
+        "rawCellEdgeMaxAlpha": 1,
+        "nominalGridEdgeMaxAlpha": 1,
+        "registeredBoxAlpha16": [
+          172,
+          207,
+          478,
+          439
+        ],
+        "registeredMarginsFraction": [
+          0.26875,
+          0.3234375,
+          0.253125,
+          0.3140625
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 346,
+          "bbox": [
+            280,
+            209,
+            304,
+            233
+          ],
+          "centroid": [
+            292.0057803468208,
+            220.13294797687863
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false,
+        "densityEyeComponent": {
+          "area": 702,
+          "bbox": [
+            362,
+            304,
+            397,
+            335
+          ],
+          "centroid": [
+            380.65954415954417,
+            318.4017094017094
+          ],
+          "type": "bounded_dark_iris_interior",
+          "isAnatomicalOuterEyeDiameter": false
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-06",
+      "name": "荧光乌贼 swim 6",
+      "file": "assets/animations/27-yingguang/swim/frame-06.png",
+      "sha256": "b0bd4f8d839e40ca3c271db36e624e1ad4eff4c1131a9d203ac20f6e98adbd9e",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/27-yingguang/swim/27-yingguang-swim-contained.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/27-yingguang/swim/27-yingguang-swim-contained.png",
+          "sha256": "b04c6b54bc558fd9dcb9a306faa42d28a6605b6d054df1540832c28e434462fa",
+          "generationRecord": "designs/motion-frames-v1/27-yingguang/swim/27-yingguang-swim-contained.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          887,
+          444,
+          1330,
+          887
+        ],
+        "registrationOffset": [
+          103,
+          102
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "bounded_dark_iris_component_centroid_candidate",
+          "sourcePointFloat": [
+            281.361673414305,
+            218.12685560053978
+          ],
+          "sourcePointRounded": [
+            281,
+            218
+          ],
+          "targetPoint": [
+            384,
+            320
+          ],
+          "pupilBounds": [
+            272,
+            208,
+            297,
+            233
+          ],
+          "detectionRoi": [
+            240,
+            190,
+            335,
+            290
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed",
+          "priorCandidateLocator": {
+            "type": "black_pupil_connected_component_centroid",
+            "sourcePointFloat": [
+              284.3125,
+              219.8359375
+            ],
+            "sourcePointRounded": [
+              284,
+              220
+            ],
+            "targetPoint": [
+              384,
+              320
+            ],
+            "pupilBounds": [
+              272,
+              208,
+              297,
+              233
+            ],
+            "detectionRoi": [
+              240,
+              190,
+              335,
+              290
+            ],
+            "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+          },
+          "poseOrCellLocalPointFloat": [
+            281.361673414305,
+            218.12685560053978
+          ],
+          "poseOrCellLocalPointRounded": [
+            281,
+            218
+          ],
+          "refinement": {
+            "relativeIntegerShift": [
+              3,
+              2
+            ],
+            "criterion": "RGB max<170,alpha>220; bounded component inside71px inspected eye ROI, nearest prior eye target",
+            "nativeVisibleRGBAUnchanged": true
+          }
+        },
+        "nominalGridRect": [
+          887,
+          444,
+          1330,
+          887
+        ],
+        "sourceRectType": "nominal_grid",
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceBoundaryClippingAssessment": "only_alpha0_3_at_boundary"
+      },
+      "anchor": [
+        0.6,
+        0.5
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "27-yingguang/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "root": [
+          0.6,
+          0.5
+        ],
+        "phase": 0.75,
+        "durationMs": 83,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_first_open_rest_bounded_dark_iris_interior",
+          "nativeReferenceEyeFeatureWidth": 35,
+          "sharedTargetDisplayedEyeFeatureWidth": 20.0,
+          "uniformDisplayScale": 0.5714285714285714,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            384,
+            320
+          ],
+          "sharedVisualPivotNormalized": [
+            0.6,
+            0.5
+          ],
+          "displayBodyMaxPixels": [
+            181.7142857142857,
+            154.28571428571428
+          ],
+          "warning": "Eye component is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered eye pivot when applying clip scales."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          64,
+          95,
+          374,
+          335
+        ],
+        "nativeVisibleSize": [
+          310,
+          240
+        ],
+        "rawCellEdgeMaxAlpha": 1,
+        "nominalGridEdgeMaxAlpha": 1,
+        "registeredBoxAlpha16": [
+          167,
+          197,
+          477,
+          437
+        ],
+        "registeredMarginsFraction": [
+          0.2609375,
+          0.3078125,
+          0.2546875,
+          0.3171875
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 384,
+          "bbox": [
+            272,
+            208,
+            297,
+            233
+          ],
+          "centroid": [
+            284.3125,
+            219.8359375
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false,
+        "densityEyeComponent": {
+          "area": 741,
+          "bbox": [
+            362,
+            303,
+            398,
+            336
+          ],
+          "centroid": [
+            381.361673414305,
+            318.1268556005398
+          ],
+          "type": "bounded_dark_iris_interior",
+          "isAnatomicalOuterEyeDiameter": false
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-07",
+      "name": "荧光乌贼 swim 7",
+      "file": "assets/animations/27-yingguang/swim/frame-07.png",
+      "sha256": "682947fb927b596efb3622bbdbbf96e0daf8fc746ccae851cc2a09d93c4d60ce",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/27-yingguang/swim/27-yingguang-swim-contained.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/27-yingguang/swim/27-yingguang-swim-contained.png",
+          "sha256": "b04c6b54bc558fd9dcb9a306faa42d28a6605b6d054df1540832c28e434462fa",
+          "generationRecord": "designs/motion-frames-v1/27-yingguang/swim/27-yingguang-swim-contained.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          1330,
+          444,
+          1774,
+          887
+        ],
+        "registrationOffset": [
+          105,
+          104
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "bounded_dark_iris_component_centroid_candidate",
+          "sourcePointFloat": [
+            279.2830725462304,
+            215.52916073968703
+          ],
+          "sourcePointRounded": [
+            279,
+            216
+          ],
+          "targetPoint": [
+            384,
+            320
+          ],
+          "pupilBounds": [
+            270,
+            206,
+            295,
+            230
+          ],
+          "detectionRoi": [
+            240,
+            190,
+            335,
+            290
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed",
+          "priorCandidateLocator": {
+            "type": "black_pupil_connected_component_centroid",
+            "sourcePointFloat": [
+              282.10353535353534,
+              218.1010101010101
+            ],
+            "sourcePointRounded": [
+              282,
+              218
+            ],
+            "targetPoint": [
+              384,
+              320
+            ],
+            "pupilBounds": [
+              270,
+              206,
+              295,
+              230
+            ],
+            "detectionRoi": [
+              240,
+              190,
+              335,
+              290
+            ],
+            "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+          },
+          "poseOrCellLocalPointFloat": [
+            279.2830725462304,
+            215.52916073968703
+          ],
+          "poseOrCellLocalPointRounded": [
+            279,
+            216
+          ],
+          "refinement": {
+            "relativeIntegerShift": [
+              3,
+              2
+            ],
+            "criterion": "RGB max<170,alpha>220; bounded component inside71px inspected eye ROI, nearest prior eye target",
+            "nativeVisibleRGBAUnchanged": true
+          }
+        },
+        "nominalGridRect": [
+          1330,
+          444,
+          1774,
+          887
+        ],
+        "sourceRectType": "nominal_grid",
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceBoundaryClippingAssessment": "only_alpha0_3_at_boundary"
+      },
+      "anchor": [
+        0.6,
+        0.5
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "27-yingguang/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "root": [
+          0.6,
+          0.5
+        ],
+        "phase": 0.875,
+        "durationMs": 84,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_first_open_rest_bounded_dark_iris_interior",
+          "nativeReferenceEyeFeatureWidth": 35,
+          "sharedTargetDisplayedEyeFeatureWidth": 20.0,
+          "uniformDisplayScale": 0.5714285714285714,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            384,
+            320
+          ],
+          "sharedVisualPivotNormalized": [
+            0.6,
+            0.5
+          ],
+          "displayBodyMaxPixels": [
+            181.7142857142857,
+            154.28571428571428
+          ],
+          "warning": "Eye component is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered eye pivot when applying clip scales."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          68,
+          104,
+          371,
+          333
+        ],
+        "nativeVisibleSize": [
+          303,
+          229
+        ],
+        "rawCellEdgeMaxAlpha": 1,
+        "nominalGridEdgeMaxAlpha": 1,
+        "registeredBoxAlpha16": [
+          173,
+          208,
+          476,
+          437
+        ],
+        "registeredMarginsFraction": [
+          0.2703125,
+          0.325,
+          0.25625,
+          0.3171875
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 396,
+          "bbox": [
+            270,
+            206,
+            295,
+            230
+          ],
+          "centroid": [
+            282.10353535353534,
+            218.1010101010101
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false,
+        "densityEyeComponent": {
+          "area": 703,
+          "bbox": [
+            362,
+            303,
+            398,
+            336
+          ],
+          "centroid": [
+            381.2830725462304,
+            317.52916073968703
+          ],
+          "type": "bounded_dark_iris_interior",
+          "isAnatomicalOuterEyeDiameter": false
+        }
+      }
+    }
+  ],
+  "animation": {
+    "id": "27-yingguang/swim",
+    "frameCount": 8,
+    "fps": 12,
+    "loop": true,
+    "canvas": [
+      640,
+      640
+    ],
+    "pupilRegistrationTarget": [
+      384,
+      320
+    ],
+    "root": [
+      0.6,
+      0.5
+    ],
+    "durationMs": 667,
+    "durationsMs": [
+      83,
+      84,
+      83,
+      83,
+      84,
+      83,
+      83,
+      84
+    ],
+    "sourceScale": "Uniform native pixels, no per-frame bbox normalization.",
+    "visualReview": "Source actually viewed: ivory side fins alternately flex and tentacle tips sweep; full mantle, face and fin/tentacles preserved after containment edit. Distinct articulated poses; loop not reviewed.",
+    "pending": [
+      "Root actual loop playback and identity/appendage review.",
+      "Unity runtime not reviewed; static counts/geometry do not prove motion pass.",
+      "Eye iris component is a validated visual locator candidate, not a final anatomy/playback pass; closed frames retain eyelid proxy."
+    ],
+    "releaseReady": true,
+    "displayCalibration": {
+      "status": "candidate_pending_root_visual_runtime_review",
+      "method": "one_uniform_scale_per_clip_from_first_open_rest_bounded_dark_iris_interior",
+      "nativeReferenceEyeFeatureWidth": 35,
+      "sharedTargetDisplayedEyeFeatureWidth": 20.0,
+      "uniformDisplayScale": 0.5714285714285714,
+      "upscale": false,
+      "perFrameBboxFit": false,
+      "sharedVisualPivotPixels": [
+        384,
+        320
+      ],
+      "sharedVisualPivotNormalized": [
+        0.6,
+        0.5
+      ],
+      "displayBodyMaxPixels": [
+        181.7142857142857,
+        154.28571428571428
+      ],
+      "warning": "Eye component is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered eye pivot when applying clip scales."
+    },
+    "densityReferenceFrame": 0,
+    "densityFeature": "first_open_rest_bounded_dark_iris_interior"
+  },
+  "notes": [
+    "Native AI articulated body/appendage frames; crop/translation/padding only aligns layout and does not create animation.",
+    "Raw source padding may be smaller than final contract; only final transparent padding meets12%.",
+    "No PNG upsample, full-image rotation/scale or per-frame body warp."
+  ],
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+  "acceptedAt": "2026-10-30T04:07:09.085600+00:00",
+  "releaseReady": true,
+  "playbackReview": "docs/UNITY_FINAL_ACCEPTANCE.json"
+}

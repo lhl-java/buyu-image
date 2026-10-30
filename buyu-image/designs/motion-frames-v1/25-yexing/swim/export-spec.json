@@ -1,0 +1,70 @@
+{
+  "grid": [
+    2,
+    4
+  ],
+  "canvas": [
+    640,
+    640
+  ],
+  "pupilTarget": [
+    440,
+    320
+  ],
+  "fps": 12,
+  "displayBox": [
+    240,
+    180
+  ],
+  "pupilRoi": [
+    300,
+    150,
+    435,
+    290
+  ],
+  "pending": [
+    "Root actual playback/loop or capture recovery review.",
+    "Actual target Unity review; metadata/PNG count is not an animation pass."
+  ],
+  "id": "25-yexing/swim",
+  "name": "夜星鱼",
+  "action": "swim",
+  "source": "designs/motion-frames-v1/25-yexing/swim/25-yexing-swim-contained.png",
+  "output": "assets/animations/25-yexing/swim",
+  "loop": true,
+  "pupilExpected": [
+    [
+      363,
+      243
+    ],
+    [
+      370,
+      243
+    ],
+    [
+      375,
+      243
+    ],
+    [
+      371,
+      244
+    ],
+    [
+      374,
+      192
+    ],
+    [
+      384,
+      189
+    ],
+    [
+      370,
+      194
+    ],
+    [
+      369,
+      192
+    ]
+  ],
+  "visualReview": "Actual source viewed: head and eye identity retained; tail upper/lower curves and pectoral fins articulate in distinct phases. All eight fish complete; background transparent. Playback not reviewed."
+}

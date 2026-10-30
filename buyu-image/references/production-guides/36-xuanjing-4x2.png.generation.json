@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "file": "references/production-guides/36-xuanjing-4x2.png",
+  "sha256": "0b406e16bd377ad2bdce0ef16f060ce9b72875ae5a6e338e51ed3f584dd38a66",
+  "createdAt": "2026-10-28T18:37:34.011729+00:00",
+  "purpose": "Image model geometry/identity edit reference only; identical stills are NOT animation frames or game art.",
+  "operation": {
+    "type": "reference_only_master_layout_composite",
+    "masterCropRect": [
+      4,
+      4,
+      349,
+      260
+    ],
+    "referenceCropSize": [
+      345,
+      256
+    ],
+    "referencePlacedSize": [
+      310,
+      230
+    ],
+    "canvas": [
+      1774,
+      887
+    ],
+    "grid": [
+      4,
+      2
+    ],
+    "placements": [
+      [
+        67,
+        107,
+        310,
+        230
+      ],
+      [
+        510,
+        107,
+        310,
+        230
+      ],
+      [
+        954,
+        107,
+        310,
+        230
+      ],
+      [
+        1397,
+        107,
+        310,
+        230
+      ],
+      [
+        67,
+        550,
+        310,
+        230
+      ],
+      [
+        510,
+        550,
+        310,
+        230
+      ],
+      [
+        954,
+        550,
+        310,
+        230
+      ],
+      [
+        1397,
+        550,
+        310,
+        230
+      ]
+    ],
+    "finalGameAsset": false
+  },
+  "derivedFrom": [
+    {
+      "file": "assets/fish/batch-6/36-xuanjing.png",
+      "sha256": "213a32878d02fa8f9b84228a685fe72d7d2e90f3d4655053a6a50ec2985cce31",
+      "generationRecord": "assets/fish/batch-6/36-xuanjing.png.generation.json"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "newModelCall": false
+}

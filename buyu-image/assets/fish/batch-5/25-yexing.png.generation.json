@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "25-yexing",
+  "name": "夜星鱼",
+  "file": "assets/fish/batch-5/25-yexing.png",
+  "sha256": "c10035b8f215667098e10609a251c376d173b37ebb89c0e76b611991288969a3",
+  "width": 310,
+  "height": 245,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/production-v1/fish-sheet-5/fish-sheet-5-contained.png",
+  "derivedFrom": [
+    {
+      "file": "designs/production-v1/fish-sheet-5/fish-sheet-5-contained.png",
+      "sha256": "c24a9d0ea412535171fb36af7f6559678a1cadff299594bbc673dc3919e4d7c4",
+      "generationRecord": "designs/production-v1/fish-sheet-5/fish-sheet-5-contained.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_grid_crop",
+    "grid": {
+      "rows": 2,
+      "cols": 3
+    },
+    "sourceRect": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "cellCropRect": [
+      92,
+      148,
+      402,
+      393
+    ],
+    "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+    "resized": false,
+    "upscaled": false
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "displaySize": [
+    240,
+    180
+  ],
+  "status": "prepared_pending_visual_review",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source generation record; no new model call for this slice."
+}

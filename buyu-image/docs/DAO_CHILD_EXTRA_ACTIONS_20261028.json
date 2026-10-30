@@ -1,0 +1,331 @@
+{
+  "schemaVersion": 1,
+  "reportedAt": "2026-10-28T20:09:11.938140+00:00",
+  "owner": "motion_route_recheck",
+  "scope": "root-owned point/celebrate source inspection and lossless export only",
+  "counts": {
+    "actions": 2,
+    "frames": 16,
+    "imageGenerationCallsByExporter": 0
+  },
+  "status": "producer_candidates_pending_root_visual_and_Unity",
+  "actions": {
+    "point": {
+      "action": "point",
+      "sources": [
+        {
+          "source": "designs/motion-frames-v1/dao-child/point/point-a-v1.png",
+          "nativeHeights": [
+            599,
+            603,
+            599,
+            599
+          ],
+          "shoeSpans": [
+            244,
+            244,
+            255,
+            258
+          ],
+          "hairWidths": [
+            269,
+            271,
+            279,
+            282
+          ],
+          "eyeDistances": [
+            79.733,
+            79.363,
+            88.205,
+            79.894
+          ],
+          "medianBodyHeight": 599.0,
+          "medianFootSpan": 249.5,
+          "medianHairWidth": 275.0
+        },
+        {
+          "source": "designs/motion-frames-v1/dao-child/point/point-b-v1.png",
+          "nativeHeights": [
+            599,
+            603,
+            602,
+            600
+          ],
+          "shoeSpans": [
+            250,
+            248,
+            249,
+            253
+          ],
+          "hairWidths": [
+            270,
+            270,
+            275,
+            281
+          ],
+          "eyeDistances": [
+            76.643,
+            77.753,
+            79.181,
+            79.522
+          ],
+          "medianBodyHeight": 601.0,
+          "medianFootSpan": 249.5,
+          "medianHairWidth": 272.5
+        }
+      ],
+      "sourceDensity": {
+        "medianBodyHeight": 1.003338898163606,
+        "medianFootSpan": 1.0,
+        "medianHairWidth": 0.990909090909091,
+        "entryEyeDistance": 0.9612444182126934
+      },
+      "exportedAt": "2026-10-28T19:21:34.341706+00:00",
+      "manifest": "assets/animations/dao-child/point/manifest.json",
+      "frames": 8,
+      "fps": 10,
+      "loop": false,
+      "canvas": [
+        1000,
+        1000
+      ],
+      "rootPixels": [
+        500,
+        850
+      ],
+      "displayScale": 0.4674457429048414,
+      "restVisibleBodyHeight": 599,
+      "bodyDisplayHeight": 280,
+      "runtimeMinMargin": 0.146,
+      "nativePixelRoundTrip": true,
+      "registeredVisual": "producer_actually_viewed_light_dark_and_idle280_display_comparison",
+      "rootVisual": "pending",
+      "Unity": "pending",
+      "sourceAIGeneration": "root-owned; not invoked by exporter",
+      "registeredReviewQA": "tmp/dao-child-export/point-registered-review.png",
+      "idleDisplayQA": "tmp/dao-child-export/point-idle-display-qa.png"
+    },
+    "celebrate": {
+      "action": "celebrate",
+      "sources": [
+        {
+          "source": "designs/motion-frames-v1/dao-child/celebrate/celebrate-a-v1.png",
+          "nativeHeights": [
+            533,
+            533,
+            542,
+            544
+          ],
+          "shoeSpans": [
+            219,
+            216,
+            220,
+            219
+          ],
+          "hairWidths": [
+            246,
+            247,
+            247,
+            253
+          ],
+          "eyeDistances": [
+            70.628,
+            71.003,
+            71.533,
+            82.453
+          ],
+          "medianBodyHeight": 537.5,
+          "medianFootSpan": 219.0,
+          "medianHairWidth": 247.0
+        },
+        {
+          "source": "designs/motion-frames-v1/dao-child/celebrate/celebrate-b-a-only-v3.png",
+          "nativeHeights": [
+            537,
+            536,
+            545,
+            546
+          ],
+          "shoeSpans": [
+            216,
+            214,
+            216,
+            216
+          ],
+          "hairWidths": [
+            249,
+            248,
+            250,
+            252
+          ],
+          "eyeDistances": [
+            70.255,
+            70.969,
+            71.149,
+            71.324
+          ],
+          "medianBodyHeight": 541.0,
+          "medianFootSpan": 216.0,
+          "medianHairWidth": 249.5
+        }
+      ],
+      "sourceDensity": {
+        "medianBodyHeight": 1.0065116279069768,
+        "medianFootSpan": 0.9863013698630136,
+        "medianHairWidth": 1.0101214574898785,
+        "entryEyeDistance": 0.9947168937189503
+      },
+      "exportedAt": "2026-10-28T20:05:57.914417+00:00",
+      "manifest": "assets/animations/dao-child/celebrate/manifest.json",
+      "frames": 8,
+      "fps": 10,
+      "loop": false,
+      "canvas": [
+        1000,
+        1000
+      ],
+      "rootPixels": [
+        500,
+        850
+      ],
+      "displayScale": 0.525328330206379,
+      "restVisibleBodyHeight": 533,
+      "bodyDisplayHeight": 280,
+      "runtimeMinMargin": 0.146,
+      "nativePixelRoundTrip": true,
+      "registeredVisual": "producer_actually_viewed_light_dark_and_idle280_display_comparison",
+      "rootVisual": "pending",
+      "Unity": "pending",
+      "sourceAIGeneration": "root-owned; not invoked by exporter",
+      "registeredReviewQA": "tmp/dao-child-export/celebrate-registered-review.png",
+      "idleDisplayQA": "tmp/dao-child-export/celebrate-idle-display-qa.png"
+    }
+  },
+  "celebrateRepairHistory": {
+    "status": "source_B_density_repair_pending_root",
+    "latestInspectedSources": [
+      {
+        "source": "designs/motion-frames-v1/dao-child/celebrate/celebrate-a-v1.png",
+        "nativeHeights": [
+          533,
+          533,
+          542,
+          544
+        ],
+        "shoeSpans": [
+          219,
+          216,
+          220,
+          219
+        ],
+        "hairWidths": [
+          246,
+          247,
+          247,
+          253
+        ],
+        "eyeDistances": [
+          70.628,
+          71.003,
+          71.533,
+          82.453
+        ],
+        "medianBodyHeight": 537.5,
+        "medianFootSpan": 219.0,
+        "medianHairWidth": 247.0
+      },
+      {
+        "source": "designs/motion-frames-v1/dao-child/celebrate/celebrate-b-from-a-v2.png",
+        "nativeHeights": [
+          580,
+          579,
+          575,
+          578
+        ],
+        "shoeSpans": [
+          221,
+          223,
+          220,
+          221
+        ],
+        "hairWidths": [
+          273,
+          263,
+          266,
+          269
+        ],
+        "eyeDistances": [
+          76.707,
+          77.339,
+          76.364,
+          140.962
+        ],
+        "medianBodyHeight": 578.5,
+        "medianFootSpan": 221.0,
+        "medianHairWidth": 267.5
+      }
+    ],
+    "ratiosBtoA": {
+      "medianBodyHeight": 1.0762790697674418,
+      "medianFootSpan": 1.0091324200913243,
+      "medianHairWidth": 1.082995951417004,
+      "entryEyeDistance": 1.0860672373231677
+    },
+    "sourceHashes": [
+      "d66f4e2621dcc68fe265ffebb7e09869833208149efb9cb9c2280cb30dd0106b",
+      "69faeaf3f3c6e9d0f6590f29008e1f8dad1bc1d38105053a8cef58d1a5889f1b"
+    ],
+    "exported": false,
+    "noPerSheetOrPerFrameScaling": true,
+    "metricLimits": "Closed/winking-eye frames are not eye-distance density measurements. Entry open eyes and alpha16 central head-to-sole body heights are compared; hair band width is supporting evidence."
+  },
+  "selectedCelebrateB": "designs/motion-frames-v1/dao-child/celebrate/celebrate-b-a-only-v3.png",
+  "selectedCelebrateBSHA256": "136a6d15f7c7a63597c14176aa4625a4c9b2a254d6879b88d14397ffb58a1252",
+  "sameMethodAsIdle": "two sole contacts: alpha>200 in manually viewed green/ivory/gold boot regions; lowest contact row and bottom5row x centroid; register midpoint/lowest sole with integer translation only",
+  "nativeSourcePNGsResizedUpscaledWarped": false,
+  "alphaCleanup": "<=3 set0 only in derived crops; source RGBA unmodified",
+  "nativeFramePixelsRoundTripVerified": true,
+  "bodyDisplayHeight": 280,
+  "sharedCanvas": [
+    1000,
+    1000
+  ],
+  "rootPixels": [
+    500,
+    850
+  ],
+  "anchorImageTopLeft": [
+    0.5,
+    0.85
+  ],
+  "unityPivotBottomLeft": [
+    0.5,
+    0.15
+  ],
+  "fps": 10,
+  "loop": false,
+  "durationMs": 800,
+  "idleUntouched": true,
+  "rootOwnedSourcePNGsUnmodified": true,
+  "globalCatalogGitUntouched": true,
+  "heavyBuildTestAtlasUnityNotRun": true,
+  "supersededImageCleanup": {
+    "at": "2026-10-28T20:44:55.660216+00:00",
+    "paths": [
+      {
+        "file": "designs/motion-frames-v1/dao-child/celebrate/celebrate-b-v1.png",
+        "sha256": "d5d52ffbb7eaf5294f1c7e06e5626c7e7d197186b5b4d67f09acc61176c58278",
+        "reason": "Superseded unadopted source with body/head density mismatch; final v3 and all eight game frames verified present.",
+        "textProvenanceRetained": true
+      },
+      {
+        "file": "designs/motion-frames-v1/dao-child/celebrate/celebrate-b-from-a-v2.png",
+        "sha256": "69faeaf3f3c6e9d0f6590f29008e1f8dad1bc1d38105053a8cef58d1a5889f1b",
+        "reason": "Superseded unadopted source with body/head density mismatch; final v3 and all eight game frames verified present.",
+        "textProvenanceRetained": true
+      }
+    ],
+    "adoptedSource": "designs/motion-frames-v1/dao-child/celebrate/celebrate-b-a-only-v3.png",
+    "action": "exact_files_removed_verified"
+  }
+}

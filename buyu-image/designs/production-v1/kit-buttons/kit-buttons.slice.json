@@ -1,0 +1,129 @@
+{
+  "source": "designs/production-v1/kit-buttons/kit-buttons.png",
+  "output": "assets/ui/buttons",
+  "rows": 3,
+  "cols": 4,
+  "items": [
+    {
+      "id": "primary-normal",
+      "name": "primary-normal",
+      "sourceRect": [
+        0,
+        0,
+        362,
+        362
+      ]
+    },
+    {
+      "id": "primary-pressed",
+      "name": "primary-pressed",
+      "sourceRect": [
+        362,
+        0,
+        724,
+        362
+      ]
+    },
+    {
+      "id": "primary-disabled",
+      "name": "primary-disabled",
+      "sourceRect": [
+        724,
+        0,
+        1075,
+        362
+      ]
+    },
+    {
+      "id": "primary-selected",
+      "name": "primary-selected",
+      "sourceRect": [
+        1075,
+        0,
+        1448,
+        362
+      ]
+    },
+    {
+      "id": "secondary-normal",
+      "name": "secondary-normal",
+      "sourceRect": [
+        0,
+        362,
+        362,
+        724
+      ]
+    },
+    {
+      "id": "secondary-pressed",
+      "name": "secondary-pressed",
+      "sourceRect": [
+        362,
+        362,
+        724,
+        724
+      ]
+    },
+    {
+      "id": "secondary-disabled",
+      "name": "secondary-disabled",
+      "sourceRect": [
+        724,
+        362,
+        1075,
+        724
+      ]
+    },
+    {
+      "id": "secondary-selected",
+      "name": "secondary-selected",
+      "sourceRect": [
+        1075,
+        362,
+        1448,
+        724
+      ]
+    },
+    {
+      "id": "tab-normal",
+      "name": "tab-normal",
+      "sourceRect": [
+        0,
+        724,
+        362,
+        1086
+      ]
+    },
+    {
+      "id": "tab-selected",
+      "name": "tab-selected",
+      "sourceRect": [
+        362,
+        724,
+        724,
+        1086
+      ]
+    },
+    {
+      "id": "close-normal",
+      "name": "close-normal",
+      "sourceRect": [
+        724,
+        724,
+        1075,
+        1086
+      ]
+    },
+    {
+      "id": "close-pressed",
+      "name": "close-pressed",
+      "sourceRect": [
+        1075,
+        724,
+        1448,
+        1086
+      ]
+    }
+  ],
+  "keepCell": false
+}

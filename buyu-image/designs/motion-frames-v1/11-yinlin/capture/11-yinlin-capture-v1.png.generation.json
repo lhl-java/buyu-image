@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/motion-frames-v1/11-yinlin/capture/11-yinlin-capture-v1.png",
+  "sha256": "dfb1785234ed10ab4c99f4ece5429042b76f3ea5e154114a29721259d46fe212",
+  "generatedAt": "2026-10-28T17:43:36.248Z",
+  "startedAt": "2026-10-28T17:39:01.534Z",
+  "width": 1774,
+  "height": 887,
+  "format": "PNG",
+  "pixelFormat": "Format32bppArgb",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-28",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "builtin_evidence": {
+      "model_parameter_exposed": false,
+      "quality_parameter_exposed": false,
+      "actual_model": null,
+      "actual_quality": null,
+      "note": "Configuration targets only; verify actual model and quality per generated image."
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\buyu-image\\designs\\motion-frames-v1\\11-yinlin\\swim\\11-yinlin-swim-v1.png",
+      "D:\\work\\buyu-image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\buyu-image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "D:\\work\\buyu-image\\assets\\fish\\batch-2\\11-yinlin.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具未开放 model/quality 参数，本次结果未披露实际型号及质量。",
+  "evidence": {
+    "toolResult": "11-yinlin-capture-v1.tool-result.txt",
+    "sourceOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a18186-fd02-7812-b30d-2810b1c9973a\\exec-eba88f07-569b-4185-ad16-723a7a0ab6f7.png",
+    "toolResultId": "exec-eba88f07-569b-4185-ad16-723a7a0ab6f7",
+    "request": "11-yinlin-capture-v1.request.json"
+  },
+  "prompt": "11-yinlin-capture-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/motion-frames-v1/11-yinlin/swim/11-yinlin-swim-v1.png",
+      "sha256": "47d110e04aa9c8311109d8d6751498c284984f3a5d6c429b79e72e5947f00135",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "assets/fish/batch-2/11-yinlin.png",
+      "sha256": "c842c7c5c11da79a6795450cd06bd5c4634d972647fe7dfc18864bf7ab387b89",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    }
+  ],
+  "requestedCanvasInPrompt": "Native target swim geometry2:1 4x2 retained as reference; actual generated size recorded.",
+  "resampled": false,
+  "status": "draft_pending_user_review",
+  "visualReview": "Eight native capture poses edited from target-first swim geometry, pending actual alpha/identity/scale/motion/root review.",
+  "scope": "08-12 fish native capture action sheets; no paid API or procedural motion.",
+  "retentionRole": "selected_current_animation_source_candidate",
+  "producerStillReview": "native source and registered light/dark composite inspected; root/Unity pending"
+}

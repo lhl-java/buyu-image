@@ -1,0 +1,36 @@
+{
+  "file": "assets/atlases/ui-01.png",
+  "sha256": "88e8acd9bb3208229198f46880f1bc60a0eac53d47a2ea3120fea3171ef92b82",
+  "width": 1393,
+  "height": 136,
+  "operation": {
+    "type": "native_atlas_packing",
+    "resampled": false,
+    "upscaled": false
+  },
+  "derivedFrom": [
+    {
+      "file": "assets/ui/buttons/primary-pressed.png",
+      "sha256": "b5543b36ceb21aac090032ad8bc9f7d8d7511d2e4fe014de18da2c858a014963",
+      "generationRecord": "assets/ui/buttons/primary-pressed.png.generation.json"
+    },
+    {
+      "file": "assets/ui/hud/bottom-rail.png",
+      "sha256": "0b221f95c3f5d3e8f4915902fc574c9e832b0cd44592c03d3717d4caed1a3788",
+      "generationRecord": "assets/ui/hud/bottom-rail.png.generation.json"
+    },
+    {
+      "file": "assets/ui/hud/resource-capsule.png",
+      "sha256": "a43e6d1c349d6d58bba25a72adbde1b25728f7ff8473935d101ccbec31645a6a",
+      "generationRecord": "assets/ui/hud/resource-capsule.png.generation.json"
+    },
+    {
+      "file": "assets/ui/hud/progress-track.png",
+      "sha256": "d0dd0e39e489ae6dc2e20171faa4ddc0a253fb1dda470c56fb9d93b61eb12082",
+      "generationRecord": "assets/ui/hud/progress-track.png.generation.json"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "No model call; see individual sources."
+}

@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/motion-frames-v1/03-chiyu/swim/03-chiyu-swim-v1.png",
+  "sha256": "10143f96ed539d629006c9238499fab0e352d96594f82e470f2103843ba674b9",
+  "generatedAt": "2026-10-28T16:17:46.216Z",
+  "startedAt": "2026-10-28T16:15:06.115Z",
+  "width": 1774,
+  "height": 887,
+  "format": "PNG",
+  "pixelFormat": "Format32bppArgb",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-28",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "builtin_evidence": {
+      "model_parameter_exposed": false,
+      "quality_parameter_exposed": false,
+      "actual_model": null,
+      "actual_quality": null,
+      "note": "Configuration targets only; verify actual model and quality per generated image."
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\buyu-image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\buyu-image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "D:\\work\\buyu-image\\assets\\fish\\batch-1\\03-chiyu.png",
+      "D:\\work\\buyu-image\\designs\\motion-frames-v1\\01-qingqi\\swim\\01-qingqi-swim-contained-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具未开放 model/quality 参数，本次结果未披露实际型号及质量。",
+  "evidence": {
+    "toolResult": "03-chiyu-swim-v1.tool-result.txt",
+    "sourceOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a18186-fd02-7812-b30d-2810b1c9973a\\exec-8e0f5f8b-add0-44e7-b5e7-1f3d6e59a0ee.png",
+    "toolResultId": "exec-8e0f5f8b-add0-44e7-b5e7-1f3d6e59a0ee",
+    "request": "03-chiyu-swim-v1.request.json"
+  },
+  "prompt": "03-chiyu-swim-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "assets/fish/batch-1/03-chiyu.png",
+      "sha256": "fafbd4ebd662557e5859aa3c3b6b9f0ae1f9d05dd6698eb1c523c7909058fb4b",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/motion-frames-v1/01-qingqi/swim/01-qingqi-swim-contained-v2.png",
+      "sha256": "8062b4d48c58d7d0d64f776e24a670ae3b100fe0898208d12132c1d0ba856bfd",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    }
+  ],
+  "requestedCanvasInPrompt": "Requested wide2:1 true-alpha 4x2 action grid, actual size recorded.",
+  "resampled": false,
+  "status": "draft_pending_user_review",
+  "visualReview": "Native eight-frame candidate; actual alpha, root, cross-action scale and motion pending review.",
+  "scope": "01-12 fish action native AI sheet; no paid route or procedural animation.",
+  "retentionRole": "selected_current_animation_source_candidate",
+  "producerStillReview": "native source and registered light/dark composite inspected; root/Unity pending"
+}

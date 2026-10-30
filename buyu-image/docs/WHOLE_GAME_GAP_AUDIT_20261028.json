@@ -1,0 +1,286 @@
+{
+  "schemaVersion": 1,
+  "auditDate": "2026-10-28",
+  "scope": "首发四海域、36鱼种、六炮台、31个既定界面的完整美术缺口；不扩张未指定功能。",
+  "gameArtComplete": false,
+  "readOnlyArtAudit": true,
+  "inputs": [
+    {
+      "file": "assets/runtime-catalog.json",
+      "sha256": "e773bccbba7a1848bf3ee87a8ad866f0f5e0c651797ff6d057eef4e1090b18dc"
+    },
+    {
+      "file": "docs/UI_RUNTIME_ART_MAP.json",
+      "sha256": "75d7ea954b401f0c5256755f26236f79b3b92db00991dc8455b45f7e4fa2b5a8"
+    },
+    {
+      "file": "docs/GAME_ART_COMPLETION_CONTRACT.md",
+      "sha256": "1e67d1b73c990c165d46d74bef7061896b1821e4899ab25295305e0a54f75b03"
+    }
+  ],
+  "observed": {
+    "independentAssets": 225,
+    "uiScreens": 31,
+    "skillIcons": 6,
+    "fxClips": 5,
+    "fxFrames": 80,
+    "fishMasters": 36,
+    "cannonParts": 12,
+    "portraits": 6,
+    "guideMasters": 1,
+    "gameplayBackgrounds": 4,
+    "harborBackgrounds": 1,
+    "activityIllustrations": 2,
+    "backpackIcons": 0,
+    "handPaintedSliderThumbs": 0,
+    "distributedFontFiles": 0,
+    "targetClientProject": null,
+    "incomingReferenceFiles": 0
+  },
+  "findings": [
+    {
+      "id": "skill-vfx-gather",
+      "priority": "P1",
+      "kind": "art_production",
+      "status": "missing",
+      "subject": "聚鱼",
+      "evidence": [
+        "skills/skill-gather 已存在",
+        "catalog.clips 只有 fx-net/fx-ice/fx-thunder/fx-capture/fx-hit"
+      ],
+      "deliverable": "独立聚鱼金鱼旋流特效；建议与既有FX同规格16帧、共享画布和根点，出现/汇聚/消散完整。",
+      "acceptance": [
+        "正式六技能映射指向实际文件",
+        "与金鱼旋流图标语义相符，不误用迅捷",
+        "固定canvas/root，真实Alpha，无跨格裁断",
+        "实际播放检查节奏与淡出，浅深底无色边"
+      ]
+    },
+    {
+      "id": "skill-vfx-guard",
+      "priority": "P1",
+      "kind": "art_production",
+      "status": "missing",
+      "subject": "护持",
+      "deliverable": "独立太极葫芦护罩特效；建议16帧，护罩建立/保持/消散，中心留清楚观察炮台或受护目标。",
+      "acceptance": [
+        "技能图标与护罩颜色/符号一致",
+        "护罩环与装饰有真实透明层级，不烘焙目标主体",
+        "固定canvas/root；播放与消散已看过",
+        "若使用循环保持段，需明确loop段与收尾段而非把单次片假称持续循环"
+      ]
+    },
+    {
+      "id": "skill-vfx-surge",
+      "priority": "P1",
+      "kind": "art_production",
+      "status": "missing",
+      "subject": "激流",
+      "deliverable": "独立蓝白浪/水流爆发特效；建议16帧，与既有激流大浪图标一致。",
+      "acceptance": [
+        "不能以备用skill-speed替代激流",
+        "浪头出现/推进/消散可读，无格边裁断",
+        "固定canvas/root和朝向元数据，真实Alpha",
+        "客户端旋转朝向与命中事件另行核验"
+      ]
+    },
+    {
+      "id": "backpack-entry-icon",
+      "priority": "P1",
+      "kind": "art_production",
+      "status": "missing_independent_painted_asset",
+      "evidence": [
+        "03-lobby 已定稿含背包入口",
+        "catalog 无 bag/backpack 独立id；UI_RUNTIME_ART_MAP.md 当前以通用槽位/物品组合替代"
+      ],
+      "deliverable": "独立无字道家玉金/米白背包入口图标，实际附主参考与大厅图，原生透明导出。",
+      "acceptance": [
+        "大厅导航有独立背包识别，不与炮饰/礼物混淆",
+        "原生像素足够目标显示，不放大冒充高清",
+        "实际源、逐图记录、Alpha及映射齐全"
+      ]
+    },
+    {
+      "id": "settings-slider-thumb",
+      "priority": "P1",
+      "kind": "art_production",
+      "status": "missing_independent_painted_asset",
+      "evidence": [
+        "24-settings 原稿明确金边太极圆形拇指",
+        "assets/ui/hud 有 toggle/checkbox/track/fill，无独立slider-thumb"
+      ],
+      "deliverable": "独立金玉太极滑块拇指normal/pressed皮肤；禁用灰化可仍由客户端处理。",
+      "acceptance": [
+        "normal/pressed共享逻辑画布和中心，不因裁紧跳动",
+        "太极/玉金风格与原稿一致；不把普通程序圆点作为手绘切片已完成",
+        "真实Alpha、来源及状态映射齐"
+      ]
+    },
+    {
+      "id": "skill-fx-binding",
+      "priority": "P1",
+      "kind": "integration_art_metadata",
+      "status": "missing_semantic_contract",
+      "deliverable": "六技能逐项图标、施放FX、持续/消失表现、目标绑定点、层级、时长与事件映射。",
+      "existingReuse": {
+        "ice": "fx-ice",
+        "thunder": "fx-thunder",
+        "track": "ornaments/aim-gold + 客户端目标绑定/脉冲"
+      },
+      "acceptance": [
+        "六项均解析到实际存在的资源/明确客户端处理方式",
+        "fx-capture/hit/net是通用战斗反馈，不默认算聚鱼/护持/激流独特表现",
+        "追踪准星客户端脉冲属于目标标记动画，可复用现有空心环；不能将其算作鱼体动作"
+      ]
+    },
+    {
+      "id": "fish-and-guide-motion",
+      "priority": "P0",
+      "kind": "art_animation",
+      "status": "pending_capability",
+      "plannedActions": 81,
+      "evidence": [
+        "docs/FISH_MOTION_BACKLOG.json:36 swim+36 capture+3 boss各attack/enrage，共78",
+        "docs/GUIDE_MOTION_BACKLOG.json:idle/point/celebrate共3"
+      ],
+      "deliverable": "每个身份源的实际可见鱼体/鳍/触须/肢体动作及可用运行包。",
+      "acceptance": [
+        "稳定身份/比例/根点/透明，完整附肢不过边",
+        "游动/idle循环首尾和一次动作恢复实际播放验收",
+        "静态PNG计数、HTML资源预览、整张平移/旋转/缩放不能代替鱼体/肢体动作",
+        "如采用非视频路线，必须用户授权且按实际制作方式记录，不冒称视频生成或AI新细节"
+      ]
+    },
+    {
+      "id": "ui-state-registration",
+      "priority": "P1",
+      "kind": "integration_art_metadata",
+      "status": "not_verified",
+      "evidence": [
+        "primary-normal344x133 / primary-selected364x162；均anchor0.5,0.5，独立外框缩至128宽",
+        "slot-normal261x262 / slot-selected293x288；选中辉光包含在外框"
+      ],
+      "deliverable": "按钮/槽位各状态共享逻辑canvas、contentRect或注册变换，必要时同canvas派生导出。",
+      "acceptance": [
+        "选中辉光不会造成控件本体缩小或位置跳动",
+        "按下变化是明确设计而非裁紧差异",
+        "原生像素/派生操作可追溯，未用拉伸掩盖几何错误"
+      ]
+    },
+    {
+      "id": "typography-contract",
+      "priority": "P1",
+      "kind": "production_specification",
+      "status": "missing",
+      "evidence": [
+        "assets下无分发ttf/otf/woff",
+        "assets-preview使用 Microsoft YaHei/PingFang SC/system-ui；不是31屏正式字体合同"
+      ],
+      "deliverable": "标题/正文/数字字体角色、字号/行高/颜色/描边/截断规则；目标客户端可用字体与分发授权证据或系统字体要求。",
+      "acceptance": [
+        "中文覆盖与最长文案在约定横屏viewport可读",
+        "数值/正文分层清楚，不直接从整屏图读取字形",
+        "不能把本机系统字体可用当作其他平台已分发授权",
+        "此项优先补规格；没有目标平台时不擅自采购/发布字体"
+      ]
+    },
+    {
+      "id": "cannon-projectile-registration",
+      "priority": "P1",
+      "kind": "target_client_visual_validation",
+      "status": "candidate_only",
+      "evidence": [
+        "6炮台 integrationStatus=candidate_pivot_requires_target_client_check",
+        "rotationRoot统一0.5,0.70候选，未逐炮冻结炮口点",
+        "bullet头部锚点0.31,0.61/朝向左下为候选"
+      ],
+      "deliverable": "逐炮轴心、炮口局部点、底座/炮管层级，弹丸正方向与起始点及发射/后坐反馈合同。",
+      "acceptance": [
+        "旋转时底座/炮管接合点稳定",
+        "弹丸从实际炮口沿速度方向发出",
+        "六套分体炮均实看多角度；命中/渔网事件对应实际FX",
+        "不因六套皮肤存在而擅自新增六类武器玩法/伤害系统"
+      ]
+    },
+    {
+      "id": "target-client-ui-and-fx-review",
+      "priority": "P0",
+      "kind": "target_client_visual_validation",
+      "status": "no_target_project_found",
+      "evidence": [
+        "本项目未发现Unity/Godot/Cocos等工程入口",
+        "ASSET_PREVIEW_VALIDATION.json明确browserOpened=false/visualBrowserValidation=false，29分支为轻量DOM模拟"
+      ],
+      "deliverable": "目标客户端或明确的运行美术验证宿主，展示31页实际文字/布局/按钮状态、九宫格、动态层和FX事件。",
+      "acceptance": [
+        "在约定横屏尺寸与最小支持尺寸检查留白、长文案、点击层和遮挡",
+        "九宫格候选窗框/列表/提示框实际拉伸，圆形/标题等比",
+        "straight/premultipliedAlpha一致，深浅背景无边",
+        "完整clip实际播放和目标端性能/混合验证；资源HTML和哈希不能代替端内表现"
+      ]
+    },
+    {
+      "id": "stale-route-doc-text",
+      "priority": "P2",
+      "kind": "documentation",
+      "status": "stale_wording_only",
+      "evidence": [
+        "UI_RUNTIME_ART_MAP.md 第16/17页仍有（待制）和独立岛图尚在制作",
+        "实际 assets/illustrations/event-banner.png/event-route.png 与JSON均已存在"
+      ],
+      "deliverable": "只更新残留文字；不重复生成已存在活动美术。",
+      "acceptance": [
+        "MD/JSON/实际资源完成状态一致"
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "id": "empty-state-fidelity",
+      "hardGap": false,
+      "evidence": "30-empty-states原稿的四小插图，运行映射用mail/friend/bubble/task通用功能图标替代；当前合同允许复用且不承诺逐像素重现。",
+      "decision": "终审明确采用通用图标或补专用四插图，不预先强行新增四硬缺项。"
+    },
+    {
+      "id": "app-icon-platform",
+      "hardGap": false,
+      "evidence": "brand-emblem为264x263透明游戏内徽记，已有独立捕鱼标题。未指定商店平台/发布图规格。",
+      "decision": "若首发含平台应用图标，需新原生高分辨率母版并缩小导出；不得把264图标放大成1024并称原生。不因未指定平台就额外要求整套商店宣传图。"
+    }
+  ],
+  "notMissing": [
+    "4纯海域+1港口背景",
+    "36不同鱼类静态主图",
+    "6炮台12分体部件",
+    "6差异头像与独立道童静态图",
+    "独立标题、游戏内品牌徽记",
+    "独立弹丸及透明中心准星",
+    "2页签状态和主次按钮4状态",
+    "2活动独立插画"
+  ],
+  "clientRenderedWithoutNewRaster": [
+    "动态标题/正文/数字/计数",
+    "模态遮罩/红点/角标",
+    "冷却扇形/禁用灰化/未发现剪影",
+    "滚动裁切/列表和状态切换",
+    "目标准星脉冲与绑定",
+    "页签/开关禁用及按下反馈可按现合同实现；不强制每状态新图"
+  ],
+  "conclusion": "现有225项静态/五类FX与31设计不等于整款游戏美术完成。当前可独立新制项为三技能FX、独立背包图标、金玉太极滑块拇指状态；并补技能语义绑定/状态注册/字体规格。81实际动作和目标运行表现验收仍为硬门禁。",
+  "historicalSnapshot": true,
+  "currentProductionStatus": {
+    "updatedAt": "2026-10-28T20:51:27.456187+00:00",
+    "motionRoute": "builtin_native_AI_frames_user_requested",
+    "exportedCandidateActions": 81,
+    "exportedCandidateFrames": 648,
+    "staticAndFxCandidates": 276,
+    "releaseReadyActions": 0,
+    "videoCapabilityIsCurrentBlocker": false,
+    "UnityProject": "unity/BuyuClient",
+    "UnityImportOrPlaybackRun": false,
+    "currentStatus": "docs/GAME_ART_STATUS.json",
+    "currentMap": "docs/UI_RUNTIME_ART_MAP.md",
+    "currentFrames": "docs/NATIVE_FRAME_PROGRESS.json",
+    "note": "Earlier observations and their original timestamps remain historical; assets added later are not missing merely because this snapshot predates them."
+  }
+}

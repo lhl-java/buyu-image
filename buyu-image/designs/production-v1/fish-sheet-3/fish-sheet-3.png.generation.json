@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/production-v1/fish-sheet-3/fish-sheet-3.png",
+  "sha256": "36ae17f429c1afca6f60e729b51130792b6948e6324b42825e4c777fd2e927bd",
+  "generatedAt": "2026-10-26T18:15:48.711Z",
+  "startedAt": "2026-10-26T18:06:04.573Z",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "pixelFormat": "Format32bppArgb",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "builtin_evidence": {
+      "model_parameter_exposed": false,
+      "quality_parameter_exposed": false,
+      "actual_model": null,
+      "actual_quality": null,
+      "note": "Configuration targets only; verify actual model and quality per generated image."
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\buyu-image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\buyu-image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "D:\\work\\buyu-image\\designs\\ui\\full-suite-v1\\09-encyclopedia\\09-encyclopedia.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具未开放 model/quality 参数，本次结果未披露实际型号及质量。",
+  "evidence": {
+    "toolResult": "fish-sheet-3.tool-result.txt",
+    "sourceOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a17732-5ab6-7fe3-b0d9-546ecf65c47f\\exec-a367db94-841a-43ad-a828-b97fd6b49d2e.png",
+    "toolResultId": "exec-a367db94-841a-43ad-a828-b97fd6b49d2e",
+    "request": "fish-sheet-3.request.json"
+  },
+  "prompt": "fish-sheet-3.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/ui/full-suite-v1/09-encyclopedia/09-encyclopedia.png",
+      "sha256": "6c6bbe47b127c381191885e408eead4d1dabf705d0a379a6a9f2582de20cf69a",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    }
+  ],
+  "requestedCanvasInPrompt": "3 columns by 2 rows, requested 3:2; actual native dimensions recorded",
+  "resampled": false,
+  "status": "superseded_cell_containment_failure",
+  "visualReview": "Six identities and appendages visible but some cross invisible cell boundaries; run containment QA and correct margins before production acceptance.",
+  "scope": "Six distinct static fish masters; native alpha production sheet, not animation",
+  "imageRetention": {
+    "retainedInProject": false,
+    "replacement": "designs/production-v1/fish-sheet-3/fish-sheet-3-contained.png",
+    "reason": "Selected AI correction is verified; replaced sheet removed, prompt and historical source evidence retained."
+  }
+}

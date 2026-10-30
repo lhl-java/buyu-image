@@ -1,0 +1,277 @@
+{
+  "schemaVersion": 1,
+  "source": "designs/motion-frames-v1/19-lingjinli/swim/19-lingjinli-swim.png",
+  "sha256": "bf1e1b996e00822e8bd38930f951e233a4915cf191080b8bfc24f3d394d782ba",
+  "nativeSize": [
+    1774,
+    887
+  ],
+  "cellCanvas": [
+    444,
+    444
+  ],
+  "frames": [
+    {
+      "frame": 0,
+      "sourceRect": [
+        0,
+        0,
+        444,
+        444
+      ],
+      "nativeCell": [
+        444,
+        444
+      ],
+      "alphaBBox": [
+        18,
+        93,
+        436,
+        369
+      ],
+      "marginsLTRB": [
+        0.04054054054054054,
+        0.20945945945945946,
+        0.018018018018018018,
+        0.16891891891891891
+      ],
+      "edgeMaxAlpha": 1
+    },
+    {
+      "frame": 1,
+      "sourceRect": [
+        444,
+        0,
+        887,
+        444
+      ],
+      "nativeCell": [
+        443,
+        444
+      ],
+      "alphaBBox": [
+        43,
+        64,
+        432,
+        412
+      ],
+      "marginsLTRB": [
+        0.09684684684684684,
+        0.14414414414414414,
+        0.02702702702702703,
+        0.07207207207207207
+      ],
+      "edgeMaxAlpha": 1
+    },
+    {
+      "frame": 2,
+      "sourceRect": [
+        887,
+        0,
+        1330,
+        444
+      ],
+      "nativeCell": [
+        443,
+        444
+      ],
+      "alphaBBox": [
+        26,
+        83,
+        418,
+        419
+      ],
+      "marginsLTRB": [
+        0.05855855855855856,
+        0.18693693693693694,
+        0.05855855855855856,
+        0.05630630630630631
+      ],
+      "edgeMaxAlpha": 1
+    },
+    {
+      "frame": 3,
+      "sourceRect": [
+        1330,
+        0,
+        1774,
+        444
+      ],
+      "nativeCell": [
+        444,
+        444
+      ],
+      "alphaBBox": [
+        16,
+        83,
+        411,
+        370
+      ],
+      "marginsLTRB": [
+        0.036036036036036036,
+        0.18693693693693694,
+        0.07432432432432433,
+        0.16666666666666666
+      ],
+      "edgeMaxAlpha": 1
+    },
+    {
+      "frame": 4,
+      "sourceRect": [
+        0,
+        444,
+        444,
+        887
+      ],
+      "nativeCell": [
+        444,
+        443
+      ],
+      "alphaBBox": [
+        29,
+        62,
+        437,
+        334
+      ],
+      "marginsLTRB": [
+        0.06531531531531531,
+        0.13963963963963963,
+        0.015765765765765764,
+        0.24774774774774774
+      ],
+      "edgeMaxAlpha": 1
+    },
+    {
+      "frame": 5,
+      "sourceRect": [
+        444,
+        444,
+        887,
+        887
+      ],
+      "nativeCell": [
+        443,
+        443
+      ],
+      "alphaBBox": [
+        33,
+        59,
+        434,
+        349
+      ],
+      "marginsLTRB": [
+        0.07432432432432433,
+        0.13288288288288289,
+        0.02252252252252252,
+        0.21396396396396397
+      ],
+      "edgeMaxAlpha": 1
+    },
+    {
+      "frame": 6,
+      "sourceRect": [
+        887,
+        444,
+        1330,
+        887
+      ],
+      "nativeCell": [
+        443,
+        443
+      ],
+      "alphaBBox": [
+        42,
+        60,
+        417,
+        384
+      ],
+      "marginsLTRB": [
+        0.0945945945945946,
+        0.13513513513513514,
+        0.060810810810810814,
+        0.13513513513513514
+      ],
+      "edgeMaxAlpha": 1
+    },
+    {
+      "frame": 7,
+      "sourceRect": [
+        1330,
+        444,
+        1774,
+        887
+      ],
+      "nativeCell": [
+        444,
+        443
+      ],
+      "alphaBBox": [
+        23,
+        57,
+        408,
+        360
+      ],
+      "marginsLTRB": [
+        0.0518018018018018,
+        0.12837837837837837,
+        0.08108108108108109,
+        0.1891891891891892
+      ],
+      "edgeMaxAlpha": 1
+    }
+  ],
+  "warnings": [
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 0,
+      "actual": 0.018018018018018018,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 1,
+      "actual": 0.02702702702702703,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 2,
+      "actual": 0.05630630630630631,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 3,
+      "actual": 0.036036036036036036,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 4,
+      "actual": 0.015765765765765764,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 5,
+      "actual": 0.02252252252252252,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 6,
+      "actual": 0.060810810810810814,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 7,
+      "actual": 0.0518018018018018,
+      "threshold": 0.12
+    }
+  ],
+  "actualMotionReview": "Source contact review pending.",
+  "actualMotionApproved": false,
+  "loopPlaybackStatus": "not_run_during_heavy_job_hold",
+  "noResampling": true
+}

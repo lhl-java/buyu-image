@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "file": "references/production-guides/32-honglian-4x2.png",
+  "sha256": "e06708582aa962fed16edd3894294749fea065c0e0195824f1f5395fd2a53d67",
+  "createdAt": "2026-10-28T18:06:10.224844+00:00",
+  "purpose": "Image model geometry/identity edit reference only; identical stills are NOT animation frames or game art.",
+  "operation": {
+    "type": "reference_only_master_layout_composite",
+    "masterCropRect": [
+      4,
+      4,
+      496,
+      359
+    ],
+    "referenceCropSize": [
+      492,
+      355
+    ],
+    "referencePlacedSize": [
+      310,
+      224
+    ],
+    "canvas": [
+      1774,
+      887
+    ],
+    "grid": [
+      4,
+      2
+    ],
+    "placements": [
+      [
+        67,
+        110,
+        310,
+        224
+      ],
+      [
+        510,
+        110,
+        310,
+        224
+      ],
+      [
+        954,
+        110,
+        310,
+        224
+      ],
+      [
+        1397,
+        110,
+        310,
+        224
+      ],
+      [
+        67,
+        553,
+        310,
+        224
+      ],
+      [
+        510,
+        553,
+        310,
+        224
+      ],
+      [
+        954,
+        553,
+        310,
+        224
+      ],
+      [
+        1397,
+        553,
+        310,
+        224
+      ]
+    ],
+    "finalGameAsset": false
+  },
+  "derivedFrom": [
+    {
+      "file": "assets/fish/batch-6/32-honglian.png",
+      "sha256": "c88f74e681c38c988167e1759a165b988efe2ce5bc06965d34d2eab827e7dfc9",
+      "generationRecord": "assets/fish/batch-6/32-honglian.png.generation.json"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "newModelCall": false
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/motion-frames-v1/31-bingjing/capture/extract-v1-pose-07.png",
+  "sha256": "5a68825da182645b4316ca1045d1c89cd4bc123b9fa277d5910bd9638bec5808",
+  "width": 374,
+  "height": 252,
+  "format": "RGBA PNG",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/31-bingjing/capture/31-bingjing-capture-v1.png",
+      "sha256": "56a48b232146d007bcab5a64fb6c697bb7b6e672a7a91d5e08c055da555ebe88",
+      "generationRecord": "designs/motion-frames-v1/31-bingjing/capture/31-bingjing-capture-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_complete_actor_ownership_crop",
+    "evidence": {
+      "sourceFrame": 7,
+      "file": "designs/motion-frames-v1/31-bingjing/capture/extract-v1-pose-07.png",
+      "sourceRect": [
+        1357,
+        559,
+        1731,
+        811
+      ],
+      "nominalSourceRect": [
+        1330,
+        444,
+        1774,
+        887
+      ],
+      "nominalGridCross": false,
+      "nativeVisibleSize": [
+        374,
+        252
+      ],
+      "ownedPixelCount": 50138,
+      "foreignPixelsRemovedFromCrop": 0,
+      "totalCanvasEdgeMaxAlpha": 0,
+      "nativeOwnedPixelsUnchanged": true,
+      "sourceMainAlphaComponent": 103
+    },
+    "alphaCleanup": "alpha<=3 discarded, other owned RGBA unchanged",
+    "resized": false,
+    "upscaled": false,
+    "newNativeDetailClaimed": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "intermediate_pending_semantic_review"
+}

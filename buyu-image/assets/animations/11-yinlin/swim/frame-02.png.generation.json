@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-02",
+  "file": "assets/animations/11-yinlin/swim/frame-02.png",
+  "sha256": "44ad4a386bb93f431c138def24d0b84e3339e034608157bc3c9d51946b082343",
+  "width": 640,
+  "height": 640,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/motion-frames-v1/11-yinlin/swim/11-yinlin-swim-v1.png",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/11-yinlin/swim/11-yinlin-swim-v1.png",
+      "sha256": "47d110e04aa9c8311109d8d6751498c284984f3a5d6c429b79e72e5947f00135",
+      "generationRecord": "designs/motion-frames-v1/11-yinlin/swim/11-yinlin-swim-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_grid_crop_integer_pupil_registration",
+    "sourceRect": [
+      925,
+      140,
+      1297,
+      420
+    ],
+    "cellCropRect": [
+      0,
+      0,
+      372,
+      280
+    ],
+    "registrationOffset": [
+      130,
+      154
+    ],
+    "registeredCanvas": [
+      640,
+      640
+    ],
+    "registrationReference": {
+      "type": "black_pupil_component_centroid",
+      "sourcePointFloat": [
+        310.30685920577616,
+        146.2563176895307
+      ],
+      "sourcePointRounded": [
+        310,
+        146
+      ],
+      "targetPoint": [
+        440,
+        300
+      ],
+      "method": "RGBmax<55 and A>220 pupil component; restricted to local radius22px and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+      "roiActuallyInspected": true
+    },
+    "resized": false,
+    "upscaled": false,
+    "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+    "sourcePixelsRoundTripVerified": true,
+    "nominalGridRect": [
+      887,
+      0,
+      1330,
+      444
+    ],
+    "nominalGridBorderAlpha": 1,
+    "ownershipType": "complete_nonoverlapping_pose_rectangle",
+    "foreignFishAlphaPixels": 0,
+    "allAssignedPixelsInsideRect": true
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "rootPixels": [
+    320,
+    320
+  ],
+  "eyePixels": [
+    440,
+    300
+  ],
+  "displaySize": [
+    196.41943734015345,
+    196.41943734015345
+  ],
+  "bodyDisplayBox": [
+    120,
+    80
+  ],
+  "uniformDisplayScale": 0.3069053708439898,
+  "scaleReference": "rest frame00 native visible box",
+  "registeredAlphaBBox": [
+    138,
+    162,
+    494,
+    426
+  ],
+  "registeredMinMargin": 0.215625,
+  "status": "producer_candidate_pending_root_visual",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+  "clipDensityAdjustment": null,
+  "producerLightDarkStillReview": "viewed_candidate_pass"
+}

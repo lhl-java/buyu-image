@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-28T04:41:09.7152809-04:00",
+  "project": "捕鱼·道家Q版",
+  "scope": "Readiness-only video route recheck and research of raster-preserving mesh animation; no media generated, no paid call, no upload, no project asset modified.",
+  "remainingMotion": {
+    "fishAndBossActions": 78,
+    "guideActions": 3,
+    "total": 81,
+    "status": "pending_video_capability"
+  },
+  "hostTools": {
+    "imageGenerate": true,
+    "imageEdit": true,
+    "nativeImageToVideo": false,
+    "discovery": "Enabled tool metadata scan found no non-pet image-to-video or general video generation tool."
+  },
+  "doctor": {
+    "file": "docs/media-doctor-20261028.json",
+    "version": "0.4.0",
+    "overall": "WARN",
+    "videoRoute": "none",
+    "videoOptions": [],
+    "clipProcessing": "FFmpeg 9.0.2 available for supplied clips",
+    "warnings": [
+      {
+        "id": "python.path",
+        "detail": "Other Python installations are on PATH. Use the configured Forge runner and isolated Python 3.12."
+      }
+    ]
+  },
+  "resolve": {
+    "command": "forge.ps1 generate2dmedia route_media.py resolve --kind video",
+    "status": "no-route",
+    "fallback": "codeart2d",
+    "runnerExitCodeObserved": 1,
+    "documentedNoRouteExitCode": 3,
+    "notes": "Status JSON is authoritative for absence of a route; PowerShell runner returned exit 1 rather than documented raw-script exit 3.",
+    "skipped": [
+      "api:xai: no XAI_API_KEY in environment or user config",
+      "api:byteplus: no ARK_API_KEY in environment or user config",
+      "api:fal: no FAL_KEY in environment or user config",
+      "local:grok-acp: Grok Build CLI not installed on PATH or in GROK_HOME/bin"
+    ]
+  },
+  "configuration": {
+    "userForgeConfigExists": false,
+    "providerEnvironmentPresence": {
+      "XAI_API_KEY": false,
+      "ARK_API_KEY": false,
+      "FAL_KEY": false
+    },
+    "grokCommandAvailable": false,
+    "fakeRouteOverridePresent": false,
+    "credentialValuesReadOrPrinted": false
+  },
+  "suppliedMotion": {
+    "incomingVideoFilesFound": 0,
+    "scannedRoot": "references/incoming",
+    "extensions": [
+      "mp4",
+      "webm",
+      "mov",
+      "gif",
+      "avi"
+    ]
+  },
+  "browser": {
+    "checked": false,
+    "reason": "No existing web subscription or entitlement was inferred from API/CLI checks. No browser login, install, purchase or generation was performed."
+  },
+  "authorization": {
+    "paidRouteSelectedForTask": false,
+    "policy": "User/project AGENTS requires explicit choice of a separately billed API/CLI route. Skill language treating a configured key as consent does not override this.",
+    "credentialOrSubscriptionChangesMade": false
+  },
+  "installedRigAssessment": {
+    "script": "C:/Users/luyua/.codex/skills/codeart2d/scripts/rig_animate.py",
+    "reference": "C:/Users/luyua/.codex/skills/codeart2d/references/rig-animation.md",
+    "readyForCurrentHdRasterMasters": false,
+    "verifiedReasons": [
+      "Rig slots are authored SVG rect/circle/ellipse/line/polyline/polygon/path shapes, not raster attachments.",
+      "Portable rig format explicitly rejects SVG <image>.",
+      "The reference describes small code-art characters around 48 visible pixels and says painterly, identity-rich or large characters belong to the image route.",
+      "Current project calls for native hand-painted HD detail and prohibits substituting program-drawn detail."
+    ],
+    "newCodeArtMade": false
+  },
+  "rasterMeshAlternative": {
+    "status": "feasible_technique_not_implemented_or_accepted",
+    "artSource": "existing generated PNG texture, with explicitly recorded derived skeletal/mesh animation; no new image or video model claim",
+    "sourceEvidence": [
+      {
+        "title": "Spine Mesh attachments official user guide",
+        "url": "https://en.esotericsoftware.com/spine-meshes",
+        "supports": "Image-textured polygon attachments can deform by moving vertices and weighted bones."
+      },
+      {
+        "title": "Spine Weights official user guide",
+        "url": "https://en.esotericsoftware.com/spine-weights",
+        "supports": "Per-vertex bone influences can automatically deform mesh attachments."
+      }
+    ],
+    "softwareAvailability": "Official guides establish the technique only. Spine installation, licence and export access were not checked or acquired.",
+    "projectSpecificInferences": [
+      "Simple fish could use a locally weighted body/tail chain with the head pinned, plus fin meshes; this differs from translating or rotating the complete PNG.",
+      "Turtles, rays and jellyfish need anatomy-specific fin/flipper/tentacle masks and independent deform controls; one universal sine warp is insufficient evidence of correct action.",
+      "Flattened octopus arms and curled dragon bodies contain overlap; independent moving parts can reveal unpainted hidden pixels, requiring separated/AI-repaired native layers.",
+      "Guide blink, pointing and new hand or sleeve poses need alternate native image content for closed eyelids and newly revealed surfaces; mesh interpolation cannot invent that art.",
+      "Boss tell/attack/recovery and enraged expressions need authored distinct action phases; reusing the swim warp with larger amplitude is not a completed attack.",
+      "Texture deformation preserves the source colour information but resamples it during rendering. It is derived raster animation, not newly generated native detail or a video model output."
+    ],
+    "minimumPrototypePlan": [
+      "Keep one accepted identity master and hash per creature.",
+      "Author explicit head/body/tail/fin mesh boundaries and local weights; pin the identity region and shared root.",
+      "Check no inverted triangles, no silhouette clipping, no alpha holes and no hidden-part exposure.",
+      "Render fixed source canvases, review visible actual appendage movement at game scale over light/dark backgrounds.",
+      "Check loop seam and one-shot recovery and then package frame timing, anchors, source relationships and runtime integration.",
+      "Do not alter existing video-only acceptance status until the replacement art method and each action are actually produced and reviewed."
+    ],
+    "cannotDeclare": [
+      "81 actions complete from parameter files alone",
+      "AI-generated video from procedural mesh output",
+      "Full game art complete from static PNG counts or global sprite transforms"
+    ]
+  },
+  "nextUnblockedWork": [
+    "Complete other independently actionable art gaps identified by the whole-game audit.",
+    "If the user chooses an available video service, provision and verify that route before paid calls, then make one clip per accepted master/action.",
+    "If the user supplies clips, FFmpeg-based matte/registration/loop/export can proceed without a generation account.",
+    "A raster-mesh feasibility prototype may be evaluated separately; it does not resolve all human/boss pose gaps by itself."
+  ],
+  "overall": "No usable video generation route available; current 81 motion items remain unfinished.",
+  "sourcesRead": [
+    "D:/work/image/AGENTS.md",
+    "D:/work/buyu-image/AGENTS.md",
+    "C:/Users/luyua/.codex/skills/video2dsprite/SKILL.md",
+    "C:/Users/luyua/.codex/skills/generate2dmedia/references/local-windows-runtime.md",
+    "C:/Users/luyua/.codex/skills/generate2dmedia/references/route-media.md",
+    "C:/Users/luyua/.codex/skills/codeart2d/SKILL.md",
+    "C:/Users/luyua/.codex/skills/codeart2d/references/rig-animation.md"
+  ],
+  "transientToolAdvertisement": {
+    "observed": true,
+    "date": "2026-10-28",
+    "namespace": "mcp__codex_apps__runway",
+    "event": "Advertised by one incremental tools update, then removed by the next update",
+    "whoamiCalled": false,
+    "generationCalled": false,
+    "authenticationVerified": false,
+    "creditModeVerified": false,
+    "currentlyAvailableInWorker": false,
+    "note": "Earlier08:41 local no-route evidence remains historical. Advertisement alone is not a verified usable video route."
+  },
+  "historicalSnapshot": true,
+  "currentProductionStatus": {
+    "updatedAt": "2026-10-28T20:51:27.456187+00:00",
+    "motionRoute": "builtin_native_AI_frames_user_requested",
+    "exportedCandidateActions": 81,
+    "exportedCandidateFrames": 648,
+    "staticAndFxCandidates": 276,
+    "releaseReadyActions": 0,
+    "videoCapabilityIsCurrentBlocker": false,
+    "UnityProject": "unity/BuyuClient",
+    "UnityImportOrPlaybackRun": false,
+    "currentStatus": "docs/GAME_ART_STATUS.json",
+    "currentMap": "docs/UI_RUNTIME_ART_MAP.md",
+    "currentFrames": "docs/NATIVE_FRAME_PROGRESS.json",
+    "note": "Earlier observations and their original timestamps remain historical; assets added later are not missing merely because this snapshot predates them."
+  }
+}

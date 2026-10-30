@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-05",
+  "name": "21-haiqiu swim 5",
+  "file": "assets/animations/21-haiqiu/swim/frame-05.png",
+  "sha256": "1396ef49d91636c36a511f4a44a24568b51aaa1043ac95e16ce057a52b4e55b0",
+  "width": 844,
+  "height": 844,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/motion-frames-v1/21-haiqiu/swim/21-haiqiu-swim-v2.png",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/21-haiqiu/swim/21-haiqiu-swim-v2.png",
+      "sha256": "a44cc9f7993f7feb137726037a284dc2d69f93eb219d1079b6ebc9583e29bb95",
+      "generationRecord": "designs/motion-frames-v1/21-haiqiu/swim/21-haiqiu-swim-v2.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+    "nominalGrid": {
+      "cols": 4,
+      "rows": 2
+    },
+    "nominalGridRect": [
+      444,
+      444,
+      887,
+      887
+    ],
+    "sourceRect": [
+      487,
+      524,
+      891,
+      782
+    ],
+    "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+    "ownershipPixelCount": 60994,
+    "alphaCleanup": "Only alpha<=3 set to0",
+    "resized": false,
+    "upscaled": false,
+    "rotated": false,
+    "registrationOffset": [
+      263,
+      275
+    ],
+    "registeredCanvas": [
+      844,
+      844
+    ],
+    "registrationReference": {
+      "type": "largest round dark eye component inside fixed local head ROI; manually review landmark contact",
+      "sourcePointGlobal": [
+        814.0090361445783,
+        599.3253012048193
+      ],
+      "sourcePointLocal": [
+        327.0090361445783,
+        75.32530120481931
+      ],
+      "targetPoint": [
+        590,
+        350
+      ],
+      "rounding": "nearest integer",
+      "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+    },
+    "sourcePixelsRoundTripVerified": true,
+    "newNativeDetailClaimed": false
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "rootPixels": [
+    422,
+    422
+  ],
+  "landmarkPixels": [
+    590,
+    350
+  ],
+  "registeredAlphaBBox": [
+    263,
+    275,
+    667,
+    533
+  ],
+  "registeredMinMargin": 0.20971563981042654,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+  "animation": {
+    "id": "21-haiqiu/swim",
+    "frames": 8,
+    "fps": 12,
+    "loop": true,
+    "order": "row-major",
+    "durationsMs": [
+      83,
+      84,
+      83,
+      83,
+      84,
+      83,
+      83,
+      84
+    ],
+    "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+    "root": [
+      0.5,
+      0.5
+    ],
+    "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+    "identityStatus": "pending_root_visual",
+    "motionStatus": "pending_root_visual",
+    "loopVisualStatus": "pending_root_playback",
+    "sourceRoute": "builtin_native_AI_sheet_user_requested"
+  },
+  "status": "producer_candidate_pending_root_registered_review",
+  "targetBodyBox": [
+    180,
+    130
+  ],
+  "uniformDisplayScale": 0.44226044226044225,
+  "displaySize": [
+    373.26781326781327,
+    373.26781326781327
+  ],
+  "bodyDisplayBox": [
+    180,
+    130
+  ],
+  "displaySizing": {
+    "preserveAspect": true,
+    "uniformScaleAcrossAction": true,
+    "upscalingAllowed": false
+  },
+  "displayScaleReference": {
+    "restNativeVisibleBox": [
+      407,
+      255
+    ],
+    "fitMaxBox": [
+      180,
+      130
+    ],
+    "method": "one rest-frame solid anatomical silhouette scale reused for all8frames",
+    "upscaling": false
+  }
+}

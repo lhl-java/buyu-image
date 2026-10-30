@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-26",
+  "scenes": [
+    {
+      "id": "scene-shallow",
+      "file": "assets/scenes/scene-shallow/scene-shallow.png",
+      "size": [
+        1672,
+        941
+      ],
+      "metadata": "assets/scenes/scene-shallow/scene.json"
+    },
+    {
+      "id": "scene-coral",
+      "file": "assets/scenes/scene-coral/scene-coral.png",
+      "size": [
+        1672,
+        941
+      ],
+      "metadata": "assets/scenes/scene-coral/scene.json"
+    },
+    {
+      "id": "scene-deep",
+      "file": "assets/scenes/scene-deep/scene-deep.png",
+      "size": [
+        1672,
+        941
+      ],
+      "metadata": "assets/scenes/scene-deep/scene.json"
+    },
+    {
+      "id": "scene-palace",
+      "file": "assets/scenes/scene-palace/scene-palace.png",
+      "size": [
+        1672,
+        941
+      ],
+      "metadata": "assets/scenes/scene-palace/scene.json"
+    }
+  ],
+  "portraitManifest": "assets/characters/portraits/manifest.json",
+  "portraits": [
+    {
+      "id": "fisher",
+      "file": "assets/characters/portraits/fisher.png",
+      "width": 420,
+      "height": 403,
+      "sha256": "a07f4ce63cf9e228ab00a43a5e1c80d705dce9720ac181a9fda8f5b0f6485f47"
+    },
+    {
+      "id": "healer",
+      "file": "assets/characters/portraits/healer.png",
+      "width": 439,
+      "height": 421,
+      "sha256": "f818b7650eaf876826a94504d1ac94181942b78e5ec35dd8d9a6b2cdce200173"
+    },
+    {
+      "id": "navigator",
+      "file": "assets/characters/portraits/navigator.png",
+      "width": 429,
+      "height": 420,
+      "sha256": "9c05d65c5c78dfa12770ba47dd3fb4521c22e352e5939214bb5246d365d6faed"
+    },
+    {
+      "id": "merchant",
+      "file": "assets/characters/portraits/merchant.png",
+      "width": 452,
+      "height": 413,
+      "sha256": "886b9aea8d94df6739dc60a93976bc3504947302f6db1996e5d42691ba116b1b"
+    },
+    {
+      "id": "guide",
+      "file": "assets/characters/portraits/guide.png",
+      "width": 377,
+      "height": 424,
+      "sha256": "42619603e8c753d2236fd567714ade31978f5cc7158ac6f8269ea07ba081fc4c"
+    },
+    {
+      "id": "elder",
+      "file": "assets/characters/portraits/elder.png",
+      "width": 462,
+      "height": 436,
+      "sha256": "bc7d3ebe00e979dc623b47f1906fb512df1f7981184ab64ca88cf960f0f57c40"
+    }
+  ],
+  "portraitFinalWarnings": [],
+  "historicalPortraitWarnings": "Recorded in original portraits.png.generation.json; corrected by native AI spacing edit.",
+  "resampled": false,
+  "route": "builtin image_gen",
+  "actualModel": null,
+  "actualQuality": null,
+  "sceneReview": "All four pure environments checked, no fish/actors/UI/cannon/text; region structure distinct. Deep uses corrected scene-deep-v2 source.",
+  "status": "static_assets_prepared_visual_reviewed_pending_user_review"
+}

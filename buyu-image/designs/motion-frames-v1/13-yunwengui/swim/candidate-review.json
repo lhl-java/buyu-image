@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-28T16:07:38.105286+00:00",
+  "status": "producer_candidate_pending_root_registered_review",
+  "manifest": "assets/animations/13-yunwengui/swim/manifest.json",
+  "sourceLightAndDarkActuallyInspected": true,
+  "registeredLightAndDarkActuallyInspected": true,
+  "registeredVisualObservation": "浅底和深底注册联系表均已实看。8帧边缘完整，未见跨格或不透明底；眼点固定后上下排布局位移已消除。前鳍伸展/折叠变化可见，头颈与甲壳仍有细微形状变化，3到4过渡偏急。尚未进行实时循环播放，不通过整体动作或刚体稳定性终审。",
+  "actualMotionObservation": "Near foreflipper changes broad open left/down/right reach across0–3 and narrow folded recovery across4–7. Rear flippers alter angles. Tail changes subtly. No frame duplicated as final.",
+  "warnings": [
+    {
+      "id": "source_margin_lt_12pct",
+      "severity": "source_gate_fail",
+      "details": [
+        {
+          "id": "source_cell_margin",
+          "sourceFrame": 0,
+          "value": 0.06756756756756757,
+          "threshold": 0.12
+        },
+        {
+          "id": "source_cell_margin",
+          "sourceFrame": 1,
+          "value": 0.05855855855855856,
+          "threshold": 0.12
+        },
+        {
+          "id": "source_cell_margin",
+          "sourceFrame": 2,
+          "value": 0.06531531531531531,
+          "threshold": 0.12
+        },
+        {
+          "id": "source_cell_margin",
+          "sourceFrame": 3,
+          "value": 0.0472972972972973,
+          "threshold": 0.12
+        },
+        {
+          "id": "source_cell_margin",
+          "sourceFrame": 4,
+          "value": 0.05405405405405406,
+          "threshold": 0.12
+        },
+        {
+          "id": "source_cell_margin",
+          "sourceFrame": 5,
+          "value": 0.07207207207207207,
+          "threshold": 0.12
+        },
+        {
+          "id": "source_cell_margin",
+          "sourceFrame": 6,
+          "value": 0.06531531531531531,
+          "threshold": 0.12
+        },
+        {
+          "id": "source_cell_margin",
+          "sourceFrame": 7,
+          "value": 0.0472972972972973,
+          "threshold": 0.12
+        }
+      ],
+      "note": "Runtime transparent padding satisfies export margins but does not make the native source-margin gate pass."
+    },
+    {
+      "id": "source_core_shape_drift",
+      "severity": "pending_visual_review",
+      "note": "Source pupils varied by approximately 13px horizontally and 51px vertically. Integer eye registration removes layout displacement; neck/head/shell contour variation remains a review item."
+    },
+    {
+      "id": "stroke_transition_3_to_4",
+      "severity": "pending_motion_review",
+      "note": "Foreflipper changes from broad forward reach to folded downward recovery; visually distinct but transition remains abrupt at the source contact-sheet review."
+    },
+    {
+      "id": "loop_transition_7_to_0",
+      "severity": "pending_playback",
+      "note": "Final folded fin differs from first open fin; exact loop smoothness has not been played back during local heavy-job hold."
+    }
+  ],
+  "candidateMinMargin": 0.13410596026490065,
+  "noResampling": true,
+  "allNativePixelsAboveAlpha3Preserved": true,
+  "renderTestsBrowserAtlasUnityRun": false,
+  "note": "This producer review does not pass identity, body rigidity or loop playback. Coordinator review required before expanding the fish batch."
+}

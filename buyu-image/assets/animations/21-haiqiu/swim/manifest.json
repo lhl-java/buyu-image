@@ -1,0 +1,1920 @@
+{
+  "schemaVersion": 1,
+  "source": "designs/motion-frames-v1/21-haiqiu/swim/21-haiqiu-swim-v2.png",
+  "sourceWidth": 1774,
+  "sourceHeight": 887,
+  "sourceSha256": "a44cc9f7993f7feb137726037a284dc2d69f93eb219d1079b6ebc9583e29bb95",
+  "output": "assets/animations/21-haiqiu/swim",
+  "items": [
+    {
+      "schemaVersion": 1,
+      "id": "frame-00",
+      "name": "21-haiqiu swim 0",
+      "file": "assets/animations/21-haiqiu/swim/frame-00.png",
+      "sha256": "6b359c04b2c1bb4b535e9a1c3910c45e58ca26070e2cf4b99f3b635469d1e241",
+      "width": 844,
+      "height": 844,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/21-haiqiu/swim/21-haiqiu-swim-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/21-haiqiu/swim/21-haiqiu-swim-v2.png",
+          "sha256": "a44cc9f7993f7feb137726037a284dc2d69f93eb219d1079b6ebc9583e29bb95",
+          "generationRecord": "designs/motion-frames-v1/21-haiqiu/swim/21-haiqiu-swim-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+        "nominalGrid": {
+          "cols": 4,
+          "rows": 2
+        },
+        "nominalGridRect": [
+          0,
+          0,
+          444,
+          444
+        ],
+        "sourceRect": [
+          30,
+          138,
+          442,
+          396
+        ],
+        "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+        "ownershipPixelCount": 62318,
+        "alphaCleanup": "Only alpha<=3 set to0",
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "registrationOffset": [
+          261,
+          273
+        ],
+        "registeredCanvas": [
+          844,
+          844
+        ],
+        "registrationReference": {
+          "type": "largest round dark eye component inside fixed local head ROI; manually review landmark contact",
+          "sourcePointGlobal": [
+            359.1932773109244,
+            214.57703081232492
+          ],
+          "sourcePointLocal": [
+            329.1932773109244,
+            76.57703081232492
+          ],
+          "targetPoint": [
+            590,
+            350
+          ],
+          "rounding": "nearest integer",
+          "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+        },
+        "sourcePixelsRoundTripVerified": true,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        422,
+        422
+      ],
+      "landmarkPixels": [
+        590,
+        350
+      ],
+      "registeredAlphaBBox": [
+        261,
+        273,
+        673,
+        531
+      ],
+      "registeredMinMargin": 0.20260663507109006,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+      "animation": {
+        "id": "21-haiqiu/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+        "identityStatus": "pending_root_visual",
+        "motionStatus": "pending_root_visual",
+        "loopVisualStatus": "pending_root_playback",
+        "sourceRoute": "builtin_native_AI_sheet_user_requested"
+      },
+      "status": "accepted_first_release_art",
+      "targetBodyBox": [
+        180,
+        130
+      ],
+      "uniformDisplayScale": 0.44226044226044225,
+      "displaySize": [
+        373.26781326781327,
+        373.26781326781327
+      ],
+      "bodyDisplayBox": [
+        180,
+        130
+      ],
+      "displaySizing": {
+        "preserveAspect": true,
+        "uniformScaleAcrossAction": true,
+        "upscalingAllowed": false
+      },
+      "displayScaleReference": {
+        "restNativeVisibleBox": [
+          407,
+          255
+        ],
+        "fitMaxBox": [
+          180,
+          130
+        ],
+        "method": "one rest-frame solid anatomical silhouette scale reused for all8frames",
+        "upscaling": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-01",
+      "name": "21-haiqiu swim 1",
+      "file": "assets/animations/21-haiqiu/swim/frame-01.png",
+      "sha256": "cb5a8591e0ae450e68a1d483c495d84566fc2e338e8b6356ae0e0196943866b3",
+      "width": 844,
+      "height": 844,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/21-haiqiu/swim/21-haiqiu-swim-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/21-haiqiu/swim/21-haiqiu-swim-v2.png",
+          "sha256": "a44cc9f7993f7feb137726037a284dc2d69f93eb219d1079b6ebc9583e29bb95",
+          "generationRecord": "designs/motion-frames-v1/21-haiqiu/swim/21-haiqiu-swim-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+        "nominalGrid": {
+          "cols": 4,
+          "rows": 2
+        },
+        "nominalGridRect": [
+          444,
+          0,
+          887,
+          444
+        ],
+        "sourceRect": [
+          480,
+          135,
+          885,
+          395
+        ],
+        "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+        "ownershipPixelCount": 61745,
+        "alphaCleanup": "Only alpha<=3 set to0",
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "registrationOffset": [
+          265,
+          271
+        ],
+        "registeredCanvas": [
+          844,
+          844
+        ],
+        "registrationReference": {
+          "type": "largest round dark eye component inside fixed local head ROI; manually review landmark contact",
+          "sourcePointGlobal": [
+            804.6975476839237,
+            213.91280653950955
+          ],
+          "sourcePointLocal": [
+            324.69754768392374,
+            78.91280653950955
+          ],
+          "targetPoint": [
+            590,
+            350
+          ],
+          "rounding": "nearest integer",
+          "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+        },
+        "sourcePixelsRoundTripVerified": true,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        422,
+        422
+      ],
+      "landmarkPixels": [
+        590,
+        350
+      ],
+      "registeredAlphaBBox": [
+        265,
+        271,
+        670,
+        531
+      ],
+      "registeredMinMargin": 0.20616113744075829,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+      "animation": {
+        "id": "21-haiqiu/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+        "identityStatus": "pending_root_visual",
+        "motionStatus": "pending_root_visual",
+        "loopVisualStatus": "pending_root_playback",
+        "sourceRoute": "builtin_native_AI_sheet_user_requested"
+      },
+      "status": "accepted_first_release_art",
+      "targetBodyBox": [
+        180,
+        130
+      ],
+      "uniformDisplayScale": 0.44226044226044225,
+      "displaySize": [
+        373.26781326781327,
+        373.26781326781327
+      ],
+      "bodyDisplayBox": [
+        180,
+        130
+      ],
+      "displaySizing": {
+        "preserveAspect": true,
+        "uniformScaleAcrossAction": true,
+        "upscalingAllowed": false
+      },
+      "displayScaleReference": {
+        "restNativeVisibleBox": [
+          407,
+          255
+        ],
+        "fitMaxBox": [
+          180,
+          130
+        ],
+        "method": "one rest-frame solid anatomical silhouette scale reused for all8frames",
+        "upscaling": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-02",
+      "name": "21-haiqiu swim 2",
+      "file": "assets/animations/21-haiqiu/swim/frame-02.png",
+      "sha256": "25f7fea832285ed99570f02f73d9a92907d493edb4bd8ae1d595829c792d00a2",
+      "width": 844,
+      "height": 844,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/21-haiqiu/swim/21-haiqiu-swim-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/21-haiqiu/swim/21-haiqiu-swim-v2.png",
+          "sha256": "a44cc9f7993f7feb137726037a284dc2d69f93eb219d1079b6ebc9583e29bb95",
+          "generationRecord": "designs/motion-frames-v1/21-haiqiu/swim/21-haiqiu-swim-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+        "nominalGrid": {
+          "cols": 4,
+          "rows": 2
+        },
+        "nominalGridRect": [
+          887,
+          0,
+          1330,
+          444
+        ],
+        "sourceRect": [
+          906,
+          132,
+          1318,
+          395
+        ],
+        "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+        "ownershipPixelCount": 63429,
+        "alphaCleanup": "Only alpha<=3 set to0",
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "registrationOffset": [
+          260,
+          269
+        ],
+        "registeredCanvas": [
+          844,
+          844
+        ],
+        "registrationReference": {
+          "type": "largest round dark eye component inside fixed local head ROI; manually review landmark contact",
+          "sourcePointGlobal": [
+            1236.252808988764,
+            212.99719101123594
+          ],
+          "sourcePointLocal": [
+            330.25280898876395,
+            80.99719101123594
+          ],
+          "targetPoint": [
+            590,
+            350
+          ],
+          "rounding": "nearest integer",
+          "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+        },
+        "sourcePixelsRoundTripVerified": true,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        422,
+        422
+      ],
+      "landmarkPixels": [
+        590,
+        350
+      ],
+      "registeredAlphaBBox": [
+        260,
+        269,
+        672,
+        532
+      ],
+      "registeredMinMargin": 0.2037914691943128,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+      "animation": {
+        "id": "21-haiqiu/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+        "identityStatus": "pending_root_visual",
+        "motionStatus": "pending_root_visual",
+        "loopVisualStatus": "pending_root_playback",
+        "sourceRoute": "builtin_native_AI_sheet_user_requested"
+      },
+      "status": "accepted_first_release_art",
+      "targetBodyBox": [
+        180,
+        130
+      ],
+      "uniformDisplayScale": 0.44226044226044225,
+      "displaySize": [
+        373.26781326781327,
+        373.26781326781327
+      ],
+      "bodyDisplayBox": [
+        180,
+        130
+      ],
+      "displaySizing": {
+        "preserveAspect": true,
+        "uniformScaleAcrossAction": true,
+        "upscalingAllowed": false
+      },
+      "displayScaleReference": {
+        "restNativeVisibleBox": [
+          407,
+          255
+        ],
+        "fitMaxBox": [
+          180,
+          130
+        ],
+        "method": "one rest-frame solid anatomical silhouette scale reused for all8frames",
+        "upscaling": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-03",
+      "name": "21-haiqiu swim 3",
+      "file": "assets/animations/21-haiqiu/swim/frame-03.png",
+      "sha256": "31286d461267d7cb434d2aa40797553d47b8849286e6e8882fe6b7da53622bcc",
+      "width": 844,
+      "height": 844,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/21-haiqiu/swim/21-haiqiu-swim-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/21-haiqiu/swim/21-haiqiu-swim-v2.png",
+          "sha256": "a44cc9f7993f7feb137726037a284dc2d69f93eb219d1079b6ebc9583e29bb95",
+          "generationRecord": "designs/motion-frames-v1/21-haiqiu/swim/21-haiqiu-swim-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+        "nominalGrid": {
+          "cols": 4,
+          "rows": 2
+        },
+        "nominalGridRect": [
+          1330,
+          0,
+          1774,
+          444
+        ],
+        "sourceRect": [
+          1341,
+          143,
+          1754,
+          392
+        ],
+        "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+        "ownershipPixelCount": 61733,
+        "alphaCleanup": "Only alpha<=3 set to0",
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "registrationOffset": [
+          255,
+          277
+        ],
+        "registeredCanvas": [
+          844,
+          844
+        ],
+        "registrationReference": {
+          "type": "largest round dark eye component inside fixed local head ROI; manually review landmark contact",
+          "sourcePointGlobal": [
+            1675.9563953488373,
+            216.44767441860466
+          ],
+          "sourcePointLocal": [
+            334.9563953488373,
+            73.44767441860466
+          ],
+          "targetPoint": [
+            590,
+            350
+          ],
+          "rounding": "nearest integer",
+          "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+        },
+        "sourcePixelsRoundTripVerified": true,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        422,
+        422
+      ],
+      "landmarkPixels": [
+        590,
+        350
+      ],
+      "registeredAlphaBBox": [
+        255,
+        277,
+        668,
+        526
+      ],
+      "registeredMinMargin": 0.20853080568720378,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+      "animation": {
+        "id": "21-haiqiu/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+        "identityStatus": "pending_root_visual",
+        "motionStatus": "pending_root_visual",
+        "loopVisualStatus": "pending_root_playback",
+        "sourceRoute": "builtin_native_AI_sheet_user_requested"
+      },
+      "status": "accepted_first_release_art",
+      "targetBodyBox": [
+        180,
+        130
+      ],
+      "uniformDisplayScale": 0.44226044226044225,
+      "displaySize": [
+        373.26781326781327,
+        373.26781326781327
+      ],
+      "bodyDisplayBox": [
+        180,
+        130
+      ],
+      "displaySizing": {
+        "preserveAspect": true,
+        "uniformScaleAcrossAction": true,
+        "upscalingAllowed": false
+      },
+      "displayScaleReference": {
+        "restNativeVisibleBox": [
+          407,
+          255
+        ],
+        "fitMaxBox": [
+          180,
+          130
+        ],
+        "method": "one rest-frame solid anatomical silhouette scale reused for all8frames",
+        "upscaling": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-04",
+      "name": "21-haiqiu swim 4",
+      "file": "assets/animations/21-haiqiu/swim/frame-04.png",
+      "sha256": "7b20d991c06891c4a770cb2f1f1929e083e45168d9d2327c0cb5c11871868d20",
+      "width": 844,
+      "height": 844,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/21-haiqiu/swim/21-haiqiu-swim-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/21-haiqiu/swim/21-haiqiu-swim-v2.png",
+          "sha256": "a44cc9f7993f7feb137726037a284dc2d69f93eb219d1079b6ebc9583e29bb95",
+          "generationRecord": "designs/motion-frames-v1/21-haiqiu/swim/21-haiqiu-swim-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+        "nominalGrid": {
+          "cols": 4,
+          "rows": 2
+        },
+        "nominalGridRect": [
+          0,
+          444,
+          444,
+          887
+        ],
+        "sourceRect": [
+          23,
+          519,
+          450,
+          784
+        ],
+        "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+        "ownershipPixelCount": 63310,
+        "alphaCleanup": "Only alpha<=3 set to0",
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "registrationOffset": [
+          240,
+          266
+        ],
+        "registeredCanvas": [
+          844,
+          844
+        ],
+        "registrationReference": {
+          "type": "largest round dark eye component inside fixed local head ROI; manually review landmark contact",
+          "sourcePointGlobal": [
+            373.0952380952381,
+            602.5952380952381
+          ],
+          "sourcePointLocal": [
+            350.0952380952381,
+            83.59523809523807
+          ],
+          "targetPoint": [
+            590,
+            350
+          ],
+          "rounding": "nearest integer",
+          "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+        },
+        "sourcePixelsRoundTripVerified": true,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        422,
+        422
+      ],
+      "landmarkPixels": [
+        590,
+        350
+      ],
+      "registeredAlphaBBox": [
+        240,
+        266,
+        667,
+        531
+      ],
+      "registeredMinMargin": 0.20971563981042654,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+      "animation": {
+        "id": "21-haiqiu/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+        "identityStatus": "pending_root_visual",
+        "motionStatus": "pending_root_visual",
+        "loopVisualStatus": "pending_root_playback",
+        "sourceRoute": "builtin_native_AI_sheet_user_requested"
+      },
+      "status": "accepted_first_release_art",
+      "targetBodyBox": [
+        180,
+        130
+      ],
+      "uniformDisplayScale": 0.44226044226044225,
+      "displaySize": [
+        373.26781326781327,
+        373.26781326781327
+      ],
+      "bodyDisplayBox": [
+        180,
+        130
+      ],
+      "displaySizing": {
+        "preserveAspect": true,
+        "uniformScaleAcrossAction": true,
+        "upscalingAllowed": false
+      },
+      "displayScaleReference": {
+        "restNativeVisibleBox": [
+          407,
+          255
+        ],
+        "fitMaxBox": [
+          180,
+          130
+        ],
+        "method": "one rest-frame solid anatomical silhouette scale reused for all8frames",
+        "upscaling": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-05",
+      "name": "21-haiqiu swim 5",
+      "file": "assets/animations/21-haiqiu/swim/frame-05.png",
+      "sha256": "1396ef49d91636c36a511f4a44a24568b51aaa1043ac95e16ce057a52b4e55b0",
+      "width": 844,
+      "height": 844,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/21-haiqiu/swim/21-haiqiu-swim-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/21-haiqiu/swim/21-haiqiu-swim-v2.png",
+          "sha256": "a44cc9f7993f7feb137726037a284dc2d69f93eb219d1079b6ebc9583e29bb95",
+          "generationRecord": "designs/motion-frames-v1/21-haiqiu/swim/21-haiqiu-swim-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+        "nominalGrid": {
+          "cols": 4,
+          "rows": 2
+        },
+        "nominalGridRect": [
+          444,
+          444,
+          887,
+          887
+        ],
+        "sourceRect": [
+          487,
+          524,
+          891,
+          782
+        ],
+        "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+        "ownershipPixelCount": 60994,
+        "alphaCleanup": "Only alpha<=3 set to0",
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "registrationOffset": [
+          263,
+          275
+        ],
+        "registeredCanvas": [
+          844,
+          844
+        ],
+        "registrationReference": {
+          "type": "largest round dark eye component inside fixed local head ROI; manually review landmark contact",
+          "sourcePointGlobal": [
+            814.0090361445783,
+            599.3253012048193
+          ],
+          "sourcePointLocal": [
+            327.0090361445783,
+            75.32530120481931
+          ],
+          "targetPoint": [
+            590,
+            350
+          ],
+          "rounding": "nearest integer",
+          "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+        },
+        "sourcePixelsRoundTripVerified": true,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        422,
+        422
+      ],
+      "landmarkPixels": [
+        590,
+        350
+      ],
+      "registeredAlphaBBox": [
+        263,
+        275,
+        667,
+        533
+      ],
+      "registeredMinMargin": 0.20971563981042654,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+      "animation": {
+        "id": "21-haiqiu/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+        "identityStatus": "pending_root_visual",
+        "motionStatus": "pending_root_visual",
+        "loopVisualStatus": "pending_root_playback",
+        "sourceRoute": "builtin_native_AI_sheet_user_requested"
+      },
+      "status": "accepted_first_release_art",
+      "targetBodyBox": [
+        180,
+        130
+      ],
+      "uniformDisplayScale": 0.44226044226044225,
+      "displaySize": [
+        373.26781326781327,
+        373.26781326781327
+      ],
+      "bodyDisplayBox": [
+        180,
+        130
+      ],
+      "displaySizing": {
+        "preserveAspect": true,
+        "uniformScaleAcrossAction": true,
+        "upscalingAllowed": false
+      },
+      "displayScaleReference": {
+        "restNativeVisibleBox": [
+          407,
+          255
+        ],
+        "fitMaxBox": [
+          180,
+          130
+        ],
+        "method": "one rest-frame solid anatomical silhouette scale reused for all8frames",
+        "upscaling": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-06",
+      "name": "21-haiqiu swim 6",
+      "file": "assets/animations/21-haiqiu/swim/frame-06.png",
+      "sha256": "601a92bab60dcc3c4c969c72b7a0e98d112402999ff9ce804d7a73163775a156",
+      "width": 844,
+      "height": 844,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/21-haiqiu/swim/21-haiqiu-swim-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/21-haiqiu/swim/21-haiqiu-swim-v2.png",
+          "sha256": "a44cc9f7993f7feb137726037a284dc2d69f93eb219d1079b6ebc9583e29bb95",
+          "generationRecord": "designs/motion-frames-v1/21-haiqiu/swim/21-haiqiu-swim-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+        "nominalGrid": {
+          "cols": 4,
+          "rows": 2
+        },
+        "nominalGridRect": [
+          887,
+          444,
+          1330,
+          887
+        ],
+        "sourceRect": [
+          919,
+          522,
+          1323,
+          787
+        ],
+        "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+        "ownershipPixelCount": 61744,
+        "alphaCleanup": "Only alpha<=3 set to0",
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "registrationOffset": [
+          267,
+          272
+        ],
+        "registeredCanvas": [
+          844,
+          844
+        ],
+        "registrationReference": {
+          "type": "largest round dark eye component inside fixed local head ROI; manually review landmark contact",
+          "sourcePointGlobal": [
+            1241.8733153638814,
+            600.2614555256065
+          ],
+          "sourcePointLocal": [
+            322.8733153638814,
+            78.2614555256065
+          ],
+          "targetPoint": [
+            590,
+            350
+          ],
+          "rounding": "nearest integer",
+          "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+        },
+        "sourcePixelsRoundTripVerified": true,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        422,
+        422
+      ],
+      "landmarkPixels": [
+        590,
+        350
+      ],
+      "registeredAlphaBBox": [
+        267,
+        272,
+        671,
+        537
+      ],
+      "registeredMinMargin": 0.20497630331753555,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+      "animation": {
+        "id": "21-haiqiu/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+        "identityStatus": "pending_root_visual",
+        "motionStatus": "pending_root_visual",
+        "loopVisualStatus": "pending_root_playback",
+        "sourceRoute": "builtin_native_AI_sheet_user_requested"
+      },
+      "status": "accepted_first_release_art",
+      "targetBodyBox": [
+        180,
+        130
+      ],
+      "uniformDisplayScale": 0.44226044226044225,
+      "displaySize": [
+        373.26781326781327,
+        373.26781326781327
+      ],
+      "bodyDisplayBox": [
+        180,
+        130
+      ],
+      "displaySizing": {
+        "preserveAspect": true,
+        "uniformScaleAcrossAction": true,
+        "upscalingAllowed": false
+      },
+      "displayScaleReference": {
+        "restNativeVisibleBox": [
+          407,
+          255
+        ],
+        "fitMaxBox": [
+          180,
+          130
+        ],
+        "method": "one rest-frame solid anatomical silhouette scale reused for all8frames",
+        "upscaling": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-07",
+      "name": "21-haiqiu swim 7",
+      "file": "assets/animations/21-haiqiu/swim/frame-07.png",
+      "sha256": "2daa60d2c7a92d168a37b5d79eefb1967484d4392a2a2e22caff0364b1c76f3c",
+      "width": 844,
+      "height": 844,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/21-haiqiu/swim/21-haiqiu-swim-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/21-haiqiu/swim/21-haiqiu-swim-v2.png",
+          "sha256": "a44cc9f7993f7feb137726037a284dc2d69f93eb219d1079b6ebc9583e29bb95",
+          "generationRecord": "designs/motion-frames-v1/21-haiqiu/swim/21-haiqiu-swim-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+        "nominalGrid": {
+          "cols": 4,
+          "rows": 2
+        },
+        "nominalGridRect": [
+          1330,
+          444,
+          1774,
+          887
+        ],
+        "sourceRect": [
+          1358,
+          517,
+          1764,
+          787
+        ],
+        "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+        "ownershipPixelCount": 63005,
+        "alphaCleanup": "Only alpha<=3 set to0",
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "registrationOffset": [
+          265,
+          267
+        ],
+        "registeredCanvas": [
+          844,
+          844
+        ],
+        "registrationReference": {
+          "type": "largest round dark eye component inside fixed local head ROI; manually review landmark contact",
+          "sourcePointGlobal": [
+            1683.393351800554,
+            599.9612188365651
+          ],
+          "sourcePointLocal": [
+            325.393351800554,
+            82.96121883656508
+          ],
+          "targetPoint": [
+            590,
+            350
+          ],
+          "rounding": "nearest integer",
+          "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+        },
+        "sourcePixelsRoundTripVerified": true,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        422,
+        422
+      ],
+      "landmarkPixels": [
+        590,
+        350
+      ],
+      "registeredAlphaBBox": [
+        265,
+        267,
+        671,
+        537
+      ],
+      "registeredMinMargin": 0.20497630331753555,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+      "animation": {
+        "id": "21-haiqiu/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+        "identityStatus": "pending_root_visual",
+        "motionStatus": "pending_root_visual",
+        "loopVisualStatus": "pending_root_playback",
+        "sourceRoute": "builtin_native_AI_sheet_user_requested"
+      },
+      "status": "accepted_first_release_art",
+      "targetBodyBox": [
+        180,
+        130
+      ],
+      "uniformDisplayScale": 0.44226044226044225,
+      "displaySize": [
+        373.26781326781327,
+        373.26781326781327
+      ],
+      "bodyDisplayBox": [
+        180,
+        130
+      ],
+      "displaySizing": {
+        "preserveAspect": true,
+        "uniformScaleAcrossAction": true,
+        "upscalingAllowed": false
+      },
+      "displayScaleReference": {
+        "restNativeVisibleBox": [
+          407,
+          255
+        ],
+        "fitMaxBox": [
+          180,
+          130
+        ],
+        "method": "one rest-frame solid anatomical silhouette scale reused for all8frames",
+        "upscaling": false
+      }
+    }
+  ],
+  "animation": {
+    "id": "21-haiqiu/swim",
+    "frames": 8,
+    "fps": 12,
+    "loop": true,
+    "order": "row-major",
+    "durationsMs": [
+      83,
+      84,
+      83,
+      83,
+      84,
+      83,
+      83,
+      84
+    ],
+    "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+    "root": [
+      0.5,
+      0.5
+    ],
+    "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+    "identityStatus": "pending_root_visual",
+    "motionStatus": "pending_root_visual",
+    "loopVisualStatus": "pending_root_playback",
+    "sourceRoute": "builtin_native_AI_sheet_user_requested",
+    "releaseReady": true
+  },
+  "sharedCanvas": [
+    844,
+    844
+  ],
+  "rootPixels": [
+    422,
+    422
+  ],
+  "landmarkPixels": [
+    590,
+    350
+  ],
+  "bodyRootEvidence": "One common logical body root relative to registered anatomical eye/bell crown; generated rigidity remains review.",
+  "registration": [
+    {
+      "frame": 0,
+      "sourceRect": [
+        30,
+        138,
+        442,
+        396
+      ],
+      "sourceLandmarkGlobal": [
+        359.1932773109244,
+        214.57703081232492
+      ],
+      "sourceLandmarkLocal": [
+        329.1932773109244,
+        76.57703081232492
+      ],
+      "registrationOffset": [
+        261,
+        273
+      ],
+      "targetLandmark": [
+        590,
+        350
+      ],
+      "bodyRoot": [
+        422,
+        422
+      ],
+      "bbox": [
+        261,
+        273,
+        673,
+        531
+      ],
+      "marginsLTRB": [
+        0.30924170616113744,
+        0.3234597156398104,
+        0.20260663507109006,
+        0.3708530805687204
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 1,
+      "sourceRect": [
+        480,
+        135,
+        885,
+        395
+      ],
+      "sourceLandmarkGlobal": [
+        804.6975476839237,
+        213.91280653950955
+      ],
+      "sourceLandmarkLocal": [
+        324.69754768392374,
+        78.91280653950955
+      ],
+      "registrationOffset": [
+        265,
+        271
+      ],
+      "targetLandmark": [
+        590,
+        350
+      ],
+      "bodyRoot": [
+        422,
+        422
+      ],
+      "bbox": [
+        265,
+        271,
+        670,
+        531
+      ],
+      "marginsLTRB": [
+        0.31398104265402843,
+        0.32109004739336494,
+        0.20616113744075829,
+        0.3708530805687204
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 2,
+      "sourceRect": [
+        906,
+        132,
+        1318,
+        395
+      ],
+      "sourceLandmarkGlobal": [
+        1236.252808988764,
+        212.99719101123594
+      ],
+      "sourceLandmarkLocal": [
+        330.25280898876395,
+        80.99719101123594
+      ],
+      "registrationOffset": [
+        260,
+        269
+      ],
+      "targetLandmark": [
+        590,
+        350
+      ],
+      "bodyRoot": [
+        422,
+        422
+      ],
+      "bbox": [
+        260,
+        269,
+        672,
+        532
+      ],
+      "marginsLTRB": [
+        0.3080568720379147,
+        0.3187203791469194,
+        0.2037914691943128,
+        0.3696682464454976
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 3,
+      "sourceRect": [
+        1341,
+        143,
+        1754,
+        392
+      ],
+      "sourceLandmarkGlobal": [
+        1675.9563953488373,
+        216.44767441860466
+      ],
+      "sourceLandmarkLocal": [
+        334.9563953488373,
+        73.44767441860466
+      ],
+      "registrationOffset": [
+        255,
+        277
+      ],
+      "targetLandmark": [
+        590,
+        350
+      ],
+      "bodyRoot": [
+        422,
+        422
+      ],
+      "bbox": [
+        255,
+        277,
+        668,
+        526
+      ],
+      "marginsLTRB": [
+        0.30213270142180093,
+        0.3281990521327014,
+        0.20853080568720378,
+        0.3767772511848341
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 4,
+      "sourceRect": [
+        23,
+        519,
+        450,
+        784
+      ],
+      "sourceLandmarkGlobal": [
+        373.0952380952381,
+        602.5952380952381
+      ],
+      "sourceLandmarkLocal": [
+        350.0952380952381,
+        83.59523809523807
+      ],
+      "registrationOffset": [
+        240,
+        266
+      ],
+      "targetLandmark": [
+        590,
+        350
+      ],
+      "bodyRoot": [
+        422,
+        422
+      ],
+      "bbox": [
+        240,
+        266,
+        667,
+        531
+      ],
+      "marginsLTRB": [
+        0.2843601895734597,
+        0.31516587677725116,
+        0.20971563981042654,
+        0.3708530805687204
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 5,
+      "sourceRect": [
+        487,
+        524,
+        891,
+        782
+      ],
+      "sourceLandmarkGlobal": [
+        814.0090361445783,
+        599.3253012048193
+      ],
+      "sourceLandmarkLocal": [
+        327.0090361445783,
+        75.32530120481931
+      ],
+      "registrationOffset": [
+        263,
+        275
+      ],
+      "targetLandmark": [
+        590,
+        350
+      ],
+      "bodyRoot": [
+        422,
+        422
+      ],
+      "bbox": [
+        263,
+        275,
+        667,
+        533
+      ],
+      "marginsLTRB": [
+        0.31161137440758296,
+        0.32582938388625593,
+        0.20971563981042654,
+        0.3684834123222749
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 6,
+      "sourceRect": [
+        919,
+        522,
+        1323,
+        787
+      ],
+      "sourceLandmarkGlobal": [
+        1241.8733153638814,
+        600.2614555256065
+      ],
+      "sourceLandmarkLocal": [
+        322.8733153638814,
+        78.2614555256065
+      ],
+      "registrationOffset": [
+        267,
+        272
+      ],
+      "targetLandmark": [
+        590,
+        350
+      ],
+      "bodyRoot": [
+        422,
+        422
+      ],
+      "bbox": [
+        267,
+        272,
+        671,
+        537
+      ],
+      "marginsLTRB": [
+        0.31635071090047395,
+        0.3222748815165877,
+        0.20497630331753555,
+        0.3637440758293839
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 7,
+      "sourceRect": [
+        1358,
+        517,
+        1764,
+        787
+      ],
+      "sourceLandmarkGlobal": [
+        1683.393351800554,
+        599.9612188365651
+      ],
+      "sourceLandmarkLocal": [
+        325.393351800554,
+        82.96121883656508
+      ],
+      "registrationOffset": [
+        265,
+        267
+      ],
+      "targetLandmark": [
+        590,
+        350
+      ],
+      "bodyRoot": [
+        422,
+        422
+      ],
+      "bbox": [
+        265,
+        267,
+        671,
+        537
+      ],
+      "marginsLTRB": [
+        0.31398104265402843,
+        0.31635071090047395,
+        0.20497630331753555,
+        0.3637440758293839
+      ],
+      "pixelsRoundTrip": true
+    }
+  ],
+  "eyeMeasurement": [
+    {
+      "center": [
+        359.1932773109244,
+        214.57703081232492
+      ],
+      "boundsLTRB": [
+        345,
+        205,
+        373,
+        228
+      ],
+      "area": 357,
+      "method": "largest round dark eye component inside fixed local head ROI; manually review landmark contact"
+    },
+    {
+      "center": [
+        804.6975476839237,
+        213.91280653950955
+      ],
+      "boundsLTRB": [
+        790,
+        204,
+        819,
+        226
+      ],
+      "area": 367,
+      "method": "largest round dark eye component inside fixed local head ROI; manually review landmark contact"
+    },
+    {
+      "center": [
+        1236.252808988764,
+        212.99719101123594
+      ],
+      "boundsLTRB": [
+        1225,
+        203,
+        1250,
+        225
+      ],
+      "area": 356,
+      "method": "largest round dark eye component inside fixed local head ROI; manually review landmark contact"
+    },
+    {
+      "center": [
+        1675.9563953488373,
+        216.44767441860466
+      ],
+      "boundsLTRB": [
+        1662,
+        206,
+        1690,
+        231
+      ],
+      "area": 344,
+      "method": "largest round dark eye component inside fixed local head ROI; manually review landmark contact"
+    },
+    {
+      "center": [
+        373.0952380952381,
+        602.5952380952381
+      ],
+      "boundsLTRB": [
+        360,
+        593,
+        386,
+        614
+      ],
+      "area": 336,
+      "method": "largest round dark eye component inside fixed local head ROI; manually review landmark contact"
+    },
+    {
+      "center": [
+        814.0090361445783,
+        599.3253012048193
+      ],
+      "boundsLTRB": [
+        801,
+        590,
+        827,
+        611
+      ],
+      "area": 332,
+      "method": "largest round dark eye component inside fixed local head ROI; manually review landmark contact"
+    },
+    {
+      "center": [
+        1241.8733153638814,
+        600.2614555256065
+      ],
+      "boundsLTRB": [
+        1228,
+        590,
+        1256,
+        612
+      ],
+      "area": 371,
+      "method": "largest round dark eye component inside fixed local head ROI; manually review landmark contact"
+    },
+    {
+      "center": [
+        1683.393351800554,
+        599.9612188365651
+      ],
+      "boundsLTRB": [
+        1669,
+        590,
+        1697,
+        612
+      ],
+      "area": 361,
+      "method": "largest round dark eye component inside fixed local head ROI; manually review landmark contact"
+    }
+  ],
+  "eyeNativeBoxSizes": [
+    [
+      28,
+      23
+    ],
+    [
+      29,
+      22
+    ],
+    [
+      25,
+      22
+    ],
+    [
+      28,
+      25
+    ],
+    [
+      26,
+      21
+    ],
+    [
+      26,
+      21
+    ],
+    [
+      28,
+      22
+    ],
+    [
+      28,
+      22
+    ]
+  ],
+  "sourcePixelOwnership": {
+    "alphaThreshold": 3,
+    "sourcePixels": 498278,
+    "exportedPixels": 498278,
+    "duplicatePixels": 0,
+    "lostPixels": 0,
+    "rgbAndAlphaForOwnedPixelsUnchanged": true
+  },
+  "order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "warnings": [
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 0,
+      "actual": 0.0045045045045045045,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 1,
+      "actual": 0.004514672686230248,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 2,
+      "actual": 0.02708803611738149,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 3,
+      "actual": 0.024774774774774775,
+      "required": 0.12
+    },
+    {
+      "id": "nominal_grid_cross",
+      "frame": 4,
+      "edgeMaxAlpha": 255,
+      "note": "Ownership extraction used; nominal grid crossing alone is not a physical clip."
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 4,
+      "actual": 0.0,
+      "required": 0.12
+    },
+    {
+      "id": "nominal_grid_cross",
+      "frame": 5,
+      "edgeMaxAlpha": 252,
+      "note": "Ownership extraction used; nominal grid crossing alone is not a physical clip."
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 5,
+      "actual": 0.0,
+      "required": 0.12
+    },
+    {
+      "id": "nominal_grid_cross",
+      "frame": 6,
+      "edgeMaxAlpha": 224,
+      "note": "Ownership extraction used; nominal grid crossing alone is not a physical clip."
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 6,
+      "actual": 0.0,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 7,
+      "actual": 0.02252252252252252,
+      "required": 0.12
+    },
+    {
+      "id": "generated_core_shape_and_motion_pending_review",
+      "note": "Long turquoise fin ribbons and gold tendrils deform with caudal flex; capture coils them closer. Tendril identity and head/front-body stability remain review."
+    },
+    {
+      "id": "playback_unverified",
+      "note": "No live loop/single-shot playback during local heavy-job hold; distinct hashes are not motion evidence."
+    }
+  ],
+  "sourceMarginWarnings": [
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 0,
+      "actual": 0.0045045045045045045,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 1,
+      "actual": 0.004514672686230248,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 2,
+      "actual": 0.02708803611738149,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 3,
+      "actual": 0.024774774774774775,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 4,
+      "actual": 0.0,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 5,
+      "actual": 0.0,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 6,
+      "actual": 0.0,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 7,
+      "actual": 0.02252252252252252,
+      "required": 0.12
+    }
+  ],
+  "runtimeMarginWarnings": [],
+  "uniformDisplayScale": 0.44226044226044225,
+  "displaySize": [
+    373.26781326781327,
+    373.26781326781327
+  ],
+  "bodyDisplayBox": [
+    180,
+    130
+  ],
+  "qa": {
+    "technicalAlpha": "true_rgba",
+    "sourceBorderStatus": "ownership_extracted_nominal_grid_crossings_retained_as_warnings",
+    "sourceTotalCanvasStatus": "main_anatomical_components_within_total_canvas",
+    "sourceMarginStatus": "fail_preserved_source_gate",
+    "registeredMarginStatus": "pass",
+    "identityStatus": "candidate_pending_root_visual",
+    "actualMotionStatus": "candidate_visible_articulation_pending_root_visual",
+    "registrationStatus": "integer_landmark_registered_core_shape_pending",
+    "loopPlaybackStatus": "pending_root_playback",
+    "producerStaticVisualInspection": {
+      "sourceSheetActuallyInspected": true,
+      "registeredLightAndDarkActuallyInspected": true,
+      "inspectionType": "static contact sheets, actual generated source and actual exported alpha-composited frames",
+      "lightContact": "designs/motion-frames-v1/21-haiqiu/swim/registered-v2-light.jpg",
+      "darkContact": "designs/motion-frames-v1/21-haiqiu/swim/registered-v2-dark.jpg",
+      "observedArticulation": "Long turquoise fin ribbons and gold tendrils deform with caudal flex; capture coils them closer. Tendril identity and head/front-body stability remain review.",
+      "edgeObservation": "The registered light and dark contacts show complete separate poses without an opaque rectangle or another frame fragment. Source grid / margin warnings are retained.",
+      "livePlaybackActuallyRun": false,
+      "finalArtApproval": false,
+      "inspectedAt": "2026-10-28T20:08:34.651768+00:00",
+      "landmarkCorrection": "Fixed face-only pupil ROI avoids dark camouflage / fin plate false landmarks; native pixels unchanged by integer registration."
+    }
+  },
+  "status": "accepted_first_release_art",
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+  "acceptedAt": "2026-10-30T04:07:09.085600+00:00",
+  "releaseReady": true,
+  "playbackReview": "docs/UNITY_FINAL_ACCEPTANCE.json"
+}

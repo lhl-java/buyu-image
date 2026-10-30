@@ -1,0 +1,367 @@
+{
+  "schemaVersion": 1,
+  "registeredAt": "2026-10-28T16:14:22.383441+00:00",
+  "source": "designs/motion-frames-v1/01-qingqi/swim/01-qingqi-swim-contained-v2.png",
+  "sourceSHA256": "8062b4d48c58d7d0d64f776e24a670ae3b100fe0898208d12132c1d0ba856bfd",
+  "nativeGridFrame": [
+    444,
+    444
+  ],
+  "sharedCanvas": [
+    576,
+    576
+  ],
+  "whyNot512": "512 insufficient; both swim/capture unified576 after capture extreme-pose check, no scale change.",
+  "pupilEvidence": [
+    {
+      "frame": 0,
+      "sourcePupilFloat": [
+        348.868,
+        280.664
+      ],
+      "sourcePupilRounded": [
+        349,
+        281
+      ],
+      "registrationOffset": [
+        19,
+        -5
+      ],
+      "targetPupil": [
+        368,
+        276
+      ],
+      "bodyRoot": [
+        288,
+        288
+      ],
+      "bbox": [
+        107,
+        190,
+        411,
+        388
+      ],
+      "marginsLTRB": [
+        0.1857638888888889,
+        0.3298611111111111,
+        0.2864583333333333,
+        0.3263888888888889
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 1,
+      "sourcePupilFloat": [
+        346.8586206896552,
+        281.15862068965515
+      ],
+      "sourcePupilRounded": [
+        347,
+        281
+      ],
+      "registrationOffset": [
+        21,
+        -5
+      ],
+      "targetPupil": [
+        368,
+        276
+      ],
+      "bodyRoot": [
+        288,
+        288
+      ],
+      "bbox": [
+        95,
+        190,
+        417,
+        388
+      ],
+      "marginsLTRB": [
+        0.16493055555555555,
+        0.3298611111111111,
+        0.2760416666666667,
+        0.3263888888888889
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 2,
+      "sourcePupilFloat": [
+        340.00354609929076,
+        281.1666666666667
+      ],
+      "sourcePupilRounded": [
+        340,
+        281
+      ],
+      "registrationOffset": [
+        28,
+        -5
+      ],
+      "targetPupil": [
+        368,
+        276
+      ],
+      "bodyRoot": [
+        288,
+        288
+      ],
+      "bbox": [
+        94,
+        162,
+        415,
+        397
+      ],
+      "marginsLTRB": [
+        0.16319444444444445,
+        0.28125,
+        0.2795138888888889,
+        0.3107638888888889
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 3,
+      "sourcePupilFloat": [
+        332.34432234432234,
+        281.4908424908425
+      ],
+      "sourcePupilRounded": [
+        332,
+        281
+      ],
+      "registrationOffset": [
+        36,
+        -5
+      ],
+      "targetPupil": [
+        368,
+        276
+      ],
+      "bodyRoot": [
+        288,
+        288
+      ],
+      "bbox": [
+        100,
+        190,
+        416,
+        389
+      ],
+      "marginsLTRB": [
+        0.1736111111111111,
+        0.3298611111111111,
+        0.2777777777777778,
+        0.3246527777777778
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 4,
+      "sourcePupilFloat": [
+        351.59923664122135,
+        193.64885496183206
+      ],
+      "sourcePupilRounded": [
+        352,
+        194
+      ],
+      "registrationOffset": [
+        16,
+        82
+      ],
+      "targetPupil": [
+        368,
+        276
+      ],
+      "bodyRoot": [
+        288,
+        288
+      ],
+      "bbox": [
+        109,
+        191,
+        414,
+        379
+      ],
+      "marginsLTRB": [
+        0.1892361111111111,
+        0.3315972222222222,
+        0.28125,
+        0.3420138888888889
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 5,
+      "sourcePupilFloat": [
+        350.22222222222223,
+        196.25185185185185
+      ],
+      "sourcePupilRounded": [
+        350,
+        196
+      ],
+      "registrationOffset": [
+        18,
+        80
+      ],
+      "targetPupil": [
+        368,
+        276
+      ],
+      "bodyRoot": [
+        288,
+        288
+      ],
+      "bbox": [
+        92,
+        194,
+        415,
+        387
+      ],
+      "marginsLTRB": [
+        0.1597222222222222,
+        0.3368055555555556,
+        0.2795138888888889,
+        0.328125
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 6,
+      "sourcePupilFloat": [
+        348.07421875,
+        199.05859375
+      ],
+      "sourcePupilRounded": [
+        348,
+        199
+      ],
+      "registrationOffset": [
+        20,
+        77
+      ],
+      "targetPupil": [
+        368,
+        276
+      ],
+      "bodyRoot": [
+        288,
+        288
+      ],
+      "bbox": [
+        92,
+        192,
+        412,
+        384
+      ],
+      "marginsLTRB": [
+        0.1597222222222222,
+        0.3333333333333333,
+        0.2847222222222222,
+        0.3333333333333333
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 7,
+      "sourcePupilFloat": [
+        336.9850746268657,
+        195.6902985074627
+      ],
+      "sourcePupilRounded": [
+        337,
+        196
+      ],
+      "registrationOffset": [
+        31,
+        80
+      ],
+      "targetPupil": [
+        368,
+        276
+      ],
+      "bodyRoot": [
+        288,
+        288
+      ],
+      "bbox": [
+        98,
+        193,
+        414,
+        385
+      ],
+      "marginsLTRB": [
+        0.1701388888888889,
+        0.3350694444444444,
+        0.28125,
+        0.3315972222222222
+      ],
+      "pixelsRoundTrip": true
+    }
+  ],
+  "runtimeWarnings": [],
+  "sourceMarginWarnings": [
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 0,
+      "actual": 0.11486486486486487,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 1,
+      "actual": 0.10810810810810811,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 2,
+      "actual": 0.0945945945945946,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 3,
+      "actual": 0.11261261261261261,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 4,
+      "actual": 0.1036036036036036,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 5,
+      "actual": 0.10585585585585586,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 6,
+      "actual": 0.11711711711711711,
+      "required": 0.12
+    }
+  ],
+  "pixelPreservation": "All nonzero source sprite RGBA crop bytes round-trip equal after only alpha<=3 cleanup and integer placement. No interpolation or scaling.",
+  "displaySize": [
+    227.3684210526316,
+    227.3684210526316
+  ],
+  "bodyDisplayBox": [
+    120,
+    80
+  ],
+  "restNativeVisibleBox": [
+    304,
+    198
+  ],
+  "uniformDisplayScale": 0.39473684210526316,
+  "poseCoherence": "root inspected native and light8-frame sample; candidate pass",
+  "producerVisual": "producer_actually_viewed_final_light_dark_and_display_rest_comparison",
+  "playback": "pending_Unity"
+}

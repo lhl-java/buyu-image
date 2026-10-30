@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/motion-frames-v1/31-bingjing/swim/extract-v1-pose-05.png",
+  "sha256": "a8f0b91ee0bfb4154beb9bcd8be2952f172ac0baac4568b80a2a470f14ad5abd",
+  "width": 357,
+  "height": 235,
+  "format": "RGBA PNG",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/31-bingjing/swim/31-bingjing-swim-v1.png",
+      "sha256": "2ed3467823b0bfe0a4851f27b362e18ff21631b6759cdf280dbe5a34f2d19ac1",
+      "generationRecord": "designs/motion-frames-v1/31-bingjing/swim/31-bingjing-swim-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_complete_actor_ownership_crop",
+    "evidence": {
+      "sourceFrame": 5,
+      "file": "designs/motion-frames-v1/31-bingjing/swim/extract-v1-pose-05.png",
+      "sourceRect": [
+        492,
+        560,
+        849,
+        795
+      ],
+      "nominalSourceRect": [
+        444,
+        444,
+        887,
+        887
+      ],
+      "nominalGridCross": false,
+      "nativeVisibleSize": [
+        357,
+        235
+      ],
+      "ownedPixelCount": 38925,
+      "foreignPixelsRemovedFromCrop": 0,
+      "totalCanvasEdgeMaxAlpha": 0,
+      "nativeOwnedPixelsUnchanged": true,
+      "sourceMainAlphaComponent": 88
+    },
+    "alphaCleanup": "alpha<=3 discarded, other owned RGBA unchanged",
+    "resized": false,
+    "upscaled": false,
+    "newNativeDetailClaimed": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "intermediate_pending_semantic_review"
+}

@@ -1,0 +1,1054 @@
+{
+  "schemaVersion": 1,
+  "source": "designs/motion-frames-v1/11-yinlin/capture/11-yinlin-capture-v1.png",
+  "sourceWidth": 1774,
+  "sourceHeight": 887,
+  "output": "assets/animations/11-yinlin/capture",
+  "id": "11-yinlin",
+  "action": "capture",
+  "items": [
+    {
+      "schemaVersion": 1,
+      "id": "frame-00",
+      "file": "assets/animations/11-yinlin/capture/frame-00.png",
+      "sha256": "773f43b3ecbe976258cdca287868b9c47c98f4da0e63d33bc1e1be31881cc5b4",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/11-yinlin/capture/11-yinlin-capture-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/11-yinlin/capture/11-yinlin-capture-v1.png",
+          "sha256": "dfb1785234ed10ab4c99f4ece5429042b76f3ea5e154114a29721259d46fe212",
+          "generationRecord": "designs/motion-frames-v1/11-yinlin/capture/11-yinlin-capture-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          29,
+          178,
+          444,
+          429
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          415,
+          251
+        ],
+        "registrationOffset": [
+          89,
+          192
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            350.62012987012986,
+            107.6233766233766
+          ],
+          "sourcePointRounded": [
+            351,
+            108
+          ],
+          "targetPoint": [
+            440,
+            300
+          ],
+          "method": "RGBmax<55 and A>220 pupil component; restricted to local radius22px and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          0,
+          0,
+          444,
+          444
+        ],
+        "nominalGridBorderAlpha": 1,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        320,
+        320
+      ],
+      "eyePixels": [
+        440,
+        300
+      ],
+      "displaySize": [
+        196.41943734015345,
+        196.41943734015345
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.3069053708439898,
+      "scaleReference": "assets/animations/11-yinlin/swim/manifest.json",
+      "registeredAlphaBBox": [
+        97,
+        200,
+        496,
+        435
+      ],
+      "registeredMinMargin": 0.1515625,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-01",
+      "file": "assets/animations/11-yinlin/capture/frame-01.png",
+      "sha256": "0a022cf418da48a239df02d6af0ead61d3a3cfb71ea8296fdfcf6f9dacb77d39",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/11-yinlin/capture/11-yinlin-capture-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/11-yinlin/capture/11-yinlin-capture-v1.png",
+          "sha256": "dfb1785234ed10ab4c99f4ece5429042b76f3ea5e154114a29721259d46fe212",
+          "generationRecord": "designs/motion-frames-v1/11-yinlin/capture/11-yinlin-capture-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          464,
+          168,
+          893,
+          429
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          429,
+          261
+        ],
+        "registrationOffset": [
+          75,
+          183
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            364.860248447205,
+            117.00310559006209
+          ],
+          "sourcePointRounded": [
+            365,
+            117
+          ],
+          "targetPoint": [
+            440,
+            300
+          ],
+          "method": "RGBmax<55 and A>220 pupil component; restricted to local radius22px and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          444,
+          0,
+          887,
+          444
+        ],
+        "nominalGridBorderAlpha": 2,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        320,
+        320
+      ],
+      "eyePixels": [
+        440,
+        300
+      ],
+      "displaySize": [
+        196.41943734015345,
+        196.41943734015345
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.3069053708439898,
+      "scaleReference": "assets/animations/11-yinlin/swim/manifest.json",
+      "registeredAlphaBBox": [
+        83,
+        191,
+        496,
+        436
+      ],
+      "registeredMinMargin": 0.1296875,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-02",
+      "file": "assets/animations/11-yinlin/capture/frame-02.png",
+      "sha256": "3ac055bd938f0ad5fc09788077eb431a618d663437c218b2f45a8662c8fa0f5e",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/11-yinlin/capture/11-yinlin-capture-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/11-yinlin/capture/11-yinlin-capture-v1.png",
+          "sha256": "dfb1785234ed10ab4c99f4ece5429042b76f3ea5e154114a29721259d46fe212",
+          "generationRecord": "designs/motion-frames-v1/11-yinlin/capture/11-yinlin-capture-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          930,
+          124,
+          1311,
+          420
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          381,
+          296
+        ],
+        "registrationOffset": [
+          126,
+          138
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            314.2866242038217,
+            161.62101910828028
+          ],
+          "sourcePointRounded": [
+            314,
+            162
+          ],
+          "targetPoint": [
+            440,
+            300
+          ],
+          "method": "RGBmax<55 and A>220 pupil component; restricted to local radius22px and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          887,
+          0,
+          1330,
+          444
+        ],
+        "nominalGridBorderAlpha": 1,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        320,
+        320
+      ],
+      "eyePixels": [
+        440,
+        300
+      ],
+      "displaySize": [
+        196.41943734015345,
+        196.41943734015345
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.3069053708439898,
+      "scaleReference": "assets/animations/11-yinlin/swim/manifest.json",
+      "registeredAlphaBBox": [
+        134,
+        146,
+        499,
+        426
+      ],
+      "registeredMinMargin": 0.209375,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-03",
+      "file": "assets/animations/11-yinlin/capture/frame-03.png",
+      "sha256": "6d5d16693f6f46e355e3bd72181173d2a63ffe79ac57465693a33cb417310a6c",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/11-yinlin/capture/11-yinlin-capture-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/11-yinlin/capture/11-yinlin-capture-v1.png",
+          "sha256": "dfb1785234ed10ab4c99f4ece5429042b76f3ea5e154114a29721259d46fe212",
+          "generationRecord": "designs/motion-frames-v1/11-yinlin/capture/11-yinlin-capture-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          1348,
+          203,
+          1754,
+          440
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          406,
+          237
+        ],
+        "registrationOffset": [
+          98,
+          218
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            341.5471698113208,
+            82.15723270440253
+          ],
+          "sourcePointRounded": [
+            342,
+            82
+          ],
+          "targetPoint": [
+            440,
+            300
+          ],
+          "method": "RGBmax<55 and A>220 pupil component; restricted to local radius22px and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          1330,
+          0,
+          1774,
+          444
+        ],
+        "nominalGridBorderAlpha": 0,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        320,
+        320
+      ],
+      "eyePixels": [
+        440,
+        300
+      ],
+      "displaySize": [
+        196.41943734015345,
+        196.41943734015345
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.3069053708439898,
+      "scaleReference": "assets/animations/11-yinlin/swim/manifest.json",
+      "registeredAlphaBBox": [
+        106,
+        226,
+        496,
+        447
+      ],
+      "registeredMinMargin": 0.165625,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-04",
+      "file": "assets/animations/11-yinlin/capture/frame-04.png",
+      "sha256": "892940d4d7dd587c7c5e88fca4f9db93554af597cb796e89e39c5f191202746d",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/11-yinlin/capture/11-yinlin-capture-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/11-yinlin/capture/11-yinlin-capture-v1.png",
+          "sha256": "dfb1785234ed10ab4c99f4ece5429042b76f3ea5e154114a29721259d46fe212",
+          "generationRecord": "designs/motion-frames-v1/11-yinlin/capture/11-yinlin-capture-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          39,
+          541,
+          445,
+          789
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          406,
+          248
+        ],
+        "registrationOffset": [
+          99,
+          189
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            340.6219512195122,
+            110.82621951219517
+          ],
+          "sourcePointRounded": [
+            341,
+            111
+          ],
+          "targetPoint": [
+            440,
+            300
+          ],
+          "method": "RGBmax<55 and A>220 pupil component; restricted to local radius22px and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          0,
+          444,
+          444,
+          887
+        ],
+        "nominalGridBorderAlpha": 0,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        320,
+        320
+      ],
+      "eyePixels": [
+        440,
+        300
+      ],
+      "displaySize": [
+        196.41943734015345,
+        196.41943734015345
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.3069053708439898,
+      "scaleReference": "assets/animations/11-yinlin/swim/manifest.json",
+      "registeredAlphaBBox": [
+        107,
+        197,
+        497,
+        429
+      ],
+      "registeredMinMargin": 0.1671875,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-05",
+      "file": "assets/animations/11-yinlin/capture/frame-05.png",
+      "sha256": "29fd490c0fa3257985adbb2e1e9f8d0699df28f91dcd0d82f4c0956847c86ebe",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/11-yinlin/capture/11-yinlin-capture-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/11-yinlin/capture/11-yinlin-capture-v1.png",
+          "sha256": "dfb1785234ed10ab4c99f4ece5429042b76f3ea5e154114a29721259d46fe212",
+          "generationRecord": "designs/motion-frames-v1/11-yinlin/capture/11-yinlin-capture-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          470,
+          560,
+          892,
+          781
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          422,
+          221
+        ],
+        "registrationOffset": [
+          83,
+          208
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            356.89408099688467,
+            91.72585669781938
+          ],
+          "sourcePointRounded": [
+            357,
+            92
+          ],
+          "targetPoint": [
+            440,
+            300
+          ],
+          "method": "RGBmax<55 and A>220 pupil component; restricted to local radius22px and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          444,
+          444,
+          887,
+          887
+        ],
+        "nominalGridBorderAlpha": 1,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        320,
+        320
+      ],
+      "eyePixels": [
+        440,
+        300
+      ],
+      "displaySize": [
+        196.41943734015345,
+        196.41943734015345
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.3069053708439898,
+      "scaleReference": "assets/animations/11-yinlin/swim/manifest.json",
+      "registeredAlphaBBox": [
+        91,
+        216,
+        497,
+        421
+      ],
+      "registeredMinMargin": 0.1421875,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-06",
+      "file": "assets/animations/11-yinlin/capture/frame-06.png",
+      "sha256": "f9d2dd508d1b0356e3b38d51f771eddb0fda6eda199c1a0b4aba3380f922b841",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/11-yinlin/capture/11-yinlin-capture-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/11-yinlin/capture/11-yinlin-capture-v1.png",
+          "sha256": "dfb1785234ed10ab4c99f4ece5429042b76f3ea5e154114a29721259d46fe212",
+          "generationRecord": "designs/motion-frames-v1/11-yinlin/capture/11-yinlin-capture-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          904,
+          563,
+          1312,
+          793
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          408,
+          230
+        ],
+        "registrationOffset": [
+          97,
+          211
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            343.42105263157896,
+            89.10818713450294
+          ],
+          "sourcePointRounded": [
+            343,
+            89
+          ],
+          "targetPoint": [
+            440,
+            300
+          ],
+          "method": "RGBmax<55 and A>220 pupil component; restricted to local radius22px and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          887,
+          444,
+          1330,
+          887
+        ],
+        "nominalGridBorderAlpha": 1,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        320,
+        320
+      ],
+      "eyePixels": [
+        440,
+        300
+      ],
+      "displaySize": [
+        196.41943734015345,
+        196.41943734015345
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.3069053708439898,
+      "scaleReference": "assets/animations/11-yinlin/swim/manifest.json",
+      "registeredAlphaBBox": [
+        105,
+        219,
+        497,
+        433
+      ],
+      "registeredMinMargin": 0.1640625,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-07",
+      "file": "assets/animations/11-yinlin/capture/frame-07.png",
+      "sha256": "efcc35bcd9dff150022eaeeacdd63735c9f3b741c0309f2a54617ccb471be3f0",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/11-yinlin/capture/11-yinlin-capture-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/11-yinlin/capture/11-yinlin-capture-v1.png",
+          "sha256": "dfb1785234ed10ab4c99f4ece5429042b76f3ea5e154114a29721259d46fe212",
+          "generationRecord": "designs/motion-frames-v1/11-yinlin/capture/11-yinlin-capture-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          1330,
+          562,
+          1755,
+          786
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          425,
+          224
+        ],
+        "registrationOffset": [
+          80,
+          210
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            359.74687500000005,
+            89.97187499999995
+          ],
+          "sourcePointRounded": [
+            360,
+            90
+          ],
+          "targetPoint": [
+            440,
+            300
+          ],
+          "method": "RGBmax<55 and A>220 pupil component; restricted to local radius22px and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          1330,
+          444,
+          1774,
+          887
+        ],
+        "nominalGridBorderAlpha": 1,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        320,
+        320
+      ],
+      "eyePixels": [
+        440,
+        300
+      ],
+      "displaySize": [
+        196.41943734015345,
+        196.41943734015345
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.3069053708439898,
+      "scaleReference": "assets/animations/11-yinlin/swim/manifest.json",
+      "registeredAlphaBBox": [
+        88,
+        218,
+        497,
+        426
+      ],
+      "registeredMinMargin": 0.1375,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    }
+  ],
+  "sourceRects": [
+    [
+      29,
+      178,
+      444,
+      429
+    ],
+    [
+      464,
+      168,
+      893,
+      429
+    ],
+    [
+      930,
+      124,
+      1311,
+      420
+    ],
+    [
+      1348,
+      203,
+      1754,
+      440
+    ],
+    [
+      39,
+      541,
+      445,
+      789
+    ],
+    [
+      470,
+      560,
+      892,
+      781
+    ],
+    [
+      904,
+      563,
+      1312,
+      793
+    ],
+    [
+      1330,
+      562,
+      1755,
+      786
+    ]
+  ],
+  "sharedCanvas": [
+    640,
+    640
+  ],
+  "root": [
+    0.5,
+    0.5
+  ],
+  "rootPixels": [
+    320,
+    320
+  ],
+  "eyePixels": [
+    440,
+    300
+  ],
+  "fps": 12,
+  "loop": false,
+  "durationsMs": [
+    83,
+    84,
+    83,
+    83,
+    84,
+    83,
+    83,
+    84
+  ],
+  "displaySize": [
+    196.41943734015345,
+    196.41943734015345
+  ],
+  "bodyDisplayBox": [
+    120,
+    80
+  ],
+  "uniformDisplayScale": 0.3069053708439898,
+  "displayScaleReference": "assets/animations/11-yinlin/swim/manifest.json",
+  "warnings": [],
+  "runtimeMarginWarnings": [],
+  "sourceMarginWarnings": [
+    {
+      "frame": 0,
+      "actual": 0.018018018018018018,
+      "required": 0.12
+    },
+    {
+      "frame": 1,
+      "actual": 0.004514672686230248,
+      "required": 0.12
+    },
+    {
+      "frame": 2,
+      "actual": 0.060948081264108354,
+      "required": 0.12
+    },
+    {
+      "frame": 3,
+      "actual": 0.02702702702702703,
+      "required": 0.12
+    },
+    {
+      "frame": 4,
+      "actual": 0.015765765765765764,
+      "required": 0.12
+    },
+    {
+      "frame": 5,
+      "actual": 0.006772009029345372,
+      "required": 0.12
+    },
+    {
+      "frame": 6,
+      "actual": 0.056433408577878104,
+      "required": 0.12
+    },
+    {
+      "frame": 7,
+      "actual": 0.018018018018018018,
+      "required": 0.12
+    }
+  ],
+  "animation": {
+    "frames": 8,
+    "fps": 12,
+    "loop": false,
+    "durationsMs": [
+      83,
+      84,
+      83,
+      83,
+      84,
+      83,
+      83,
+      84
+    ],
+    "order": "row-major",
+    "root": [
+      0.5,
+      0.5
+    ],
+    "rootPixels": [
+      320,
+      320
+    ],
+    "eyePixels": [
+      440,
+      300
+    ],
+    "sharedCanvas": [
+      640,
+      640
+    ],
+    "phaseDegrees": null,
+    "poseMeaning": "entry, startle, upward struggle, counter-flex, shorter struggle, fatigue, settling, subdued",
+    "identityStatus": "pending_root_visual",
+    "motionStatus": "pending_root_visual",
+    "registrationStatus": "producer_pupil_registered_pending_root_visual",
+    "playbackStatus": "pending_Unity",
+    "timingNote": "12FPS authoritative; integer durations cumulative-boundary rounded",
+    "releaseReady": true
+  },
+  "status": "accepted_first_release_art",
+  "complete": true,
+  "qa": {
+    "trueAlpha": true,
+    "actualPupilROIReviewed": true,
+    "registeredPixelRoundTrip": true,
+    "minimumRuntimeMargin": 0.1296875,
+    "sourceMarginStatus": "nominal_grid_warnings_preserved; complete_ownership_and_registered_margin_verified",
+    "runtimeMarginStatus": "pass",
+    "producerVisualNote": "Slim silver/blue gradient identity retained; fork-tail sweeps up/down and pectoral shape changes, capture curl then loose tail. Actual native/pupil ROI inspected. Root visual and Unity playback pending.",
+    "rootVisualStatus": "pending",
+    "playbackStatus": "pending_Unity",
+    "producerLightDarkAlphaCompositeActuallyViewed": true,
+    "producerRegisteredPoseStillReview": "candidate_pass",
+    "producerPoseEvidence": "Slim silver/blue gradient identity retained; fork-tail sweeps up/down and pectoral shape changes, capture curl then loose tail.",
+    "hashUniquenessIsNotMotionEvidence": true,
+    "producerReviewedAt": "2026-10-28T18:52:01.296582+00:00",
+    "originalNominalGridMarginStatus": "fail_preserved"
+  },
+  "nominalGridBorderWarnings": [],
+  "ownershipWarnings": [],
+  "clipDensityAdjustment": null,
+  "bodyRootOffsetFromEye": [
+    -120,
+    20
+  ],
+  "producerStage": "candidate_ready_for_root_visual",
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+  "acceptedAt": "2026-10-30T04:07:09.085600+00:00",
+  "releaseReady": true,
+  "playbackReview": "docs/UNITY_FINAL_ACCEPTANCE.json"
+}

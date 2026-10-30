@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/motion-frames-v1/35-longwang/capture/extract-v2-pose-02.png",
+  "sha256": "2ef49182f04894c1573d69a817f8079727d8b4c3c7f55847c0b3757ad1f065c5",
+  "width": 347,
+  "height": 274,
+  "format": "RGBA PNG",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/35-longwang/capture/35-longwang-capture-contained-v2.png",
+      "sha256": "8b6632022e55032538fae15f3905a6b88e8bcc562b8fb501d3fbb0d9b888edb8",
+      "generationRecord": "designs/motion-frames-v1/35-longwang/capture/35-longwang-capture-contained-v2.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_complete_actor_ownership_crop",
+    "evidence": {
+      "sourceFrame": 2,
+      "file": "designs/motion-frames-v1/35-longwang/capture/extract-v2-pose-02.png",
+      "sourceRect": [
+        937,
+        143,
+        1284,
+        417
+      ],
+      "nominalSourceRect": [
+        887,
+        0,
+        1330,
+        444
+      ],
+      "nominalGridCross": false,
+      "nativeVisibleSize": [
+        347,
+        274
+      ],
+      "ownedPixelCount": 61604,
+      "foreignPixelsRemovedFromCrop": 0,
+      "totalCanvasEdgeMaxAlpha": 0,
+      "nativeOwnedPixelsUnchanged": true,
+      "sourceMainAlphaComponent": 3
+    },
+    "alphaCleanup": "alpha<=3 discarded, other owned RGBA unchanged",
+    "resized": false,
+    "upscaled": false,
+    "newNativeDetailClaimed": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "intermediate_pending_semantic_review"
+}

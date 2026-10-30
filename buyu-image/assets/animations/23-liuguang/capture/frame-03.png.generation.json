@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-03",
+  "name": "23-liuguang capture 3",
+  "file": "assets/animations/23-liuguang/capture/frame-03.png",
+  "sha256": "7ba39f40815a547cb16f6a95eecadfa6c8f120978a1ab84f51a73ada6f9150dd",
+  "width": 844,
+  "height": 844,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/motion-frames-v1/23-liuguang/capture/23-liuguang-capture.png",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/23-liuguang/capture/23-liuguang-capture.png",
+      "sha256": "0858887ce84b6c968be526b763f4b915ebf77688009f0e4bcb5fe9d8f9322536",
+      "generationRecord": "designs/motion-frames-v1/23-liuguang/capture/23-liuguang-capture.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+    "nominalGrid": {
+      "cols": 4,
+      "rows": 2
+    },
+    "nominalGridRect": [
+      1330,
+      0,
+      1774,
+      444
+    ],
+    "sourceRect": [
+      1406,
+      67,
+      1755,
+      399
+    ],
+    "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+    "ownershipPixelCount": 64867,
+    "alphaCleanup": "Only alpha<=3 set to0",
+    "resized": false,
+    "upscaled": false,
+    "rotated": false,
+    "registrationOffset": [
+      291,
+      180
+    ],
+    "registeredCanvas": [
+      844,
+      844
+    ],
+    "registrationReference": {
+      "type": "largest round dark eye component inside fixed local head ROI; manually review landmark contact",
+      "sourcePointGlobal": [
+        1705.3922518159807,
+        236.83535108958839
+      ],
+      "sourcePointLocal": [
+        299.39225181598067,
+        169.83535108958839
+      ],
+      "targetPoint": [
+        590,
+        350
+      ],
+      "rounding": "nearest integer",
+      "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+    },
+    "sourcePixelsRoundTripVerified": true,
+    "newNativeDetailClaimed": false
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "rootPixels": [
+    422,
+    422
+  ],
+  "landmarkPixels": [
+    590,
+    350
+  ],
+  "registeredAlphaBBox": [
+    291,
+    180,
+    640,
+    512
+  ],
+  "registeredMinMargin": 0.2132701421800948,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+  "animation": {
+    "id": "23-liuguang/capture",
+    "frames": 8,
+    "fps": 12,
+    "loop": false,
+    "order": "row-major",
+    "durationsMs": [
+      83,
+      84,
+      83,
+      83,
+      84,
+      83,
+      83,
+      84
+    ],
+    "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+    "root": [
+      0.5,
+      0.5
+    ],
+    "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+    "identityStatus": "pending_root_visual",
+    "motionStatus": "pending_root_visual",
+    "loopVisualStatus": "single_shot_pending_root_playback",
+    "sourceRoute": "builtin_native_AI_sheet_user_requested"
+  },
+  "status": "producer_candidate_pending_root_registered_review",
+  "targetBodyBox": [
+    180,
+    130
+  ],
+  "uniformDisplayScale": 0.40498442367601245,
+  "displaySize": [
+    341.8068535825545,
+    341.8068535825545
+  ],
+  "bodyDisplayBox": [
+    180,
+    130
+  ],
+  "displaySizing": {
+    "preserveAspect": true,
+    "uniformScaleAcrossAction": true,
+    "upscalingAllowed": false
+  },
+  "displayScaleReference": {
+    "restNativeVisibleBox": [
+      385,
+      324
+    ],
+    "fitMaxBox": [
+      180,
+      130
+    ],
+    "method": "same species swim display scale reused, never capture per-frame bbox fit",
+    "upscaling": false
+  }
+}

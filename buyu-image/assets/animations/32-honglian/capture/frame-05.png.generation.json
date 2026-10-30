@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-05",
+  "name": "红莲鳐 capture 5",
+  "file": "assets/animations/32-honglian/capture/frame-05.png",
+  "sha256": "43f28405eeba4baa3e104101760e8e1c6d0f4a8ff0f8a14eb9607f2f29ee213d",
+  "width": 800,
+  "height": 800,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/motion-frames-v1/32-honglian/capture/32-honglian-capture-v1.png",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/32-honglian/capture/extract-v1-pose-05.png",
+      "sha256": "8fb6b0f0139dcec16005728ea44e17918c12d694bc544e90513945224a393ca6",
+      "generationRecord": "designs/motion-frames-v1/32-honglian/capture/extract-v1-pose-05.png.generation.json"
+    },
+    {
+      "file": "designs/motion-frames-v1/32-honglian/capture/32-honglian-capture-v1.png",
+      "sha256": "4921d13181bd351503d690e4295fcee77138d7cfba1cba948beb388e5298e8de",
+      "generationRecord": "designs/motion-frames-v1/32-honglian/capture/32-honglian-capture-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_ownership_crop_integer_eye_landmark_registration_and_transparent_padding",
+    "sourceRect": [
+      470,
+      542,
+      893,
+      829
+    ],
+    "nominalGridRect": [
+      444,
+      444,
+      887,
+      887
+    ],
+    "nominalGridCross": true,
+    "ownershipEvidence": {
+      "report": "designs/motion-frames-v1/32-honglian/capture/extract-v1.json",
+      "sourceMainAlphaComponent": 116,
+      "ownedPixelCount": 69368,
+      "foreignPixelsRemovedFromCrop": 0,
+      "nativeOwnedPixelsUnchanged": true
+    },
+    "registrationOffset": [
+      244,
+      244,
+      667,
+      531
+    ],
+    "registeredCanvas": [
+      800,
+      800
+    ],
+    "registrationReference": {
+      "type": "dark_eye_component_centroid_candidate",
+      "qaReport": "designs/motion-frames-v1/32-honglian/capture/source-v1-qa.json",
+      "qaReportSha256": "ba5174f152be86ca32d51b6ad29b50309105aa4a8db40390e80f6a15d1a2df38",
+      "candidateIndex": 0,
+      "sourceGlobalPointFloat": [
+        785.9259259259259,
+        697.6944444444445
+      ],
+      "poseLocalPointFloat": [
+        315.92592592592587,
+        155.69444444444446
+      ],
+      "poseLocalPointRounded": [
+        316,
+        156
+      ],
+      "targetPoint": [
+        560,
+        400
+      ],
+      "warning": "QA candidate fragment/eyelid is an approximate visual landmark, not an exact anatomical pupil."
+    },
+    "alphaCleanup": "Inherit root ownership extraction: alpha<=3 discarded; every owned RGBA above3 preserved. No extra alpha cleanup.",
+    "resized": false,
+    "upscaled": false,
+    "poseWarped": false,
+    "sourcePixelsRoundTripVerified": true
+  },
+  "anchor": [
+    0.7,
+    0.5
+  ],
+  "status": "candidate_pending_root_visual_and_playback_review",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See original source generation record; this export is not a generation call.",
+  "animation": {
+    "id": "32-honglian/capture",
+    "frames": 8,
+    "fps": 12,
+    "loop": false,
+    "order": "root ownership row-major",
+    "root": [
+      0.7,
+      0.5
+    ],
+    "phase": 0.625,
+    "durationMs": 83,
+    "targetBodyBox": [
+      240,
+      180
+    ],
+    "displayCalibration": {
+      "status": "candidate_pending_root_visual_runtime_review",
+      "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+      "nativeMedianPupilWidth": 26,
+      "sharedTargetDisplayedPupilWidth": 11.739,
+      "uniformDisplayScale": 0.4515,
+      "upscale": false,
+      "perFrameBboxFit": false,
+      "sharedVisualPivotPixels": [
+        560,
+        400
+      ],
+      "sharedVisualPivotNormalized": [
+        0.7,
+        0.5
+      ],
+      "displayBodyMaxPixels": [
+        194.5965,
+        146.286
+      ],
+      "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+    }
+  },
+  "qa": {
+    "nativeBodyBoxAlpha16": [
+      3,
+      2,
+      421,
+      285
+    ],
+    "nativeVisibleSize": [
+      418,
+      283
+    ],
+    "ownedPoseSize": [
+      423,
+      287
+    ],
+    "rawTotalCanvasEdgeMaxAlpha": 0,
+    "rawWeakAlphaBoundaryWarning": false,
+    "registeredBoxAlpha16": [
+      247,
+      246,
+      665,
+      529
+    ],
+    "registeredMarginsFraction": [
+      0.30875,
+      0.3075,
+      0.16875,
+      0.33875
+    ],
+    "finalMargin12PercentPassed": true,
+    "pupilComponent": {
+      "area": 216,
+      "bbox": [
+        327,
+        245,
+        354,
+        263
+      ],
+      "centroid": [
+        341.9259259259259,
+        253.69444444444446
+      ],
+      "isClosedEyelidProxy": false
+    },
+    "actualSourceAlphaContactViewedByProducer": true,
+    "motionAccepted": false,
+    "loopOrRecoveryAccepted": false,
+    "targetClientAccepted": false
+  }
+}

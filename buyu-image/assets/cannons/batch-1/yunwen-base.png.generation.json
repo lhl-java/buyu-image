@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "yunwen-base",
+  "name": "云纹炮底座",
+  "file": "assets/cannons/batch-1/yunwen-base.png",
+  "sha256": "0316075db44c619025f684659b0f6b27f43f0e9d68042c9dbea92ed3c79a8cf3",
+  "width": 439,
+  "height": 433,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/production-v1/cannon-parts-1/cannon-parts-1.png",
+  "derivedFrom": [
+    {
+      "file": "designs/production-v1/cannon-parts-1/cannon-parts-1.png",
+      "sha256": "c7455e9365584a89f3e8771f96575a6a5f83171be179f1d55e5609da3c27e6a1",
+      "generationRecord": "designs/production-v1/cannon-parts-1/cannon-parts-1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_ownership_crop",
+    "grid": {
+      "rows": 2,
+      "cols": 3
+    },
+    "sourceRect": [
+      512,
+      0,
+      1024,
+      479
+    ],
+    "cellCropRect": [
+      35,
+      33,
+      474,
+      466
+    ],
+    "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+    "resized": false,
+    "upscaled": false
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "displaySize": [
+    160,
+    160
+  ],
+  "status": "static_asset_visual_reviewed_pending_user_review",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source generation record; no new model call for this slice."
+}

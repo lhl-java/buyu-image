@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "source": "designs/motion-frames-v1/36-xuanjing/attack/attack-a-contained-v2.png",
+  "sha256": "db7934e6638218ca44f13a11e029c36afcaf7bf803411a9689ef0015872c87a4",
+  "size": [
+    1254,
+    1254
+  ],
+  "grid": [
+    2,
+    2
+  ],
+  "frames": [
+    {
+      "sourceFrame": 0,
+      "file": "designs/motion-frames-v1/36-xuanjing/attack/extract-a-pose-00.png",
+      "sourceRect": [
+        82,
+        198,
+        607,
+        584
+      ],
+      "nominalSourceRect": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "nominalGridCross": false,
+      "nativeVisibleSize": [
+        525,
+        386
+      ],
+      "ownedPixelCount": 106246,
+      "foreignPixelsRemovedFromCrop": 0,
+      "totalCanvasEdgeMaxAlpha": 0,
+      "nativeOwnedPixelsUnchanged": true,
+      "sourceMainAlphaComponent": 1
+    },
+    {
+      "sourceFrame": 1,
+      "file": "designs/motion-frames-v1/36-xuanjing/attack/extract-a-pose-01.png",
+      "sourceRect": [
+        652,
+        279,
+        1171,
+        575
+      ],
+      "nominalSourceRect": [
+        627,
+        0,
+        1254,
+        627
+      ],
+      "nominalGridCross": false,
+      "nativeVisibleSize": [
+        519,
+        296
+      ],
+      "ownedPixelCount": 87319,
+      "foreignPixelsRemovedFromCrop": 0,
+      "totalCanvasEdgeMaxAlpha": 0,
+      "nativeOwnedPixelsUnchanged": true,
+      "sourceMainAlphaComponent": 11
+    },
+    {
+      "sourceFrame": 2,
+      "file": "designs/motion-frames-v1/36-xuanjing/attack/extract-a-pose-02.png",
+      "sourceRect": [
+        84,
+        688,
+        599,
+        1067
+      ],
+      "nominalSourceRect": [
+        0,
+        627,
+        627,
+        1254
+      ],
+      "nominalGridCross": false,
+      "nativeVisibleSize": [
+        515,
+        379
+      ],
+      "ownedPixelCount": 108233,
+      "foreignPixelsRemovedFromCrop": 0,
+      "totalCanvasEdgeMaxAlpha": 0,
+      "nativeOwnedPixelsUnchanged": true,
+      "sourceMainAlphaComponent": 131
+    },
+    {
+      "sourceFrame": 3,
+      "file": "designs/motion-frames-v1/36-xuanjing/attack/extract-a-pose-03.png",
+      "sourceRect": [
+        652,
+        751,
+        1186,
+        1081
+      ],
+      "nominalSourceRect": [
+        627,
+        627,
+        1254,
+        1254
+      ],
+      "nominalGridCross": false,
+      "nativeVisibleSize": [
+        534,
+        330
+      ],
+      "ownedPixelCount": 99714,
+      "foreignPixelsRemovedFromCrop": 0,
+      "totalCanvasEdgeMaxAlpha": 0,
+      "nativeOwnedPixelsUnchanged": true,
+      "sourceMainAlphaComponent": 157
+    }
+  ],
+  "ownershipMap": "designs/motion-frames-v1/36-xuanjing/attack/extract-a-ownership.png",
+  "contactSheet": "designs/motion-frames-v1/36-xuanjing/attack/extract-a-ownership-review.jpg",
+  "totalActivePixels": 401512,
+  "retainedPixelCount": 401512,
+  "pixelOwnershipExclusiveAndComplete": true,
+  "allNativeRGBAAboveAlpha3Preserved": true,
+  "alphaCleanup": "Outside owned shape zero; alpha<=3 discarded, all owned RGBA unchanged.",
+  "resized": false,
+  "motionApproved": false,
+  "semanticOwnershipApproved": false,
+  "createdAt": "2026-10-28T17:50:26.269967+00:00"
+}

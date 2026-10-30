@@ -1,0 +1,28 @@
+{
+  "actor": "34-jinlongli",
+  "action": "capture",
+  "name": "金龙锦鲤捕获",
+  "canvas": [
+    1000,
+    1000
+  ],
+  "eyeRoot": [
+    680,
+    420
+  ],
+  "fps": 12,
+  "loop": false,
+  "bodyDisplayBox": [
+    340,
+    260
+  ],
+  "sheets": [
+    {
+      "qa": "designs/motion-frames-v1/34-jinlongli/capture/source-v1-qa.json",
+      "ownership": "designs/motion-frames-v1/34-jinlongli/capture/extract-v1.json",
+      "closedEyeFrames": [
+        4
+      ]
+    }
+  ]
+}

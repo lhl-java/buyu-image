@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-02",
+  "name": "玄海巨鲸游动 3/8",
+  "file": "assets/animations/36-xuanjing/swim/frame-02.png",
+  "sha256": "109b78b9699d24084c280c402150fea52637813a18e87fe4878ec6760283d968",
+  "width": 1000,
+  "height": 1000,
+  "format": "RGBA PNG",
+  "derivedAt": "2026-10-28T19:38:04.795298+00:00",
+  "nativeSource": "designs/motion-frames-v1/36-xuanjing/swim/36-xuanjing-swim-v1.png",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/36-xuanjing/swim/36-xuanjing-swim-v1.png",
+      "sha256": "60d81f0ce436138be11ccdcd7c84cfe2145bbc73f550dfcd7c5ed2fa41267943",
+      "generationRecord": "designs/motion-frames-v1/36-xuanjing/swim/36-xuanjing-swim-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_extraction_integer_eye_registration_and_padding",
+    "extraction": {
+      "type": "complete_native_actor_ownership",
+      "report": "designs/motion-frames-v1/36-xuanjing/swim/extract-v1.json",
+      "sourceRect": [
+        941,
+        43,
+        1298,
+        380
+      ],
+      "evidence": {
+        "sourceFrame": 2,
+        "file": "designs/motion-frames-v1/36-xuanjing/swim/extract-v1-pose-02.png",
+        "sourceRect": [
+          941,
+          43,
+          1298,
+          380
+        ],
+        "nominalSourceRect": [
+          886,
+          0,
+          1330,
+          444
+        ],
+        "nominalGridCross": false,
+        "nativeVisibleSize": [
+          357,
+          337
+        ],
+        "ownedPixelCount": 56580,
+        "foreignPixelsRemovedFromCrop": 0,
+        "totalCanvasEdgeMaxAlpha": 0,
+        "nativeOwnedPixelsUnchanged": true,
+        "sourceMainAlphaComponent": 2
+      }
+    },
+    "sourceEyePoint": [
+      230.69230769230762,
+      182.75
+    ],
+    "globalSourceEye": [
+      1171.6923076923076,
+      225.75
+    ],
+    "registrationOffset": [
+      449,
+      237
+    ],
+    "registeredCanvas": [
+      1000,
+      1000
+    ],
+    "targetEye": [
+      680,
+      420
+    ],
+    "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+    "sourcePixelsRoundTripVerified": true,
+    "resized": false,
+    "upscaled": false,
+    "rotated": false,
+    "poseWarped": false,
+    "newNativeDetailClaimed": false
+  },
+  "anchor": [
+    0.68,
+    0.42
+  ],
+  "rootPixels": [
+    680,
+    420
+  ],
+  "eyePixels": [
+    680,
+    420
+  ],
+  "registeredAlphaBBox": [
+    449,
+    237,
+    806,
+    574
+  ],
+  "registeredMinMargin": 0.194,
+  "status": "candidate_pending_playback_and_final_visual_review",
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceLandmarkEvidence": {
+    "type": "visible_eye_pupil_ROI_component_center",
+    "qa": "designs/motion-frames-v1/36-xuanjing/swim/source-v1-qa.json",
+    "sourceFrame": 2,
+    "candidateIndex": 0,
+    "detection": {
+      "roi": [
+        235,
+        180,
+        425,
+        330
+      ],
+      "darkMaxExclusive": 28,
+      "warmRAtLeastGAndB": false,
+      "alphaMinExclusive": 220,
+      "componentConnectivity": 4
+    },
+    "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review. Closed eyelid proxies are not true pupils and must be excluded from pixel-density calibration."
+  },
+  "displaySize": [
+    862.9441624365483,
+    862.9441624365483
+  ],
+  "bodyDisplayBox": [
+    340,
+    260
+  ],
+  "uniformDisplayScale": 0.8629441624365483,
+  "displaySizing": {
+    "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+    "sourceVisibleReference": [
+      394,
+      273
+    ],
+    "upscalingAllowed": false,
+    "crossClipDensityReview": "pending_common_head_scale_review"
+  },
+  "animation": {
+    "id": "36-xuanjing/swim",
+    "frames": 8,
+    "fps": 8,
+    "loop": true,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "durationsMs": [
+      125,
+      125,
+      125,
+      125,
+      125,
+      125,
+      125,
+      125
+    ],
+    "root": [
+      0.68,
+      0.42
+    ],
+    "sourceRoute": "builtin_native_AI_sheet_user_requested",
+    "sourcePixelsNeverResampled": true,
+    "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+    "phase": 2,
+    "durationMs": 125
+  }
+}

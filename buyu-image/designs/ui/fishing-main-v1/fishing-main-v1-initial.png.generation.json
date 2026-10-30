@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/ui/fishing-main-v1/fishing-main-v1-initial.png",
+  "sha256": "8693e788001f3208df74ecea89c18741a2d987379ee4d9eb8e5a1574fe4557f1",
+  "generatedAt": "2026-10-26T07:33:34.018Z",
+  "startedAt": "2026-10-26T07:32:34.07Z",
+  "width": 1672,
+  "height": 941,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "builtin_evidence": {
+      "model_parameter_exposed": false,
+      "quality_parameter_exposed": false,
+      "actual_model": null,
+      "actual_quality": null,
+      "note": "Configuration targets only; verify actual model and quality per generated image."
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\buyu-image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\buyu-image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具未开放 model/quality 参数，结果未披露实际型号或质量。",
+  "evidence": {
+    "toolResult": "fishing-main-v1-initial.tool-result.txt",
+    "sourceOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a17713-70e6-7261-8609-a9eabcbfb0a5\\exec-851b0d62-e9da-42b7-a0ee-b877bef594dc.png",
+    "toolResultId": "exec-851b0d62-e9da-42b7-a0ee-b877bef594dc"
+  },
+  "prompt": "fishing-main-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "role": "approved art style only"
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "role": "approved art style only"
+    }
+  ],
+  "requestedCanvasInPrompt": "3840x2160 landscape if available; tool has no size selector",
+  "resampled": false,
+  "status": "superseded_intermediate_image_removed_from_project",
+  "review": {
+    "style": "consistent_first_draft",
+    "issue": "Top-left portrait area copied old reference example name and level; targeted correction required."
+  },
+  "imageRetention": {
+    "retainedInProject": false,
+    "replacement": "designs/ui/fishing-main-v1/fishing-main-v1.png",
+    "reason": "Selected corrected draft verified; source text and hash retained under user asset retention policy."
+  }
+}

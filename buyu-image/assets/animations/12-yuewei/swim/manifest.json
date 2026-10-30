@@ -1,0 +1,1073 @@
+{
+  "schemaVersion": 1,
+  "source": "designs/motion-frames-v1/12-yuewei/swim/12-yuewei-swim-v1.png",
+  "sourceWidth": 1774,
+  "sourceHeight": 887,
+  "output": "assets/animations/12-yuewei/swim",
+  "id": "12-yuewei",
+  "action": "swim",
+  "items": [
+    {
+      "schemaVersion": 1,
+      "id": "frame-00",
+      "file": "assets/animations/12-yuewei/swim/frame-00.png",
+      "sha256": "4c86f3adf0f9ae181b44b7046ca323ac8633a117ea7e51ba06d75c42bafdf016",
+      "width": 768,
+      "height": 768,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/12-yuewei/swim/12-yuewei-swim-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/12-yuewei/swim/12-yuewei-swim-v1.png",
+          "sha256": "17dbf4f162163e0b4dd4e4067ffd4817d016f1e14ca8c42c58eacbd0c9d85190",
+          "generationRecord": "designs/motion-frames-v1/12-yuewei/swim/12-yuewei-swim-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          43,
+          80,
+          427,
+          407
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          384,
+          327
+        ],
+        "registrationOffset": [
+          138,
+          197
+        ],
+        "registeredCanvas": [
+          768,
+          768
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            326.2952029520295,
+            156.84132841328415
+          ],
+          "sourcePointRounded": [
+            326,
+            157
+          ],
+          "targetPoint": [
+            464,
+            354
+          ],
+          "method": "RGBmax<55 and A>220 pupil component; restricted to local radius22px and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          0,
+          0,
+          444,
+          444
+        ],
+        "nominalGridBorderAlpha": 1,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        384,
+        384
+      ],
+      "eyePixels": [
+        464,
+        354
+      ],
+      "displaySize": [
+        197.556270096463,
+        197.556270096463
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.2572347266881029,
+      "scaleReference": "rest frame00 native visible box",
+      "registeredAlphaBBox": [
+        146,
+        205,
+        514,
+        516
+      ],
+      "registeredMinMargin": 0.19010416666666666,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-01",
+      "file": "assets/animations/12-yuewei/swim/frame-01.png",
+      "sha256": "fb1f0c79f7225b0929c33e5c3f2321cb9fce4a52ac7402d80376ab0c59667b31",
+      "width": 768,
+      "height": 768,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/12-yuewei/swim/12-yuewei-swim-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/12-yuewei/swim/12-yuewei-swim-v1.png",
+          "sha256": "17dbf4f162163e0b4dd4e4067ffd4817d016f1e14ca8c42c58eacbd0c9d85190",
+          "generationRecord": "designs/motion-frames-v1/12-yuewei/swim/12-yuewei-swim-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          494,
+          75,
+          868,
+          414
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          374,
+          339
+        ],
+        "registrationOffset": [
+          147,
+          188
+        ],
+        "registeredCanvas": [
+          768,
+          768
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            316.8016194331983,
+            166.33198380566802
+          ],
+          "sourcePointRounded": [
+            317,
+            166
+          ],
+          "targetPoint": [
+            464,
+            354
+          ],
+          "method": "RGBmax<55 and A>220 pupil component; restricted to local radius22px and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          444,
+          0,
+          887,
+          444
+        ],
+        "nominalGridBorderAlpha": 1,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        384,
+        384
+      ],
+      "eyePixels": [
+        464,
+        354
+      ],
+      "displaySize": [
+        197.556270096463,
+        197.556270096463
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.2572347266881029,
+      "scaleReference": "rest frame00 native visible box",
+      "registeredAlphaBBox": [
+        155,
+        196,
+        513,
+        519
+      ],
+      "registeredMinMargin": 0.20182291666666666,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-02",
+      "file": "assets/animations/12-yuewei/swim/frame-02.png",
+      "sha256": "a62b4610f4dbe530d9d40fdd81b0969a2892bbb5af5f8304c3a07ee656ff0069",
+      "width": 768,
+      "height": 768,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/12-yuewei/swim/12-yuewei-swim-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/12-yuewei/swim/12-yuewei-swim-v1.png",
+          "sha256": "17dbf4f162163e0b4dd4e4067ffd4817d016f1e14ca8c42c58eacbd0c9d85190",
+          "generationRecord": "designs/motion-frames-v1/12-yuewei/swim/12-yuewei-swim-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          911,
+          42,
+          1279,
+          415
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          368,
+          373
+        ],
+        "registrationOffset": [
+          155,
+          157
+        ],
+        "registeredCanvas": [
+          768,
+          768
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            308.5836431226767,
+            196.8550185873606
+          ],
+          "sourcePointRounded": [
+            309,
+            197
+          ],
+          "targetPoint": [
+            464,
+            354
+          ],
+          "method": "RGBmax<55 and A>220 pupil component; restricted to local radius22px and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          887,
+          0,
+          1330,
+          444
+        ],
+        "nominalGridBorderAlpha": 1,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        384,
+        384
+      ],
+      "eyePixels": [
+        464,
+        354
+      ],
+      "displaySize": [
+        197.556270096463,
+        197.556270096463
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.2572347266881029,
+      "scaleReference": "rest frame00 native visible box",
+      "registeredAlphaBBox": [
+        163,
+        165,
+        515,
+        522
+      ],
+      "registeredMinMargin": 0.21223958333333334,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-03",
+      "file": "assets/animations/12-yuewei/swim/frame-03.png",
+      "sha256": "7b9276547b5712d0b9c2a36c53345307183abf66efac73da8c66c7f5e1e1685c",
+      "width": 768,
+      "height": 768,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/12-yuewei/swim/12-yuewei-swim-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/12-yuewei/swim/12-yuewei-swim-v1.png",
+          "sha256": "17dbf4f162163e0b4dd4e4067ffd4817d016f1e14ca8c42c58eacbd0c9d85190",
+          "generationRecord": "designs/motion-frames-v1/12-yuewei/swim/12-yuewei-swim-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          1363,
+          99,
+          1739,
+          412
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          376,
+          313
+        ],
+        "registrationOffset": [
+          145,
+          212
+        ],
+        "registeredCanvas": [
+          768,
+          768
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            318.54508196721304,
+            141.87704918032787
+          ],
+          "sourcePointRounded": [
+            319,
+            142
+          ],
+          "targetPoint": [
+            464,
+            354
+          ],
+          "method": "RGBmax<55 and A>220 pupil component; restricted to local radius22px and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          1330,
+          0,
+          1774,
+          444
+        ],
+        "nominalGridBorderAlpha": 1,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        384,
+        384
+      ],
+      "eyePixels": [
+        464,
+        354
+      ],
+      "displaySize": [
+        197.556270096463,
+        197.556270096463
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.2572347266881029,
+      "scaleReference": "rest frame00 native visible box",
+      "registeredAlphaBBox": [
+        153,
+        220,
+        513,
+        517
+      ],
+      "registeredMinMargin": 0.19921875,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-04",
+      "file": "assets/animations/12-yuewei/swim/frame-04.png",
+      "sha256": "ef1c86daacd0e9035448562c2234bcb9d1504326e98464f4bbe7e78ab4e27e49",
+      "width": 768,
+      "height": 768,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/12-yuewei/swim/12-yuewei-swim-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/12-yuewei/swim/12-yuewei-swim-v1.png",
+          "sha256": "17dbf4f162163e0b4dd4e4067ffd4817d016f1e14ca8c42c58eacbd0c9d85190",
+          "generationRecord": "designs/motion-frames-v1/12-yuewei/swim/12-yuewei-swim-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          42,
+          503,
+          436,
+          800
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          394,
+          297
+        ],
+        "registrationOffset": [
+          130,
+          224
+        ],
+        "registeredCanvas": [
+          768,
+          768
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            334.1691729323308,
+            130.3533834586466
+          ],
+          "sourcePointRounded": [
+            334,
+            130
+          ],
+          "targetPoint": [
+            464,
+            354
+          ],
+          "method": "RGBmax<55 and A>220 pupil component; restricted to local radius22px and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          0,
+          444,
+          444,
+          887
+        ],
+        "nominalGridBorderAlpha": 1,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        384,
+        384
+      ],
+      "eyePixels": [
+        464,
+        354
+      ],
+      "displaySize": [
+        197.556270096463,
+        197.556270096463
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.2572347266881029,
+      "scaleReference": "rest frame00 native visible box",
+      "registeredAlphaBBox": [
+        138,
+        232,
+        516,
+        513
+      ],
+      "registeredMinMargin": 0.1796875,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-05",
+      "file": "assets/animations/12-yuewei/swim/frame-05.png",
+      "sha256": "b491bcb74a252c29226f1629250cc5e2b4e37af0338343fc7e0990e593669df9",
+      "width": 768,
+      "height": 768,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/12-yuewei/swim/12-yuewei-swim-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/12-yuewei/swim/12-yuewei-swim-v1.png",
+          "sha256": "17dbf4f162163e0b4dd4e4067ffd4817d016f1e14ca8c42c58eacbd0c9d85190",
+          "generationRecord": "designs/motion-frames-v1/12-yuewei/swim/12-yuewei-swim-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          495,
+          522,
+          882,
+          794
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          387,
+          272
+        ],
+        "registrationOffset": [
+          135,
+          241
+        ],
+        "registeredCanvas": [
+          768,
+          768
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            328.5281690140845,
+            112.62323943661977
+          ],
+          "sourcePointRounded": [
+            329,
+            113
+          ],
+          "targetPoint": [
+            464,
+            354
+          ],
+          "method": "RGBmax<55 and A>220 pupil component; restricted to local radius22px and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          444,
+          444,
+          887,
+          887
+        ],
+        "nominalGridBorderAlpha": 1,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        384,
+        384
+      ],
+      "eyePixels": [
+        464,
+        354
+      ],
+      "displaySize": [
+        197.556270096463,
+        197.556270096463
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.2572347266881029,
+      "scaleReference": "rest frame00 native visible box",
+      "registeredAlphaBBox": [
+        143,
+        249,
+        514,
+        505
+      ],
+      "registeredMinMargin": 0.18619791666666666,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-06",
+      "file": "assets/animations/12-yuewei/swim/frame-06.png",
+      "sha256": "3c86eeb04ab7ae6d630b0d9e1b029604b8bec223f7962258d9138b23c7ea1cdc",
+      "width": 768,
+      "height": 768,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/12-yuewei/swim/12-yuewei-swim-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/12-yuewei/swim/12-yuewei-swim-v1.png",
+          "sha256": "17dbf4f162163e0b4dd4e4067ffd4817d016f1e14ca8c42c58eacbd0c9d85190",
+          "generationRecord": "designs/motion-frames-v1/12-yuewei/swim/12-yuewei-swim-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          914,
+          525,
+          1296,
+          812
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          382,
+          287
+        ],
+        "registrationOffset": [
+          141,
+          242
+        ],
+        "registeredCanvas": [
+          768,
+          768
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            322.9343065693431,
+            112.44890510948903
+          ],
+          "sourcePointRounded": [
+            323,
+            112
+          ],
+          "targetPoint": [
+            464,
+            354
+          ],
+          "method": "RGBmax<55 and A>220 pupil component; restricted to local radius22px and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          887,
+          444,
+          1330,
+          887
+        ],
+        "nominalGridBorderAlpha": 1,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        384,
+        384
+      ],
+      "eyePixels": [
+        464,
+        354
+      ],
+      "displaySize": [
+        197.556270096463,
+        197.556270096463
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.2572347266881029,
+      "scaleReference": "rest frame00 native visible box",
+      "registeredAlphaBBox": [
+        149,
+        250,
+        515,
+        521
+      ],
+      "registeredMinMargin": 0.19401041666666666,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-07",
+      "file": "assets/animations/12-yuewei/swim/frame-07.png",
+      "sha256": "fc16897e4adc80684f5746e465165f8d816fd980b5eb1b881104c5a0b6667546",
+      "width": 768,
+      "height": 768,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/12-yuewei/swim/12-yuewei-swim-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/12-yuewei/swim/12-yuewei-swim-v1.png",
+          "sha256": "17dbf4f162163e0b4dd4e4067ffd4817d016f1e14ca8c42c58eacbd0c9d85190",
+          "generationRecord": "designs/motion-frames-v1/12-yuewei/swim/12-yuewei-swim-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          1367,
+          491,
+          1746,
+          794
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          379,
+          303
+        ],
+        "registrationOffset": [
+          143,
+          209
+        ],
+        "registeredCanvas": [
+          768,
+          768
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            321.2478260869566,
+            144.6260869565217
+          ],
+          "sourcePointRounded": [
+            321,
+            145
+          ],
+          "targetPoint": [
+            464,
+            354
+          ],
+          "method": "RGBmax<55 and A>220 pupil component; restricted to local radius22px and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          1330,
+          444,
+          1774,
+          887
+        ],
+        "nominalGridBorderAlpha": 1,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        384,
+        384
+      ],
+      "eyePixels": [
+        464,
+        354
+      ],
+      "displaySize": [
+        197.556270096463,
+        197.556270096463
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.2572347266881029,
+      "scaleReference": "rest frame00 native visible box",
+      "registeredAlphaBBox": [
+        151,
+        217,
+        514,
+        504
+      ],
+      "registeredMinMargin": 0.19661458333333334,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    }
+  ],
+  "sourceRects": [
+    [
+      43,
+      80,
+      427,
+      407
+    ],
+    [
+      494,
+      75,
+      868,
+      414
+    ],
+    [
+      911,
+      42,
+      1279,
+      415
+    ],
+    [
+      1363,
+      99,
+      1739,
+      412
+    ],
+    [
+      42,
+      503,
+      436,
+      800
+    ],
+    [
+      495,
+      522,
+      882,
+      794
+    ],
+    [
+      914,
+      525,
+      1296,
+      812
+    ],
+    [
+      1367,
+      491,
+      1746,
+      794
+    ]
+  ],
+  "sharedCanvas": [
+    768,
+    768
+  ],
+  "root": [
+    0.5,
+    0.5
+  ],
+  "rootPixels": [
+    384,
+    384
+  ],
+  "eyePixels": [
+    464,
+    354
+  ],
+  "fps": 12,
+  "loop": true,
+  "durationsMs": [
+    83,
+    84,
+    83,
+    83,
+    84,
+    83,
+    83,
+    84
+  ],
+  "displaySize": [
+    197.556270096463,
+    197.556270096463
+  ],
+  "bodyDisplayBox": [
+    120,
+    80
+  ],
+  "uniformDisplayScale": 0.2572347266881029,
+  "displayScaleReference": {
+    "frame": 0,
+    "restVisibleBox": [
+      368,
+      311
+    ],
+    "actualRestDisplayBox": [
+      94.66237942122186,
+      80.0
+    ]
+  },
+  "warnings": [],
+  "runtimeMarginWarnings": [],
+  "sourceMarginWarnings": [
+    {
+      "frame": 0,
+      "actual": 0.05630630630630631,
+      "required": 0.12
+    },
+    {
+      "frame": 1,
+      "actual": 0.060948081264108354,
+      "required": 0.12
+    },
+    {
+      "frame": 2,
+      "actual": 0.07223476297968397,
+      "required": 0.12
+    },
+    {
+      "frame": 3,
+      "actual": 0.09009009009009009,
+      "required": 0.12
+    },
+    {
+      "frame": 4,
+      "actual": 0.036036036036036036,
+      "required": 0.12
+    },
+    {
+      "frame": 5,
+      "actual": 0.029345372460496615,
+      "required": 0.12
+    },
+    {
+      "frame": 6,
+      "actual": 0.07900677200902935,
+      "required": 0.12
+    },
+    {
+      "frame": 7,
+      "actual": 0.08108108108108109,
+      "required": 0.12
+    }
+  ],
+  "animation": {
+    "frames": 8,
+    "fps": 12,
+    "loop": true,
+    "durationsMs": [
+      83,
+      84,
+      83,
+      83,
+      84,
+      83,
+      83,
+      84
+    ],
+    "order": "row-major",
+    "root": [
+      0.5,
+      0.5
+    ],
+    "rootPixels": [
+      384,
+      384
+    ],
+    "eyePixels": [
+      464,
+      354
+    ],
+    "sharedCanvas": [
+      768,
+      768
+    ],
+    "phaseDegrees": [
+      0,
+      45,
+      90,
+      135,
+      180,
+      225,
+      270,
+      315
+    ],
+    "poseMeaning": "8-phase swim cycle",
+    "identityStatus": "pending_root_visual",
+    "motionStatus": "pending_root_visual",
+    "registrationStatus": "producer_pupil_registered_pending_root_visual",
+    "playbackStatus": "pending_Unity",
+    "timingNote": "12FPS authoritative; integer durations cumulative-boundary rounded",
+    "releaseReady": true
+  },
+  "status": "accepted_first_release_art",
+  "complete": true,
+  "qa": {
+    "trueAlpha": true,
+    "actualPupilROIReviewed": true,
+    "registeredPixelRoundTrip": true,
+    "minimumRuntimeMargin": 0.1796875,
+    "sourceMarginStatus": "nominal_grid_warnings_preserved; complete_ownership_and_registered_margin_verified",
+    "runtimeMarginStatus": "pass",
+    "producerVisualNote": "Pearl/mint/ivory long fan identity retained; flowing folded membranes and near/far fin phases, strong tail curl then droop in capture. Actual native/pupil ROI inspected. Root visual and Unity playback pending.",
+    "rootVisualStatus": "pending",
+    "playbackStatus": "pending_Unity",
+    "producerLightDarkAlphaCompositeActuallyViewed": true,
+    "producerRegisteredPoseStillReview": "candidate_pass",
+    "producerPoseEvidence": "Pearl/mint/ivory long fan identity retained; flowing folded membranes and near/far fin phases, strong tail curl then droop in capture.",
+    "hashUniquenessIsNotMotionEvidence": true,
+    "producerReviewedAt": "2026-10-28T18:52:01.296582+00:00",
+    "originalNominalGridMarginStatus": "fail_preserved"
+  },
+  "nominalGridBorderWarnings": [],
+  "ownershipWarnings": [],
+  "clipDensityAdjustment": null,
+  "bodyRootOffsetFromEye": [
+    -80,
+    30
+  ],
+  "producerStage": "candidate_ready_for_root_visual",
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+  "acceptedAt": "2026-10-30T04:07:09.085600+00:00",
+  "releaseReady": true,
+  "playbackReview": "docs/UNITY_FINAL_ACCEPTANCE.json"
+}

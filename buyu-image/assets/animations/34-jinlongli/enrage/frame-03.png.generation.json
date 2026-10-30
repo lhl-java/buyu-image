@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-03",
+  "name": "金龙锦鲤怒态 4/8",
+  "file": "assets/animations/34-jinlongli/enrage/frame-03.png",
+  "sha256": "dbb9548f512820897676a409e9c7440933dc51cb16083009d6422f1bb505bb56",
+  "width": 1000,
+  "height": 1000,
+  "format": "RGBA PNG",
+  "derivedAt": "2026-10-28T17:48:24.399977+00:00",
+  "nativeSource": "designs/motion-frames-v1/34-jinlongli/enrage/enrage-a-contained-v2.png",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/34-jinlongli/enrage/enrage-a-contained-v2.png",
+      "sha256": "72ba6db4944290b9c18aac5efbb201a705393647455ee7b1cd39828bce7e5a38",
+      "generationRecord": "designs/motion-frames-v1/34-jinlongli/enrage/enrage-a-contained-v2.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_extraction_integer_eye_registration_and_padding",
+    "extraction": {
+      "type": "native_grid_crop",
+      "sourceRect": [
+        627,
+        627,
+        1254,
+        1254
+      ],
+      "nominalGridCross": false
+    },
+    "sourceEyePoint": [
+      489.17735849056606,
+      277.0679245283019
+    ],
+    "globalSourceEye": [
+      1116.1773584905661,
+      904.0679245283019
+    ],
+    "registrationOffset": [
+      191,
+      143
+    ],
+    "registeredCanvas": [
+      1000,
+      1000
+    ],
+    "targetEye": [
+      680,
+      420
+    ],
+    "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+    "sourcePixelsRoundTripVerified": true,
+    "resized": false,
+    "upscaled": false,
+    "rotated": false,
+    "poseWarped": false,
+    "newNativeDetailClaimed": false
+  },
+  "anchor": [
+    0.68,
+    0.42
+  ],
+  "rootPixels": [
+    680,
+    420
+  ],
+  "eyePixels": [
+    680,
+    420
+  ],
+  "registeredAlphaBBox": [
+    273,
+    287,
+    751,
+    627
+  ],
+  "registeredMinMargin": 0.249,
+  "status": "candidate_pending_playback_and_final_visual_review",
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceLandmarkEvidence": {
+    "type": "manually checked dark pupil ROI component center, nearest integer",
+    "qa": "designs/motion-frames-v1/34-jinlongli/enrage/source-a-qa.json",
+    "sourceFrame": 3,
+    "candidateIndex": 0,
+    "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+  },
+  "displaySize": [
+    699.5884773662552,
+    699.5884773662552
+  ],
+  "bodyDisplayBox": [
+    340,
+    260
+  ],
+  "uniformDisplayScale": 0.6995884773662552,
+  "displaySizing": {
+    "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+    "sourceVisibleReference": [
+      486,
+      339
+    ],
+    "upscalingAllowed": false,
+    "crossClipDensityReview": "pending_common_head_scale_review"
+  },
+  "animation": {
+    "id": "34-jinlongli/enrage",
+    "frames": 8,
+    "fps": 8,
+    "loop": true,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "durationsMs": [
+      125,
+      125,
+      125,
+      125,
+      125,
+      125,
+      125,
+      125
+    ],
+    "root": [
+      0.68,
+      0.42
+    ],
+    "sourceRoute": "builtin_native_AI_sheet_user_requested",
+    "sourcePixelsNeverResampled": true,
+    "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+    "phase": 3,
+    "durationMs": 125
+  }
+}

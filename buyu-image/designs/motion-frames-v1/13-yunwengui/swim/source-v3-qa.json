@@ -1,0 +1,422 @@
+{
+  "schemaVersion": 1,
+  "source": "designs/motion-frames-v1/13-yunwengui/swim/13-yunwengui-swim-v3.png",
+  "sha256": "d16b88578e5ec8d67dee4e21d1c3ba13b2c751e0f3520b96bd7b258cd86615e9",
+  "nativeSize": [
+    1774,
+    887
+  ],
+  "sharedCanvas": [
+    444,
+    444
+  ],
+  "checkedAt": "2026-10-28T16:04:48.181310+00:00",
+  "frames": [
+    {
+      "sourceFrame": 0,
+      "sourceRect": [
+        0,
+        0,
+        444,
+        444
+      ],
+      "nativeCellSize": [
+        444,
+        444
+      ],
+      "normalizedSharedCanvas": [
+        444,
+        444
+      ],
+      "boundsAboveAlpha3": [
+        30,
+        140,
+        413,
+        404
+      ],
+      "marginRatios": [
+        0.06756756756756757,
+        0.3153153153153153,
+        0.06981981981981981,
+        0.09009009009009009
+      ],
+      "edgeMaxAlpha": 0,
+      "pupil": {
+        "center": [
+          347.9690949227373,
+          185.30684326710818
+        ],
+        "boundsLTRB": [
+          332,
+          172,
+          365,
+          202
+        ],
+        "area": 453,
+        "method": "largest warm-dark component only in fixed head ROI; metadata measurement, not image filtering"
+      }
+    },
+    {
+      "sourceFrame": 1,
+      "sourceRect": [
+        444,
+        0,
+        887,
+        444
+      ],
+      "nativeCellSize": [
+        443,
+        444
+      ],
+      "normalizedSharedCanvas": [
+        444,
+        444
+      ],
+      "boundsAboveAlpha3": [
+        30,
+        140,
+        412,
+        418
+      ],
+      "marginRatios": [
+        0.06756756756756757,
+        0.3153153153153153,
+        0.07207207207207207,
+        0.05855855855855856
+      ],
+      "edgeMaxAlpha": 0,
+      "pupil": {
+        "center": [
+          347.1,
+          185.05957446808512
+        ],
+        "boundsLTRB": [
+          331,
+          172,
+          364,
+          202
+        ],
+        "area": 470,
+        "method": "largest warm-dark component only in fixed head ROI; metadata measurement, not image filtering"
+      }
+    },
+    {
+      "sourceFrame": 2,
+      "sourceRect": [
+        887,
+        0,
+        1330,
+        444
+      ],
+      "nativeCellSize": [
+        443,
+        444
+      ],
+      "normalizedSharedCanvas": [
+        444,
+        444
+      ],
+      "boundsAboveAlpha3": [
+        29,
+        140,
+        414,
+        400
+      ],
+      "marginRatios": [
+        0.06531531531531531,
+        0.3153153153153153,
+        0.06756756756756757,
+        0.0990990990990991
+      ],
+      "edgeMaxAlpha": 1,
+      "pupil": {
+        "center": [
+          343.46008403361344,
+          185.23319327731093
+        ],
+        "boundsLTRB": [
+          327,
+          172,
+          361,
+          202
+        ],
+        "area": 476,
+        "method": "largest warm-dark component only in fixed head ROI; metadata measurement, not image filtering"
+      }
+    },
+    {
+      "sourceFrame": 3,
+      "sourceRect": [
+        1330,
+        0,
+        1774,
+        444
+      ],
+      "nativeCellSize": [
+        444,
+        444
+      ],
+      "normalizedSharedCanvas": [
+        444,
+        444
+      ],
+      "boundsAboveAlpha3": [
+        21,
+        140,
+        420,
+        344
+      ],
+      "marginRatios": [
+        0.0472972972972973,
+        0.3153153153153153,
+        0.05405405405405406,
+        0.22522522522522523
+      ],
+      "edgeMaxAlpha": 1,
+      "pupil": {
+        "center": [
+          337.0530612244898,
+          185.5795918367347
+        ],
+        "boundsLTRB": [
+          321,
+          173,
+          354,
+          201
+        ],
+        "area": 490,
+        "method": "largest warm-dark component only in fixed head ROI; metadata measurement, not image filtering"
+      }
+    },
+    {
+      "sourceFrame": 4,
+      "sourceRect": [
+        0,
+        444,
+        444,
+        887
+      ],
+      "nativeCellSize": [
+        444,
+        443
+      ],
+      "normalizedSharedCanvas": [
+        444,
+        444
+      ],
+      "boundsAboveAlpha3": [
+        30,
+        88,
+        420,
+        311
+      ],
+      "marginRatios": [
+        0.06756756756756757,
+        0.1981981981981982,
+        0.05405405405405406,
+        0.29954954954954954
+      ],
+      "edgeMaxAlpha": 0,
+      "pupil": {
+        "center": [
+          349.90909090909093,
+          134.8989898989899
+        ],
+        "boundsLTRB": [
+          334,
+          122,
+          366,
+          152
+        ],
+        "area": 495,
+        "method": "largest warm-dark component only in fixed head ROI; metadata measurement, not image filtering"
+      }
+    },
+    {
+      "sourceFrame": 5,
+      "sourceRect": [
+        444,
+        444,
+        887,
+        887
+      ],
+      "nativeCellSize": [
+        443,
+        443
+      ],
+      "normalizedSharedCanvas": [
+        444,
+        444
+      ],
+      "boundsAboveAlpha3": [
+        34,
+        88,
+        412,
+        341
+      ],
+      "marginRatios": [
+        0.07657657657657657,
+        0.1981981981981982,
+        0.07207207207207207,
+        0.23198198198198197
+      ],
+      "edgeMaxAlpha": 1,
+      "pupil": {
+        "center": [
+          347.4641255605381,
+          134.53587443946188
+        ],
+        "boundsLTRB": [
+          332,
+          122,
+          364,
+          148
+        ],
+        "area": 446,
+        "method": "largest warm-dark component only in fixed head ROI; metadata measurement, not image filtering"
+      }
+    },
+    {
+      "sourceFrame": 6,
+      "sourceRect": [
+        887,
+        444,
+        1330,
+        887
+      ],
+      "nativeCellSize": [
+        443,
+        443
+      ],
+      "normalizedSharedCanvas": [
+        444,
+        444
+      ],
+      "boundsAboveAlpha3": [
+        29,
+        88,
+        406,
+        316
+      ],
+      "marginRatios": [
+        0.06531531531531531,
+        0.1981981981981982,
+        0.08558558558558559,
+        0.2882882882882883
+      ],
+      "edgeMaxAlpha": 0,
+      "pupil": {
+        "center": [
+          343.80962343096235,
+          134.88702928870293
+        ],
+        "boundsLTRB": [
+          328,
+          123,
+          360,
+          148
+        ],
+        "area": 478,
+        "method": "largest warm-dark component only in fixed head ROI; metadata measurement, not image filtering"
+      }
+    },
+    {
+      "sourceFrame": 7,
+      "sourceRect": [
+        1330,
+        444,
+        1774,
+        887
+      ],
+      "nativeCellSize": [
+        444,
+        443
+      ],
+      "normalizedSharedCanvas": [
+        444,
+        444
+      ],
+      "boundsAboveAlpha3": [
+        21,
+        88,
+        401,
+        296
+      ],
+      "marginRatios": [
+        0.0472972972972973,
+        0.1981981981981982,
+        0.09684684684684684,
+        0.3333333333333333
+      ],
+      "edgeMaxAlpha": 1,
+      "pupil": {
+        "center": [
+          337.02150537634407,
+          135.05806451612904
+        ],
+        "boundsLTRB": [
+          321,
+          122,
+          354,
+          150
+        ],
+        "area": 465,
+        "method": "largest warm-dark component only in fixed head ROI; metadata measurement, not image filtering"
+      }
+    }
+  ],
+  "warnings": [
+    {
+      "id": "source_cell_margin",
+      "sourceFrame": 0,
+      "value": 0.06756756756756757,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_cell_margin",
+      "sourceFrame": 1,
+      "value": 0.05855855855855856,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_cell_margin",
+      "sourceFrame": 2,
+      "value": 0.06531531531531531,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_cell_margin",
+      "sourceFrame": 3,
+      "value": 0.0472972972972973,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_cell_margin",
+      "sourceFrame": 4,
+      "value": 0.05405405405405406,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_cell_margin",
+      "sourceFrame": 5,
+      "value": 0.07207207207207207,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_cell_margin",
+      "sourceFrame": 6,
+      "value": 0.06531531531531531,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_cell_margin",
+      "sourceFrame": 7,
+      "value": 0.0472972972972973,
+      "threshold": 0.12
+    }
+  ],
+  "alphaCleanup": "Only <=3 set to0 in derived cell copy; source image untouched",
+  "actualMotionApproved": false,
+  "rootRegistrationPending": true,
+  "noResamplingOrUpscaling": true
+}

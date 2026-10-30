@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "brand-title",
+  "name": "捕鱼标题",
+  "file": "assets/branding/brand-title.png",
+  "sha256": "0726db6b0ca32ba6a6890820c4a45db34fdf7ecfb3ffa68ba7b106be9860329f",
+  "width": 1390,
+  "height": 792,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/production-v1/brand-title/brand-title.png",
+  "derivedFrom": [
+    {
+      "file": "designs/production-v1/brand-title/brand-title.png",
+      "sha256": "fca50365b30d290bddea77960509cf1758913926740d1fde6a11b8e943550672",
+      "generationRecord": "designs/production-v1/brand-title/brand-title.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_grid_crop",
+    "grid": {
+      "rows": 1,
+      "cols": 1
+    },
+    "sourceRect": [
+      0,
+      0,
+      1536,
+      1024
+    ],
+    "cellCropRect": [
+      74,
+      103,
+      1464,
+      895
+    ],
+    "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+    "resized": false,
+    "upscaled": false
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "displaySize": [
+    600,
+    400
+  ],
+  "status": "prepared_pending_visual_review",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source generation record; no new model call for this slice."
+}

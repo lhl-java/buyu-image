@@ -1,0 +1,604 @@
+{
+  "schemaVersion": 1,
+  "preparedAt": "2026-10-28T10:47:35.372803+00:00",
+  "scope": "81 planned fish, boss and guide actions; no call has been made.",
+  "artSource": "image-to-video route pending; existing host-generated stills are identity references",
+  "jobCount": 81,
+  "jobs": [
+    {
+      "id": "01-qingqi/swim",
+      "job": "motion-jobs/01-qingqi/swim/job.json",
+      "prompt": "motion-jobs/01-qingqi/swim/prompt.txt",
+      "source": "assets/fish/batch-1/01-qingqi.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "01-qingqi/capture",
+      "job": "motion-jobs/01-qingqi/capture/job.json",
+      "prompt": "motion-jobs/01-qingqi/capture/prompt.txt",
+      "source": "assets/fish/batch-1/01-qingqi.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "02-jinwei/swim",
+      "job": "motion-jobs/02-jinwei/swim/job.json",
+      "prompt": "motion-jobs/02-jinwei/swim/prompt.txt",
+      "source": "assets/fish/batch-1/02-jinwei.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "02-jinwei/capture",
+      "job": "motion-jobs/02-jinwei/capture/job.json",
+      "prompt": "motion-jobs/02-jinwei/capture/prompt.txt",
+      "source": "assets/fish/batch-1/02-jinwei.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "03-chiyu/swim",
+      "job": "motion-jobs/03-chiyu/swim/job.json",
+      "prompt": "motion-jobs/03-chiyu/swim/prompt.txt",
+      "source": "assets/fish/batch-1/03-chiyu.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "03-chiyu/capture",
+      "job": "motion-jobs/03-chiyu/capture/job.json",
+      "prompt": "motion-jobs/03-chiyu/capture/prompt.txt",
+      "source": "assets/fish/batch-1/03-chiyu.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "04-shenxian/swim",
+      "job": "motion-jobs/04-shenxian/swim/job.json",
+      "prompt": "motion-jobs/04-shenxian/swim/prompt.txt",
+      "source": "assets/fish/batch-1/04-shenxian.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "04-shenxian/capture",
+      "job": "motion-jobs/04-shenxian/capture/job.json",
+      "prompt": "motion-jobs/04-shenxian/capture/prompt.txt",
+      "source": "assets/fish/batch-1/04-shenxian.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "05-hetun/swim",
+      "job": "motion-jobs/05-hetun/swim/job.json",
+      "prompt": "motion-jobs/05-hetun/swim/prompt.txt",
+      "source": "assets/fish/batch-1/05-hetun.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "05-hetun/capture",
+      "job": "motion-jobs/05-hetun/capture/job.json",
+      "prompt": "motion-jobs/05-hetun/capture/prompt.txt",
+      "source": "assets/fish/batch-1/05-hetun.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "06-haima/swim",
+      "job": "motion-jobs/06-haima/swim/job.json",
+      "prompt": "motion-jobs/06-haima/swim/prompt.txt",
+      "source": "assets/fish/batch-1/06-haima.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "06-haima/capture",
+      "job": "motion-jobs/06-haima/capture/job.json",
+      "prompt": "motion-jobs/06-haima/capture/prompt.txt",
+      "source": "assets/fish/batch-1/06-haima.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "07-zihai/swim",
+      "job": "motion-jobs/07-zihai/swim/job.json",
+      "prompt": "motion-jobs/07-zihai/swim/prompt.txt",
+      "source": "assets/fish/batch-2/07-zihai.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "07-zihai/capture",
+      "job": "motion-jobs/07-zihai/capture/job.json",
+      "prompt": "motion-jobs/07-zihai/capture/prompt.txt",
+      "source": "assets/fish/batch-2/07-zihai.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "08-lanbian/swim",
+      "job": "motion-jobs/08-lanbian/swim/job.json",
+      "prompt": "motion-jobs/08-lanbian/swim/prompt.txt",
+      "source": "assets/fish/batch-2/08-lanbian.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "08-lanbian/capture",
+      "job": "motion-jobs/08-lanbian/capture/job.json",
+      "prompt": "motion-jobs/08-lanbian/capture/prompt.txt",
+      "source": "assets/fish/batch-2/08-lanbian.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "09-caidie/swim",
+      "job": "motion-jobs/09-caidie/swim/job.json",
+      "prompt": "motion-jobs/09-caidie/swim/prompt.txt",
+      "source": "assets/fish/batch-2/09-caidie.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "09-caidie/capture",
+      "job": "motion-jobs/09-caidie/capture/job.json",
+      "prompt": "motion-jobs/09-caidie/capture/prompt.txt",
+      "source": "assets/fish/batch-2/09-caidie.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "10-qingya/swim",
+      "job": "motion-jobs/10-qingya/swim/job.json",
+      "prompt": "motion-jobs/10-qingya/swim/prompt.txt",
+      "source": "assets/fish/batch-2/10-qingya.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "10-qingya/capture",
+      "job": "motion-jobs/10-qingya/capture/job.json",
+      "prompt": "motion-jobs/10-qingya/capture/prompt.txt",
+      "source": "assets/fish/batch-2/10-qingya.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "11-yinlin/swim",
+      "job": "motion-jobs/11-yinlin/swim/job.json",
+      "prompt": "motion-jobs/11-yinlin/swim/prompt.txt",
+      "source": "assets/fish/batch-2/11-yinlin.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "11-yinlin/capture",
+      "job": "motion-jobs/11-yinlin/capture/job.json",
+      "prompt": "motion-jobs/11-yinlin/capture/prompt.txt",
+      "source": "assets/fish/batch-2/11-yinlin.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "12-yuewei/swim",
+      "job": "motion-jobs/12-yuewei/swim/job.json",
+      "prompt": "motion-jobs/12-yuewei/swim/prompt.txt",
+      "source": "assets/fish/batch-2/12-yuewei.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "12-yuewei/capture",
+      "job": "motion-jobs/12-yuewei/capture/job.json",
+      "prompt": "motion-jobs/12-yuewei/capture/prompt.txt",
+      "source": "assets/fish/batch-2/12-yuewei.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "13-yunwengui/swim",
+      "job": "motion-jobs/13-yunwengui/swim/job.json",
+      "prompt": "motion-jobs/13-yunwengui/swim/prompt.txt",
+      "source": "assets/fish/batch-3/13-yunwengui.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "13-yunwengui/capture",
+      "job": "motion-jobs/13-yunwengui/capture/job.json",
+      "prompt": "motion-jobs/13-yunwengui/capture/prompt.txt",
+      "source": "assets/fish/batch-3/13-yunwengui.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "14-huanyue/swim",
+      "job": "motion-jobs/14-huanyue/swim/job.json",
+      "prompt": "motion-jobs/14-huanyue/swim/prompt.txt",
+      "source": "assets/fish/batch-3/14-huanyue.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "14-huanyue/capture",
+      "job": "motion-jobs/14-huanyue/capture/job.json",
+      "prompt": "motion-jobs/14-huanyue/capture/prompt.txt",
+      "source": "assets/fish/batch-3/14-huanyue.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "15-lanray/swim",
+      "job": "motion-jobs/15-lanray/swim/job.json",
+      "prompt": "motion-jobs/15-lanray/swim/prompt.txt",
+      "source": "assets/fish/batch-3/15-lanray.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "15-lanray/capture",
+      "job": "motion-jobs/15-lanray/capture/job.json",
+      "prompt": "motion-jobs/15-lanray/capture/prompt.txt",
+      "source": "assets/fish/batch-3/15-lanray.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "16-shiziyu/swim",
+      "job": "motion-jobs/16-shiziyu/swim/job.json",
+      "prompt": "motion-jobs/16-shiziyu/swim/prompt.txt",
+      "source": "assets/fish/batch-3/16-shiziyu.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "16-shiziyu/capture",
+      "job": "motion-jobs/16-shiziyu/capture/job.json",
+      "prompt": "motion-jobs/16-shiziyu/capture/prompt.txt",
+      "source": "assets/fish/batch-3/16-shiziyu.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "17-shanhuyu/swim",
+      "job": "motion-jobs/17-shanhuyu/swim/job.json",
+      "prompt": "motion-jobs/17-shanhuyu/swim/prompt.txt",
+      "source": "assets/fish/batch-3/17-shanhuyu.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "17-shanhuyu/capture",
+      "job": "motion-jobs/17-shanhuyu/capture/job.json",
+      "prompt": "motion-jobs/17-shanhuyu/capture/prompt.txt",
+      "source": "assets/fish/batch-3/17-shanhuyu.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "18-qinglong/swim",
+      "job": "motion-jobs/18-qinglong/swim/job.json",
+      "prompt": "motion-jobs/18-qinglong/swim/prompt.txt",
+      "source": "assets/fish/batch-3/18-qinglong.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "18-qinglong/capture",
+      "job": "motion-jobs/18-qinglong/capture/job.json",
+      "prompt": "motion-jobs/18-qinglong/capture/prompt.txt",
+      "source": "assets/fish/batch-3/18-qinglong.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "19-lingjinli/swim",
+      "job": "motion-jobs/19-lingjinli/swim/job.json",
+      "prompt": "motion-jobs/19-lingjinli/swim/prompt.txt",
+      "source": "assets/fish/batch-4/19-lingjinli.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "19-lingjinli/capture",
+      "job": "motion-jobs/19-lingjinli/capture/job.json",
+      "prompt": "motion-jobs/19-lingjinli/capture/prompt.txt",
+      "source": "assets/fish/batch-4/19-lingjinli.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "20-yuban/swim",
+      "job": "motion-jobs/20-yuban/swim/job.json",
+      "prompt": "motion-jobs/20-yuban/swim/prompt.txt",
+      "source": "assets/fish/batch-4/20-yuban.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "20-yuban/capture",
+      "job": "motion-jobs/20-yuban/capture/job.json",
+      "prompt": "motion-jobs/20-yuban/capture/prompt.txt",
+      "source": "assets/fish/batch-4/20-yuban.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "21-haiqiu/swim",
+      "job": "motion-jobs/21-haiqiu/swim/job.json",
+      "prompt": "motion-jobs/21-haiqiu/swim/prompt.txt",
+      "source": "assets/fish/batch-4/21-haiqiu.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "21-haiqiu/capture",
+      "job": "motion-jobs/21-haiqiu/capture/job.json",
+      "prompt": "motion-jobs/21-haiqiu/capture/prompt.txt",
+      "source": "assets/fish/batch-4/21-haiqiu.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "22-bailian/swim",
+      "job": "motion-jobs/22-bailian/swim/job.json",
+      "prompt": "motion-jobs/22-bailian/swim/prompt.txt",
+      "source": "assets/fish/batch-4/22-bailian.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "22-bailian/capture",
+      "job": "motion-jobs/22-bailian/capture/job.json",
+      "prompt": "motion-jobs/22-bailian/capture/prompt.txt",
+      "source": "assets/fish/batch-4/22-bailian.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "23-liuguang/swim",
+      "job": "motion-jobs/23-liuguang/swim/job.json",
+      "prompt": "motion-jobs/23-liuguang/swim/prompt.txt",
+      "source": "assets/fish/batch-4/23-liuguang.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "23-liuguang/capture",
+      "job": "motion-jobs/23-liuguang/capture/job.json",
+      "prompt": "motion-jobs/23-liuguang/capture/prompt.txt",
+      "source": "assets/fish/batch-4/23-liuguang.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "24-jindun/swim",
+      "job": "motion-jobs/24-jindun/swim/job.json",
+      "prompt": "motion-jobs/24-jindun/swim/prompt.txt",
+      "source": "assets/fish/batch-4/24-jindun.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "24-jindun/capture",
+      "job": "motion-jobs/24-jindun/capture/job.json",
+      "prompt": "motion-jobs/24-jindun/capture/prompt.txt",
+      "source": "assets/fish/batch-4/24-jindun.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "25-yexing/swim",
+      "job": "motion-jobs/25-yexing/swim/job.json",
+      "prompt": "motion-jobs/25-yexing/swim/prompt.txt",
+      "source": "assets/fish/batch-5/25-yexing.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "25-yexing/capture",
+      "job": "motion-jobs/25-yexing/capture/job.json",
+      "prompt": "motion-jobs/25-yexing/capture/prompt.txt",
+      "source": "assets/fish/batch-5/25-yexing.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "26-moyu/swim",
+      "job": "motion-jobs/26-moyu/swim/job.json",
+      "prompt": "motion-jobs/26-moyu/swim/prompt.txt",
+      "source": "assets/fish/batch-5/26-moyu.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "26-moyu/capture",
+      "job": "motion-jobs/26-moyu/capture/job.json",
+      "prompt": "motion-jobs/26-moyu/capture/prompt.txt",
+      "source": "assets/fish/batch-5/26-moyu.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "27-yingguang/swim",
+      "job": "motion-jobs/27-yingguang/swim/job.json",
+      "prompt": "motion-jobs/27-yingguang/swim/prompt.txt",
+      "source": "assets/fish/batch-5/27-yingguang.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "27-yingguang/capture",
+      "job": "motion-jobs/27-yingguang/capture/job.json",
+      "prompt": "motion-jobs/27-yingguang/capture/prompt.txt",
+      "source": "assets/fish/batch-5/27-yingguang.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "28-shenhai/swim",
+      "job": "motion-jobs/28-shenhai/swim/job.json",
+      "prompt": "motion-jobs/28-shenhai/swim/prompt.txt",
+      "source": "assets/fish/batch-5/28-shenhai.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "28-shenhai/capture",
+      "job": "motion-jobs/28-shenhai/capture/job.json",
+      "prompt": "motion-jobs/28-shenhai/capture/prompt.txt",
+      "source": "assets/fish/batch-5/28-shenhai.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "29-hailong/swim",
+      "job": "motion-jobs/29-hailong/swim/job.json",
+      "prompt": "motion-jobs/29-hailong/swim/prompt.txt",
+      "source": "assets/fish/batch-5/29-hailong.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "29-hailong/capture",
+      "job": "motion-jobs/29-hailong/capture/job.json",
+      "prompt": "motion-jobs/29-hailong/capture/prompt.txt",
+      "source": "assets/fish/batch-5/29-hailong.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "30-jinjia/swim",
+      "job": "motion-jobs/30-jinjia/swim/job.json",
+      "prompt": "motion-jobs/30-jinjia/swim/prompt.txt",
+      "source": "assets/fish/batch-5/30-jinjia.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "30-jinjia/capture",
+      "job": "motion-jobs/30-jinjia/capture/job.json",
+      "prompt": "motion-jobs/30-jinjia/capture/prompt.txt",
+      "source": "assets/fish/batch-5/30-jinjia.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "31-bingjing/swim",
+      "job": "motion-jobs/31-bingjing/swim/job.json",
+      "prompt": "motion-jobs/31-bingjing/swim/prompt.txt",
+      "source": "assets/fish/batch-6/31-bingjing.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "31-bingjing/capture",
+      "job": "motion-jobs/31-bingjing/capture/job.json",
+      "prompt": "motion-jobs/31-bingjing/capture/prompt.txt",
+      "source": "assets/fish/batch-6/31-bingjing.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "32-honglian/swim",
+      "job": "motion-jobs/32-honglian/swim/job.json",
+      "prompt": "motion-jobs/32-honglian/swim/prompt.txt",
+      "source": "assets/fish/batch-6/32-honglian.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "32-honglian/capture",
+      "job": "motion-jobs/32-honglian/capture/job.json",
+      "prompt": "motion-jobs/32-honglian/capture/prompt.txt",
+      "source": "assets/fish/batch-6/32-honglian.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "33-xuanwu/swim",
+      "job": "motion-jobs/33-xuanwu/swim/job.json",
+      "prompt": "motion-jobs/33-xuanwu/swim/prompt.txt",
+      "source": "assets/fish/batch-6/33-xuanwu.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "33-xuanwu/capture",
+      "job": "motion-jobs/33-xuanwu/capture/job.json",
+      "prompt": "motion-jobs/33-xuanwu/capture/prompt.txt",
+      "source": "assets/fish/batch-6/33-xuanwu.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "34-jinlongli/swim",
+      "job": "motion-jobs/34-jinlongli/swim/job.json",
+      "prompt": "motion-jobs/34-jinlongli/swim/prompt.txt",
+      "source": "assets/fish/batch-6/34-jinlongli.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "34-jinlongli/capture",
+      "job": "motion-jobs/34-jinlongli/capture/job.json",
+      "prompt": "motion-jobs/34-jinlongli/capture/prompt.txt",
+      "source": "assets/fish/batch-6/34-jinlongli.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "34-jinlongli/attack",
+      "job": "motion-jobs/34-jinlongli/attack/job.json",
+      "prompt": "motion-jobs/34-jinlongli/attack/prompt.txt",
+      "source": "assets/fish/batch-6/34-jinlongli.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "34-jinlongli/enrage",
+      "job": "motion-jobs/34-jinlongli/enrage/job.json",
+      "prompt": "motion-jobs/34-jinlongli/enrage/prompt.txt",
+      "source": "assets/fish/batch-6/34-jinlongli.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "35-longwang/swim",
+      "job": "motion-jobs/35-longwang/swim/job.json",
+      "prompt": "motion-jobs/35-longwang/swim/prompt.txt",
+      "source": "assets/fish/batch-6/35-longwang.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "35-longwang/capture",
+      "job": "motion-jobs/35-longwang/capture/job.json",
+      "prompt": "motion-jobs/35-longwang/capture/prompt.txt",
+      "source": "assets/fish/batch-6/35-longwang.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "35-longwang/attack",
+      "job": "motion-jobs/35-longwang/attack/job.json",
+      "prompt": "motion-jobs/35-longwang/attack/prompt.txt",
+      "source": "assets/fish/batch-6/35-longwang.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "35-longwang/enrage",
+      "job": "motion-jobs/35-longwang/enrage/job.json",
+      "prompt": "motion-jobs/35-longwang/enrage/prompt.txt",
+      "source": "assets/fish/batch-6/35-longwang.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "36-xuanjing/swim",
+      "job": "motion-jobs/36-xuanjing/swim/job.json",
+      "prompt": "motion-jobs/36-xuanjing/swim/prompt.txt",
+      "source": "assets/fish/batch-6/36-xuanjing.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "36-xuanjing/capture",
+      "job": "motion-jobs/36-xuanjing/capture/job.json",
+      "prompt": "motion-jobs/36-xuanjing/capture/prompt.txt",
+      "source": "assets/fish/batch-6/36-xuanjing.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "36-xuanjing/attack",
+      "job": "motion-jobs/36-xuanjing/attack/job.json",
+      "prompt": "motion-jobs/36-xuanjing/attack/prompt.txt",
+      "source": "assets/fish/batch-6/36-xuanjing.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "36-xuanjing/enrage",
+      "job": "motion-jobs/36-xuanjing/enrage/job.json",
+      "prompt": "motion-jobs/36-xuanjing/enrage/prompt.txt",
+      "source": "assets/fish/batch-6/36-xuanjing.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "dao-child/idle",
+      "job": "motion-jobs/dao-child/idle/job.json",
+      "prompt": "motion-jobs/dao-child/idle/prompt.txt",
+      "source": "assets/characters/dao-child/dao-child.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "dao-child/point",
+      "job": "motion-jobs/dao-child/point/job.json",
+      "prompt": "motion-jobs/dao-child/point/prompt.txt",
+      "source": "assets/characters/dao-child/dao-child.png",
+      "status": "prepared_pending_video_route_authorization"
+    },
+    {
+      "id": "dao-child/celebrate",
+      "job": "motion-jobs/dao-child/celebrate/job.json",
+      "prompt": "motion-jobs/dao-child/celebrate/prompt.txt",
+      "source": "assets/characters/dao-child/dao-child.png",
+      "status": "prepared_pending_video_route_authorization"
+    }
+  ],
+  "pilot": {
+    "jobs": [
+      "01-qingqi/swim",
+      "dao-child/idle"
+    ],
+    "maximumCalls": 2,
+    "generationSecondsPerCall": 6,
+    "resolution": "720p",
+    "proposedBudgetUsd": 1,
+    "estimatedOutputAndOneImageInputUsd": 0.844,
+    "authorizationStatus": "no_paid_route_selected_user_requested_frame_art",
+    "submitted": false
+  },
+  "pricing": {
+    "source": "https://docs.x.ai/developers/models/grok-imagine-video",
+    "checkedOn": "2026-10-28",
+    "outputUsdPerSecond720p": 0.07,
+    "imageInputUsdEach": 0.002,
+    "onePass81JobsEstimateUsd": 34.182,
+    "threeTakesAllJobsEstimateUsd": 102.546,
+    "notes": "Planning estimates only. Other billed input, provider changes and retries may alter total. Whole-batch spend has not been authorized."
+  },
+  "credentials": "Not present. Configure only in the local provider credential store; never put keys in a chat, job file, project or public repository.",
+  "capabilityEvidence": "docs/MOTION_CAPABILITY_20261028.json",
+  "status": "superseded_by_user_native_frame_sheet_route",
+  "gameArtComplete": false,
+  "supersededAt": "2026-10-28T16:49:01.443589+00:00",
+  "supersedingContract": "docs/ANIMATION_FRAME_CONTRACT.md"
+}

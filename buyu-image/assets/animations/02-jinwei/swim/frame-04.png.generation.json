@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-04",
+  "file": "assets/animations/02-jinwei/swim/frame-04.png",
+  "sha256": "dd554f4d8fa7593b58b867a9a59aae04f3304fa3b7e3913d6eefd35eb59f009f",
+  "width": 672,
+  "height": 672,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-contained-v2.png",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-contained-v2.png",
+      "sha256": "3c1746a4a2bdc3bd471f2b59f271563bebb3ee8f8327b62f5bb6f56024e885d1",
+      "generationRecord": "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-contained-v2.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_grid_crop_integer_pupil_registration",
+    "sourceRect": [
+      26,
+      526,
+      424,
+      785
+    ],
+    "cellCropRect": [
+      0,
+      0,
+      398,
+      259
+    ],
+    "registrationOffset": [
+      95,
+      209
+    ],
+    "registeredCanvas": [
+      672,
+      672
+    ],
+    "registrationReference": {
+      "type": "black_pupil_component_centroid",
+      "sourcePointFloat": [
+        340.61475409836066,
+        106.57377049180332
+      ],
+      "sourcePointRounded": [
+        341,
+        107
+      ],
+      "targetPoint": [
+        436,
+        316
+      ],
+      "method": "largest RGBmax<55 and A>220 component within right48percent cell; requires actual ROI visual confirmation",
+      "roiActuallyInspected": true
+    },
+    "resized": false,
+    "upscaled": false,
+    "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+    "sourcePixelsRoundTripVerified": true,
+    "nominalGridRect": [
+      0,
+      444,
+      444,
+      887
+    ],
+    "nominalGridBorderAlpha": 1,
+    "ownershipType": "complete_nonoverlapping_pose_rectangle",
+    "foreignFishAlphaPixels": 0,
+    "allAssignedPixelsInsideRect": true
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "rootPixels": [
+    336,
+    336
+  ],
+  "eyePixels": [
+    436,
+    316
+  ],
+  "displaySize": [
+    215.04,
+    215.04
+  ],
+  "bodyDisplayBox": [
+    120,
+    80
+  ],
+  "uniformDisplayScale": 0.32,
+  "scaleReference": "rest frame00 native visible box",
+  "registeredAlphaBBox": [
+    103,
+    217,
+    485,
+    460
+  ],
+  "registeredMinMargin": 0.15327380952380953,
+  "status": "producer_candidate_pending_root_visual",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+  "clipDensityAdjustment": null,
+  "producerLightDarkStillReview": "viewed_candidate_pass"
+}

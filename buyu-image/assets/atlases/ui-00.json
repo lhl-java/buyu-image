@@ -1,0 +1,618 @@
+{
+  "schemaVersion": 1,
+  "frames": {
+    "ui/runtime-panel/panel-runtime": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 1123,
+        "h": 643
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 1123,
+        "h": 643
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ui/runtime-panel/panel-runtime.png",
+      "sourceSha256": "35e8b2895262a41586bab388068d74b6dfad44481795dc7e346b63dd6da4cfc2"
+    },
+    "ui/additions/backpack": {
+      "frame": {
+        "x": 1129,
+        "y": 2,
+        "w": 645,
+        "h": 555
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 645,
+        "h": 555
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ui/additions/backpack.png",
+      "sourceSha256": "3845821962e081008f3fda6ec727e0bc75e61b9c3fa30f243faaae1ed703237f"
+    },
+    "ui/panels/panel-large": {
+      "frame": {
+        "x": 2,
+        "y": 649,
+        "w": 571,
+        "h": 450
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 571,
+        "h": 450
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ui/panels/panel-large.png",
+      "sourceSha256": "5a63a75d427b4c6bfca7de0b19b9e4f0b2b3222ae09f9f625c0792bc0d27dd42"
+    },
+    "ui/additions/slider-thumb-normal": {
+      "frame": {
+        "x": 577,
+        "y": 649,
+        "w": 388,
+        "h": 385
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 388,
+        "h": 385
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ui/additions/slider-thumb-normal.png",
+      "sourceSha256": "296f5941d06b7b00157e04b68fa298f3911ec638127432a33297459e137efa04"
+    },
+    "ui/additions/slider-thumb-pressed": {
+      "frame": {
+        "x": 969,
+        "y": 649,
+        "w": 387,
+        "h": 384
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 387,
+        "h": 384
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ui/additions/slider-thumb-pressed.png",
+      "sourceSha256": "149de357b7a50e1d59dedf99c86ed16952d5bc24c6c6b2d2304ef9ab71693094"
+    },
+    "ui/panels/panel-compact": {
+      "frame": {
+        "x": 1360,
+        "y": 649,
+        "w": 351,
+        "h": 375
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 351,
+        "h": 375
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ui/panels/panel-compact.png",
+      "sourceSha256": "3e820477f9d2ffdeff684262e9c552549b2960a2b94f9f135c581f2eec84b060"
+    },
+    "ui/panels/portrait-frame": {
+      "frame": {
+        "x": 2,
+        "y": 1103,
+        "w": 368,
+        "h": 356
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 368,
+        "h": 356
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ui/panels/portrait-frame.png",
+      "sourceSha256": "3babf20a561d38d934f696f0fb4636409feacf89ded3136901c149795aeac587"
+    },
+    "ui/hud/slot-selected": {
+      "frame": {
+        "x": 374,
+        "y": 1103,
+        "w": 293,
+        "h": 288
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 293,
+        "h": 288
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ui/hud/slot-selected.png",
+      "sourceSha256": "e8a9b6262461f7f72a2975566f281b56019577e76a7d304ecb81e2803562bd25"
+    },
+    "ui/hud/slot-locked": {
+      "frame": {
+        "x": 671,
+        "y": 1103,
+        "w": 265,
+        "h": 263
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 265,
+        "h": 263
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ui/hud/slot-locked.png",
+      "sourceSha256": "624c508270584f607041914a1b5136ff8cf0773868d81b36e83d034f4a3ef95d"
+    },
+    "ui/hud/slot-empty": {
+      "frame": {
+        "x": 940,
+        "y": 1103,
+        "w": 267,
+        "h": 262
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 267,
+        "h": 262
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ui/hud/slot-empty.png",
+      "sourceSha256": "837b0bdbb9ea0ccc081fc3a25bfc5d5e7062bd0b759918c70469bb0bb887f0d1"
+    },
+    "ui/hud/slot-normal": {
+      "frame": {
+        "x": 1211,
+        "y": 1103,
+        "w": 261,
+        "h": 262
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 261,
+        "h": 262
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ui/hud/slot-normal.png",
+      "sourceSha256": "a4524e8f180217a2a3d2c2b5802ba88277567fa5446bcd0e55300fba3ec0527e"
+    },
+    "ui/buttons/close-normal": {
+      "frame": {
+        "x": 1476,
+        "y": 1103,
+        "w": 229,
+        "h": 229
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 229,
+        "h": 229
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ui/buttons/close-normal.png",
+      "sourceSha256": "65b94aeeabc88acd656419a248e595d0bcb6f507e5ff0f209985af7b30aec884"
+    },
+    "ui/buttons/close-pressed": {
+      "frame": {
+        "x": 1709,
+        "y": 1103,
+        "w": 230,
+        "h": 228
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 230,
+        "h": 228
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ui/buttons/close-pressed.png",
+      "sourceSha256": "0dd573212396c57ed9b4ffee84ed58498f2f8ac0f0e58e579dc5ae5c7e05b4ae"
+    },
+    "ui/hud/checkbox-on": {
+      "frame": {
+        "x": 2,
+        "y": 1463,
+        "w": 209,
+        "h": 206
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 209,
+        "h": 206
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ui/hud/checkbox-on.png",
+      "sourceSha256": "a3fd44e00e3b9657f20e49e65da08d70c50cc2aef75a3535fab4febe0cd5a372"
+    },
+    "ui/panels/tooltip-panel": {
+      "frame": {
+        "x": 215,
+        "y": 1463,
+        "w": 349,
+        "h": 203
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 349,
+        "h": 203
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ui/panels/tooltip-panel.png",
+      "sourceSha256": "e6d916402f7670cd63831234d8241832915e91658b6dc62b32df9118e6d06137"
+    },
+    "ui/hud/checkbox-off": {
+      "frame": {
+        "x": 568,
+        "y": 1463,
+        "w": 214,
+        "h": 202
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 214,
+        "h": 202
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ui/hud/checkbox-off.png",
+      "sourceSha256": "1f8f5aaf04d2bb60c5c3e3c538e1dd3d1fdf1d57c1fbe3c4f5b45ad013be86fc"
+    },
+    "ui/buttons/primary-selected": {
+      "frame": {
+        "x": 786,
+        "y": 1463,
+        "w": 364,
+        "h": 162
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 364,
+        "h": 162
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ui/buttons/primary-selected.png",
+      "sourceSha256": "9e640e22035d7012d22f19e27453176608b8a20ba2111e03d5ec7b55295e7dfe"
+    },
+    "ui/buttons/secondary-selected": {
+      "frame": {
+        "x": 1154,
+        "y": 1463,
+        "w": 363,
+        "h": 161
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 363,
+        "h": 161
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ui/buttons/secondary-selected.png",
+      "sourceSha256": "80cc7126aa694a32adf7bd5a1df8f10669b40a8879b15231216339308f73ba5b"
+    },
+    "ui/panels/title-plaque": {
+      "frame": {
+        "x": 1521,
+        "y": 1463,
+        "w": 520,
+        "h": 150
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 520,
+        "h": 150
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ui/panels/title-plaque.png",
+      "sourceSha256": "8111dbe5a5d7f206af48cbab3d10e4ca7a59c5802228281c0dafe43075d2c107"
+    },
+    "ui/hud/toggle-off": {
+      "frame": {
+        "x": 2,
+        "y": 1673,
+        "w": 285,
+        "h": 145
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 285,
+        "h": 145
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ui/hud/toggle-off.png",
+      "sourceSha256": "fe4ffc89c5049cf06b9bc030c89cd5fe961ad01f1695587772929c2b491a6129"
+    },
+    "ui/hud/toggle-on": {
+      "frame": {
+        "x": 291,
+        "y": 1673,
+        "w": 280,
+        "h": 144
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 280,
+        "h": 144
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ui/hud/toggle-on.png",
+      "sourceSha256": "9ec0a2ed6831f36ccd6097ccfe3b23fb10b65f5d651432828b4233099f701f00"
+    },
+    "ui/panels/list-row": {
+      "frame": {
+        "x": 575,
+        "y": 1673,
+        "w": 584,
+        "h": 138
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 584,
+        "h": 138
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ui/panels/list-row.png",
+      "sourceSha256": "dd025d3e45b4a61c62bdbe980bc557e0abf9d07f3d31dc413fa8eb02796db168"
+    },
+    "ui/buttons/secondary-disabled": {
+      "frame": {
+        "x": 1163,
+        "y": 1673,
+        "w": 344,
+        "h": 137
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 344,
+        "h": 137
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ui/buttons/secondary-disabled.png",
+      "sourceSha256": "bda8a266fee8bc4fc511d9239a99a8553a1aa9042de960696595394ffc92f023"
+    },
+    "ui/buttons/secondary-pressed": {
+      "frame": {
+        "x": 1511,
+        "y": 1673,
+        "w": 341,
+        "h": 137
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 341,
+        "h": 137
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ui/buttons/secondary-pressed.png",
+      "sourceSha256": "9b0bd71160c2d46632beb1f01cff58db3391251ab65d34385569d664b8f9c238"
+    },
+    "ui/buttons/tab-selected": {
+      "frame": {
+        "x": 2,
+        "y": 1822,
+        "w": 335,
+        "h": 137
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 335,
+        "h": 137
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ui/buttons/tab-selected.png",
+      "sourceSha256": "cf254f9c84e8059770448aed7eebca898bd588c3de2be822bb91e086f00d906a"
+    },
+    "ui/buttons/secondary-normal": {
+      "frame": {
+        "x": 341,
+        "y": 1822,
+        "w": 339,
+        "h": 136
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 339,
+        "h": 136
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ui/buttons/secondary-normal.png",
+      "sourceSha256": "46d45bec5225aff71df93b769b89d429bb5b60cb63f0a6104db36afc468f9614"
+    },
+    "ui/buttons/primary-disabled": {
+      "frame": {
+        "x": 684,
+        "y": 1822,
+        "w": 345,
+        "h": 133
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 345,
+        "h": 133
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ui/buttons/primary-disabled.png",
+      "sourceSha256": "23625154ed59351cd856f1491c0f3630b3fd2fc2e413601c5b50e50749726058"
+    },
+    "ui/buttons/primary-normal": {
+      "frame": {
+        "x": 1033,
+        "y": 1822,
+        "w": 344,
+        "h": 133
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 344,
+        "h": 133
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ui/buttons/primary-normal.png",
+      "sourceSha256": "421410e59b3a8773c3bec36c1f7f468a82e5fc9d20c0a783dbb659f4614e7f45"
+    },
+    "ui/buttons/tab-normal": {
+      "frame": {
+        "x": 1381,
+        "y": 1822,
+        "w": 327,
+        "h": 133
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 327,
+        "h": 133
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ui/buttons/tab-normal.png",
+      "sourceSha256": "9082885e3b9c97963a2acd24545ca51fa1fad1d0e0f62da757361f800a13ede7"
+    },
+    "ui/hud/progress-fill": {
+      "frame": {
+        "x": 2,
+        "y": 1963,
+        "w": 302,
+        "h": 81
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 302,
+        "h": 81
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ui/hud/progress-fill.png",
+      "sourceSha256": "f056f90eab4c64f2c86f1dc954f44cc2b78fccfee6da6d18fa062635c40aba59"
+    }
+  },
+  "meta": {
+    "image": "ui-00.png",
+    "size": {
+      "w": 2043,
+      "h": 2046
+    },
+    "format": "RGBA8888",
+    "scale": 1,
+    "padding": 2,
+    "noRotation": true,
+    "generatedAt": "2026-10-30T03:30:12.489824+00:00",
+    "operation": "native pixel packing; no resampling or redraw"
+  }
+}

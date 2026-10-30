@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "removedAtUTC": "2026-10-28T19:00:12.240497+00:00",
+  "scope": "01-12 owned superseded PNG leaves only",
+  "removedSourcePNGs": [
+    {
+      "file": "designs/motion-frames-v1/01-qingqi/capture/01-qingqi-capture-v1.png",
+      "sha256": "ea56757fe347abb483b0ab1a5b4e7e5d058eba571b499edf2e7932b31e440e2c"
+    },
+    {
+      "file": "designs/motion-frames-v1/01-qingqi/swim/01-qingqi-swim-contained.png",
+      "sha256": "03c87602648d8a087c5e9fbe6b0b4d1105d70d93c3f39d82daaa29267956eac0"
+    },
+    {
+      "file": "designs/motion-frames-v1/01-qingqi/swim/01-qingqi-swim-v1.png",
+      "sha256": "cd89cb2489ac41fc0730c3c8eb3e032f07ab23cb9786fff4bd39fd6a1538ab5f"
+    },
+    {
+      "file": "designs/motion-frames-v1/02-jinwei/capture/02-jinwei-capture-scale-v2.png",
+      "sha256": "939ad1c9193882296b5e4f81880aa96daeca000bab43f5f7600cc2993b5d0bc7"
+    },
+    {
+      "file": "designs/motion-frames-v1/02-jinwei/capture/02-jinwei-capture-v1.png",
+      "sha256": "2212b93df58bf10c052210075f70de96506c6eab3c030421d5768fff33ab37c3"
+    },
+    {
+      "file": "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-v1.png",
+      "sha256": "2dfbce93772aa61208f48a0eccc2565277a845ac2409614d7e742a01cf7250d7"
+    },
+    {
+      "file": "designs/motion-frames-v1/03-chiyu/capture/03-chiyu-capture-contained-v2.png",
+      "sha256": "4477b52a980a6189204c928ddf9002e39153c52c7baf293b4b27eaa721cfded6"
+    },
+    {
+      "file": "designs/motion-frames-v1/03-chiyu/capture/03-chiyu-capture-v1.png",
+      "sha256": "760be4da3c8671cbceeda7cc331c975e07ab533ad1920a36f1497d6a26cceefd"
+    },
+    {
+      "file": "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-contained-v2.png",
+      "sha256": "8fc280d6ec337c6d58b9ea310830b6f9302f35ed84f4d83d36e3bde49c25a762"
+    },
+    {
+      "file": "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-v1.png",
+      "sha256": "a1f0047f5cd73e57c06f3e2ce4bbe3c52623a06458189ee7cb4a1f5a32f6ae36"
+    },
+    {
+      "file": "designs/motion-frames-v1/09-caidie/swim/09-caidie-swim-v1.png",
+      "sha256": "0eb5f4677547848abe3b42a201109da60fbeff9add1a54807761d0ab26cc725d"
+    }
+  ],
+  "removedObsoleteQA": [
+    "designs/motion-frames-v1/02-jinwei/capture/02-jinwei-capture-v1-light.png",
+    "designs/motion-frames-v1/02-jinwei/capture/02-jinwei-capture-v1-dark.png",
+    "designs/motion-frames-v1/02-jinwei/capture/02-jinwei-capture-v1-eye-roi.png",
+    "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-v1-light.png",
+    "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-v1-dark.png",
+    "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-v1-eye-roi.png",
+    "designs/motion-frames-v1/03-chiyu/capture/03-chiyu-capture-v1-light.png",
+    "designs/motion-frames-v1/03-chiyu/capture/03-chiyu-capture-v1-dark.png",
+    "designs/motion-frames-v1/03-chiyu/capture/03-chiyu-capture-v1-eye-roi.png",
+    "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-contained-v2-light.png",
+    "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-contained-v2-dark.png",
+    "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-contained-v2-eye-roi.png",
+    "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-v1-light.png",
+    "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-v1-dark.png",
+    "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-v1-eye-roi.png"
+  ],
+  "removedSourceCount": 11,
+  "removedQACount": 15,
+  "removedTotal": 26,
+  "checks": "All26 exact leaf PNG SHA matched pre-delete plan; replacement PNG SHA matched generation record and each8 output PNG existed. Nonrecursive native PowerShell Remove-Item only; no docs, current sources, other workers or Git removed.",
+  "provenanceRecordsPreserved": 35
+}

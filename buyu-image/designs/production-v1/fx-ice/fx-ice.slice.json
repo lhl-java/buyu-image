@@ -1,0 +1,87 @@
+{
+  "source": "designs/production-v1/fx-ice/fx-ice-v2.png",
+  "output": "assets/fx/fx-ice",
+  "rows": 4,
+  "cols": 4,
+  "items": [
+    {
+      "id": "frame-00",
+      "name": "fx-ice 0"
+    },
+    {
+      "id": "frame-01",
+      "name": "fx-ice 1"
+    },
+    {
+      "id": "frame-02",
+      "name": "fx-ice 2"
+    },
+    {
+      "id": "frame-03",
+      "name": "fx-ice 3"
+    },
+    {
+      "id": "frame-04",
+      "name": "fx-ice 4"
+    },
+    {
+      "id": "frame-05",
+      "name": "fx-ice 5"
+    },
+    {
+      "id": "frame-06",
+      "name": "fx-ice 6"
+    },
+    {
+      "id": "frame-07",
+      "name": "fx-ice 7"
+    },
+    {
+      "id": "frame-08",
+      "name": "fx-ice 8"
+    },
+    {
+      "id": "frame-09",
+      "name": "fx-ice 9"
+    },
+    {
+      "id": "frame-10",
+      "name": "fx-ice 10"
+    },
+    {
+      "id": "frame-11",
+      "name": "fx-ice 11"
+    },
+    {
+      "id": "frame-12",
+      "name": "fx-ice 12"
+    },
+    {
+      "id": "frame-13",
+      "name": "fx-ice 13"
+    },
+    {
+      "id": "frame-14",
+      "name": "fx-ice 14"
+    },
+    {
+      "id": "frame-15",
+      "name": "fx-ice 15"
+    }
+  ],
+  "keepCell": true,
+  "displaySize": [
+    192,
+    192
+  ],
+  "animation": {
+    "fps": 16,
+    "loop": false,
+    "order": "row-major",
+    "frames": 16,
+    "root": [
+      0.5,
+      0.5
+    ]
+  }
+}

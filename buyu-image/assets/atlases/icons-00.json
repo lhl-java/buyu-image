@@ -1,0 +1,738 @@
+{
+  "schemaVersion": 1,
+  "frames": {
+    "icons/ice": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 180,
+        "h": 188
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 180,
+        "h": 188
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/icons/ice.png",
+      "sourceSha256": "7eb921f1c1004737cd0a6f6778a5a96b70ed12f74839104d5a2f7ed04865fab2"
+    },
+    "icons/lock": {
+      "frame": {
+        "x": 186,
+        "y": 2,
+        "w": 156,
+        "h": 188
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 156,
+        "h": 188
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/icons/lock.png",
+      "sourceSha256": "959086177a6a9e59f60e0e4009032687bf02d645b7ec760af33ec1a69472cabb"
+    },
+    "icons/thunder": {
+      "frame": {
+        "x": 346,
+        "y": 2,
+        "w": 192,
+        "h": 187
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 192,
+        "h": 187
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/icons/thunder.png",
+      "sourceSha256": "1183b38dc5fabf4eeb8ed9b3b2850ab772fdb6ae973b15c4e08ffabfde4164fe"
+    },
+    "icons/achievement": {
+      "frame": {
+        "x": 542,
+        "y": 2,
+        "w": 187,
+        "h": 187
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 187,
+        "h": 187
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/icons/achievement.png",
+      "sourceSha256": "61feb3d66abe5f7cee40a46b81a27ee8c8ec4d7bafcc154a20eca2e4414ce23f"
+    },
+    "icons/vibration": {
+      "frame": {
+        "x": 733,
+        "y": 2,
+        "w": 173,
+        "h": 186
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 173,
+        "h": 186
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/icons/vibration.png",
+      "sourceSha256": "a3f8b7c0a5f37719ba07cf58836563f727c602a4d46d9d996266726c84068914"
+    },
+    "icons/key": {
+      "frame": {
+        "x": 910,
+        "y": 2,
+        "w": 182,
+        "h": 185
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 182,
+        "h": 185
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/icons/key.png",
+      "sourceSha256": "928efbc5555e8b87873ed14a6226e3be1e2dbaed3803b6499504eb19da13ac84"
+    },
+    "icons/shop": {
+      "frame": {
+        "x": 1096,
+        "y": 2,
+        "w": 178,
+        "h": 184
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 178,
+        "h": 184
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/icons/shop.png",
+      "sourceSha256": "d656edc7af960d6a63ef8fd1df8480d6bc4acece05efc44c7f6bdc3de46ca181"
+    },
+    "icons/gift": {
+      "frame": {
+        "x": 1278,
+        "y": 2,
+        "w": 193,
+        "h": 182
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 193,
+        "h": 182
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/icons/gift.png",
+      "sourceSha256": "8bdb3653b4bd0e667d6a38429d749e1b21c13c6860df9bfff8a45c549cc3fc56"
+    },
+    "icons/cannon": {
+      "frame": {
+        "x": 1475,
+        "y": 2,
+        "w": 183,
+        "h": 180
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 183,
+        "h": 180
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/icons/cannon.png",
+      "sourceSha256": "8359cc86b26ea11b2f82877a9ed6a1fb23ded306e133631f12700fcae29f92fe"
+    },
+    "icons/auto": {
+      "frame": {
+        "x": 1662,
+        "y": 2,
+        "w": 194,
+        "h": 179
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 194,
+        "h": 179
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/icons/auto.png",
+      "sourceSha256": "f667a00d8605a92057e6dd4bdb97cf7da39e86b120396709480fb5a2da83e6c0"
+    },
+    "icons/skill": {
+      "frame": {
+        "x": 2,
+        "y": 194,
+        "w": 190,
+        "h": 179
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 190,
+        "h": 179
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/icons/skill.png",
+      "sourceSha256": "ad0e86a603ad5b48578f53f25976df3f409aa9493cf98324cd43deb5d86b684d"
+    },
+    "icons/target": {
+      "frame": {
+        "x": 196,
+        "y": 194,
+        "w": 181,
+        "h": 179
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 181,
+        "h": 179
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/icons/target.png",
+      "sourceSha256": "5a8883c9e6397ded549cada304da9fe870eb62386b85f4efca220a0e7b9dc55b"
+    },
+    "icons/check": {
+      "frame": {
+        "x": 381,
+        "y": 194,
+        "w": 204,
+        "h": 178
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 204,
+        "h": 178
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/icons/check.png",
+      "sourceSha256": "2b08c77e3ea5615b9ef5677ce72aa5db9cb2c447a62225af25642619b60bac8b"
+    },
+    "icons/net": {
+      "frame": {
+        "x": 589,
+        "y": 194,
+        "w": 182,
+        "h": 178
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 182,
+        "h": 178
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/icons/net.png",
+      "sourceSha256": "2694e24f66bba825cd8f84ee4065916dcf8936d3dcdb31ee56e5e7d7c6736fc4"
+    },
+    "icons/coin-pouch": {
+      "frame": {
+        "x": 775,
+        "y": 194,
+        "w": 181,
+        "h": 176
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 181,
+        "h": 176
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/icons/coin-pouch.png",
+      "sourceSha256": "228675a7ebf95677a324cda821885901067371478fc4c5d6f277c8f02ffd23fd"
+    },
+    "icons/quality": {
+      "frame": {
+        "x": 960,
+        "y": 194,
+        "w": 190,
+        "h": 173
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 190,
+        "h": 173
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/icons/quality.png",
+      "sourceSha256": "fe0b0b2748445085b134a533b83c761499d4839e7c7a2c1209d6c8f200d9419e"
+    },
+    "icons/rank": {
+      "frame": {
+        "x": 1154,
+        "y": 194,
+        "w": 196,
+        "h": 172
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 196,
+        "h": 172
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/icons/rank.png",
+      "sourceSha256": "167e216b12cc1f5e6b9ba1a5cddac3131eb2ae706a7febd1cb465287db801730"
+    },
+    "icons/settings": {
+      "frame": {
+        "x": 1354,
+        "y": 194,
+        "w": 181,
+        "h": 172
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 181,
+        "h": 172
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/icons/settings.png",
+      "sourceSha256": "2ae36f9e019e785a395475f188ec974a9b3b2562ecbbf0ffb51a8f2c56f38f53"
+    },
+    "icons/pearl": {
+      "frame": {
+        "x": 1539,
+        "y": 194,
+        "w": 180,
+        "h": 168
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 180,
+        "h": 168
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/icons/pearl.png",
+      "sourceSha256": "9651df8df984fc78155cfe691f13a417b0993963f9f7a8c7475caf898915ef62"
+    },
+    "icons/task": {
+      "frame": {
+        "x": 1723,
+        "y": 194,
+        "w": 190,
+        "h": 167
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 190,
+        "h": 167
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/icons/task.png",
+      "sourceSha256": "0245d96a5fabc3183a400dd59152444f3aa2b30f2119bb91ede27e69f501815e"
+    },
+    "icons/minus": {
+      "frame": {
+        "x": 2,
+        "y": 377,
+        "w": 171,
+        "h": 167
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 171,
+        "h": 167
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/icons/minus.png",
+      "sourceSha256": "9766be66b483bcaf077f069c034bd178c889e47d3390830683d9e0bd7d366e7a"
+    },
+    "icons/friend": {
+      "frame": {
+        "x": 177,
+        "y": 377,
+        "w": 182,
+        "h": 166
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 182,
+        "h": 166
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/icons/friend.png",
+      "sourceSha256": "d3e6f6a607b3073879b90f9c9c5de9e386bc9927f63f3f119c863b6331bf7c97"
+    },
+    "icons/plus": {
+      "frame": {
+        "x": 363,
+        "y": 377,
+        "w": 167,
+        "h": 166
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 167,
+        "h": 166
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/icons/plus.png",
+      "sourceSha256": "a8c73ef31f384fa79491be1bede8473a7fb12bc7e842ff742a440c09b3fe969d"
+    },
+    "icons/bullet": {
+      "frame": {
+        "x": 534,
+        "y": 377,
+        "w": 183,
+        "h": 165
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 183,
+        "h": 165
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/icons/bullet.png",
+      "sourceSha256": "ad565b8de65cc69a986735cf3b18bdffa6bf6d756c8be2454d22fd14cdaf68ee"
+    },
+    "icons/music": {
+      "frame": {
+        "x": 721,
+        "y": 377,
+        "w": 145,
+        "h": 165
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 145,
+        "h": 165
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/icons/music.png",
+      "sourceSha256": "c14fc0b9c5033b521dc7486f4b7fbef0ecc03c8794cde4d87ce71af0b80b61ce"
+    },
+    "icons/chest": {
+      "frame": {
+        "x": 870,
+        "y": 377,
+        "w": 201,
+        "h": 164
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 201,
+        "h": 164
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/icons/chest.png",
+      "sourceSha256": "771a1c437b40bf072aef72a2e0258b1de17a3d94b1246e6a1577dcf10b384465"
+    },
+    "icons/book": {
+      "frame": {
+        "x": 1075,
+        "y": 377,
+        "w": 199,
+        "h": 164
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 199,
+        "h": 164
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/icons/book.png",
+      "sourceSha256": "ead6da22e17eeeb278f7f5c99c9c91f1dc0a1966f7df95fe8ca273e8522d7382"
+    },
+    "icons/shell": {
+      "frame": {
+        "x": 1278,
+        "y": 377,
+        "w": 183,
+        "h": 164
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 183,
+        "h": 164
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/icons/shell.png",
+      "sourceSha256": "6c7950732ad7e5a6147125315dab1af24fd6cc1d81de6d0907bc09190861d1d1"
+    },
+    "icons/cannon-skin": {
+      "frame": {
+        "x": 1465,
+        "y": 377,
+        "w": 192,
+        "h": 162
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 192,
+        "h": 162
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/icons/cannon-skin.png",
+      "sourceSha256": "8651548ccd36e89f87e1322233e76ba536d5ec51b67aef262e5bb86b3d79b61f"
+    },
+    "icons/jade-shard": {
+      "frame": {
+        "x": 1661,
+        "y": 377,
+        "w": 166,
+        "h": 162
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 166,
+        "h": 162
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/icons/jade-shard.png",
+      "sourceSha256": "309c86dc791ee08924ac83227db4dfde935b721b80c891bb5814ce5693cd0d4e"
+    },
+    "icons/bubble": {
+      "frame": {
+        "x": 1831,
+        "y": 377,
+        "w": 191,
+        "h": 161
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 191,
+        "h": 161
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/icons/bubble.png",
+      "sourceSha256": "f53a259ce2ac23ad449bcfdac0660d31457aad5438df7ad23a0fe67701c494dc"
+    },
+    "icons/jade": {
+      "frame": {
+        "x": 2,
+        "y": 548,
+        "w": 161,
+        "h": 161
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 161,
+        "h": 161
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/icons/jade.png",
+      "sourceSha256": "2151754de58d9037d4aef8a21cd7c4b2e025318dd808786ac98fe4685ecbd0f9"
+    },
+    "icons/coin": {
+      "frame": {
+        "x": 167,
+        "y": 548,
+        "w": 178,
+        "h": 160
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 178,
+        "h": 160
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/icons/coin.png",
+      "sourceSha256": "bc0c8c4a843b61c3a785bd7c84132c6bd8b0eeaa25d3cc24165b856ebdbddd07"
+    },
+    "icons/mail": {
+      "frame": {
+        "x": 349,
+        "y": 548,
+        "w": 193,
+        "h": 157
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 193,
+        "h": 157
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/icons/mail.png",
+      "sourceSha256": "3136057f8e9655472f79d18f0adf702bdf0bd1f31aff8af606ca71ef84290370"
+    },
+    "icons/sound": {
+      "frame": {
+        "x": 546,
+        "y": 548,
+        "w": 169,
+        "h": 147
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 169,
+        "h": 147
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/icons/sound.png",
+      "sourceSha256": "f60147b48a244d010a05cfc8866c5304c5da48899153bfbd82638509536bb4ab"
+    },
+    "icons/back": {
+      "frame": {
+        "x": 719,
+        "y": 548,
+        "w": 181,
+        "h": 138
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 181,
+        "h": 138
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/icons/back.png",
+      "sourceSha256": "687d73b5b3a65ed63061ce234d55c239f39b3cd4251f612c63ccd80504b2f415"
+    }
+  },
+  "meta": {
+    "image": "icons-00.png",
+    "size": {
+      "w": 2024,
+      "h": 711
+    },
+    "format": "RGBA8888",
+    "scale": 1,
+    "padding": 2,
+    "noRotation": true,
+    "generatedAt": "2026-10-30T03:30:12.489824+00:00",
+    "operation": "native pixel packing; no resampling or redraw"
+  }
+}

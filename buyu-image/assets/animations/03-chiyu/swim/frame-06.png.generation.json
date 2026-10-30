@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-06",
+  "file": "assets/animations/03-chiyu/swim/frame-06.png",
+  "sha256": "27dd43170fcc6f350f59386542dc522f09014eade8fd74ccf5542fe3f7807aba",
+  "width": 800,
+  "height": 800,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/motion-frames-v1/03-chiyu/swim/03-chiyu-swim-v1.png",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/03-chiyu/swim/03-chiyu-swim-v1.png",
+      "sha256": "10143f96ed539d629006c9238499fab0e352d96594f82e470f2103843ba674b9",
+      "generationRecord": "designs/motion-frames-v1/03-chiyu/swim/03-chiyu-swim-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_grid_crop_integer_pupil_registration",
+    "sourceRect": [
+      903,
+      527,
+      1329,
+      832
+    ],
+    "cellCropRect": [
+      0,
+      0,
+      426,
+      305
+    ],
+    "registrationOffset": [
+      121,
+      278
+    ],
+    "registeredCanvas": [
+      800,
+      800
+    ],
+    "registrationReference": {
+      "type": "black_pupil_component_centroid",
+      "sourcePointFloat": [
+        359.34754098360645,
+        91.73114754098356
+      ],
+      "sourcePointRounded": [
+        359,
+        92
+      ],
+      "targetPoint": [
+        480,
+        370
+      ],
+      "method": "largest RGBmax<55 and A>220 component within right48percent cell; requires actual ROI visual confirmation",
+      "roiActuallyInspected": true
+    },
+    "resized": false,
+    "upscaled": false,
+    "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+    "sourcePixelsRoundTripVerified": true,
+    "nominalGridRect": [
+      887,
+      444,
+      1330,
+      887
+    ],
+    "nominalGridBorderAlpha": 1,
+    "ownershipType": "complete_nonoverlapping_pose_rectangle",
+    "foreignFishAlphaPixels": 0,
+    "allAssignedPixelsInsideRect": true
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "rootPixels": [
+    400,
+    400
+  ],
+  "eyePixels": [
+    480,
+    370
+  ],
+  "displaySize": [
+    214.76510067114094,
+    214.76510067114094
+  ],
+  "bodyDisplayBox": [
+    120,
+    80
+  ],
+  "uniformDisplayScale": 0.2684563758389262,
+  "scaleReference": "rest frame00 native visible box",
+  "registeredAlphaBBox": [
+    129,
+    286,
+    539,
+    575
+  ],
+  "registeredMinMargin": 0.16125,
+  "status": "producer_candidate_pending_root_visual",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+  "clipDensityAdjustment": null,
+  "producerLightDarkStillReview": "viewed_candidate_pass"
+}

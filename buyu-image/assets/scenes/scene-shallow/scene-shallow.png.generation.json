@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/scenes/scene-shallow/scene-shallow.png",
+  "sha256": "24c82f5ec6389d8458246dae95bf7c594b8f2604a4c130012a70ccb5e1e9fd57",
+  "width": 1672,
+  "height": 941,
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "designs/production-v1/scene-shallow/scene-shallow.png",
+      "sha256": "24c82f5ec6389d8458246dae95bf7c594b8f2604a4c130012a70ccb5e1e9fd57",
+      "generationRecord": "designs/production-v1/scene-shallow/scene-shallow.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "byte_identical_copy",
+    "resized": false,
+    "upscaled": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See original generation record; this export makes no new model call.",
+  "status": "prepared_visual_reviewed_pending_user_review"
+}

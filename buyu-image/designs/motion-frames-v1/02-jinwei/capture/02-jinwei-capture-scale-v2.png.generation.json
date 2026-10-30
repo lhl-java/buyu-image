@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/motion-frames-v1/02-jinwei/capture/02-jinwei-capture-scale-v2.png",
+  "sha256": "939ad1c9193882296b5e4f81880aa96daeca000bab43f5f7600cc2993b5d0bc7",
+  "generatedAt": "2026-10-28T16:37:35.440Z",
+  "startedAt": "2026-10-28T16:36:37.180Z",
+  "width": 1774,
+  "height": 887,
+  "format": "PNG",
+  "pixelFormat": "Format32bppArgb",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-28",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "builtin_evidence": {
+      "model_parameter_exposed": false,
+      "quality_parameter_exposed": false,
+      "actual_model": null,
+      "actual_quality": null,
+      "note": "Configuration targets only; verify actual model and quality per generated image."
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\buyu-image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\buyu-image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "D:\\work\\buyu-image\\assets\\fish\\batch-1\\02-jinwei.png",
+      "D:\\work\\buyu-image\\designs\\motion-frames-v1\\02-jinwei\\swim\\02-jinwei-swim-contained-v2.png",
+      "D:\\work\\buyu-image\\designs\\motion-frames-v1\\02-jinwei\\capture\\02-jinwei-capture-v1.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具未开放 model/quality 参数，本次结果未披露实际型号及质量。",
+  "evidence": {
+    "toolResult": "02-jinwei-capture-scale-v2.tool-result.txt",
+    "sourceOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a18186-fd02-7812-b30d-2810b1c9973a\\exec-bcfdacf0-3a50-4dc0-a88a-2f5ac1ed2ad6.png",
+    "toolResultId": "exec-bcfdacf0-3a50-4dc0-a88a-2f5ac1ed2ad6",
+    "request": "02-jinwei-capture-scale-v2.request.json"
+  },
+  "prompt": "02-jinwei-capture-scale-v2.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "assets/fish/batch-1/02-jinwei.png",
+      "sha256": "ee8b1343022c0c843769a307b1081dfc3cdfeff39b8761fb6be4730c04bd096a",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-contained-v2.png",
+      "sha256": "3c1746a4a2bdc3bd471f2b59f271563bebb3ee8f8327b62f5bb6f56024e885d1",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/motion-frames-v1/02-jinwei/capture/02-jinwei-capture-v1.png",
+      "sha256": "2212b93df58bf10c052210075f70de96506c6eab3c030421d5768fff33ab37c3",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    }
+  ],
+  "requestedCanvasInPrompt": "Requested native2:1 true-alpha 4x2 action sheet; actual dimensions recorded.",
+  "resampled": false,
+  "status": "superseded_by_selected_current_candidate",
+  "visualReview": "Native eight-frame source candidate; real pose, alpha, root, body scale and identity pending review.",
+  "scope": "01-12 fish action native AI sheets; user chose frames; no paid route or procedural art.",
+  "retentionRole": "superseded_by_selected_current_candidate",
+  "replacement": {
+    "file": "designs/motion-frames-v1/02-jinwei/capture/02-jinwei-capture-v3.png",
+    "sha256": "cbef31ec6d106adf7bd288d93f77a96e9929c9081dc3c99b6751a3d991663b63"
+  },
+  "imageRetained": false,
+  "retentionPolicy": "Keep adopted source/frames and provenance text; remove superseded image after adopted replacement and all eight outputs exist.",
+  "originalGenerationStatus": "draft_pending_user_review"
+}

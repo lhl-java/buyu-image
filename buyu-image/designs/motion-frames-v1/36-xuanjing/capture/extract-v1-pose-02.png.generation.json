@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/motion-frames-v1/36-xuanjing/capture/extract-v1-pose-02.png",
+  "sha256": "aec91748ef4e1164eafba64b1ef71a12f84ba5bd657fae54832dcb7d160f96c7",
+  "width": 364,
+  "height": 323,
+  "format": "RGBA PNG",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/36-xuanjing/capture/36-xuanjing-capture-v1.png",
+      "sha256": "b2b7db2d29af9722958b5eef7c092a5229267e3dd48e6617ffa27d6baf53e93d",
+      "generationRecord": "designs/motion-frames-v1/36-xuanjing/capture/36-xuanjing-capture-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_complete_actor_ownership_crop",
+    "evidence": {
+      "sourceFrame": 2,
+      "file": "designs/motion-frames-v1/36-xuanjing/capture/extract-v1-pose-02.png",
+      "sourceRect": [
+        931,
+        42,
+        1295,
+        365
+      ],
+      "nominalSourceRect": [
+        887,
+        0,
+        1330,
+        444
+      ],
+      "nominalGridCross": false,
+      "nativeVisibleSize": [
+        364,
+        323
+      ],
+      "ownedPixelCount": 59304,
+      "foreignPixelsRemovedFromCrop": 0,
+      "totalCanvasEdgeMaxAlpha": 0,
+      "nativeOwnedPixelsUnchanged": true,
+      "sourceMainAlphaComponent": 1
+    },
+    "alphaCleanup": "alpha<=3 discarded, other owned RGBA unchanged",
+    "resized": false,
+    "upscaled": false,
+    "newNativeDetailClaimed": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "intermediate_pending_semantic_review"
+}

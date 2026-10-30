@@ -1,0 +1,277 @@
+{
+  "schemaVersion": 1,
+  "source": "designs/motion-frames-v1/14-huanyue/capture/14-huanyue-capture.png",
+  "sha256": "ca9a450e417d194627bc781d592a1deecec7bfee7c6eb333f9206b1185edbfab",
+  "nativeSize": [
+    1774,
+    887
+  ],
+  "cellCanvas": [
+    444,
+    444
+  ],
+  "frames": [
+    {
+      "frame": 0,
+      "sourceRect": [
+        0,
+        0,
+        444,
+        444
+      ],
+      "nativeCell": [
+        444,
+        444
+      ],
+      "alphaBBox": [
+        16,
+        45,
+        404,
+        433
+      ],
+      "marginsLTRB": [
+        0.036036036036036036,
+        0.10135135135135136,
+        0.09009009009009009,
+        0.024774774774774775
+      ],
+      "edgeMaxAlpha": 1
+    },
+    {
+      "frame": 1,
+      "sourceRect": [
+        444,
+        0,
+        887,
+        444
+      ],
+      "nativeCell": [
+        443,
+        444
+      ],
+      "alphaBBox": [
+        34,
+        45,
+        410,
+        405
+      ],
+      "marginsLTRB": [
+        0.07657657657657657,
+        0.10135135135135136,
+        0.07657657657657657,
+        0.08783783783783784
+      ],
+      "edgeMaxAlpha": 1
+    },
+    {
+      "frame": 2,
+      "sourceRect": [
+        887,
+        0,
+        1330,
+        444
+      ],
+      "nativeCell": [
+        443,
+        444
+      ],
+      "alphaBBox": [
+        84,
+        54,
+        420,
+        398
+      ],
+      "marginsLTRB": [
+        0.1891891891891892,
+        0.12162162162162163,
+        0.05405405405405406,
+        0.1036036036036036
+      ],
+      "edgeMaxAlpha": 1
+    },
+    {
+      "frame": 3,
+      "sourceRect": [
+        1330,
+        0,
+        1774,
+        444
+      ],
+      "nativeCell": [
+        444,
+        444
+      ],
+      "alphaBBox": [
+        41,
+        44,
+        433,
+        426
+      ],
+      "marginsLTRB": [
+        0.09234234234234234,
+        0.0990990990990991,
+        0.024774774774774775,
+        0.04054054054054054
+      ],
+      "edgeMaxAlpha": 1
+    },
+    {
+      "frame": 4,
+      "sourceRect": [
+        0,
+        444,
+        444,
+        887
+      ],
+      "nativeCell": [
+        444,
+        443
+      ],
+      "alphaBBox": [
+        18,
+        15,
+        407,
+        398
+      ],
+      "marginsLTRB": [
+        0.04054054054054054,
+        0.033783783783783786,
+        0.08333333333333333,
+        0.1036036036036036
+      ],
+      "edgeMaxAlpha": 1
+    },
+    {
+      "frame": 5,
+      "sourceRect": [
+        444,
+        444,
+        887,
+        887
+      ],
+      "nativeCell": [
+        443,
+        443
+      ],
+      "alphaBBox": [
+        30,
+        15,
+        410,
+        398
+      ],
+      "marginsLTRB": [
+        0.06756756756756757,
+        0.033783783783783786,
+        0.07657657657657657,
+        0.1036036036036036
+      ],
+      "edgeMaxAlpha": 2
+    },
+    {
+      "frame": 6,
+      "sourceRect": [
+        887,
+        444,
+        1330,
+        887
+      ],
+      "nativeCell": [
+        443,
+        443
+      ],
+      "alphaBBox": [
+        43,
+        15,
+        409,
+        403
+      ],
+      "marginsLTRB": [
+        0.09684684684684684,
+        0.033783783783783786,
+        0.07882882882882883,
+        0.09234234234234234
+      ],
+      "edgeMaxAlpha": 1
+    },
+    {
+      "frame": 7,
+      "sourceRect": [
+        1330,
+        444,
+        1774,
+        887
+      ],
+      "nativeCell": [
+        444,
+        443
+      ],
+      "alphaBBox": [
+        58,
+        15,
+        426,
+        402
+      ],
+      "marginsLTRB": [
+        0.13063063063063063,
+        0.033783783783783786,
+        0.04054054054054054,
+        0.0945945945945946
+      ],
+      "edgeMaxAlpha": 1
+    }
+  ],
+  "warnings": [
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 0,
+      "actual": 0.024774774774774775,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 1,
+      "actual": 0.07657657657657657,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 2,
+      "actual": 0.05405405405405406,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 3,
+      "actual": 0.024774774774774775,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 4,
+      "actual": 0.033783783783783786,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 5,
+      "actual": 0.033783783783783786,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 6,
+      "actual": 0.033783783783783786,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 7,
+      "actual": 0.033783783783783786,
+      "threshold": 0.12
+    }
+  ],
+  "actualMotionReview": "Source contact review pending.",
+  "actualMotionApproved": false,
+  "loopPlaybackStatus": "not_run_during_heavy_job_hold",
+  "noResampling": true
+}

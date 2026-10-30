@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-28",
+  "scope": "Three missing formal skill FX, native imagegen sources, 48 runtime frames",
+  "route": "builtin image_gen",
+  "actualModel": null,
+  "actualQuality": null,
+  "items": [
+    {
+      "id": "fx-gather",
+      "source": "designs/production-v2/fx-gather/fx-gather-contained.png",
+      "sourceSha256": "79fc2f68375864f62ccf497d3e1155c16e578d4c90738cd6db99c7b40c7201fb",
+      "nativeSourceSize": [
+        1254,
+        1254
+      ],
+      "frameCount": 16,
+      "runtimeCanvas": [
+        394,
+        394
+      ],
+      "fps": 16,
+      "loop": false,
+      "cellBorderWarnings": [],
+      "sourceMarginWarnings": [
+        {
+          "id": "cell_margin_below_contract",
+          "frame": 2,
+          "value": 0.07961783439490445,
+          "threshold": 0.12,
+          "file": "designs/production-v2/fx-gather/fx-gather-contained.png"
+        },
+        {
+          "id": "cell_margin_below_contract",
+          "frame": 3,
+          "value": 0.03503184713375796,
+          "threshold": 0.12,
+          "file": "designs/production-v2/fx-gather/fx-gather-contained.png"
+        },
+        {
+          "id": "cell_margin_below_contract",
+          "frame": 4,
+          "value": 0.04472843450479233,
+          "threshold": 0.12,
+          "file": "designs/production-v2/fx-gather/fx-gather-contained.png"
+        },
+        {
+          "id": "cell_margin_below_contract",
+          "frame": 5,
+          "value": 0.04792332268370607,
+          "threshold": 0.12,
+          "file": "designs/production-v2/fx-gather/fx-gather-contained.png"
+        },
+        {
+          "id": "cell_margin_below_contract",
+          "frame": 6,
+          "value": 0.04792332268370607,
+          "threshold": 0.12,
+          "file": "designs/production-v2/fx-gather/fx-gather-contained.png"
+        },
+        {
+          "id": "cell_margin_below_contract",
+          "frame": 7,
+          "value": 0.04472843450479233,
+          "threshold": 0.12,
+          "file": "designs/production-v2/fx-gather/fx-gather-contained.png"
+        },
+        {
+          "id": "cell_margin_below_contract",
+          "frame": 8,
+          "value": 0.07667731629392971,
+          "threshold": 0.12,
+          "file": "designs/production-v2/fx-gather/fx-gather-contained.png"
+        },
+        {
+          "id": "cell_margin_below_contract",
+          "frame": 9,
+          "value": 0.08626198083067092,
+          "threshold": 0.12,
+          "file": "designs/production-v2/fx-gather/fx-gather-contained.png"
+        },
+        {
+          "id": "cell_margin_below_contract",
+          "frame": 10,
+          "value": 0.09584664536741214,
+          "threshold": 0.12,
+          "file": "designs/production-v2/fx-gather/fx-gather-contained.png"
+        }
+      ],
+      "sourceMarginMinimum": 0.03503184713375796,
+      "runtimeMarginMinimum": 0.12944162436548223,
+      "runtimeWarnings": [],
+      "runtimePassed": true,
+      "qa": "designs/production-v2/fx-gather/fx-gather.visual-qa.json",
+      "manifest": "assets/fx/fx-gather/manifest.json"
+    },
+    {
+      "id": "fx-guard",
+      "source": "designs/production-v2/fx-guard/fx-guard-contained.png",
+      "sourceSha256": "b98d15447f621408dfb397bbdb83218c8b52ae0b8874454e3943d1973311a5c4",
+      "nativeSourceSize": [
+        1254,
+        1254
+      ],
+      "frameCount": 16,
+      "runtimeCanvas": [
+        394,
+        394
+      ],
+      "fps": 16,
+      "loop": false,
+      "cellBorderWarnings": [],
+      "sourceMarginWarnings": [
+        {
+          "id": "cell_margin_below_contract",
+          "frame": 5,
+          "value": 0.11501597444089456,
+          "threshold": 0.12,
+          "file": "designs/production-v2/fx-guard/fx-guard-contained.png"
+        },
+        {
+          "id": "cell_margin_below_contract",
+          "frame": 6,
+          "value": 0.07987220447284345,
+          "threshold": 0.12,
+          "file": "designs/production-v2/fx-guard/fx-guard-contained.png"
+        },
+        {
+          "id": "cell_margin_below_contract",
+          "frame": 9,
+          "value": 0.11501597444089456,
+          "threshold": 0.12,
+          "file": "designs/production-v2/fx-guard/fx-guard-contained.png"
+        }
+      ],
+      "sourceMarginMinimum": 0.07987220447284345,
+      "runtimeMarginMinimum": 0.16751269035532995,
+      "runtimeWarnings": [],
+      "runtimePassed": true,
+      "qa": "designs/production-v2/fx-guard/fx-guard.visual-qa.json",
+      "manifest": "assets/fx/fx-guard/manifest.json"
+    },
+    {
+      "id": "fx-surge",
+      "source": "designs/production-v2/fx-surge/fx-surge.png",
+      "sourceSha256": "90d55ed95e8a98af8b82799864c9c61f526b418af4af641a47b7f638ceabce00",
+      "nativeSourceSize": [
+        1254,
+        1254
+      ],
+      "frameCount": 16,
+      "runtimeCanvas": [
+        394,
+        394
+      ],
+      "fps": 16,
+      "loop": false,
+      "cellBorderWarnings": [],
+      "sourceMarginWarnings": [
+        {
+          "id": "cell_margin_below_contract",
+          "frame": 0,
+          "value": 0.1178343949044586,
+          "threshold": 0.12,
+          "file": "designs/production-v2/fx-surge/fx-surge.png"
+        },
+        {
+          "id": "cell_margin_below_contract",
+          "frame": 1,
+          "value": 0.11464968152866242,
+          "threshold": 0.12,
+          "file": "designs/production-v2/fx-surge/fx-surge.png"
+        },
+        {
+          "id": "cell_margin_below_contract",
+          "frame": 2,
+          "value": 0.08598726114649681,
+          "threshold": 0.12,
+          "file": "designs/production-v2/fx-surge/fx-surge.png"
+        },
+        {
+          "id": "cell_margin_below_contract",
+          "frame": 3,
+          "value": 0.07643312101910828,
+          "threshold": 0.12,
+          "file": "designs/production-v2/fx-surge/fx-surge.png"
+        },
+        {
+          "id": "cell_margin_below_contract",
+          "frame": 4,
+          "value": 0.044585987261146494,
+          "threshold": 0.12,
+          "file": "designs/production-v2/fx-surge/fx-surge.png"
+        },
+        {
+          "id": "cell_margin_below_contract",
+          "frame": 5,
+          "value": 0.025559105431309903,
+          "threshold": 0.12,
+          "file": "designs/production-v2/fx-surge/fx-surge.png"
+        },
+        {
+          "id": "cell_margin_below_contract",
+          "frame": 6,
+          "value": 0.022364217252396165,
+          "threshold": 0.12,
+          "file": "designs/production-v2/fx-surge/fx-surge.png"
+        },
+        {
+          "id": "cell_margin_below_contract",
+          "frame": 7,
+          "value": 0.05732484076433121,
+          "threshold": 0.12,
+          "file": "designs/production-v2/fx-surge/fx-surge.png"
+        },
+        {
+          "id": "cell_margin_below_contract",
+          "frame": 8,
+          "value": 0.044585987261146494,
+          "threshold": 0.12,
+          "file": "designs/production-v2/fx-surge/fx-surge.png"
+        },
+        {
+          "id": "cell_margin_below_contract",
+          "frame": 9,
+          "value": 0.08945686900958466,
+          "threshold": 0.12,
+          "file": "designs/production-v2/fx-surge/fx-surge.png"
+        },
+        {
+          "id": "cell_margin_below_contract",
+          "frame": 10,
+          "value": 0.10543130990415335,
+          "threshold": 0.12,
+          "file": "designs/production-v2/fx-surge/fx-surge.png"
+        }
+      ],
+      "sourceMarginMinimum": 0.022364217252396165,
+      "runtimeMarginMinimum": 0.1218274111675127,
+      "runtimeWarnings": [],
+      "runtimePassed": true,
+      "qa": "designs/production-v2/fx-surge/fx-surge.visual-qa.json",
+      "manifest": "assets/fx/fx-surge/manifest.json"
+    }
+  ],
+  "runtimeFrameCount": 48,
+  "nativeFrameCanvas": [
+    314,
+    314
+  ],
+  "runtimePaddedCanvas": [
+    394,
+    394
+  ],
+  "root": [
+    0.5,
+    0.5
+  ],
+  "guard": {
+    "role": "cast_release_one_shot",
+    "sustainedLoopMade": false,
+    "optionalHoldPose": "assets/fx/fx-guard/frame-06.png",
+    "holdPoseMeaning": "Static active-shield pose may be held by client; not a generated sustained animation loop"
+  },
+  "runtimeIntegrationVerified": false,
+  "catalogUpdated": false,
+  "gitChanged": false,
+  "heavyBuildsRun": false,
+  "sourceWarningCaveat": "Source alpha>3 margins below12% remain explicitly unpassed; uniform40px transparent padding passes runtime margin without resampling/cropping or inventing native detail."
+}

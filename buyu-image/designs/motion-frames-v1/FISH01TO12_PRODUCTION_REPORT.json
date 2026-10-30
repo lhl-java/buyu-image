@@ -1,0 +1,1940 @@
+{
+  "schemaVersion": 1,
+  "reportedAt": "2026-10-28T18:52:01.296582+00:00",
+  "owner": "motion_route_recheck",
+  "scope": "01-12 swim8 + capture8",
+  "counts": {
+    "species": 12,
+    "actionSources": 24,
+    "frames": 192,
+    "modelCallsIncludingSuperseded": 35,
+    "selectedSourcePNGs": 24
+  },
+  "state": "producer_candidate_pending_root_visual_and_Unity_playback",
+  "artPath": "builtin native AI frame sheets; no paid API/CLI, no procedural deformation as motion",
+  "modelEvidence": {
+    "configuredTarget": "gpt-image-2.5-sunburst",
+    "configuredQuality": "max",
+    "actualModel": null,
+    "actualQuality": null,
+    "reason": "Builtin tool exposes neither parameter nor returned version/quality; source records preserve actual submitted arguments and receipts."
+  },
+  "technical": {
+    "allRuntimeMinMarginAtLeast12Percent": true,
+    "minimumRuntimeMargin": 0.12202380952380952,
+    "trueAlphaCompositeActuallyInspected": true,
+    "nativePNGsResizedOrUpscaled": false,
+    "ownership": "Independent full-pose rectangles contain zero other-fish alpha pixels and preserve all alpha>3 pixels. <=3 source alpha cleanup recorded. Nominal grid warnings remain historical evidence.",
+    "registration": "One integer pupil root per clip; species-specific torso-root offset; shared canvas within each species",
+    "display": "One scale per clip; rest body box120x80 maximum fit. Full canvas displaySize retained.02 and12 capture native density compensation recorded.",
+    "hashPolicy": "Cached save/crop round-trip checks reused; hash differences never claimed as motion proof."
+  },
+  "visualConcerns": [
+    {
+      "id": "09-caidie",
+      "item": "All8 right-facing after AI fix. Bottom-row front torso/eye size looks slightly different; preserve candidate and check in playback, no per-frame normalization used."
+    },
+    {
+      "id": "06-haima/capture",
+      "item": "Final subdued eye slightly smaller/drooped; check expression/identity during playback."
+    }
+  ],
+  "notDone": [
+    "Root still/pose acceptance for batch",
+    "Timed loop/seam and one-shot playback",
+    "Unity importing/PPU/events and runtime verification",
+    "New fixed-batch publication"
+  ],
+  "untouched": [
+    "static fish masters",
+    "global catalogs/status",
+    "shared Git HEAD/index/refs",
+    "idle or other workers' outputs"
+  ],
+  "actions": [
+    {
+      "id": "01-qingqi",
+      "action": "swim",
+      "source": "designs/motion-frames-v1/01-qingqi/swim/01-qingqi-swim-contained-v2.png",
+      "sourceSHA256": "8062b4d48c58d7d0d64f776e24a670ae3b100fe0898208d12132c1d0ba856bfd",
+      "sourceNativeSize": [
+        1774,
+        887
+      ],
+      "sourceGenerationRecord": "designs/motion-frames-v1/01-qingqi/swim/01-qingqi-swim-contained-v2.png.generation.json",
+      "request": "designs/motion-frames-v1/01-qingqi/swim/01-qingqi-swim-contained-v2.request.json",
+      "manifest": "assets/animations/01-qingqi/swim/manifest.json",
+      "frameCount": 8,
+      "fps": 12,
+      "loop": true,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "sharedCanvas": [
+        576,
+        576
+      ],
+      "rootPixels": [
+        288,
+        288
+      ],
+      "eyePixels": [
+        368,
+        276
+      ],
+      "displaySize": [
+        227.3684210526316,
+        227.3684210526316
+      ],
+      "uniformDisplayScale": 0.39473684210526316,
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "runtimeMinMargin": 0.1597222222222222,
+      "runtimeWarnings": [],
+      "nominalGridBorderWarnings": [],
+      "sourceGridMarginWarningCount": 7,
+      "clipDensityAdjustment": null,
+      "poseEvidence": "Blue/gold fan tail up/down and opposed fin folding; capture short posterior C-flex and final drooping fins.",
+      "producerStillReview": "candidate_pass",
+      "rootVisualReview": "pending",
+      "playback": "pending_Unity",
+      "lightQA": "tmp/art-qa/01-qingqi-swim-registered-light.png",
+      "darkQA": "tmp/art-qa/01-qingqi-swim-registered-dark.png",
+      "pairQA": "tmp/art-qa/01-qingqi-pair-review.png",
+      "displayRestQA": "tmp/art-qa/01-qingqi-display-rest-qa.png",
+      "allPixelsPreserved": "cached per-frame native RGBA round-trip assertion",
+      "upscaled": false
+    },
+    {
+      "id": "01-qingqi",
+      "action": "capture",
+      "source": "designs/motion-frames-v1/01-qingqi/capture/01-qingqi-capture-scale-v2.png",
+      "sourceSHA256": "530b993692377ab5dff2a1cf689174e14ea294bb8b7553424a3cd08e5df493cd",
+      "sourceNativeSize": [
+        1774,
+        887
+      ],
+      "sourceGenerationRecord": "designs/motion-frames-v1/01-qingqi/capture/01-qingqi-capture-scale-v2.png.generation.json",
+      "request": "designs/motion-frames-v1/01-qingqi/capture/01-qingqi-capture-scale-v2.request.json",
+      "manifest": "assets/animations/01-qingqi/capture/manifest.json",
+      "frameCount": 8,
+      "fps": 12,
+      "loop": false,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "sharedCanvas": [
+        576,
+        576
+      ],
+      "rootPixels": [
+        288,
+        288
+      ],
+      "eyePixels": [
+        368,
+        276
+      ],
+      "displaySize": [
+        227.3684210526316,
+        227.3684210526316
+      ],
+      "uniformDisplayScale": 0.39473684210526316,
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "runtimeMinMargin": 0.1388888888888889,
+      "runtimeWarnings": [],
+      "nominalGridBorderWarnings": [],
+      "sourceGridMarginWarningCount": 8,
+      "clipDensityAdjustment": null,
+      "poseEvidence": "Blue/gold fan tail up/down and opposed fin folding; capture short posterior C-flex and final drooping fins.",
+      "producerStillReview": "candidate_pass",
+      "rootVisualReview": "pending",
+      "playback": "pending_Unity",
+      "lightQA": "tmp/art-qa/01-qingqi-capture-registered-light.png",
+      "darkQA": "tmp/art-qa/01-qingqi-capture-registered-dark.png",
+      "pairQA": "tmp/art-qa/01-qingqi-pair-review.png",
+      "displayRestQA": "tmp/art-qa/01-qingqi-display-rest-qa.png",
+      "allPixelsPreserved": "cached per-frame native RGBA round-trip assertion",
+      "upscaled": false
+    },
+    {
+      "id": "02-jinwei",
+      "action": "swim",
+      "source": "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-contained-v2.png",
+      "sourceSHA256": "3c1746a4a2bdc3bd471f2b59f271563bebb3ee8f8327b62f5bb6f56024e885d1",
+      "sourceNativeSize": [
+        1774,
+        887
+      ],
+      "sourceGenerationRecord": "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-contained-v2.png.generation.json",
+      "request": "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-contained-v2.request.json",
+      "manifest": "assets/animations/02-jinwei/swim/manifest.json",
+      "frameCount": 8,
+      "fps": 12,
+      "loop": true,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "sharedCanvas": [
+        672,
+        672
+      ],
+      "rootPixels": [
+        336,
+        336
+      ],
+      "eyePixels": [
+        436,
+        316
+      ],
+      "displaySize": [
+        215.04,
+        215.04
+      ],
+      "uniformDisplayScale": 0.32,
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "runtimeMinMargin": 0.15327380952380953,
+      "runtimeWarnings": [],
+      "nominalGridBorderWarnings": [],
+      "sourceGridMarginWarningCount": 8,
+      "clipDensityAdjustment": null,
+      "poseEvidence": "Gold/ivory fan tail changes upper/lower curvature; capture strong curling and relaxed final tail. Clip rest native density differs and is adjusted once.",
+      "producerStillReview": "candidate_pass",
+      "rootVisualReview": "pending",
+      "playback": "pending_Unity",
+      "lightQA": "tmp/art-qa/02-jinwei-swim-registered-light.png",
+      "darkQA": "tmp/art-qa/02-jinwei-swim-registered-dark.png",
+      "pairQA": "tmp/art-qa/02-jinwei-pair-review.png",
+      "displayRestQA": "tmp/art-qa/02-jinwei-display-rest-qa.png",
+      "allPixelsPreserved": "cached per-frame native RGBA round-trip assertion",
+      "upscaled": false
+    },
+    {
+      "id": "02-jinwei",
+      "action": "capture",
+      "source": "designs/motion-frames-v1/02-jinwei/capture/02-jinwei-capture-v3.png",
+      "sourceSHA256": "cbef31ec6d106adf7bd288d93f77a96e9929c9081dc3c99b6751a3d991663b63",
+      "sourceNativeSize": [
+        1774,
+        887
+      ],
+      "sourceGenerationRecord": "designs/motion-frames-v1/02-jinwei/capture/02-jinwei-capture-v3.png.generation.json",
+      "request": "designs/motion-frames-v1/02-jinwei/capture/02-jinwei-capture-v3.request.json",
+      "manifest": "assets/animations/02-jinwei/capture/manifest.json",
+      "frameCount": 8,
+      "fps": 12,
+      "loop": false,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "sharedCanvas": [
+        672,
+        672
+      ],
+      "rootPixels": [
+        336,
+        336
+      ],
+      "eyePixels": [
+        443,
+        315
+      ],
+      "displaySize": [
+        201.70064761060485,
+        201.70064761060485
+      ],
+      "uniformDisplayScale": 0.30014977323006675,
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "runtimeMinMargin": 0.13095238095238096,
+      "runtimeWarnings": [],
+      "nominalGridBorderWarnings": [
+        3
+      ],
+      "sourceGridMarginWarningCount": 8,
+      "clipDensityAdjustment": {
+        "method": "one clip-level density estimate from matching entry/rest pose native visible width and height; never per-frame bbox fitting",
+        "referenceNativeRestBox": [
+          375,
+          249
+        ],
+        "clipNativeRestBox": [
+          399,
+          266
+        ],
+        "axisRatios": [
+          1.064,
+          1.0682730923694779
+        ],
+        "uniformDensityRatio": 1.066134405354749,
+        "referenceScale": 0.32,
+        "clipScale": 0.30014977323006675,
+        "referenceEyeOffset": [
+          100,
+          -20
+        ],
+        "clipNativeEyeOffset": [
+          107,
+          -21
+        ],
+        "reasonEyeOffsetAdjusted": "same displayed eye-to-body-root offset after clip density adjustment; nearest integer native registration",
+        "visualIdentityReview": "pending_root"
+      },
+      "poseEvidence": "Gold/ivory fan tail changes upper/lower curvature; capture strong curling and relaxed final tail. Clip rest native density differs and is adjusted once.",
+      "producerStillReview": "candidate_pass",
+      "rootVisualReview": "pending",
+      "playback": "pending_Unity",
+      "lightQA": "tmp/art-qa/02-jinwei-capture-registered-light.png",
+      "darkQA": "tmp/art-qa/02-jinwei-capture-registered-dark.png",
+      "pairQA": "tmp/art-qa/02-jinwei-pair-review.png",
+      "displayRestQA": "tmp/art-qa/02-jinwei-display-rest-qa.png",
+      "allPixelsPreserved": "cached per-frame native RGBA round-trip assertion",
+      "upscaled": false
+    },
+    {
+      "id": "03-chiyu",
+      "action": "swim",
+      "source": "designs/motion-frames-v1/03-chiyu/swim/03-chiyu-swim-v1.png",
+      "sourceSHA256": "10143f96ed539d629006c9238499fab0e352d96594f82e470f2103843ba674b9",
+      "sourceNativeSize": [
+        1774,
+        887
+      ],
+      "sourceGenerationRecord": "designs/motion-frames-v1/03-chiyu/swim/03-chiyu-swim-v1.png.generation.json",
+      "request": "designs/motion-frames-v1/03-chiyu/swim/03-chiyu-swim-v1.request.json",
+      "manifest": "assets/animations/03-chiyu/swim/manifest.json",
+      "frameCount": 8,
+      "fps": 12,
+      "loop": true,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "sharedCanvas": [
+        800,
+        800
+      ],
+      "rootPixels": [
+        400,
+        400
+      ],
+      "eyePixels": [
+        480,
+        370
+      ],
+      "displaySize": [
+        214.76510067114094,
+        214.76510067114094
+      ],
+      "uniformDisplayScale": 0.2684563758389262,
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "runtimeMinMargin": 0.13375,
+      "runtimeWarnings": [],
+      "nominalGridBorderWarnings": [],
+      "sourceGridMarginWarningCount": 8,
+      "clipDensityAdjustment": null,
+      "poseEvidence": "Scarlet/pearl long tail and dorsal ribbons change shape; capture curls inward/up then down. Nominal-grid crossings recoverable by complete ownership.",
+      "producerStillReview": "candidate_pass",
+      "rootVisualReview": "pending",
+      "playback": "pending_Unity",
+      "lightQA": "tmp/art-qa/03-chiyu-swim-registered-light.png",
+      "darkQA": "tmp/art-qa/03-chiyu-swim-registered-dark.png",
+      "pairQA": "tmp/art-qa/03-chiyu-pair-review.png",
+      "displayRestQA": "tmp/art-qa/03-chiyu-display-rest-qa.png",
+      "allPixelsPreserved": "cached per-frame native RGBA round-trip assertion",
+      "upscaled": false
+    },
+    {
+      "id": "03-chiyu",
+      "action": "capture",
+      "source": "designs/motion-frames-v1/03-chiyu/capture/03-chiyu-capture-v3.png",
+      "sourceSHA256": "9ce2448d7b64de9f6b58ad243696a7bcf3938fe5860cc3149bcd3f82d3cf5f6a",
+      "sourceNativeSize": [
+        1774,
+        887
+      ],
+      "sourceGenerationRecord": "designs/motion-frames-v1/03-chiyu/capture/03-chiyu-capture-v3.png.generation.json",
+      "request": "designs/motion-frames-v1/03-chiyu/capture/03-chiyu-capture-v3.request.json",
+      "manifest": "assets/animations/03-chiyu/capture/manifest.json",
+      "frameCount": 8,
+      "fps": 12,
+      "loop": false,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "sharedCanvas": [
+        800,
+        800
+      ],
+      "rootPixels": [
+        400,
+        400
+      ],
+      "eyePixels": [
+        480,
+        370
+      ],
+      "displaySize": [
+        214.76510067114094,
+        214.76510067114094
+      ],
+      "uniformDisplayScale": 0.2684563758389262,
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "runtimeMinMargin": 0.14625,
+      "runtimeWarnings": [],
+      "nominalGridBorderWarnings": [
+        3,
+        7
+      ],
+      "sourceGridMarginWarningCount": 8,
+      "clipDensityAdjustment": null,
+      "poseEvidence": "Scarlet/pearl long tail and dorsal ribbons change shape; capture curls inward/up then down. Nominal-grid crossings recoverable by complete ownership.",
+      "producerStillReview": "candidate_pass",
+      "rootVisualReview": "pending",
+      "playback": "pending_Unity",
+      "lightQA": "tmp/art-qa/03-chiyu-capture-registered-light.png",
+      "darkQA": "tmp/art-qa/03-chiyu-capture-registered-dark.png",
+      "pairQA": "tmp/art-qa/03-chiyu-pair-review.png",
+      "displayRestQA": "tmp/art-qa/03-chiyu-display-rest-qa.png",
+      "allPixelsPreserved": "cached per-frame native RGBA round-trip assertion",
+      "upscaled": false
+    },
+    {
+      "id": "04-shenxian",
+      "action": "swim",
+      "source": "designs/motion-frames-v1/04-shenxian/swim/04-shenxian-swim-v1.png",
+      "sourceSHA256": "febe40c0c8767e4815421c661bf4b10281a7a131099ce84c9ae34c52831ba19e",
+      "sourceNativeSize": [
+        1774,
+        887
+      ],
+      "sourceGenerationRecord": "designs/motion-frames-v1/04-shenxian/swim/04-shenxian-swim-v1.png.generation.json",
+      "request": "designs/motion-frames-v1/04-shenxian/swim/04-shenxian-swim-v1.request.json",
+      "manifest": "assets/animations/04-shenxian/swim/manifest.json",
+      "frameCount": 8,
+      "fps": 12,
+      "loop": true,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "sharedCanvas": [
+        672,
+        672
+      ],
+      "rootPixels": [
+        336,
+        336
+      ],
+      "eyePixels": [
+        446,
+        296
+      ],
+      "displaySize": [
+        172.3076923076923,
+        172.3076923076923
+      ],
+      "uniformDisplayScale": 0.2564102564102564,
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "runtimeMinMargin": 0.14583333333333334,
+      "runtimeWarnings": [],
+      "nominalGridBorderWarnings": [],
+      "sourceGridMarginWarningCount": 8,
+      "clipDensityAdjustment": null,
+      "poseEvidence": "Black/gold striped identity; long dorsal/anal tips and tail articulate. Black face bands excluded from pupil ROI.",
+      "producerStillReview": "candidate_pass",
+      "rootVisualReview": "pending",
+      "playback": "pending_Unity",
+      "lightQA": "tmp/art-qa/04-shenxian-swim-registered-light.png",
+      "darkQA": "tmp/art-qa/04-shenxian-swim-registered-dark.png",
+      "pairQA": "tmp/art-qa/04-shenxian-pair-review.png",
+      "displayRestQA": "tmp/art-qa/04-shenxian-display-rest-qa.png",
+      "allPixelsPreserved": "cached per-frame native RGBA round-trip assertion",
+      "upscaled": false
+    },
+    {
+      "id": "04-shenxian",
+      "action": "capture",
+      "source": "designs/motion-frames-v1/04-shenxian/capture/04-shenxian-capture-v1.png",
+      "sourceSHA256": "6886e031ede816a59aa019611fea39415f2370b0f4a6e37fa83304bf6f112393",
+      "sourceNativeSize": [
+        1774,
+        887
+      ],
+      "sourceGenerationRecord": "designs/motion-frames-v1/04-shenxian/capture/04-shenxian-capture-v1.png.generation.json",
+      "request": "designs/motion-frames-v1/04-shenxian/capture/04-shenxian-capture-v1.request.json",
+      "manifest": "assets/animations/04-shenxian/capture/manifest.json",
+      "frameCount": 8,
+      "fps": 12,
+      "loop": false,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "sharedCanvas": [
+        672,
+        672
+      ],
+      "rootPixels": [
+        336,
+        336
+      ],
+      "eyePixels": [
+        446,
+        296
+      ],
+      "displaySize": [
+        172.3076923076923,
+        172.3076923076923
+      ],
+      "uniformDisplayScale": 0.2564102564102564,
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "runtimeMinMargin": 0.12202380952380952,
+      "runtimeWarnings": [],
+      "nominalGridBorderWarnings": [],
+      "sourceGridMarginWarningCount": 8,
+      "clipDensityAdjustment": null,
+      "poseEvidence": "Black/gold striped identity; long dorsal/anal tips and tail articulate. Black face bands excluded from pupil ROI.",
+      "producerStillReview": "candidate_pass",
+      "rootVisualReview": "pending",
+      "playback": "pending_Unity",
+      "lightQA": "tmp/art-qa/04-shenxian-capture-registered-light.png",
+      "darkQA": "tmp/art-qa/04-shenxian-capture-registered-dark.png",
+      "pairQA": "tmp/art-qa/04-shenxian-pair-review.png",
+      "displayRestQA": "tmp/art-qa/04-shenxian-display-rest-qa.png",
+      "allPixelsPreserved": "cached per-frame native RGBA round-trip assertion",
+      "upscaled": false
+    },
+    {
+      "id": "05-hetun",
+      "action": "swim",
+      "source": "designs/motion-frames-v1/05-hetun/swim/05-hetun-swim-v1.png",
+      "sourceSHA256": "914942555aacd30c0558c2fe51af133de3f997af94d2c81eaef2f4517f9808fb",
+      "sourceNativeSize": [
+        1774,
+        887
+      ],
+      "sourceGenerationRecord": "designs/motion-frames-v1/05-hetun/swim/05-hetun-swim-v1.png.generation.json",
+      "request": "designs/motion-frames-v1/05-hetun/swim/05-hetun-swim-v1.request.json",
+      "manifest": "assets/animations/05-hetun/swim/manifest.json",
+      "frameCount": 8,
+      "fps": 12,
+      "loop": true,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "sharedCanvas": [
+        640,
+        640
+      ],
+      "rootPixels": [
+        320,
+        320
+      ],
+      "eyePixels": [
+        340,
+        250
+      ],
+      "displaySize": [
+        182.85714285714283,
+        182.85714285714283
+      ],
+      "uniformDisplayScale": 0.2857142857142857,
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "runtimeMinMargin": 0.1296875,
+      "runtimeWarnings": [],
+      "nominalGridBorderWarnings": [],
+      "sourceGridMarginWarningCount": 8,
+      "clipDensityAdjustment": null,
+      "poseEvidence": "Round spotted puffer remains three-quarter right-facing. Tail and paired round fans change angles/shapes; capture tail curls and modest posterior inflation is anatomical.",
+      "producerStillReview": "candidate_pass",
+      "rootVisualReview": "pending",
+      "playback": "pending_Unity",
+      "lightQA": "tmp/art-qa/05-hetun-swim-registered-light.png",
+      "darkQA": "tmp/art-qa/05-hetun-swim-registered-dark.png",
+      "pairQA": "tmp/art-qa/05-hetun-pair-review.png",
+      "displayRestQA": "tmp/art-qa/05-hetun-display-rest-qa.png",
+      "allPixelsPreserved": "cached per-frame native RGBA round-trip assertion",
+      "upscaled": false
+    },
+    {
+      "id": "05-hetun",
+      "action": "capture",
+      "source": "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-contained-v3.png",
+      "sourceSHA256": "da5f8c5ff18f42393eed9ec4229467e25bfd938b25c4239951a86332745e7aa0",
+      "sourceNativeSize": [
+        1774,
+        887
+      ],
+      "sourceGenerationRecord": "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-contained-v3.png.generation.json",
+      "request": "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-contained-v3.request.json",
+      "manifest": "assets/animations/05-hetun/capture/manifest.json",
+      "frameCount": 8,
+      "fps": 12,
+      "loop": false,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "sharedCanvas": [
+        640,
+        640
+      ],
+      "rootPixels": [
+        320,
+        320
+      ],
+      "eyePixels": [
+        340,
+        250
+      ],
+      "displaySize": [
+        182.85714285714283,
+        182.85714285714283
+      ],
+      "uniformDisplayScale": 0.2857142857142857,
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "runtimeMinMargin": 0.1265625,
+      "runtimeWarnings": [],
+      "nominalGridBorderWarnings": [],
+      "sourceGridMarginWarningCount": 8,
+      "clipDensityAdjustment": null,
+      "poseEvidence": "Round spotted puffer remains three-quarter right-facing. Tail and paired round fans change angles/shapes; capture tail curls and modest posterior inflation is anatomical.",
+      "producerStillReview": "candidate_pass",
+      "rootVisualReview": "pending",
+      "playback": "pending_Unity",
+      "lightQA": "tmp/art-qa/05-hetun-capture-registered-light.png",
+      "darkQA": "tmp/art-qa/05-hetun-capture-registered-dark.png",
+      "pairQA": "tmp/art-qa/05-hetun-pair-review.png",
+      "displayRestQA": "tmp/art-qa/05-hetun-display-rest-qa.png",
+      "allPixelsPreserved": "cached per-frame native RGBA round-trip assertion",
+      "upscaled": false
+    },
+    {
+      "id": "06-haima",
+      "action": "swim",
+      "source": "designs/motion-frames-v1/06-haima/swim/06-haima-swim-v1.png",
+      "sourceSHA256": "b495beb0da8e6671072997379c5a0d6da91b5cb5a2a94b4da82473a2e1f2aca5",
+      "sourceNativeSize": [
+        1774,
+        887
+      ],
+      "sourceGenerationRecord": "designs/motion-frames-v1/06-haima/swim/06-haima-swim-v1.png.generation.json",
+      "request": "designs/motion-frames-v1/06-haima/swim/06-haima-swim-v1.request.json",
+      "manifest": "assets/animations/06-haima/swim/manifest.json",
+      "frameCount": 8,
+      "fps": 12,
+      "loop": true,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "sharedCanvas": [
+        608,
+        608
+      ],
+      "rootPixels": [
+        304,
+        304
+      ],
+      "eyePixels": [
+        334,
+        204
+      ],
+      "displaySize": [
+        119.5085995085995,
+        119.5085995085995
+      ],
+      "uniformDisplayScale": 0.19656019656019655,
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "runtimeMinMargin": 0.13651315789473684,
+      "runtimeWarnings": [],
+      "nominalGridBorderWarnings": [],
+      "sourceGridMarginWarningCount": 8,
+      "clipDensityAdjustment": null,
+      "poseEvidence": "PINK seahorse identity and upright view preserved; back fan folds/flutters and spiral tail tightens/loosens, capture curl amplitude distinct.",
+      "producerStillReview": "candidate_pass",
+      "rootVisualReview": "pending",
+      "playback": "pending_Unity",
+      "lightQA": "tmp/art-qa/06-haima-swim-registered-light.png",
+      "darkQA": "tmp/art-qa/06-haima-swim-registered-dark.png",
+      "pairQA": "tmp/art-qa/06-haima-pair-review.png",
+      "displayRestQA": "tmp/art-qa/06-haima-display-rest-qa.png",
+      "allPixelsPreserved": "cached per-frame native RGBA round-trip assertion",
+      "upscaled": false
+    },
+    {
+      "id": "06-haima",
+      "action": "capture",
+      "source": "designs/motion-frames-v1/06-haima/capture/06-haima-capture-v1.png",
+      "sourceSHA256": "a49b37fb9bc4c625de84dfaeb7f8e37e8746dac2cbbbfb14af769866b0f46f83",
+      "sourceNativeSize": [
+        1774,
+        887
+      ],
+      "sourceGenerationRecord": "designs/motion-frames-v1/06-haima/capture/06-haima-capture-v1.png.generation.json",
+      "request": "designs/motion-frames-v1/06-haima/capture/06-haima-capture-v1.request.json",
+      "manifest": "assets/animations/06-haima/capture/manifest.json",
+      "frameCount": 8,
+      "fps": 12,
+      "loop": false,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "sharedCanvas": [
+        608,
+        608
+      ],
+      "rootPixels": [
+        304,
+        304
+      ],
+      "eyePixels": [
+        334,
+        204
+      ],
+      "displaySize": [
+        119.5085995085995,
+        119.5085995085995
+      ],
+      "uniformDisplayScale": 0.19656019656019655,
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "runtimeMinMargin": 0.14473684210526316,
+      "runtimeWarnings": [],
+      "nominalGridBorderWarnings": [],
+      "sourceGridMarginWarningCount": 8,
+      "clipDensityAdjustment": null,
+      "poseEvidence": "PINK seahorse identity and upright view preserved; back fan folds/flutters and spiral tail tightens/loosens, capture curl amplitude distinct.",
+      "producerStillReview": "candidate_pass",
+      "rootVisualReview": "pending",
+      "playback": "pending_Unity",
+      "lightQA": "tmp/art-qa/06-haima-capture-registered-light.png",
+      "darkQA": "tmp/art-qa/06-haima-capture-registered-dark.png",
+      "pairQA": "tmp/art-qa/06-haima-pair-review.png",
+      "displayRestQA": "tmp/art-qa/06-haima-display-rest-qa.png",
+      "allPixelsPreserved": "cached per-frame native RGBA round-trip assertion",
+      "upscaled": false
+    },
+    {
+      "id": "07-zihai",
+      "action": "swim",
+      "source": "designs/motion-frames-v1/07-zihai/swim/07-zihai-swim-v1.png",
+      "sourceSHA256": "bd794b58bc937a76d228be7d5f741e6c8fe9e3fae90c3cf6ab412f42d879dc2b",
+      "sourceNativeSize": [
+        1774,
+        887
+      ],
+      "sourceGenerationRecord": "designs/motion-frames-v1/07-zihai/swim/07-zihai-swim-v1.png.generation.json",
+      "request": "designs/motion-frames-v1/07-zihai/swim/07-zihai-swim-v1.request.json",
+      "manifest": "assets/animations/07-zihai/swim/manifest.json",
+      "frameCount": 8,
+      "fps": 12,
+      "loop": true,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "sharedCanvas": [
+        704,
+        704
+      ],
+      "rootPixels": [
+        352,
+        352
+      ],
+      "eyePixels": [
+        442,
+        337
+      ],
+      "displaySize": [
+        190.2702702702703,
+        190.2702702702703
+      ],
+      "uniformDisplayScale": 0.2702702702702703,
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "runtimeMinMargin": 0.1377840909090909,
+      "runtimeWarnings": [],
+      "nominalGridBorderWarnings": [],
+      "sourceGridMarginWarningCount": 8,
+      "clipDensityAdjustment": null,
+      "poseEvidence": "Purple/silver THREE bands retained; wide tail fan and near pectoral membrane articulate; captured rear C-curve and folding.",
+      "producerStillReview": "candidate_pass",
+      "rootVisualReview": "pending",
+      "playback": "pending_Unity",
+      "lightQA": "tmp/art-qa/07-zihai-swim-registered-light.png",
+      "darkQA": "tmp/art-qa/07-zihai-swim-registered-dark.png",
+      "pairQA": "tmp/art-qa/07-zihai-pair-review.png",
+      "displayRestQA": "tmp/art-qa/07-zihai-display-rest-qa.png",
+      "allPixelsPreserved": "cached per-frame native RGBA round-trip assertion",
+      "upscaled": false
+    },
+    {
+      "id": "07-zihai",
+      "action": "capture",
+      "source": "designs/motion-frames-v1/07-zihai/capture/07-zihai-capture-v1.png",
+      "sourceSHA256": "513ceca236d7e094b173d9a73e7989106bdec618fa580e0e82eead64c2e0517a",
+      "sourceNativeSize": [
+        1774,
+        887
+      ],
+      "sourceGenerationRecord": "designs/motion-frames-v1/07-zihai/capture/07-zihai-capture-v1.png.generation.json",
+      "request": "designs/motion-frames-v1/07-zihai/capture/07-zihai-capture-v1.request.json",
+      "manifest": "assets/animations/07-zihai/capture/manifest.json",
+      "frameCount": 8,
+      "fps": 12,
+      "loop": false,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "sharedCanvas": [
+        704,
+        704
+      ],
+      "rootPixels": [
+        352,
+        352
+      ],
+      "eyePixels": [
+        442,
+        337
+      ],
+      "displaySize": [
+        190.2702702702703,
+        190.2702702702703
+      ],
+      "uniformDisplayScale": 0.2702702702702703,
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "runtimeMinMargin": 0.13068181818181818,
+      "runtimeWarnings": [],
+      "nominalGridBorderWarnings": [],
+      "sourceGridMarginWarningCount": 8,
+      "clipDensityAdjustment": null,
+      "poseEvidence": "Purple/silver THREE bands retained; wide tail fan and near pectoral membrane articulate; captured rear C-curve and folding.",
+      "producerStillReview": "candidate_pass",
+      "rootVisualReview": "pending",
+      "playback": "pending_Unity",
+      "lightQA": "tmp/art-qa/07-zihai-capture-registered-light.png",
+      "darkQA": "tmp/art-qa/07-zihai-capture-registered-dark.png",
+      "pairQA": "tmp/art-qa/07-zihai-pair-review.png",
+      "displayRestQA": "tmp/art-qa/07-zihai-display-rest-qa.png",
+      "allPixelsPreserved": "cached per-frame native RGBA round-trip assertion",
+      "upscaled": false
+    },
+    {
+      "id": "08-lanbian",
+      "action": "swim",
+      "source": "designs/motion-frames-v1/08-lanbian/swim/08-lanbian-swim-v1.png",
+      "sourceSHA256": "7e2cc9e2679c4100f75cb6bf73889d6d02526820bd67fdf1430a909bec2d55e5",
+      "sourceNativeSize": [
+        1774,
+        887
+      ],
+      "sourceGenerationRecord": "designs/motion-frames-v1/08-lanbian/swim/08-lanbian-swim-v1.png.generation.json",
+      "request": "designs/motion-frames-v1/08-lanbian/swim/08-lanbian-swim-v1.request.json",
+      "manifest": "assets/animations/08-lanbian/swim/manifest.json",
+      "frameCount": 8,
+      "fps": 12,
+      "loop": true,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "sharedCanvas": [
+        640,
+        640
+      ],
+      "rootPixels": [
+        320,
+        320
+      ],
+      "eyePixels": [
+        430,
+        290
+      ],
+      "displaySize": [
+        186.1818181818182,
+        186.1818181818182
+      ],
+      "uniformDisplayScale": 0.2909090909090909,
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "runtimeMinMargin": 0.140625,
+      "runtimeWarnings": [],
+      "nominalGridBorderWarnings": [],
+      "sourceGridMarginWarningCount": 8,
+      "clipDensityAdjustment": null,
+      "poseEvidence": "Blue bream spiky dorsal identity retained, short fork-tail up/down and fan pectoral shape changes; capture posterior C-flex and droop.",
+      "producerStillReview": "candidate_pass",
+      "rootVisualReview": "pending",
+      "playback": "pending_Unity",
+      "lightQA": "tmp/art-qa/08-lanbian-swim-registered-light.png",
+      "darkQA": "tmp/art-qa/08-lanbian-swim-registered-dark.png",
+      "pairQA": "tmp/art-qa/08-lanbian-pair-review.png",
+      "displayRestQA": "tmp/art-qa/08-lanbian-display-rest-qa.png",
+      "allPixelsPreserved": "cached per-frame native RGBA round-trip assertion",
+      "upscaled": false
+    },
+    {
+      "id": "08-lanbian",
+      "action": "capture",
+      "source": "designs/motion-frames-v1/08-lanbian/capture/08-lanbian-capture-v1.png",
+      "sourceSHA256": "f18a90a9745ad8cf6bd6d9998477cbfe490fe293f871b52dbdd4cc3240ab1fd4",
+      "sourceNativeSize": [
+        1774,
+        887
+      ],
+      "sourceGenerationRecord": "designs/motion-frames-v1/08-lanbian/capture/08-lanbian-capture-v1.png.generation.json",
+      "request": "designs/motion-frames-v1/08-lanbian/capture/08-lanbian-capture-v1.request.json",
+      "manifest": "assets/animations/08-lanbian/capture/manifest.json",
+      "frameCount": 8,
+      "fps": 12,
+      "loop": false,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "sharedCanvas": [
+        640,
+        640
+      ],
+      "rootPixels": [
+        320,
+        320
+      ],
+      "eyePixels": [
+        430,
+        290
+      ],
+      "displaySize": [
+        186.1818181818182,
+        186.1818181818182
+      ],
+      "uniformDisplayScale": 0.2909090909090909,
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "runtimeMinMargin": 0.125,
+      "runtimeWarnings": [],
+      "nominalGridBorderWarnings": [
+        1,
+        2
+      ],
+      "sourceGridMarginWarningCount": 8,
+      "clipDensityAdjustment": null,
+      "poseEvidence": "Blue bream spiky dorsal identity retained, short fork-tail up/down and fan pectoral shape changes; capture posterior C-flex and droop.",
+      "producerStillReview": "candidate_pass",
+      "rootVisualReview": "pending",
+      "playback": "pending_Unity",
+      "lightQA": "tmp/art-qa/08-lanbian-capture-registered-light.png",
+      "darkQA": "tmp/art-qa/08-lanbian-capture-registered-dark.png",
+      "pairQA": "tmp/art-qa/08-lanbian-pair-review.png",
+      "displayRestQA": "tmp/art-qa/08-lanbian-display-rest-qa.png",
+      "allPixelsPreserved": "cached per-frame native RGBA round-trip assertion",
+      "upscaled": false
+    },
+    {
+      "id": "09-caidie",
+      "action": "swim",
+      "source": "designs/motion-frames-v1/09-caidie/swim/09-caidie-swim-facing-v2.png",
+      "sourceSHA256": "fe6fbcf7e20c5d68bcf4b5175d276e1647866a71cb23c3ab2f1bf1ba7cfd6052",
+      "sourceNativeSize": [
+        1774,
+        887
+      ],
+      "sourceGenerationRecord": "designs/motion-frames-v1/09-caidie/swim/09-caidie-swim-facing-v2.png.generation.json",
+      "request": "designs/motion-frames-v1/09-caidie/swim/09-caidie-swim-facing-v2.request.json",
+      "manifest": "assets/animations/09-caidie/swim/manifest.json",
+      "frameCount": 8,
+      "fps": 12,
+      "loop": true,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "sharedCanvas": [
+        672,
+        672
+      ],
+      "rootPixels": [
+        336,
+        336
+      ],
+      "eyePixels": [
+        466,
+        336
+      ],
+      "displaySize": [
+        165.41538461538462,
+        165.41538461538462
+      ],
+      "uniformDisplayScale": 0.24615384615384617,
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "runtimeMinMargin": 0.13988095238095238,
+      "runtimeWarnings": [],
+      "nominalGridBorderWarnings": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "sourceGridMarginWarningCount": 8,
+      "clipDensityAdjustment": null,
+      "poseEvidence": "Orientation fixed by AI: all eight face RIGHT. Orange/ivory/black bands stable, long dorsal/anal curves and tail fold. Bottom-row scale consistency requires root visual attention.",
+      "producerStillReview": "candidate_pass",
+      "rootVisualReview": "pending",
+      "playback": "pending_Unity",
+      "lightQA": "tmp/art-qa/09-caidie-swim-registered-light.png",
+      "darkQA": "tmp/art-qa/09-caidie-swim-registered-dark.png",
+      "pairQA": "tmp/art-qa/09-caidie-pair-review.png",
+      "displayRestQA": "tmp/art-qa/09-caidie-display-rest-qa.png",
+      "allPixelsPreserved": "cached per-frame native RGBA round-trip assertion",
+      "upscaled": false
+    },
+    {
+      "id": "09-caidie",
+      "action": "capture",
+      "source": "designs/motion-frames-v1/09-caidie/capture/09-caidie-capture-v1.png",
+      "sourceSHA256": "2eac70cda1a16fcb0e10d8660e36ee7fa1606c6966154f82f1d945ef29965ac3",
+      "sourceNativeSize": [
+        1774,
+        887
+      ],
+      "sourceGenerationRecord": "designs/motion-frames-v1/09-caidie/capture/09-caidie-capture-v1.png.generation.json",
+      "request": "designs/motion-frames-v1/09-caidie/capture/09-caidie-capture-v1.request.json",
+      "manifest": "assets/animations/09-caidie/capture/manifest.json",
+      "frameCount": 8,
+      "fps": 12,
+      "loop": false,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "sharedCanvas": [
+        672,
+        672
+      ],
+      "rootPixels": [
+        336,
+        336
+      ],
+      "eyePixels": [
+        466,
+        336
+      ],
+      "displaySize": [
+        165.41538461538462,
+        165.41538461538462
+      ],
+      "uniformDisplayScale": 0.24615384615384617,
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "runtimeMinMargin": 0.1324404761904762,
+      "runtimeWarnings": [],
+      "nominalGridBorderWarnings": [
+        2,
+        6
+      ],
+      "sourceGridMarginWarningCount": 8,
+      "clipDensityAdjustment": null,
+      "poseEvidence": "Orientation fixed by AI: all eight face RIGHT. Orange/ivory/black bands stable, long dorsal/anal curves and tail fold. Bottom-row scale consistency requires root visual attention.",
+      "producerStillReview": "candidate_pass",
+      "rootVisualReview": "pending",
+      "playback": "pending_Unity",
+      "lightQA": "tmp/art-qa/09-caidie-capture-registered-light.png",
+      "darkQA": "tmp/art-qa/09-caidie-capture-registered-dark.png",
+      "pairQA": "tmp/art-qa/09-caidie-pair-review.png",
+      "displayRestQA": "tmp/art-qa/09-caidie-display-rest-qa.png",
+      "allPixelsPreserved": "cached per-frame native RGBA round-trip assertion",
+      "upscaled": false
+    },
+    {
+      "id": "10-qingya",
+      "action": "swim",
+      "source": "designs/motion-frames-v1/10-qingya/swim/10-qingya-swim-v1.png",
+      "sourceSHA256": "8977502e091ce600338a63c606b58ad46e1a40145848236f1da8225112b2fbdb",
+      "sourceNativeSize": [
+        1774,
+        887
+      ],
+      "sourceGenerationRecord": "designs/motion-frames-v1/10-qingya/swim/10-qingya-swim-v1.png.generation.json",
+      "request": "designs/motion-frames-v1/10-qingya/swim/10-qingya-swim-v1.request.json",
+      "manifest": "assets/animations/10-qingya/swim/manifest.json",
+      "frameCount": 8,
+      "fps": 12,
+      "loop": true,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "sharedCanvas": [
+        736,
+        736
+      ],
+      "rootPixels": [
+        368,
+        368
+      ],
+      "eyePixels": [
+        463,
+        338
+      ],
+      "displaySize": [
+        207.32394366197184,
+        207.32394366197184
+      ],
+      "uniformDisplayScale": 0.28169014084507044,
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "runtimeMinMargin": 0.15489130434782608,
+      "runtimeWarnings": [],
+      "nominalGridBorderWarnings": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "sourceGridMarginWarningCount": 8,
+      "clipDensityAdjustment": null,
+      "poseEvidence": "Green/gold scale rings and white fangs retained; tail S-wave and pectoral folds, captured posterior C-flex.",
+      "producerStillReview": "candidate_pass",
+      "rootVisualReview": "pending",
+      "playback": "pending_Unity",
+      "lightQA": "tmp/art-qa/10-qingya-swim-registered-light.png",
+      "darkQA": "tmp/art-qa/10-qingya-swim-registered-dark.png",
+      "pairQA": "tmp/art-qa/10-qingya-pair-review.png",
+      "displayRestQA": "tmp/art-qa/10-qingya-display-rest-qa.png",
+      "allPixelsPreserved": "cached per-frame native RGBA round-trip assertion",
+      "upscaled": false
+    },
+    {
+      "id": "10-qingya",
+      "action": "capture",
+      "source": "designs/motion-frames-v1/10-qingya/capture/10-qingya-capture-v1.png",
+      "sourceSHA256": "3a8aafd2290b792b5e9a010fb69c3ce176b828013a5548abc67b27eb24dffc9e",
+      "sourceNativeSize": [
+        1774,
+        887
+      ],
+      "sourceGenerationRecord": "designs/motion-frames-v1/10-qingya/capture/10-qingya-capture-v1.png.generation.json",
+      "request": "designs/motion-frames-v1/10-qingya/capture/10-qingya-capture-v1.request.json",
+      "manifest": "assets/animations/10-qingya/capture/manifest.json",
+      "frameCount": 8,
+      "fps": 12,
+      "loop": false,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "sharedCanvas": [
+        736,
+        736
+      ],
+      "rootPixels": [
+        368,
+        368
+      ],
+      "eyePixels": [
+        463,
+        338
+      ],
+      "displaySize": [
+        207.32394366197184,
+        207.32394366197184
+      ],
+      "uniformDisplayScale": 0.28169014084507044,
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "runtimeMinMargin": 0.13451086956521738,
+      "runtimeWarnings": [],
+      "nominalGridBorderWarnings": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "sourceGridMarginWarningCount": 8,
+      "clipDensityAdjustment": null,
+      "poseEvidence": "Green/gold scale rings and white fangs retained; tail S-wave and pectoral folds, captured posterior C-flex.",
+      "producerStillReview": "candidate_pass",
+      "rootVisualReview": "pending",
+      "playback": "pending_Unity",
+      "lightQA": "tmp/art-qa/10-qingya-capture-registered-light.png",
+      "darkQA": "tmp/art-qa/10-qingya-capture-registered-dark.png",
+      "pairQA": "tmp/art-qa/10-qingya-pair-review.png",
+      "displayRestQA": "tmp/art-qa/10-qingya-display-rest-qa.png",
+      "allPixelsPreserved": "cached per-frame native RGBA round-trip assertion",
+      "upscaled": false
+    },
+    {
+      "id": "11-yinlin",
+      "action": "swim",
+      "source": "designs/motion-frames-v1/11-yinlin/swim/11-yinlin-swim-v1.png",
+      "sourceSHA256": "47d110e04aa9c8311109d8d6751498c284984f3a5d6c429b79e72e5947f00135",
+      "sourceNativeSize": [
+        1774,
+        887
+      ],
+      "sourceGenerationRecord": "designs/motion-frames-v1/11-yinlin/swim/11-yinlin-swim-v1.png.generation.json",
+      "request": "designs/motion-frames-v1/11-yinlin/swim/11-yinlin-swim-v1.request.json",
+      "manifest": "assets/animations/11-yinlin/swim/manifest.json",
+      "frameCount": 8,
+      "fps": 12,
+      "loop": true,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "sharedCanvas": [
+        640,
+        640
+      ],
+      "rootPixels": [
+        320,
+        320
+      ],
+      "eyePixels": [
+        440,
+        300
+      ],
+      "displaySize": [
+        196.41943734015345,
+        196.41943734015345
+      ],
+      "uniformDisplayScale": 0.3069053708439898,
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "runtimeMinMargin": 0.1515625,
+      "runtimeWarnings": [],
+      "nominalGridBorderWarnings": [
+        4
+      ],
+      "sourceGridMarginWarningCount": 8,
+      "clipDensityAdjustment": null,
+      "poseEvidence": "Slim silver/blue gradient identity retained; fork-tail sweeps up/down and pectoral shape changes, capture curl then loose tail.",
+      "producerStillReview": "candidate_pass",
+      "rootVisualReview": "pending",
+      "playback": "pending_Unity",
+      "lightQA": "tmp/art-qa/11-yinlin-swim-registered-light.png",
+      "darkQA": "tmp/art-qa/11-yinlin-swim-registered-dark.png",
+      "pairQA": "tmp/art-qa/11-yinlin-pair-review.png",
+      "displayRestQA": "tmp/art-qa/11-yinlin-display-rest-qa.png",
+      "allPixelsPreserved": "cached per-frame native RGBA round-trip assertion",
+      "upscaled": false
+    },
+    {
+      "id": "11-yinlin",
+      "action": "capture",
+      "source": "designs/motion-frames-v1/11-yinlin/capture/11-yinlin-capture-v1.png",
+      "sourceSHA256": "dfb1785234ed10ab4c99f4ece5429042b76f3ea5e154114a29721259d46fe212",
+      "sourceNativeSize": [
+        1774,
+        887
+      ],
+      "sourceGenerationRecord": "designs/motion-frames-v1/11-yinlin/capture/11-yinlin-capture-v1.png.generation.json",
+      "request": "designs/motion-frames-v1/11-yinlin/capture/11-yinlin-capture-v1.request.json",
+      "manifest": "assets/animations/11-yinlin/capture/manifest.json",
+      "frameCount": 8,
+      "fps": 12,
+      "loop": false,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "sharedCanvas": [
+        640,
+        640
+      ],
+      "rootPixels": [
+        320,
+        320
+      ],
+      "eyePixels": [
+        440,
+        300
+      ],
+      "displaySize": [
+        196.41943734015345,
+        196.41943734015345
+      ],
+      "uniformDisplayScale": 0.3069053708439898,
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "runtimeMinMargin": 0.1296875,
+      "runtimeWarnings": [],
+      "nominalGridBorderWarnings": [],
+      "sourceGridMarginWarningCount": 8,
+      "clipDensityAdjustment": null,
+      "poseEvidence": "Slim silver/blue gradient identity retained; fork-tail sweeps up/down and pectoral shape changes, capture curl then loose tail.",
+      "producerStillReview": "candidate_pass",
+      "rootVisualReview": "pending",
+      "playback": "pending_Unity",
+      "lightQA": "tmp/art-qa/11-yinlin-capture-registered-light.png",
+      "darkQA": "tmp/art-qa/11-yinlin-capture-registered-dark.png",
+      "pairQA": "tmp/art-qa/11-yinlin-pair-review.png",
+      "displayRestQA": "tmp/art-qa/11-yinlin-display-rest-qa.png",
+      "allPixelsPreserved": "cached per-frame native RGBA round-trip assertion",
+      "upscaled": false
+    },
+    {
+      "id": "12-yuewei",
+      "action": "swim",
+      "source": "designs/motion-frames-v1/12-yuewei/swim/12-yuewei-swim-v1.png",
+      "sourceSHA256": "17dbf4f162163e0b4dd4e4067ffd4817d016f1e14ca8c42c58eacbd0c9d85190",
+      "sourceNativeSize": [
+        1774,
+        887
+      ],
+      "sourceGenerationRecord": "designs/motion-frames-v1/12-yuewei/swim/12-yuewei-swim-v1.png.generation.json",
+      "request": "designs/motion-frames-v1/12-yuewei/swim/12-yuewei-swim-v1.request.json",
+      "manifest": "assets/animations/12-yuewei/swim/manifest.json",
+      "frameCount": 8,
+      "fps": 12,
+      "loop": true,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "sharedCanvas": [
+        768,
+        768
+      ],
+      "rootPixels": [
+        384,
+        384
+      ],
+      "eyePixels": [
+        464,
+        354
+      ],
+      "displaySize": [
+        197.556270096463,
+        197.556270096463
+      ],
+      "uniformDisplayScale": 0.2572347266881029,
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "runtimeMinMargin": 0.1796875,
+      "runtimeWarnings": [],
+      "nominalGridBorderWarnings": [],
+      "sourceGridMarginWarningCount": 8,
+      "clipDensityAdjustment": null,
+      "poseEvidence": "Pearl/mint/ivory long fan identity retained; flowing folded membranes and near/far fin phases, strong tail curl then droop in capture.",
+      "producerStillReview": "candidate_pass",
+      "rootVisualReview": "pending",
+      "playback": "pending_Unity",
+      "lightQA": "tmp/art-qa/12-yuewei-swim-registered-light.png",
+      "darkQA": "tmp/art-qa/12-yuewei-swim-registered-dark.png",
+      "pairQA": "tmp/art-qa/12-yuewei-pair-review.png",
+      "displayRestQA": "tmp/art-qa/12-yuewei-display-rest-qa.png",
+      "allPixelsPreserved": "cached per-frame native RGBA round-trip assertion",
+      "upscaled": false
+    },
+    {
+      "id": "12-yuewei",
+      "action": "capture",
+      "source": "designs/motion-frames-v1/12-yuewei/capture/12-yuewei-capture-v1.png",
+      "sourceSHA256": "e28fa05f2254cebbcb19af0ef68c1c6d3db3849e9a6fbead143514a8692b232d",
+      "sourceNativeSize": [
+        1774,
+        887
+      ],
+      "sourceGenerationRecord": "designs/motion-frames-v1/12-yuewei/capture/12-yuewei-capture-v1.png.generation.json",
+      "request": "designs/motion-frames-v1/12-yuewei/capture/12-yuewei-capture-v1.request.json",
+      "manifest": "assets/animations/12-yuewei/capture/manifest.json",
+      "frameCount": 8,
+      "fps": 12,
+      "loop": false,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "sharedCanvas": [
+        768,
+        768
+      ],
+      "rootPixels": [
+        384,
+        384
+      ],
+      "eyePixels": [
+        473,
+        350
+      ],
+      "displaySize": [
+        176.76087324420362,
+        176.76087324420362
+      ],
+      "uniformDisplayScale": 0.23015738703672348,
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "runtimeMinMargin": 0.13411458333333334,
+      "runtimeWarnings": [],
+      "nominalGridBorderWarnings": [],
+      "sourceGridMarginWarningCount": 8,
+      "clipDensityAdjustment": {
+        "method": "one clip display scale from measured native amber-iris median width; never per-frame scaling",
+        "evidence": "designs/motion-frames-v1/12-yuewei/clip-density-evidence.json",
+        "uniformDensityRatio": 1.11764705882353,
+        "referenceScale": 0.2572347266881029,
+        "clipScale": 0.23015738703672348,
+        "referenceEyeOffset": [
+          80,
+          -30
+        ],
+        "clipNativeEyeOffset": [
+          89,
+          -34
+        ],
+        "visualIdentityReview": "pending_root"
+      },
+      "poseEvidence": "Pearl/mint/ivory long fan identity retained; flowing folded membranes and near/far fin phases, strong tail curl then droop in capture.",
+      "producerStillReview": "candidate_pass",
+      "rootVisualReview": "pending",
+      "playback": "pending_Unity",
+      "lightQA": "tmp/art-qa/12-yuewei-capture-registered-light.png",
+      "darkQA": "tmp/art-qa/12-yuewei-capture-registered-dark.png",
+      "pairQA": "tmp/art-qa/12-yuewei-pair-review.png",
+      "displayRestQA": "tmp/art-qa/12-yuewei-display-rest-qa.png",
+      "allPixelsPreserved": "cached per-frame native RGBA round-trip assertion",
+      "upscaled": false
+    }
+  ],
+  "perCallRecords": [
+    {
+      "record": "designs/motion-frames-v1/01-qingqi/capture/01-qingqi-capture-scale-v2.png.generation.json",
+      "source": "designs/motion-frames-v1/01-qingqi/capture/01-qingqi-capture-scale-v2.png",
+      "sha256": "530b993692377ab5dff2a1cf689174e14ea294bb8b7553424a3cd08e5df493cd",
+      "actualModel": null,
+      "actualQuality": null,
+      "selected": true,
+      "toolReceipt": "designs/motion-frames-v1/01-qingqi/capture/01-qingqi-capture-scale-v2.tool-result.txt"
+    },
+    {
+      "record": "designs/motion-frames-v1/01-qingqi/capture/01-qingqi-capture-v1.png.generation.json",
+      "source": "designs/motion-frames-v1/01-qingqi/capture/01-qingqi-capture-v1.png",
+      "sha256": "ea56757fe347abb483b0ab1a5b4e7e5d058eba571b499edf2e7932b31e440e2c",
+      "actualModel": null,
+      "actualQuality": null,
+      "selected": false,
+      "toolReceipt": "designs/motion-frames-v1/01-qingqi/capture/01-qingqi-capture-v1.tool-result.txt"
+    },
+    {
+      "record": "designs/motion-frames-v1/01-qingqi/swim/01-qingqi-swim-contained-v2.png.generation.json",
+      "source": "designs/motion-frames-v1/01-qingqi/swim/01-qingqi-swim-contained-v2.png",
+      "sha256": "8062b4d48c58d7d0d64f776e24a670ae3b100fe0898208d12132c1d0ba856bfd",
+      "actualModel": null,
+      "actualQuality": null,
+      "selected": true,
+      "toolReceipt": "designs/motion-frames-v1/01-qingqi/swim/01-qingqi-swim-contained-v2.tool-result.txt"
+    },
+    {
+      "record": "designs/motion-frames-v1/01-qingqi/swim/01-qingqi-swim-contained.png.generation.json",
+      "source": "designs/motion-frames-v1/01-qingqi/swim/01-qingqi-swim-contained.png",
+      "sha256": "03c87602648d8a087c5e9fbe6b0b4d1105d70d93c3f39d82daaa29267956eac0",
+      "actualModel": null,
+      "actualQuality": null,
+      "selected": false,
+      "toolReceipt": "designs/motion-frames-v1/01-qingqi/swim/01-qingqi-swim-contained.tool-result.txt"
+    },
+    {
+      "record": "designs/motion-frames-v1/01-qingqi/swim/01-qingqi-swim-v1.png.generation.json",
+      "source": "designs/motion-frames-v1/01-qingqi/swim/01-qingqi-swim-v1.png",
+      "sha256": "cd89cb2489ac41fc0730c3c8eb3e032f07ab23cb9786fff4bd39fd6a1538ab5f",
+      "actualModel": null,
+      "actualQuality": null,
+      "selected": false,
+      "toolReceipt": "designs/motion-frames-v1/01-qingqi/swim/01-qingqi-swim-v1.tool-result.txt"
+    },
+    {
+      "record": "designs/motion-frames-v1/02-jinwei/capture/02-jinwei-capture-scale-v2.png.generation.json",
+      "source": "designs/motion-frames-v1/02-jinwei/capture/02-jinwei-capture-scale-v2.png",
+      "sha256": "939ad1c9193882296b5e4f81880aa96daeca000bab43f5f7600cc2993b5d0bc7",
+      "actualModel": null,
+      "actualQuality": null,
+      "selected": false,
+      "toolReceipt": "designs/motion-frames-v1/02-jinwei/capture/02-jinwei-capture-scale-v2.tool-result.txt"
+    },
+    {
+      "record": "designs/motion-frames-v1/02-jinwei/capture/02-jinwei-capture-v1.png.generation.json",
+      "source": "designs/motion-frames-v1/02-jinwei/capture/02-jinwei-capture-v1.png",
+      "sha256": "2212b93df58bf10c052210075f70de96506c6eab3c030421d5768fff33ab37c3",
+      "actualModel": null,
+      "actualQuality": null,
+      "selected": false,
+      "toolReceipt": "designs/motion-frames-v1/02-jinwei/capture/02-jinwei-capture-v1.tool-result.txt"
+    },
+    {
+      "record": "designs/motion-frames-v1/02-jinwei/capture/02-jinwei-capture-v3.png.generation.json",
+      "source": "designs/motion-frames-v1/02-jinwei/capture/02-jinwei-capture-v3.png",
+      "sha256": "cbef31ec6d106adf7bd288d93f77a96e9929c9081dc3c99b6751a3d991663b63",
+      "actualModel": null,
+      "actualQuality": null,
+      "selected": true,
+      "toolReceipt": "designs/motion-frames-v1/02-jinwei/capture/02-jinwei-capture-v3.tool-result.txt"
+    },
+    {
+      "record": "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-contained-v2.png.generation.json",
+      "source": "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-contained-v2.png",
+      "sha256": "3c1746a4a2bdc3bd471f2b59f271563bebb3ee8f8327b62f5bb6f56024e885d1",
+      "actualModel": null,
+      "actualQuality": null,
+      "selected": true,
+      "toolReceipt": "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-contained-v2.tool-result.txt"
+    },
+    {
+      "record": "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-v1.png.generation.json",
+      "source": "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-v1.png",
+      "sha256": "2dfbce93772aa61208f48a0eccc2565277a845ac2409614d7e742a01cf7250d7",
+      "actualModel": null,
+      "actualQuality": null,
+      "selected": false,
+      "toolReceipt": "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-v1.tool-result.txt"
+    },
+    {
+      "record": "designs/motion-frames-v1/03-chiyu/capture/03-chiyu-capture-contained-v2.png.generation.json",
+      "source": "designs/motion-frames-v1/03-chiyu/capture/03-chiyu-capture-contained-v2.png",
+      "sha256": "4477b52a980a6189204c928ddf9002e39153c52c7baf293b4b27eaa721cfded6",
+      "actualModel": null,
+      "actualQuality": null,
+      "selected": false,
+      "toolReceipt": "designs/motion-frames-v1/03-chiyu/capture/03-chiyu-capture-contained-v2.tool-result.txt"
+    },
+    {
+      "record": "designs/motion-frames-v1/03-chiyu/capture/03-chiyu-capture-v1.png.generation.json",
+      "source": "designs/motion-frames-v1/03-chiyu/capture/03-chiyu-capture-v1.png",
+      "sha256": "760be4da3c8671cbceeda7cc331c975e07ab533ad1920a36f1497d6a26cceefd",
+      "actualModel": null,
+      "actualQuality": null,
+      "selected": false,
+      "toolReceipt": "designs/motion-frames-v1/03-chiyu/capture/03-chiyu-capture-v1.tool-result.txt"
+    },
+    {
+      "record": "designs/motion-frames-v1/03-chiyu/capture/03-chiyu-capture-v3.png.generation.json",
+      "source": "designs/motion-frames-v1/03-chiyu/capture/03-chiyu-capture-v3.png",
+      "sha256": "9ce2448d7b64de9f6b58ad243696a7bcf3938fe5860cc3149bcd3f82d3cf5f6a",
+      "actualModel": null,
+      "actualQuality": null,
+      "selected": true,
+      "toolReceipt": "designs/motion-frames-v1/03-chiyu/capture/03-chiyu-capture-v3.tool-result.txt"
+    },
+    {
+      "record": "designs/motion-frames-v1/03-chiyu/swim/03-chiyu-swim-v1.png.generation.json",
+      "source": "designs/motion-frames-v1/03-chiyu/swim/03-chiyu-swim-v1.png",
+      "sha256": "10143f96ed539d629006c9238499fab0e352d96594f82e470f2103843ba674b9",
+      "actualModel": null,
+      "actualQuality": null,
+      "selected": true,
+      "toolReceipt": "designs/motion-frames-v1/03-chiyu/swim/03-chiyu-swim-v1.tool-result.txt"
+    },
+    {
+      "record": "designs/motion-frames-v1/04-shenxian/capture/04-shenxian-capture-v1.png.generation.json",
+      "source": "designs/motion-frames-v1/04-shenxian/capture/04-shenxian-capture-v1.png",
+      "sha256": "6886e031ede816a59aa019611fea39415f2370b0f4a6e37fa83304bf6f112393",
+      "actualModel": null,
+      "actualQuality": null,
+      "selected": true,
+      "toolReceipt": "designs/motion-frames-v1/04-shenxian/capture/04-shenxian-capture-v1.tool-result.txt"
+    },
+    {
+      "record": "designs/motion-frames-v1/04-shenxian/swim/04-shenxian-swim-v1.png.generation.json",
+      "source": "designs/motion-frames-v1/04-shenxian/swim/04-shenxian-swim-v1.png",
+      "sha256": "febe40c0c8767e4815421c661bf4b10281a7a131099ce84c9ae34c52831ba19e",
+      "actualModel": null,
+      "actualQuality": null,
+      "selected": true,
+      "toolReceipt": "designs/motion-frames-v1/04-shenxian/swim/04-shenxian-swim-v1.tool-result.txt"
+    },
+    {
+      "record": "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-contained-v2.png.generation.json",
+      "source": "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-contained-v2.png",
+      "sha256": "8fc280d6ec337c6d58b9ea310830b6f9302f35ed84f4d83d36e3bde49c25a762",
+      "actualModel": null,
+      "actualQuality": null,
+      "selected": false,
+      "toolReceipt": "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-contained-v2.tool-result.txt"
+    },
+    {
+      "record": "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-contained-v3.png.generation.json",
+      "source": "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-contained-v3.png",
+      "sha256": "da5f8c5ff18f42393eed9ec4229467e25bfd938b25c4239951a86332745e7aa0",
+      "actualModel": null,
+      "actualQuality": null,
+      "selected": true,
+      "toolReceipt": "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-contained-v3.tool-result.txt"
+    },
+    {
+      "record": "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-v1.png.generation.json",
+      "source": "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-v1.png",
+      "sha256": "a1f0047f5cd73e57c06f3e2ce4bbe3c52623a06458189ee7cb4a1f5a32f6ae36",
+      "actualModel": null,
+      "actualQuality": null,
+      "selected": false,
+      "toolReceipt": "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-v1.tool-result.txt"
+    },
+    {
+      "record": "designs/motion-frames-v1/05-hetun/swim/05-hetun-swim-v1.png.generation.json",
+      "source": "designs/motion-frames-v1/05-hetun/swim/05-hetun-swim-v1.png",
+      "sha256": "914942555aacd30c0558c2fe51af133de3f997af94d2c81eaef2f4517f9808fb",
+      "actualModel": null,
+      "actualQuality": null,
+      "selected": true,
+      "toolReceipt": "designs/motion-frames-v1/05-hetun/swim/05-hetun-swim-v1.tool-result.txt"
+    },
+    {
+      "record": "designs/motion-frames-v1/06-haima/capture/06-haima-capture-v1.png.generation.json",
+      "source": "designs/motion-frames-v1/06-haima/capture/06-haima-capture-v1.png",
+      "sha256": "a49b37fb9bc4c625de84dfaeb7f8e37e8746dac2cbbbfb14af769866b0f46f83",
+      "actualModel": null,
+      "actualQuality": null,
+      "selected": true,
+      "toolReceipt": "designs/motion-frames-v1/06-haima/capture/06-haima-capture-v1.tool-result.txt"
+    },
+    {
+      "record": "designs/motion-frames-v1/06-haima/swim/06-haima-swim-v1.png.generation.json",
+      "source": "designs/motion-frames-v1/06-haima/swim/06-haima-swim-v1.png",
+      "sha256": "b495beb0da8e6671072997379c5a0d6da91b5cb5a2a94b4da82473a2e1f2aca5",
+      "actualModel": null,
+      "actualQuality": null,
+      "selected": true,
+      "toolReceipt": "designs/motion-frames-v1/06-haima/swim/06-haima-swim-v1.tool-result.txt"
+    },
+    {
+      "record": "designs/motion-frames-v1/07-zihai/capture/07-zihai-capture-v1.png.generation.json",
+      "source": "designs/motion-frames-v1/07-zihai/capture/07-zihai-capture-v1.png",
+      "sha256": "513ceca236d7e094b173d9a73e7989106bdec618fa580e0e82eead64c2e0517a",
+      "actualModel": null,
+      "actualQuality": null,
+      "selected": true,
+      "toolReceipt": "designs/motion-frames-v1/07-zihai/capture/07-zihai-capture-v1.tool-result.txt"
+    },
+    {
+      "record": "designs/motion-frames-v1/07-zihai/swim/07-zihai-swim-v1.png.generation.json",
+      "source": "designs/motion-frames-v1/07-zihai/swim/07-zihai-swim-v1.png",
+      "sha256": "bd794b58bc937a76d228be7d5f741e6c8fe9e3fae90c3cf6ab412f42d879dc2b",
+      "actualModel": null,
+      "actualQuality": null,
+      "selected": true,
+      "toolReceipt": "designs/motion-frames-v1/07-zihai/swim/07-zihai-swim-v1.tool-result.txt"
+    },
+    {
+      "record": "designs/motion-frames-v1/08-lanbian/capture/08-lanbian-capture-v1.png.generation.json",
+      "source": "designs/motion-frames-v1/08-lanbian/capture/08-lanbian-capture-v1.png",
+      "sha256": "f18a90a9745ad8cf6bd6d9998477cbfe490fe293f871b52dbdd4cc3240ab1fd4",
+      "actualModel": null,
+      "actualQuality": null,
+      "selected": true,
+      "toolReceipt": "designs/motion-frames-v1/08-lanbian/capture/08-lanbian-capture-v1.tool-result.txt"
+    },
+    {
+      "record": "designs/motion-frames-v1/08-lanbian/swim/08-lanbian-swim-v1.png.generation.json",
+      "source": "designs/motion-frames-v1/08-lanbian/swim/08-lanbian-swim-v1.png",
+      "sha256": "7e2cc9e2679c4100f75cb6bf73889d6d02526820bd67fdf1430a909bec2d55e5",
+      "actualModel": null,
+      "actualQuality": null,
+      "selected": true,
+      "toolReceipt": "designs/motion-frames-v1/08-lanbian/swim/08-lanbian-swim-v1.tool-result.txt"
+    },
+    {
+      "record": "designs/motion-frames-v1/09-caidie/capture/09-caidie-capture-v1.png.generation.json",
+      "source": "designs/motion-frames-v1/09-caidie/capture/09-caidie-capture-v1.png",
+      "sha256": "2eac70cda1a16fcb0e10d8660e36ee7fa1606c6966154f82f1d945ef29965ac3",
+      "actualModel": null,
+      "actualQuality": null,
+      "selected": true,
+      "toolReceipt": "designs/motion-frames-v1/09-caidie/capture/09-caidie-capture-v1.tool-result.txt"
+    },
+    {
+      "record": "designs/motion-frames-v1/09-caidie/swim/09-caidie-swim-facing-v2.png.generation.json",
+      "source": "designs/motion-frames-v1/09-caidie/swim/09-caidie-swim-facing-v2.png",
+      "sha256": "fe6fbcf7e20c5d68bcf4b5175d276e1647866a71cb23c3ab2f1bf1ba7cfd6052",
+      "actualModel": null,
+      "actualQuality": null,
+      "selected": true,
+      "toolReceipt": "designs/motion-frames-v1/09-caidie/swim/09-caidie-swim-facing-v2.tool-result.txt"
+    },
+    {
+      "record": "designs/motion-frames-v1/09-caidie/swim/09-caidie-swim-v1.png.generation.json",
+      "source": "designs/motion-frames-v1/09-caidie/swim/09-caidie-swim-v1.png",
+      "sha256": "0eb5f4677547848abe3b42a201109da60fbeff9add1a54807761d0ab26cc725d",
+      "actualModel": null,
+      "actualQuality": null,
+      "selected": false,
+      "toolReceipt": "designs/motion-frames-v1/09-caidie/swim/09-caidie-swim-v1.tool-result.txt"
+    },
+    {
+      "record": "designs/motion-frames-v1/10-qingya/capture/10-qingya-capture-v1.png.generation.json",
+      "source": "designs/motion-frames-v1/10-qingya/capture/10-qingya-capture-v1.png",
+      "sha256": "3a8aafd2290b792b5e9a010fb69c3ce176b828013a5548abc67b27eb24dffc9e",
+      "actualModel": null,
+      "actualQuality": null,
+      "selected": true,
+      "toolReceipt": "designs/motion-frames-v1/10-qingya/capture/10-qingya-capture-v1.tool-result.txt"
+    },
+    {
+      "record": "designs/motion-frames-v1/10-qingya/swim/10-qingya-swim-v1.png.generation.json",
+      "source": "designs/motion-frames-v1/10-qingya/swim/10-qingya-swim-v1.png",
+      "sha256": "8977502e091ce600338a63c606b58ad46e1a40145848236f1da8225112b2fbdb",
+      "actualModel": null,
+      "actualQuality": null,
+      "selected": true,
+      "toolReceipt": "designs/motion-frames-v1/10-qingya/swim/10-qingya-swim-v1.tool-result.txt"
+    },
+    {
+      "record": "designs/motion-frames-v1/11-yinlin/capture/11-yinlin-capture-v1.png.generation.json",
+      "source": "designs/motion-frames-v1/11-yinlin/capture/11-yinlin-capture-v1.png",
+      "sha256": "dfb1785234ed10ab4c99f4ece5429042b76f3ea5e154114a29721259d46fe212",
+      "actualModel": null,
+      "actualQuality": null,
+      "selected": true,
+      "toolReceipt": "designs/motion-frames-v1/11-yinlin/capture/11-yinlin-capture-v1.tool-result.txt"
+    },
+    {
+      "record": "designs/motion-frames-v1/11-yinlin/swim/11-yinlin-swim-v1.png.generation.json",
+      "source": "designs/motion-frames-v1/11-yinlin/swim/11-yinlin-swim-v1.png",
+      "sha256": "47d110e04aa9c8311109d8d6751498c284984f3a5d6c429b79e72e5947f00135",
+      "actualModel": null,
+      "actualQuality": null,
+      "selected": true,
+      "toolReceipt": "designs/motion-frames-v1/11-yinlin/swim/11-yinlin-swim-v1.tool-result.txt"
+    },
+    {
+      "record": "designs/motion-frames-v1/12-yuewei/capture/12-yuewei-capture-v1.png.generation.json",
+      "source": "designs/motion-frames-v1/12-yuewei/capture/12-yuewei-capture-v1.png",
+      "sha256": "e28fa05f2254cebbcb19af0ef68c1c6d3db3849e9a6fbead143514a8692b232d",
+      "actualModel": null,
+      "actualQuality": null,
+      "selected": true,
+      "toolReceipt": "designs/motion-frames-v1/12-yuewei/capture/12-yuewei-capture-v1.tool-result.txt"
+    },
+    {
+      "record": "designs/motion-frames-v1/12-yuewei/swim/12-yuewei-swim-v1.png.generation.json",
+      "source": "designs/motion-frames-v1/12-yuewei/swim/12-yuewei-swim-v1.png",
+      "sha256": "17dbf4f162163e0b4dd4e4067ffd4817d016f1e14ca8c42c58eacbd0c9d85190",
+      "actualModel": null,
+      "actualQuality": null,
+      "selected": true,
+      "toolReceipt": "designs/motion-frames-v1/12-yuewei/swim/12-yuewei-swim-v1.tool-result.txt"
+    }
+  ],
+  "retention": {
+    "finalized": true,
+    "plannedSupersededPNGRemovals": [],
+    "provenanceTextPreserved": true,
+    "cleanupReceipt": "designs/motion-frames-v1/FISH01TO12_RETENTION_RECEIPT.json",
+    "removedSourcePNGs": 11,
+    "removedObsoleteQA": 15
+  }
+}

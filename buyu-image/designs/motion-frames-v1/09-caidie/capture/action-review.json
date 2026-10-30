@@ -1,0 +1,206 @@
+{
+  "source": "designs/motion-frames-v1/09-caidie/capture/09-caidie-capture-v1.png",
+  "sourceSHA256": "2eac70cda1a16fcb0e10d8660e36ee7fa1606c6966154f82f1d945ef29965ac3",
+  "action": "capture",
+  "registeredAt": "2026-10-28T18:21:50.845454+00:00",
+  "sharedCanvas": [
+    672,
+    672
+  ],
+  "rootPixels": [
+    336,
+    336
+  ],
+  "eyePixels": [
+    466,
+    336
+  ],
+  "registration": [
+    {
+      "frame": 0,
+      "pupil": [
+        349,
+        178
+      ],
+      "registeredPupil": [
+        466,
+        336
+      ],
+      "offset": [
+        117,
+        158
+      ],
+      "minMargin": 0.18601190476190477,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 1,
+      "pupil": [
+        351,
+        203
+      ],
+      "registeredPupil": [
+        466,
+        336
+      ],
+      "offset": [
+        115,
+        133
+      ],
+      "minMargin": 0.18303571428571427,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 2,
+      "pupil": [
+        324,
+        255
+      ],
+      "registeredPupil": [
+        466,
+        336
+      ],
+      "offset": [
+        142,
+        81
+      ],
+      "minMargin": 0.1324404761904762,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 3,
+      "pupil": [
+        369,
+        179
+      ],
+      "registeredPupil": [
+        466,
+        336
+      ],
+      "offset": [
+        97,
+        157
+      ],
+      "minMargin": 0.15625,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 4,
+      "pupil": [
+        352,
+        205
+      ],
+      "registeredPupil": [
+        466,
+        336
+      ],
+      "offset": [
+        114,
+        131
+      ],
+      "minMargin": 0.18154761904761904,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 5,
+      "pupil": [
+        353,
+        172
+      ],
+      "registeredPupil": [
+        466,
+        336
+      ],
+      "offset": [
+        113,
+        164
+      ],
+      "minMargin": 0.1800595238095238,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 6,
+      "pupil": [
+        348,
+        170
+      ],
+      "registeredPupil": [
+        466,
+        336
+      ],
+      "offset": [
+        118,
+        166
+      ],
+      "minMargin": 0.1875,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 7,
+      "pupil": [
+        359,
+        167
+      ],
+      "registeredPupil": [
+        466,
+        336
+      ],
+      "offset": [
+        107,
+        169
+      ],
+      "minMargin": 0.17113095238095238,
+      "pixelRoundTrip": true
+    }
+  ],
+  "uniformScale": 0.24615384615384617,
+  "sourceMarginWarnings": [
+    {
+      "frame": 0,
+      "actual": 0.03153153153153153,
+      "required": 0.12
+    },
+    {
+      "frame": 1,
+      "actual": 0.04288939051918736,
+      "required": 0.12
+    },
+    {
+      "frame": 2,
+      "actual": 0.0,
+      "required": 0.12
+    },
+    {
+      "frame": 3,
+      "actual": 0.006756756756756757,
+      "required": 0.12
+    },
+    {
+      "frame": 4,
+      "actual": 0.0045045045045045045,
+      "required": 0.12
+    },
+    {
+      "frame": 5,
+      "actual": 0.013544018058690745,
+      "required": 0.12
+    },
+    {
+      "frame": 6,
+      "actual": 0.0,
+      "required": 0.12
+    },
+    {
+      "frame": 7,
+      "actual": 0.033783783783783786,
+      "required": 0.12
+    }
+  ],
+  "runtimeWarnings": [],
+  "producerVisualNote": "Orientation fixed by AI: all eight face RIGHT. Orange/ivory/black bands stable, long dorsal/anal curves and tail fold. Bottom-row scale consistency requires root visual attention. Actual native/pupil ROI inspected. Root visual and Unity playback pending.",
+  "registeredContactVisual": "producer_actually_viewed_light_dark_and_display_rest_comparison",
+  "identityAndMotion": "pending_root_visual",
+  "playback": "pending_Unity",
+  "references": "designs/motion-frames-v1/09-caidie/swim/09-caidie-swim-facing-v2.png",
+  "rootVisual": "pending"
+}

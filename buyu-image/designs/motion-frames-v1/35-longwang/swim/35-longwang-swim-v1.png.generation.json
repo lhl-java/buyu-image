@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/motion-frames-v1/35-longwang/swim/35-longwang-swim-v1.png",
+  "sha256": "4f8fb7a9a9cf8331dda8e3e4b5ffbfc3a889e729cda3a0ca5768e1ab9e9a0901",
+  "generatedAt": "2026-10-28T18:45:43.560Z",
+  "startedAt": "2026-10-28T18:39:25.851Z",
+  "width": 1774,
+  "height": 887,
+  "format": "PNG",
+  "pixelFormat": "Format32bppArgb",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-28",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "builtin_evidence": {
+      "model_parameter_exposed": false,
+      "quality_parameter_exposed": false,
+      "actual_model": null,
+      "actual_quality": null,
+      "note": "Configuration targets only; verify actual model and quality per generated image."
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\buyu-image\\references\\production-guides\\35-longwang-4x2.png",
+      "D:\\work\\buyu-image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\buyu-image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "D:\\work\\buyu-image\\assets\\fish\\batch-6\\35-longwang.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具未开放 model/quality 参数，本次结果未披露实际型号及质量。",
+  "evidence": {
+    "toolResult": "35-longwang-swim-v1.tool-result.txt",
+    "sourceOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a17713-70e6-7261-8609-a9eabcbfb0a5\\exec-10babb8f-571c-4325-bb84-7555df63cbdd.png",
+    "toolResultId": "exec-10babb8f-571c-4325-bb84-7555df63cbdd",
+    "request": "35-longwang-swim-v1.request.json"
+  },
+  "prompt": "35-longwang-swim-v1.prompt.txt",
+  "references": [
+    {
+      "file": "references/production-guides/35-longwang-4x2.png",
+      "sha256": "ab9380be37471f56f993ed14de27c8f1f48e8a4c5f1c15df48212ced5938cd0f",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "assets/fish/batch-6/35-longwang.png",
+      "sha256": "dc334ba36a875e803e6155052ba825b018a985f7b1af3ee6a5a89fdca98908c3",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    }
+  ],
+  "requestedCanvasInPrompt": "Landscape approx 16:9; native actual dimensions recorded, no size selector exposed.",
+  "resampled": false,
+  "status": "draft_pending_user_review",
+  "visualReview": "Distinct actual native poses observed. Actual alpha, ownership, registered head/foot geometry and playback pending.",
+  "scope": "Native action source; no model/quality metadata disclosed."
+}

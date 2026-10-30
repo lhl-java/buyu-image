@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "28-shenhai",
+  "name": "深海鮟鱇",
+  "file": "assets/fish/batch-5/28-shenhai.png",
+  "sha256": "10888098e5a74f3763d90b0bddce23f51a7037c9a2f4fb84634703c01b00502e",
+  "width": 360,
+  "height": 257,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/production-v1/fish-sheet-5/fish-sheet-5-contained.png",
+  "derivedFrom": [
+    {
+      "file": "designs/production-v1/fish-sheet-5/fish-sheet-5-contained.png",
+      "sha256": "c24a9d0ea412535171fb36af7f6559678a1cadff299594bbc673dc3919e4d7c4",
+      "generationRecord": "designs/production-v1/fish-sheet-5/fish-sheet-5-contained.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_grid_crop",
+    "grid": {
+      "rows": 2,
+      "cols": 3
+    },
+    "sourceRect": [
+      0,
+      512,
+      512,
+      1024
+    ],
+    "cellCropRect": [
+      82,
+      116,
+      442,
+      373
+    ],
+    "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+    "resized": false,
+    "upscaled": false
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "displaySize": [
+    240,
+    180
+  ],
+  "status": "prepared_pending_visual_review",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source generation record; no new model call for this slice."
+}

@@ -1,0 +1,797 @@
+{
+  "schemaVersion": 1,
+  "id": "fx-gather",
+  "checkedAt": "2026-10-28T07:24:36.820032-04:00",
+  "source": "designs/production-v2/fx-gather/fx-gather-contained.png",
+  "sourceSha256": "79fc2f68375864f62ccf497d3e1155c16e578d4c90738cd6db99c7b40c7201fb",
+  "nativeSourceSize": [
+    1254,
+    1254
+  ],
+  "frames": 16,
+  "uniqueFrameCount": 16,
+  "sharedCanvas": [
+    394,
+    394
+  ],
+  "animation": {
+    "fps": 16,
+    "loop": false,
+    "order": "row-major",
+    "frames": 16,
+    "root": [
+      0.5,
+      0.5
+    ],
+    "durationMs": 1000,
+    "role": "skill_one_shot"
+  },
+  "allMarginsMinimum": 0.03503184713375796,
+  "runtimeMarginsMinimum": 0.12944162436548223,
+  "peakAlphaSumFrame": 7,
+  "measurements": [
+    {
+      "frame": 0,
+      "sourceRect": [
+        0,
+        0,
+        314,
+        314
+      ],
+      "nativeExportSize": [
+        394,
+        394
+      ],
+      "alphaRange": [
+        0,
+        253
+      ],
+      "boundsAboveAlpha3": [
+        116,
+        146,
+        213,
+        255
+      ],
+      "marginRatios": [
+        0.36942675159235666,
+        0.46496815286624205,
+        0.321656050955414,
+        0.18789808917197454
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        156,
+        186,
+        253,
+        295
+      ],
+      "runtimeMarginRatios": [
+        0.39593908629441626,
+        0.4720812182741117,
+        0.35786802030456855,
+        0.2512690355329949
+      ],
+      "alphaSum": 1384946,
+      "sha256": "8361e5958b3ea6ce8db78830a165e8d97d069771ff28543343b59a3454226aa7"
+    },
+    {
+      "frame": 1,
+      "sourceRect": [
+        314,
+        0,
+        627,
+        314
+      ],
+      "nativeExportSize": [
+        394,
+        394
+      ],
+      "alphaRange": [
+        0,
+        253
+      ],
+      "boundsAboveAlpha3": [
+        74,
+        107,
+        234,
+        276
+      ],
+      "marginRatios": [
+        0.2364217252396166,
+        0.34076433121019106,
+        0.2523961661341853,
+        0.12101910828025478
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        114,
+        147,
+        274,
+        316
+      ],
+      "runtimeMarginRatios": [
+        0.2893401015228426,
+        0.3730964467005076,
+        0.30456852791878175,
+        0.19796954314720813
+      ],
+      "alphaSum": 3650089,
+      "sha256": "ef555b3f82e56bbbd21b9497850a80b84414229ec3991c6fc4b36953ae634065"
+    },
+    {
+      "frame": 2,
+      "sourceRect": [
+        627,
+        0,
+        940,
+        314
+      ],
+      "nativeExportSize": [
+        394,
+        394
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "boundsAboveAlpha3": [
+        60,
+        107,
+        254,
+        289
+      ],
+      "marginRatios": [
+        0.19169329073482427,
+        0.34076433121019106,
+        0.18849840255591055,
+        0.07961783439490445
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        100,
+        147,
+        294,
+        329
+      ],
+      "runtimeMarginRatios": [
+        0.25380710659898476,
+        0.3730964467005076,
+        0.25380710659898476,
+        0.1649746192893401
+      ],
+      "alphaSum": 5453820,
+      "sha256": "7a18731732b82947d3ef88db817cddbd8d48ef144f33efdc9908746427f3f632"
+    },
+    {
+      "frame": 3,
+      "sourceRect": [
+        940,
+        0,
+        1254,
+        314
+      ],
+      "nativeExportSize": [
+        394,
+        394
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "boundsAboveAlpha3": [
+        44,
+        102,
+        253,
+        303
+      ],
+      "marginRatios": [
+        0.14012738853503184,
+        0.3248407643312102,
+        0.1942675159235669,
+        0.03503184713375796
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        84,
+        142,
+        293,
+        343
+      ],
+      "runtimeMarginRatios": [
+        0.2131979695431472,
+        0.3604060913705584,
+        0.2563451776649746,
+        0.12944162436548223
+      ],
+      "alphaSum": 6691339,
+      "sha256": "242e3932a8361c331d1019e6d030dda8fbff7a1a6230d22e0a81b39f2f853dd5"
+    },
+    {
+      "frame": 4,
+      "sourceRect": [
+        0,
+        314,
+        314,
+        627
+      ],
+      "nativeExportSize": [
+        394,
+        394
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "boundsAboveAlpha3": [
+        58,
+        86,
+        272,
+        299
+      ],
+      "marginRatios": [
+        0.18471337579617833,
+        0.2747603833865815,
+        0.1337579617834395,
+        0.04472843450479233
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        98,
+        126,
+        312,
+        339
+      ],
+      "runtimeMarginRatios": [
+        0.24873096446700507,
+        0.3197969543147208,
+        0.20812182741116753,
+        0.13959390862944163
+      ],
+      "alphaSum": 7713390,
+      "sha256": "7c49e00088942be99792ffc9fc5f6f4f3cd20bc5c0430cf47acbb2e8cc76344b"
+    },
+    {
+      "frame": 5,
+      "sourceRect": [
+        314,
+        314,
+        627,
+        627
+      ],
+      "nativeExportSize": [
+        394,
+        394
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "boundsAboveAlpha3": [
+        58,
+        85,
+        273,
+        298
+      ],
+      "marginRatios": [
+        0.1853035143769968,
+        0.2715654952076677,
+        0.12779552715654952,
+        0.04792332268370607
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        98,
+        125,
+        313,
+        338
+      ],
+      "runtimeMarginRatios": [
+        0.24873096446700507,
+        0.31725888324873097,
+        0.20558375634517767,
+        0.14213197969543148
+      ],
+      "alphaSum": 7909251,
+      "sha256": "d4bff0210efcf1db068baa7e893d2a78a05f85a41dc8b274af6d3a1ef97a2f63"
+    },
+    {
+      "frame": 6,
+      "sourceRect": [
+        627,
+        314,
+        940,
+        627
+      ],
+      "nativeExportSize": [
+        394,
+        394
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "boundsAboveAlpha3": [
+        45,
+        85,
+        265,
+        298
+      ],
+      "marginRatios": [
+        0.14376996805111822,
+        0.2715654952076677,
+        0.15335463258785942,
+        0.04792332268370607
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        85,
+        125,
+        305,
+        338
+      ],
+      "runtimeMarginRatios": [
+        0.21573604060913706,
+        0.31725888324873097,
+        0.22588832487309646,
+        0.14213197969543148
+      ],
+      "alphaSum": 7945209,
+      "sha256": "4839a269f1cb512f2bad762fea8786caf547ff406f897728926ff7246b861f38"
+    },
+    {
+      "frame": 7,
+      "sourceRect": [
+        940,
+        314,
+        1254,
+        627
+      ],
+      "nativeExportSize": [
+        394,
+        394
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "boundsAboveAlpha3": [
+        51,
+        79,
+        266,
+        299
+      ],
+      "marginRatios": [
+        0.1624203821656051,
+        0.2523961661341853,
+        0.15286624203821655,
+        0.04472843450479233
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        91,
+        119,
+        306,
+        339
+      ],
+      "runtimeMarginRatios": [
+        0.23096446700507614,
+        0.3020304568527919,
+        0.2233502538071066,
+        0.13959390862944163
+      ],
+      "alphaSum": 8087745,
+      "sha256": "cc9ab72d25165c5bda6b6d1598d8b743fa081bcfaf88d70efbe447091dfb8d7f"
+    },
+    {
+      "frame": 8,
+      "sourceRect": [
+        0,
+        627,
+        314,
+        940
+      ],
+      "nativeExportSize": [
+        394,
+        394
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "boundsAboveAlpha3": [
+        68,
+        81,
+        272,
+        289
+      ],
+      "marginRatios": [
+        0.21656050955414013,
+        0.25878594249201275,
+        0.1337579617834395,
+        0.07667731629392971
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        108,
+        121,
+        312,
+        329
+      ],
+      "runtimeMarginRatios": [
+        0.27411167512690354,
+        0.30710659898477155,
+        0.20812182741116753,
+        0.1649746192893401
+      ],
+      "alphaSum": 6950172,
+      "sha256": "f5980741521a1836db688181477941586f2c87dcad792fff55607c9dc718af45"
+    },
+    {
+      "frame": 9,
+      "sourceRect": [
+        314,
+        627,
+        627,
+        940
+      ],
+      "nativeExportSize": [
+        394,
+        394
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "boundsAboveAlpha3": [
+        63,
+        80,
+        271,
+        286
+      ],
+      "marginRatios": [
+        0.2012779552715655,
+        0.25559105431309903,
+        0.134185303514377,
+        0.08626198083067092
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        103,
+        120,
+        311,
+        326
+      ],
+      "runtimeMarginRatios": [
+        0.2614213197969543,
+        0.30456852791878175,
+        0.21065989847715735,
+        0.17258883248730963
+      ],
+      "alphaSum": 6691959,
+      "sha256": "7e7079324d8241bdf368f9e5e7467830674fd2f990d4ed62d0af5697763e6ce1"
+    },
+    {
+      "frame": 10,
+      "sourceRect": [
+        627,
+        627,
+        940,
+        940
+      ],
+      "nativeExportSize": [
+        394,
+        394
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "boundsAboveAlpha3": [
+        53,
+        85,
+        260,
+        283
+      ],
+      "marginRatios": [
+        0.16932907348242812,
+        0.2715654952076677,
+        0.16932907348242812,
+        0.09584664536741214
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        93,
+        125,
+        300,
+        323
+      ],
+      "runtimeMarginRatios": [
+        0.23604060913705585,
+        0.31725888324873097,
+        0.23857868020304568,
+        0.1802030456852792
+      ],
+      "alphaSum": 6379868,
+      "sha256": "2487ecf903394be48b6367579c4a6a2a9b7b79bed1ba3bb46855dac82c93169f"
+    },
+    {
+      "frame": 11,
+      "sourceRect": [
+        940,
+        627,
+        1254,
+        940
+      ],
+      "nativeExportSize": [
+        394,
+        394
+      ],
+      "alphaRange": [
+        0,
+        253
+      ],
+      "boundsAboveAlpha3": [
+        78,
+        87,
+        242,
+        269
+      ],
+      "marginRatios": [
+        0.2484076433121019,
+        0.2779552715654952,
+        0.22929936305732485,
+        0.14057507987220447
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        118,
+        127,
+        282,
+        309
+      ],
+      "runtimeMarginRatios": [
+        0.29949238578680204,
+        0.3223350253807107,
+        0.28426395939086296,
+        0.21573604060913706
+      ],
+      "alphaSum": 4371999,
+      "sha256": "b8f11f21c3413d1f3db6ae8fd976f28ecac27ee4641a4f6f9e8e0b75ed8c5164"
+    },
+    {
+      "frame": 12,
+      "sourceRect": [
+        0,
+        940,
+        314,
+        1254
+      ],
+      "nativeExportSize": [
+        394,
+        394
+      ],
+      "alphaRange": [
+        0,
+        253
+      ],
+      "boundsAboveAlpha3": [
+        82,
+        72,
+        240,
+        226
+      ],
+      "marginRatios": [
+        0.2611464968152866,
+        0.22929936305732485,
+        0.2356687898089172,
+        0.2802547770700637
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        122,
+        112,
+        280,
+        266
+      ],
+      "runtimeMarginRatios": [
+        0.3096446700507614,
+        0.28426395939086296,
+        0.2893401015228426,
+        0.3248730964467005
+      ],
+      "alphaSum": 3833725,
+      "sha256": "1c36f399b4a562cfb9da6de3e93957c2c3c578cf204a111f556d6aaa259f958b"
+    },
+    {
+      "frame": 13,
+      "sourceRect": [
+        314,
+        940,
+        627,
+        1254
+      ],
+      "nativeExportSize": [
+        394,
+        394
+      ],
+      "alphaRange": [
+        0,
+        253
+      ],
+      "boundsAboveAlpha3": [
+        98,
+        87,
+        229,
+        212
+      ],
+      "marginRatios": [
+        0.31309904153354634,
+        0.2770700636942675,
+        0.268370607028754,
+        0.3248407643312102
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        138,
+        127,
+        269,
+        252
+      ],
+      "runtimeMarginRatios": [
+        0.350253807106599,
+        0.3223350253807107,
+        0.31725888324873097,
+        0.3604060913705584
+      ],
+      "alphaSum": 2522945,
+      "sha256": "4dc66f6b0967fa9db1ed4547a39b93c50673172ef564b6e3a3a983a2ce02e148"
+    },
+    {
+      "frame": 14,
+      "sourceRect": [
+        627,
+        940,
+        940,
+        1254
+      ],
+      "nativeExportSize": [
+        394,
+        394
+      ],
+      "alphaRange": [
+        0,
+        253
+      ],
+      "boundsAboveAlpha3": [
+        115,
+        93,
+        207,
+        198
+      ],
+      "marginRatios": [
+        0.36741214057507987,
+        0.2961783439490446,
+        0.33865814696485624,
+        0.36942675159235666
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        155,
+        133,
+        247,
+        238
+      ],
+      "runtimeMarginRatios": [
+        0.3934010152284264,
+        0.33756345177664976,
+        0.3730964467005076,
+        0.39593908629441626
+      ],
+      "alphaSum": 1328567,
+      "sha256": "128af5c1e57edf4358197fdf5fba0113f9dd1b5b0bca050a9589d210138f5e2e"
+    },
+    {
+      "frame": 15,
+      "sourceRect": [
+        940,
+        940,
+        1254,
+        1254
+      ],
+      "nativeExportSize": [
+        394,
+        394
+      ],
+      "alphaRange": [
+        0,
+        248
+      ],
+      "boundsAboveAlpha3": [
+        125,
+        116,
+        200,
+        187
+      ],
+      "marginRatios": [
+        0.3980891719745223,
+        0.36942675159235666,
+        0.3630573248407643,
+        0.40445859872611467
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        165,
+        156,
+        240,
+        227
+      ],
+      "runtimeMarginRatios": [
+        0.41878172588832485,
+        0.39593908629441626,
+        0.39086294416243655,
+        0.42385786802030456
+      ],
+      "alphaSum": 532092,
+      "sha256": "d20344ce495e3ed8a38aa04ec5858efdbf209bd4f3da03b9c4aa794943bc2126"
+    }
+  ],
+  "manifestWarnings": [],
+  "sourceWarnings": [
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 2,
+      "value": 0.07961783439490445,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-gather/fx-gather-contained.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 3,
+      "value": 0.03503184713375796,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-gather/fx-gather-contained.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 4,
+      "value": 0.04472843450479233,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-gather/fx-gather-contained.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 5,
+      "value": 0.04792332268370607,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-gather/fx-gather-contained.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 6,
+      "value": 0.04792332268370607,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-gather/fx-gather-contained.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 7,
+      "value": 0.04472843450479233,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-gather/fx-gather-contained.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 8,
+      "value": 0.07667731629392971,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-gather/fx-gather-contained.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 9,
+      "value": 0.08626198083067092,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-gather/fx-gather-contained.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 10,
+      "value": 0.09584664536741214,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-gather/fx-gather-contained.png"
+    }
+  ],
+  "runtimeWarnings": [],
+  "sourceMarginContractPassed": false,
+  "runtimePaddingMarginPassed": true,
+  "numericPass": true,
+  "visualReviewStatus": "actual_light_dark_composites_reviewed_pending_runtime",
+  "runtimeIntegrationVerified": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "visualReview": "已实际查看原生源和最终16帧浅米白/深青Alpha合成：金鱼旋流由种子、三鱼环绕峰值到收回消散，轮廓/光尾完整，无跨格截断。source低alpha留白告警保留；统一40px补边后runtime门禁通过。"
+}

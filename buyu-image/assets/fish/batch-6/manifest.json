@@ -1,0 +1,326 @@
+{
+  "schemaVersion": 1,
+  "source": "designs/production-v1/fish-sheet-6/fish-sheet-6-contained.png",
+  "sourceWidth": 1536,
+  "sourceHeight": 1024,
+  "output": "assets/fish/batch-6",
+  "items": [
+    {
+      "schemaVersion": 1,
+      "id": "31-bingjing",
+      "name": "冰晶鲨",
+      "file": "assets/fish/batch-6/31-bingjing.png",
+      "sha256": "5b11fc5bb8b8823ac7e0a51cfd6cf0f6d4462e0df519fa7e166a7386781d6497",
+      "width": 484,
+      "height": 340,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/fish-sheet-6/fish-sheet-6-contained.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/fish-sheet-6/fish-sheet-6-contained.png",
+          "sha256": "01a7da68643144e7dfbe14eb861b5e953798e758edb18a790f43a956ad3f1104",
+          "generationRecord": "designs/production-v1/fish-sheet-6/fish-sheet-6-contained.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 2,
+          "cols": 3
+        },
+        "sourceRect": [
+          0,
+          0,
+          512,
+          512
+        ],
+        "cellCropRect": [
+          21,
+          119,
+          505,
+          459
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        240,
+        180
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "32-honglian",
+      "name": "红莲鳐",
+      "file": "assets/fish/batch-6/32-honglian.png",
+      "sha256": "c88f74e681c38c988167e1759a165b988efe2ce5bc06965d34d2eab827e7dfc9",
+      "width": 497,
+      "height": 363,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/fish-sheet-6/fish-sheet-6-contained.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/fish-sheet-6/fish-sheet-6-contained.png",
+          "sha256": "01a7da68643144e7dfbe14eb861b5e953798e758edb18a790f43a956ad3f1104",
+          "generationRecord": "designs/production-v1/fish-sheet-6/fish-sheet-6-contained.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 2,
+          "cols": 3
+        },
+        "sourceRect": [
+          512,
+          0,
+          1024,
+          512
+        ],
+        "cellCropRect": [
+          15,
+          107,
+          512,
+          470
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        240,
+        180
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "33-xuanwu",
+      "name": "玄武灵龟",
+      "file": "assets/fish/batch-6/33-xuanwu.png",
+      "sha256": "f70b793821b3eb1f8507a02b4820d2e5fee5226e6c972121ced5ce639f317c8a",
+      "width": 462,
+      "height": 315,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/fish-sheet-6/fish-sheet-6-contained.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/fish-sheet-6/fish-sheet-6-contained.png",
+          "sha256": "01a7da68643144e7dfbe14eb861b5e953798e758edb18a790f43a956ad3f1104",
+          "generationRecord": "designs/production-v1/fish-sheet-6/fish-sheet-6-contained.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 2,
+          "cols": 3
+        },
+        "sourceRect": [
+          1024,
+          0,
+          1536,
+          512
+        ],
+        "cellCropRect": [
+          17,
+          142,
+          479,
+          457
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        240,
+        180
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "34-jinlongli",
+      "name": "金龙锦鲤",
+      "file": "assets/fish/batch-6/34-jinlongli.png",
+      "sha256": "a062713a2181c13e0e040dbdddbc15932484d2ab8fecd0f1e36768c14398a484",
+      "width": 348,
+      "height": 256,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/fish-sheet-6/fish-sheet-6-contained.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/fish-sheet-6/fish-sheet-6-contained.png",
+          "sha256": "01a7da68643144e7dfbe14eb861b5e953798e758edb18a790f43a956ad3f1104",
+          "generationRecord": "designs/production-v1/fish-sheet-6/fish-sheet-6-contained.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 2,
+          "cols": 3
+        },
+        "sourceRect": [
+          0,
+          512,
+          512,
+          1024
+        ],
+        "cellCropRect": [
+          94,
+          109,
+          442,
+          365
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        340,
+        260
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "35-longwang",
+      "name": "龙王海龙",
+      "file": "assets/fish/batch-6/35-longwang.png",
+      "sha256": "dc334ba36a875e803e6155052ba825b018a985f7b1af3ee6a5a89fdca98908c3",
+      "width": 323,
+      "height": 275,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/fish-sheet-6/fish-sheet-6-contained.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/fish-sheet-6/fish-sheet-6-contained.png",
+          "sha256": "01a7da68643144e7dfbe14eb861b5e953798e758edb18a790f43a956ad3f1104",
+          "generationRecord": "designs/production-v1/fish-sheet-6/fish-sheet-6-contained.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 2,
+          "cols": 3
+        },
+        "sourceRect": [
+          512,
+          512,
+          1024,
+          1024
+        ],
+        "cellCropRect": [
+          100,
+          96,
+          423,
+          371
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        340,
+        260
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "36-xuanjing",
+      "name": "玄海巨鲸",
+      "file": "assets/fish/batch-6/36-xuanjing.png",
+      "sha256": "213a32878d02fa8f9b84228a685fe72d7d2e90f3d4655053a6a50ec2985cce31",
+      "width": 353,
+      "height": 264,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/fish-sheet-6/fish-sheet-6-contained.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/fish-sheet-6/fish-sheet-6-contained.png",
+          "sha256": "01a7da68643144e7dfbe14eb861b5e953798e758edb18a790f43a956ad3f1104",
+          "generationRecord": "designs/production-v1/fish-sheet-6/fish-sheet-6-contained.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 2,
+          "cols": 3
+        },
+        "sourceRect": [
+          1024,
+          512,
+          1536,
+          1024
+        ],
+        "cellCropRect": [
+          83,
+          112,
+          436,
+          376
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        340,
+        260
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice."
+    }
+  ],
+  "warnings": [],
+  "complete": true,
+  "status": "accepted_first_release_art",
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+  "acceptedAt": "2026-10-30T04:07:09.085600+00:00"
+}

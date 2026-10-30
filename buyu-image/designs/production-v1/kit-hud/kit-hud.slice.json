@@ -1,0 +1,141 @@
+{
+  "source": "designs/production-v1/kit-hud/kit-hud.png",
+  "output": "assets/ui/hud",
+  "rows": 3,
+  "cols": 4,
+  "items": [
+    {
+      "id": "resource-capsule",
+      "name": "resource-capsule",
+      "sourceRect": [
+        5,
+        120,
+        350,
+        310
+      ],
+      "keepCell": false
+    },
+    {
+      "id": "bottom-rail",
+      "name": "bottom-rail",
+      "sourceRect": [
+        350,
+        120,
+        744,
+        312
+      ],
+      "keepCell": false
+    },
+    {
+      "id": "progress-track",
+      "name": "progress-track",
+      "sourceRect": [
+        744,
+        140,
+        1105,
+        300
+      ],
+      "keepCell": false
+    },
+    {
+      "id": "progress-fill",
+      "name": "progress-fill",
+      "sourceRect": [
+        1115,
+        145,
+        1445,
+        290
+      ],
+      "keepCell": false
+    },
+    {
+      "id": "toggle-on",
+      "name": "toggle-on",
+      "sourceRect": [
+        20,
+        395,
+        350,
+        660
+      ],
+      "keepCell": false
+    },
+    {
+      "id": "toggle-off",
+      "name": "toggle-off",
+      "sourceRect": [
+        370,
+        385,
+        735,
+        665
+      ],
+      "keepCell": false
+    },
+    {
+      "id": "checkbox-on",
+      "name": "checkbox-on",
+      "sourceRect": [
+        770,
+        390,
+        1045,
+        665
+      ],
+      "keepCell": false
+    },
+    {
+      "id": "checkbox-off",
+      "name": "checkbox-off",
+      "sourceRect": [
+        1125,
+        390,
+        1420,
+        665
+      ],
+      "keepCell": false
+    },
+    {
+      "id": "slot-normal",
+      "name": "slot-normal",
+      "sourceRect": [
+        15,
+        680,
+        350,
+        1040
+      ],
+      "keepCell": false
+    },
+    {
+      "id": "slot-selected",
+      "name": "slot-selected",
+      "sourceRect": [
+        370,
+        680,
+        735,
+        1040
+      ],
+      "keepCell": false
+    },
+    {
+      "id": "slot-locked",
+      "name": "slot-locked",
+      "sourceRect": [
+        745,
+        680,
+        1080,
+        1040
+      ],
+      "keepCell": false
+    },
+    {
+      "id": "slot-empty",
+      "name": "slot-empty",
+      "sourceRect": [
+        1105,
+        680,
+        1435,
+        1040
+      ],
+      "keepCell": false
+    }
+  ],
+  "keepCell": false
+}

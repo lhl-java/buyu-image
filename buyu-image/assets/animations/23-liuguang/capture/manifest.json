@@ -1,0 +1,1913 @@
+{
+  "schemaVersion": 1,
+  "source": "designs/motion-frames-v1/23-liuguang/capture/23-liuguang-capture.png",
+  "sourceWidth": 1774,
+  "sourceHeight": 887,
+  "sourceSha256": "0858887ce84b6c968be526b763f4b915ebf77688009f0e4bcb5fe9d8f9322536",
+  "output": "assets/animations/23-liuguang/capture",
+  "items": [
+    {
+      "schemaVersion": 1,
+      "id": "frame-00",
+      "name": "23-liuguang capture 0",
+      "file": "assets/animations/23-liuguang/capture/frame-00.png",
+      "sha256": "9adeb1b3eb18c6073bb52745a28000b0c08bba9574fdf718e2149ad45f2d9134",
+      "width": 844,
+      "height": 844,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/23-liuguang/capture/23-liuguang-capture.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/23-liuguang/capture/23-liuguang-capture.png",
+          "sha256": "0858887ce84b6c968be526b763f4b915ebf77688009f0e4bcb5fe9d8f9322536",
+          "generationRecord": "designs/motion-frames-v1/23-liuguang/capture/23-liuguang-capture.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+        "nominalGrid": {
+          "cols": 4,
+          "rows": 2
+        },
+        "nominalGridRect": [
+          0,
+          0,
+          444,
+          444
+        ],
+        "sourceRect": [
+          34,
+          80,
+          423,
+          404
+        ],
+        "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+        "ownershipPixelCount": 69695,
+        "alphaCleanup": "Only alpha<=3 set to0",
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "registrationOffset": [
+          252,
+          207
+        ],
+        "registeredCanvas": [
+          844,
+          844
+        ],
+        "registrationReference": {
+          "type": "largest round dark eye component inside fixed local head ROI; manually review landmark contact",
+          "sourcePointGlobal": [
+            371.6641791044776,
+            222.89303482587064
+          ],
+          "sourcePointLocal": [
+            337.6641791044776,
+            142.89303482587064
+          ],
+          "targetPoint": [
+            590,
+            350
+          ],
+          "rounding": "nearest integer",
+          "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+        },
+        "sourcePixelsRoundTripVerified": true,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        422,
+        422
+      ],
+      "landmarkPixels": [
+        590,
+        350
+      ],
+      "registeredAlphaBBox": [
+        252,
+        207,
+        641,
+        531
+      ],
+      "registeredMinMargin": 0.24052132701421802,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+      "animation": {
+        "id": "23-liuguang/capture",
+        "frames": 8,
+        "fps": 12,
+        "loop": false,
+        "order": "row-major",
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+        "identityStatus": "pending_root_visual",
+        "motionStatus": "pending_root_visual",
+        "loopVisualStatus": "single_shot_pending_root_playback",
+        "sourceRoute": "builtin_native_AI_sheet_user_requested"
+      },
+      "status": "accepted_first_release_art",
+      "targetBodyBox": [
+        180,
+        130
+      ],
+      "uniformDisplayScale": 0.40498442367601245,
+      "displaySize": [
+        341.8068535825545,
+        341.8068535825545
+      ],
+      "bodyDisplayBox": [
+        180,
+        130
+      ],
+      "displaySizing": {
+        "preserveAspect": true,
+        "uniformScaleAcrossAction": true,
+        "upscalingAllowed": false
+      },
+      "displayScaleReference": {
+        "restNativeVisibleBox": [
+          385,
+          324
+        ],
+        "fitMaxBox": [
+          180,
+          130
+        ],
+        "method": "same species swim display scale reused, never capture per-frame bbox fit",
+        "upscaling": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-01",
+      "name": "23-liuguang capture 1",
+      "file": "assets/animations/23-liuguang/capture/frame-01.png",
+      "sha256": "192b85750b8fa52accd350e86002b9805c745e223a5af4624268647d6ec87030",
+      "width": 844,
+      "height": 844,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/23-liuguang/capture/23-liuguang-capture.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/23-liuguang/capture/23-liuguang-capture.png",
+          "sha256": "0858887ce84b6c968be526b763f4b915ebf77688009f0e4bcb5fe9d8f9322536",
+          "generationRecord": "designs/motion-frames-v1/23-liuguang/capture/23-liuguang-capture.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+        "nominalGrid": {
+          "cols": 4,
+          "rows": 2
+        },
+        "nominalGridRect": [
+          444,
+          0,
+          887,
+          444
+        ],
+        "sourceRect": [
+          467,
+          55,
+          863,
+          417
+        ],
+        "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+        "ownershipPixelCount": 73789,
+        "alphaCleanup": "Only alpha<=3 set to0",
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "registrationOffset": [
+          248,
+          182
+        ],
+        "registeredCanvas": [
+          844,
+          844
+        ],
+        "registrationReference": {
+          "type": "largest round dark eye component inside fixed local head ROI; manually review landmark contact",
+          "sourcePointGlobal": [
+            808.8076009501187,
+            222.77434679334917
+          ],
+          "sourcePointLocal": [
+            341.80760095011874,
+            167.77434679334917
+          ],
+          "targetPoint": [
+            590,
+            350
+          ],
+          "rounding": "nearest integer",
+          "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+        },
+        "sourcePixelsRoundTripVerified": true,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        422,
+        422
+      ],
+      "landmarkPixels": [
+        590,
+        350
+      ],
+      "registeredAlphaBBox": [
+        248,
+        182,
+        644,
+        544
+      ],
+      "registeredMinMargin": 0.2156398104265403,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+      "animation": {
+        "id": "23-liuguang/capture",
+        "frames": 8,
+        "fps": 12,
+        "loop": false,
+        "order": "row-major",
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+        "identityStatus": "pending_root_visual",
+        "motionStatus": "pending_root_visual",
+        "loopVisualStatus": "single_shot_pending_root_playback",
+        "sourceRoute": "builtin_native_AI_sheet_user_requested"
+      },
+      "status": "accepted_first_release_art",
+      "targetBodyBox": [
+        180,
+        130
+      ],
+      "uniformDisplayScale": 0.40498442367601245,
+      "displaySize": [
+        341.8068535825545,
+        341.8068535825545
+      ],
+      "bodyDisplayBox": [
+        180,
+        130
+      ],
+      "displaySizing": {
+        "preserveAspect": true,
+        "uniformScaleAcrossAction": true,
+        "upscalingAllowed": false
+      },
+      "displayScaleReference": {
+        "restNativeVisibleBox": [
+          385,
+          324
+        ],
+        "fitMaxBox": [
+          180,
+          130
+        ],
+        "method": "same species swim display scale reused, never capture per-frame bbox fit",
+        "upscaling": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-02",
+      "name": "23-liuguang capture 2",
+      "file": "assets/animations/23-liuguang/capture/frame-02.png",
+      "sha256": "7681cfe735a0df2df35942f1f0b6afa7d77e27990f08dc46424523fbbc8e97d3",
+      "width": 844,
+      "height": 844,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/23-liuguang/capture/23-liuguang-capture.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/23-liuguang/capture/23-liuguang-capture.png",
+          "sha256": "0858887ce84b6c968be526b763f4b915ebf77688009f0e4bcb5fe9d8f9322536",
+          "generationRecord": "designs/motion-frames-v1/23-liuguang/capture/23-liuguang-capture.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+        "nominalGrid": {
+          "cols": 4,
+          "rows": 2
+        },
+        "nominalGridRect": [
+          887,
+          0,
+          1330,
+          444
+        ],
+        "sourceRect": [
+          947,
+          33,
+          1314,
+          416
+        ],
+        "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+        "ownershipPixelCount": 67985,
+        "alphaCleanup": "Only alpha<=3 set to0",
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "registrationOffset": [
+          277,
+          160
+        ],
+        "registeredCanvas": [
+          844,
+          844
+        ],
+        "registrationReference": {
+          "type": "largest round dark eye component inside fixed local head ROI; manually review landmark contact",
+          "sourcePointGlobal": [
+            1259.814988290398,
+            223.21545667447307
+          ],
+          "sourcePointLocal": [
+            312.8149882903981,
+            190.21545667447307
+          ],
+          "targetPoint": [
+            590,
+            350
+          ],
+          "rounding": "nearest integer",
+          "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+        },
+        "sourcePixelsRoundTripVerified": true,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        422,
+        422
+      ],
+      "landmarkPixels": [
+        590,
+        350
+      ],
+      "registeredAlphaBBox": [
+        277,
+        160,
+        644,
+        543
+      ],
+      "registeredMinMargin": 0.1895734597156398,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+      "animation": {
+        "id": "23-liuguang/capture",
+        "frames": 8,
+        "fps": 12,
+        "loop": false,
+        "order": "row-major",
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+        "identityStatus": "pending_root_visual",
+        "motionStatus": "pending_root_visual",
+        "loopVisualStatus": "single_shot_pending_root_playback",
+        "sourceRoute": "builtin_native_AI_sheet_user_requested"
+      },
+      "status": "accepted_first_release_art",
+      "targetBodyBox": [
+        180,
+        130
+      ],
+      "uniformDisplayScale": 0.40498442367601245,
+      "displaySize": [
+        341.8068535825545,
+        341.8068535825545
+      ],
+      "bodyDisplayBox": [
+        180,
+        130
+      ],
+      "displaySizing": {
+        "preserveAspect": true,
+        "uniformScaleAcrossAction": true,
+        "upscalingAllowed": false
+      },
+      "displayScaleReference": {
+        "restNativeVisibleBox": [
+          385,
+          324
+        ],
+        "fitMaxBox": [
+          180,
+          130
+        ],
+        "method": "same species swim display scale reused, never capture per-frame bbox fit",
+        "upscaling": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-03",
+      "name": "23-liuguang capture 3",
+      "file": "assets/animations/23-liuguang/capture/frame-03.png",
+      "sha256": "7ba39f40815a547cb16f6a95eecadfa6c8f120978a1ab84f51a73ada6f9150dd",
+      "width": 844,
+      "height": 844,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/23-liuguang/capture/23-liuguang-capture.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/23-liuguang/capture/23-liuguang-capture.png",
+          "sha256": "0858887ce84b6c968be526b763f4b915ebf77688009f0e4bcb5fe9d8f9322536",
+          "generationRecord": "designs/motion-frames-v1/23-liuguang/capture/23-liuguang-capture.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+        "nominalGrid": {
+          "cols": 4,
+          "rows": 2
+        },
+        "nominalGridRect": [
+          1330,
+          0,
+          1774,
+          444
+        ],
+        "sourceRect": [
+          1406,
+          67,
+          1755,
+          399
+        ],
+        "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+        "ownershipPixelCount": 64867,
+        "alphaCleanup": "Only alpha<=3 set to0",
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "registrationOffset": [
+          291,
+          180
+        ],
+        "registeredCanvas": [
+          844,
+          844
+        ],
+        "registrationReference": {
+          "type": "largest round dark eye component inside fixed local head ROI; manually review landmark contact",
+          "sourcePointGlobal": [
+            1705.3922518159807,
+            236.83535108958839
+          ],
+          "sourcePointLocal": [
+            299.39225181598067,
+            169.83535108958839
+          ],
+          "targetPoint": [
+            590,
+            350
+          ],
+          "rounding": "nearest integer",
+          "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+        },
+        "sourcePixelsRoundTripVerified": true,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        422,
+        422
+      ],
+      "landmarkPixels": [
+        590,
+        350
+      ],
+      "registeredAlphaBBox": [
+        291,
+        180,
+        640,
+        512
+      ],
+      "registeredMinMargin": 0.2132701421800948,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+      "animation": {
+        "id": "23-liuguang/capture",
+        "frames": 8,
+        "fps": 12,
+        "loop": false,
+        "order": "row-major",
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+        "identityStatus": "pending_root_visual",
+        "motionStatus": "pending_root_visual",
+        "loopVisualStatus": "single_shot_pending_root_playback",
+        "sourceRoute": "builtin_native_AI_sheet_user_requested"
+      },
+      "status": "accepted_first_release_art",
+      "targetBodyBox": [
+        180,
+        130
+      ],
+      "uniformDisplayScale": 0.40498442367601245,
+      "displaySize": [
+        341.8068535825545,
+        341.8068535825545
+      ],
+      "bodyDisplayBox": [
+        180,
+        130
+      ],
+      "displaySizing": {
+        "preserveAspect": true,
+        "uniformScaleAcrossAction": true,
+        "upscalingAllowed": false
+      },
+      "displayScaleReference": {
+        "restNativeVisibleBox": [
+          385,
+          324
+        ],
+        "fitMaxBox": [
+          180,
+          130
+        ],
+        "method": "same species swim display scale reused, never capture per-frame bbox fit",
+        "upscaling": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-04",
+      "name": "23-liuguang capture 4",
+      "file": "assets/animations/23-liuguang/capture/frame-04.png",
+      "sha256": "37e96cc65c60c24e723353ad93074769949986100fad56f13c68da5a8957d4aa",
+      "width": 844,
+      "height": 844,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/23-liuguang/capture/23-liuguang-capture.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/23-liuguang/capture/23-liuguang-capture.png",
+          "sha256": "0858887ce84b6c968be526b763f4b915ebf77688009f0e4bcb5fe9d8f9322536",
+          "generationRecord": "designs/motion-frames-v1/23-liuguang/capture/23-liuguang-capture.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+        "nominalGrid": {
+          "cols": 4,
+          "rows": 2
+        },
+        "nominalGridRect": [
+          0,
+          444,
+          444,
+          887
+        ],
+        "sourceRect": [
+          21,
+          469,
+          454,
+          825
+        ],
+        "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+        "ownershipPixelCount": 79701,
+        "alphaCleanup": "Only alpha<=3 set to0",
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "registrationOffset": [
+          213,
+          186
+        ],
+        "registeredCanvas": [
+          844,
+          844
+        ],
+        "registrationReference": {
+          "type": "largest round dark eye component inside fixed local head ROI; manually review landmark contact",
+          "sourcePointGlobal": [
+            397.60646387832696,
+            633.3117870722433
+          ],
+          "sourcePointLocal": [
+            376.60646387832696,
+            164.3117870722433
+          ],
+          "targetPoint": [
+            590,
+            350
+          ],
+          "rounding": "nearest integer",
+          "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+        },
+        "sourcePixelsRoundTripVerified": true,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        422,
+        422
+      ],
+      "landmarkPixels": [
+        590,
+        350
+      ],
+      "registeredAlphaBBox": [
+        213,
+        186,
+        646,
+        542
+      ],
+      "registeredMinMargin": 0.22037914691943128,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+      "animation": {
+        "id": "23-liuguang/capture",
+        "frames": 8,
+        "fps": 12,
+        "loop": false,
+        "order": "row-major",
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+        "identityStatus": "pending_root_visual",
+        "motionStatus": "pending_root_visual",
+        "loopVisualStatus": "single_shot_pending_root_playback",
+        "sourceRoute": "builtin_native_AI_sheet_user_requested"
+      },
+      "status": "accepted_first_release_art",
+      "targetBodyBox": [
+        180,
+        130
+      ],
+      "uniformDisplayScale": 0.40498442367601245,
+      "displaySize": [
+        341.8068535825545,
+        341.8068535825545
+      ],
+      "bodyDisplayBox": [
+        180,
+        130
+      ],
+      "displaySizing": {
+        "preserveAspect": true,
+        "uniformScaleAcrossAction": true,
+        "upscalingAllowed": false
+      },
+      "displayScaleReference": {
+        "restNativeVisibleBox": [
+          385,
+          324
+        ],
+        "fitMaxBox": [
+          180,
+          130
+        ],
+        "method": "same species swim display scale reused, never capture per-frame bbox fit",
+        "upscaling": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-05",
+      "name": "23-liuguang capture 5",
+      "file": "assets/animations/23-liuguang/capture/frame-05.png",
+      "sha256": "7be510c0ee225ddbcba58cf720f36f2c4fd4d1fe9d45c3d9fae1b9d2c3cd6b33",
+      "width": 844,
+      "height": 844,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/23-liuguang/capture/23-liuguang-capture.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/23-liuguang/capture/23-liuguang-capture.png",
+          "sha256": "0858887ce84b6c968be526b763f4b915ebf77688009f0e4bcb5fe9d8f9322536",
+          "generationRecord": "designs/motion-frames-v1/23-liuguang/capture/23-liuguang-capture.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+        "nominalGrid": {
+          "cols": 4,
+          "rows": 2
+        },
+        "nominalGridRect": [
+          444,
+          444,
+          887,
+          887
+        ],
+        "sourceRect": [
+          480,
+          495,
+          886,
+          816
+        ],
+        "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+        "ownershipPixelCount": 70011,
+        "alphaCleanup": "Only alpha<=3 set to0",
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "registrationOffset": [
+          237,
+          213
+        ],
+        "registeredCanvas": [
+          844,
+          844
+        ],
+        "registrationReference": {
+          "type": "largest round dark eye component inside fixed local head ROI; manually review landmark contact",
+          "sourcePointGlobal": [
+            832.8321513002364,
+            632.0780141843971
+          ],
+          "sourcePointLocal": [
+            352.83215130023643,
+            137.07801418439715
+          ],
+          "targetPoint": [
+            590,
+            350
+          ],
+          "rounding": "nearest integer",
+          "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+        },
+        "sourcePixelsRoundTripVerified": true,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        422,
+        422
+      ],
+      "landmarkPixels": [
+        590,
+        350
+      ],
+      "registeredAlphaBBox": [
+        237,
+        213,
+        643,
+        534
+      ],
+      "registeredMinMargin": 0.2381516587677725,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+      "animation": {
+        "id": "23-liuguang/capture",
+        "frames": 8,
+        "fps": 12,
+        "loop": false,
+        "order": "row-major",
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+        "identityStatus": "pending_root_visual",
+        "motionStatus": "pending_root_visual",
+        "loopVisualStatus": "single_shot_pending_root_playback",
+        "sourceRoute": "builtin_native_AI_sheet_user_requested"
+      },
+      "status": "accepted_first_release_art",
+      "targetBodyBox": [
+        180,
+        130
+      ],
+      "uniformDisplayScale": 0.40498442367601245,
+      "displaySize": [
+        341.8068535825545,
+        341.8068535825545
+      ],
+      "bodyDisplayBox": [
+        180,
+        130
+      ],
+      "displaySizing": {
+        "preserveAspect": true,
+        "uniformScaleAcrossAction": true,
+        "upscalingAllowed": false
+      },
+      "displayScaleReference": {
+        "restNativeVisibleBox": [
+          385,
+          324
+        ],
+        "fitMaxBox": [
+          180,
+          130
+        ],
+        "method": "same species swim display scale reused, never capture per-frame bbox fit",
+        "upscaling": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-06",
+      "name": "23-liuguang capture 6",
+      "file": "assets/animations/23-liuguang/capture/frame-06.png",
+      "sha256": "72ae242b52f85e841ff019b86f73f443b8735dfe664c4fdde2ae93f277004801",
+      "width": 844,
+      "height": 844,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/23-liuguang/capture/23-liuguang-capture.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/23-liuguang/capture/23-liuguang-capture.png",
+          "sha256": "0858887ce84b6c968be526b763f4b915ebf77688009f0e4bcb5fe9d8f9322536",
+          "generationRecord": "designs/motion-frames-v1/23-liuguang/capture/23-liuguang-capture.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+        "nominalGrid": {
+          "cols": 4,
+          "rows": 2
+        },
+        "nominalGridRect": [
+          887,
+          444,
+          1330,
+          887
+        ],
+        "sourceRect": [
+          916,
+          487,
+          1315,
+          809
+        ],
+        "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+        "ownershipPixelCount": 70605,
+        "alphaCleanup": "Only alpha<=3 set to0",
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "registrationOffset": [
+          247,
+          202
+        ],
+        "registeredCanvas": [
+          844,
+          844
+        ],
+        "registrationReference": {
+          "type": "largest round dark eye component inside fixed local head ROI; manually review landmark contact",
+          "sourcePointGlobal": [
+            1259.2857142857142,
+            635.3643892339544
+          ],
+          "sourcePointLocal": [
+            343.2857142857142,
+            148.3643892339544
+          ],
+          "targetPoint": [
+            590,
+            350
+          ],
+          "rounding": "nearest integer",
+          "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+        },
+        "sourcePixelsRoundTripVerified": true,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        422,
+        422
+      ],
+      "landmarkPixels": [
+        590,
+        350
+      ],
+      "registeredAlphaBBox": [
+        247,
+        202,
+        646,
+        524
+      ],
+      "registeredMinMargin": 0.23459715639810427,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+      "animation": {
+        "id": "23-liuguang/capture",
+        "frames": 8,
+        "fps": 12,
+        "loop": false,
+        "order": "row-major",
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+        "identityStatus": "pending_root_visual",
+        "motionStatus": "pending_root_visual",
+        "loopVisualStatus": "single_shot_pending_root_playback",
+        "sourceRoute": "builtin_native_AI_sheet_user_requested"
+      },
+      "status": "accepted_first_release_art",
+      "targetBodyBox": [
+        180,
+        130
+      ],
+      "uniformDisplayScale": 0.40498442367601245,
+      "displaySize": [
+        341.8068535825545,
+        341.8068535825545
+      ],
+      "bodyDisplayBox": [
+        180,
+        130
+      ],
+      "displaySizing": {
+        "preserveAspect": true,
+        "uniformScaleAcrossAction": true,
+        "upscalingAllowed": false
+      },
+      "displayScaleReference": {
+        "restNativeVisibleBox": [
+          385,
+          324
+        ],
+        "fitMaxBox": [
+          180,
+          130
+        ],
+        "method": "same species swim display scale reused, never capture per-frame bbox fit",
+        "upscaling": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-07",
+      "name": "23-liuguang capture 7",
+      "file": "assets/animations/23-liuguang/capture/frame-07.png",
+      "sha256": "b90611fa514bfa5381a9b8480f89f70d91c07d4619e360ed08e7e6e65593d99f",
+      "width": 844,
+      "height": 844,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/23-liuguang/capture/23-liuguang-capture.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/23-liuguang/capture/23-liuguang-capture.png",
+          "sha256": "0858887ce84b6c968be526b763f4b915ebf77688009f0e4bcb5fe9d8f9322536",
+          "generationRecord": "designs/motion-frames-v1/23-liuguang/capture/23-liuguang-capture.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+        "nominalGrid": {
+          "cols": 4,
+          "rows": 2
+        },
+        "nominalGridRect": [
+          1330,
+          444,
+          1774,
+          887
+        ],
+        "sourceRect": [
+          1382,
+          506,
+          1760,
+          815
+        ],
+        "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+        "ownershipPixelCount": 61556,
+        "alphaCleanup": "Only alpha<=3 set to0",
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "registrationOffset": [
+          267,
+          225
+        ],
+        "registeredCanvas": [
+          844,
+          844
+        ],
+        "registrationReference": {
+          "type": "largest round dark eye component inside fixed local head ROI; manually review landmark contact",
+          "sourcePointGlobal": [
+            1704.5725971370143,
+            631.4294478527607
+          ],
+          "sourcePointLocal": [
+            322.5725971370143,
+            125.42944785276075
+          ],
+          "targetPoint": [
+            590,
+            350
+          ],
+          "rounding": "nearest integer",
+          "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+        },
+        "sourcePixelsRoundTripVerified": true,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        422,
+        422
+      ],
+      "landmarkPixels": [
+        590,
+        350
+      ],
+      "registeredAlphaBBox": [
+        267,
+        225,
+        645,
+        534
+      ],
+      "registeredMinMargin": 0.235781990521327,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+      "animation": {
+        "id": "23-liuguang/capture",
+        "frames": 8,
+        "fps": 12,
+        "loop": false,
+        "order": "row-major",
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+        "identityStatus": "pending_root_visual",
+        "motionStatus": "pending_root_visual",
+        "loopVisualStatus": "single_shot_pending_root_playback",
+        "sourceRoute": "builtin_native_AI_sheet_user_requested"
+      },
+      "status": "accepted_first_release_art",
+      "targetBodyBox": [
+        180,
+        130
+      ],
+      "uniformDisplayScale": 0.40498442367601245,
+      "displaySize": [
+        341.8068535825545,
+        341.8068535825545
+      ],
+      "bodyDisplayBox": [
+        180,
+        130
+      ],
+      "displaySizing": {
+        "preserveAspect": true,
+        "uniformScaleAcrossAction": true,
+        "upscalingAllowed": false
+      },
+      "displayScaleReference": {
+        "restNativeVisibleBox": [
+          385,
+          324
+        ],
+        "fitMaxBox": [
+          180,
+          130
+        ],
+        "method": "same species swim display scale reused, never capture per-frame bbox fit",
+        "upscaling": false
+      }
+    }
+  ],
+  "animation": {
+    "id": "23-liuguang/capture",
+    "frames": 8,
+    "fps": 12,
+    "loop": false,
+    "order": "row-major",
+    "durationsMs": [
+      83,
+      84,
+      83,
+      83,
+      84,
+      83,
+      83,
+      84
+    ],
+    "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+    "root": [
+      0.5,
+      0.5
+    ],
+    "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+    "identityStatus": "pending_root_visual",
+    "motionStatus": "pending_root_visual",
+    "loopVisualStatus": "single_shot_pending_root_playback",
+    "sourceRoute": "builtin_native_AI_sheet_user_requested",
+    "releaseReady": true
+  },
+  "sharedCanvas": [
+    844,
+    844
+  ],
+  "rootPixels": [
+    422,
+    422
+  ],
+  "landmarkPixels": [
+    590,
+    350
+  ],
+  "bodyRootEvidence": "One common logical body root relative to registered anatomical eye/bell crown; generated rigidity remains review.",
+  "registration": [
+    {
+      "frame": 0,
+      "sourceRect": [
+        34,
+        80,
+        423,
+        404
+      ],
+      "sourceLandmarkGlobal": [
+        371.6641791044776,
+        222.89303482587064
+      ],
+      "sourceLandmarkLocal": [
+        337.6641791044776,
+        142.89303482587064
+      ],
+      "registrationOffset": [
+        252,
+        207
+      ],
+      "targetLandmark": [
+        590,
+        350
+      ],
+      "bodyRoot": [
+        422,
+        422
+      ],
+      "bbox": [
+        252,
+        207,
+        641,
+        531
+      ],
+      "marginsLTRB": [
+        0.2985781990521327,
+        0.245260663507109,
+        0.24052132701421802,
+        0.3708530805687204
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 1,
+      "sourceRect": [
+        467,
+        55,
+        863,
+        417
+      ],
+      "sourceLandmarkGlobal": [
+        808.8076009501187,
+        222.77434679334917
+      ],
+      "sourceLandmarkLocal": [
+        341.80760095011874,
+        167.77434679334917
+      ],
+      "registrationOffset": [
+        248,
+        182
+      ],
+      "targetLandmark": [
+        590,
+        350
+      ],
+      "bodyRoot": [
+        422,
+        422
+      ],
+      "bbox": [
+        248,
+        182,
+        644,
+        544
+      ],
+      "marginsLTRB": [
+        0.2938388625592417,
+        0.2156398104265403,
+        0.23696682464454977,
+        0.35545023696682465
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 2,
+      "sourceRect": [
+        947,
+        33,
+        1314,
+        416
+      ],
+      "sourceLandmarkGlobal": [
+        1259.814988290398,
+        223.21545667447307
+      ],
+      "sourceLandmarkLocal": [
+        312.8149882903981,
+        190.21545667447307
+      ],
+      "registrationOffset": [
+        277,
+        160
+      ],
+      "targetLandmark": [
+        590,
+        350
+      ],
+      "bodyRoot": [
+        422,
+        422
+      ],
+      "bbox": [
+        277,
+        160,
+        644,
+        543
+      ],
+      "marginsLTRB": [
+        0.3281990521327014,
+        0.1895734597156398,
+        0.23696682464454977,
+        0.3566350710900474
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 3,
+      "sourceRect": [
+        1406,
+        67,
+        1755,
+        399
+      ],
+      "sourceLandmarkGlobal": [
+        1705.3922518159807,
+        236.83535108958839
+      ],
+      "sourceLandmarkLocal": [
+        299.39225181598067,
+        169.83535108958839
+      ],
+      "registrationOffset": [
+        291,
+        180
+      ],
+      "targetLandmark": [
+        590,
+        350
+      ],
+      "bodyRoot": [
+        422,
+        422
+      ],
+      "bbox": [
+        291,
+        180,
+        640,
+        512
+      ],
+      "marginsLTRB": [
+        0.3447867298578199,
+        0.2132701421800948,
+        0.24170616113744076,
+        0.3933649289099526
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 4,
+      "sourceRect": [
+        21,
+        469,
+        454,
+        825
+      ],
+      "sourceLandmarkGlobal": [
+        397.60646387832696,
+        633.3117870722433
+      ],
+      "sourceLandmarkLocal": [
+        376.60646387832696,
+        164.3117870722433
+      ],
+      "registrationOffset": [
+        213,
+        186
+      ],
+      "targetLandmark": [
+        590,
+        350
+      ],
+      "bodyRoot": [
+        422,
+        422
+      ],
+      "bbox": [
+        213,
+        186,
+        646,
+        542
+      ],
+      "marginsLTRB": [
+        0.2523696682464455,
+        0.22037914691943128,
+        0.23459715639810427,
+        0.3578199052132701
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 5,
+      "sourceRect": [
+        480,
+        495,
+        886,
+        816
+      ],
+      "sourceLandmarkGlobal": [
+        832.8321513002364,
+        632.0780141843971
+      ],
+      "sourceLandmarkLocal": [
+        352.83215130023643,
+        137.07801418439715
+      ],
+      "registrationOffset": [
+        237,
+        213
+      ],
+      "targetLandmark": [
+        590,
+        350
+      ],
+      "bodyRoot": [
+        422,
+        422
+      ],
+      "bbox": [
+        237,
+        213,
+        643,
+        534
+      ],
+      "marginsLTRB": [
+        0.28080568720379145,
+        0.2523696682464455,
+        0.2381516587677725,
+        0.36729857819905215
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 6,
+      "sourceRect": [
+        916,
+        487,
+        1315,
+        809
+      ],
+      "sourceLandmarkGlobal": [
+        1259.2857142857142,
+        635.3643892339544
+      ],
+      "sourceLandmarkLocal": [
+        343.2857142857142,
+        148.3643892339544
+      ],
+      "registrationOffset": [
+        247,
+        202
+      ],
+      "targetLandmark": [
+        590,
+        350
+      ],
+      "bodyRoot": [
+        422,
+        422
+      ],
+      "bbox": [
+        247,
+        202,
+        646,
+        524
+      ],
+      "marginsLTRB": [
+        0.29265402843601895,
+        0.23933649289099526,
+        0.23459715639810427,
+        0.3791469194312796
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 7,
+      "sourceRect": [
+        1382,
+        506,
+        1760,
+        815
+      ],
+      "sourceLandmarkGlobal": [
+        1704.5725971370143,
+        631.4294478527607
+      ],
+      "sourceLandmarkLocal": [
+        322.5725971370143,
+        125.42944785276075
+      ],
+      "registrationOffset": [
+        267,
+        225
+      ],
+      "targetLandmark": [
+        590,
+        350
+      ],
+      "bodyRoot": [
+        422,
+        422
+      ],
+      "bbox": [
+        267,
+        225,
+        645,
+        534
+      ],
+      "marginsLTRB": [
+        0.31635071090047395,
+        0.2665876777251185,
+        0.235781990521327,
+        0.36729857819905215
+      ],
+      "pixelsRoundTrip": true
+    }
+  ],
+  "eyeMeasurement": [
+    {
+      "center": [
+        371.6641791044776,
+        222.89303482587064
+      ],
+      "boundsLTRB": [
+        360,
+        210,
+        386,
+        236
+      ],
+      "area": 402,
+      "method": "largest round dark eye component inside fixed local head ROI; manually review landmark contact"
+    },
+    {
+      "center": [
+        808.8076009501187,
+        222.77434679334917
+      ],
+      "boundsLTRB": [
+        796,
+        210,
+        823,
+        236
+      ],
+      "area": 421,
+      "method": "largest round dark eye component inside fixed local head ROI; manually review landmark contact"
+    },
+    {
+      "center": [
+        1259.814988290398,
+        223.21545667447307
+      ],
+      "boundsLTRB": [
+        1248,
+        210,
+        1274,
+        237
+      ],
+      "area": 427,
+      "method": "largest round dark eye component inside fixed local head ROI; manually review landmark contact"
+    },
+    {
+      "center": [
+        1705.3922518159807,
+        236.83535108958839
+      ],
+      "boundsLTRB": [
+        1693,
+        224,
+        1719,
+        250
+      ],
+      "area": 413,
+      "method": "largest round dark eye component inside fixed local head ROI; manually review landmark contact"
+    },
+    {
+      "center": [
+        397.60646387832696,
+        633.3117870722433
+      ],
+      "boundsLTRB": [
+        376,
+        620,
+        414,
+        647
+      ],
+      "area": 526,
+      "method": "largest round dark eye component inside fixed local head ROI; manually review landmark contact"
+    },
+    {
+      "center": [
+        832.8321513002364,
+        632.0780141843971
+      ],
+      "boundsLTRB": [
+        820,
+        620,
+        847,
+        645
+      ],
+      "area": 423,
+      "method": "largest round dark eye component inside fixed local head ROI; manually review landmark contact"
+    },
+    {
+      "center": [
+        1259.2857142857142,
+        635.3643892339544
+      ],
+      "boundsLTRB": [
+        1238,
+        623,
+        1275,
+        649
+      ],
+      "area": 483,
+      "method": "largest round dark eye component inside fixed local head ROI; manually review landmark contact"
+    },
+    {
+      "center": [
+        1704.5725971370143,
+        631.4294478527607
+      ],
+      "boundsLTRB": [
+        1683,
+        619,
+        1720,
+        645
+      ],
+      "area": 489,
+      "method": "largest round dark eye component inside fixed local head ROI; manually review landmark contact"
+    }
+  ],
+  "eyeNativeBoxSizes": [
+    [
+      26,
+      26
+    ],
+    [
+      27,
+      26
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      26,
+      26
+    ],
+    [
+      38,
+      27
+    ],
+    [
+      27,
+      25
+    ],
+    [
+      37,
+      26
+    ],
+    [
+      37,
+      26
+    ]
+  ],
+  "sourcePixelOwnership": {
+    "alphaThreshold": 3,
+    "sourcePixels": 558209,
+    "exportedPixels": 558209,
+    "duplicatePixels": 0,
+    "lostPixels": 0,
+    "rgbAndAlphaForOwnedPixelsUnchanged": true
+  },
+  "order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "warnings": [
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 0,
+      "actual": 0.0472972972972973,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 1,
+      "actual": 0.05191873589164785,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 2,
+      "actual": 0.03611738148984198,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 3,
+      "actual": 0.04279279279279279,
+      "required": 0.12
+    },
+    {
+      "id": "nominal_grid_cross",
+      "frame": 4,
+      "edgeMaxAlpha": 255,
+      "note": "Ownership extraction used; nominal grid crossing alone is not a physical clip."
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 4,
+      "actual": 0.0,
+      "required": 0.12
+    },
+    {
+      "id": "nominal_grid_cross",
+      "frame": 5,
+      "edgeMaxAlpha": 253,
+      "note": "Ownership extraction used; nominal grid crossing alone is not a physical clip."
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 5,
+      "actual": 0.0,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 6,
+      "actual": 0.033860045146726865,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 7,
+      "actual": 0.03153153153153153,
+      "required": 0.12
+    },
+    {
+      "id": "generated_core_shape_and_motion_pending_review",
+      "note": "Tail and pectoral membranes alternate curvature; capture contracts and curls then relaxes. Star patterns are similar but may drift slightly; ornament rigidity remains review."
+    },
+    {
+      "id": "playback_unverified",
+      "note": "No live loop/single-shot playback during local heavy-job hold; distinct hashes are not motion evidence."
+    }
+  ],
+  "sourceMarginWarnings": [
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 0,
+      "actual": 0.0472972972972973,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 1,
+      "actual": 0.05191873589164785,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 2,
+      "actual": 0.03611738148984198,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 3,
+      "actual": 0.04279279279279279,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 4,
+      "actual": 0.0,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 5,
+      "actual": 0.0,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 6,
+      "actual": 0.033860045146726865,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 7,
+      "actual": 0.03153153153153153,
+      "required": 0.12
+    }
+  ],
+  "runtimeMarginWarnings": [],
+  "uniformDisplayScale": 0.40498442367601245,
+  "displaySize": [
+    341.8068535825545,
+    341.8068535825545
+  ],
+  "bodyDisplayBox": [
+    180,
+    130
+  ],
+  "qa": {
+    "technicalAlpha": "true_rgba",
+    "sourceBorderStatus": "ownership_extracted_nominal_grid_crossings_retained_as_warnings",
+    "sourceTotalCanvasStatus": "main_anatomical_components_within_total_canvas",
+    "sourceMarginStatus": "fail_preserved_source_gate",
+    "registeredMarginStatus": "pass",
+    "identityStatus": "candidate_pending_root_visual",
+    "actualMotionStatus": "candidate_visible_articulation_pending_root_visual",
+    "registrationStatus": "integer_landmark_registered_core_shape_pending",
+    "loopPlaybackStatus": "single_shot_pending_root_playback",
+    "producerStaticVisualInspection": {
+      "sourceSheetActuallyInspected": true,
+      "registeredLightAndDarkActuallyInspected": true,
+      "inspectionType": "static contact sheets, actual generated source and actual exported alpha-composited frames",
+      "lightContact": "designs/motion-frames-v1/23-liuguang/capture/registered-light.jpg",
+      "darkContact": "designs/motion-frames-v1/23-liuguang/capture/registered-dark.jpg",
+      "observedArticulation": "Tail and pectoral membranes alternate curvature; capture contracts and curls then relaxes. Star patterns are similar but may drift slightly; ornament rigidity remains review.",
+      "edgeObservation": "The registered light and dark contacts show complete separate poses without an opaque rectangle or another frame fragment. Source grid / margin warnings are retained.",
+      "livePlaybackActuallyRun": false,
+      "finalArtApproval": false,
+      "inspectedAt": "2026-10-28T20:08:34.651768+00:00"
+    }
+  },
+  "status": "accepted_first_release_art",
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+  "acceptedAt": "2026-10-30T04:07:09.085600+00:00",
+  "releaseReady": true,
+  "playbackReview": "docs/UNITY_FINAL_ACCEPTANCE.json"
+}

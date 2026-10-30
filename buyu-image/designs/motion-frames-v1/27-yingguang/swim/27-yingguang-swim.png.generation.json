@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/motion-frames-v1/27-yingguang/swim/27-yingguang-swim.png",
+  "sha256": "bf28bcbe7bde0eb34ce8a8bc8b2d85223ade64e059ca308cbd9f5b97a217db4b",
+  "generatedAt": "2026-10-28T17:59:06.849Z",
+  "startedAt": "2026-10-28T17:58:26.390Z",
+  "width": 1774,
+  "height": 887,
+  "format": "PNG",
+  "pixelFormat": "Format32bppArgb",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-28",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "builtin_evidence": {
+      "model_parameter_exposed": false,
+      "quality_parameter_exposed": false,
+      "actual_model": null,
+      "actual_quality": null,
+      "note": "Configuration targets only; verify actual model and quality per generated image."
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\buyu-image\\assets\\fish\\batch-5\\27-yingguang.png",
+      "D:\\work\\buyu-image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\buyu-image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具未开放 model/quality 参数，本次结果未披露实际型号及质量。",
+  "evidence": {
+    "toolResult": "27-yingguang-swim.tool-result.txt",
+    "sourceOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a18184-f61a-7760-b69c-882264640513\\exec-c9450b76-cc28-4b2d-b8b6-2768a80ff594.png",
+    "toolResultId": "exec-c9450b76-cc28-4b2d-b8b6-2768a80ff594",
+    "request": "27-yingguang-swim.request.json"
+  },
+  "prompt": "27-yingguang-swim.prompt.txt",
+  "references": [
+    {
+      "file": "assets/fish/batch-5/27-yingguang.png",
+      "sha256": "29da3d2627b807bf5eb5f767f0466087924c60ff6bc4d2bf12771507fcee86b2",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    }
+  ],
+  "requestedCanvasInPrompt": "1774x887 4x2。",
+  "resampled": false,
+  "status": "draft_pending_user_review",
+  "visualReview": "尾鳍/腕足真实曲率不同，身份保持；幅面过满，外沿真裁切，未通过。",
+  "scope": "荧光乌贼游动8帧初稿待安全构图修。"
+}

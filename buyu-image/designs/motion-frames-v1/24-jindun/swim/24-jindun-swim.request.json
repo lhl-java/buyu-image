@@ -1,0 +1,10 @@
+{
+  "prompt": "EDIT IMAGE1's layout into a REAL8FRAME ANIMATION. Image1 is only a 4columns×2rows reference arrangement of the approved master; its repeated static copies are NOT the requested output. KEEP EXACTLY the normalized cell positions, generous transparent spaces, constant head/body size and orientation from image1. Generate native2:1 trueAlpha landscape at highest native quality. Maintain4columns×2rows8completecreatures. Images2and3 are STYLE ONLY; image4 exactidentity ONLY. Do NOT enlarge creatures tofillcells. Do NOT fit everypose toitsownbbox. Same eye/head/root/bodylength and camera in all8cells. Allanatomicalparts fullyinsideowncellwithtransparentgutter; nevercrossgrid. Preserve allgoldornament/scalepatterns/colors. Need real articulated posechanges in tail/fins/tentacles, NEVER eight rigid translations/rotations/scales ofthewholecreature. Row-majorphases0,45,90,135,180,225,270,315; uniquephase7notduplicate0. No labels/numbers/UI/gridlines/bubbles/water/background/groundshadow/checkerboard. Complete transparent silhouettes.\nExact golden shield fish in image4: rounded ivory face, huge amber-blackeye, heavy polished warm-gold armor segments over darkjadebody, large round emerald sidegem with goldrim, darkgreen/goldfins and armoredtail. ALL8 faceRIGHT, no mirroring row2. Keep head/chest armor/gem rigid at fixed local root and native scale. Swim phases0tailleftandnearfinopen;1tailleftmidnearfinback;2tailcenternearfinfolded;3tailrightmidnearfinrecover;4tailrightfarfinback;5tailrightmidreturnnearfinopens;6tailcenteroppositecamber;7tailleftmidnearfinready0. Only tail root/pectoral joints articulate; armor plates don't melt, gem doesn't change shape or location. No whole-body rocking/translation/scale. Complete gold tail tips inside own cell.",
+  "transparent_background": true,
+  "referenced_image_paths": [
+    "D:\\work\\buyu-image\\designs\\motion-frames-v1\\24-jindun\\geometry-reference.png",
+    "D:\\work\\buyu-image\\designs\\mail-ui-v1\\01-mail-event.png",
+    "D:\\work\\buyu-image\\designs\\team-ui-v2\\team-ui-v2.png",
+    "D:\\work\\buyu-image\\assets\\fish\\batch-4\\24-jindun.png"
+  ]
+}

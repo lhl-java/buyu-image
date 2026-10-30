@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/motion-frames-v1/32-honglian/capture/extract-v1-pose-00.png",
+  "sha256": "2fde188930dcf301dde4e32ca22ae3ff11dc567f689bc7a0caa456d29d8a08c9",
+  "width": 436,
+  "height": 324,
+  "format": "RGBA PNG",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/32-honglian/capture/32-honglian-capture-v1.png",
+      "sha256": "4921d13181bd351503d690e4295fcee77138d7cfba1cba948beb388e5298e8de",
+      "generationRecord": "designs/motion-frames-v1/32-honglian/capture/32-honglian-capture-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_complete_actor_ownership_crop",
+    "evidence": {
+      "sourceFrame": 0,
+      "file": "designs/motion-frames-v1/32-honglian/capture/extract-v1-pose-00.png",
+      "sourceRect": [
+        12,
+        80,
+        448,
+        404
+      ],
+      "nominalSourceRect": [
+        0,
+        0,
+        444,
+        444
+      ],
+      "nominalGridCross": true,
+      "nativeVisibleSize": [
+        436,
+        324
+      ],
+      "ownedPixelCount": 75529,
+      "foreignPixelsRemovedFromCrop": 0,
+      "totalCanvasEdgeMaxAlpha": 0,
+      "nativeOwnedPixelsUnchanged": true,
+      "sourceMainAlphaComponent": 1
+    },
+    "alphaCleanup": "alpha<=3 discarded, other owned RGBA unchanged",
+    "resized": false,
+    "upscaled": false,
+    "newNativeDetailClaimed": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "intermediate_pending_semantic_review"
+}

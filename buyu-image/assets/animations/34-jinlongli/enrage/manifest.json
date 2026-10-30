@@ -1,0 +1,1284 @@
+{
+  "schemaVersion": 1,
+  "source": [
+    "designs/motion-frames-v1/34-jinlongli/enrage/enrage-a-contained-v2.png",
+    "designs/motion-frames-v1/34-jinlongli/enrage/enrage-b-v1.png"
+  ],
+  "output": "assets/animations/34-jinlongli/enrage",
+  "sourceEvidence": [
+    {
+      "file": "designs/motion-frames-v1/34-jinlongli/enrage/enrage-a-contained-v2.png",
+      "sha256": "72ba6db4944290b9c18aac5efbb201a705393647455ee7b1cd39828bce7e5a38",
+      "generationRecord": "designs/motion-frames-v1/34-jinlongli/enrage/enrage-a-contained-v2.png.generation.json"
+    },
+    {
+      "file": "designs/motion-frames-v1/34-jinlongli/enrage/enrage-b-v1.png",
+      "sha256": "ffdc7efb9e2e47040f6669f08576504758bf1aca79670b26be84fc6b01d9bc66",
+      "generationRecord": "designs/motion-frames-v1/34-jinlongli/enrage/enrage-b-v1.png.generation.json"
+    }
+  ],
+  "frameCount": 8,
+  "items": [
+    {
+      "schemaVersion": 1,
+      "id": "frame-00",
+      "name": "金龙锦鲤怒态 1/8",
+      "file": "assets/animations/34-jinlongli/enrage/frame-00.png",
+      "sha256": "5dfb9fe5cc7cef6deb6db4f99ffa8982ceba682b0183778bb8e6680765be00d9",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T17:48:24.399977+00:00",
+      "nativeSource": "designs/motion-frames-v1/34-jinlongli/enrage/enrage-a-contained-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/34-jinlongli/enrage/enrage-a-contained-v2.png",
+          "sha256": "72ba6db4944290b9c18aac5efbb201a705393647455ee7b1cd39828bce7e5a38",
+          "generationRecord": "designs/motion-frames-v1/34-jinlongli/enrage/enrage-a-contained-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "native_grid_crop",
+          "sourceRect": [
+            0,
+            0,
+            627,
+            627
+          ],
+          "nominalGridCross": false
+        },
+        "sourceEyePoint": [
+          489.33076923076925,
+          331.88461538461536
+        ],
+        "globalSourceEye": [
+          489.33076923076925,
+          331.88461538461536
+        ],
+        "registrationOffset": [
+          191,
+          88
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        270,
+        285,
+        756,
+        624
+      ],
+      "registeredMinMargin": 0.244,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "manually checked dark pupil ROI component center, nearest integer",
+        "qa": "designs/motion-frames-v1/34-jinlongli/enrage/source-a-qa.json",
+        "sourceFrame": 0,
+        "candidateIndex": 0,
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+      },
+      "displaySize": [
+        699.5884773662552,
+        699.5884773662552
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.6995884773662552,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          486,
+          339
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "34-jinlongli/enrage",
+        "frames": 8,
+        "fps": 8,
+        "loop": true,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 0,
+        "durationMs": 125
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-01",
+      "name": "金龙锦鲤怒态 2/8",
+      "file": "assets/animations/34-jinlongli/enrage/frame-01.png",
+      "sha256": "26aae2bf535e234e9c818060409efe224451cdc9e6debb54a9022096320fb68d",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T17:48:24.399977+00:00",
+      "nativeSource": "designs/motion-frames-v1/34-jinlongli/enrage/enrage-a-contained-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/34-jinlongli/enrage/enrage-a-contained-v2.png",
+          "sha256": "72ba6db4944290b9c18aac5efbb201a705393647455ee7b1cd39828bce7e5a38",
+          "generationRecord": "designs/motion-frames-v1/34-jinlongli/enrage/enrage-a-contained-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "native_grid_crop",
+          "sourceRect": [
+            627,
+            0,
+            1254,
+            627
+          ],
+          "nominalGridCross": false
+        },
+        "sourceEyePoint": [
+          486.03891050583655,
+          335.408560311284
+        ],
+        "globalSourceEye": [
+          1113.0389105058366,
+          335.408560311284
+        ],
+        "registrationOffset": [
+          194,
+          85
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        293,
+        223,
+        750,
+        634
+      ],
+      "registeredMinMargin": 0.223,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "manually checked dark pupil ROI component center, nearest integer",
+        "qa": "designs/motion-frames-v1/34-jinlongli/enrage/source-a-qa.json",
+        "sourceFrame": 1,
+        "candidateIndex": 0,
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+      },
+      "displaySize": [
+        699.5884773662552,
+        699.5884773662552
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.6995884773662552,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          486,
+          339
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "34-jinlongli/enrage",
+        "frames": 8,
+        "fps": 8,
+        "loop": true,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 1,
+        "durationMs": 125
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-02",
+      "name": "金龙锦鲤怒态 3/8",
+      "file": "assets/animations/34-jinlongli/enrage/frame-02.png",
+      "sha256": "62494d76403a6fd7b37f9b699760f5e2a24187862f250e616a8a20d6e3bf7392",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T17:48:24.399977+00:00",
+      "nativeSource": "designs/motion-frames-v1/34-jinlongli/enrage/enrage-a-contained-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/34-jinlongli/enrage/enrage-a-contained-v2.png",
+          "sha256": "72ba6db4944290b9c18aac5efbb201a705393647455ee7b1cd39828bce7e5a38",
+          "generationRecord": "designs/motion-frames-v1/34-jinlongli/enrage/enrage-a-contained-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "native_grid_crop",
+          "sourceRect": [
+            0,
+            627,
+            627,
+            1254
+          ],
+          "nominalGridCross": false
+        },
+        "sourceEyePoint": [
+          501.5477941176471,
+          269.43014705882354
+        ],
+        "globalSourceEye": [
+          501.5477941176471,
+          896.4301470588235
+        ],
+        "registrationOffset": [
+          178,
+          151
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        278,
+        283,
+        753,
+        617
+      ],
+      "registeredMinMargin": 0.247,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "manually checked dark pupil ROI component center, nearest integer",
+        "qa": "designs/motion-frames-v1/34-jinlongli/enrage/source-a-qa.json",
+        "sourceFrame": 2,
+        "candidateIndex": 0,
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+      },
+      "displaySize": [
+        699.5884773662552,
+        699.5884773662552
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.6995884773662552,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          486,
+          339
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "34-jinlongli/enrage",
+        "frames": 8,
+        "fps": 8,
+        "loop": true,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 2,
+        "durationMs": 125
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-03",
+      "name": "金龙锦鲤怒态 4/8",
+      "file": "assets/animations/34-jinlongli/enrage/frame-03.png",
+      "sha256": "dbb9548f512820897676a409e9c7440933dc51cb16083009d6422f1bb505bb56",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T17:48:24.399977+00:00",
+      "nativeSource": "designs/motion-frames-v1/34-jinlongli/enrage/enrage-a-contained-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/34-jinlongli/enrage/enrage-a-contained-v2.png",
+          "sha256": "72ba6db4944290b9c18aac5efbb201a705393647455ee7b1cd39828bce7e5a38",
+          "generationRecord": "designs/motion-frames-v1/34-jinlongli/enrage/enrage-a-contained-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "native_grid_crop",
+          "sourceRect": [
+            627,
+            627,
+            1254,
+            1254
+          ],
+          "nominalGridCross": false
+        },
+        "sourceEyePoint": [
+          489.17735849056606,
+          277.0679245283019
+        ],
+        "globalSourceEye": [
+          1116.1773584905661,
+          904.0679245283019
+        ],
+        "registrationOffset": [
+          191,
+          143
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        273,
+        287,
+        751,
+        627
+      ],
+      "registeredMinMargin": 0.249,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "manually checked dark pupil ROI component center, nearest integer",
+        "qa": "designs/motion-frames-v1/34-jinlongli/enrage/source-a-qa.json",
+        "sourceFrame": 3,
+        "candidateIndex": 0,
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+      },
+      "displaySize": [
+        699.5884773662552,
+        699.5884773662552
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.6995884773662552,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          486,
+          339
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "34-jinlongli/enrage",
+        "frames": 8,
+        "fps": 8,
+        "loop": true,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 3,
+        "durationMs": 125
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-04",
+      "name": "金龙锦鲤怒态 5/8",
+      "file": "assets/animations/34-jinlongli/enrage/frame-04.png",
+      "sha256": "73819719189d799ba6a22fd440f6ba6a5340d534ca682625b9e60259626bb86e",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T17:48:24.399977+00:00",
+      "nativeSource": "designs/motion-frames-v1/34-jinlongli/enrage/enrage-b-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/34-jinlongli/enrage/enrage-b-v1.png",
+          "sha256": "ffdc7efb9e2e47040f6669f08576504758bf1aca79670b26be84fc6b01d9bc66",
+          "generationRecord": "designs/motion-frames-v1/34-jinlongli/enrage/enrage-b-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "native_grid_crop",
+          "sourceRect": [
+            0,
+            0,
+            627,
+            627
+          ],
+          "nominalGridCross": false
+        },
+        "sourceEyePoint": [
+          498.8591065292096,
+          340.01374570446734
+        ],
+        "globalSourceEye": [
+          498.8591065292096,
+          340.01374570446734
+        ],
+        "registrationOffset": [
+          181,
+          80
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        261,
+        282,
+        762,
+        667
+      ],
+      "registeredMinMargin": 0.238,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "manually checked dark pupil ROI component center, nearest integer",
+        "qa": "designs/motion-frames-v1/34-jinlongli/enrage/source-b-qa.json",
+        "sourceFrame": 0,
+        "candidateIndex": 0,
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+      },
+      "displaySize": [
+        699.5884773662552,
+        699.5884773662552
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.6995884773662552,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          486,
+          339
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "34-jinlongli/enrage",
+        "frames": 8,
+        "fps": 8,
+        "loop": true,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 4,
+        "durationMs": 125
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-05",
+      "name": "金龙锦鲤怒态 6/8",
+      "file": "assets/animations/34-jinlongli/enrage/frame-05.png",
+      "sha256": "8ecd0d77b10f65504958c02b3ed99a69dbe568493808aa84d1e584357492fa0e",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T17:48:24.399977+00:00",
+      "nativeSource": "designs/motion-frames-v1/34-jinlongli/enrage/enrage-b-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/34-jinlongli/enrage/enrage-b-v1.png",
+          "sha256": "ffdc7efb9e2e47040f6669f08576504758bf1aca79670b26be84fc6b01d9bc66",
+          "generationRecord": "designs/motion-frames-v1/34-jinlongli/enrage/enrage-b-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "native_grid_crop",
+          "sourceRect": [
+            627,
+            0,
+            1254,
+            627
+          ],
+          "nominalGridCross": false
+        },
+        "sourceEyePoint": [
+          489.0034013605442,
+          339.4183673469388
+        ],
+        "globalSourceEye": [
+          1116.003401360544,
+          339.4183673469388
+        ],
+        "registrationOffset": [
+          191,
+          81
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        311,
+        282,
+        760,
+        637
+      ],
+      "registeredMinMargin": 0.24,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "manually checked dark pupil ROI component center, nearest integer",
+        "qa": "designs/motion-frames-v1/34-jinlongli/enrage/source-b-qa.json",
+        "sourceFrame": 1,
+        "candidateIndex": 0,
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+      },
+      "displaySize": [
+        699.5884773662552,
+        699.5884773662552
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.6995884773662552,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          486,
+          339
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "34-jinlongli/enrage",
+        "frames": 8,
+        "fps": 8,
+        "loop": true,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 5,
+        "durationMs": 125
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-06",
+      "name": "金龙锦鲤怒态 7/8",
+      "file": "assets/animations/34-jinlongli/enrage/frame-06.png",
+      "sha256": "b698797b94d8019eecb831a806ad0e9b7026b5d8268844f2d8a3fcd5fba299d3",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T17:48:24.399977+00:00",
+      "nativeSource": "designs/motion-frames-v1/34-jinlongli/enrage/enrage-b-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/34-jinlongli/enrage/enrage-b-v1.png",
+          "sha256": "ffdc7efb9e2e47040f6669f08576504758bf1aca79670b26be84fc6b01d9bc66",
+          "generationRecord": "designs/motion-frames-v1/34-jinlongli/enrage/enrage-b-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "native_grid_crop",
+          "sourceRect": [
+            0,
+            627,
+            627,
+            1254
+          ],
+          "nominalGridCross": false
+        },
+        "sourceEyePoint": [
+          507.6678700361011,
+          272.14079422382673
+        ],
+        "globalSourceEye": [
+          507.6678700361011,
+          899.1407942238268
+        ],
+        "registrationOffset": [
+          172,
+          148
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        253,
+        280,
+        759,
+        610
+      ],
+      "registeredMinMargin": 0.241,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "manually checked dark pupil ROI component center, nearest integer",
+        "qa": "designs/motion-frames-v1/34-jinlongli/enrage/source-b-qa.json",
+        "sourceFrame": 2,
+        "candidateIndex": 0,
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+      },
+      "displaySize": [
+        699.5884773662552,
+        699.5884773662552
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.6995884773662552,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          486,
+          339
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "34-jinlongli/enrage",
+        "frames": 8,
+        "fps": 8,
+        "loop": true,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 6,
+        "durationMs": 125
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-07",
+      "name": "金龙锦鲤怒态 8/8",
+      "file": "assets/animations/34-jinlongli/enrage/frame-07.png",
+      "sha256": "8126a3c5865060ba4c2c5d5acef567c2ece1c32c4cf1ba1e6889c489cdfd8cb8",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T17:48:24.399977+00:00",
+      "nativeSource": "designs/motion-frames-v1/34-jinlongli/enrage/enrage-b-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/34-jinlongli/enrage/enrage-b-v1.png",
+          "sha256": "ffdc7efb9e2e47040f6669f08576504758bf1aca79670b26be84fc6b01d9bc66",
+          "generationRecord": "designs/motion-frames-v1/34-jinlongli/enrage/enrage-b-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "native_grid_crop",
+          "sourceRect": [
+            627,
+            627,
+            1254,
+            1254
+          ],
+          "nominalGridCross": false
+        },
+        "sourceEyePoint": [
+          489.51601423487546,
+          276.4270462633452
+        ],
+        "globalSourceEye": [
+          1116.5160142348755,
+          903.4270462633451
+        ],
+        "registrationOffset": [
+          190,
+          144
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        257,
+        281,
+        759,
+        644
+      ],
+      "registeredMinMargin": 0.241,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "manually checked dark pupil ROI component center, nearest integer",
+        "qa": "designs/motion-frames-v1/34-jinlongli/enrage/source-b-qa.json",
+        "sourceFrame": 3,
+        "candidateIndex": 0,
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+      },
+      "displaySize": [
+        699.5884773662552,
+        699.5884773662552
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.6995884773662552,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          486,
+          339
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "34-jinlongli/enrage",
+        "frames": 8,
+        "fps": 8,
+        "loop": true,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 7,
+        "durationMs": 125
+      }
+    }
+  ],
+  "animation": {
+    "id": "34-jinlongli/enrage",
+    "frames": 8,
+    "fps": 8,
+    "loop": true,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "durationsMs": [
+      125,
+      125,
+      125,
+      125,
+      125,
+      125,
+      125,
+      125
+    ],
+    "root": [
+      0.68,
+      0.42
+    ],
+    "sourceRoute": "builtin_native_AI_sheet_user_requested",
+    "sourcePixelsNeverResampled": true,
+    "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+    "releaseReady": true
+  },
+  "sharedCanvas": [
+    1000,
+    1000
+  ],
+  "rootPixels": [
+    680,
+    420
+  ],
+  "eyePixels": [
+    680,
+    420
+  ],
+  "anchor": [
+    0.68,
+    0.42
+  ],
+  "uniformDisplayScale": 0.6995884773662552,
+  "bodyDisplayBox": [
+    340,
+    260
+  ],
+  "displaySize": [
+    699.5884773662552,
+    699.5884773662552
+  ],
+  "warnings": [
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 0,
+      "sourceMinMargin": 0.09888357256778309,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 1,
+      "sourceMinMargin": 0.11323763955342903,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 2,
+      "sourceMinMargin": 0.08293460925039872,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 3,
+      "sourceMinMargin": 0.10685805422647528,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 4,
+      "sourceMinMargin": 0.06379585326953748,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 5,
+      "sourceMinMargin": 0.09250398724082935,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 6,
+      "sourceMinMargin": 0.06379585326953748,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 7,
+      "sourceMinMargin": 0.09250398724082935,
+      "retained": true
+    },
+    {
+      "id": "native_head_shape_and_inter_sheet_density",
+      "severity": "pending_playback_review",
+      "note": "Integer translation cannot correct generated head contour or native scale drift; do not treat pixel bounds as motion approval."
+    }
+  ],
+  "contactSheets": [
+    "tmp/art-qa/34-jinlongli-enrage-registered-light.jpg",
+    "tmp/art-qa/34-jinlongli-enrage-registered-dark.jpg"
+  ],
+  "qa": {
+    "nativeOwnedPixelsPreserved": true,
+    "registeredMarginStatus": "pass_12pct",
+    "sourceMarginStatus": "warnings_preserved",
+    "sourceCanvasClipping": "none_for_adopted_extractions",
+    "semanticOwnershipStatus": "pending_root_contact_sheet_review",
+    "poseAndIdentityStatus": "native_source_stills_observed_pending_registered_review",
+    "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+    "unityPlaybackStatus": "not_run"
+  },
+  "status": "accepted_first_release_art",
+  "releaseReady": true,
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+  "acceptedAt": "2026-10-30T04:07:09.085600+00:00",
+  "playbackReview": "docs/UNITY_FINAL_ACCEPTANCE.json"
+}

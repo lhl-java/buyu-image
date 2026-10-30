@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "scene-palace",
+  "file": "scene-palace.png",
+  "viewport": {
+    "referenceAspect": "16:9",
+    "width": 1672,
+    "height": 941
+  },
+  "nativeSize": [
+    1672,
+    941
+  ],
+  "safePlayfield": {
+    "units": "normalized",
+    "x": 0.15,
+    "y": 0.15,
+    "width": 0.7,
+    "height": 0.7
+  },
+  "renderOrder": 0,
+  "scalePolicy": {
+    "default": "contain",
+    "alternative": "cover",
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "allowUpscale": false,
+    "coverRequiresSafePlayfieldCheck": true
+  },
+  "content": "Pure empty environment; no fish, actors, cannon, UI or text",
+  "sha256": "069518ca0fcaf4e474bcd1d1b1ae01d2df91814d996731bc9771091fe1a106ae",
+  "generationRecord": "scene-palace.png.generation.json",
+  "status": "accepted_first_release_art",
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+  "acceptedAt": "2026-10-30T04:07:09.085600+00:00"
+}

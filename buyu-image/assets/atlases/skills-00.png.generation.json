@@ -1,0 +1,46 @@
+{
+  "file": "assets/atlases/skills-00.png",
+  "sha256": "4f19c9b8b80e4eede0bff775e9148d95224e313868d4ee04ac3be6459642a866",
+  "width": 2037,
+  "height": 802,
+  "operation": {
+    "type": "native_atlas_packing",
+    "resampled": false,
+    "upscaled": false
+  },
+  "derivedFrom": [
+    {
+      "file": "assets/skills/skill-guard.png",
+      "sha256": "23c50e42a82c72cd48ebb75b349cd1e3c4d50df47a3516ae2ebf3ece8041d962",
+      "generationRecord": "assets/skills/skill-guard.png.generation.json"
+    },
+    {
+      "file": "assets/skills/skill-surge.png",
+      "sha256": "4b11d5c79529dfc928425fc32d703d02aa7d9aa84a402f3608622f960aa5ac04",
+      "generationRecord": "assets/skills/skill-surge.png.generation.json"
+    },
+    {
+      "file": "assets/skills/skill-track.png",
+      "sha256": "2a6f7054a568ef4bba10e80c2d4c89172027400a2201d58148896cc89d9fabd4",
+      "generationRecord": "assets/skills/skill-track.png.generation.json"
+    },
+    {
+      "file": "assets/skills/skill-gather.png",
+      "sha256": "e578cfe2e6888f862d46b864180baeb36e841164361bc7916305983494ef69ff",
+      "generationRecord": "assets/skills/skill-gather.png.generation.json"
+    },
+    {
+      "file": "assets/skills/skill-thunder.png",
+      "sha256": "460e5ca8d7dd53cd0fba78d21a804c0cd1c7d97ebd6f2cd314dd81c74d06574b",
+      "generationRecord": "assets/skills/skill-thunder.png.generation.json"
+    },
+    {
+      "file": "assets/skills/skill-ice.png",
+      "sha256": "eec6caa0a52d8da4cc04612448ec089d56d525d53916a8926bb2a3a88abb8519",
+      "generationRecord": "assets/skills/skill-ice.png.generation.json"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "No model call; see individual sources."
+}

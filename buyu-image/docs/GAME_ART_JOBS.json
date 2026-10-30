@@ -1,0 +1,2013 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-26",
+  "style": "approved Daoist Q hand-painted art",
+  "fishCount": 36,
+  "cannonCount": 6,
+  "sceneCount": 4,
+  "jobs": [
+    {
+      "id": "fish-sheet-1",
+      "sourceFolder": "designs/production-v1/fish-sheet-1",
+      "category": "fish",
+      "rows": 2,
+      "cols": 3,
+      "output": "assets/fish/batch-1",
+      "items": [
+        {
+          "id": "01-qingqi",
+          "name": "青鳍鱼",
+          "description": "small streamlined cobalt-blue river fish, jade-blue fin tips",
+          "tier": "common",
+          "displaySize": [
+            120,
+            80
+          ]
+        },
+        {
+          "id": "02-jinwei",
+          "name": "金尾鱼",
+          "description": "small bright golden yellow fish, broad fan tail",
+          "tier": "common",
+          "displaySize": [
+            120,
+            80
+          ]
+        },
+        {
+          "id": "03-chiyu",
+          "name": "赤羽鱼",
+          "description": "small coral-orange fish with red feather-like fins",
+          "tier": "common",
+          "displaySize": [
+            120,
+            80
+          ]
+        },
+        {
+          "id": "04-shenxian",
+          "name": "神仙鱼",
+          "description": "black white and warm yellow angelfish, long triangular dorsal fin",
+          "tier": "common",
+          "displaySize": [
+            120,
+            80
+          ]
+        },
+        {
+          "id": "05-hetun",
+          "name": "河豚",
+          "description": "round cheerful cream pufferfish with brown dots and short soft spines",
+          "tier": "common",
+          "displaySize": [
+            120,
+            80
+          ]
+        },
+        {
+          "id": "06-haima",
+          "name": "海马",
+          "description": "pink peach seahorse, curled tail, delicate jade crest",
+          "tier": "common",
+          "displaySize": [
+            120,
+            80
+          ]
+        }
+      ],
+      "deliveredAssets": [
+        "fish/batch-1/01-qingqi",
+        "fish/batch-1/02-jinwei",
+        "fish/batch-1/03-chiyu",
+        "fish/batch-1/04-shenxian",
+        "fish/batch-1/05-hetun",
+        "fish/batch-1/06-haima"
+      ],
+      "deliveredAssetCount": 6,
+      "status": "accepted_first_release_art",
+      "selectedSources": [
+        "designs/production-v1/fish-sheet-1/fish-sheet-1.png"
+      ],
+      "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json"
+    },
+    {
+      "id": "fish-sheet-2",
+      "sourceFolder": "designs/production-v1/fish-sheet-2",
+      "category": "fish",
+      "rows": 2,
+      "cols": 3,
+      "output": "assets/fish/batch-2",
+      "items": [
+        {
+          "id": "07-zihai",
+          "name": "紫海鱼",
+          "description": "lavender oval reef fish with silver stripes and round head",
+          "tier": "common",
+          "displaySize": [
+            120,
+            80
+          ]
+        },
+        {
+          "id": "08-lanbian",
+          "name": "蓝鳊",
+          "description": "flat round blue bream with ivory belly",
+          "tier": "common",
+          "displaySize": [
+            120,
+            80
+          ]
+        },
+        {
+          "id": "09-caidie",
+          "name": "彩蝶鱼",
+          "description": "orange and cream butterflyfish with black eye stripe",
+          "tier": "common",
+          "displaySize": [
+            120,
+            80
+          ]
+        },
+        {
+          "id": "10-qingya",
+          "name": "青牙鱼",
+          "description": "small mint and jade fish with short blunt muzzle and tiny teeth",
+          "tier": "common",
+          "displaySize": [
+            120,
+            80
+          ]
+        },
+        {
+          "id": "11-yinlin",
+          "name": "银鳞鱼",
+          "description": "silver-blue schooling fish, shimmering scale panels",
+          "tier": "common",
+          "displaySize": [
+            120,
+            80
+          ]
+        },
+        {
+          "id": "12-yuewei",
+          "name": "月尾鱼",
+          "description": "pearly cream fish with crescent-shaped soft aqua tail",
+          "tier": "common",
+          "displaySize": [
+            120,
+            80
+          ]
+        }
+      ],
+      "deliveredAssets": [
+        "fish/batch-2/07-zihai",
+        "fish/batch-2/08-lanbian",
+        "fish/batch-2/09-caidie",
+        "fish/batch-2/10-qingya",
+        "fish/batch-2/11-yinlin",
+        "fish/batch-2/12-yuewei"
+      ],
+      "deliveredAssetCount": 6,
+      "status": "accepted_first_release_art",
+      "selectedSources": [
+        "designs/production-v1/fish-sheet-2/fish-sheet-2.png"
+      ],
+      "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json"
+    },
+    {
+      "id": "fish-sheet-3",
+      "sourceFolder": "designs/production-v1/fish-sheet-3",
+      "category": "fish",
+      "rows": 2,
+      "cols": 3,
+      "output": "assets/fish/batch-3",
+      "items": [
+        {
+          "id": "13-yunwengui",
+          "name": "云纹龟",
+          "description": "friendly jade-green sea turtle with gold cloud-pattern shell",
+          "tier": "rare",
+          "displaySize": [
+            180,
+            130
+          ]
+        },
+        {
+          "id": "14-huanyue",
+          "name": "幻月水母",
+          "description": "transparent lavender jellyfish with soft moonlike bell and short flowing tentacles",
+          "tier": "rare",
+          "displaySize": [
+            180,
+            130
+          ]
+        },
+        {
+          "id": "15-lanray",
+          "name": "蓝鳐",
+          "description": "wide deep blue manta ray, ivory tips and long safe tail",
+          "tier": "rare",
+          "displaySize": [
+            180,
+            130
+          ]
+        },
+        {
+          "id": "16-shiziyu",
+          "name": "狮子鱼",
+          "description": "orange-red striped lionfish with elaborate striped fins",
+          "tier": "rare",
+          "displaySize": [
+            180,
+            130
+          ]
+        },
+        {
+          "id": "17-shanhuyu",
+          "name": "珊瑚鱼",
+          "description": "pink red compact reef fish with coral-like crest",
+          "tier": "rare",
+          "displaySize": [
+            180,
+            130
+          ]
+        },
+        {
+          "id": "18-qinglong",
+          "name": "青龙鱼",
+          "description": "long emerald arowana with subtle cloud scales and two whiskers",
+          "tier": "rare",
+          "displaySize": [
+            180,
+            130
+          ]
+        }
+      ],
+      "deliveredAssets": [
+        "fish/batch-3/13-yunwengui",
+        "fish/batch-3/14-huanyue",
+        "fish/batch-3/15-lanray",
+        "fish/batch-3/16-shiziyu",
+        "fish/batch-3/17-shanhuyu",
+        "fish/batch-3/18-qinglong"
+      ],
+      "deliveredAssetCount": 6,
+      "status": "accepted_first_release_art",
+      "selectedSources": [
+        "designs/production-v1/fish-sheet-3/fish-sheet-3-contained.png"
+      ],
+      "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json"
+    },
+    {
+      "id": "fish-sheet-4",
+      "sourceFolder": "designs/production-v1/fish-sheet-4",
+      "category": "fish",
+      "rows": 2,
+      "cols": 3,
+      "output": "assets/fish/batch-4",
+      "items": [
+        {
+          "id": "19-lingjinli",
+          "name": "灵锦鲤",
+          "description": "large flowing red-gold koi, ivory translucent long tails, identity same as fish detail reference",
+          "tier": "rare",
+          "displaySize": [
+            180,
+            130
+          ]
+        },
+        {
+          "id": "20-yuban",
+          "name": "玉斑鱼",
+          "description": "round cream jade-spotted grouper, dignified short face",
+          "tier": "rare",
+          "displaySize": [
+            180,
+            130
+          ]
+        },
+        {
+          "id": "21-haiqiu",
+          "name": "海鳅",
+          "description": "slender turquoise loach with flowing gold accented whiskers",
+          "tier": "rare",
+          "displaySize": [
+            180,
+            130
+          ]
+        },
+        {
+          "id": "22-bailian",
+          "name": "白莲鱼",
+          "description": "white ivory elegant fish with lotus-shaped peach tail",
+          "tier": "rare",
+          "displaySize": [
+            180,
+            130
+          ]
+        },
+        {
+          "id": "23-liuguang",
+          "name": "流光鱼",
+          "description": "blue-green fish with gold bioluminescent dots, restrained glow",
+          "tier": "rare",
+          "displaySize": [
+            180,
+            130
+          ]
+        },
+        {
+          "id": "24-jindun",
+          "name": "金盾鱼",
+          "description": "sturdy gold-plated armored fish with round jade shields",
+          "tier": "rare",
+          "displaySize": [
+            180,
+            130
+          ]
+        }
+      ],
+      "deliveredAssets": [
+        "fish/batch-4/19-lingjinli",
+        "fish/batch-4/20-yuban",
+        "fish/batch-4/21-haiqiu",
+        "fish/batch-4/22-bailian",
+        "fish/batch-4/23-liuguang",
+        "fish/batch-4/24-jindun"
+      ],
+      "deliveredAssetCount": 6,
+      "status": "accepted_first_release_art",
+      "selectedSources": [
+        "designs/production-v1/fish-sheet-4/fish-sheet-4-contained.png"
+      ],
+      "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json"
+    },
+    {
+      "id": "fish-sheet-5",
+      "sourceFolder": "designs/production-v1/fish-sheet-5",
+      "category": "fish",
+      "rows": 2,
+      "cols": 3,
+      "output": "assets/fish/batch-5",
+      "items": [
+        {
+          "id": "25-yexing",
+          "name": "夜星鱼",
+          "description": "deep indigo fish with sparse small cyan star spots",
+          "tier": "elite",
+          "displaySize": [
+            240,
+            180
+          ]
+        },
+        {
+          "id": "26-moyu",
+          "name": "墨玉章鱼",
+          "description": "cute dark-jade octopus with eight readable arms, amber eyes",
+          "tier": "elite",
+          "displaySize": [
+            240,
+            180
+          ]
+        },
+        {
+          "id": "27-yingguang",
+          "name": "荧光乌贼",
+          "description": "streamlined teal squid with ivory fins and short tentacles",
+          "tier": "elite",
+          "displaySize": [
+            240,
+            180
+          ]
+        },
+        {
+          "id": "28-shenhai",
+          "name": "深海鮟鱇",
+          "description": "rounded navy anglerfish, warm lantern lure, friendly fantasy teeth",
+          "tier": "elite",
+          "displaySize": [
+            240,
+            180
+          ]
+        },
+        {
+          "id": "29-hailong",
+          "name": "海龙",
+          "description": "long blue sea-dragon fish, curled body and jade cloud fins",
+          "tier": "elite",
+          "displaySize": [
+            240,
+            180
+          ]
+        },
+        {
+          "id": "30-jinjia",
+          "name": "金甲蟹",
+          "description": "round golden crab with jade shell panels, two distinct claws",
+          "tier": "elite",
+          "displaySize": [
+            240,
+            180
+          ]
+        }
+      ],
+      "deliveredAssets": [
+        "fish/batch-5/25-yexing",
+        "fish/batch-5/26-moyu",
+        "fish/batch-5/27-yingguang",
+        "fish/batch-5/28-shenhai",
+        "fish/batch-5/29-hailong",
+        "fish/batch-5/30-jinjia"
+      ],
+      "deliveredAssetCount": 6,
+      "status": "accepted_first_release_art",
+      "selectedSources": [
+        "designs/production-v1/fish-sheet-5/fish-sheet-5-contained.png"
+      ],
+      "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json"
+    },
+    {
+      "id": "fish-sheet-6",
+      "sourceFolder": "designs/production-v1/fish-sheet-6",
+      "category": "fish",
+      "rows": 2,
+      "cols": 3,
+      "output": "assets/fish/batch-6",
+      "items": [
+        {
+          "id": "31-bingjing",
+          "name": "冰晶鲨",
+          "description": "icy blue chibi shark with crystal fin, broad clean silhouette",
+          "tier": "elite",
+          "displaySize": [
+            240,
+            180
+          ]
+        },
+        {
+          "id": "32-honglian",
+          "name": "红莲鳐",
+          "description": "large crimson manta with lotus motifs and ivory belly",
+          "tier": "elite",
+          "displaySize": [
+            240,
+            180
+          ]
+        },
+        {
+          "id": "33-xuanwu",
+          "name": "玄武灵龟",
+          "description": "elite large dark-jade tortoise with refined gold cloud armor, no snakes",
+          "tier": "elite",
+          "displaySize": [
+            240,
+            180
+          ]
+        },
+        {
+          "id": "34-jinlongli",
+          "name": "金龙锦鲤",
+          "description": "boss grand gold and red dragon koi with jade whiskers and crownlike fin",
+          "tier": "boss",
+          "displaySize": [
+            340,
+            260
+          ]
+        },
+        {
+          "id": "35-longwang",
+          "name": "龙王海龙",
+          "description": "boss serpentine turquoise aquatic dragon with ivory antler horns and pearl, chibi rounded head",
+          "tier": "boss",
+          "displaySize": [
+            340,
+            260
+          ]
+        },
+        {
+          "id": "36-xuanjing",
+          "name": "玄海巨鲸",
+          "description": "boss massive rounded navy whale with soft jade cloud markings and ivory belly",
+          "tier": "boss",
+          "displaySize": [
+            340,
+            260
+          ]
+        }
+      ],
+      "deliveredAssets": [
+        "fish/batch-6/31-bingjing",
+        "fish/batch-6/32-honglian",
+        "fish/batch-6/33-xuanwu",
+        "fish/batch-6/34-jinlongli",
+        "fish/batch-6/35-longwang",
+        "fish/batch-6/36-xuanjing"
+      ],
+      "deliveredAssetCount": 6,
+      "status": "accepted_first_release_art",
+      "selectedSources": [
+        "designs/production-v1/fish-sheet-6/fish-sheet-6-contained.png"
+      ],
+      "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json"
+    },
+    {
+      "id": "scene-shallow",
+      "name": "浅海渔场",
+      "description": "bright turquoise shallow lagoon, pale blue-green sand, small rounded coral/rocks at outer edges, delicate ancient jade arch only upper far corner, central 70 percent open",
+      "sourceFolder": "designs/production-v1/scene-shallow",
+      "output": "assets/scenes/scene-shallow",
+      "deliveredAssets": [
+        "scenes/scene-shallow"
+      ],
+      "deliveredAssetCount": 1,
+      "status": "accepted_first_release_art",
+      "selectedSources": [
+        "assets/scenes/scene-shallow/scene-shallow.png"
+      ],
+      "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json"
+    },
+    {
+      "id": "scene-coral",
+      "name": "珊瑚海域",
+      "description": "clear aqua coral garden, pink peach and lavender rounded coral clustered on outer side edges, broken ivory jade temple pillars subtle, open sandy turquoise center",
+      "sourceFolder": "designs/production-v1/scene-coral",
+      "output": "assets/scenes/scene-coral",
+      "deliveredAssets": [
+        "scenes/scene-coral"
+      ],
+      "deliveredAssetCount": 1,
+      "status": "accepted_first_release_art",
+      "selectedSources": [
+        "assets/scenes/scene-coral/scene-coral.png"
+      ],
+      "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json"
+    },
+    {
+      "id": "scene-deep",
+      "name": "深海秘境",
+      "description": "luminous deep teal-indigo underwater grotto, large rounded rocks and sparse jade bioluminescent plants at border, open low-detail blue center, bright enough to read fish",
+      "sourceFolder": "designs/production-v1/scene-deep",
+      "output": "assets/scenes/scene-deep",
+      "deliveredAssets": [
+        "scenes/scene-deep"
+      ],
+      "deliveredAssetCount": 1,
+      "status": "accepted_first_release_art",
+      "selectedSources": [
+        "assets/scenes/scene-deep/scene-deep.png"
+      ],
+      "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json"
+    },
+    {
+      "id": "scene-palace",
+      "name": "龙宫宝境",
+      "description": "bright regal jade-and-ivory underwater dragon palace courtyard, fine gold trim on distant pavilions and dragon-cloud stonework at outer corners, pale aqua central floor with ample empty playfield",
+      "sourceFolder": "designs/production-v1/scene-palace",
+      "output": "assets/scenes/scene-palace",
+      "deliveredAssets": [
+        "scenes/scene-palace"
+      ],
+      "deliveredAssetCount": 1,
+      "status": "accepted_first_release_art",
+      "selectedSources": [
+        "assets/scenes/scene-palace/scene-palace.png"
+      ],
+      "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json"
+    },
+    {
+      "id": "kit-panels",
+      "category": "ui",
+      "rows": 2,
+      "cols": 3,
+      "output": "assets/ui/panels",
+      "items": [
+        {
+          "id": "panel-large",
+          "name": "大窗框",
+          "sliceBorders": [
+            52,
+            52,
+            52,
+            52
+          ],
+          "keepCell": true
+        },
+        {
+          "id": "panel-compact",
+          "name": "小窗框",
+          "sliceBorders": [
+            42,
+            42,
+            42,
+            42
+          ],
+          "keepCell": true
+        },
+        {
+          "id": "title-plaque",
+          "name": "标题牌",
+          "sliceBorders": [
+            76,
+            22,
+            76,
+            22
+          ]
+        },
+        {
+          "id": "list-row",
+          "name": "列表行",
+          "sliceBorders": [
+            24,
+            24,
+            24,
+            24
+          ]
+        },
+        {
+          "id": "tooltip-panel",
+          "name": "提示框",
+          "sliceBorders": [
+            24,
+            24,
+            24,
+            24
+          ]
+        },
+        {
+          "id": "portrait-frame",
+          "name": "头像框"
+        }
+      ],
+      "sourceFolder": "designs/production-v1/kit-panels",
+      "deliveredAssets": [
+        "ui/panels/panel-large",
+        "ui/panels/panel-compact",
+        "ui/panels/title-plaque",
+        "ui/panels/list-row",
+        "ui/panels/tooltip-panel",
+        "ui/panels/portrait-frame"
+      ],
+      "deliveredAssetCount": 6,
+      "status": "accepted_first_release_art",
+      "selectedSources": [
+        "designs/production-v1/kit-panels/kit-panels.png"
+      ],
+      "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json"
+    },
+    {
+      "id": "kit-buttons",
+      "category": "ui",
+      "rows": 3,
+      "cols": 4,
+      "output": "assets/ui/buttons",
+      "items": [
+        {
+          "id": "primary-normal",
+          "name": "primary-normal"
+        },
+        {
+          "id": "primary-pressed",
+          "name": "primary-pressed"
+        },
+        {
+          "id": "primary-disabled",
+          "name": "primary-disabled"
+        },
+        {
+          "id": "primary-selected",
+          "name": "primary-selected"
+        },
+        {
+          "id": "secondary-normal",
+          "name": "secondary-normal"
+        },
+        {
+          "id": "secondary-pressed",
+          "name": "secondary-pressed"
+        },
+        {
+          "id": "secondary-disabled",
+          "name": "secondary-disabled"
+        },
+        {
+          "id": "secondary-selected",
+          "name": "secondary-selected"
+        },
+        {
+          "id": "tab-normal",
+          "name": "tab-normal"
+        },
+        {
+          "id": "tab-selected",
+          "name": "tab-selected"
+        },
+        {
+          "id": "close-normal",
+          "name": "close-normal"
+        },
+        {
+          "id": "close-pressed",
+          "name": "close-pressed"
+        }
+      ],
+      "sourceFolder": "designs/production-v1/kit-buttons",
+      "deliveredAssets": [
+        "ui/buttons/primary-normal",
+        "ui/buttons/primary-pressed",
+        "ui/buttons/primary-disabled",
+        "ui/buttons/primary-selected",
+        "ui/buttons/secondary-normal",
+        "ui/buttons/secondary-pressed",
+        "ui/buttons/secondary-disabled",
+        "ui/buttons/secondary-selected",
+        "ui/buttons/tab-normal",
+        "ui/buttons/tab-selected",
+        "ui/buttons/close-normal",
+        "ui/buttons/close-pressed"
+      ],
+      "deliveredAssetCount": 12,
+      "status": "accepted_first_release_art",
+      "selectedSources": [
+        "designs/production-v1/kit-buttons/kit-buttons.png"
+      ],
+      "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json"
+    },
+    {
+      "id": "kit-hud",
+      "category": "ui",
+      "rows": 3,
+      "cols": 4,
+      "output": "assets/ui/hud",
+      "items": [
+        {
+          "id": "resource-capsule",
+          "name": "resource-capsule"
+        },
+        {
+          "id": "bottom-rail",
+          "name": "bottom-rail"
+        },
+        {
+          "id": "progress-track",
+          "name": "progress-track"
+        },
+        {
+          "id": "progress-fill",
+          "name": "progress-fill"
+        },
+        {
+          "id": "toggle-on",
+          "name": "toggle-on"
+        },
+        {
+          "id": "toggle-off",
+          "name": "toggle-off"
+        },
+        {
+          "id": "checkbox-on",
+          "name": "checkbox-on"
+        },
+        {
+          "id": "checkbox-off",
+          "name": "checkbox-off"
+        },
+        {
+          "id": "slot-normal",
+          "name": "slot-normal"
+        },
+        {
+          "id": "slot-selected",
+          "name": "slot-selected"
+        },
+        {
+          "id": "slot-locked",
+          "name": "slot-locked"
+        },
+        {
+          "id": "slot-empty",
+          "name": "slot-empty"
+        }
+      ],
+      "sourceFolder": "designs/production-v1/kit-hud",
+      "deliveredAssets": [
+        "ui/hud/resource-capsule",
+        "ui/hud/bottom-rail",
+        "ui/hud/progress-track",
+        "ui/hud/progress-fill",
+        "ui/hud/toggle-on",
+        "ui/hud/toggle-off",
+        "ui/hud/checkbox-on",
+        "ui/hud/checkbox-off",
+        "ui/hud/slot-normal",
+        "ui/hud/slot-selected",
+        "ui/hud/slot-locked",
+        "ui/hud/slot-empty"
+      ],
+      "deliveredAssetCount": 12,
+      "status": "accepted_first_release_art",
+      "selectedSources": [
+        "designs/production-v1/kit-hud/kit-hud.png"
+      ],
+      "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json"
+    },
+    {
+      "id": "item-icons",
+      "category": "icons",
+      "rows": 6,
+      "cols": 6,
+      "output": "assets/icons",
+      "displaySize": [
+        96,
+        96
+      ],
+      "items": [
+        {
+          "id": "coin",
+          "name": "金币",
+          "description": "gold Chinese coin stack"
+        },
+        {
+          "id": "jade",
+          "name": "灵玉",
+          "description": "round green jade crystal"
+        },
+        {
+          "id": "jade-shard",
+          "name": "灵玉碎片",
+          "description": "green crystal shards"
+        },
+        {
+          "id": "shell",
+          "name": "灵贝",
+          "description": "pearly pink shell with jade tassel"
+        },
+        {
+          "id": "ice",
+          "name": "冰封符",
+          "description": "blue ice talisman scroll"
+        },
+        {
+          "id": "thunder",
+          "name": "雷网符",
+          "description": "purple lightning net talisman"
+        },
+        {
+          "id": "net",
+          "name": "渔网",
+          "description": "folded gold aqua net"
+        },
+        {
+          "id": "key",
+          "name": "铜钥匙",
+          "description": "small ornate bronze key"
+        },
+        {
+          "id": "chest",
+          "name": "宝箱",
+          "description": "jade gold chest"
+        },
+        {
+          "id": "coin-pouch",
+          "name": "钱袋",
+          "description": "red silk coin pouch"
+        },
+        {
+          "id": "cannon",
+          "name": "炮台",
+          "description": "gourd cannon"
+        },
+        {
+          "id": "cannon-skin",
+          "name": "炮饰",
+          "description": "jade gold cannon ornament"
+        },
+        {
+          "id": "auto",
+          "name": "自动",
+          "description": "gold sun gear"
+        },
+        {
+          "id": "target",
+          "name": "锁定",
+          "description": "gold round target reticle"
+        },
+        {
+          "id": "skill",
+          "name": "技能",
+          "description": "gold cyan spiral"
+        },
+        {
+          "id": "book",
+          "name": "图鉴",
+          "description": "open ivory jade book"
+        },
+        {
+          "id": "mail",
+          "name": "邮件",
+          "description": "ivory fish seal envelope"
+        },
+        {
+          "id": "task",
+          "name": "任务",
+          "description": "jade scroll"
+        },
+        {
+          "id": "achievement",
+          "name": "成就",
+          "description": "jade gold medal"
+        },
+        {
+          "id": "gift",
+          "name": "礼物",
+          "description": "red gold gift box"
+        },
+        {
+          "id": "shop",
+          "name": "商城",
+          "description": "small jade shop bag"
+        },
+        {
+          "id": "friend",
+          "name": "好友",
+          "description": "two jade profile silhouettes"
+        },
+        {
+          "id": "rank",
+          "name": "排行",
+          "description": "gold laurel medal"
+        },
+        {
+          "id": "settings",
+          "name": "设置",
+          "description": "jade gold gear"
+        },
+        {
+          "id": "music",
+          "name": "音乐",
+          "description": "gold music note"
+        },
+        {
+          "id": "sound",
+          "name": "音效",
+          "description": "gold sound speaker"
+        },
+        {
+          "id": "vibration",
+          "name": "震动",
+          "description": "jade vibrating device"
+        },
+        {
+          "id": "quality",
+          "name": "画质",
+          "description": "jade framed mountain"
+        },
+        {
+          "id": "back",
+          "name": "返回",
+          "description": "ivory return arrow"
+        },
+        {
+          "id": "plus",
+          "name": "增加",
+          "description": "ivory plus symbol on jade disc"
+        },
+        {
+          "id": "minus",
+          "name": "减少",
+          "description": "ivory minus symbol on jade disc"
+        },
+        {
+          "id": "lock",
+          "name": "未解锁",
+          "description": "bronze padlock"
+        },
+        {
+          "id": "check",
+          "name": "完成",
+          "description": "ivory checkmark on jade seal"
+        },
+        {
+          "id": "bubble",
+          "name": "气泡",
+          "description": "translucent aqua bubble"
+        },
+        {
+          "id": "bullet",
+          "name": "炮弹",
+          "description": "cyan pearl projectile"
+        },
+        {
+          "id": "pearl",
+          "name": "珍珠",
+          "description": "luminous ivory pearl"
+        }
+      ],
+      "sourceFolder": "designs/production-v1/item-icons",
+      "deliveredAssets": [
+        "icons/coin",
+        "icons/jade",
+        "icons/jade-shard",
+        "icons/shell",
+        "icons/ice",
+        "icons/thunder",
+        "icons/net",
+        "icons/key",
+        "icons/chest",
+        "icons/coin-pouch",
+        "icons/cannon",
+        "icons/cannon-skin",
+        "icons/auto",
+        "icons/target",
+        "icons/skill",
+        "icons/book",
+        "icons/mail",
+        "icons/task",
+        "icons/achievement",
+        "icons/gift",
+        "icons/shop",
+        "icons/friend",
+        "icons/rank",
+        "icons/settings",
+        "icons/music",
+        "icons/sound",
+        "icons/vibration",
+        "icons/quality",
+        "icons/back",
+        "icons/plus",
+        "icons/minus",
+        "icons/lock",
+        "icons/check",
+        "icons/bubble",
+        "icons/bullet",
+        "icons/pearl"
+      ],
+      "deliveredAssetCount": 36,
+      "status": "accepted_first_release_art",
+      "selectedSources": [
+        "designs/production-v1/item-icons/item-icons.png"
+      ],
+      "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json"
+    },
+    {
+      "id": "portraits",
+      "category": "characters",
+      "rows": 2,
+      "cols": 3,
+      "output": "assets/characters/portraits",
+      "displaySize": [
+        128,
+        128
+      ],
+      "items": [
+        {
+          "id": "fisher",
+          "name": "见习渔师",
+          "description": "existing gold headband brown spiky-haired fishing apprentice boy"
+        },
+        {
+          "id": "healer",
+          "name": "青荷",
+          "description": "young black straight-haired woman, jade hairpins and peach flowers, ivory jade outfit"
+        },
+        {
+          "id": "navigator",
+          "name": "云帆",
+          "description": "young silver-haired boy with blue jade high tied hair and ivory robe"
+        },
+        {
+          "id": "merchant",
+          "name": "渔舟客",
+          "description": "round cheerful middle-aged fisherman with straw hat and short brown beard"
+        },
+        {
+          "id": "guide",
+          "name": "海棠",
+          "description": "warm adult woman with dark hair bun, coral jade hair ornaments"
+        },
+        {
+          "id": "elder",
+          "name": "灵海长者",
+          "description": "smiling elderly man, white eyebrows and beard, jade crown, gold ivory robe"
+        }
+      ],
+      "sourceFolder": "designs/production-v1/portraits",
+      "deliveredAssets": [
+        "characters/portraits/fisher",
+        "characters/portraits/healer",
+        "characters/portraits/navigator",
+        "characters/portraits/merchant",
+        "characters/portraits/guide",
+        "characters/portraits/elder"
+      ],
+      "deliveredAssetCount": 6,
+      "status": "accepted_first_release_art",
+      "selectedSources": [
+        "designs/production-v1/portraits/portraits-v2.png"
+      ],
+      "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json"
+    },
+    {
+      "id": "cannon-parts-1",
+      "sourceFolder": "designs/production-v1/cannon-parts-1",
+      "category": "cannons",
+      "rows": 2,
+      "cols": 3,
+      "output": "assets/cannons/batch-1",
+      "keepCell": true,
+      "items": [
+        {
+          "id": "hulu-base",
+          "name": "葫芦炮底座",
+          "description": "ivory gold gourd with Tai Chi circular cannon pedestal, directly top down",
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "displaySize": [
+            160,
+            160
+          ]
+        },
+        {
+          "id": "yunwen-base",
+          "name": "云纹炮底座",
+          "description": "jade cloud carved gold ivory circular cannon pedestal, directly top down",
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "displaySize": [
+            160,
+            160
+          ]
+        },
+        {
+          "id": "lianhua-base",
+          "name": "莲华炮底座",
+          "description": "peach lotus jade gold circular cannon pedestal, directly top down",
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "displaySize": [
+            160,
+            160
+          ]
+        },
+        {
+          "id": "hulu-barrel",
+          "name": "葫芦炮炮管",
+          "description": "ivory gold gourd with Tai Chi upright vertical barrel pointing to twelve o clock, no base",
+          "anchor": [
+            0.5,
+            0.7
+          ],
+          "displaySize": [
+            160,
+            200
+          ]
+        },
+        {
+          "id": "yunwen-barrel",
+          "name": "云纹炮炮管",
+          "description": "jade cloud carved gold ivory upright vertical barrel pointing to twelve o clock, no base",
+          "anchor": [
+            0.5,
+            0.7
+          ],
+          "displaySize": [
+            160,
+            200
+          ]
+        },
+        {
+          "id": "lianhua-barrel",
+          "name": "莲华炮炮管",
+          "description": "peach lotus jade gold upright vertical barrel pointing to twelve o clock, no base",
+          "anchor": [
+            0.5,
+            0.7
+          ],
+          "displaySize": [
+            160,
+            200
+          ]
+        }
+      ],
+      "deliveredAssets": [
+        "cannons/batch-1/hulu-base",
+        "cannons/batch-1/yunwen-base",
+        "cannons/batch-1/lianhua-base",
+        "cannons/batch-1/hulu-barrel",
+        "cannons/batch-1/yunwen-barrel",
+        "cannons/batch-1/lianhua-barrel"
+      ],
+      "deliveredAssetCount": 6,
+      "status": "accepted_first_release_art",
+      "selectedSources": [
+        "designs/production-v1/cannon-parts-1/cannon-parts-1.png"
+      ],
+      "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json"
+    },
+    {
+      "id": "cannon-parts-2",
+      "sourceFolder": "designs/production-v1/cannon-parts-2",
+      "category": "cannons",
+      "rows": 2,
+      "cols": 3,
+      "output": "assets/cannons/batch-2",
+      "keepCell": true,
+      "items": [
+        {
+          "id": "leizhen-base",
+          "name": "雷霆炮底座",
+          "description": "purple gold thunder jade circular cannon pedestal, directly top down",
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "displaySize": [
+            160,
+            160
+          ]
+        },
+        {
+          "id": "hanjing-base",
+          "name": "玄冰炮底座",
+          "description": "ice cyan crystal ivory circular cannon pedestal, directly top down",
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "displaySize": [
+            160,
+            160
+          ]
+        },
+        {
+          "id": "longyu-base",
+          "name": "龙吟炮底座",
+          "description": "jade dragon gold ivory circular cannon pedestal, directly top down",
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "displaySize": [
+            160,
+            160
+          ]
+        },
+        {
+          "id": "leizhen-barrel",
+          "name": "雷霆炮炮管",
+          "description": "purple gold thunder jade upright vertical barrel pointing to twelve o clock, no base",
+          "anchor": [
+            0.5,
+            0.7
+          ],
+          "displaySize": [
+            160,
+            200
+          ]
+        },
+        {
+          "id": "hanjing-barrel",
+          "name": "玄冰炮炮管",
+          "description": "ice cyan crystal ivory upright vertical barrel pointing to twelve o clock, no base",
+          "anchor": [
+            0.5,
+            0.7
+          ],
+          "displaySize": [
+            160,
+            200
+          ]
+        },
+        {
+          "id": "longyu-barrel",
+          "name": "龙吟炮炮管",
+          "description": "jade dragon gold ivory upright vertical barrel pointing to twelve o clock, no base",
+          "anchor": [
+            0.5,
+            0.7
+          ],
+          "displaySize": [
+            160,
+            200
+          ]
+        }
+      ],
+      "deliveredAssets": [
+        "cannons/batch-2/leizhen-base",
+        "cannons/batch-2/hanjing-base",
+        "cannons/batch-2/longyu-base",
+        "cannons/batch-2/leizhen-barrel",
+        "cannons/batch-2/hanjing-barrel",
+        "cannons/batch-2/longyu-barrel"
+      ],
+      "deliveredAssetCount": 6,
+      "status": "accepted_first_release_art",
+      "selectedSources": [
+        "designs/production-v1/cannon-parts-2/cannon-parts-2.png"
+      ],
+      "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json"
+    },
+    {
+      "id": "fx-net",
+      "description": "pale cyan fishing net expanding circularly",
+      "sourceFolder": "designs/production-v1/fx-net",
+      "category": "fx",
+      "rows": 4,
+      "cols": 4,
+      "output": "assets/fx/fx-net",
+      "keepCell": true,
+      "displaySize": [
+        192,
+        192
+      ],
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ]
+      },
+      "items": [
+        {
+          "id": "frame-00",
+          "name": "fx-net 0"
+        },
+        {
+          "id": "frame-01",
+          "name": "fx-net 1"
+        },
+        {
+          "id": "frame-02",
+          "name": "fx-net 2"
+        },
+        {
+          "id": "frame-03",
+          "name": "fx-net 3"
+        },
+        {
+          "id": "frame-04",
+          "name": "fx-net 4"
+        },
+        {
+          "id": "frame-05",
+          "name": "fx-net 5"
+        },
+        {
+          "id": "frame-06",
+          "name": "fx-net 6"
+        },
+        {
+          "id": "frame-07",
+          "name": "fx-net 7"
+        },
+        {
+          "id": "frame-08",
+          "name": "fx-net 8"
+        },
+        {
+          "id": "frame-09",
+          "name": "fx-net 9"
+        },
+        {
+          "id": "frame-10",
+          "name": "fx-net 10"
+        },
+        {
+          "id": "frame-11",
+          "name": "fx-net 11"
+        },
+        {
+          "id": "frame-12",
+          "name": "fx-net 12"
+        },
+        {
+          "id": "frame-13",
+          "name": "fx-net 13"
+        },
+        {
+          "id": "frame-14",
+          "name": "fx-net 14"
+        },
+        {
+          "id": "frame-15",
+          "name": "fx-net 15"
+        }
+      ],
+      "deliveredAssets": [
+        "fx/fx-net/frame-00",
+        "fx/fx-net/frame-01",
+        "fx/fx-net/frame-02",
+        "fx/fx-net/frame-03",
+        "fx/fx-net/frame-04",
+        "fx/fx-net/frame-05",
+        "fx/fx-net/frame-06",
+        "fx/fx-net/frame-07",
+        "fx/fx-net/frame-08",
+        "fx/fx-net/frame-09",
+        "fx/fx-net/frame-10",
+        "fx/fx-net/frame-11",
+        "fx/fx-net/frame-12",
+        "fx/fx-net/frame-13",
+        "fx/fx-net/frame-14",
+        "fx/fx-net/frame-15"
+      ],
+      "deliveredAssetCount": 16,
+      "status": "accepted_first_release_art",
+      "selectedSources": [
+        "designs/production-v1/fx-net/fx-net.png"
+      ],
+      "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json"
+    },
+    {
+      "id": "fx-ice",
+      "description": "ice shards appearing and dissipating in a round jade-blue burst",
+      "sourceFolder": "designs/production-v1/fx-ice",
+      "category": "fx",
+      "rows": 4,
+      "cols": 4,
+      "output": "assets/fx/fx-ice",
+      "keepCell": true,
+      "displaySize": [
+        192,
+        192
+      ],
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ]
+      },
+      "items": [
+        {
+          "id": "frame-00",
+          "name": "fx-ice 0"
+        },
+        {
+          "id": "frame-01",
+          "name": "fx-ice 1"
+        },
+        {
+          "id": "frame-02",
+          "name": "fx-ice 2"
+        },
+        {
+          "id": "frame-03",
+          "name": "fx-ice 3"
+        },
+        {
+          "id": "frame-04",
+          "name": "fx-ice 4"
+        },
+        {
+          "id": "frame-05",
+          "name": "fx-ice 5"
+        },
+        {
+          "id": "frame-06",
+          "name": "fx-ice 6"
+        },
+        {
+          "id": "frame-07",
+          "name": "fx-ice 7"
+        },
+        {
+          "id": "frame-08",
+          "name": "fx-ice 8"
+        },
+        {
+          "id": "frame-09",
+          "name": "fx-ice 9"
+        },
+        {
+          "id": "frame-10",
+          "name": "fx-ice 10"
+        },
+        {
+          "id": "frame-11",
+          "name": "fx-ice 11"
+        },
+        {
+          "id": "frame-12",
+          "name": "fx-ice 12"
+        },
+        {
+          "id": "frame-13",
+          "name": "fx-ice 13"
+        },
+        {
+          "id": "frame-14",
+          "name": "fx-ice 14"
+        },
+        {
+          "id": "frame-15",
+          "name": "fx-ice 15"
+        }
+      ],
+      "deliveredAssets": [
+        "fx/fx-ice/frame-00",
+        "fx/fx-ice/frame-01",
+        "fx/fx-ice/frame-02",
+        "fx/fx-ice/frame-03",
+        "fx/fx-ice/frame-04",
+        "fx/fx-ice/frame-05",
+        "fx/fx-ice/frame-06",
+        "fx/fx-ice/frame-07",
+        "fx/fx-ice/frame-08",
+        "fx/fx-ice/frame-09",
+        "fx/fx-ice/frame-10",
+        "fx/fx-ice/frame-11",
+        "fx/fx-ice/frame-12",
+        "fx/fx-ice/frame-13",
+        "fx/fx-ice/frame-14",
+        "fx/fx-ice/frame-15"
+      ],
+      "deliveredAssetCount": 16,
+      "status": "accepted_first_release_art",
+      "selectedSources": [
+        "designs/production-v1/fx-ice/fx-ice-v2.png"
+      ],
+      "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json"
+    },
+    {
+      "id": "fx-thunder",
+      "description": "purple-gold lightning forming a round net burst",
+      "sourceFolder": "designs/production-v1/fx-thunder",
+      "category": "fx",
+      "rows": 4,
+      "cols": 4,
+      "output": "assets/fx/fx-thunder",
+      "keepCell": true,
+      "displaySize": [
+        192,
+        192
+      ],
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ]
+      },
+      "items": [
+        {
+          "id": "frame-00",
+          "name": "fx-thunder 0"
+        },
+        {
+          "id": "frame-01",
+          "name": "fx-thunder 1"
+        },
+        {
+          "id": "frame-02",
+          "name": "fx-thunder 2"
+        },
+        {
+          "id": "frame-03",
+          "name": "fx-thunder 3"
+        },
+        {
+          "id": "frame-04",
+          "name": "fx-thunder 4"
+        },
+        {
+          "id": "frame-05",
+          "name": "fx-thunder 5"
+        },
+        {
+          "id": "frame-06",
+          "name": "fx-thunder 6"
+        },
+        {
+          "id": "frame-07",
+          "name": "fx-thunder 7"
+        },
+        {
+          "id": "frame-08",
+          "name": "fx-thunder 8"
+        },
+        {
+          "id": "frame-09",
+          "name": "fx-thunder 9"
+        },
+        {
+          "id": "frame-10",
+          "name": "fx-thunder 10"
+        },
+        {
+          "id": "frame-11",
+          "name": "fx-thunder 11"
+        },
+        {
+          "id": "frame-12",
+          "name": "fx-thunder 12"
+        },
+        {
+          "id": "frame-13",
+          "name": "fx-thunder 13"
+        },
+        {
+          "id": "frame-14",
+          "name": "fx-thunder 14"
+        },
+        {
+          "id": "frame-15",
+          "name": "fx-thunder 15"
+        }
+      ],
+      "deliveredAssets": [
+        "fx/fx-thunder/frame-00",
+        "fx/fx-thunder/frame-01",
+        "fx/fx-thunder/frame-02",
+        "fx/fx-thunder/frame-03",
+        "fx/fx-thunder/frame-04",
+        "fx/fx-thunder/frame-05",
+        "fx/fx-thunder/frame-06",
+        "fx/fx-thunder/frame-07",
+        "fx/fx-thunder/frame-08",
+        "fx/fx-thunder/frame-09",
+        "fx/fx-thunder/frame-10",
+        "fx/fx-thunder/frame-11",
+        "fx/fx-thunder/frame-12",
+        "fx/fx-thunder/frame-13",
+        "fx/fx-thunder/frame-14",
+        "fx/fx-thunder/frame-15"
+      ],
+      "deliveredAssetCount": 16,
+      "status": "accepted_first_release_art",
+      "selectedSources": [
+        "designs/production-v1/fx-thunder/fx-thunder.png"
+      ],
+      "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json"
+    },
+    {
+      "id": "fx-capture",
+      "description": "small gold pearl particles and a jade spiral capture glow",
+      "sourceFolder": "designs/production-v1/fx-capture",
+      "category": "fx",
+      "rows": 4,
+      "cols": 4,
+      "output": "assets/fx/fx-capture",
+      "keepCell": true,
+      "displaySize": [
+        192,
+        192
+      ],
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ]
+      },
+      "items": [
+        {
+          "id": "frame-00",
+          "name": "fx-capture 0"
+        },
+        {
+          "id": "frame-01",
+          "name": "fx-capture 1"
+        },
+        {
+          "id": "frame-02",
+          "name": "fx-capture 2"
+        },
+        {
+          "id": "frame-03",
+          "name": "fx-capture 3"
+        },
+        {
+          "id": "frame-04",
+          "name": "fx-capture 4"
+        },
+        {
+          "id": "frame-05",
+          "name": "fx-capture 5"
+        },
+        {
+          "id": "frame-06",
+          "name": "fx-capture 6"
+        },
+        {
+          "id": "frame-07",
+          "name": "fx-capture 7"
+        },
+        {
+          "id": "frame-08",
+          "name": "fx-capture 8"
+        },
+        {
+          "id": "frame-09",
+          "name": "fx-capture 9"
+        },
+        {
+          "id": "frame-10",
+          "name": "fx-capture 10"
+        },
+        {
+          "id": "frame-11",
+          "name": "fx-capture 11"
+        },
+        {
+          "id": "frame-12",
+          "name": "fx-capture 12"
+        },
+        {
+          "id": "frame-13",
+          "name": "fx-capture 13"
+        },
+        {
+          "id": "frame-14",
+          "name": "fx-capture 14"
+        },
+        {
+          "id": "frame-15",
+          "name": "fx-capture 15"
+        }
+      ],
+      "deliveredAssets": [
+        "fx/fx-capture/frame-00",
+        "fx/fx-capture/frame-01",
+        "fx/fx-capture/frame-02",
+        "fx/fx-capture/frame-03",
+        "fx/fx-capture/frame-04",
+        "fx/fx-capture/frame-05",
+        "fx/fx-capture/frame-06",
+        "fx/fx-capture/frame-07",
+        "fx/fx-capture/frame-08",
+        "fx/fx-capture/frame-09",
+        "fx/fx-capture/frame-10",
+        "fx/fx-capture/frame-11",
+        "fx/fx-capture/frame-12",
+        "fx/fx-capture/frame-13",
+        "fx/fx-capture/frame-14",
+        "fx/fx-capture/frame-15"
+      ],
+      "deliveredAssetCount": 16,
+      "status": "accepted_first_release_art",
+      "selectedSources": [
+        "designs/production-v1/fx-capture/fx-capture.png"
+      ],
+      "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json"
+    },
+    {
+      "id": "fx-hit",
+      "description": "compact aqua pearl impact rings and gold sparks",
+      "sourceFolder": "designs/production-v1/fx-hit",
+      "category": "fx",
+      "rows": 4,
+      "cols": 4,
+      "output": "assets/fx/fx-hit",
+      "keepCell": true,
+      "displaySize": [
+        192,
+        192
+      ],
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ]
+      },
+      "items": [
+        {
+          "id": "frame-00",
+          "name": "fx-hit 0"
+        },
+        {
+          "id": "frame-01",
+          "name": "fx-hit 1"
+        },
+        {
+          "id": "frame-02",
+          "name": "fx-hit 2"
+        },
+        {
+          "id": "frame-03",
+          "name": "fx-hit 3"
+        },
+        {
+          "id": "frame-04",
+          "name": "fx-hit 4"
+        },
+        {
+          "id": "frame-05",
+          "name": "fx-hit 5"
+        },
+        {
+          "id": "frame-06",
+          "name": "fx-hit 6"
+        },
+        {
+          "id": "frame-07",
+          "name": "fx-hit 7"
+        },
+        {
+          "id": "frame-08",
+          "name": "fx-hit 8"
+        },
+        {
+          "id": "frame-09",
+          "name": "fx-hit 9"
+        },
+        {
+          "id": "frame-10",
+          "name": "fx-hit 10"
+        },
+        {
+          "id": "frame-11",
+          "name": "fx-hit 11"
+        },
+        {
+          "id": "frame-12",
+          "name": "fx-hit 12"
+        },
+        {
+          "id": "frame-13",
+          "name": "fx-hit 13"
+        },
+        {
+          "id": "frame-14",
+          "name": "fx-hit 14"
+        },
+        {
+          "id": "frame-15",
+          "name": "fx-hit 15"
+        }
+      ],
+      "deliveredAssets": [
+        "fx/fx-hit/frame-00",
+        "fx/fx-hit/frame-01",
+        "fx/fx-hit/frame-02",
+        "fx/fx-hit/frame-03",
+        "fx/fx-hit/frame-04",
+        "fx/fx-hit/frame-05",
+        "fx/fx-hit/frame-06",
+        "fx/fx-hit/frame-07",
+        "fx/fx-hit/frame-08",
+        "fx/fx-hit/frame-09",
+        "fx/fx-hit/frame-10",
+        "fx/fx-hit/frame-11",
+        "fx/fx-hit/frame-12",
+        "fx/fx-hit/frame-13",
+        "fx/fx-hit/frame-14",
+        "fx/fx-hit/frame-15"
+      ],
+      "deliveredAssetCount": 16,
+      "status": "accepted_first_release_art",
+      "selectedSources": [
+        "designs/production-v1/fx-hit/fx-hit.png"
+      ],
+      "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json"
+    },
+    {
+      "id": "scene-harbor",
+      "category": "scenes",
+      "sourceFolder": "designs/production-v1/scene-harbor",
+      "output": "assets/scenes/scene-harbor",
+      "deliveredAssets": [
+        "scenes/scene-harbor"
+      ],
+      "deliveredAssetCount": 1,
+      "status": "accepted_first_release_art",
+      "selectedSources": [
+        "assets/scenes/scene-harbor/scene-harbor.png"
+      ],
+      "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json"
+    },
+    {
+      "id": "brand-title",
+      "category": "branding",
+      "sourceFolder": "designs/production-v1/brand-title",
+      "output": "assets/branding",
+      "deliveredAssets": [
+        "branding/brand-title"
+      ],
+      "deliveredAssetCount": 1,
+      "status": "accepted_first_release_art",
+      "selectedSources": [
+        "designs/production-v1/brand-title/brand-title.png"
+      ],
+      "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json"
+    },
+    {
+      "id": "gameplay-ornaments",
+      "category": "ornaments",
+      "sourceFolder": "designs/production-v1/gameplay-ornaments",
+      "output": "assets/ornaments",
+      "deliveredAssets": [
+        "ornaments/aim-jade",
+        "ornaments/aim-gold",
+        "ornaments/skill-speed",
+        "ornaments/medal-gold",
+        "ornaments/medal-silver",
+        "ornaments/medal-bronze",
+        "ornaments/rarity-star",
+        "ornaments/brand-emblem",
+        "ornaments/stage-marker"
+      ],
+      "deliveredAssetCount": 9,
+      "status": "accepted_first_release_art",
+      "selectedSources": [
+        "designs/production-v1/gameplay-ornaments/gameplay-ornaments-v2.png"
+      ],
+      "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json"
+    },
+    {
+      "id": "skill-icons",
+      "category": "skills",
+      "sourceFolder": "designs/production-v1/skill-icons",
+      "output": "assets/skills",
+      "deliveredAssets": [
+        "skills/skill-ice",
+        "skills/skill-thunder",
+        "skills/skill-gather",
+        "skills/skill-track",
+        "skills/skill-guard",
+        "skills/skill-surge"
+      ],
+      "deliveredAssetCount": 6,
+      "status": "accepted_first_release_art",
+      "selectedSources": [
+        "designs/production-v1/skill-icons/skill-icons.png"
+      ],
+      "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json"
+    },
+    {
+      "id": "kit-panel-runtime",
+      "category": "ui",
+      "sourceFolder": "designs/production-v1/kit-panel-runtime",
+      "output": "assets/ui/runtime-panel",
+      "deliveredAssets": [
+        "ui/runtime-panel/panel-runtime"
+      ],
+      "deliveredAssetCount": 1,
+      "status": "accepted_first_release_art",
+      "selectedSources": [
+        "designs/production-v1/kit-panel-runtime/kit-panel-runtime-v2.png"
+      ],
+      "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json"
+    },
+    {
+      "id": "event-banner",
+      "category": "illustrations",
+      "sourceFolder": "designs/production-v1/event-banner",
+      "output": "assets/illustrations",
+      "deliveredAssets": [
+        "illustrations/event-banner"
+      ],
+      "deliveredAssetCount": 1,
+      "status": "accepted_first_release_art",
+      "selectedSources": [
+        "designs/production-v1/event-banner/event-banner.png"
+      ],
+      "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json"
+    },
+    {
+      "id": "event-route",
+      "category": "illustrations",
+      "sourceFolder": "designs/production-v1/event-route",
+      "output": "assets/illustrations",
+      "deliveredAssets": [
+        "illustrations/event-route"
+      ],
+      "deliveredAssetCount": 1,
+      "status": "accepted_first_release_art",
+      "selectedSources": [
+        "designs/production-v1/event-route/event-route.png"
+      ],
+      "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json"
+    }
+  ],
+  "animationCapability": {
+    "videoRoute": "none",
+    "characterMotionStatus": "pending_capability",
+    "evidence": "docs/media-doctor-20261026.json"
+  },
+  "status": "accepted_first_release_art",
+  "statusRecord": "docs/GAME_ART_STATUS.json",
+  "gameArtComplete": true,
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json"
+}

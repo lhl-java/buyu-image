@@ -1,0 +1,206 @@
+{
+  "source": "designs/motion-frames-v1/02-jinwei/capture/02-jinwei-capture-v3.png",
+  "sourceSHA256": "cbef31ec6d106adf7bd288d93f77a96e9929c9081dc3c99b6751a3d991663b63",
+  "action": "capture",
+  "registeredAt": "2026-10-28T18:01:54.804652+00:00",
+  "sharedCanvas": [
+    672,
+    672
+  ],
+  "rootPixels": [
+    336,
+    336
+  ],
+  "eyePixels": [
+    443,
+    315
+  ],
+  "registration": [
+    {
+      "frame": 0,
+      "pupil": [
+        357,
+        110
+      ],
+      "registeredPupil": [
+        443,
+        315
+      ],
+      "offset": [
+        86,
+        205
+      ],
+      "minMargin": 0.13988095238095238,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 1,
+      "pupil": [
+        349,
+        139
+      ],
+      "registeredPupil": [
+        443,
+        315
+      ],
+      "offset": [
+        94,
+        176
+      ],
+      "minMargin": 0.15178571428571427,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 2,
+      "pupil": [
+        315,
+        195
+      ],
+      "registeredPupil": [
+        443,
+        315
+      ],
+      "offset": [
+        128,
+        120
+      ],
+      "minMargin": 0.19047619047619047,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 3,
+      "pupil": [
+        363,
+        103
+      ],
+      "registeredPupil": [
+        443,
+        315
+      ],
+      "offset": [
+        80,
+        212
+      ],
+      "minMargin": 0.13095238095238096,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 4,
+      "pupil": [
+        356,
+        157
+      ],
+      "registeredPupil": [
+        443,
+        315
+      ],
+      "offset": [
+        87,
+        158
+      ],
+      "minMargin": 0.14136904761904762,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 5,
+      "pupil": [
+        341,
+        92
+      ],
+      "registeredPupil": [
+        443,
+        315
+      ],
+      "offset": [
+        102,
+        223
+      ],
+      "minMargin": 0.1636904761904762,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 6,
+      "pupil": [
+        336,
+        85
+      ],
+      "registeredPupil": [
+        443,
+        315
+      ],
+      "offset": [
+        107,
+        230
+      ],
+      "minMargin": 0.17113095238095238,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 7,
+      "pupil": [
+        330,
+        89
+      ],
+      "registeredPupil": [
+        443,
+        315
+      ],
+      "offset": [
+        113,
+        226
+      ],
+      "minMargin": 0.1800595238095238,
+      "pixelRoundTrip": true
+    }
+  ],
+  "uniformScale": 0.30014977323006675,
+  "sourceMarginWarnings": [
+    {
+      "frame": 0,
+      "actual": 0.036036036036036036,
+      "required": 0.12
+    },
+    {
+      "frame": 1,
+      "actual": 0.03611738148984198,
+      "required": 0.12
+    },
+    {
+      "frame": 2,
+      "actual": 0.07657657657657657,
+      "required": 0.12
+    },
+    {
+      "frame": 3,
+      "actual": 0.0,
+      "required": 0.12
+    },
+    {
+      "frame": 4,
+      "actual": 0.04054054054054054,
+      "required": 0.12
+    },
+    {
+      "frame": 5,
+      "actual": 0.03837471783295711,
+      "required": 0.12
+    },
+    {
+      "frame": 6,
+      "actual": 0.07674943566591422,
+      "required": 0.12
+    },
+    {
+      "frame": 7,
+      "actual": 0.0,
+      "required": 0.12
+    }
+  ],
+  "runtimeWarnings": [],
+  "producerVisualNote": "Actual native and eye ROI reviewed; real tail/fin membrane curve changes, identity preserved. Ownership retains every assigned pixel, no foreign fish. Pending root contact review and Unity playback.",
+  "registeredContactVisual": "producer_actually_viewed_light_dark_and_display_rest_comparison",
+  "identityAndMotion": "pending_root_visual",
+  "playback": "pending_Unity",
+  "references": "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-contained-v2.png",
+  "rootVisual": "pending"
+}

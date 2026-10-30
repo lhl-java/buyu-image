@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "owner": "motion_route_recheck",
+  "scope": "01-12 each swim8/capture8, 24 actions/192 frames",
+  "rootReviewPending": true,
+  "playbackStatus": "pending_Unity",
+  "noGlobalOrGitEdits": true,
+  "species": [
+    {
+      "id": "01-qingqi",
+      "source": {
+        "swim": "designs/motion-frames-v1/01-qingqi/swim/01-qingqi-swim-contained-v2.png",
+        "capture": "designs/motion-frames-v1/01-qingqi/capture/01-qingqi-capture-scale-v2.png"
+      },
+      "eyeOffset": [
+        80,
+        -12
+      ],
+      "producerNote": "Blue/gold fan tail up/down and opposed fin folding; capture short posterior C-flex and final drooping fins.",
+      "status": "producer_candidate_pending_root_visual",
+      "modelActualUnknown": true,
+      "candidateManifests": {
+        "swim": "assets/animations/01-qingqi/swim/manifest.json",
+        "capture": "assets/animations/01-qingqi/capture/manifest.json"
+      }
+    },
+    {
+      "id": "02-jinwei",
+      "source": {
+        "swim": "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-contained-v2.png",
+        "capture": "designs/motion-frames-v1/02-jinwei/capture/02-jinwei-capture-v3.png"
+      },
+      "eyeOffset": [
+        100,
+        -20
+      ],
+      "producerNote": "Gold/ivory fan tail changes upper/lower curvature; capture strong curling and relaxed final tail. Clip rest native density differs and is adjusted once.",
+      "status": "producer_candidate_pending_root_visual",
+      "modelActualUnknown": true,
+      "candidateManifests": {
+        "swim": "assets/animations/02-jinwei/swim/manifest.json",
+        "capture": "assets/animations/02-jinwei/capture/manifest.json"
+      }
+    },
+    {
+      "id": "03-chiyu",
+      "source": {
+        "swim": "designs/motion-frames-v1/03-chiyu/swim/03-chiyu-swim-v1.png",
+        "capture": "designs/motion-frames-v1/03-chiyu/capture/03-chiyu-capture-v3.png"
+      },
+      "eyeOffset": [
+        80,
+        -30
+      ],
+      "producerNote": "Scarlet/pearl long tail and dorsal ribbons change shape; capture curls inward/up then down. Nominal-grid crossings recoverable by complete ownership.",
+      "status": "producer_candidate_pending_root_visual",
+      "modelActualUnknown": true,
+      "candidateManifests": {
+        "swim": "assets/animations/03-chiyu/swim/manifest.json",
+        "capture": "assets/animations/03-chiyu/capture/manifest.json"
+      }
+    },
+    {
+      "id": "04-shenxian",
+      "source": {
+        "swim": "designs/motion-frames-v1/04-shenxian/swim/04-shenxian-swim-v1.png",
+        "capture": "designs/motion-frames-v1/04-shenxian/capture/04-shenxian-capture-v1.png"
+      },
+      "eyeOffset": [
+        110,
+        -40
+      ],
+      "producerNote": "Black/gold striped identity; long dorsal/anal tips and tail articulate. Black face bands excluded from pupil ROI.",
+      "status": "producer_candidate_pending_root_visual",
+      "modelActualUnknown": true,
+      "candidateManifests": {
+        "swim": "assets/animations/04-shenxian/swim/manifest.json",
+        "capture": "assets/animations/04-shenxian/capture/manifest.json"
+      }
+    },
+    {
+      "id": "05-hetun",
+      "source": {
+        "swim": "designs/motion-frames-v1/05-hetun/swim/05-hetun-swim-v1.png",
+        "capture": "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-contained-v3.png"
+      },
+      "eyeOffset": [
+        20,
+        -70
+      ],
+      "producerNote": "Round spotted puffer remains three-quarter right-facing. Tail and paired round fans change angles/shapes; capture tail curls and modest posterior inflation is anatomical.",
+      "status": "producer_candidate_pending_root_visual",
+      "modelActualUnknown": true,
+      "candidateManifests": {
+        "swim": "assets/animations/05-hetun/swim/manifest.json",
+        "capture": "assets/animations/05-hetun/capture/manifest.json"
+      }
+    },
+    {
+      "id": "06-haima",
+      "source": {
+        "swim": "designs/motion-frames-v1/06-haima/swim/06-haima-swim-v1.png",
+        "capture": "designs/motion-frames-v1/06-haima/capture/06-haima-capture-v1.png"
+      },
+      "eyeOffset": [
+        30,
+        -100
+      ],
+      "producerNote": "PINK seahorse identity and upright view preserved; back fan folds/flutters and spiral tail tightens/loosens, capture curl amplitude distinct.",
+      "status": "producer_candidate_pending_root_visual",
+      "modelActualUnknown": true,
+      "candidateManifests": {
+        "swim": "assets/animations/06-haima/swim/manifest.json",
+        "capture": "assets/animations/06-haima/capture/manifest.json"
+      }
+    },
+    {
+      "id": "07-zihai",
+      "source": {
+        "swim": "designs/motion-frames-v1/07-zihai/swim/07-zihai-swim-v1.png",
+        "capture": "designs/motion-frames-v1/07-zihai/capture/07-zihai-capture-v1.png"
+      },
+      "eyeOffset": [
+        90,
+        -15
+      ],
+      "producerNote": "Purple/silver THREE bands retained; wide tail fan and near pectoral membrane articulate; captured rear C-curve and folding.",
+      "status": "producer_candidate_pending_root_visual",
+      "modelActualUnknown": true,
+      "candidateManifests": {
+        "swim": "assets/animations/07-zihai/swim/manifest.json",
+        "capture": "assets/animations/07-zihai/capture/manifest.json"
+      }
+    },
+    {
+      "id": "08-lanbian",
+      "source": {
+        "swim": "designs/motion-frames-v1/08-lanbian/swim/08-lanbian-swim-v1.png",
+        "capture": "designs/motion-frames-v1/08-lanbian/capture/08-lanbian-capture-v1.png"
+      },
+      "eyeOffset": [
+        110,
+        -30
+      ],
+      "producerNote": "Blue bream spiky dorsal identity retained, short fork-tail up/down and fan pectoral shape changes; capture posterior C-flex and droop.",
+      "status": "producer_candidate_pending_root_visual",
+      "modelActualUnknown": true,
+      "candidateManifests": {
+        "swim": "assets/animations/08-lanbian/swim/manifest.json",
+        "capture": "assets/animations/08-lanbian/capture/manifest.json"
+      }
+    },
+    {
+      "id": "09-caidie",
+      "source": {
+        "swim": "designs/motion-frames-v1/09-caidie/swim/09-caidie-swim-facing-v2.png",
+        "capture": "designs/motion-frames-v1/09-caidie/capture/09-caidie-capture-v1.png"
+      },
+      "eyeOffset": [
+        130,
+        0
+      ],
+      "producerNote": "Orientation fixed by AI: all eight face RIGHT. Orange/ivory/black bands stable, long dorsal/anal curves and tail fold. Bottom-row scale consistency requires root visual attention.",
+      "status": "producer_candidate_pending_root_visual",
+      "modelActualUnknown": true,
+      "candidateManifests": {
+        "swim": "assets/animations/09-caidie/swim/manifest.json",
+        "capture": "assets/animations/09-caidie/capture/manifest.json"
+      }
+    },
+    {
+      "id": "10-qingya",
+      "source": {
+        "swim": "designs/motion-frames-v1/10-qingya/swim/10-qingya-swim-v1.png",
+        "capture": "designs/motion-frames-v1/10-qingya/capture/10-qingya-capture-v1.png"
+      },
+      "eyeOffset": [
+        95,
+        -30
+      ],
+      "producerNote": "Green/gold scale rings and white fangs retained; tail S-wave and pectoral folds, captured posterior C-flex.",
+      "status": "producer_candidate_pending_root_visual",
+      "modelActualUnknown": true,
+      "candidateManifests": {
+        "swim": "assets/animations/10-qingya/swim/manifest.json",
+        "capture": "assets/animations/10-qingya/capture/manifest.json"
+      }
+    },
+    {
+      "id": "11-yinlin",
+      "source": {
+        "swim": "designs/motion-frames-v1/11-yinlin/swim/11-yinlin-swim-v1.png",
+        "capture": "designs/motion-frames-v1/11-yinlin/capture/11-yinlin-capture-v1.png"
+      },
+      "eyeOffset": [
+        120,
+        -20
+      ],
+      "producerNote": "Slim silver/blue gradient identity retained; fork-tail sweeps up/down and pectoral shape changes, capture curl then loose tail.",
+      "status": "producer_candidate_pending_root_visual",
+      "modelActualUnknown": true,
+      "candidateManifests": {
+        "swim": "assets/animations/11-yinlin/swim/manifest.json",
+        "capture": "assets/animations/11-yinlin/capture/manifest.json"
+      }
+    },
+    {
+      "id": "12-yuewei",
+      "source": {
+        "swim": "designs/motion-frames-v1/12-yuewei/swim/12-yuewei-swim-v1.png",
+        "capture": "designs/motion-frames-v1/12-yuewei/capture/12-yuewei-capture-v1.png"
+      },
+      "eyeOffset": [
+        80,
+        -30
+      ],
+      "producerNote": "Pearl/mint/ivory long fan identity retained; flowing folded membranes and near/far fin phases, strong tail curl then droop in capture.",
+      "status": "producer_candidate_pending_root_visual",
+      "modelActualUnknown": true,
+      "candidateManifests": {
+        "swim": "assets/animations/12-yuewei/swim/manifest.json",
+        "capture": "assets/animations/12-yuewei/capture/manifest.json"
+      },
+      "clipDensity": {
+        "capture": {
+          "ratio": 1.1176470588235294,
+          "evidence": "designs/motion-frames-v1/12-yuewei/clip-density-evidence.json",
+          "method": "median native amber iris width; one scale across clip"
+        }
+      }
+    }
+  ],
+  "status": "24_action_sources_and192_frames_producer_candidate_pending_root_and_Unity",
+  "producerAllStillQAActuallyViewed": true
+}

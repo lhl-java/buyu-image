@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-05",
+  "file": "assets/animations/10-qingya/capture/frame-05.png",
+  "sha256": "c5f57f8ac77b4690110ee27bb74bda6b813c9db335c5aa87ed47251aac5f9000",
+  "width": 736,
+  "height": 736,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/motion-frames-v1/10-qingya/capture/10-qingya-capture-v1.png",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/10-qingya/capture/10-qingya-capture-v1.png",
+      "sha256": "3a8aafd2290b792b5e9a010fb69c3ce176b828013a5548abc67b27eb24dffc9e",
+      "generationRecord": "designs/motion-frames-v1/10-qingya/capture/10-qingya-capture-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_grid_crop_integer_pupil_registration",
+    "sourceRect": [
+      468,
+      523,
+      910,
+      802
+    ],
+    "cellCropRect": [
+      0,
+      0,
+      442,
+      279
+    ],
+    "registrationOffset": [
+      102,
+      216
+    ],
+    "registeredCanvas": [
+      736,
+      736
+    ],
+    "registrationReference": {
+      "type": "black_pupil_component_centroid",
+      "sourcePointFloat": [
+        360.88452088452095,
+        122.08353808353809
+      ],
+      "sourcePointRounded": [
+        361,
+        122
+      ],
+      "targetPoint": [
+        463,
+        338
+      ],
+      "method": "RGBmax<55 and A>220 pupil component; restricted to local radius22px and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+      "roiActuallyInspected": true
+    },
+    "resized": false,
+    "upscaled": false,
+    "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+    "sourcePixelsRoundTripVerified": true,
+    "nominalGridRect": [
+      444,
+      444,
+      887,
+      887
+    ],
+    "nominalGridBorderAlpha": 253,
+    "ownershipType": "complete_nonoverlapping_pose_rectangle",
+    "foreignFishAlphaPixels": 0,
+    "allAssignedPixelsInsideRect": true
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "rootPixels": [
+    368,
+    368
+  ],
+  "eyePixels": [
+    463,
+    338
+  ],
+  "displaySize": [
+    207.32394366197184,
+    207.32394366197184
+  ],
+  "bodyDisplayBox": [
+    120,
+    80
+  ],
+  "uniformDisplayScale": 0.28169014084507044,
+  "scaleReference": "assets/animations/10-qingya/swim/manifest.json",
+  "registeredAlphaBBox": [
+    110,
+    224,
+    536,
+    487
+  ],
+  "registeredMinMargin": 0.14945652173913043,
+  "status": "producer_candidate_pending_root_visual",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+  "clipDensityAdjustment": null,
+  "producerLightDarkStillReview": "viewed_candidate_pass"
+}

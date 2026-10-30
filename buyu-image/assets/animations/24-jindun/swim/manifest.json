@@ -1,0 +1,1902 @@
+{
+  "schemaVersion": 1,
+  "source": "designs/motion-frames-v1/24-jindun/swim/24-jindun-swim.png",
+  "sourceWidth": 1774,
+  "sourceHeight": 887,
+  "sourceSha256": "b9f5358b347cd2464d9da466f67a9dbb6098ac36c0cbe957de159a8965784093",
+  "output": "assets/animations/24-jindun/swim",
+  "items": [
+    {
+      "schemaVersion": 1,
+      "id": "frame-00",
+      "name": "24-jindun swim 0",
+      "file": "assets/animations/24-jindun/swim/frame-00.png",
+      "sha256": "ca04cd634bc78b9c9652d82538cd39b17e25c24d3dae39b2a21edee8fa83d089",
+      "width": 844,
+      "height": 844,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/24-jindun/swim/24-jindun-swim.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/24-jindun/swim/24-jindun-swim.png",
+          "sha256": "b9f5358b347cd2464d9da466f67a9dbb6098ac36c0cbe957de159a8965784093",
+          "generationRecord": "designs/motion-frames-v1/24-jindun/swim/24-jindun-swim.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+        "nominalGrid": {
+          "cols": 4,
+          "rows": 2
+        },
+        "nominalGridRect": [
+          0,
+          0,
+          444,
+          444
+        ],
+        "sourceRect": [
+          30,
+          100,
+          430,
+          370
+        ],
+        "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+        "ownershipPixelCount": 67273,
+        "alphaCleanup": "Only alpha<=3 set to0",
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "registrationOffset": [
+          256,
+          227
+        ],
+        "registeredCanvas": [
+          844,
+          844
+        ],
+        "registrationReference": {
+          "type": "largest round dark eye component inside fixed local head ROI; manually review landmark contact",
+          "sourcePointGlobal": [
+            364.0950920245399,
+            222.95092024539878
+          ],
+          "sourcePointLocal": [
+            334.0950920245399,
+            122.95092024539878
+          ],
+          "targetPoint": [
+            590,
+            350
+          ],
+          "rounding": "nearest integer",
+          "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+        },
+        "sourcePixelsRoundTripVerified": true,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        422,
+        422
+      ],
+      "landmarkPixels": [
+        590,
+        350
+      ],
+      "registeredAlphaBBox": [
+        256,
+        227,
+        656,
+        497
+      ],
+      "registeredMinMargin": 0.22274881516587677,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+      "animation": {
+        "id": "24-jindun/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+        "identityStatus": "pending_root_visual",
+        "motionStatus": "pending_root_visual",
+        "loopVisualStatus": "pending_root_playback",
+        "sourceRoute": "builtin_native_AI_sheet_user_requested"
+      },
+      "status": "accepted_first_release_art",
+      "targetBodyBox": [
+        180,
+        130
+      ],
+      "uniformDisplayScale": 0.45454545454545453,
+      "displaySize": [
+        383.6363636363636,
+        383.6363636363636
+      ],
+      "bodyDisplayBox": [
+        180,
+        130
+      ],
+      "displaySizing": {
+        "preserveAspect": true,
+        "uniformScaleAcrossAction": true,
+        "upscalingAllowed": false
+      },
+      "displayScaleReference": {
+        "restNativeVisibleBox": [
+          396,
+          267
+        ],
+        "fitMaxBox": [
+          180,
+          130
+        ],
+        "method": "one rest-frame solid anatomical silhouette scale reused for all8frames",
+        "upscaling": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-01",
+      "name": "24-jindun swim 1",
+      "file": "assets/animations/24-jindun/swim/frame-01.png",
+      "sha256": "572751a2abfe03a99b52bc4446c7baa3d186f88533416350c5e6da7d8f858e16",
+      "width": 844,
+      "height": 844,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/24-jindun/swim/24-jindun-swim.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/24-jindun/swim/24-jindun-swim.png",
+          "sha256": "b9f5358b347cd2464d9da466f67a9dbb6098ac36c0cbe957de159a8965784093",
+          "generationRecord": "designs/motion-frames-v1/24-jindun/swim/24-jindun-swim.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+        "nominalGrid": {
+          "cols": 4,
+          "rows": 2
+        },
+        "nominalGridRect": [
+          444,
+          0,
+          887,
+          444
+        ],
+        "sourceRect": [
+          467,
+          99,
+          873,
+          377
+        ],
+        "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+        "ownershipPixelCount": 66467,
+        "alphaCleanup": "Only alpha<=3 set to0",
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "registrationOffset": [
+          249,
+          227
+        ],
+        "registeredCanvas": [
+          844,
+          844
+        ],
+        "registrationReference": {
+          "type": "largest round dark eye component inside fixed local head ROI; manually review landmark contact",
+          "sourcePointGlobal": [
+            808.2663043478261,
+            222.28532608695653
+          ],
+          "sourcePointLocal": [
+            341.2663043478261,
+            123.28532608695653
+          ],
+          "targetPoint": [
+            590,
+            350
+          ],
+          "rounding": "nearest integer",
+          "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+        },
+        "sourcePixelsRoundTripVerified": true,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        422,
+        422
+      ],
+      "landmarkPixels": [
+        590,
+        350
+      ],
+      "registeredAlphaBBox": [
+        249,
+        227,
+        655,
+        505
+      ],
+      "registeredMinMargin": 0.22393364928909953,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+      "animation": {
+        "id": "24-jindun/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+        "identityStatus": "pending_root_visual",
+        "motionStatus": "pending_root_visual",
+        "loopVisualStatus": "pending_root_playback",
+        "sourceRoute": "builtin_native_AI_sheet_user_requested"
+      },
+      "status": "accepted_first_release_art",
+      "targetBodyBox": [
+        180,
+        130
+      ],
+      "uniformDisplayScale": 0.45454545454545453,
+      "displaySize": [
+        383.6363636363636,
+        383.6363636363636
+      ],
+      "bodyDisplayBox": [
+        180,
+        130
+      ],
+      "displaySizing": {
+        "preserveAspect": true,
+        "uniformScaleAcrossAction": true,
+        "upscalingAllowed": false
+      },
+      "displayScaleReference": {
+        "restNativeVisibleBox": [
+          396,
+          267
+        ],
+        "fitMaxBox": [
+          180,
+          130
+        ],
+        "method": "one rest-frame solid anatomical silhouette scale reused for all8frames",
+        "upscaling": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-02",
+      "name": "24-jindun swim 2",
+      "file": "assets/animations/24-jindun/swim/frame-02.png",
+      "sha256": "6e1839cdcc377dbfcd370dcf18910bf8ccfe68584b50631c1d433c48e1720847",
+      "width": 844,
+      "height": 844,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/24-jindun/swim/24-jindun-swim.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/24-jindun/swim/24-jindun-swim.png",
+          "sha256": "b9f5358b347cd2464d9da466f67a9dbb6098ac36c0cbe957de159a8965784093",
+          "generationRecord": "designs/motion-frames-v1/24-jindun/swim/24-jindun-swim.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+        "nominalGrid": {
+          "cols": 4,
+          "rows": 2
+        },
+        "nominalGridRect": [
+          887,
+          0,
+          1330,
+          444
+        ],
+        "sourceRect": [
+          935,
+          99,
+          1294,
+          377
+        ],
+        "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+        "ownershipPixelCount": 62208,
+        "alphaCleanup": "Only alpha<=3 set to0",
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "registrationOffset": [
+          294,
+          228
+        ],
+        "registeredCanvas": [
+          844,
+          844
+        ],
+        "registrationReference": {
+          "type": "largest round dark eye component inside fixed local head ROI; manually review landmark contact",
+          "sourcePointGlobal": [
+            1230.7317784256559,
+            221.48396501457725
+          ],
+          "sourcePointLocal": [
+            295.7317784256559,
+            122.48396501457725
+          ],
+          "targetPoint": [
+            590,
+            350
+          ],
+          "rounding": "nearest integer",
+          "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+        },
+        "sourcePixelsRoundTripVerified": true,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        422,
+        422
+      ],
+      "landmarkPixels": [
+        590,
+        350
+      ],
+      "registeredAlphaBBox": [
+        294,
+        228,
+        653,
+        506
+      ],
+      "registeredMinMargin": 0.22630331753554503,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+      "animation": {
+        "id": "24-jindun/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+        "identityStatus": "pending_root_visual",
+        "motionStatus": "pending_root_visual",
+        "loopVisualStatus": "pending_root_playback",
+        "sourceRoute": "builtin_native_AI_sheet_user_requested"
+      },
+      "status": "accepted_first_release_art",
+      "targetBodyBox": [
+        180,
+        130
+      ],
+      "uniformDisplayScale": 0.45454545454545453,
+      "displaySize": [
+        383.6363636363636,
+        383.6363636363636
+      ],
+      "bodyDisplayBox": [
+        180,
+        130
+      ],
+      "displaySizing": {
+        "preserveAspect": true,
+        "uniformScaleAcrossAction": true,
+        "upscalingAllowed": false
+      },
+      "displayScaleReference": {
+        "restNativeVisibleBox": [
+          396,
+          267
+        ],
+        "fitMaxBox": [
+          180,
+          130
+        ],
+        "method": "one rest-frame solid anatomical silhouette scale reused for all8frames",
+        "upscaling": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-03",
+      "name": "24-jindun swim 3",
+      "file": "assets/animations/24-jindun/swim/frame-03.png",
+      "sha256": "0c70e0ea4dee5b41703fb26447b81fb8218155c04df9a4fe30b873ad8082a895",
+      "width": 844,
+      "height": 844,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/24-jindun/swim/24-jindun-swim.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/24-jindun/swim/24-jindun-swim.png",
+          "sha256": "b9f5358b347cd2464d9da466f67a9dbb6098ac36c0cbe957de159a8965784093",
+          "generationRecord": "designs/motion-frames-v1/24-jindun/swim/24-jindun-swim.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+        "nominalGrid": {
+          "cols": 4,
+          "rows": 2
+        },
+        "nominalGridRect": [
+          1330,
+          0,
+          1774,
+          444
+        ],
+        "sourceRect": [
+          1352,
+          99,
+          1740,
+          367
+        ],
+        "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+        "ownershipPixelCount": 65690,
+        "alphaCleanup": "Only alpha<=3 set to0",
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "registrationOffset": [
+          268,
+          228
+        ],
+        "registeredCanvas": [
+          844,
+          844
+        ],
+        "registrationReference": {
+          "type": "largest round dark eye component inside fixed local head ROI; manually review landmark contact",
+          "sourcePointGlobal": [
+            1673.7146892655367,
+            221.29378531073445
+          ],
+          "sourcePointLocal": [
+            321.71468926553666,
+            122.29378531073445
+          ],
+          "targetPoint": [
+            590,
+            350
+          ],
+          "rounding": "nearest integer",
+          "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+        },
+        "sourcePixelsRoundTripVerified": true,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        422,
+        422
+      ],
+      "landmarkPixels": [
+        590,
+        350
+      ],
+      "registeredAlphaBBox": [
+        268,
+        228,
+        656,
+        496
+      ],
+      "registeredMinMargin": 0.22274881516587677,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+      "animation": {
+        "id": "24-jindun/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+        "identityStatus": "pending_root_visual",
+        "motionStatus": "pending_root_visual",
+        "loopVisualStatus": "pending_root_playback",
+        "sourceRoute": "builtin_native_AI_sheet_user_requested"
+      },
+      "status": "accepted_first_release_art",
+      "targetBodyBox": [
+        180,
+        130
+      ],
+      "uniformDisplayScale": 0.45454545454545453,
+      "displaySize": [
+        383.6363636363636,
+        383.6363636363636
+      ],
+      "bodyDisplayBox": [
+        180,
+        130
+      ],
+      "displaySizing": {
+        "preserveAspect": true,
+        "uniformScaleAcrossAction": true,
+        "upscalingAllowed": false
+      },
+      "displayScaleReference": {
+        "restNativeVisibleBox": [
+          396,
+          267
+        ],
+        "fitMaxBox": [
+          180,
+          130
+        ],
+        "method": "one rest-frame solid anatomical silhouette scale reused for all8frames",
+        "upscaling": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-04",
+      "name": "24-jindun swim 4",
+      "file": "assets/animations/24-jindun/swim/frame-04.png",
+      "sha256": "dc5b08c4828e9d163b7b204e35f33767d20d79200f95ac46844dbfe54d0aa01a",
+      "width": 844,
+      "height": 844,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/24-jindun/swim/24-jindun-swim.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/24-jindun/swim/24-jindun-swim.png",
+          "sha256": "b9f5358b347cd2464d9da466f67a9dbb6098ac36c0cbe957de159a8965784093",
+          "generationRecord": "designs/motion-frames-v1/24-jindun/swim/24-jindun-swim.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+        "nominalGrid": {
+          "cols": 4,
+          "rows": 2
+        },
+        "nominalGridRect": [
+          0,
+          444,
+          444,
+          887
+        ],
+        "sourceRect": [
+          30,
+          505,
+          429,
+          777
+        ],
+        "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+        "ownershipPixelCount": 65750,
+        "alphaCleanup": "Only alpha<=3 set to0",
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "registrationOffset": [
+          255,
+          226
+        ],
+        "registeredCanvas": [
+          844,
+          844
+        ],
+        "registrationReference": {
+          "type": "largest round dark eye component inside fixed local head ROI; manually review landmark contact",
+          "sourcePointGlobal": [
+            364.7807486631016,
+            629.1310160427807
+          ],
+          "sourcePointLocal": [
+            334.7807486631016,
+            124.13101604278074
+          ],
+          "targetPoint": [
+            590,
+            350
+          ],
+          "rounding": "nearest integer",
+          "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+        },
+        "sourcePixelsRoundTripVerified": true,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        422,
+        422
+      ],
+      "landmarkPixels": [
+        590,
+        350
+      ],
+      "registeredAlphaBBox": [
+        255,
+        226,
+        654,
+        498
+      ],
+      "registeredMinMargin": 0.22511848341232227,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+      "animation": {
+        "id": "24-jindun/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+        "identityStatus": "pending_root_visual",
+        "motionStatus": "pending_root_visual",
+        "loopVisualStatus": "pending_root_playback",
+        "sourceRoute": "builtin_native_AI_sheet_user_requested"
+      },
+      "status": "accepted_first_release_art",
+      "targetBodyBox": [
+        180,
+        130
+      ],
+      "uniformDisplayScale": 0.45454545454545453,
+      "displaySize": [
+        383.6363636363636,
+        383.6363636363636
+      ],
+      "bodyDisplayBox": [
+        180,
+        130
+      ],
+      "displaySizing": {
+        "preserveAspect": true,
+        "uniformScaleAcrossAction": true,
+        "upscalingAllowed": false
+      },
+      "displayScaleReference": {
+        "restNativeVisibleBox": [
+          396,
+          267
+        ],
+        "fitMaxBox": [
+          180,
+          130
+        ],
+        "method": "one rest-frame solid anatomical silhouette scale reused for all8frames",
+        "upscaling": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-05",
+      "name": "24-jindun swim 5",
+      "file": "assets/animations/24-jindun/swim/frame-05.png",
+      "sha256": "34bd340d6a748494fdded19ec76533939076b1a595af3ce98e529fa91c420e16",
+      "width": 844,
+      "height": 844,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/24-jindun/swim/24-jindun-swim.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/24-jindun/swim/24-jindun-swim.png",
+          "sha256": "b9f5358b347cd2464d9da466f67a9dbb6098ac36c0cbe957de159a8965784093",
+          "generationRecord": "designs/motion-frames-v1/24-jindun/swim/24-jindun-swim.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+        "nominalGrid": {
+          "cols": 4,
+          "rows": 2
+        },
+        "nominalGridRect": [
+          444,
+          444,
+          887,
+          887
+        ],
+        "sourceRect": [
+          464,
+          505,
+          873,
+          772
+        ],
+        "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+        "ownershipPixelCount": 64740,
+        "alphaCleanup": "Only alpha<=3 set to0",
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "registrationOffset": [
+          246,
+          226
+        ],
+        "registeredCanvas": [
+          844,
+          844
+        ],
+        "registrationReference": {
+          "type": "largest round dark eye component inside fixed local head ROI; manually review landmark contact",
+          "sourcePointGlobal": [
+            807.9815384615384,
+            629.4246153846154
+          ],
+          "sourcePointLocal": [
+            343.98153846153843,
+            124.42461538461544
+          ],
+          "targetPoint": [
+            590,
+            350
+          ],
+          "rounding": "nearest integer",
+          "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+        },
+        "sourcePixelsRoundTripVerified": true,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        422,
+        422
+      ],
+      "landmarkPixels": [
+        590,
+        350
+      ],
+      "registeredAlphaBBox": [
+        246,
+        226,
+        655,
+        493
+      ],
+      "registeredMinMargin": 0.22393364928909953,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+      "animation": {
+        "id": "24-jindun/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+        "identityStatus": "pending_root_visual",
+        "motionStatus": "pending_root_visual",
+        "loopVisualStatus": "pending_root_playback",
+        "sourceRoute": "builtin_native_AI_sheet_user_requested"
+      },
+      "status": "accepted_first_release_art",
+      "targetBodyBox": [
+        180,
+        130
+      ],
+      "uniformDisplayScale": 0.45454545454545453,
+      "displaySize": [
+        383.6363636363636,
+        383.6363636363636
+      ],
+      "bodyDisplayBox": [
+        180,
+        130
+      ],
+      "displaySizing": {
+        "preserveAspect": true,
+        "uniformScaleAcrossAction": true,
+        "upscalingAllowed": false
+      },
+      "displayScaleReference": {
+        "restNativeVisibleBox": [
+          396,
+          267
+        ],
+        "fitMaxBox": [
+          180,
+          130
+        ],
+        "method": "one rest-frame solid anatomical silhouette scale reused for all8frames",
+        "upscaling": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-06",
+      "name": "24-jindun swim 6",
+      "file": "assets/animations/24-jindun/swim/frame-06.png",
+      "sha256": "eb2c4a93660a8eb5e9a800d646f8363ae36b46fd4012485b36a0904a83661e63",
+      "width": 844,
+      "height": 844,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/24-jindun/swim/24-jindun-swim.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/24-jindun/swim/24-jindun-swim.png",
+          "sha256": "b9f5358b347cd2464d9da466f67a9dbb6098ac36c0cbe957de159a8965784093",
+          "generationRecord": "designs/motion-frames-v1/24-jindun/swim/24-jindun-swim.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+        "nominalGrid": {
+          "cols": 4,
+          "rows": 2
+        },
+        "nominalGridRect": [
+          887,
+          444,
+          1330,
+          887
+        ],
+        "sourceRect": [
+          933,
+          505,
+          1294,
+          781
+        ],
+        "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+        "ownershipPixelCount": 62145,
+        "alphaCleanup": "Only alpha<=3 set to0",
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "registrationOffset": [
+          292,
+          226
+        ],
+        "registeredCanvas": [
+          844,
+          844
+        ],
+        "registrationReference": {
+          "type": "largest round dark eye component inside fixed local head ROI; manually review landmark contact",
+          "sourcePointGlobal": [
+            1230.669616519174,
+            628.9026548672566
+          ],
+          "sourcePointLocal": [
+            297.66961651917404,
+            123.90265486725662
+          ],
+          "targetPoint": [
+            590,
+            350
+          ],
+          "rounding": "nearest integer",
+          "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+        },
+        "sourcePixelsRoundTripVerified": true,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        422,
+        422
+      ],
+      "landmarkPixels": [
+        590,
+        350
+      ],
+      "registeredAlphaBBox": [
+        292,
+        226,
+        653,
+        502
+      ],
+      "registeredMinMargin": 0.22630331753554503,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+      "animation": {
+        "id": "24-jindun/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+        "identityStatus": "pending_root_visual",
+        "motionStatus": "pending_root_visual",
+        "loopVisualStatus": "pending_root_playback",
+        "sourceRoute": "builtin_native_AI_sheet_user_requested"
+      },
+      "status": "accepted_first_release_art",
+      "targetBodyBox": [
+        180,
+        130
+      ],
+      "uniformDisplayScale": 0.45454545454545453,
+      "displaySize": [
+        383.6363636363636,
+        383.6363636363636
+      ],
+      "bodyDisplayBox": [
+        180,
+        130
+      ],
+      "displaySizing": {
+        "preserveAspect": true,
+        "uniformScaleAcrossAction": true,
+        "upscalingAllowed": false
+      },
+      "displayScaleReference": {
+        "restNativeVisibleBox": [
+          396,
+          267
+        ],
+        "fitMaxBox": [
+          180,
+          130
+        ],
+        "method": "one rest-frame solid anatomical silhouette scale reused for all8frames",
+        "upscaling": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-07",
+      "name": "24-jindun swim 7",
+      "file": "assets/animations/24-jindun/swim/frame-07.png",
+      "sha256": "ad4745ab84ebe1bbbd9fe8e3b3871d5ee9a5a4a6b730ac4042b3334996b5dce9",
+      "width": 844,
+      "height": 844,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/24-jindun/swim/24-jindun-swim.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/24-jindun/swim/24-jindun-swim.png",
+          "sha256": "b9f5358b347cd2464d9da466f67a9dbb6098ac36c0cbe957de159a8965784093",
+          "generationRecord": "designs/motion-frames-v1/24-jindun/swim/24-jindun-swim.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+        "nominalGrid": {
+          "cols": 4,
+          "rows": 2
+        },
+        "nominalGridRect": [
+          1330,
+          444,
+          1774,
+          887
+        ],
+        "sourceRect": [
+          1336,
+          504,
+          1739,
+          774
+        ],
+        "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+        "ownershipPixelCount": 65011,
+        "alphaCleanup": "Only alpha<=3 set to0",
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "registrationOffset": [
+          252,
+          224
+        ],
+        "registeredCanvas": [
+          844,
+          844
+        ],
+        "registrationReference": {
+          "type": "largest round dark eye component inside fixed local head ROI; manually review landmark contact",
+          "sourcePointGlobal": [
+            1673.7147147147148,
+            629.6066066066066
+          ],
+          "sourcePointLocal": [
+            337.7147147147148,
+            125.60660660660665
+          ],
+          "targetPoint": [
+            590,
+            350
+          ],
+          "rounding": "nearest integer",
+          "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+        },
+        "sourcePixelsRoundTripVerified": true,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        422,
+        422
+      ],
+      "landmarkPixels": [
+        590,
+        350
+      ],
+      "registeredAlphaBBox": [
+        252,
+        224,
+        655,
+        494
+      ],
+      "registeredMinMargin": 0.22393364928909953,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+      "animation": {
+        "id": "24-jindun/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+        "identityStatus": "pending_root_visual",
+        "motionStatus": "pending_root_visual",
+        "loopVisualStatus": "pending_root_playback",
+        "sourceRoute": "builtin_native_AI_sheet_user_requested"
+      },
+      "status": "accepted_first_release_art",
+      "targetBodyBox": [
+        180,
+        130
+      ],
+      "uniformDisplayScale": 0.45454545454545453,
+      "displaySize": [
+        383.6363636363636,
+        383.6363636363636
+      ],
+      "bodyDisplayBox": [
+        180,
+        130
+      ],
+      "displaySizing": {
+        "preserveAspect": true,
+        "uniformScaleAcrossAction": true,
+        "upscalingAllowed": false
+      },
+      "displayScaleReference": {
+        "restNativeVisibleBox": [
+          396,
+          267
+        ],
+        "fitMaxBox": [
+          180,
+          130
+        ],
+        "method": "one rest-frame solid anatomical silhouette scale reused for all8frames",
+        "upscaling": false
+      }
+    }
+  ],
+  "animation": {
+    "id": "24-jindun/swim",
+    "frames": 8,
+    "fps": 12,
+    "loop": true,
+    "order": "row-major",
+    "durationsMs": [
+      83,
+      84,
+      83,
+      83,
+      84,
+      83,
+      83,
+      84
+    ],
+    "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+    "root": [
+      0.5,
+      0.5
+    ],
+    "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+    "identityStatus": "pending_root_visual",
+    "motionStatus": "pending_root_visual",
+    "loopVisualStatus": "pending_root_playback",
+    "sourceRoute": "builtin_native_AI_sheet_user_requested",
+    "releaseReady": true
+  },
+  "sharedCanvas": [
+    844,
+    844
+  ],
+  "rootPixels": [
+    422,
+    422
+  ],
+  "landmarkPixels": [
+    590,
+    350
+  ],
+  "bodyRootEvidence": "One common logical body root relative to registered anatomical eye/bell crown; generated rigidity remains review.",
+  "registration": [
+    {
+      "frame": 0,
+      "sourceRect": [
+        30,
+        100,
+        430,
+        370
+      ],
+      "sourceLandmarkGlobal": [
+        364.0950920245399,
+        222.95092024539878
+      ],
+      "sourceLandmarkLocal": [
+        334.0950920245399,
+        122.95092024539878
+      ],
+      "registrationOffset": [
+        256,
+        227
+      ],
+      "targetLandmark": [
+        590,
+        350
+      ],
+      "bodyRoot": [
+        422,
+        422
+      ],
+      "bbox": [
+        256,
+        227,
+        656,
+        497
+      ],
+      "marginsLTRB": [
+        0.3033175355450237,
+        0.26895734597156395,
+        0.22274881516587677,
+        0.41113744075829384
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 1,
+      "sourceRect": [
+        467,
+        99,
+        873,
+        377
+      ],
+      "sourceLandmarkGlobal": [
+        808.2663043478261,
+        222.28532608695653
+      ],
+      "sourceLandmarkLocal": [
+        341.2663043478261,
+        123.28532608695653
+      ],
+      "registrationOffset": [
+        249,
+        227
+      ],
+      "targetLandmark": [
+        590,
+        350
+      ],
+      "bodyRoot": [
+        422,
+        422
+      ],
+      "bbox": [
+        249,
+        227,
+        655,
+        505
+      ],
+      "marginsLTRB": [
+        0.2950236966824645,
+        0.26895734597156395,
+        0.22393364928909953,
+        0.40165876777251186
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 2,
+      "sourceRect": [
+        935,
+        99,
+        1294,
+        377
+      ],
+      "sourceLandmarkGlobal": [
+        1230.7317784256559,
+        221.48396501457725
+      ],
+      "sourceLandmarkLocal": [
+        295.7317784256559,
+        122.48396501457725
+      ],
+      "registrationOffset": [
+        294,
+        228
+      ],
+      "targetLandmark": [
+        590,
+        350
+      ],
+      "bodyRoot": [
+        422,
+        422
+      ],
+      "bbox": [
+        294,
+        228,
+        653,
+        506
+      ],
+      "marginsLTRB": [
+        0.34834123222748814,
+        0.27014218009478674,
+        0.22630331753554503,
+        0.4004739336492891
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 3,
+      "sourceRect": [
+        1352,
+        99,
+        1740,
+        367
+      ],
+      "sourceLandmarkGlobal": [
+        1673.7146892655367,
+        221.29378531073445
+      ],
+      "sourceLandmarkLocal": [
+        321.71468926553666,
+        122.29378531073445
+      ],
+      "registrationOffset": [
+        268,
+        228
+      ],
+      "targetLandmark": [
+        590,
+        350
+      ],
+      "bodyRoot": [
+        422,
+        422
+      ],
+      "bbox": [
+        268,
+        228,
+        656,
+        496
+      ],
+      "marginsLTRB": [
+        0.3175355450236967,
+        0.27014218009478674,
+        0.22274881516587677,
+        0.41232227488151657
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 4,
+      "sourceRect": [
+        30,
+        505,
+        429,
+        777
+      ],
+      "sourceLandmarkGlobal": [
+        364.7807486631016,
+        629.1310160427807
+      ],
+      "sourceLandmarkLocal": [
+        334.7807486631016,
+        124.13101604278074
+      ],
+      "registrationOffset": [
+        255,
+        226
+      ],
+      "targetLandmark": [
+        590,
+        350
+      ],
+      "bodyRoot": [
+        422,
+        422
+      ],
+      "bbox": [
+        255,
+        226,
+        654,
+        498
+      ],
+      "marginsLTRB": [
+        0.30213270142180093,
+        0.2677725118483412,
+        0.22511848341232227,
+        0.4099526066350711
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 5,
+      "sourceRect": [
+        464,
+        505,
+        873,
+        772
+      ],
+      "sourceLandmarkGlobal": [
+        807.9815384615384,
+        629.4246153846154
+      ],
+      "sourceLandmarkLocal": [
+        343.98153846153843,
+        124.42461538461544
+      ],
+      "registrationOffset": [
+        246,
+        226
+      ],
+      "targetLandmark": [
+        590,
+        350
+      ],
+      "bodyRoot": [
+        422,
+        422
+      ],
+      "bbox": [
+        246,
+        226,
+        655,
+        493
+      ],
+      "marginsLTRB": [
+        0.2914691943127962,
+        0.2677725118483412,
+        0.22393364928909953,
+        0.4158767772511848
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 6,
+      "sourceRect": [
+        933,
+        505,
+        1294,
+        781
+      ],
+      "sourceLandmarkGlobal": [
+        1230.669616519174,
+        628.9026548672566
+      ],
+      "sourceLandmarkLocal": [
+        297.66961651917404,
+        123.90265486725662
+      ],
+      "registrationOffset": [
+        292,
+        226
+      ],
+      "targetLandmark": [
+        590,
+        350
+      ],
+      "bodyRoot": [
+        422,
+        422
+      ],
+      "bbox": [
+        292,
+        226,
+        653,
+        502
+      ],
+      "marginsLTRB": [
+        0.3459715639810427,
+        0.2677725118483412,
+        0.22630331753554503,
+        0.4052132701421801
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 7,
+      "sourceRect": [
+        1336,
+        504,
+        1739,
+        774
+      ],
+      "sourceLandmarkGlobal": [
+        1673.7147147147148,
+        629.6066066066066
+      ],
+      "sourceLandmarkLocal": [
+        337.7147147147148,
+        125.60660660660665
+      ],
+      "registrationOffset": [
+        252,
+        224
+      ],
+      "targetLandmark": [
+        590,
+        350
+      ],
+      "bodyRoot": [
+        422,
+        422
+      ],
+      "bbox": [
+        252,
+        224,
+        655,
+        494
+      ],
+      "marginsLTRB": [
+        0.2985781990521327,
+        0.26540284360189575,
+        0.22393364928909953,
+        0.4146919431279621
+      ],
+      "pixelsRoundTrip": true
+    }
+  ],
+  "eyeMeasurement": [
+    {
+      "center": [
+        364.0950920245399,
+        222.95092024539878
+      ],
+      "boundsLTRB": [
+        352,
+        212,
+        378,
+        235
+      ],
+      "area": 326,
+      "method": "largest round dark eye component inside fixed local head ROI; manually review landmark contact"
+    },
+    {
+      "center": [
+        808.2663043478261,
+        222.28532608695653
+      ],
+      "boundsLTRB": [
+        797,
+        209,
+        822,
+        236
+      ],
+      "area": 368,
+      "method": "largest round dark eye component inside fixed local head ROI; manually review landmark contact"
+    },
+    {
+      "center": [
+        1230.7317784256559,
+        221.48396501457725
+      ],
+      "boundsLTRB": [
+        1219,
+        209,
+        1244,
+        235
+      ],
+      "area": 343,
+      "method": "largest round dark eye component inside fixed local head ROI; manually review landmark contact"
+    },
+    {
+      "center": [
+        1673.7146892655367,
+        221.29378531073445
+      ],
+      "boundsLTRB": [
+        1663,
+        208,
+        1688,
+        235
+      ],
+      "area": 354,
+      "method": "largest round dark eye component inside fixed local head ROI; manually review landmark contact"
+    },
+    {
+      "center": [
+        364.7807486631016,
+        629.1310160427807
+      ],
+      "boundsLTRB": [
+        354,
+        616,
+        378,
+        643
+      ],
+      "area": 374,
+      "method": "largest round dark eye component inside fixed local head ROI; manually review landmark contact"
+    },
+    {
+      "center": [
+        807.9815384615384,
+        629.4246153846154
+      ],
+      "boundsLTRB": [
+        797,
+        618,
+        822,
+        642
+      ],
+      "area": 325,
+      "method": "largest round dark eye component inside fixed local head ROI; manually review landmark contact"
+    },
+    {
+      "center": [
+        1230.669616519174,
+        628.9026548672566
+      ],
+      "boundsLTRB": [
+        1220,
+        617,
+        1244,
+        642
+      ],
+      "area": 339,
+      "method": "largest round dark eye component inside fixed local head ROI; manually review landmark contact"
+    },
+    {
+      "center": [
+        1673.7147147147148,
+        629.6066066066066
+      ],
+      "boundsLTRB": [
+        1663,
+        618,
+        1686,
+        642
+      ],
+      "area": 333,
+      "method": "largest round dark eye component inside fixed local head ROI; manually review landmark contact"
+    }
+  ],
+  "eyeNativeBoxSizes": [
+    [
+      26,
+      23
+    ],
+    [
+      25,
+      27
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      25,
+      27
+    ],
+    [
+      24,
+      27
+    ],
+    [
+      25,
+      24
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      23,
+      24
+    ]
+  ],
+  "sourcePixelOwnership": {
+    "alphaThreshold": 3,
+    "sourcePixels": 519284,
+    "exportedPixels": 519284,
+    "duplicatePixels": 0,
+    "lostPixels": 0,
+    "rgbAndAlphaForOwnedPixelsUnchanged": true
+  },
+  "order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "warnings": [
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 0,
+      "actual": 0.03153153153153153,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 1,
+      "actual": 0.03160270880361174,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 2,
+      "actual": 0.08126410835214447,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 3,
+      "actual": 0.04954954954954955,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 4,
+      "actual": 0.033783783783783786,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 5,
+      "actual": 0.03160270880361174,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 6,
+      "actual": 0.08126410835214447,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 7,
+      "actual": 0.013513513513513514,
+      "required": 0.12
+    },
+    {
+      "id": "generated_core_shape_and_motion_pending_review",
+      "note": "Tail joint and pectoral fins articulate; capture curls tail/recoils. The large emerald and front armor should be rigid; their generated contour/angle variation remains review."
+    },
+    {
+      "id": "playback_unverified",
+      "note": "No live loop/single-shot playback during local heavy-job hold; distinct hashes are not motion evidence."
+    }
+  ],
+  "sourceMarginWarnings": [
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 0,
+      "actual": 0.03153153153153153,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 1,
+      "actual": 0.03160270880361174,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 2,
+      "actual": 0.08126410835214447,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 3,
+      "actual": 0.04954954954954955,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 4,
+      "actual": 0.033783783783783786,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 5,
+      "actual": 0.03160270880361174,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 6,
+      "actual": 0.08126410835214447,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 7,
+      "actual": 0.013513513513513514,
+      "required": 0.12
+    }
+  ],
+  "runtimeMarginWarnings": [],
+  "uniformDisplayScale": 0.45454545454545453,
+  "displaySize": [
+    383.6363636363636,
+    383.6363636363636
+  ],
+  "bodyDisplayBox": [
+    180,
+    130
+  ],
+  "qa": {
+    "technicalAlpha": "true_rgba",
+    "sourceBorderStatus": "ownership_extracted_nominal_grid_crossings_retained_as_warnings",
+    "sourceTotalCanvasStatus": "main_anatomical_components_within_total_canvas",
+    "sourceMarginStatus": "fail_preserved_source_gate",
+    "registeredMarginStatus": "pass",
+    "identityStatus": "candidate_pending_root_visual",
+    "actualMotionStatus": "candidate_visible_articulation_pending_root_visual",
+    "registrationStatus": "integer_landmark_registered_core_shape_pending",
+    "loopPlaybackStatus": "pending_root_playback",
+    "producerStaticVisualInspection": {
+      "sourceSheetActuallyInspected": true,
+      "registeredLightAndDarkActuallyInspected": true,
+      "inspectionType": "static contact sheets, actual generated source and actual exported alpha-composited frames",
+      "lightContact": "designs/motion-frames-v1/24-jindun/swim/registered-light.jpg",
+      "darkContact": "designs/motion-frames-v1/24-jindun/swim/registered-dark.jpg",
+      "observedArticulation": "Tail joint and pectoral fins articulate; capture curls tail/recoils. The large emerald and front armor should be rigid; their generated contour/angle variation remains review.",
+      "edgeObservation": "The registered light and dark contacts show complete separate poses without an opaque rectangle or another frame fragment. Source grid / margin warnings are retained.",
+      "livePlaybackActuallyRun": false,
+      "finalArtApproval": false,
+      "inspectedAt": "2026-10-28T20:08:34.651768+00:00",
+      "landmarkCorrection": "Fixed face-only pupil ROI avoids dark camouflage / fin plate false landmarks; native pixels unchanged by integer registration."
+    }
+  },
+  "status": "accepted_first_release_art",
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+  "acceptedAt": "2026-10-30T04:07:09.085600+00:00",
+  "releaseReady": true,
+  "playbackReview": "docs/UNITY_FINAL_ACCEPTANCE.json"
+}

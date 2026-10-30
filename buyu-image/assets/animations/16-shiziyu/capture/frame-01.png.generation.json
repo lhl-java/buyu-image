@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-01",
+  "name": "16-shiziyu capture 1",
+  "file": "assets/animations/16-shiziyu/capture/frame-01.png",
+  "sha256": "4248f8f146bc53e6f758be27c67573c0b61eb2eaec505ee061405062bdb76508",
+  "width": 844,
+  "height": 844,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/motion-frames-v1/16-shiziyu/capture/16-shiziyu-capture.png",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/16-shiziyu/capture/16-shiziyu-capture.png",
+      "sha256": "65998822c0596ef95577d671b576b7a66002c586942666eb8fd302a5b2c4fd44",
+      "generationRecord": "designs/motion-frames-v1/16-shiziyu/capture/16-shiziyu-capture.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+    "nominalGrid": {
+      "cols": 4,
+      "rows": 2
+    },
+    "nominalGridRect": [
+      444,
+      0,
+      887,
+      444
+    ],
+    "sourceRect": [
+      465,
+      65,
+      893,
+      432
+    ],
+    "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+    "ownershipPixelCount": 97728,
+    "alphaCleanup": "Only alpha<=3 set to0",
+    "resized": false,
+    "upscaled": false,
+    "rotated": false,
+    "registrationOffset": [
+      224,
+      170
+    ],
+    "registeredCanvas": [
+      844,
+      844
+    ],
+    "registrationReference": {
+      "type": "largest round dark eye component inside fixed local head ROI; manually review landmark contact",
+      "sourcePointGlobal": [
+        831.4709480122324,
+        244.74923547400613
+      ],
+      "sourcePointLocal": [
+        366.4709480122324,
+        179.74923547400613
+      ],
+      "targetPoint": [
+        590,
+        350
+      ],
+      "rounding": "nearest integer",
+      "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+    },
+    "sourcePixelsRoundTripVerified": true,
+    "newNativeDetailClaimed": false
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "rootPixels": [
+    422,
+    422
+  ],
+  "landmarkPixels": [
+    590,
+    350
+  ],
+  "registeredAlphaBBox": [
+    224,
+    170,
+    652,
+    537
+  ],
+  "registeredMinMargin": 0.2014218009478673,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+  "animation": {
+    "id": "16-shiziyu/capture",
+    "frames": 8,
+    "fps": 12,
+    "loop": false,
+    "order": "row-major",
+    "durationsMs": [
+      83,
+      84,
+      83,
+      83,
+      84,
+      83,
+      83,
+      84
+    ],
+    "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+    "root": [
+      0.5,
+      0.5
+    ],
+    "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+    "identityStatus": "pending_root_visual",
+    "motionStatus": "pending_root_visual",
+    "loopVisualStatus": "single_shot_pending_root_playback",
+    "sourceRoute": "builtin_native_AI_sheet_user_requested"
+  },
+  "status": "producer_candidate_pending_root_registered_review",
+  "targetBodyBox": [
+    180,
+    130
+  ],
+  "uniformDisplayScale": 0.3672316384180791,
+  "displaySize": [
+    309.94350282485874,
+    309.94350282485874
+  ],
+  "bodyDisplayBox": [
+    180,
+    130
+  ],
+  "displaySizing": {
+    "preserveAspect": true,
+    "uniformScaleAcrossAction": true,
+    "upscalingAllowed": false
+  },
+  "displayScaleReference": {
+    "restNativeVisibleBox": [
+      422,
+      364
+    ],
+    "fitMaxBox": [
+      180,
+      130
+    ],
+    "method": "same species swim display scale reused, never capture per-frame bbox fit",
+    "upscaling": false
+  }
+}

@@ -1,0 +1,409 @@
+{
+  "source": "designs/production-v1/item-icons/item-icons.png",
+  "output": "assets/icons",
+  "rows": 6,
+  "cols": 6,
+  "items": [
+    {
+      "id": "coin",
+      "name": "金币",
+      "description": "gold Chinese coin stack",
+      "sourceRect": [
+        0,
+        0,
+        216,
+        237
+      ]
+    },
+    {
+      "id": "jade",
+      "name": "灵玉",
+      "description": "round green jade crystal",
+      "sourceRect": [
+        216,
+        0,
+        424,
+        237
+      ]
+    },
+    {
+      "id": "jade-shard",
+      "name": "灵玉碎片",
+      "description": "green crystal shards",
+      "sourceRect": [
+        424,
+        0,
+        633,
+        237
+      ]
+    },
+    {
+      "id": "shell",
+      "name": "灵贝",
+      "description": "pearly pink shell with jade tassel",
+      "sourceRect": [
+        633,
+        0,
+        838,
+        237
+      ]
+    },
+    {
+      "id": "ice",
+      "name": "冰封符",
+      "description": "blue ice talisman scroll",
+      "sourceRect": [
+        838,
+        0,
+        1044,
+        237
+      ]
+    },
+    {
+      "id": "thunder",
+      "name": "雷网符",
+      "description": "purple lightning net talisman",
+      "sourceRect": [
+        1044,
+        0,
+        1254,
+        237
+      ]
+    },
+    {
+      "id": "net",
+      "name": "渔网",
+      "description": "folded gold aqua net",
+      "sourceRect": [
+        0,
+        237,
+        216,
+        435
+      ]
+    },
+    {
+      "id": "key",
+      "name": "铜钥匙",
+      "description": "small ornate bronze key",
+      "sourceRect": [
+        216,
+        237,
+        424,
+        435
+      ]
+    },
+    {
+      "id": "chest",
+      "name": "宝箱",
+      "description": "jade gold chest",
+      "sourceRect": [
+        424,
+        237,
+        633,
+        435
+      ]
+    },
+    {
+      "id": "coin-pouch",
+      "name": "钱袋",
+      "description": "red silk coin pouch",
+      "sourceRect": [
+        633,
+        237,
+        838,
+        435
+      ]
+    },
+    {
+      "id": "cannon",
+      "name": "炮台",
+      "description": "gourd cannon",
+      "sourceRect": [
+        838,
+        237,
+        1044,
+        435
+      ]
+    },
+    {
+      "id": "cannon-skin",
+      "name": "炮饰",
+      "description": "jade gold cannon ornament",
+      "sourceRect": [
+        1044,
+        237,
+        1254,
+        435
+      ]
+    },
+    {
+      "id": "auto",
+      "name": "自动",
+      "description": "gold sun gear",
+      "sourceRect": [
+        0,
+        435,
+        216,
+        634
+      ]
+    },
+    {
+      "id": "target",
+      "name": "锁定",
+      "description": "gold round target reticle",
+      "sourceRect": [
+        216,
+        435,
+        424,
+        634
+      ]
+    },
+    {
+      "id": "skill",
+      "name": "技能",
+      "description": "gold cyan spiral",
+      "sourceRect": [
+        424,
+        435,
+        633,
+        634
+      ]
+    },
+    {
+      "id": "book",
+      "name": "图鉴",
+      "description": "open ivory jade book",
+      "sourceRect": [
+        633,
+        435,
+        838,
+        634
+      ]
+    },
+    {
+      "id": "mail",
+      "name": "邮件",
+      "description": "ivory fish seal envelope",
+      "sourceRect": [
+        838,
+        435,
+        1044,
+        634
+      ]
+    },
+    {
+      "id": "task",
+      "name": "任务",
+      "description": "jade scroll",
+      "sourceRect": [
+        1044,
+        435,
+        1254,
+        634
+      ]
+    },
+    {
+      "id": "achievement",
+      "name": "成就",
+      "description": "jade gold medal",
+      "sourceRect": [
+        0,
+        634,
+        216,
+        837
+      ]
+    },
+    {
+      "id": "gift",
+      "name": "礼物",
+      "description": "red gold gift box",
+      "sourceRect": [
+        216,
+        634,
+        424,
+        837
+      ]
+    },
+    {
+      "id": "shop",
+      "name": "商城",
+      "description": "small jade shop bag",
+      "sourceRect": [
+        424,
+        634,
+        633,
+        837
+      ]
+    },
+    {
+      "id": "friend",
+      "name": "好友",
+      "description": "two jade profile silhouettes",
+      "sourceRect": [
+        633,
+        634,
+        838,
+        837
+      ]
+    },
+    {
+      "id": "rank",
+      "name": "排行",
+      "description": "gold laurel medal",
+      "sourceRect": [
+        838,
+        634,
+        1044,
+        837
+      ]
+    },
+    {
+      "id": "settings",
+      "name": "设置",
+      "description": "jade gold gear",
+      "sourceRect": [
+        1044,
+        634,
+        1254,
+        837
+      ]
+    },
+    {
+      "id": "music",
+      "name": "音乐",
+      "description": "gold music note",
+      "sourceRect": [
+        0,
+        837,
+        216,
+        1030
+      ]
+    },
+    {
+      "id": "sound",
+      "name": "音效",
+      "description": "gold sound speaker",
+      "sourceRect": [
+        216,
+        837,
+        424,
+        1030
+      ]
+    },
+    {
+      "id": "vibration",
+      "name": "震动",
+      "description": "jade vibrating device",
+      "sourceRect": [
+        424,
+        837,
+        633,
+        1030
+      ]
+    },
+    {
+      "id": "quality",
+      "name": "画质",
+      "description": "jade framed mountain",
+      "sourceRect": [
+        633,
+        837,
+        838,
+        1030
+      ]
+    },
+    {
+      "id": "back",
+      "name": "返回",
+      "description": "ivory return arrow",
+      "sourceRect": [
+        838,
+        837,
+        1044,
+        1030
+      ]
+    },
+    {
+      "id": "plus",
+      "name": "增加",
+      "description": "ivory plus symbol on jade disc",
+      "sourceRect": [
+        1044,
+        837,
+        1254,
+        1030
+      ]
+    },
+    {
+      "id": "minus",
+      "name": "减少",
+      "description": "ivory minus symbol on jade disc",
+      "sourceRect": [
+        0,
+        1030,
+        216,
+        1254
+      ]
+    },
+    {
+      "id": "lock",
+      "name": "未解锁",
+      "description": "bronze padlock",
+      "sourceRect": [
+        216,
+        1030,
+        424,
+        1254
+      ]
+    },
+    {
+      "id": "check",
+      "name": "完成",
+      "description": "ivory checkmark on jade seal",
+      "sourceRect": [
+        424,
+        1030,
+        633,
+        1254
+      ]
+    },
+    {
+      "id": "bubble",
+      "name": "气泡",
+      "description": "translucent aqua bubble",
+      "sourceRect": [
+        633,
+        1030,
+        838,
+        1254
+      ]
+    },
+    {
+      "id": "bullet",
+      "name": "炮弹",
+      "description": "cyan pearl projectile",
+      "sourceRect": [
+        838,
+        1030,
+        1044,
+        1254
+      ]
+    },
+    {
+      "id": "pearl",
+      "name": "珍珠",
+      "description": "luminous ivory pearl",
+      "sourceRect": [
+        1044,
+        1030,
+        1254,
+        1254
+      ]
+    }
+  ],
+  "keepCell": false,
+  "displaySize": [
+    96,
+    96
+  ]
+}

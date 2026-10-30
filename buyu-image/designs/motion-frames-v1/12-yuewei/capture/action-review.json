@@ -1,0 +1,206 @@
+{
+  "source": "designs/motion-frames-v1/12-yuewei/capture/12-yuewei-capture-v1.png",
+  "sourceSHA256": "e28fa05f2254cebbcb19af0ef68c1c6d3db3849e9a6fbead143514a8692b232d",
+  "action": "capture",
+  "registeredAt": "2026-10-28T18:33:12.691898+00:00",
+  "sharedCanvas": [
+    768,
+    768
+  ],
+  "rootPixels": [
+    384,
+    384
+  ],
+  "eyePixels": [
+    473,
+    350
+  ],
+  "registration": [
+    {
+      "frame": 0,
+      "pupil": [
+        368,
+        175
+      ],
+      "registeredPupil": [
+        473,
+        350
+      ],
+      "offset": [
+        105,
+        175
+      ],
+      "minMargin": 0.14713541666666666,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 1,
+      "pupil": [
+        355,
+        203
+      ],
+      "registeredPupil": [
+        473,
+        350
+      ],
+      "offset": [
+        118,
+        147
+      ],
+      "minMargin": 0.1640625,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 2,
+      "pupil": [
+        337,
+        216
+      ],
+      "registeredPupil": [
+        473,
+        350
+      ],
+      "offset": [
+        136,
+        134
+      ],
+      "minMargin": 0.18489583333333334,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 3,
+      "pupil": [
+        358,
+        147
+      ],
+      "registeredPupil": [
+        473,
+        350
+      ],
+      "offset": [
+        115,
+        203
+      ],
+      "minMargin": 0.16015625,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 4,
+      "pupil": [
+        344,
+        186
+      ],
+      "registeredPupil": [
+        473,
+        350
+      ],
+      "offset": [
+        129,
+        164
+      ],
+      "minMargin": 0.17838541666666666,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 5,
+      "pupil": [
+        378,
+        142
+      ],
+      "registeredPupil": [
+        473,
+        350
+      ],
+      "offset": [
+        95,
+        208
+      ],
+      "minMargin": 0.13411458333333334,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 6,
+      "pupil": [
+        344,
+        136
+      ],
+      "registeredPupil": [
+        473,
+        350
+      ],
+      "offset": [
+        129,
+        214
+      ],
+      "minMargin": 0.17838541666666666,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 7,
+      "pupil": [
+        354,
+        124
+      ],
+      "registeredPupil": [
+        473,
+        350
+      ],
+      "offset": [
+        119,
+        226
+      ],
+      "minMargin": 0.16536458333333334,
+      "pixelRoundTrip": true
+    }
+  ],
+  "uniformScale": 0.23015738703672348,
+  "sourceMarginWarnings": [
+    {
+      "frame": 0,
+      "actual": 0.015765765765765764,
+      "required": 0.12
+    },
+    {
+      "frame": 1,
+      "actual": 0.01580135440180587,
+      "required": 0.12
+    },
+    {
+      "frame": 2,
+      "actual": 0.024774774774774775,
+      "required": 0.12
+    },
+    {
+      "frame": 3,
+      "actual": 0.036036036036036036,
+      "required": 0.12
+    },
+    {
+      "frame": 4,
+      "actual": 0.029345372460496615,
+      "required": 0.12
+    },
+    {
+      "frame": 5,
+      "actual": 0.002257336343115124,
+      "required": 0.12
+    },
+    {
+      "frame": 6,
+      "actual": 0.01580135440180587,
+      "required": 0.12
+    },
+    {
+      "frame": 7,
+      "actual": 0.04279279279279279,
+      "required": 0.12
+    }
+  ],
+  "runtimeWarnings": [],
+  "producerVisualNote": "Native8-eye ROI measured capture iris median38px vs swim34px. One clip scale/eye offset compensates1.117647 density. True long-tail membrane curves and captured curl/droop; root review and Unity pending.",
+  "registeredContactVisual": "producer_actually_viewed_light_dark_and_display_rest_comparison",
+  "identityAndMotion": "pending_root_visual",
+  "playback": "pending_Unity",
+  "references": "designs/motion-frames-v1/12-yuewei/swim/12-yuewei-swim-v1.png",
+  "rootVisual": "pending"
+}

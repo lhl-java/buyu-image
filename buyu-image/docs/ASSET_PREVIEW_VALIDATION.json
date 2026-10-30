@@ -1,0 +1,526 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-30T04:10:06.639Z",
+  "catalogBuiltAt": "2026-10-30T03:48:16.850969+00:00",
+  "catalogSha256": "1f84c310943911848610039839210c59c6035525e90043509ff1bd0b31e29cdd",
+  "assetCount": 924,
+  "clipCount": 89,
+  "cannonCount": 6,
+  "counts": {
+    "pngCount": 924,
+    "dimensionCount": 924,
+    "hashCount": 924,
+    "recordCount": 924,
+    "directSourceCount": 972,
+    "htmlLocalLinkCount": 7,
+    "domChecks": 113,
+    "totalChecks": 11529
+  },
+  "htmlLocalLinks": [
+    {
+      "link": "styles.css",
+      "exists": true
+    },
+    {
+      "link": "../assets/runtime-catalog.js",
+      "exists": true
+    },
+    {
+      "link": "ui-states.js",
+      "exists": true
+    },
+    {
+      "link": "app.js",
+      "exists": true
+    },
+    {
+      "link": "../assets/branding/linghai-xianyu-logo-v1.png",
+      "exists": true
+    },
+    {
+      "link": "../gallery/index.html",
+      "exists": true
+    },
+    {
+      "link": "../docs/GAME_ART_COMPLETION_CONTRACT.md",
+      "exists": true
+    }
+  ],
+  "domSimulationChecks": [
+    {
+      "label": "Initial library renders every asset",
+      "passed": true
+    },
+    {
+      "label": "Fish category renders 36 assets",
+      "passed": true
+    },
+    {
+      "label": "No-results state",
+      "passed": true
+    },
+    {
+      "label": "Unique ID search",
+      "passed": true
+    },
+    {
+      "label": "Asset modal opens actual PNG",
+      "passed": true
+    },
+    {
+      "label": "Native-size toggle",
+      "passed": true
+    },
+    {
+      "label": "Fit toggle",
+      "passed": true
+    },
+    {
+      "label": "Modal closes",
+      "passed": true
+    },
+    {
+      "label": "Dark backdrop selector",
+      "passed": true
+    },
+    {
+      "label": "FX advances two native frames at16 FPS",
+      "passed": true
+    },
+    {
+      "label": "One-shot stops on last frame",
+      "passed": true
+    },
+    {
+      "label": "Loop wraps to actual frame two after 250ms",
+      "passed": true
+    },
+    {
+      "label": "FX reset returns to first frame",
+      "passed": true
+    },
+    {
+      "label": "Clip selection fx-net",
+      "passed": true
+    },
+    {
+      "label": "Clip selection fx-ice",
+      "passed": true
+    },
+    {
+      "label": "Clip selection fx-thunder",
+      "passed": true
+    },
+    {
+      "label": "Clip selection fx-capture",
+      "passed": true
+    },
+    {
+      "label": "Clip selection fx-hit",
+      "passed": true
+    },
+    {
+      "label": "Clip selection fx-gather",
+      "passed": true
+    },
+    {
+      "label": "Clip selection fx-guard",
+      "passed": true
+    },
+    {
+      "label": "Clip selection fx-surge",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 01-qingqi/swim",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 01-qingqi/capture",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 02-jinwei/swim",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 02-jinwei/capture",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 03-chiyu/swim",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 03-chiyu/capture",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 04-shenxian/swim",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 04-shenxian/capture",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 05-hetun/swim",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 05-hetun/capture",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 06-haima/swim",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 06-haima/capture",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 07-zihai/swim",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 07-zihai/capture",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 08-lanbian/swim",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 08-lanbian/capture",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 09-caidie/swim",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 09-caidie/capture",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 10-qingya/swim",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 10-qingya/capture",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 11-yinlin/swim",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 11-yinlin/capture",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 12-yuewei/swim",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 12-yuewei/capture",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 13-yunwengui/swim",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 13-yunwengui/capture",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 14-huanyue/swim",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 14-huanyue/capture",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 15-lanray/swim",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 15-lanray/capture",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 16-shiziyu/swim",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 16-shiziyu/capture",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 17-shanhuyu/swim",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 17-shanhuyu/capture",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 18-qinglong/swim",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 18-qinglong/capture",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 19-lingjinli/swim",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 19-lingjinli/capture",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 20-yuban/swim",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 20-yuban/capture",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 21-haiqiu/swim",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 21-haiqiu/capture",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 22-bailian/swim",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 22-bailian/capture",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 23-liuguang/swim",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 23-liuguang/capture",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 24-jindun/swim",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 24-jindun/capture",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 25-yexing/swim",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 25-yexing/capture",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 26-moyu/swim",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 26-moyu/capture",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 27-yingguang/swim",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 27-yingguang/capture",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 28-shenhai/swim",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 28-shenhai/capture",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 29-hailong/swim",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 29-hailong/capture",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 30-jinjia/swim",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 30-jinjia/capture",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 31-bingjing/swim",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 31-bingjing/capture",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 32-honglian/swim",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 32-honglian/capture",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 33-xuanwu/swim",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 33-xuanwu/capture",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 34-jinlongli/swim",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 34-jinlongli/capture",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 34-jinlongli/attack",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 34-jinlongli/enrage",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 35-longwang/swim",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 35-longwang/capture",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 35-longwang/attack",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 35-longwang/enrage",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 36-xuanjing/swim",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 36-xuanjing/capture",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 36-xuanjing/attack",
+      "passed": true
+    },
+    {
+      "label": "Clip selection 36-xuanjing/enrage",
+      "passed": true
+    },
+    {
+      "label": "Clip selection dao-child/idle",
+      "passed": true
+    },
+    {
+      "label": "Clip selection dao-child/point",
+      "passed": true
+    },
+    {
+      "label": "Clip selection dao-child/celebrate",
+      "passed": true
+    },
+    {
+      "label": "Cannon selection hulu",
+      "passed": true
+    },
+    {
+      "label": "Cannon selection yunwen",
+      "passed": true
+    },
+    {
+      "label": "Cannon selection lianhua",
+      "passed": true
+    },
+    {
+      "label": "Cannon selection leizhen",
+      "passed": true
+    },
+    {
+      "label": "Cannon selection hanjing",
+      "passed": true
+    },
+    {
+      "label": "Cannon selection longyu",
+      "passed": true
+    },
+    {
+      "label": "Manual cannon rotation",
+      "passed": true
+    },
+    {
+      "label": "Cannon reset",
+      "passed": true
+    },
+    {
+      "label": "Automatic cannon rotation advances",
+      "passed": true
+    },
+    {
+      "label": "Hidden document pauses rotation",
+      "passed": true
+    },
+    {
+      "label": "Missing catalog readable fallback",
+      "passed": true
+    }
+  ],
+  "problems": [],
+  "passed": true,
+  "browserOpened": false,
+  "serverStarted": false,
+  "visualBrowserValidation": false,
+  "limits": [
+    "Lightweight DOM simulation validates application branches, not browser layout, CSS rendering or in-game animation.",
+    "Art acceptance is recorded separately in docs/UNITY_FINAL_ACCEPTANCE.json; this simulation itself grants no visual approval."
+  ],
+  "previewFiles": [
+    {
+      "file": "assets-preview/index.html",
+      "sha256": "f8c298e77b79145377cd6831722ace6830c57082368ad367f250ef16ff97d37f"
+    },
+    {
+      "file": "assets-preview/styles.css",
+      "sha256": "b0604584010f25e467d0daf39fc6fe0897ee8c23454cfdb81281eab3cf0778bb"
+    },
+    {
+      "file": "assets-preview/app.js",
+      "sha256": "f14c988f2685ed0dd2f7601a39a1e8e0ab5deb4078ce4636304d443e49da92eb"
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-07",
+  "name": "深海鮟鱇 swim 7",
+  "file": "assets/animations/28-shenhai/swim/frame-07.png",
+  "sha256": "1a64e1e88b5f58b4df96d0846f5446e2f9bb83e98ee2fbb3280c9cdd5685f53c",
+  "width": 640,
+  "height": 640,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/motion-frames-v1/28-shenhai/swim/28-shenhai-swim.png",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/28-shenhai/swim/28-shenhai-swim.png",
+      "sha256": "11ce195a10a391b96d56b60ba87d8777558d6632137438019d7d2a20b5dc9747",
+      "generationRecord": "designs/motion-frames-v1/28-shenhai/swim/28-shenhai-swim.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_grid_crop_integer_pupil_registration",
+    "grid": {
+      "rows": 2,
+      "cols": 4
+    },
+    "sourceRect": [
+      1330,
+      444,
+      1774,
+      887
+    ],
+    "registrationOffset": [
+      87,
+      116,
+      531,
+      559
+    ],
+    "registeredCanvas": [
+      640,
+      640
+    ],
+    "registrationReference": {
+      "type": "black_pupil_connected_component_centroid",
+      "sourcePointFloat": [
+        264.87130801687766,
+        204.28902953586498
+      ],
+      "sourcePointRounded": [
+        265,
+        204
+      ],
+      "targetPoint": [
+        352,
+        320
+      ],
+      "pupilBounds": [
+        247,
+        193,
+        284,
+        216
+      ],
+      "detectionRoi": [
+        220,
+        180,
+        315,
+        290
+      ],
+      "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+    },
+    "nominalGridRect": [
+      1330,
+      444,
+      1774,
+      887
+    ],
+    "sourceRectType": "nominal_grid",
+    "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+    "resized": false,
+    "upscaled": false,
+    "poseWarped": false,
+    "sourcePixelsRoundTripVerified": true,
+    "sourceBoundaryClippingAssessment": "visible_alpha_gt16_clear_of_boundary;weak_alpha_boundary_warning"
+  },
+  "anchor": [
+    0.55,
+    0.5
+  ],
+  "status": "candidate_pending_root_visual_and_playback_review",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source record; this is a native derivative, not new generation.",
+  "animation": {
+    "id": "28-shenhai/swim",
+    "frames": 8,
+    "fps": 12,
+    "loop": true,
+    "order": "row-major",
+    "root": [
+      0.55,
+      0.5
+    ],
+    "phase": 0.875,
+    "durationMs": 84,
+    "targetBodyBox": [
+      240,
+      180
+    ],
+    "displayCalibration": {
+      "status": "candidate_pending_root_visual_runtime_review",
+      "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+      "nativeMedianPupilWidth": 36.0,
+      "sharedTargetDisplayedPupilWidth": 20.0,
+      "uniformDisplayScale": 0.5555555555555556,
+      "upscale": false,
+      "perFrameBboxFit": false,
+      "sharedVisualPivotPixels": [
+        352,
+        320
+      ],
+      "sharedVisualPivotNormalized": [
+        0.55,
+        0.5
+      ],
+      "displayBodyMaxPixels": [
+        237.7777777777778,
+        158.88888888888889
+      ],
+      "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+    }
+  },
+  "qa": {
+    "nativeBodyBoxAlpha16": [
+      18,
+      74,
+      435,
+      360
+    ],
+    "nativeVisibleSize": [
+      417,
+      286
+    ],
+    "rawCellEdgeMaxAlpha": 4,
+    "nominalGridEdgeMaxAlpha": 4,
+    "registeredBoxAlpha16": [
+      105,
+      190,
+      522,
+      476
+    ],
+    "registeredMarginsFraction": [
+      0.1640625,
+      0.296875,
+      0.184375,
+      0.25625
+    ],
+    "finalMargin12PercentPassed": true,
+    "pupilComponent": {
+      "area": 474,
+      "bbox": [
+        247,
+        193,
+        284,
+        216
+      ],
+      "centroid": [
+        264.87130801687766,
+        204.28902953586498
+      ]
+    },
+    "actualSourceViewedByProducer": true,
+    "loopOrRecoveryAccepted": false,
+    "targetClientAccepted": false
+  }
+}

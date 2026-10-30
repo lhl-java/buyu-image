@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/motion-frames-v1/13-yunwengui/swim/13-yunwengui-swim-v2.png",
+  "sha256": "2d5539b371bf220646d6b965d8ef8b965bb3e156a65638e5ee3a3d4fd54ef0e0",
+  "generatedAt": "2026-10-28T14:50:45.690Z",
+  "startedAt": "2026-10-28T14:42:40.810Z",
+  "width": 1774,
+  "height": 887,
+  "format": "PNG",
+  "pixelFormat": "Format32bppArgb",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-28",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "builtin_evidence": {
+      "model_parameter_exposed": false,
+      "quality_parameter_exposed": false,
+      "actual_model": null,
+      "actual_quality": null,
+      "note": "Configuration targets only; verify actual model and quality per generated image."
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\buyu-image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\buyu-image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "D:\\work\\buyu-image\\assets\\fish\\batch-3\\13-yunwengui.png",
+      "D:\\work\\buyu-image\\designs\\motion-frames-v1\\13-yunwengui\\swim\\13-yunwengui-swim.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具未开放 model/quality 参数，本次结果未披露实际型号及质量。",
+  "evidence": {
+    "toolResult": "13-yunwengui-swim-v2.tool-result.txt",
+    "sourceOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a18291-7f9d-7081-8ee8-2bec0f32ff89\\exec-15b917da-3d15-49cf-96ed-6f0e1586e57c.png",
+    "toolResultId": "exec-15b917da-3d15-49cf-96ed-6f0e1586e57c",
+    "request": "13-yunwengui-swim-v2.request.json"
+  },
+  "prompt": "13-yunwengui-swim-v2.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "assets/fish/batch-3/13-yunwengui.png",
+      "sha256": "2bd716b768184bb6f06c248c2fc84ac8e99325426602660e1892349d46b71d36",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/motion-frames-v1/13-yunwengui/swim/13-yunwengui-swim.png",
+      "sha256": "5b25c51f16fd7a05eefd625dd0d3c980c741fd8e4a76b4c2f8e7b3fb29e70846",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    }
+  ],
+  "requestedCanvasInPrompt": "4x2 true-alpha native action frame sheet; requested native margins/registration need measurement",
+  "resampled": false,
+  "status": "draft_pending_user_review",
+  "visualReview": "实际查看：8姿势近前鳍的展开/折叠差异改善，龟壳与脸身份保持；仍需测源格留白、头/壳位移及实际相位顺序，未称动画已验收。",
+  "scope": "AI corrected turtle action sheet: containment and distinct articulated flipper phases"
+}

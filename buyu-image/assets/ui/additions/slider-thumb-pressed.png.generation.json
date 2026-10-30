@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "slider-thumb-pressed",
+  "name": "太极滑块按下",
+  "file": "assets/ui/additions/slider-thumb-pressed.png",
+  "sha256": "149de357b7a50e1d59dedf99c86ed16952d5bc24c6c6b2d2304ef9ab71693094",
+  "width": 387,
+  "height": 384,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/production-v2/hud-additions/hud-additions.png",
+  "derivedFrom": [
+    {
+      "file": "designs/production-v2/hud-additions/hud-additions.png",
+      "sha256": "baad327fa2a0660f8c3f07d94d87f4a054811e5ae9cb676ee6cb29c015dc9932",
+      "generationRecord": "designs/production-v2/hud-additions/hud-additions.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_ownership_crop",
+    "grid": {
+      "rows": 1,
+      "cols": 3
+    },
+    "sourceRect": [
+      1450,
+      0,
+      2172,
+      724
+    ],
+    "cellCropRect": [
+      135,
+      188,
+      522,
+      572
+    ],
+    "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+    "resized": false,
+    "upscaled": false
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "displaySize": [
+    48,
+    48
+  ],
+  "status": "prepared_pending_visual_review",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source generation record; no new model call for this slice."
+}

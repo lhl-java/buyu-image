@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-28T20:45:46.824639+00:00",
+  "status": "static_candidate_review_only",
+  "rootActuallyViewed": [
+    {
+      "action": "34-jinlongli/swim",
+      "contact": "tmp/art-qa/34-jinlongli-swim-registered-light.jpg",
+      "review": "Root actually viewed complete eight-frame light-matte contact; silhouette, identity, genuine tail/fin changes and absence of rectangular backing inspected. Playback not performed."
+    },
+    {
+      "action": "34-jinlongli/capture",
+      "contact": "tmp/art-qa/34-jinlongli-capture-registered-light.jpg",
+      "review": "Root actually viewed complete eight-frame light-matte contact; silhouette, identity, genuine tail/fin changes and absence of rectangular backing inspected. Playback not performed."
+    },
+    {
+      "action": "35-longwang/swim",
+      "contact": "tmp/art-qa/35-longwang-swim-registered-light.jpg",
+      "review": "Root actually viewed complete eight-frame light-matte contact; silhouette, identity, genuine tail/fin changes and absence of rectangular backing inspected. Playback not performed."
+    },
+    {
+      "action": "35-longwang/capture",
+      "contact": "tmp/art-qa/35-longwang-capture-registered-light.jpg",
+      "review": "Root actually viewed complete eight-frame light-matte contact; silhouette, identity, genuine tail/fin changes and absence of rectangular backing inspected. Playback not performed."
+    },
+    {
+      "action": "36-xuanjing/swim",
+      "contact": "tmp/art-qa/36-xuanjing-swim-registered-light.jpg",
+      "review": "Root actually viewed complete eight-frame light-matte contact; silhouette, identity, genuine tail/fin changes and absence of rectangular backing inspected. Playback not performed."
+    },
+    {
+      "action": "36-xuanjing/capture",
+      "contact": "tmp/art-qa/36-xuanjing-capture-registered-light.jpg",
+      "review": "Root actually viewed complete eight-frame light-matte contact; silhouette, identity, genuine tail/fin changes and absence of rectangular backing inspected. Playback not performed."
+    },
+    {
+      "action": "dao-child/point",
+      "contact": "tmp/dao-child-export/point-registered-review.png",
+      "review": "Root actually viewed all eight frames on light and dark mattes. Feet registration, clothing identity, arm count and source-half body density inspected; no motion approval inferred."
+    },
+    {
+      "action": "dao-child/celebrate",
+      "contact": "tmp/dao-child-export/celebrate-registered-review.png",
+      "review": "Root actually viewed all eight frames on light and dark mattes. Feet registration, clothing identity, arm count and source-half body density inspected; no motion approval inferred."
+    }
+  ],
+  "independentReadOnlyReview": {
+    "actions": [
+      "06-haima/capture",
+      "09-caidie/swim",
+      "13-yunwengui/swim",
+      "27-yingguang/capture",
+      "31-bingjing/capture",
+      "33-xuanwu/capture"
+    ],
+    "result": "No decisive static missing limb, true silhouette truncation or gross style replacement identified. Actual playback remains required."
+  },
+  "priorityPlaybackChecks": [
+    {
+      "action": "09-caidie/swim",
+      "frames": [
+        "03->04",
+        "07->00"
+      ],
+      "observation": "Face width and dark band contour change; prioritize actual playback to distinguish head turn from identity jitter."
+    },
+    {
+      "action": "13-yunwengui/swim",
+      "frames": [
+        "03->04",
+        "07->00"
+      ],
+      "observation": "Front-flipper phase span, small neck/shell changes and rough stroke differences require actual loop inspection."
+    },
+    {
+      "action": "06-haima/capture",
+      "frames": [
+        "07"
+      ],
+      "observation": "Eye expression changes; static contact shows eye remains present. Playback recovery remains pending."
+    },
+    {
+      "action": "31-bingjing/capture",
+      "frames": [
+        "03",
+        "04"
+      ],
+      "observation": "Closed-eyelid proxies are not open-pupil density measurements."
+    },
+    {
+      "action": "33-xuanwu/capture",
+      "frames": [
+        "03",
+        "04"
+      ],
+      "observation": "Head retraction/occlusion and closed eye need root and recovery playback, not automatic bbox rescaling."
+    }
+  ],
+  "actualPlaybackRun": false,
+  "UnityImportRun": false,
+  "releaseReadyActions": 0,
+  "gameArtComplete": false,
+  "sourcePixelsChanged": false
+}

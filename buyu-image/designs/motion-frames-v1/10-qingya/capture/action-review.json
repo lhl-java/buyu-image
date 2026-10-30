@@ -1,0 +1,206 @@
+{
+  "source": "designs/motion-frames-v1/10-qingya/capture/10-qingya-capture-v1.png",
+  "sourceSHA256": "3a8aafd2290b792b5e9a010fb69c3ce176b828013a5548abc67b27eb24dffc9e",
+  "action": "capture",
+  "registeredAt": "2026-10-28T18:27:28.168372+00:00",
+  "sharedCanvas": [
+    736,
+    736
+  ],
+  "rootPixels": [
+    368,
+    368
+  ],
+  "eyePixels": [
+    463,
+    338
+  ],
+  "registration": [
+    {
+      "frame": 0,
+      "pupil": [
+        342,
+        132
+      ],
+      "registeredPupil": [
+        463,
+        338
+      ],
+      "offset": [
+        121,
+        206
+      ],
+      "minMargin": 0.17527173913043478,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 1,
+      "pupil": [
+        372,
+        157
+      ],
+      "registeredPupil": [
+        463,
+        338
+      ],
+      "offset": [
+        91,
+        181
+      ],
+      "minMargin": 0.13451086956521738,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 2,
+      "pupil": [
+        328,
+        165
+      ],
+      "registeredPupil": [
+        463,
+        338
+      ],
+      "offset": [
+        135,
+        173
+      ],
+      "minMargin": 0.19429347826086957,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 3,
+      "pupil": [
+        340,
+        118
+      ],
+      "registeredPupil": [
+        463,
+        338
+      ],
+      "offset": [
+        123,
+        220
+      ],
+      "minMargin": 0.17798913043478262,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 4,
+      "pupil": [
+        336,
+        142
+      ],
+      "registeredPupil": [
+        463,
+        338
+      ],
+      "offset": [
+        127,
+        196
+      ],
+      "minMargin": 0.18342391304347827,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 5,
+      "pupil": [
+        361,
+        122
+      ],
+      "registeredPupil": [
+        463,
+        338
+      ],
+      "offset": [
+        102,
+        216
+      ],
+      "minMargin": 0.14945652173913043,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 6,
+      "pupil": [
+        332,
+        117
+      ],
+      "registeredPupil": [
+        463,
+        338
+      ],
+      "offset": [
+        131,
+        221
+      ],
+      "minMargin": 0.18885869565217392,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 7,
+      "pupil": [
+        337,
+        122
+      ],
+      "registeredPupil": [
+        463,
+        338
+      ],
+      "offset": [
+        126,
+        216
+      ],
+      "minMargin": 0.18206521739130435,
+      "pixelRoundTrip": true
+    }
+  ],
+  "uniformScale": 0.28169014084507044,
+  "sourceMarginWarnings": [
+    {
+      "frame": 0,
+      "actual": 0.02252252252252252,
+      "required": 0.12
+    },
+    {
+      "frame": 1,
+      "actual": 0.0,
+      "required": 0.12
+    },
+    {
+      "frame": 2,
+      "actual": 0.0,
+      "required": 0.12
+    },
+    {
+      "frame": 3,
+      "actual": 0.018018018018018018,
+      "required": 0.12
+    },
+    {
+      "frame": 4,
+      "actual": 0.02027027027027027,
+      "required": 0.12
+    },
+    {
+      "frame": 5,
+      "actual": 0.0,
+      "required": 0.12
+    },
+    {
+      "frame": 6,
+      "actual": 0.0,
+      "required": 0.12
+    },
+    {
+      "frame": 7,
+      "actual": 0.02252252252252252,
+      "required": 0.12
+    }
+  ],
+  "runtimeWarnings": [],
+  "producerVisualNote": "Green/gold scale rings and white fangs retained; tail S-wave and pectoral folds, captured posterior C-flex. Actual native/pupil ROI inspected. Root visual and Unity playback pending.",
+  "registeredContactVisual": "producer_actually_viewed_light_dark_and_display_rest_comparison",
+  "identityAndMotion": "pending_root_visual",
+  "playback": "pending_Unity",
+  "references": "designs/motion-frames-v1/10-qingya/swim/10-qingya-swim-v1.png",
+  "rootVisual": "pending"
+}

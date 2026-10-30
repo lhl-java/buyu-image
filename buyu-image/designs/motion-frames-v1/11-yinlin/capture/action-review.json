@@ -1,0 +1,206 @@
+{
+  "source": "designs/motion-frames-v1/11-yinlin/capture/11-yinlin-capture-v1.png",
+  "sourceSHA256": "dfb1785234ed10ab4c99f4ece5429042b76f3ea5e154114a29721259d46fe212",
+  "action": "capture",
+  "registeredAt": "2026-10-28T18:27:29.309773+00:00",
+  "sharedCanvas": [
+    640,
+    640
+  ],
+  "rootPixels": [
+    320,
+    320
+  ],
+  "eyePixels": [
+    440,
+    300
+  ],
+  "registration": [
+    {
+      "frame": 0,
+      "pupil": [
+        351,
+        108
+      ],
+      "registeredPupil": [
+        440,
+        300
+      ],
+      "offset": [
+        89,
+        192
+      ],
+      "minMargin": 0.1515625,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 1,
+      "pupil": [
+        365,
+        117
+      ],
+      "registeredPupil": [
+        440,
+        300
+      ],
+      "offset": [
+        75,
+        183
+      ],
+      "minMargin": 0.1296875,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 2,
+      "pupil": [
+        314,
+        162
+      ],
+      "registeredPupil": [
+        440,
+        300
+      ],
+      "offset": [
+        126,
+        138
+      ],
+      "minMargin": 0.209375,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 3,
+      "pupil": [
+        342,
+        82
+      ],
+      "registeredPupil": [
+        440,
+        300
+      ],
+      "offset": [
+        98,
+        218
+      ],
+      "minMargin": 0.165625,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 4,
+      "pupil": [
+        341,
+        111
+      ],
+      "registeredPupil": [
+        440,
+        300
+      ],
+      "offset": [
+        99,
+        189
+      ],
+      "minMargin": 0.1671875,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 5,
+      "pupil": [
+        357,
+        92
+      ],
+      "registeredPupil": [
+        440,
+        300
+      ],
+      "offset": [
+        83,
+        208
+      ],
+      "minMargin": 0.1421875,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 6,
+      "pupil": [
+        343,
+        89
+      ],
+      "registeredPupil": [
+        440,
+        300
+      ],
+      "offset": [
+        97,
+        211
+      ],
+      "minMargin": 0.1640625,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 7,
+      "pupil": [
+        360,
+        90
+      ],
+      "registeredPupil": [
+        440,
+        300
+      ],
+      "offset": [
+        80,
+        210
+      ],
+      "minMargin": 0.1375,
+      "pixelRoundTrip": true
+    }
+  ],
+  "uniformScale": 0.3069053708439898,
+  "sourceMarginWarnings": [
+    {
+      "frame": 0,
+      "actual": 0.018018018018018018,
+      "required": 0.12
+    },
+    {
+      "frame": 1,
+      "actual": 0.004514672686230248,
+      "required": 0.12
+    },
+    {
+      "frame": 2,
+      "actual": 0.060948081264108354,
+      "required": 0.12
+    },
+    {
+      "frame": 3,
+      "actual": 0.02702702702702703,
+      "required": 0.12
+    },
+    {
+      "frame": 4,
+      "actual": 0.015765765765765764,
+      "required": 0.12
+    },
+    {
+      "frame": 5,
+      "actual": 0.006772009029345372,
+      "required": 0.12
+    },
+    {
+      "frame": 6,
+      "actual": 0.056433408577878104,
+      "required": 0.12
+    },
+    {
+      "frame": 7,
+      "actual": 0.018018018018018018,
+      "required": 0.12
+    }
+  ],
+  "runtimeWarnings": [],
+  "producerVisualNote": "Slim silver/blue gradient identity retained; fork-tail sweeps up/down and pectoral shape changes, capture curl then loose tail. Actual native/pupil ROI inspected. Root visual and Unity playback pending.",
+  "registeredContactVisual": "producer_actually_viewed_light_dark_and_display_rest_comparison",
+  "identityAndMotion": "pending_root_visual",
+  "playback": "pending_Unity",
+  "references": "designs/motion-frames-v1/11-yinlin/swim/11-yinlin-swim-v1.png",
+  "rootVisual": "pending"
+}

@@ -1,0 +1,87 @@
+{
+  "source": "designs/production-v1/fx-net/fx-net.png",
+  "output": "assets/fx/fx-net",
+  "rows": 4,
+  "cols": 4,
+  "items": [
+    {
+      "id": "frame-00",
+      "name": "fx-net 0"
+    },
+    {
+      "id": "frame-01",
+      "name": "fx-net 1"
+    },
+    {
+      "id": "frame-02",
+      "name": "fx-net 2"
+    },
+    {
+      "id": "frame-03",
+      "name": "fx-net 3"
+    },
+    {
+      "id": "frame-04",
+      "name": "fx-net 4"
+    },
+    {
+      "id": "frame-05",
+      "name": "fx-net 5"
+    },
+    {
+      "id": "frame-06",
+      "name": "fx-net 6"
+    },
+    {
+      "id": "frame-07",
+      "name": "fx-net 7"
+    },
+    {
+      "id": "frame-08",
+      "name": "fx-net 8"
+    },
+    {
+      "id": "frame-09",
+      "name": "fx-net 9"
+    },
+    {
+      "id": "frame-10",
+      "name": "fx-net 10"
+    },
+    {
+      "id": "frame-11",
+      "name": "fx-net 11"
+    },
+    {
+      "id": "frame-12",
+      "name": "fx-net 12"
+    },
+    {
+      "id": "frame-13",
+      "name": "fx-net 13"
+    },
+    {
+      "id": "frame-14",
+      "name": "fx-net 14"
+    },
+    {
+      "id": "frame-15",
+      "name": "fx-net 15"
+    }
+  ],
+  "keepCell": true,
+  "displaySize": [
+    192,
+    192
+  ],
+  "animation": {
+    "fps": 16,
+    "loop": false,
+    "order": "row-major",
+    "frames": 16,
+    "root": [
+      0.5,
+      0.5
+    ]
+  }
+}

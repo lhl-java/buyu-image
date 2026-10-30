@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-04",
+  "name": "15-lanray swim 4",
+  "file": "assets/animations/15-lanray/swim/frame-04.png",
+  "sha256": "28f70169ca45c30bfdc43d237d0936aef9e7d93d0bd0e6fbb61fe9c26f6488b4",
+  "width": 844,
+  "height": 844,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/motion-frames-v1/15-lanray/swim/15-lanray-swim-v2.png",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/15-lanray/swim/15-lanray-swim-v2.png",
+      "sha256": "9631272a800b599a554e04f717ee0255da9332b396b73fa2128cf4e04a590a61",
+      "generationRecord": "designs/motion-frames-v1/15-lanray/swim/15-lanray-swim-v2.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+    "nominalGrid": {
+      "cols": 4,
+      "rows": 2
+    },
+    "nominalGridRect": [
+      0,
+      444,
+      444,
+      887
+    ],
+    "sourceRect": [
+      70,
+      506,
+      409,
+      787
+    ],
+    "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+    "ownershipPixelCount": 34097,
+    "alphaCleanup": "Only alpha<=3 set to0",
+    "resized": false,
+    "upscaled": false,
+    "rotated": false,
+    "registrationOffset": [
+      327,
+      200
+    ],
+    "registeredCanvas": [
+      844,
+      844
+    ],
+    "registrationReference": {
+      "type": "largest round dark eye component inside fixed local head ROI; manually review landmark contact",
+      "sourcePointGlobal": [
+        332.9174041297935,
+        655.7197640117994
+      ],
+      "sourcePointLocal": [
+        262.9174041297935,
+        149.71976401179938
+      ],
+      "targetPoint": [
+        590,
+        350
+      ],
+      "rounding": "nearest integer",
+      "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+    },
+    "sourcePixelsRoundTripVerified": true,
+    "newNativeDetailClaimed": false
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "rootPixels": [
+    422,
+    422
+  ],
+  "landmarkPixels": [
+    590,
+    350
+  ],
+  "registeredAlphaBBox": [
+    327,
+    200,
+    666,
+    481
+  ],
+  "registeredMinMargin": 0.2109004739336493,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+  "animation": {
+    "id": "15-lanray/swim",
+    "frames": 8,
+    "fps": 12,
+    "loop": true,
+    "order": "row-major",
+    "durationsMs": [
+      83,
+      84,
+      83,
+      83,
+      84,
+      83,
+      83,
+      84
+    ],
+    "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+    "root": [
+      0.5,
+      0.5
+    ],
+    "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+    "identityStatus": "pending_root_visual",
+    "motionStatus": "pending_root_visual",
+    "loopVisualStatus": "pending_root_playback",
+    "sourceRoute": "builtin_native_AI_sheet_user_requested"
+  },
+  "status": "producer_candidate_pending_root_registered_review",
+  "targetBodyBox": [
+    180,
+    130
+  ],
+  "uniformDisplayScale": 0.483271375464684,
+  "displaySize": [
+    407.8810408921933,
+    407.8810408921933
+  ],
+  "bodyDisplayBox": [
+    180,
+    130
+  ],
+  "displaySizing": {
+    "preserveAspect": true,
+    "uniformScaleAcrossAction": true,
+    "upscalingAllowed": false
+  },
+  "displayScaleReference": {
+    "restNativeVisibleBox": [
+      331,
+      269
+    ],
+    "fitMaxBox": [
+      180,
+      130
+    ],
+    "method": "one rest-frame solid anatomical silhouette scale reused for all8frames",
+    "upscaling": false
+  }
+}

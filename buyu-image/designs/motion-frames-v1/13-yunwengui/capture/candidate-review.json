@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "manifest": "assets/animations/13-yunwengui/capture/manifest.json",
+  "source": "designs/motion-frames-v1/13-yunwengui/capture/13-yunwengui-capture.png",
+  "status": "producer_candidate_pending_root_registered_review",
+  "actualVisualObservation": "Swimming foreflippers open during0–3 and fold during4–7; capture pulls fins toward body then recoils and settles. Existing3→4/7→0 swim transition and head/shell shape drift remain unpassed. No live playback approval.",
+  "warnings": [
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 0,
+      "actual": 0.02927927927927928,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 1,
+      "actual": 0.004514672686230248,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 2,
+      "actual": 0.01805869074492099,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 3,
+      "actual": 0.04279279279279279,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 4,
+      "actual": 0.02702702702702703,
+      "required": 0.12
+    },
+    {
+      "id": "nominal_grid_cross",
+      "frame": 5,
+      "edgeMaxAlpha": 57,
+      "note": "Ownership extraction used; nominal grid crossing alone is not a physical clip."
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 5,
+      "actual": 0.0,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 6,
+      "actual": 0.024830699774266364,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 7,
+      "actual": 0.036036036036036036,
+      "required": 0.12
+    },
+    {
+      "id": "generated_core_shape_and_motion_pending_review",
+      "note": "Swimming foreflippers open during0–3 and fold during4–7; capture pulls fins toward body then recoils and settles. Existing3→4/7→0 swim transition and head/shell shape drift remain unpassed. No live playback approval."
+    },
+    {
+      "id": "playback_unverified",
+      "note": "No live loop/single-shot playback during local heavy-job hold; distinct hashes are not motion evidence."
+    }
+  ],
+  "sourceOwnership": {
+    "alphaThreshold": 3,
+    "sourcePixels": 463964,
+    "exportedPixels": 463964,
+    "duplicatePixels": 0,
+    "lostPixels": 0,
+    "rgbAndAlphaForOwnedPixelsUnchanged": true
+  },
+  "fps": 12,
+  "durationsMs": [
+    83,
+    84,
+    83,
+    83,
+    84,
+    83,
+    83,
+    84
+  ],
+  "loop": false,
+  "noResamplingOrUpscaling": true,
+  "eyeNativeBoxSizes": [
+    [
+      34,
+      29
+    ],
+    [
+      34,
+      31
+    ],
+    [
+      34,
+      27
+    ],
+    [
+      33,
+      29
+    ],
+    [
+      35,
+      31
+    ],
+    [
+      34,
+      30
+    ],
+    [
+      34,
+      30
+    ],
+    [
+      34,
+      30
+    ]
+  ],
+  "testsBrowserAtlasUnityRun": false,
+  "reviewedAt": "2026-10-28T20:08:34.651768+00:00",
+  "sourceSheetActuallyInspected": true,
+  "registeredLightAndDarkActuallyInspected": true,
+  "inspectionType": "static contact sheets, actual generated source and actual exported alpha-composited frames",
+  "lightContact": "designs/motion-frames-v1/13-yunwengui/capture/registered-light.jpg",
+  "darkContact": "designs/motion-frames-v1/13-yunwengui/capture/registered-dark.jpg",
+  "observedArticulation": "Swimming foreflippers open during0–3 and fold during4–7; capture pulls fins toward body then recoils and settles. Existing3→4/7→0 swim transition and head/shell shape drift remain unpassed. No live playback approval.",
+  "edgeObservation": "The registered light and dark contacts show complete separate poses without an opaque rectangle or another frame fragment. Source grid / margin warnings are retained.",
+  "livePlaybackActuallyRun": false,
+  "finalArtApproval": false,
+  "inspectedAt": "2026-10-28T20:08:34.651768+00:00"
+}

@@ -1,0 +1,755 @@
+{
+  "schemaVersion": 1,
+  "id": "fx-guard",
+  "checkedAt": "2026-10-28T07:56:13.294455-04:00",
+  "source": "designs/production-v2/fx-guard/fx-guard-contained.png",
+  "sourceSha256": "b98d15447f621408dfb397bbdb83218c8b52ae0b8874454e3943d1973311a5c4",
+  "nativeSourceSize": [
+    1254,
+    1254
+  ],
+  "frames": 16,
+  "uniqueFrameCount": 16,
+  "sharedCanvas": [
+    394,
+    394
+  ],
+  "animation": {
+    "fps": 16,
+    "loop": false,
+    "order": "row-major",
+    "frames": 16,
+    "root": [
+      0.5,
+      0.5
+    ],
+    "durationMs": 1000,
+    "role": "cast_release_one_shot"
+  },
+  "allMarginsMinimum": 0.07987220447284345,
+  "runtimeMarginsMinimum": 0.16751269035532995,
+  "peakAlphaSumFrame": 6,
+  "measurements": [
+    {
+      "frame": 0,
+      "sourceRect": [
+        0,
+        0,
+        314,
+        314
+      ],
+      "nativeExportSize": [
+        394,
+        394
+      ],
+      "alphaRange": [
+        0,
+        252
+      ],
+      "boundsAboveAlpha3": [
+        115,
+        128,
+        224,
+        229
+      ],
+      "marginRatios": [
+        0.3662420382165605,
+        0.40764331210191085,
+        0.28662420382165604,
+        0.27070063694267515
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        155,
+        168,
+        264,
+        269
+      ],
+      "runtimeMarginRatios": [
+        0.3934010152284264,
+        0.4263959390862944,
+        0.3299492385786802,
+        0.31725888324873097
+      ],
+      "alphaSum": 903568,
+      "sha256": "f1d86898d00f49e1ba8e193b71ac8553d99a5423497724b1a6890e54e68b8954"
+    },
+    {
+      "frame": 1,
+      "sourceRect": [
+        314,
+        0,
+        627,
+        314
+      ],
+      "nativeExportSize": [
+        394,
+        394
+      ],
+      "alphaRange": [
+        0,
+        253
+      ],
+      "boundsAboveAlpha3": [
+        78,
+        109,
+        233,
+        255
+      ],
+      "marginRatios": [
+        0.24920127795527156,
+        0.3471337579617834,
+        0.25559105431309903,
+        0.18789808917197454
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        118,
+        149,
+        273,
+        295
+      ],
+      "runtimeMarginRatios": [
+        0.29949238578680204,
+        0.37817258883248733,
+        0.30710659898477155,
+        0.2512690355329949
+      ],
+      "alphaSum": 2864938,
+      "sha256": "c8d704c7f4805ae6e2565346923bf6de63051b6de17ee840b502cf09df2ad040"
+    },
+    {
+      "frame": 2,
+      "sourceRect": [
+        627,
+        0,
+        940,
+        314
+      ],
+      "nativeExportSize": [
+        394,
+        394
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "boundsAboveAlpha3": [
+        67,
+        103,
+        235,
+        257
+      ],
+      "marginRatios": [
+        0.21405750798722045,
+        0.32802547770700635,
+        0.24920127795527156,
+        0.18152866242038215
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        107,
+        143,
+        275,
+        297
+      ],
+      "runtimeMarginRatios": [
+        0.2715736040609137,
+        0.3629441624365482,
+        0.3020304568527919,
+        0.24619289340101522
+      ],
+      "alphaSum": 3539666,
+      "sha256": "0ef4baa7adbe5990dbbb867c896db56253688d7c34b27fd98768328860f711b0"
+    },
+    {
+      "frame": 3,
+      "sourceRect": [
+        940,
+        0,
+        1254,
+        314
+      ],
+      "nativeExportSize": [
+        394,
+        394
+      ],
+      "alphaRange": [
+        0,
+        253
+      ],
+      "boundsAboveAlpha3": [
+        50,
+        89,
+        255,
+        273
+      ],
+      "marginRatios": [
+        0.1592356687898089,
+        0.28343949044585987,
+        0.18789808917197454,
+        0.1305732484076433
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        90,
+        129,
+        295,
+        313
+      ],
+      "runtimeMarginRatios": [
+        0.22842639593908629,
+        0.32741116751269034,
+        0.2512690355329949,
+        0.20558375634517767
+      ],
+      "alphaSum": 5788976,
+      "sha256": "8a3f475aed0a4e91f0c7a6c8bb04712ba998e61996251266517a1fc6120d6bf5"
+    },
+    {
+      "frame": 4,
+      "sourceRect": [
+        0,
+        314,
+        314,
+        627
+      ],
+      "nativeExportSize": [
+        394,
+        394
+      ],
+      "alphaRange": [
+        0,
+        253
+      ],
+      "boundsAboveAlpha3": [
+        61,
+        78,
+        263,
+        272
+      ],
+      "marginRatios": [
+        0.1942675159235669,
+        0.24920127795527156,
+        0.1624203821656051,
+        0.13099041533546327
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        101,
+        118,
+        303,
+        312
+      ],
+      "runtimeMarginRatios": [
+        0.2563451776649746,
+        0.29949238578680204,
+        0.23096446700507614,
+        0.20812182741116753
+      ],
+      "alphaSum": 6527796,
+      "sha256": "7f9c9ee0f832e869e2565acc84cfe6c2d7a99f53e1b56837765e8e1dcf206011"
+    },
+    {
+      "frame": 5,
+      "sourceRect": [
+        314,
+        314,
+        627,
+        627
+      ],
+      "nativeExportSize": [
+        394,
+        394
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "boundsAboveAlpha3": [
+        63,
+        68,
+        262,
+        277
+      ],
+      "marginRatios": [
+        0.2012779552715655,
+        0.21725239616613418,
+        0.16293929712460065,
+        0.11501597444089456
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        103,
+        108,
+        302,
+        317
+      ],
+      "runtimeMarginRatios": [
+        0.2614213197969543,
+        0.27411167512690354,
+        0.233502538071066,
+        0.19543147208121828
+      ],
+      "alphaSum": 6592905,
+      "sha256": "a6e01e61c86d1e86867b6762e76c234a87c6cc60c3d6ed5d1c584d703045fd3c"
+    },
+    {
+      "frame": 6,
+      "sourceRect": [
+        627,
+        314,
+        940,
+        627
+      ],
+      "nativeExportSize": [
+        394,
+        394
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "boundsAboveAlpha3": [
+        47,
+        56,
+        263,
+        288
+      ],
+      "marginRatios": [
+        0.1501597444089457,
+        0.17891373801916932,
+        0.1597444089456869,
+        0.07987220447284345
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        87,
+        96,
+        303,
+        328
+      ],
+      "runtimeMarginRatios": [
+        0.22081218274111675,
+        0.2436548223350254,
+        0.23096446700507614,
+        0.16751269035532995
+      ],
+      "alphaSum": 8240008,
+      "sha256": "0ad5a3d8cdb177b1d82d254ae290fe3f6367e009af478e43d4976e543bc2c9f8"
+    },
+    {
+      "frame": 7,
+      "sourceRect": [
+        940,
+        314,
+        1254,
+        627
+      ],
+      "nativeExportSize": [
+        394,
+        394
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "boundsAboveAlpha3": [
+        57,
+        71,
+        262,
+        269
+      ],
+      "marginRatios": [
+        0.18152866242038215,
+        0.2268370607028754,
+        0.16560509554140126,
+        0.14057507987220447
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        97,
+        111,
+        302,
+        309
+      ],
+      "runtimeMarginRatios": [
+        0.24619289340101522,
+        0.2817258883248731,
+        0.233502538071066,
+        0.21573604060913706
+      ],
+      "alphaSum": 7071439,
+      "sha256": "f8c6d87365424b8a17990df08358f18ec26bad7df67671514f2de1b04573af64"
+    },
+    {
+      "frame": 8,
+      "sourceRect": [
+        0,
+        627,
+        314,
+        940
+      ],
+      "nativeExportSize": [
+        394,
+        394
+      ],
+      "alphaRange": [
+        0,
+        253
+      ],
+      "boundsAboveAlpha3": [
+        59,
+        72,
+        273,
+        269
+      ],
+      "marginRatios": [
+        0.18789808917197454,
+        0.23003194888178913,
+        0.1305732484076433,
+        0.14057507987220447
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        99,
+        112,
+        313,
+        309
+      ],
+      "runtimeMarginRatios": [
+        0.2512690355329949,
+        0.28426395939086296,
+        0.20558375634517767,
+        0.21573604060913706
+      ],
+      "alphaSum": 6586040,
+      "sha256": "eaad87f37ecaa011ac7a66d757338e17ea2605870348f40c5b6cf44132b3dc8d"
+    },
+    {
+      "frame": 9,
+      "sourceRect": [
+        314,
+        627,
+        627,
+        940
+      ],
+      "nativeExportSize": [
+        394,
+        394
+      ],
+      "alphaRange": [
+        0,
+        253
+      ],
+      "boundsAboveAlpha3": [
+        61,
+        78,
+        277,
+        270
+      ],
+      "marginRatios": [
+        0.19488817891373802,
+        0.24920127795527156,
+        0.11501597444089456,
+        0.13738019169329074
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        101,
+        118,
+        317,
+        310
+      ],
+      "runtimeMarginRatios": [
+        0.2563451776649746,
+        0.29949238578680204,
+        0.19543147208121828,
+        0.2131979695431472
+      ],
+      "alphaSum": 5913985,
+      "sha256": "b05ed06dada121c5805c74c6c50c0fc87964d5c7fc89ccc43a8e0475b9d726a4"
+    },
+    {
+      "frame": 10,
+      "sourceRect": [
+        627,
+        627,
+        940,
+        940
+      ],
+      "nativeExportSize": [
+        394,
+        394
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "boundsAboveAlpha3": [
+        49,
+        76,
+        261,
+        271
+      ],
+      "marginRatios": [
+        0.15654952076677317,
+        0.24281150159744408,
+        0.16613418530351437,
+        0.134185303514377
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        89,
+        116,
+        301,
+        311
+      ],
+      "runtimeMarginRatios": [
+        0.22588832487309646,
+        0.29441624365482233,
+        0.23604060913705585,
+        0.21065989847715735
+      ],
+      "alphaSum": 5389926,
+      "sha256": "070f5abe0e341f76fd0835e7b3eca560d148471837781249154e5a6e0833b93d"
+    },
+    {
+      "frame": 11,
+      "sourceRect": [
+        940,
+        627,
+        1254,
+        940
+      ],
+      "nativeExportSize": [
+        394,
+        394
+      ],
+      "alphaRange": [
+        0,
+        253
+      ],
+      "boundsAboveAlpha3": [
+        71,
+        82,
+        256,
+        253
+      ],
+      "marginRatios": [
+        0.22611464968152867,
+        0.26198083067092653,
+        0.18471337579617833,
+        0.19169329073482427
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        111,
+        122,
+        296,
+        293
+      ],
+      "runtimeMarginRatios": [
+        0.2817258883248731,
+        0.3096446700507614,
+        0.24873096446700507,
+        0.2563451776649746
+      ],
+      "alphaSum": 3790702,
+      "sha256": "e85326bbbd6ed689239ead2904d3ff674185ca6cd5f5da6c60e8f0561d64ba9e"
+    },
+    {
+      "frame": 12,
+      "sourceRect": [
+        0,
+        940,
+        314,
+        1254
+      ],
+      "nativeExportSize": [
+        394,
+        394
+      ],
+      "alphaRange": [
+        0,
+        253
+      ],
+      "boundsAboveAlpha3": [
+        85,
+        78,
+        251,
+        231
+      ],
+      "marginRatios": [
+        0.27070063694267515,
+        0.2484076433121019,
+        0.20063694267515925,
+        0.2643312101910828
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        125,
+        118,
+        291,
+        271
+      ],
+      "runtimeMarginRatios": [
+        0.31725888324873097,
+        0.29949238578680204,
+        0.2614213197969543,
+        0.31218274111675126
+      ],
+      "alphaSum": 2642681,
+      "sha256": "c17bce5c28a906bf68ccfa5462250ef055970bd0aedc111429f135192aad8479"
+    },
+    {
+      "frame": 13,
+      "sourceRect": [
+        314,
+        940,
+        627,
+        1254
+      ],
+      "nativeExportSize": [
+        394,
+        394
+      ],
+      "alphaRange": [
+        0,
+        253
+      ],
+      "boundsAboveAlpha3": [
+        85,
+        83,
+        236,
+        221
+      ],
+      "marginRatios": [
+        0.2715654952076677,
+        0.2643312101910828,
+        0.24600638977635783,
+        0.2961783439490446
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        125,
+        123,
+        276,
+        261
+      ],
+      "runtimeMarginRatios": [
+        0.31725888324873097,
+        0.31218274111675126,
+        0.29949238578680204,
+        0.33756345177664976
+      ],
+      "alphaSum": 1800700,
+      "sha256": "e728e97bdd52d6ed1cfb79e5810d7a7d602f4df90601c2c89f684fd88005b589"
+    },
+    {
+      "frame": 14,
+      "sourceRect": [
+        627,
+        940,
+        940,
+        1254
+      ],
+      "nativeExportSize": [
+        394,
+        394
+      ],
+      "alphaRange": [
+        0,
+        251
+      ],
+      "boundsAboveAlpha3": [
+        82,
+        93,
+        225,
+        230
+      ],
+      "marginRatios": [
+        0.26198083067092653,
+        0.2961783439490446,
+        0.28115015974440893,
+        0.267515923566879
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        122,
+        133,
+        265,
+        270
+      ],
+      "runtimeMarginRatios": [
+        0.3096446700507614,
+        0.33756345177664976,
+        0.32741116751269034,
+        0.3147208121827411
+      ],
+      "alphaSum": 1191441,
+      "sha256": "56011c600ecb80604d0cc84887b406e919a54ff0a4a723295fdee50dafe4b2d6"
+    },
+    {
+      "frame": 15,
+      "sourceRect": [
+        940,
+        940,
+        1254,
+        1254
+      ],
+      "nativeExportSize": [
+        394,
+        394
+      ],
+      "alphaRange": [
+        0,
+        251
+      ],
+      "boundsAboveAlpha3": [
+        122,
+        124,
+        190,
+        197
+      ],
+      "marginRatios": [
+        0.3885350318471338,
+        0.39490445859872614,
+        0.39490445859872614,
+        0.37261146496815284
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        162,
+        164,
+        230,
+        237
+      ],
+      "runtimeMarginRatios": [
+        0.41116751269035534,
+        0.41624365482233505,
+        0.41624365482233505,
+        0.39847715736040606
+      ],
+      "alphaSum": 377090,
+      "sha256": "d57b4bc6622b870b859a877571e304658dfb3bbd715589ba2d8ac2524a7fdb7b"
+    }
+  ],
+  "manifestWarnings": [],
+  "sourceWarnings": [
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 5,
+      "value": 0.11501597444089456,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-guard/fx-guard-contained.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 6,
+      "value": 0.07987220447284345,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-guard/fx-guard-contained.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 9,
+      "value": 0.11501597444089456,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-guard/fx-guard-contained.png"
+    }
+  ],
+  "runtimeWarnings": [],
+  "sourceMarginContractPassed": false,
+  "runtimePaddingMarginPassed": true,
+  "numericPass": true,
+  "visualReviewStatus": "actual_light_dark_composites_reviewed_pending_runtime",
+  "runtimeIntegrationVerified": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "visualReview": "已实际查看原生源和最终16帧浅米白/深青Alpha合成：太极葫芦及云纹护罩出现、成罩、消散阶段明确，AI-contained修正后cell边告警为空。此为释放one-shot；源留白门禁仍有3帧未满足12%，统一padding后runtime通过，不冒充持续loop。"
+}

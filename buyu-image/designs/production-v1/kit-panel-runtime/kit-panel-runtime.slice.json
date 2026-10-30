@@ -1,0 +1,27 @@
+{
+  "cols": 1,
+  "keepCell": false,
+  "source": "designs/production-v1/kit-panel-runtime/kit-panel-runtime-v2.png",
+  "output": "assets/ui/runtime-panel",
+  "rows": 1,
+  "items": [
+    {
+      "name": "运行主窗框",
+      "displaySize": [
+        1120,
+        720
+      ],
+      "id": "panel-runtime",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sliceBorders": [
+        112,
+        104,
+        112,
+        104
+      ]
+    }
+  ]
+}

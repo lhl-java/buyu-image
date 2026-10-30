@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>灵海仙渔 · 道家 Q 版 UI 图集</title>
+  <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+  <header class="hero">
+    <img src="../assets/branding/linghai-xianyu-logo-v1.png" width="440" height="220" alt="灵海仙渔" style="display:block;width:min(440px,78vw);height:auto;margin:0 auto 20px">
+    <div class="eyebrow">道家 Q 版 · 全套界面</div>
+    <h1>灵海仙渔 UI 图集</h1>
+    <p>玉绿、米白与暖金，沿用 image 已确认成图的道家 Q 版手绘。</p>
+    <div class="progress" id="progress" aria-live="polite"></div>
+  </header>
+  <main>
+    <div class="toolbar">
+      <nav id="filters" aria-label="界面分类"></nav>
+      <label class="search"><span>查找界面</span><input id="search" type="search" placeholder="输入名称或编号" autocomplete="off"></label>
+    </div>
+    <div id="count" class="count" aria-live="polite"></div>
+    <section id="grid" class="grid" aria-label="UI 设计图"></section>
+    <p id="empty" class="empty" hidden>没有匹配的界面。</p>
+  </main>
+  <footer>整屏与状态设计图 · 点击查看原图 · ← → 切换 · Esc 关闭</footer>
+  <dialog id="viewer" aria-labelledby="viewer-title">
+    <div class="viewer-toolbar"><h2 id="viewer-title"></h2><button id="close" aria-label="关闭预览">×</button></div>
+    <div class="canvas"><img id="large" alt=""></div>
+    <div class="viewer-bottom">
+      <button id="previous">← 上一张</button><span id="dimensions"></span><button id="next">下一张 →</button>
+      <a id="original" target="_blank" rel="noopener">打开原图</a><a id="prompt" target="_blank" rel="noopener">提示词</a><a id="record" target="_blank" rel="noopener">来源记录</a>
+    </div>
+  </dialog>
+  <script src="gallery-data.js"></script>
+  <script src="gallery.js"></script>
+</body>
+</html>

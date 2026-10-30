@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-03",
+  "name": "海龙 capture 3",
+  "file": "assets/animations/29-hailong/capture/frame-03.png",
+  "sha256": "800448f08e3854cc1a6c461f930cc4247ff7278ed751326f9aca7f7450693898",
+  "width": 640,
+  "height": 640,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/motion-frames-v1/29-hailong/capture/29-hailong-capture.png",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/29-hailong/capture/29-hailong-capture.png",
+      "sha256": "bcef90dd36c6f68733a1caab314f6c486d2bbf632279e81ad46eadda11581a73",
+      "generationRecord": "designs/motion-frames-v1/29-hailong/capture/29-hailong-capture.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_grid_crop_integer_pupil_registration",
+    "grid": {
+      "rows": 2,
+      "cols": 4
+    },
+    "sourceRect": [
+      1330,
+      0,
+      1774,
+      444
+    ],
+    "registrationOffset": [
+      60,
+      94,
+      504,
+      538
+    ],
+    "registeredCanvas": [
+      640,
+      640
+    ],
+    "registrationReference": {
+      "type": "black_pupil_connected_component_centroid",
+      "sourcePointFloat": [
+        372.125,
+        161.88815789473685
+      ],
+      "sourcePointRounded": [
+        372,
+        162
+      ],
+      "targetPoint": [
+        432,
+        256
+      ],
+      "pupilBounds": [
+        356,
+        153,
+        386,
+        174
+      ],
+      "detectionRoi": [
+        315,
+        130,
+        390,
+        195
+      ],
+      "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+    },
+    "nominalGridRect": [
+      1330,
+      0,
+      1774,
+      444
+    ],
+    "sourceRectType": "nominal_grid",
+    "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+    "resized": false,
+    "upscaled": false,
+    "poseWarped": false,
+    "sourcePixelsRoundTripVerified": true,
+    "sourceBoundaryClippingAssessment": "only_alpha0_3_at_boundary"
+  },
+  "anchor": [
+    0.675,
+    0.4
+  ],
+  "status": "candidate_pending_root_visual_and_playback_review",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source record; this is a native derivative, not new generation.",
+  "animation": {
+    "id": "29-hailong/capture",
+    "frames": 8,
+    "fps": 12,
+    "loop": false,
+    "order": "row-major",
+    "root": [
+      0.675,
+      0.4
+    ],
+    "phase": 0.375,
+    "durationMs": 83,
+    "targetBodyBox": [
+      240,
+      180
+    ],
+    "displayCalibration": {
+      "status": "candidate_pending_root_visual_runtime_review",
+      "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+      "nativeMedianPupilWidth": 30.0,
+      "sharedTargetDisplayedPupilWidth": 14.301,
+      "uniformDisplayScale": 0.4767,
+      "upscale": false,
+      "perFrameBboxFit": false,
+      "sharedVisualPivotPixels": [
+        432,
+        256
+      ],
+      "sharedVisualPivotNormalized": [
+        0.675,
+        0.4
+      ],
+      "displayBodyMaxPixels": [
+        193.5402,
+        176.8557
+      ],
+      "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+    }
+  },
+  "qa": {
+    "nativeBodyBoxAlpha16": [
+      88,
+      42,
+      436,
+      396
+    ],
+    "nativeVisibleSize": [
+      348,
+      354
+    ],
+    "rawCellEdgeMaxAlpha": 2,
+    "nominalGridEdgeMaxAlpha": 2,
+    "registeredBoxAlpha16": [
+      148,
+      136,
+      496,
+      490
+    ],
+    "registeredMarginsFraction": [
+      0.23125,
+      0.2125,
+      0.225,
+      0.234375
+    ],
+    "finalMargin12PercentPassed": true,
+    "pupilComponent": {
+      "area": 304,
+      "bbox": [
+        356,
+        153,
+        386,
+        174
+      ],
+      "centroid": [
+        372.125,
+        161.88815789473685
+      ]
+    },
+    "actualSourceViewedByProducer": true,
+    "loopOrRecoveryAccepted": false,
+    "targetClientAccepted": false
+  }
+}

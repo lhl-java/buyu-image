@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-07",
+  "name": "玄海巨鲸怒态 8/8",
+  "file": "assets/animations/36-xuanjing/enrage/frame-07.png",
+  "sha256": "bb1027d0b314a419393d35fd28a7ca16441bfb75f67f200a5750236a9bcc59f0",
+  "width": 1000,
+  "height": 1000,
+  "format": "RGBA PNG",
+  "derivedAt": "2026-10-28T17:55:07.468524+00:00",
+  "nativeSource": "designs/motion-frames-v1/36-xuanjing/enrage/enrage-b-v1.png",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/36-xuanjing/enrage/enrage-b-v1.png",
+      "sha256": "d8bb1da4ac7d2d5276cc7eca6ff86f750a391cfad61f7a2d3c542a117229c62b",
+      "generationRecord": "designs/motion-frames-v1/36-xuanjing/enrage/enrage-b-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_extraction_integer_eye_registration_and_padding",
+    "extraction": {
+      "type": "complete_native_actor_ownership",
+      "report": "designs/motion-frames-v1/36-xuanjing/enrage/extract-b.json",
+      "sourceRect": [
+        657,
+        764,
+        1224,
+        1113
+      ],
+      "evidence": {
+        "sourceFrame": 3,
+        "file": "designs/motion-frames-v1/36-xuanjing/enrage/extract-b-pose-03.png",
+        "sourceRect": [
+          657,
+          764,
+          1224,
+          1113
+        ],
+        "nominalSourceRect": [
+          627,
+          627,
+          1254,
+          1254
+        ],
+        "nominalGridCross": false,
+        "nativeVisibleSize": [
+          567,
+          349
+        ],
+        "ownedPixelCount": 106371,
+        "foreignPixelsRemovedFromCrop": 0,
+        "totalCanvasEdgeMaxAlpha": 0,
+        "nativeOwnedPixelsUnchanged": true,
+        "sourceMainAlphaComponent": 119
+      }
+    },
+    "sourceEyePoint": [
+      394.90821256038635,
+      164.53743961352654
+    ],
+    "globalSourceEye": [
+      1051.9082125603863,
+      928.5374396135265
+    ],
+    "registrationOffset": [
+      285,
+      255
+    ],
+    "registeredCanvas": [
+      1000,
+      1000
+    ],
+    "targetEye": [
+      680,
+      420
+    ],
+    "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+    "sourcePixelsRoundTripVerified": true,
+    "resized": false,
+    "upscaled": false,
+    "rotated": false,
+    "poseWarped": false,
+    "newNativeDetailClaimed": false
+  },
+  "anchor": [
+    0.68,
+    0.42
+  ],
+  "rootPixels": [
+    680,
+    420
+  ],
+  "eyePixels": [
+    680,
+    420
+  ],
+  "registeredAlphaBBox": [
+    285,
+    255,
+    852,
+    604
+  ],
+  "registeredMinMargin": 0.148,
+  "status": "candidate_pending_playback_and_final_visual_review",
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceLandmarkEvidence": {
+    "type": "manually checked dark pupil ROI component center, nearest integer",
+    "qa": "designs/motion-frames-v1/36-xuanjing/enrage/source-b-qa.json",
+    "sourceFrame": 3,
+    "candidateIndex": 1,
+    "detection": null,
+    "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+  },
+  "displaySize": [
+    600.7067137809188,
+    600.7067137809188
+  ],
+  "bodyDisplayBox": [
+    340,
+    260
+  ],
+  "uniformDisplayScale": 0.6007067137809188,
+  "displaySizing": {
+    "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+    "sourceVisibleReference": [
+      566,
+      386
+    ],
+    "upscalingAllowed": false,
+    "crossClipDensityReview": "pending_common_head_scale_review"
+  },
+  "animation": {
+    "id": "36-xuanjing/enrage",
+    "frames": 8,
+    "fps": 8,
+    "loop": true,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "durationsMs": [
+      125,
+      125,
+      125,
+      125,
+      125,
+      125,
+      125,
+      125
+    ],
+    "root": [
+      0.68,
+      0.42
+    ],
+    "sourceRoute": "builtin_native_AI_sheet_user_requested",
+    "sourcePixelsNeverResampled": true,
+    "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+    "phase": 7,
+    "durationMs": 125
+  }
+}

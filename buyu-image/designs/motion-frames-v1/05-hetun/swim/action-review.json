@@ -1,0 +1,206 @@
+{
+  "source": "designs/motion-frames-v1/05-hetun/swim/05-hetun-swim-v1.png",
+  "sourceSHA256": "914942555aacd30c0558c2fe51af133de3f997af94d2c81eaef2f4517f9808fb",
+  "action": "swim",
+  "registeredAt": "2026-10-28T18:08:49.573348+00:00",
+  "sharedCanvas": [
+    640,
+    640
+  ],
+  "rootPixels": [
+    320,
+    320
+  ],
+  "eyePixels": [
+    340,
+    250
+  ],
+  "registration": [
+    {
+      "frame": 0,
+      "pupil": [
+        245,
+        95
+      ],
+      "registeredPupil": [
+        340,
+        250
+      ],
+      "offset": [
+        95,
+        155
+      ],
+      "minMargin": 0.1609375,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 1,
+      "pupil": [
+        248,
+        98
+      ],
+      "registeredPupil": [
+        340,
+        250
+      ],
+      "offset": [
+        92,
+        152
+      ],
+      "minMargin": 0.15625,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 2,
+      "pupil": [
+        240,
+        105
+      ],
+      "registeredPupil": [
+        340,
+        250
+      ],
+      "offset": [
+        100,
+        145
+      ],
+      "minMargin": 0.16875,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 3,
+      "pupil": [
+        244,
+        94
+      ],
+      "registeredPupil": [
+        340,
+        250
+      ],
+      "offset": [
+        96,
+        156
+      ],
+      "minMargin": 0.1625,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 4,
+      "pupil": [
+        241,
+        100
+      ],
+      "registeredPupil": [
+        340,
+        250
+      ],
+      "offset": [
+        99,
+        150
+      ],
+      "minMargin": 0.1671875,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 5,
+      "pupil": [
+        253,
+        100
+      ],
+      "registeredPupil": [
+        340,
+        250
+      ],
+      "offset": [
+        87,
+        150
+      ],
+      "minMargin": 0.1484375,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 6,
+      "pupil": [
+        265,
+        94
+      ],
+      "registeredPupil": [
+        340,
+        250
+      ],
+      "offset": [
+        75,
+        156
+      ],
+      "minMargin": 0.1296875,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 7,
+      "pupil": [
+        237,
+        93
+      ],
+      "registeredPupil": [
+        340,
+        250
+      ],
+      "offset": [
+        103,
+        157
+      ],
+      "minMargin": 0.1734375,
+      "pixelRoundTrip": true
+    }
+  ],
+  "uniformScale": 0.2857142857142857,
+  "sourceMarginWarnings": [
+    {
+      "frame": 0,
+      "actual": 0.060810810810810814,
+      "required": 0.12
+    },
+    {
+      "frame": 1,
+      "actual": 0.01805869074492099,
+      "required": 0.12
+    },
+    {
+      "frame": 2,
+      "actual": 0.05417607223476298,
+      "required": 0.12
+    },
+    {
+      "frame": 3,
+      "actual": 0.06306306306306306,
+      "required": 0.12
+    },
+    {
+      "frame": 4,
+      "actual": 0.05855855855855856,
+      "required": 0.12
+    },
+    {
+      "frame": 5,
+      "actual": 0.045146726862302484,
+      "required": 0.12
+    },
+    {
+      "frame": 6,
+      "actual": 0.020316027088036117,
+      "required": 0.12
+    },
+    {
+      "frame": 7,
+      "actual": 0.06306306306306306,
+      "required": 0.12
+    }
+  ],
+  "runtimeWarnings": [],
+  "producerVisualNote": "Round spotted puffer remains three-quarter right-facing. Tail and paired round fans change angles/shapes; capture tail curls and modest posterior inflation is anatomical. Actual native/pupil ROI inspected. Root visual and Unity playback pending.",
+  "registeredContactVisual": "producer_actually_viewed_light_dark_and_display_rest_comparison",
+  "identityAndMotion": "pending_root_visual",
+  "playback": "pending_Unity",
+  "references": null,
+  "rootVisual": "pending"
+}

@@ -1,0 +1,43 @@
+{
+  "source": "designs/production-v1/portraits/portraits-v2.png",
+  "output": "assets/characters/portraits",
+  "rows": 2,
+  "cols": 3,
+  "items": [
+    {
+      "id": "fisher",
+      "name": "见习渔师",
+      "description": "existing gold headband brown spiky-haired fishing apprentice boy"
+    },
+    {
+      "id": "healer",
+      "name": "青荷",
+      "description": "young black straight-haired woman, jade hairpins and peach flowers, ivory jade outfit"
+    },
+    {
+      "id": "navigator",
+      "name": "云帆",
+      "description": "young silver-haired boy with blue jade high tied hair and ivory robe"
+    },
+    {
+      "id": "merchant",
+      "name": "渔舟客",
+      "description": "round cheerful middle-aged fisherman with straw hat and short brown beard"
+    },
+    {
+      "id": "guide",
+      "name": "海棠",
+      "description": "warm adult woman with dark hair bun, coral jade hair ornaments"
+    },
+    {
+      "id": "elder",
+      "name": "灵海长者",
+      "description": "smiling elderly man, white eyebrows and beard, jade crown, gold ivory robe"
+    }
+  ],
+  "keepCell": false,
+  "displaySize": [
+    128,
+    128
+  ]
+}

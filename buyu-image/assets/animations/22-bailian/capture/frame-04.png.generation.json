@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-04",
+  "name": "22-bailian capture 4",
+  "file": "assets/animations/22-bailian/capture/frame-04.png",
+  "sha256": "c896b0af22cd6b8f2d472c0509993f53e813b521c9801800f3d7f235469462d8",
+  "width": 844,
+  "height": 844,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/motion-frames-v1/22-bailian/capture/22-bailian-capture.png",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/22-bailian/capture/22-bailian-capture.png",
+      "sha256": "40f7fcbbb5f981b04cc6a0e9bd959ed2d89edb40b7a027e89c07d5d02a099ce8",
+      "generationRecord": "designs/motion-frames-v1/22-bailian/capture/22-bailian-capture.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+    "nominalGrid": {
+      "cols": 4,
+      "rows": 2
+    },
+    "nominalGridRect": [
+      0,
+      444,
+      444,
+      887
+    ],
+    "sourceRect": [
+      34,
+      469,
+      454,
+      803
+    ],
+    "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+    "ownershipPixelCount": 84529,
+    "alphaCleanup": "Only alpha<=3 set to0",
+    "resized": false,
+    "upscaled": false,
+    "rotated": false,
+    "registrationOffset": [
+      224,
+      172
+    ],
+    "registeredCanvas": [
+      844,
+      844
+    ],
+    "registrationReference": {
+      "type": "largest round dark eye component inside fixed local head ROI; manually review landmark contact",
+      "sourcePointGlobal": [
+        399.93093922651934,
+        647.292817679558
+      ],
+      "sourcePointLocal": [
+        365.93093922651934,
+        178.29281767955797
+      ],
+      "targetPoint": [
+        590,
+        350
+      ],
+      "rounding": "nearest integer",
+      "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+    },
+    "sourcePixelsRoundTripVerified": true,
+    "newNativeDetailClaimed": false
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "rootPixels": [
+    422,
+    422
+  ],
+  "landmarkPixels": [
+    590,
+    350
+  ],
+  "registeredAlphaBBox": [
+    224,
+    172,
+    644,
+    506
+  ],
+  "registeredMinMargin": 0.2037914691943128,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+  "animation": {
+    "id": "22-bailian/capture",
+    "frames": 8,
+    "fps": 12,
+    "loop": false,
+    "order": "row-major",
+    "durationsMs": [
+      83,
+      84,
+      83,
+      83,
+      84,
+      83,
+      83,
+      84
+    ],
+    "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+    "root": [
+      0.5,
+      0.5
+    ],
+    "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+    "identityStatus": "pending_root_visual",
+    "motionStatus": "pending_root_visual",
+    "loopVisualStatus": "single_shot_pending_root_playback",
+    "sourceRoute": "builtin_native_AI_sheet_user_requested"
+  },
+  "status": "producer_candidate_pending_root_registered_review",
+  "targetBodyBox": [
+    180,
+    130
+  ],
+  "uniformDisplayScale": 0.4234527687296417,
+  "displaySize": [
+    357.39413680781763,
+    357.39413680781763
+  ],
+  "bodyDisplayBox": [
+    180,
+    130
+  ],
+  "displaySizing": {
+    "preserveAspect": true,
+    "uniformScaleAcrossAction": true,
+    "upscalingAllowed": false
+  },
+  "displayScaleReference": {
+    "restNativeVisibleBox": [
+      423,
+      316
+    ],
+    "fitMaxBox": [
+      180,
+      130
+    ],
+    "method": "same species swim display scale reused, never capture per-frame bbox fit",
+    "upscaling": false
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-04",
+  "name": "墨玉章鱼 swim 4",
+  "file": "assets/animations/26-moyu/swim/frame-04.png",
+  "sha256": "b6232922d6cffe2f6d68448e7fd783d0eb9efd0970adf218f3cad468a15850f9",
+  "width": 640,
+  "height": 640,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/motion-frames-v1/26-moyu/swim/26-moyu-swim.png",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/26-moyu/swim/26-moyu-swim.png",
+      "sha256": "fd07f8724dc23722b0fd601311e6220898eefcdd948638e0ece6964f3647b8f7",
+      "generationRecord": "designs/motion-frames-v1/26-moyu/swim/26-moyu-swim.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_grid_crop_integer_pupil_registration",
+    "grid": {
+      "rows": 2,
+      "cols": 4
+    },
+    "sourceRect": [
+      0,
+      444,
+      444,
+      887
+    ],
+    "registrationOffset": [
+      90,
+      80,
+      534,
+      523
+    ],
+    "registeredCanvas": [
+      640,
+      640
+    ],
+    "registrationReference": {
+      "type": "black_pupil_connected_component_centroid",
+      "sourcePointFloat": [
+        230.11727078891258,
+        200.37313432835822
+      ],
+      "sourcePointRounded": [
+        230,
+        200
+      ],
+      "targetPoint": [
+        320,
+        280
+      ],
+      "pupilBounds": [
+        214,
+        188,
+        247,
+        215
+      ],
+      "detectionRoi": [
+        170,
+        150,
+        270,
+        270
+      ],
+      "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+    },
+    "nominalGridRect": [
+      0,
+      444,
+      444,
+      887
+    ],
+    "sourceRectType": "nominal_grid",
+    "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+    "resized": false,
+    "upscaled": false,
+    "poseWarped": false,
+    "sourcePixelsRoundTripVerified": true,
+    "sourceCellClipping": false
+  },
+  "anchor": [
+    0.5,
+    0.4375
+  ],
+  "status": "candidate_pending_root_visual_and_playback_review",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source record; this is a native derivative, not new generation.",
+  "animation": {
+    "id": "26-moyu/swim",
+    "frames": 8,
+    "fps": 12,
+    "loop": true,
+    "order": "row-major",
+    "root": [
+      0.5,
+      0.4375
+    ],
+    "phase": 0.5,
+    "durationMs": 84,
+    "targetBodyBox": [
+      240,
+      180
+    ],
+    "displayCalibration": {
+      "status": "candidate_pending_root_visual_runtime_review",
+      "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+      "nativeMedianPupilWidth": 32.0,
+      "sharedTargetDisplayedPupilWidth": 16.097,
+      "uniformDisplayScale": 0.50303125,
+      "upscale": false,
+      "perFrameBboxFit": false,
+      "sharedVisualPivotPixels": [
+        320,
+        280
+      ],
+      "sharedVisualPivotNormalized": [
+        0.5,
+        0.4375
+      ],
+      "displayBodyMaxPixels": [
+        217.3095,
+        177.067
+      ],
+      "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+    }
+  },
+  "qa": {
+    "nativeBodyBoxAlpha16": [
+      23,
+      47,
+      437,
+      396
+    ],
+    "nativeVisibleSize": [
+      414,
+      349
+    ],
+    "rawCellEdgeMaxAlpha": 1,
+    "nominalGridEdgeMaxAlpha": 1,
+    "registeredBoxAlpha16": [
+      113,
+      127,
+      527,
+      476
+    ],
+    "registeredMarginsFraction": [
+      0.1765625,
+      0.1984375,
+      0.1765625,
+      0.25625
+    ],
+    "finalMargin12PercentPassed": true,
+    "pupilComponent": {
+      "area": 469,
+      "bbox": [
+        214,
+        188,
+        247,
+        215
+      ],
+      "centroid": [
+        230.11727078891258,
+        200.37313432835822
+      ]
+    },
+    "actualSourceViewedByProducer": true,
+    "loopOrRecoveryAccepted": false,
+    "targetClientAccepted": false
+  }
+}

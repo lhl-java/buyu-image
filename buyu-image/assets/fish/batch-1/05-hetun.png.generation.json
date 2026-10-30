@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "05-hetun",
+  "name": "河豚",
+  "file": "assets/fish/batch-1/05-hetun.png",
+  "sha256": "a63e2c9371c12c25529275f349a5f6972e7b5400fa1b17155e53d3e278f9b85a",
+  "width": 423,
+  "height": 336,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/production-v1/fish-sheet-1/fish-sheet-1.png",
+  "derivedFrom": [
+    {
+      "file": "designs/production-v1/fish-sheet-1/fish-sheet-1.png",
+      "sha256": "f94f0d98248f6ee717041c97e54b45416196c1677240119b69a3b4dcd1294e98",
+      "generationRecord": "designs/production-v1/fish-sheet-1/fish-sheet-1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_grid_crop",
+    "grid": {
+      "rows": 2,
+      "cols": 3
+    },
+    "sourceRect": [
+      512,
+      512,
+      1024,
+      1024
+    ],
+    "cellCropRect": [
+      50,
+      82,
+      473,
+      418
+    ],
+    "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+    "resized": false,
+    "upscaled": false
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "displaySize": [
+    120,
+    80
+  ],
+  "status": "prepared_pending_visual_review",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source generation record; no new model call for this slice."
+}

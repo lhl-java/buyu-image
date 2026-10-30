@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/ui/full-suite-v1/15-signin/15-signin-v2.png",
+  "sha256": "411c5f3cae5bf7116f63a23278ad41808a16643637316aceafde1656367440f0",
+  "generatedAt": "2026-10-26T12:10:08.922Z",
+  "startedAt": "2026-10-26T12:09:21.469Z",
+  "width": 1672,
+  "height": 941,
+  "format": "PNG",
+  "pixelFormat": "Format24bppRgb",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "builtin_evidence": {
+      "model_parameter_exposed": false,
+      "quality_parameter_exposed": false,
+      "actual_model": null,
+      "actual_quality": null,
+      "note": "Configuration targets only; verify actual model and quality per generated image."
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\buyu-image\\designs\\ui\\full-suite-v1\\15-signin\\15-signin.png",
+      "D:\\work\\buyu-image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\buyu-image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "D:\\work\\buyu-image\\designs\\ui\\full-suite-v1\\11-bag\\11-bag.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具未开放 model/quality 参数，本次结果未披露实际型号及质量。",
+  "evidence": {
+    "toolResult": "15-signin-v2.tool-result.txt",
+    "sourceOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a17713-70e6-7261-8609-a9eabcbfb0a5\\exec-3d39a4a8-d312-4076-a406-3a332e79c88c.png",
+    "toolResultId": "exec-3d39a4a8-d312-4076-a406-3a332e79c88c",
+    "request": "15-signin-v2.request.json"
+  },
+  "prompt": "15-signin-v2.prompt.txt",
+  "references": [
+    {
+      "file": "designs/ui/full-suite-v1/15-signin/15-signin.png",
+      "sha256": "82881a914a93cba523d99f4dfaaa02a5598663b7f6b437cbb077abc40bc06f33",
+      "role": "AI edit target: original seven-day sign-in screen; first four reward icons and labels corrected."
+    },
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/ui/full-suite-v1/11-bag/11-bag.png",
+      "sha256": "45063ea24577da799c0a90893b5d71e7a31b0a62c7314ed9decfc37c1e3f3593",
+      "role": "Ice talisman and jade material style reference from current bag screen."
+    }
+  ],
+  "requestedCanvasInPrompt": "Landscape approx 16:9; native actual dimensions recorded, no size selector exposed.",
+  "resampled": false,
+  "status": "draft_pending_user_review",
+  "visualReview": "已目视：前四天奖励已改为金币500、灵玉碎片3、冰封符1、灵贝5，对应图标已修正；七天布局、完成勾与第3天选中、后3天奖励和两按钮保留。",
+  "scope": "UI art design or state board; example values and features, no runtime integration claimed.",
+  "editedFrom": {
+    "file": "designs/ui/full-suite-v1/15-signin/15-signin.png",
+    "sha256": "82881a914a93cba523d99f4dfaaa02a5598663b7f6b437cbb077abc40bc06f33",
+    "record": "15-signin.png.generation.json"
+  }
+}

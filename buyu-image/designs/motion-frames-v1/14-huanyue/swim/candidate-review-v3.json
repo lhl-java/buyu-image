@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "manifest": "assets/animations/14-huanyue/swim/manifest.json",
+  "source": "designs/motion-frames-v1/14-huanyue/swim/14-huanyue-swim-v3.png",
+  "status": "producer_candidate_pending_root_registered_review",
+  "actualVisualObservation": "Bell rim contracts/reopens; ruffled arms curl and drift. Bell width varies with the intended pulse; core identity/capture transition still needs coordinator playback.",
+  "warnings": [
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 0,
+      "actual": 0.038288288288288286,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 1,
+      "actual": 0.05417607223476298,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 2,
+      "actual": 0.09234234234234234,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 4,
+      "actual": 0.04279279279279279,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 5,
+      "actual": 0.09255079006772009,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 6,
+      "actual": 0.024830699774266364,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 7,
+      "actual": 0.06981981981981981,
+      "required": 0.12
+    },
+    {
+      "id": "generated_core_shape_and_motion_pending_review",
+      "note": "Bell rim contracts/reopens; ruffled arms curl and drift. Bell width varies with the intended pulse; core identity/capture transition still needs coordinator playback."
+    },
+    {
+      "id": "playback_unverified",
+      "note": "No live loop/single-shot playback during local heavy-job hold; distinct hashes are not motion evidence."
+    }
+  ],
+  "sourceOwnership": {
+    "alphaThreshold": 3,
+    "sourcePixels": 596737,
+    "exportedPixels": 596737,
+    "duplicatePixels": 0,
+    "lostPixels": 0,
+    "rgbAndAlphaForOwnedPixelsUnchanged": true
+  },
+  "fps": 8,
+  "durationsMs": [
+    125,
+    125,
+    125,
+    125,
+    125,
+    125,
+    125,
+    125
+  ],
+  "loop": true,
+  "noResamplingOrUpscaling": true,
+  "eyeNativeBoxSizes": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "testsBrowserAtlasUnityRun": false,
+  "reviewedAt": "2026-10-28T20:08:34.651768+00:00",
+  "sourceSheetActuallyInspected": true,
+  "registeredLightAndDarkActuallyInspected": true,
+  "inspectionType": "static contact sheets, actual generated source and actual exported alpha-composited frames",
+  "lightContact": "designs/motion-frames-v1/14-huanyue/swim/registered-v3-light.jpg",
+  "darkContact": "designs/motion-frames-v1/14-huanyue/swim/registered-v3-dark.jpg",
+  "observedArticulation": "Bell rim contracts/reopens; ruffled arms curl and drift. Bell width varies with the intended pulse; core identity/capture transition still needs coordinator playback.",
+  "edgeObservation": "The registered light and dark contacts show complete separate poses without an opaque rectangle or another frame fragment. Source grid / margin warnings are retained.",
+  "livePlaybackActuallyRun": false,
+  "finalArtApproval": false,
+  "inspectedAt": "2026-10-28T20:08:34.651768+00:00"
+}

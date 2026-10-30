@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "job": "kit-buttons",
+  "reviewedAt": "2026-10-26T20:07:40.751031+00:00",
+  "source": "designs/production-v1/kit-buttons/kit-buttons.png",
+  "sourceSha256": "83356440142af10947700328ef951cfd6818d82bbb8450a8beae09386d0bb84a",
+  "nativeSize": [
+    1448,
+    1086
+  ],
+  "alphaRange": [
+    0,
+    255
+  ],
+  "transparentPixelCount": 1023137,
+  "actualModel": null,
+  "actualQuality": null,
+  "noUpscaling": true,
+  "manifest": "assets/ui/buttons/manifest.json",
+  "sliceCount": 12,
+  "sliceHashesVerified": true,
+  "warnings": [],
+  "contactSheet": "tmp/art-qa/kit-buttons.slice.jpg",
+  "visualReview": "十二个按钮状态完整；实际目视源图及切片联系表。主/次按钮四态、页签二态、关闭二态均正确，除关闭 X 无文字。第3/4列按透明分隔 x=1075 裁切，去除原等分边界误纳入相邻辉光造成的警告。",
+  "result": "pass_for_static_visual_asset",
+  "runtimeIntegrationVerified": false,
+  "resolvedPriorWarnings": {
+    "type": "cell_border_alpha",
+    "assets": {
+      "primary-disabled": 41,
+      "primary-selected": 52,
+      "secondary-disabled": 31,
+      "secondary-selected": 39
+    },
+    "resolution": "Ownership split at x=1075 matches transparent separation; all core outlines preserved and rechecked visually."
+  }
+}

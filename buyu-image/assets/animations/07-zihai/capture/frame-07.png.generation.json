@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-07",
+  "file": "assets/animations/07-zihai/capture/frame-07.png",
+  "sha256": "3b610ae4818e49489dac0be93eaaa3e8478a496e53c6ed9c00974a314da33bbc",
+  "width": 704,
+  "height": 704,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/motion-frames-v1/07-zihai/capture/07-zihai-capture-v1.png",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/07-zihai/capture/07-zihai-capture-v1.png",
+      "sha256": "513ceca236d7e094b173d9a73e7989106bdec618fa580e0e82eead64c2e0517a",
+      "generationRecord": "designs/motion-frames-v1/07-zihai/capture/07-zihai-capture-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_grid_crop_integer_pupil_registration",
+    "sourceRect": [
+      1393,
+      517,
+      1759,
+      786
+    ],
+    "cellCropRect": [
+      0,
+      0,
+      366,
+      269
+    ],
+    "registrationOffset": [
+      142,
+      207
+    ],
+    "registeredCanvas": [
+      704,
+      704
+    ],
+    "registrationReference": {
+      "type": "black_pupil_component_centroid",
+      "sourcePointFloat": [
+        300.1643059490084,
+        130.02266288951841
+      ],
+      "sourcePointRounded": [
+        300,
+        130
+      ],
+      "targetPoint": [
+        442,
+        337
+      ],
+      "method": "RGBmax<55 and A>220 pupil component; restricted to manually placed radius22px ROI and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+      "roiActuallyInspected": true
+    },
+    "resized": false,
+    "upscaled": false,
+    "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+    "sourcePixelsRoundTripVerified": true,
+    "nominalGridRect": [
+      1330,
+      444,
+      1774,
+      887
+    ],
+    "nominalGridBorderAlpha": 2,
+    "ownershipType": "complete_nonoverlapping_pose_rectangle",
+    "foreignFishAlphaPixels": 0,
+    "allAssignedPixelsInsideRect": true
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "rootPixels": [
+    352,
+    352
+  ],
+  "eyePixels": [
+    442,
+    337
+  ],
+  "displaySize": [
+    190.2702702702703,
+    190.2702702702703
+  ],
+  "bodyDisplayBox": [
+    120,
+    80
+  ],
+  "uniformDisplayScale": 0.2702702702702703,
+  "scaleReference": "assets/animations/07-zihai/swim/manifest.json",
+  "registeredAlphaBBox": [
+    150,
+    215,
+    500,
+    468
+  ],
+  "registeredMinMargin": 0.21306818181818182,
+  "status": "producer_candidate_pending_root_visual",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+  "clipDensityAdjustment": null,
+  "producerLightDarkStillReview": "viewed_candidate_pass"
+}

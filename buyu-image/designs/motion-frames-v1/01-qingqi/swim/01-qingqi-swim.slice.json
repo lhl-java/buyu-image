@@ -1,0 +1,114 @@
+{
+  "source": "designs/motion-frames-v1/01-qingqi/swim/01-qingqi-swim-contained-v2.png",
+  "output": "assets/animations/01-qingqi/swim",
+  "rows": 2,
+  "cols": 4,
+  "keepCell": true,
+  "items": [
+    {
+      "id": "frame-00",
+      "name": "青鳍鱼游动相位 0°",
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "frame-01",
+      "name": "青鳍鱼游动相位 45°",
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "frame-02",
+      "name": "青鳍鱼游动相位 90°",
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "frame-03",
+      "name": "青鳍鱼游动相位 135°",
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "frame-04",
+      "name": "青鳍鱼游动相位 180°",
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "frame-05",
+      "name": "青鳍鱼游动相位 225°",
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "frame-06",
+      "name": "青鳍鱼游动相位 270°",
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "frame-07",
+      "name": "青鳍鱼游动相位 315°",
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    }
+  ],
+  "animation": {
+    "id": "01-qingqi/swim",
+    "frames": 8,
+    "fps": 12,
+    "loop": true,
+    "order": "row-major",
+    "phasesDegrees": [
+      0,
+      45,
+      90,
+      135,
+      180,
+      225,
+      270,
+      315
+    ],
+    "root": [
+      0.5,
+      0.5
+    ],
+    "durationsMs": [
+      83,
+      84,
+      83,
+      83,
+      84,
+      83,
+      83,
+      84
+    ],
+    "timingNote": "fps=12 authoritative; durations rounded from cumulative frame boundaries",
+    "targetBodyBox": [
+      120,
+      80
+    ],
+    "registrationStatus": "pending_root_registration",
+    "identityStatus": "pending_root_visual",
+    "motionStatus": "pending_root_visual",
+    "loopVisualStatus": "pending_root_playback",
+    "sourceRoute": "builtin_native_AI_sheet_user_requested"
+  }
+}

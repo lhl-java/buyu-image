@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-28",
+  "status": "candidate_pending_visual_runtime_review",
+  "referenceViewport": {
+    "width": 1672,
+    "height": 941,
+    "reason": "Current native selected UI design family, approximately16:9. This does not invent a new platform specification."
+  },
+  "units": "logical display px at reference viewport; scale one UI layout uniformly to the chosen viewport",
+  "fontDistribution": {
+    "fontFilesIncluded": true,
+    "fontFilesCopied": 2,
+    "currentMachinePresenceOnly": [
+      {
+        "family": "Microsoft YaHei",
+        "file": "C:/Windows/Fonts/msyh.ttc",
+        "observedExists": true
+      },
+      {
+        "family": "Microsoft YaHei Bold",
+        "file": "C:/Windows/Fonts/msyhbd.ttc",
+        "observedExists": true
+      },
+      {
+        "family": "KaiTi",
+        "file": "C:/Windows/Fonts/simkai.ttf",
+        "observedExists": true
+      },
+      {
+        "family": "Arial",
+        "file": "C:/Windows/Fonts/arial.ttf",
+        "observedExists": true
+      }
+    ],
+    "presenceIsRedistributionLicense": false,
+    "targetRequirement": "Load the unmodified bundled Noto font files with their supplied OFL licences and copyright notices. Verify target glyph/render behavior. Any future additional fonts require their own actual licence evidence.",
+    "crossPlatformPackagingStatus": "official_regular_fonts_and_OFL_bundled_pending_target_load_glyph_render_review",
+    "catalog": "assets/fonts/fonts.json",
+    "licenseId": "OFL-1.1",
+    "systemFontFilesCopied": 0
+  },
+  "families": {
+    "display": {
+      "fallbackOrder": [
+        "Noto Serif CJK SC",
+        "STKaiti",
+        "Kaiti SC",
+        "Microsoft YaHei",
+        "serif"
+      ],
+      "requireReadableSimplifiedChinese": true,
+      "bundledFamily": "Noto Serif CJK SC",
+      "bundledFile": "assets/fonts/NotoSerifCJKsc-Regular.otf",
+      "bundledWeight": 400,
+      "preferredSource": "bundled_file",
+      "platformFallbackOnly": true,
+      "systemCandidateOnly": "KaiTi"
+    },
+    "body": {
+      "fallbackOrder": [
+        "Noto Sans CJK SC",
+        "PingFang SC",
+        "Noto Sans SC",
+        "system-ui",
+        "sans-serif"
+      ],
+      "requireReadableSimplifiedChinese": true,
+      "bundledFamily": "Noto Sans CJK SC",
+      "bundledFile": "assets/fonts/NotoSansCJKsc-Regular.otf",
+      "bundledWeight": 400,
+      "preferredSource": "bundled_file",
+      "platformFallbackOnly": true,
+      "systemCandidateOnly": "Microsoft YaHei"
+    },
+    "numeric": {
+      "fallbackOrder": [
+        "Noto Sans CJK SC",
+        "Microsoft YaHei",
+        "sans-serif"
+      ],
+      "preferTabularNums": true,
+      "tabularGlyphSupportMustBeVerified": true,
+      "bundledFamily": "Noto Sans CJK SC",
+      "bundledFile": "assets/fonts/NotoSansCJKsc-Regular.otf",
+      "bundledWeight": 400,
+      "preferredSource": "bundled_file",
+      "platformFallbackOnly": true,
+      "systemCandidateOnly": "Arial"
+    }
+  },
+  "colors": {
+    "ink": "#183F36",
+    "secondary": "#5B6C60",
+    "ivoryOnJade": "#FFF4D6",
+    "warmGold": "#B9914D",
+    "gain": "#247150",
+    "insufficient": "#A93628",
+    "disabled": "#858176"
+  },
+  "tokens": {
+    "windowTitle": {
+      "family": "display",
+      "size": 38,
+      "lineHeight": 46,
+      "weight": 400,
+      "color": "ivoryOnJade",
+      "align": "center",
+      "maxLines": 1
+    },
+    "sectionTitle": {
+      "family": "display",
+      "size": 28,
+      "lineHeight": 36,
+      "weight": 400,
+      "color": "ink",
+      "maxLines": 1
+    },
+    "body": {
+      "family": "body",
+      "size": 22,
+      "lineHeight": 32,
+      "weight": 400,
+      "color": "ink"
+    },
+    "bodyEmphasis": {
+      "family": "body",
+      "size": 22,
+      "lineHeight": 32,
+      "weight": 400,
+      "color": "ink",
+      "previousCandidateWeight": 600
+    },
+    "caption": {
+      "family": "body",
+      "size": 18,
+      "lineHeight": 26,
+      "weight": 400,
+      "color": "secondary"
+    },
+    "primaryButton": {
+      "family": "display",
+      "size": 28,
+      "lineHeight": 36,
+      "weight": 400,
+      "color": "ivoryOnJade",
+      "align": "center",
+      "maxLines": 1
+    },
+    "secondaryButton": {
+      "family": "display",
+      "size": 26,
+      "lineHeight": 34,
+      "weight": 400,
+      "color": "ink",
+      "align": "center",
+      "maxLines": 1
+    },
+    "tab": {
+      "family": "body",
+      "size": 24,
+      "lineHeight": 32,
+      "weight": 400,
+      "color": "ink",
+      "align": "center",
+      "maxLines": 1,
+      "previousCandidateWeight": 500
+    },
+    "numeric": {
+      "family": "numeric",
+      "size": 24,
+      "lineHeight": 32,
+      "weight": 400,
+      "color": "ink",
+      "tabularNums": true,
+      "previousCandidateWeight": 600
+    },
+    "numericLarge": {
+      "family": "numeric",
+      "size": 36,
+      "lineHeight": 44,
+      "weight": 400,
+      "color": "ink",
+      "tabularNums": true,
+      "previousCandidateWeight": 600
+    }
+  },
+  "effects": {
+    "defaultTextOutlinePx": 0,
+    "ivoryOnJadeOptionalShadow": {
+      "offset": [
+        0,
+        1
+      ],
+      "blur": 1,
+      "color": "#17392F",
+      "opacity": 0.65,
+      "status": "candidate"
+    },
+    "largeFloatingCombatNumber": {
+      "outlinePx": 2,
+      "outlineColor": "#17392F",
+      "onlyWhenNeededForMovingBackground": true
+    },
+    "doNotOutlineBodyParagraphs": true
+  },
+  "layoutRules": {
+    "useRegisteredControlContentRect": "config/ui-state-registration.json",
+    "textAnchorStableAcrossStates": true,
+    "selectedGlowDoesNotResizeTextOrHitRect": true,
+    "buttonTextPolicy": "One line. Measure actual Chinese glyphs in registered contentRect. Adjust layout or choose explicit compact token before reducing font; never squeeze horizontally.",
+    "bodyOverflow": "Wrap in content region and scroll long mail/help text; do not paint over gold borders or action buttons.",
+    "names": "One line with ellipsis for list cells; show full name in detail view. Do not ellipsize critical amount/action meaning.",
+    "amounts": "Use tabular alignment when supported. Allow large values, sign, separators and unit as separate text elements; no unexplained abbreviations.",
+    "multilingualExpansion": "Only Chinese is specified now; do not claim localization layout complete.",
+    "disabledState": "Use disabled color and actual button state; do not change geometry or rely on color alone for an unavailable action."
+  },
+  "acceptancePending": [
+    "Official unmodified Noto Regular fonts and OFL licence texts are bundled; target load, glyph coverage and runtime behaviour still require verification.",
+    "All31 pages measured at reference and actual minimum supported landscape viewport, including longest real names, amounts, mail text and button labels.",
+    "Primary/secondary/tab labels fit registered contentRect and remain in one place while state changes.",
+    "Light/dark backgrounds retain readable contrast without obscuring jade/gold artwork.",
+    "Numeric tabular support, fallbacks and missing-glyph behavior checked in target runtime."
+  ],
+  "fontWeightPolicy": {
+    "bundledWeights": [
+      400
+    ],
+    "syntheticBold": false,
+    "note": "Only two Regular font files are bundled. Tokens use actual weight400; do not synthesize or claim bundled medium/bold. Additional weights may be added later only with source/licence records."
+  },
+  "fontBundleVerifiedAt": "2026-10-28T13:01:12.224746+00:00"
+}

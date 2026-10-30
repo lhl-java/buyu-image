@@ -1,0 +1,206 @@
+{
+  "source": "designs/motion-frames-v1/03-chiyu/capture/03-chiyu-capture-v3.png",
+  "sourceSHA256": "9ce2448d7b64de9f6b58ad243696a7bcf3938fe5860cc3149bcd3f82d3cf5f6a",
+  "action": "capture",
+  "registeredAt": "2026-10-28T18:01:56.141259+00:00",
+  "sharedCanvas": [
+    800,
+    800
+  ],
+  "rootPixels": [
+    400,
+    400
+  ],
+  "eyePixels": [
+    480,
+    370
+  ],
+  "registration": [
+    {
+      "frame": 0,
+      "pupil": [
+        371,
+        89
+      ],
+      "registeredPupil": [
+        480,
+        370
+      ],
+      "offset": [
+        109,
+        281
+      ],
+      "minMargin": 0.14625,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 1,
+      "pupil": [
+        364,
+        180
+      ],
+      "registeredPupil": [
+        480,
+        370
+      ],
+      "offset": [
+        116,
+        190
+      ],
+      "minMargin": 0.155,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 2,
+      "pupil": [
+        290,
+        205
+      ],
+      "registeredPupil": [
+        480,
+        370
+      ],
+      "offset": [
+        190,
+        165
+      ],
+      "minMargin": 0.21625,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 3,
+      "pupil": [
+        354,
+        90
+      ],
+      "registeredPupil": [
+        480,
+        370
+      ],
+      "offset": [
+        126,
+        280
+      ],
+      "minMargin": 0.1675,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 4,
+      "pupil": [
+        302,
+        143
+      ],
+      "registeredPupil": [
+        480,
+        370
+      ],
+      "offset": [
+        178,
+        227
+      ],
+      "minMargin": 0.2325,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 5,
+      "pupil": [
+        365,
+        84
+      ],
+      "registeredPupil": [
+        480,
+        370
+      ],
+      "offset": [
+        115,
+        286
+      ],
+      "minMargin": 0.15375,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 6,
+      "pupil": [
+        360,
+        78
+      ],
+      "registeredPupil": [
+        480,
+        370
+      ],
+      "offset": [
+        120,
+        292
+      ],
+      "minMargin": 0.16,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 7,
+      "pupil": [
+        363,
+        80
+      ],
+      "registeredPupil": [
+        480,
+        370
+      ],
+      "offset": [
+        117,
+        290
+      ],
+      "minMargin": 0.15625,
+      "pixelRoundTrip": true
+    }
+  ],
+  "uniformScale": 0.2684563758389262,
+  "sourceMarginWarnings": [
+    {
+      "frame": 0,
+      "actual": 0.0,
+      "required": 0.12
+    },
+    {
+      "frame": 1,
+      "actual": 0.0,
+      "required": 0.12
+    },
+    {
+      "frame": 2,
+      "actual": 0.01580135440180587,
+      "required": 0.12
+    },
+    {
+      "frame": 3,
+      "actual": 0.0,
+      "required": 0.12
+    },
+    {
+      "frame": 4,
+      "actual": 0.01126126126126126,
+      "required": 0.12
+    },
+    {
+      "frame": 5,
+      "actual": 0.0,
+      "required": 0.12
+    },
+    {
+      "frame": 6,
+      "actual": 0.01805869074492099,
+      "required": 0.12
+    },
+    {
+      "frame": 7,
+      "actual": 0.0,
+      "required": 0.12
+    }
+  ],
+  "runtimeWarnings": [],
+  "producerVisualNote": "Actual native and eye ROI reviewed; real tail/fin membrane curve changes, identity preserved. Ownership retains every assigned pixel, no foreign fish. Pending root contact review and Unity playback.",
+  "registeredContactVisual": "producer_actually_viewed_light_dark_and_display_rest_comparison",
+  "identityAndMotion": "pending_root_visual",
+  "playback": "pending_Unity",
+  "references": "designs/motion-frames-v1/03-chiyu/swim/03-chiyu-swim-v1.png",
+  "rootVisual": "pending"
+}

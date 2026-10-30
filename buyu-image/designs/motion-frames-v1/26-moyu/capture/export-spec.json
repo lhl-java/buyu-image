@@ -1,0 +1,72 @@
+{
+  "grid": [
+    2,
+    4
+  ],
+  "canvas": [
+    640,
+    640
+  ],
+  "pupilTarget": [
+    320,
+    280
+  ],
+  "fps": 12,
+  "displayBox": [
+    240,
+    180
+  ],
+  "pupilRoi": [
+    170,
+    150,
+    270,
+    270
+  ],
+  "pending": [
+    "Root actual playback/loop or capture recovery review.",
+    "Eight-arm topology and suction-cup continuity need root visual review; source has natural overlapping arms.",
+    "Actual target Unity review; geometry/PNG count alone is not an animation pass."
+  ],
+  "id": "26-moyu/capture",
+  "name": "墨玉章鱼",
+  "action": "capture",
+  "source": "designs/motion-frames-v1/26-moyu/capture/26-moyu-capture.png",
+  "output": "assets/animations/26-moyu/capture",
+  "loop": false,
+  "sourceRects": [[0,0,450,444],[450,0,900,444],[900,0,1330,444],null,null,null,null,null],
+  "pupilExpected": [
+    [
+      213,
+      219
+    ],
+    [
+      204,
+      219
+    ],
+    [
+      198,
+      218
+    ],
+    [
+      212,
+      217
+    ],
+    [
+      215,
+      206
+    ],
+    [
+      213,
+      203
+    ],
+    [
+      211,
+      202
+    ],
+    [
+      215,
+      202
+    ]
+  ],
+  "visualReview": "Actual source viewed: arms tuck to capture peak and rebound/settle. Stable dome and face; no FX ink/net or background baked in. Eight-arm topology and recovery need root playback review."
+}

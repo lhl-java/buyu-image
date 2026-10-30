@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "source": "designs/motion-frames-v1/35-longwang/enrage/enrage-b-v1.png",
+  "sha256": "abecd473e9155fe4ec414baff1294fddf53ca0e080ace32f4e36ee7b182d87a6",
+  "size": [
+    1254,
+    1254
+  ],
+  "grid": [
+    2,
+    2
+  ],
+  "frames": [
+    {
+      "sourceFrame": 0,
+      "file": "designs/motion-frames-v1/35-longwang/enrage/extract-b-pose-00.png",
+      "sourceRect": [
+        39,
+        237,
+        612,
+        614
+      ],
+      "nominalSourceRect": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "nominalGridCross": false,
+      "nativeVisibleSize": [
+        573,
+        377
+      ],
+      "ownedPixelCount": 122782,
+      "foreignPixelsRemovedFromCrop": 0,
+      "totalCanvasEdgeMaxAlpha": 0,
+      "nativeOwnedPixelsUnchanged": true,
+      "sourceMainAlphaComponent": 1
+    },
+    {
+      "sourceFrame": 1,
+      "file": "designs/motion-frames-v1/35-longwang/enrage/extract-b-pose-01.png",
+      "sourceRect": [
+        622,
+        237,
+        1238,
+        611
+      ],
+      "nominalSourceRect": [
+        627,
+        0,
+        1254,
+        627
+      ],
+      "nominalGridCross": true,
+      "nativeVisibleSize": [
+        616,
+        374
+      ],
+      "ownedPixelCount": 129890,
+      "foreignPixelsRemovedFromCrop": 0,
+      "totalCanvasEdgeMaxAlpha": 0,
+      "nativeOwnedPixelsUnchanged": true,
+      "sourceMainAlphaComponent": 2
+    },
+    {
+      "sourceFrame": 2,
+      "file": "designs/motion-frames-v1/35-longwang/enrage/extract-b-pose-02.png",
+      "sourceRect": [
+        74,
+        715,
+        623,
+        1109
+      ],
+      "nominalSourceRect": [
+        0,
+        627,
+        627,
+        1254
+      ],
+      "nominalGridCross": false,
+      "nativeVisibleSize": [
+        549,
+        394
+      ],
+      "ownedPixelCount": 144588,
+      "foreignPixelsRemovedFromCrop": 0,
+      "totalCanvasEdgeMaxAlpha": 0,
+      "nativeOwnedPixelsUnchanged": true,
+      "sourceMainAlphaComponent": 84
+    },
+    {
+      "sourceFrame": 3,
+      "file": "designs/motion-frames-v1/35-longwang/enrage/extract-b-pose-03.png",
+      "sourceRect": [
+        678,
+        739,
+        1245,
+        1115
+      ],
+      "nominalSourceRect": [
+        627,
+        627,
+        1254,
+        1254
+      ],
+      "nominalGridCross": false,
+      "nativeVisibleSize": [
+        567,
+        376
+      ],
+      "ownedPixelCount": 121285,
+      "foreignPixelsRemovedFromCrop": 0,
+      "totalCanvasEdgeMaxAlpha": 0,
+      "nativeOwnedPixelsUnchanged": true,
+      "sourceMainAlphaComponent": 90
+    }
+  ],
+  "ownershipMap": "designs/motion-frames-v1/35-longwang/enrage/extract-b-ownership.png",
+  "contactSheet": "designs/motion-frames-v1/35-longwang/enrage/extract-b-ownership-review.jpg",
+  "totalActivePixels": 518545,
+  "retainedPixelCount": 518545,
+  "pixelOwnershipExclusiveAndComplete": true,
+  "allNativeRGBAAboveAlpha3Preserved": true,
+  "alphaCleanup": "Outside owned shape zero; alpha<=3 discarded, all owned RGBA unchanged.",
+  "resized": false,
+  "motionApproved": false,
+  "semanticOwnershipApproved": false,
+  "createdAt": "2026-10-28T17:50:24.988000+00:00"
+}

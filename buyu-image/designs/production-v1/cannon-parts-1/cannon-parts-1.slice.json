@@ -1,0 +1,123 @@
+{
+  "source": "designs/production-v1/cannon-parts-1/cannon-parts-1.png",
+  "output": "assets/cannons/batch-1",
+  "rows": 2,
+  "cols": 3,
+  "items": [
+    {
+      "id": "hulu-base",
+      "name": "葫芦炮底座",
+      "description": "ivory gold gourd with Tai Chi circular cannon pedestal, directly top down",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        160,
+        160
+      ],
+      "sourceRect": [
+        0,
+        0,
+        512,
+        479
+      ]
+    },
+    {
+      "id": "yunwen-base",
+      "name": "云纹炮底座",
+      "description": "jade cloud carved gold ivory circular cannon pedestal, directly top down",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        160,
+        160
+      ],
+      "sourceRect": [
+        512,
+        0,
+        1024,
+        479
+      ]
+    },
+    {
+      "id": "lianhua-base",
+      "name": "莲华炮底座",
+      "description": "peach lotus jade gold circular cannon pedestal, directly top down",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        160,
+        160
+      ],
+      "sourceRect": [
+        1024,
+        0,
+        1536,
+        479
+      ]
+    },
+    {
+      "id": "hulu-barrel",
+      "name": "葫芦炮炮管",
+      "description": "ivory gold gourd with Tai Chi upright vertical barrel pointing to twelve o clock, no base",
+      "anchor": [
+        0.5,
+        0.7
+      ],
+      "displaySize": [
+        160,
+        200
+      ],
+      "sourceRect": [
+        0,
+        479,
+        512,
+        1024
+      ]
+    },
+    {
+      "id": "yunwen-barrel",
+      "name": "云纹炮炮管",
+      "description": "jade cloud carved gold ivory upright vertical barrel pointing to twelve o clock, no base",
+      "anchor": [
+        0.5,
+        0.7
+      ],
+      "displaySize": [
+        160,
+        200
+      ],
+      "sourceRect": [
+        512,
+        479,
+        1024,
+        1024
+      ]
+    },
+    {
+      "id": "lianhua-barrel",
+      "name": "莲华炮炮管",
+      "description": "peach lotus jade gold upright vertical barrel pointing to twelve o clock, no base",
+      "anchor": [
+        0.5,
+        0.7
+      ],
+      "displaySize": [
+        160,
+        200
+      ],
+      "sourceRect": [
+        1024,
+        479,
+        1536,
+        1024
+      ]
+    }
+  ],
+  "keepCell": false
+}

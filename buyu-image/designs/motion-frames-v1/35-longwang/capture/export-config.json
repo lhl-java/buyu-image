@@ -1,0 +1,28 @@
+{
+  "actor": "35-longwang",
+  "action": "capture",
+  "name": "龙王海龙捕获",
+  "canvas": [
+    1000,
+    1000
+  ],
+  "eyeRoot": [
+    680,
+    420
+  ],
+  "fps": 12,
+  "loop": false,
+  "bodyDisplayBox": [
+    340,
+    260
+  ],
+  "sheets": [
+    {
+      "qa": "designs/motion-frames-v1/35-longwang/capture/source-v2-qa.json",
+      "ownership": "designs/motion-frames-v1/35-longwang/capture/extract-v2.json",
+      "closedEyeFrames": [
+        3
+      ]
+    }
+  ]
+}

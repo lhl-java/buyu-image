@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "medal-bronze",
+  "name": "铜牌",
+  "file": "assets/ornaments/medal-bronze.png",
+  "sha256": "b64ba9d4362223111e5e4c8ad327c353697323fad564b92bc90f7545efe86e63",
+  "width": 270,
+  "height": 299,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/production-v1/gameplay-ornaments/gameplay-ornaments-v2.png",
+  "derivedFrom": [
+    {
+      "file": "designs/production-v1/gameplay-ornaments/gameplay-ornaments-v2.png",
+      "sha256": "ac5c793caf0aa116e552d496bf3a716d73b0a5faf81d408a54daa22dd89ef6fc",
+      "generationRecord": "designs/production-v1/gameplay-ornaments/gameplay-ornaments-v2.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_ownership_crop",
+    "grid": {
+      "rows": 3,
+      "cols": 3
+    },
+    "sourceRect": [
+      850,
+      442,
+      1208,
+      839
+    ],
+    "cellCropRect": [
+      44,
+      49,
+      314,
+      348
+    ],
+    "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+    "resized": false,
+    "upscaled": false
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "displaySize": [
+    60,
+    60
+  ],
+  "status": "visual_reviewed_pending_runtime_integration",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source generation record; no new model call for this slice.",
+  "visualReview": {
+    "reviewedAt": "2026-10-26T20:44:05.205026+00:00",
+    "sourceAndContactSheetViewed": true,
+    "result": "pass_for_static_visual_asset",
+    "notes": "已实际查看源图及切片联系表：9件无字饰件顺序准确、轮廓完整、无跨格。两空心准星和水滴标中心采样Alpha为0；三甲奖章中心留空无数字。v2修订了留白，按实际带透明留边所有权矩形切片，不缩放。",
+    "runtimeIntegrationVerified": false
+  }
+}

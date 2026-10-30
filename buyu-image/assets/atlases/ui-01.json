@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "frames": {
+    "ui/buttons/primary-pressed": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 344,
+        "h": 132
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 344,
+        "h": 132
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ui/buttons/primary-pressed.png",
+      "sourceSha256": "b5543b36ceb21aac090032ad8bc9f7d8d7511d2e4fe014de18da2c858a014963"
+    },
+    "ui/hud/bottom-rail": {
+      "frame": {
+        "x": 350,
+        "y": 2,
+        "w": 379,
+        "h": 121
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 379,
+        "h": 121
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ui/hud/bottom-rail.png",
+      "sourceSha256": "0b221f95c3f5d3e8f4915902fc574c9e832b0cd44592c03d3717d4caed1a3788"
+    },
+    "ui/hud/resource-capsule": {
+      "frame": {
+        "x": 733,
+        "y": 2,
+        "w": 318,
+        "h": 110
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 318,
+        "h": 110
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ui/hud/resource-capsule.png",
+      "sourceSha256": "a43e6d1c349d6d58bba25a72adbde1b25728f7ff8473935d101ccbec31645a6a"
+    },
+    "ui/hud/progress-track": {
+      "frame": {
+        "x": 1055,
+        "y": 2,
+        "w": 336,
+        "h": 90
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 336,
+        "h": 90
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ui/hud/progress-track.png",
+      "sourceSha256": "d0dd0e39e489ae6dc2e20171faa4ddc0a253fb1dda470c56fb9d93b61eb12082"
+    }
+  },
+  "meta": {
+    "image": "ui-01.png",
+    "size": {
+      "w": 1393,
+      "h": 136
+    },
+    "format": "RGBA8888",
+    "scale": 1,
+    "padding": 2,
+    "noRotation": true,
+    "generatedAt": "2026-10-30T03:30:12.489824+00:00",
+    "operation": "native pixel packing; no resampling or redraw"
+  }
+}

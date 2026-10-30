@@ -1,0 +1,1453 @@
+{
+  "schemaVersion": 1,
+  "source": "designs/motion-frames-v1/30-jinjia/swim/30-jinjia-swim.png",
+  "sourceWidth": 1774,
+  "sourceHeight": 887,
+  "output": "assets/animations/30-jinjia/swim",
+  "status": "accepted_first_release_art",
+  "items": [
+    {
+      "schemaVersion": 1,
+      "id": "frame-00",
+      "name": "金甲蟹 swim 0",
+      "file": "assets/animations/30-jinjia/swim/frame-00.png",
+      "sha256": "3585041ee2529492744d6954452c13fb78bb0134cd61a441274e7b5b9c8b8735",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/30-jinjia/swim/30-jinjia-swim.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/30-jinjia/swim/30-jinjia-swim.png",
+          "sha256": "4e10cbe1c5e301d57e449c13ef54b81c5d70e9e59afb2c574f4362c429144767",
+          "generationRecord": "designs/motion-frames-v1/30-jinjia/swim/30-jinjia-swim.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          0,
+          0,
+          444,
+          444
+        ],
+        "registrationOffset": [
+          104,
+          83,
+          548,
+          527
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_connected_component_centroid",
+          "sourcePointFloat": [
+            215.8374760994264,
+            237.37667304015295
+          ],
+          "sourcePointRounded": [
+            216,
+            237
+          ],
+          "targetPoint": [
+            320,
+            320
+          ],
+          "pupilBounds": [
+            198,
+            225,
+            235,
+            250
+          ],
+          "detectionRoi": [
+            170,
+            180,
+            270,
+            290
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+        },
+        "nominalGridRect": [
+          0,
+          0,
+          444,
+          444
+        ],
+        "sourceRectType": "nominal_grid",
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceBoundaryClippingAssessment": "only_alpha0_3_at_boundary"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "30-jinjia/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "phase": 0.0,
+        "durationMs": 83,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+          "nativeMedianPupilWidth": 37.0,
+          "sharedTargetDisplayedPupilWidth": 19.304,
+          "uniformDisplayScale": 0.5217297297297296,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            320,
+            320
+          ],
+          "sharedVisualPivotNormalized": [
+            0.5,
+            0.5
+          ],
+          "displayBodyMaxPixels": [
+            225.3872432432432,
+            179.99675675675672
+          ],
+          "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          14,
+          67,
+          434,
+          391
+        ],
+        "nativeVisibleSize": [
+          420,
+          324
+        ],
+        "rawCellEdgeMaxAlpha": 1,
+        "nominalGridEdgeMaxAlpha": 1,
+        "registeredBoxAlpha16": [
+          118,
+          150,
+          538,
+          474
+        ],
+        "registeredMarginsFraction": [
+          0.184375,
+          0.234375,
+          0.159375,
+          0.259375
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 523,
+          "bbox": [
+            198,
+            225,
+            235,
+            250
+          ],
+          "centroid": [
+            215.8374760994264,
+            237.37667304015295
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-01",
+      "name": "金甲蟹 swim 1",
+      "file": "assets/animations/30-jinjia/swim/frame-01.png",
+      "sha256": "fb4226a552a3555034c74af9f53a9f57df7369f8760ebe5a982ef06541de5126",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/30-jinjia/swim/30-jinjia-swim.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/30-jinjia/swim/30-jinjia-swim.png",
+          "sha256": "4e10cbe1c5e301d57e449c13ef54b81c5d70e9e59afb2c574f4362c429144767",
+          "generationRecord": "designs/motion-frames-v1/30-jinjia/swim/30-jinjia-swim.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          444,
+          0,
+          890,
+          444
+        ],
+        "registrationOffset": [
+          109,
+          82,
+          555,
+          526
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_connected_component_centroid",
+          "sourcePointFloat": [
+            211.27162629757785,
+            237.7560553633218
+          ],
+          "sourcePointRounded": [
+            211,
+            238
+          ],
+          "targetPoint": [
+            320,
+            320
+          ],
+          "pupilBounds": [
+            193,
+            224,
+            230,
+            256
+          ],
+          "detectionRoi": [
+            170,
+            180,
+            270,
+            290
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+        },
+        "nominalGridRect": [
+          444,
+          0,
+          887,
+          444
+        ],
+        "sourceRectType": "custom_ownership_between_separated_characters",
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceBoundaryClippingAssessment": "only_alpha0_3_at_boundary"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "30-jinjia/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "phase": 0.125,
+        "durationMs": 84,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+          "nativeMedianPupilWidth": 37.0,
+          "sharedTargetDisplayedPupilWidth": 19.304,
+          "uniformDisplayScale": 0.5217297297297296,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            320,
+            320
+          ],
+          "sharedVisualPivotNormalized": [
+            0.5,
+            0.5
+          ],
+          "displayBodyMaxPixels": [
+            225.3872432432432,
+            179.99675675675672
+          ],
+          "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          12,
+          67,
+          444,
+          404
+        ],
+        "nativeVisibleSize": [
+          432,
+          337
+        ],
+        "rawCellEdgeMaxAlpha": 3,
+        "nominalGridEdgeMaxAlpha": 253,
+        "registeredBoxAlpha16": [
+          121,
+          149,
+          553,
+          486
+        ],
+        "registeredMarginsFraction": [
+          0.1890625,
+          0.2328125,
+          0.1359375,
+          0.240625
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 578,
+          "bbox": [
+            193,
+            224,
+            230,
+            256
+          ],
+          "centroid": [
+            211.27162629757785,
+            237.7560553633218
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-02",
+      "name": "金甲蟹 swim 2",
+      "file": "assets/animations/30-jinjia/swim/frame-02.png",
+      "sha256": "1f12ab8708e2754586f579cf6857b1cf16629b88397134255348f1fb942c6b87",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/30-jinjia/swim/30-jinjia-swim.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/30-jinjia/swim/30-jinjia-swim.png",
+          "sha256": "4e10cbe1c5e301d57e449c13ef54b81c5d70e9e59afb2c574f4362c429144767",
+          "generationRecord": "designs/motion-frames-v1/30-jinjia/swim/30-jinjia-swim.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          890,
+          0,
+          1330,
+          444
+        ],
+        "registrationOffset": [
+          115,
+          82,
+          555,
+          526
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_connected_component_centroid",
+          "sourcePointFloat": [
+            205.2490118577075,
+            237.81422924901185
+          ],
+          "sourcePointRounded": [
+            205,
+            238
+          ],
+          "targetPoint": [
+            320,
+            320
+          ],
+          "pupilBounds": [
+            186,
+            225,
+            224,
+            252
+          ],
+          "detectionRoi": [
+            170,
+            180,
+            270,
+            290
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+        },
+        "nominalGridRect": [
+          887,
+          0,
+          1330,
+          444
+        ],
+        "sourceRectType": "custom_ownership_between_separated_characters",
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceBoundaryClippingAssessment": "only_alpha0_3_at_boundary"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "30-jinjia/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "phase": 0.25,
+        "durationMs": 83,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+          "nativeMedianPupilWidth": 37.0,
+          "sharedTargetDisplayedPupilWidth": 19.304,
+          "uniformDisplayScale": 0.5217297297297296,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            320,
+            320
+          ],
+          "sharedVisualPivotNormalized": [
+            0.5,
+            0.5
+          ],
+          "displayBodyMaxPixels": [
+            225.3872432432432,
+            179.99675675675672
+          ],
+          "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          6,
+          60,
+          437,
+          405
+        ],
+        "nativeVisibleSize": [
+          431,
+          345
+        ],
+        "rawCellEdgeMaxAlpha": 3,
+        "nominalGridEdgeMaxAlpha": 140,
+        "registeredBoxAlpha16": [
+          121,
+          142,
+          552,
+          487
+        ],
+        "registeredMarginsFraction": [
+          0.1890625,
+          0.221875,
+          0.1375,
+          0.2390625
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 506,
+          "bbox": [
+            186,
+            225,
+            224,
+            252
+          ],
+          "centroid": [
+            205.2490118577075,
+            237.81422924901185
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-03",
+      "name": "金甲蟹 swim 3",
+      "file": "assets/animations/30-jinjia/swim/frame-03.png",
+      "sha256": "94803111c1425f773b623b37df565affeae3cb56b4982f68217b55931d39ad8c",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/30-jinjia/swim/30-jinjia-swim.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/30-jinjia/swim/30-jinjia-swim.png",
+          "sha256": "4e10cbe1c5e301d57e449c13ef54b81c5d70e9e59afb2c574f4362c429144767",
+          "generationRecord": "designs/motion-frames-v1/30-jinjia/swim/30-jinjia-swim.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          1330,
+          0,
+          1774,
+          444
+        ],
+        "registrationOffset": [
+          109,
+          82,
+          553,
+          526
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_connected_component_centroid",
+          "sourcePointFloat": [
+            211.04029304029305,
+            238.0897435897436
+          ],
+          "sourcePointRounded": [
+            211,
+            238
+          ],
+          "targetPoint": [
+            320,
+            320
+          ],
+          "pupilBounds": [
+            193,
+            225,
+            230,
+            253
+          ],
+          "detectionRoi": [
+            170,
+            180,
+            270,
+            290
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+        },
+        "nominalGridRect": [
+          1330,
+          0,
+          1774,
+          444
+        ],
+        "sourceRectType": "nominal_grid",
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceBoundaryClippingAssessment": "only_alpha0_3_at_boundary"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "30-jinjia/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "phase": 0.375,
+        "durationMs": 83,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+          "nativeMedianPupilWidth": 37.0,
+          "sharedTargetDisplayedPupilWidth": 19.304,
+          "uniformDisplayScale": 0.5217297297297296,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            320,
+            320
+          ],
+          "sharedVisualPivotNormalized": [
+            0.5,
+            0.5
+          ],
+          "displayBodyMaxPixels": [
+            225.3872432432432,
+            179.99675675675672
+          ],
+          "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          12,
+          66,
+          416,
+          397
+        ],
+        "nativeVisibleSize": [
+          404,
+          331
+        ],
+        "rawCellEdgeMaxAlpha": 1,
+        "nominalGridEdgeMaxAlpha": 1,
+        "registeredBoxAlpha16": [
+          121,
+          148,
+          525,
+          479
+        ],
+        "registeredMarginsFraction": [
+          0.1890625,
+          0.23125,
+          0.1796875,
+          0.2515625
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 546,
+          "bbox": [
+            193,
+            225,
+            230,
+            253
+          ],
+          "centroid": [
+            211.04029304029305,
+            238.0897435897436
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-04",
+      "name": "金甲蟹 swim 4",
+      "file": "assets/animations/30-jinjia/swim/frame-04.png",
+      "sha256": "b8e5202300d5e94ccb9de2e95dc23f7d3c2a000d300e6c60e122c97976d182aa",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/30-jinjia/swim/30-jinjia-swim.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/30-jinjia/swim/30-jinjia-swim.png",
+          "sha256": "4e10cbe1c5e301d57e449c13ef54b81c5d70e9e59afb2c574f4362c429144767",
+          "generationRecord": "designs/motion-frames-v1/30-jinjia/swim/30-jinjia-swim.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          0,
+          444,
+          450,
+          887
+        ],
+        "registrationOffset": [
+          105,
+          108,
+          555,
+          551
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_connected_component_centroid",
+          "sourcePointFloat": [
+            215.32021466905186,
+            211.81037567084078
+          ],
+          "sourcePointRounded": [
+            215,
+            212
+          ],
+          "targetPoint": [
+            320,
+            320
+          ],
+          "pupilBounds": [
+            197,
+            199,
+            235,
+            226
+          ],
+          "detectionRoi": [
+            170,
+            180,
+            270,
+            290
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+        },
+        "nominalGridRect": [
+          0,
+          444,
+          444,
+          887
+        ],
+        "sourceRectType": "custom_ownership_between_separated_characters",
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceBoundaryClippingAssessment": "only_alpha0_3_at_boundary"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "30-jinjia/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "phase": 0.5,
+        "durationMs": 84,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+          "nativeMedianPupilWidth": 37.0,
+          "sharedTargetDisplayedPupilWidth": 19.304,
+          "uniformDisplayScale": 0.5217297297297296,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            320,
+            320
+          ],
+          "sharedVisualPivotNormalized": [
+            0.5,
+            0.5
+          ],
+          "displayBodyMaxPixels": [
+            225.3872432432432,
+            179.99675675675672
+          ],
+          "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          15,
+          44,
+          442,
+          387
+        ],
+        "nativeVisibleSize": [
+          427,
+          343
+        ],
+        "rawCellEdgeMaxAlpha": 1,
+        "nominalGridEdgeMaxAlpha": 6,
+        "registeredBoxAlpha16": [
+          120,
+          152,
+          547,
+          495
+        ],
+        "registeredMarginsFraction": [
+          0.1875,
+          0.2375,
+          0.1453125,
+          0.2265625
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 559,
+          "bbox": [
+            197,
+            199,
+            235,
+            226
+          ],
+          "centroid": [
+            215.32021466905186,
+            211.81037567084078
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-05",
+      "name": "金甲蟹 swim 5",
+      "file": "assets/animations/30-jinjia/swim/frame-05.png",
+      "sha256": "f39d91ca058c97a5abcb3ec0726d50805873bd94883d40c7f542b53733563202",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/30-jinjia/swim/30-jinjia-swim.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/30-jinjia/swim/30-jinjia-swim.png",
+          "sha256": "4e10cbe1c5e301d57e449c13ef54b81c5d70e9e59afb2c574f4362c429144767",
+          "generationRecord": "designs/motion-frames-v1/30-jinjia/swim/30-jinjia-swim.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          450,
+          444,
+          887,
+          887
+        ],
+        "registrationOffset": [
+          111,
+          107,
+          548,
+          550
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_connected_component_centroid",
+          "sourcePointFloat": [
+            208.59859154929578,
+            212.7693661971831
+          ],
+          "sourcePointRounded": [
+            209,
+            213
+          ],
+          "targetPoint": [
+            320,
+            320
+          ],
+          "pupilBounds": [
+            190,
+            199,
+            227,
+            232
+          ],
+          "detectionRoi": [
+            170,
+            180,
+            270,
+            290
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+        },
+        "nominalGridRect": [
+          444,
+          444,
+          887,
+          887
+        ],
+        "sourceRectType": "custom_ownership_between_separated_characters",
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceBoundaryClippingAssessment": "only_alpha0_3_at_boundary"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "30-jinjia/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "phase": 0.625,
+        "durationMs": 83,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+          "nativeMedianPupilWidth": 37.0,
+          "sharedTargetDisplayedPupilWidth": 19.304,
+          "uniformDisplayScale": 0.5217297297297296,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            320,
+            320
+          ],
+          "sharedVisualPivotNormalized": [
+            0.5,
+            0.5
+          ],
+          "displayBodyMaxPixels": [
+            225.3872432432432,
+            179.99675675675672
+          ],
+          "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          11,
+          40,
+          434,
+          379
+        ],
+        "nativeVisibleSize": [
+          423,
+          339
+        ],
+        "rawCellEdgeMaxAlpha": 1,
+        "nominalGridEdgeMaxAlpha": 2,
+        "registeredBoxAlpha16": [
+          122,
+          147,
+          545,
+          486
+        ],
+        "registeredMarginsFraction": [
+          0.190625,
+          0.2296875,
+          0.1484375,
+          0.240625
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 568,
+          "bbox": [
+            190,
+            199,
+            227,
+            232
+          ],
+          "centroid": [
+            208.59859154929578,
+            212.7693661971831
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-06",
+      "name": "金甲蟹 swim 6",
+      "file": "assets/animations/30-jinjia/swim/frame-06.png",
+      "sha256": "a4dbd3374a74e500f97da7c5478a2e4b9cb8ac73f69dad3026c3556c2357e83f",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/30-jinjia/swim/30-jinjia-swim.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/30-jinjia/swim/30-jinjia-swim.png",
+          "sha256": "4e10cbe1c5e301d57e449c13ef54b81c5d70e9e59afb2c574f4362c429144767",
+          "generationRecord": "designs/motion-frames-v1/30-jinjia/swim/30-jinjia-swim.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          887,
+          444,
+          1330,
+          887
+        ],
+        "registrationOffset": [
+          111,
+          107,
+          554,
+          550
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_connected_component_centroid",
+          "sourcePointFloat": [
+            209.3078431372549,
+            212.75686274509803
+          ],
+          "sourcePointRounded": [
+            209,
+            213
+          ],
+          "targetPoint": [
+            320,
+            320
+          ],
+          "pupilBounds": [
+            191,
+            200,
+            228,
+            226
+          ],
+          "detectionRoi": [
+            170,
+            180,
+            270,
+            290
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+        },
+        "nominalGridRect": [
+          887,
+          444,
+          1330,
+          887
+        ],
+        "sourceRectType": "nominal_grid",
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceBoundaryClippingAssessment": "only_alpha0_3_at_boundary"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "30-jinjia/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "phase": 0.75,
+        "durationMs": 83,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+          "nativeMedianPupilWidth": 37.0,
+          "sharedTargetDisplayedPupilWidth": 19.304,
+          "uniformDisplayScale": 0.5217297297297296,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            320,
+            320
+          ],
+          "sharedVisualPivotNormalized": [
+            0.5,
+            0.5
+          ],
+          "displayBodyMaxPixels": [
+            225.3872432432432,
+            179.99675675675672
+          ],
+          "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          9,
+          41,
+          431,
+          379
+        ],
+        "nativeVisibleSize": [
+          422,
+          338
+        ],
+        "rawCellEdgeMaxAlpha": 1,
+        "nominalGridEdgeMaxAlpha": 1,
+        "registeredBoxAlpha16": [
+          120,
+          148,
+          542,
+          486
+        ],
+        "registeredMarginsFraction": [
+          0.1875,
+          0.23125,
+          0.153125,
+          0.240625
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 510,
+          "bbox": [
+            191,
+            200,
+            228,
+            226
+          ],
+          "centroid": [
+            209.3078431372549,
+            212.75686274509803
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-07",
+      "name": "金甲蟹 swim 7",
+      "file": "assets/animations/30-jinjia/swim/frame-07.png",
+      "sha256": "2169f5a877315683072a27697dfd2b4bd9912ad1684c40e09c71e3055e49bf93",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/30-jinjia/swim/30-jinjia-swim.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/30-jinjia/swim/30-jinjia-swim.png",
+          "sha256": "4e10cbe1c5e301d57e449c13ef54b81c5d70e9e59afb2c574f4362c429144767",
+          "generationRecord": "designs/motion-frames-v1/30-jinjia/swim/30-jinjia-swim.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          1330,
+          444,
+          1774,
+          887
+        ],
+        "registrationOffset": [
+          109,
+          108,
+          553,
+          551
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_connected_component_centroid",
+          "sourcePointFloat": [
+            210.62166962699823,
+            212.0017761989343
+          ],
+          "sourcePointRounded": [
+            211,
+            212
+          ],
+          "targetPoint": [
+            320,
+            320
+          ],
+          "pupilBounds": [
+            192,
+            198,
+            229,
+            230
+          ],
+          "detectionRoi": [
+            170,
+            180,
+            270,
+            290
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+        },
+        "nominalGridRect": [
+          1330,
+          444,
+          1774,
+          887
+        ],
+        "sourceRectType": "nominal_grid",
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceBoundaryClippingAssessment": "only_alpha0_3_at_boundary"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "30-jinjia/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "phase": 0.875,
+        "durationMs": 84,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+          "nativeMedianPupilWidth": 37.0,
+          "sharedTargetDisplayedPupilWidth": 19.304,
+          "uniformDisplayScale": 0.5217297297297296,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            320,
+            320
+          ],
+          "sharedVisualPivotNormalized": [
+            0.5,
+            0.5
+          ],
+          "displayBodyMaxPixels": [
+            225.3872432432432,
+            179.99675675675672
+          ],
+          "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          8,
+          40,
+          425,
+          366
+        ],
+        "nativeVisibleSize": [
+          417,
+          326
+        ],
+        "rawCellEdgeMaxAlpha": 1,
+        "nominalGridEdgeMaxAlpha": 1,
+        "registeredBoxAlpha16": [
+          117,
+          148,
+          534,
+          474
+        ],
+        "registeredMarginsFraction": [
+          0.1828125,
+          0.23125,
+          0.165625,
+          0.259375
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 563,
+          "bbox": [
+            192,
+            198,
+            229,
+            230
+          ],
+          "centroid": [
+            210.62166962699823,
+            212.0017761989343
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false
+      }
+    }
+  ],
+  "animation": {
+    "id": "30-jinjia/swim",
+    "frameCount": 8,
+    "fps": 12,
+    "loop": true,
+    "canvas": [
+      640,
+      640
+    ],
+    "pupilRegistrationTarget": [
+      320,
+      320
+    ],
+    "root": [
+      0.5,
+      0.5
+    ],
+    "durationMs": 667,
+    "durationsMs": [
+      83,
+      84,
+      83,
+      83,
+      84,
+      83,
+      83,
+      84
+    ],
+    "sourceScale": "Uniform native pixels, no per-frame bbox normalization.",
+    "visualReview": "Actual source viewed: leg joints paddle/scuttle and claws articulate/open. Two claws and walking limbs retained with natural overlapping. Strong original mathematical boundary alpha253/140 belongs one complete character crossing into next nominal cell; real empty cut atx890 verified alpha<=3, custom ownership retains limbs. Leg topology and loop pending root review.",
+    "pending": [
+      "Root actual playback/recovery and face/appendage identity review.",
+      "Unity runtime not reviewed; registration/PNG counts alone are not motion acceptance."
+    ],
+    "releaseReady": true,
+    "displayCalibration": {
+      "status": "candidate_pending_root_visual_runtime_review",
+      "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+      "nativeMedianPupilWidth": 37.0,
+      "sharedTargetDisplayedPupilWidth": 19.304,
+      "uniformDisplayScale": 0.5217297297297296,
+      "upscale": false,
+      "perFrameBboxFit": false,
+      "sharedVisualPivotPixels": [
+        320,
+        320
+      ],
+      "sharedVisualPivotNormalized": [
+        0.5,
+        0.5
+      ],
+      "displayBodyMaxPixels": [
+        225.3872432432432,
+        179.99675675675672
+      ],
+      "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+    }
+  },
+  "notes": [
+    "Native AI articulated body/appendage frames; crop/translation/padding only aligns layout and does not create animation.",
+    "Raw source padding may be smaller than final contract; only final transparent padding meets12%.",
+    "No PNG upsample, full-image rotation/scale or per-frame body warp."
+  ],
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+  "acceptedAt": "2026-10-30T04:07:09.085600+00:00",
+  "releaseReady": true,
+  "playbackReview": "docs/UNITY_FINAL_ACCEPTANCE.json"
+}

@@ -1,0 +1,1901 @@
+{
+  "schemaVersion": 1,
+  "source": "designs/motion-frames-v1/13-yunwengui/swim/13-yunwengui-swim-v3.png",
+  "sourceWidth": 1774,
+  "sourceHeight": 887,
+  "sourceSha256": "d16b88578e5ec8d67dee4e21d1c3ba13b2c751e0f3520b96bd7b258cd86615e9",
+  "output": "assets/animations/13-yunwengui/swim",
+  "items": [
+    {
+      "schemaVersion": 1,
+      "id": "frame-00",
+      "name": "13-yunwengui swim 0",
+      "file": "assets/animations/13-yunwengui/swim/frame-00.png",
+      "sha256": "c4e2269b772ea773716da0eacf758bdcacb683ac9d38df80f19df0ae7b7fd2f1",
+      "width": 844,
+      "height": 844,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/13-yunwengui/swim/13-yunwengui-swim-v3.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/13-yunwengui/swim/13-yunwengui-swim-v3.png",
+          "sha256": "d16b88578e5ec8d67dee4e21d1c3ba13b2c751e0f3520b96bd7b258cd86615e9",
+          "generationRecord": "designs/motion-frames-v1/13-yunwengui/swim/13-yunwengui-swim-v3.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+        "nominalGrid": {
+          "cols": 4,
+          "rows": 2
+        },
+        "nominalGridRect": [
+          0,
+          0,
+          444,
+          444
+        ],
+        "sourceRect": [
+          30,
+          140,
+          413,
+          404
+        ],
+        "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+        "ownershipPixelCount": 62144,
+        "alphaCleanup": "Only alpha<=3 set to0",
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "registrationOffset": [
+          272,
+          305
+        ],
+        "registeredCanvas": [
+          844,
+          844
+        ],
+        "registrationReference": {
+          "type": "largest round dark eye component inside fixed local head ROI; manually review landmark contact",
+          "sourcePointGlobal": [
+            348.3995901639344,
+            184.59016393442624
+          ],
+          "sourcePointLocal": [
+            318.3995901639344,
+            44.59016393442624
+          ],
+          "targetPoint": [
+            590,
+            350
+          ],
+          "rounding": "nearest integer",
+          "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+        },
+        "sourcePixelsRoundTripVerified": true,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        422,
+        422
+      ],
+      "landmarkPixels": [
+        590,
+        350
+      ],
+      "registeredAlphaBBox": [
+        272,
+        305,
+        655,
+        569
+      ],
+      "registeredMinMargin": 0.22393364928909953,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+      "animation": {
+        "id": "13-yunwengui/swim",
+        "frames": 8,
+        "fps": 8,
+        "loop": true,
+        "order": "row-major",
+        "durationsMs": [
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125
+        ],
+        "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+        "identityStatus": "pending_root_visual",
+        "motionStatus": "pending_root_visual",
+        "loopVisualStatus": "pending_root_playback",
+        "sourceRoute": "builtin_native_AI_sheet_user_requested"
+      },
+      "status": "accepted_first_release_art",
+      "targetBodyBox": [
+        180,
+        130
+      ],
+      "uniformDisplayScale": 0.47619047619047616,
+      "displaySize": [
+        401.90476190476187,
+        401.90476190476187
+      ],
+      "bodyDisplayBox": [
+        180,
+        130
+      ],
+      "displaySizing": {
+        "preserveAspect": true,
+        "uniformScaleAcrossAction": true,
+        "upscalingAllowed": false
+      },
+      "displayScaleReference": {
+        "restNativeVisibleBox": [
+          378,
+          262
+        ],
+        "fitMaxBox": [
+          180,
+          130
+        ],
+        "method": "one rest-frame solid anatomical silhouette scale reused for all8frames",
+        "upscaling": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-01",
+      "name": "13-yunwengui swim 1",
+      "file": "assets/animations/13-yunwengui/swim/frame-01.png",
+      "sha256": "a85edb86e6ec3ff481df601b1ebc5d66ea6e8c4258a3ccf008134c35646a0a13",
+      "width": 844,
+      "height": 844,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/13-yunwengui/swim/13-yunwengui-swim-v3.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/13-yunwengui/swim/13-yunwengui-swim-v3.png",
+          "sha256": "d16b88578e5ec8d67dee4e21d1c3ba13b2c751e0f3520b96bd7b258cd86615e9",
+          "generationRecord": "designs/motion-frames-v1/13-yunwengui/swim/13-yunwengui-swim-v3.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+        "nominalGrid": {
+          "cols": 4,
+          "rows": 2
+        },
+        "nominalGridRect": [
+          444,
+          0,
+          887,
+          444
+        ],
+        "sourceRect": [
+          474,
+          140,
+          856,
+          418
+        ],
+        "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+        "ownershipPixelCount": 57946,
+        "alphaCleanup": "Only alpha<=3 set to0",
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "registrationOffset": [
+          273,
+          305
+        ],
+        "registeredCanvas": [
+          844,
+          844
+        ],
+        "registrationReference": {
+          "type": "largest round dark eye component inside fixed local head ROI; manually review landmark contact",
+          "sourcePointGlobal": [
+            791.248,
+            184.73
+          ],
+          "sourcePointLocal": [
+            317.24800000000005,
+            44.72999999999999
+          ],
+          "targetPoint": [
+            590,
+            350
+          ],
+          "rounding": "nearest integer",
+          "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+        },
+        "sourcePixelsRoundTripVerified": true,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        422,
+        422
+      ],
+      "landmarkPixels": [
+        590,
+        350
+      ],
+      "registeredAlphaBBox": [
+        273,
+        305,
+        655,
+        583
+      ],
+      "registeredMinMargin": 0.22393364928909953,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+      "animation": {
+        "id": "13-yunwengui/swim",
+        "frames": 8,
+        "fps": 8,
+        "loop": true,
+        "order": "row-major",
+        "durationsMs": [
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125
+        ],
+        "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+        "identityStatus": "pending_root_visual",
+        "motionStatus": "pending_root_visual",
+        "loopVisualStatus": "pending_root_playback",
+        "sourceRoute": "builtin_native_AI_sheet_user_requested"
+      },
+      "status": "accepted_first_release_art",
+      "targetBodyBox": [
+        180,
+        130
+      ],
+      "uniformDisplayScale": 0.47619047619047616,
+      "displaySize": [
+        401.90476190476187,
+        401.90476190476187
+      ],
+      "bodyDisplayBox": [
+        180,
+        130
+      ],
+      "displaySizing": {
+        "preserveAspect": true,
+        "uniformScaleAcrossAction": true,
+        "upscalingAllowed": false
+      },
+      "displayScaleReference": {
+        "restNativeVisibleBox": [
+          378,
+          262
+        ],
+        "fitMaxBox": [
+          180,
+          130
+        ],
+        "method": "one rest-frame solid anatomical silhouette scale reused for all8frames",
+        "upscaling": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-02",
+      "name": "13-yunwengui swim 2",
+      "file": "assets/animations/13-yunwengui/swim/frame-02.png",
+      "sha256": "2ada4229ec7a42c5191941b2161952235c050100f78a4dd7e817fc2d29a723aa",
+      "width": 844,
+      "height": 844,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/13-yunwengui/swim/13-yunwengui-swim-v3.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/13-yunwengui/swim/13-yunwengui-swim-v3.png",
+          "sha256": "d16b88578e5ec8d67dee4e21d1c3ba13b2c751e0f3520b96bd7b258cd86615e9",
+          "generationRecord": "designs/motion-frames-v1/13-yunwengui/swim/13-yunwengui-swim-v3.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+        "nominalGrid": {
+          "cols": 4,
+          "rows": 2
+        },
+        "nominalGridRect": [
+          887,
+          0,
+          1330,
+          444
+        ],
+        "sourceRect": [
+          916,
+          140,
+          1301,
+          400
+        ],
+        "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+        "ownershipPixelCount": 59749,
+        "alphaCleanup": "Only alpha<=3 set to0",
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "registrationOffset": [
+          275,
+          305
+        ],
+        "registeredCanvas": [
+          844,
+          844
+        ],
+        "registrationReference": {
+          "type": "largest round dark eye component inside fixed local head ROI; manually review landmark contact",
+          "sourcePointGlobal": [
+            1231.0477137176938,
+            184.5765407554672
+          ],
+          "sourcePointLocal": [
+            315.0477137176938,
+            44.57654075546719
+          ],
+          "targetPoint": [
+            590,
+            350
+          ],
+          "rounding": "nearest integer",
+          "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+        },
+        "sourcePixelsRoundTripVerified": true,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        422,
+        422
+      ],
+      "landmarkPixels": [
+        590,
+        350
+      ],
+      "registeredAlphaBBox": [
+        275,
+        305,
+        660,
+        565
+      ],
+      "registeredMinMargin": 0.21800947867298578,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+      "animation": {
+        "id": "13-yunwengui/swim",
+        "frames": 8,
+        "fps": 8,
+        "loop": true,
+        "order": "row-major",
+        "durationsMs": [
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125
+        ],
+        "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+        "identityStatus": "pending_root_visual",
+        "motionStatus": "pending_root_visual",
+        "loopVisualStatus": "pending_root_playback",
+        "sourceRoute": "builtin_native_AI_sheet_user_requested"
+      },
+      "status": "accepted_first_release_art",
+      "targetBodyBox": [
+        180,
+        130
+      ],
+      "uniformDisplayScale": 0.47619047619047616,
+      "displaySize": [
+        401.90476190476187,
+        401.90476190476187
+      ],
+      "bodyDisplayBox": [
+        180,
+        130
+      ],
+      "displaySizing": {
+        "preserveAspect": true,
+        "uniformScaleAcrossAction": true,
+        "upscalingAllowed": false
+      },
+      "displayScaleReference": {
+        "restNativeVisibleBox": [
+          378,
+          262
+        ],
+        "fitMaxBox": [
+          180,
+          130
+        ],
+        "method": "one rest-frame solid anatomical silhouette scale reused for all8frames",
+        "upscaling": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-03",
+      "name": "13-yunwengui swim 3",
+      "file": "assets/animations/13-yunwengui/swim/frame-03.png",
+      "sha256": "1ec9ec179b06d0fb83c3ca017849d1ac1decd2f47d5d3d4c257949d8371f8574",
+      "width": 844,
+      "height": 844,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/13-yunwengui/swim/13-yunwengui-swim-v3.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/13-yunwengui/swim/13-yunwengui-swim-v3.png",
+          "sha256": "d16b88578e5ec8d67dee4e21d1c3ba13b2c751e0f3520b96bd7b258cd86615e9",
+          "generationRecord": "designs/motion-frames-v1/13-yunwengui/swim/13-yunwengui-swim-v3.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+        "nominalGrid": {
+          "cols": 4,
+          "rows": 2
+        },
+        "nominalGridRect": [
+          1330,
+          0,
+          1774,
+          444
+        ],
+        "sourceRect": [
+          1351,
+          140,
+          1750,
+          344
+        ],
+        "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+        "ownershipPixelCount": 54686,
+        "alphaCleanup": "Only alpha<=3 set to0",
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "registrationOffset": [
+          274,
+          305
+        ],
+        "registeredCanvas": [
+          844,
+          844
+        ],
+        "registrationReference": {
+          "type": "largest round dark eye component inside fixed local head ROI; manually review landmark contact",
+          "sourcePointGlobal": [
+            1667.1254980079682,
+            184.74501992031873
+          ],
+          "sourcePointLocal": [
+            316.1254980079682,
+            44.745019920318725
+          ],
+          "targetPoint": [
+            590,
+            350
+          ],
+          "rounding": "nearest integer",
+          "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+        },
+        "sourcePixelsRoundTripVerified": true,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        422,
+        422
+      ],
+      "landmarkPixels": [
+        590,
+        350
+      ],
+      "registeredAlphaBBox": [
+        274,
+        305,
+        673,
+        509
+      ],
+      "registeredMinMargin": 0.20260663507109006,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+      "animation": {
+        "id": "13-yunwengui/swim",
+        "frames": 8,
+        "fps": 8,
+        "loop": true,
+        "order": "row-major",
+        "durationsMs": [
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125
+        ],
+        "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+        "identityStatus": "pending_root_visual",
+        "motionStatus": "pending_root_visual",
+        "loopVisualStatus": "pending_root_playback",
+        "sourceRoute": "builtin_native_AI_sheet_user_requested"
+      },
+      "status": "accepted_first_release_art",
+      "targetBodyBox": [
+        180,
+        130
+      ],
+      "uniformDisplayScale": 0.47619047619047616,
+      "displaySize": [
+        401.90476190476187,
+        401.90476190476187
+      ],
+      "bodyDisplayBox": [
+        180,
+        130
+      ],
+      "displaySizing": {
+        "preserveAspect": true,
+        "uniformScaleAcrossAction": true,
+        "upscalingAllowed": false
+      },
+      "displayScaleReference": {
+        "restNativeVisibleBox": [
+          378,
+          262
+        ],
+        "fitMaxBox": [
+          180,
+          130
+        ],
+        "method": "one rest-frame solid anatomical silhouette scale reused for all8frames",
+        "upscaling": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-04",
+      "name": "13-yunwengui swim 4",
+      "file": "assets/animations/13-yunwengui/swim/frame-04.png",
+      "sha256": "fc8427cf719188d0daa3d695cb4f8674610d8558b65229282f2694711d465725",
+      "width": 844,
+      "height": 844,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/13-yunwengui/swim/13-yunwengui-swim-v3.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/13-yunwengui/swim/13-yunwengui-swim-v3.png",
+          "sha256": "d16b88578e5ec8d67dee4e21d1c3ba13b2c751e0f3520b96bd7b258cd86615e9",
+          "generationRecord": "designs/motion-frames-v1/13-yunwengui/swim/13-yunwengui-swim-v3.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+        "nominalGrid": {
+          "cols": 4,
+          "rows": 2
+        },
+        "nominalGridRect": [
+          0,
+          444,
+          444,
+          887
+        ],
+        "sourceRect": [
+          30,
+          532,
+          420,
+          755
+        ],
+        "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+        "ownershipPixelCount": 55685,
+        "alphaCleanup": "Only alpha<=3 set to0",
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "registrationOffset": [
+          269,
+          304
+        ],
+        "registeredCanvas": [
+          844,
+          844
+        ],
+        "registrationReference": {
+          "type": "largest round dark eye component inside fixed local head ROI; manually review landmark contact",
+          "sourcePointGlobal": [
+            351.01020408163265,
+            577.9816326530612
+          ],
+          "sourcePointLocal": [
+            321.01020408163265,
+            45.98163265306118
+          ],
+          "targetPoint": [
+            590,
+            350
+          ],
+          "rounding": "nearest integer",
+          "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+        },
+        "sourcePixelsRoundTripVerified": true,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        422,
+        422
+      ],
+      "landmarkPixels": [
+        590,
+        350
+      ],
+      "registeredAlphaBBox": [
+        269,
+        304,
+        659,
+        527
+      ],
+      "registeredMinMargin": 0.21919431279620852,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+      "animation": {
+        "id": "13-yunwengui/swim",
+        "frames": 8,
+        "fps": 8,
+        "loop": true,
+        "order": "row-major",
+        "durationsMs": [
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125
+        ],
+        "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+        "identityStatus": "pending_root_visual",
+        "motionStatus": "pending_root_visual",
+        "loopVisualStatus": "pending_root_playback",
+        "sourceRoute": "builtin_native_AI_sheet_user_requested"
+      },
+      "status": "accepted_first_release_art",
+      "targetBodyBox": [
+        180,
+        130
+      ],
+      "uniformDisplayScale": 0.47619047619047616,
+      "displaySize": [
+        401.90476190476187,
+        401.90476190476187
+      ],
+      "bodyDisplayBox": [
+        180,
+        130
+      ],
+      "displaySizing": {
+        "preserveAspect": true,
+        "uniformScaleAcrossAction": true,
+        "upscalingAllowed": false
+      },
+      "displayScaleReference": {
+        "restNativeVisibleBox": [
+          378,
+          262
+        ],
+        "fitMaxBox": [
+          180,
+          130
+        ],
+        "method": "one rest-frame solid anatomical silhouette scale reused for all8frames",
+        "upscaling": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-05",
+      "name": "13-yunwengui swim 5",
+      "file": "assets/animations/13-yunwengui/swim/frame-05.png",
+      "sha256": "e41d98428ecf39d7602f987873035fcb27e2effdc63a2d18f9599de8b97c8a5d",
+      "width": 844,
+      "height": 844,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/13-yunwengui/swim/13-yunwengui-swim-v3.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/13-yunwengui/swim/13-yunwengui-swim-v3.png",
+          "sha256": "d16b88578e5ec8d67dee4e21d1c3ba13b2c751e0f3520b96bd7b258cd86615e9",
+          "generationRecord": "designs/motion-frames-v1/13-yunwengui/swim/13-yunwengui-swim-v3.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+        "nominalGrid": {
+          "cols": 4,
+          "rows": 2
+        },
+        "nominalGridRect": [
+          444,
+          444,
+          887,
+          887
+        ],
+        "sourceRect": [
+          478,
+          532,
+          856,
+          785
+        ],
+        "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+        "ownershipPixelCount": 56000,
+        "alphaCleanup": "Only alpha<=3 set to0",
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "registrationOffset": [
+          276,
+          304
+        ],
+        "registeredCanvas": [
+          844,
+          844
+        ],
+        "registrationReference": {
+          "type": "largest round dark eye component inside fixed local head ROI; manually review landmark contact",
+          "sourcePointGlobal": [
+            792.083172147002,
+            578.4758220502902
+          ],
+          "sourcePointLocal": [
+            314.08317214700196,
+            46.47582205029016
+          ],
+          "targetPoint": [
+            590,
+            350
+          ],
+          "rounding": "nearest integer",
+          "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+        },
+        "sourcePixelsRoundTripVerified": true,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        422,
+        422
+      ],
+      "landmarkPixels": [
+        590,
+        350
+      ],
+      "registeredAlphaBBox": [
+        276,
+        304,
+        654,
+        557
+      ],
+      "registeredMinMargin": 0.22511848341232227,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+      "animation": {
+        "id": "13-yunwengui/swim",
+        "frames": 8,
+        "fps": 8,
+        "loop": true,
+        "order": "row-major",
+        "durationsMs": [
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125
+        ],
+        "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+        "identityStatus": "pending_root_visual",
+        "motionStatus": "pending_root_visual",
+        "loopVisualStatus": "pending_root_playback",
+        "sourceRoute": "builtin_native_AI_sheet_user_requested"
+      },
+      "status": "accepted_first_release_art",
+      "targetBodyBox": [
+        180,
+        130
+      ],
+      "uniformDisplayScale": 0.47619047619047616,
+      "displaySize": [
+        401.90476190476187,
+        401.90476190476187
+      ],
+      "bodyDisplayBox": [
+        180,
+        130
+      ],
+      "displaySizing": {
+        "preserveAspect": true,
+        "uniformScaleAcrossAction": true,
+        "upscalingAllowed": false
+      },
+      "displayScaleReference": {
+        "restNativeVisibleBox": [
+          378,
+          262
+        ],
+        "fitMaxBox": [
+          180,
+          130
+        ],
+        "method": "one rest-frame solid anatomical silhouette scale reused for all8frames",
+        "upscaling": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-06",
+      "name": "13-yunwengui swim 6",
+      "file": "assets/animations/13-yunwengui/swim/frame-06.png",
+      "sha256": "88b803dd5447887e8fb85481a98c0c3b76600551e04980ce09382cbd1320076c",
+      "width": 844,
+      "height": 844,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/13-yunwengui/swim/13-yunwengui-swim-v3.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/13-yunwengui/swim/13-yunwengui-swim-v3.png",
+          "sha256": "d16b88578e5ec8d67dee4e21d1c3ba13b2c751e0f3520b96bd7b258cd86615e9",
+          "generationRecord": "designs/motion-frames-v1/13-yunwengui/swim/13-yunwengui-swim-v3.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+        "nominalGrid": {
+          "cols": 4,
+          "rows": 2
+        },
+        "nominalGridRect": [
+          887,
+          444,
+          1330,
+          887
+        ],
+        "sourceRect": [
+          916,
+          532,
+          1293,
+          760
+        ],
+        "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+        "ownershipPixelCount": 54258,
+        "alphaCleanup": "Only alpha<=3 set to0",
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "registrationOffset": [
+          275,
+          304
+        ],
+        "registeredCanvas": [
+          844,
+          844
+        ],
+        "registrationReference": {
+          "type": "largest round dark eye component inside fixed local head ROI; manually review landmark contact",
+          "sourcePointGlobal": [
+            1231.400402414487,
+            578.3923541247485
+          ],
+          "sourcePointLocal": [
+            315.40040241448696,
+            46.39235412474852
+          ],
+          "targetPoint": [
+            590,
+            350
+          ],
+          "rounding": "nearest integer",
+          "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+        },
+        "sourcePixelsRoundTripVerified": true,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        422,
+        422
+      ],
+      "landmarkPixels": [
+        590,
+        350
+      ],
+      "registeredAlphaBBox": [
+        275,
+        304,
+        652,
+        532
+      ],
+      "registeredMinMargin": 0.22748815165876776,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+      "animation": {
+        "id": "13-yunwengui/swim",
+        "frames": 8,
+        "fps": 8,
+        "loop": true,
+        "order": "row-major",
+        "durationsMs": [
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125
+        ],
+        "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+        "identityStatus": "pending_root_visual",
+        "motionStatus": "pending_root_visual",
+        "loopVisualStatus": "pending_root_playback",
+        "sourceRoute": "builtin_native_AI_sheet_user_requested"
+      },
+      "status": "accepted_first_release_art",
+      "targetBodyBox": [
+        180,
+        130
+      ],
+      "uniformDisplayScale": 0.47619047619047616,
+      "displaySize": [
+        401.90476190476187,
+        401.90476190476187
+      ],
+      "bodyDisplayBox": [
+        180,
+        130
+      ],
+      "displaySizing": {
+        "preserveAspect": true,
+        "uniformScaleAcrossAction": true,
+        "upscalingAllowed": false
+      },
+      "displayScaleReference": {
+        "restNativeVisibleBox": [
+          378,
+          262
+        ],
+        "fitMaxBox": [
+          180,
+          130
+        ],
+        "method": "one rest-frame solid anatomical silhouette scale reused for all8frames",
+        "upscaling": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-07",
+      "name": "13-yunwengui swim 7",
+      "file": "assets/animations/13-yunwengui/swim/frame-07.png",
+      "sha256": "c55e9eedd22830c2fee25338810324f58ba7b58fd81b03bf74eb2c177b0b1875",
+      "width": 844,
+      "height": 844,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/13-yunwengui/swim/13-yunwengui-swim-v3.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/13-yunwengui/swim/13-yunwengui-swim-v3.png",
+          "sha256": "d16b88578e5ec8d67dee4e21d1c3ba13b2c751e0f3520b96bd7b258cd86615e9",
+          "generationRecord": "designs/motion-frames-v1/13-yunwengui/swim/13-yunwengui-swim-v3.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+        "nominalGrid": {
+          "cols": 4,
+          "rows": 2
+        },
+        "nominalGridRect": [
+          1330,
+          444,
+          1774,
+          887
+        ],
+        "sourceRect": [
+          1351,
+          532,
+          1731,
+          740
+        ],
+        "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+        "ownershipPixelCount": 53185,
+        "alphaCleanup": "Only alpha<=3 set to0",
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "registrationOffset": [
+          274,
+          303
+        ],
+        "registeredCanvas": [
+          844,
+          844
+        ],
+        "registrationReference": {
+          "type": "largest round dark eye component inside fixed local head ROI; manually review landmark contact",
+          "sourcePointGlobal": [
+            1667.246492985972,
+            578.5871743486974
+          ],
+          "sourcePointLocal": [
+            316.24649298597205,
+            46.58717434869743
+          ],
+          "targetPoint": [
+            590,
+            350
+          ],
+          "rounding": "nearest integer",
+          "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+        },
+        "sourcePixelsRoundTripVerified": true,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        422,
+        422
+      ],
+      "landmarkPixels": [
+        590,
+        350
+      ],
+      "registeredAlphaBBox": [
+        274,
+        303,
+        654,
+        511
+      ],
+      "registeredMinMargin": 0.22511848341232227,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+      "animation": {
+        "id": "13-yunwengui/swim",
+        "frames": 8,
+        "fps": 8,
+        "loop": true,
+        "order": "row-major",
+        "durationsMs": [
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125
+        ],
+        "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+        "identityStatus": "pending_root_visual",
+        "motionStatus": "pending_root_visual",
+        "loopVisualStatus": "pending_root_playback",
+        "sourceRoute": "builtin_native_AI_sheet_user_requested"
+      },
+      "status": "accepted_first_release_art",
+      "targetBodyBox": [
+        180,
+        130
+      ],
+      "uniformDisplayScale": 0.47619047619047616,
+      "displaySize": [
+        401.90476190476187,
+        401.90476190476187
+      ],
+      "bodyDisplayBox": [
+        180,
+        130
+      ],
+      "displaySizing": {
+        "preserveAspect": true,
+        "uniformScaleAcrossAction": true,
+        "upscalingAllowed": false
+      },
+      "displayScaleReference": {
+        "restNativeVisibleBox": [
+          378,
+          262
+        ],
+        "fitMaxBox": [
+          180,
+          130
+        ],
+        "method": "one rest-frame solid anatomical silhouette scale reused for all8frames",
+        "upscaling": false
+      }
+    }
+  ],
+  "animation": {
+    "id": "13-yunwengui/swim",
+    "frames": 8,
+    "fps": 8,
+    "loop": true,
+    "order": "row-major",
+    "durationsMs": [
+      125,
+      125,
+      125,
+      125,
+      125,
+      125,
+      125,
+      125
+    ],
+    "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+    "root": [
+      0.5,
+      0.5
+    ],
+    "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+    "identityStatus": "pending_root_visual",
+    "motionStatus": "pending_root_visual",
+    "loopVisualStatus": "pending_root_playback",
+    "sourceRoute": "builtin_native_AI_sheet_user_requested",
+    "releaseReady": true
+  },
+  "sharedCanvas": [
+    844,
+    844
+  ],
+  "rootPixels": [
+    422,
+    422
+  ],
+  "landmarkPixels": [
+    590,
+    350
+  ],
+  "bodyRootEvidence": "One common logical body root relative to registered anatomical eye/bell crown; generated rigidity remains review.",
+  "registration": [
+    {
+      "frame": 0,
+      "sourceRect": [
+        30,
+        140,
+        413,
+        404
+      ],
+      "sourceLandmarkGlobal": [
+        348.3995901639344,
+        184.59016393442624
+      ],
+      "sourceLandmarkLocal": [
+        318.3995901639344,
+        44.59016393442624
+      ],
+      "registrationOffset": [
+        272,
+        305
+      ],
+      "targetLandmark": [
+        590,
+        350
+      ],
+      "bodyRoot": [
+        422,
+        422
+      ],
+      "bbox": [
+        272,
+        305,
+        655,
+        569
+      ],
+      "marginsLTRB": [
+        0.3222748815165877,
+        0.3613744075829384,
+        0.22393364928909953,
+        0.32582938388625593
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 1,
+      "sourceRect": [
+        474,
+        140,
+        856,
+        418
+      ],
+      "sourceLandmarkGlobal": [
+        791.248,
+        184.73
+      ],
+      "sourceLandmarkLocal": [
+        317.24800000000005,
+        44.72999999999999
+      ],
+      "registrationOffset": [
+        273,
+        305
+      ],
+      "targetLandmark": [
+        590,
+        350
+      ],
+      "bodyRoot": [
+        422,
+        422
+      ],
+      "bbox": [
+        273,
+        305,
+        655,
+        583
+      ],
+      "marginsLTRB": [
+        0.3234597156398104,
+        0.3613744075829384,
+        0.22393364928909953,
+        0.30924170616113744
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 2,
+      "sourceRect": [
+        916,
+        140,
+        1301,
+        400
+      ],
+      "sourceLandmarkGlobal": [
+        1231.0477137176938,
+        184.5765407554672
+      ],
+      "sourceLandmarkLocal": [
+        315.0477137176938,
+        44.57654075546719
+      ],
+      "registrationOffset": [
+        275,
+        305
+      ],
+      "targetLandmark": [
+        590,
+        350
+      ],
+      "bodyRoot": [
+        422,
+        422
+      ],
+      "bbox": [
+        275,
+        305,
+        660,
+        565
+      ],
+      "marginsLTRB": [
+        0.32582938388625593,
+        0.3613744075829384,
+        0.21800947867298578,
+        0.3305687203791469
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 3,
+      "sourceRect": [
+        1351,
+        140,
+        1750,
+        344
+      ],
+      "sourceLandmarkGlobal": [
+        1667.1254980079682,
+        184.74501992031873
+      ],
+      "sourceLandmarkLocal": [
+        316.1254980079682,
+        44.745019920318725
+      ],
+      "registrationOffset": [
+        274,
+        305
+      ],
+      "targetLandmark": [
+        590,
+        350
+      ],
+      "bodyRoot": [
+        422,
+        422
+      ],
+      "bbox": [
+        274,
+        305,
+        673,
+        509
+      ],
+      "marginsLTRB": [
+        0.3246445497630332,
+        0.3613744075829384,
+        0.20260663507109006,
+        0.39691943127962087
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 4,
+      "sourceRect": [
+        30,
+        532,
+        420,
+        755
+      ],
+      "sourceLandmarkGlobal": [
+        351.01020408163265,
+        577.9816326530612
+      ],
+      "sourceLandmarkLocal": [
+        321.01020408163265,
+        45.98163265306118
+      ],
+      "registrationOffset": [
+        269,
+        304
+      ],
+      "targetLandmark": [
+        590,
+        350
+      ],
+      "bodyRoot": [
+        422,
+        422
+      ],
+      "bbox": [
+        269,
+        304,
+        659,
+        527
+      ],
+      "marginsLTRB": [
+        0.3187203791469194,
+        0.36018957345971564,
+        0.21919431279620852,
+        0.3755924170616114
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 5,
+      "sourceRect": [
+        478,
+        532,
+        856,
+        785
+      ],
+      "sourceLandmarkGlobal": [
+        792.083172147002,
+        578.4758220502902
+      ],
+      "sourceLandmarkLocal": [
+        314.08317214700196,
+        46.47582205029016
+      ],
+      "registrationOffset": [
+        276,
+        304
+      ],
+      "targetLandmark": [
+        590,
+        350
+      ],
+      "bodyRoot": [
+        422,
+        422
+      ],
+      "bbox": [
+        276,
+        304,
+        654,
+        557
+      ],
+      "marginsLTRB": [
+        0.32701421800947866,
+        0.36018957345971564,
+        0.22511848341232227,
+        0.3400473933649289
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 6,
+      "sourceRect": [
+        916,
+        532,
+        1293,
+        760
+      ],
+      "sourceLandmarkGlobal": [
+        1231.400402414487,
+        578.3923541247485
+      ],
+      "sourceLandmarkLocal": [
+        315.40040241448696,
+        46.39235412474852
+      ],
+      "registrationOffset": [
+        275,
+        304
+      ],
+      "targetLandmark": [
+        590,
+        350
+      ],
+      "bodyRoot": [
+        422,
+        422
+      ],
+      "bbox": [
+        275,
+        304,
+        652,
+        532
+      ],
+      "marginsLTRB": [
+        0.32582938388625593,
+        0.36018957345971564,
+        0.22748815165876776,
+        0.3696682464454976
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 7,
+      "sourceRect": [
+        1351,
+        532,
+        1731,
+        740
+      ],
+      "sourceLandmarkGlobal": [
+        1667.246492985972,
+        578.5871743486974
+      ],
+      "sourceLandmarkLocal": [
+        316.24649298597205,
+        46.58717434869743
+      ],
+      "registrationOffset": [
+        274,
+        303
+      ],
+      "targetLandmark": [
+        590,
+        350
+      ],
+      "bodyRoot": [
+        422,
+        422
+      ],
+      "bbox": [
+        274,
+        303,
+        654,
+        511
+      ],
+      "marginsLTRB": [
+        0.3246445497630332,
+        0.3590047393364929,
+        0.22511848341232227,
+        0.39454976303317535
+      ],
+      "pixelsRoundTrip": true
+    }
+  ],
+  "eyeMeasurement": [
+    {
+      "center": [
+        348.3995901639344,
+        184.59016393442624
+      ],
+      "boundsLTRB": [
+        332,
+        173,
+        364,
+        201
+      ],
+      "area": 488,
+      "method": "largest round dark eye component inside fixed local head ROI; manually review landmark contact"
+    },
+    {
+      "center": [
+        791.248,
+        184.73
+      ],
+      "boundsLTRB": [
+        775,
+        172,
+        808,
+        201
+      ],
+      "area": 500,
+      "method": "largest round dark eye component inside fixed local head ROI; manually review landmark contact"
+    },
+    {
+      "center": [
+        1231.0477137176938,
+        184.5765407554672
+      ],
+      "boundsLTRB": [
+        1215,
+        173,
+        1247,
+        197
+      ],
+      "area": 503,
+      "method": "largest round dark eye component inside fixed local head ROI; manually review landmark contact"
+    },
+    {
+      "center": [
+        1667.1254980079682,
+        184.74501992031873
+      ],
+      "boundsLTRB": [
+        1651,
+        173,
+        1684,
+        197
+      ],
+      "area": 502,
+      "method": "largest round dark eye component inside fixed local head ROI; manually review landmark contact"
+    },
+    {
+      "center": [
+        351.01020408163265,
+        577.9816326530612
+      ],
+      "boundsLTRB": [
+        336,
+        566,
+        366,
+        591
+      ],
+      "area": 490,
+      "method": "largest round dark eye component inside fixed local head ROI; manually review landmark contact"
+    },
+    {
+      "center": [
+        792.083172147002,
+        578.4758220502902
+      ],
+      "boundsLTRB": [
+        776,
+        566,
+        808,
+        592
+      ],
+      "area": 517,
+      "method": "largest round dark eye component inside fixed local head ROI; manually review landmark contact"
+    },
+    {
+      "center": [
+        1231.400402414487,
+        578.3923541247485
+      ],
+      "boundsLTRB": [
+        1215,
+        566,
+        1247,
+        592
+      ],
+      "area": 497,
+      "method": "largest round dark eye component inside fixed local head ROI; manually review landmark contact"
+    },
+    {
+      "center": [
+        1667.246492985972,
+        578.5871743486974
+      ],
+      "boundsLTRB": [
+        1652,
+        567,
+        1683,
+        594
+      ],
+      "area": 499,
+      "method": "largest round dark eye component inside fixed local head ROI; manually review landmark contact"
+    }
+  ],
+  "eyeNativeBoxSizes": [
+    [
+      32,
+      28
+    ],
+    [
+      33,
+      29
+    ],
+    [
+      32,
+      24
+    ],
+    [
+      33,
+      24
+    ],
+    [
+      30,
+      25
+    ],
+    [
+      32,
+      26
+    ],
+    [
+      32,
+      26
+    ],
+    [
+      31,
+      27
+    ]
+  ],
+  "sourcePixelOwnership": {
+    "alphaThreshold": 3,
+    "sourcePixels": 453653,
+    "exportedPixels": 453653,
+    "duplicatePixels": 0,
+    "lostPixels": 0,
+    "rgbAndAlphaForOwnedPixelsUnchanged": true
+  },
+  "order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "warnings": [
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 0,
+      "actual": 0.06756756756756757,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 1,
+      "actual": 0.05855855855855856,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 2,
+      "actual": 0.0654627539503386,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 3,
+      "actual": 0.0472972972972973,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 4,
+      "actual": 0.05405405405405406,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 5,
+      "actual": 0.06997742663656885,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 6,
+      "actual": 0.0654627539503386,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 7,
+      "actual": 0.0472972972972973,
+      "required": 0.12
+    },
+    {
+      "id": "generated_core_shape_and_motion_pending_review",
+      "note": "Swimming foreflippers open during0–3 and fold during4–7; capture pulls fins toward body then recoils and settles. Existing3→4/7→0 swim transition and head/shell shape drift remain unpassed. No live playback approval."
+    },
+    {
+      "id": "playback_unverified",
+      "note": "No live loop/single-shot playback during local heavy-job hold; distinct hashes are not motion evidence."
+    }
+  ],
+  "sourceMarginWarnings": [
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 0,
+      "actual": 0.06756756756756757,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 1,
+      "actual": 0.05855855855855856,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 2,
+      "actual": 0.0654627539503386,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 3,
+      "actual": 0.0472972972972973,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 4,
+      "actual": 0.05405405405405406,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 5,
+      "actual": 0.06997742663656885,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 6,
+      "actual": 0.0654627539503386,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 7,
+      "actual": 0.0472972972972973,
+      "required": 0.12
+    }
+  ],
+  "runtimeMarginWarnings": [],
+  "uniformDisplayScale": 0.47619047619047616,
+  "displaySize": [
+    401.90476190476187,
+    401.90476190476187
+  ],
+  "bodyDisplayBox": [
+    180,
+    130
+  ],
+  "qa": {
+    "technicalAlpha": "true_rgba",
+    "sourceBorderStatus": "ownership_extracted_nominal_grid_crossings_retained_as_warnings",
+    "sourceTotalCanvasStatus": "main_anatomical_components_within_total_canvas",
+    "sourceMarginStatus": "fail_preserved_source_gate",
+    "registeredMarginStatus": "pass",
+    "identityStatus": "candidate_pending_root_visual",
+    "actualMotionStatus": "candidate_visible_articulation_pending_root_visual",
+    "registrationStatus": "integer_landmark_registered_core_shape_pending",
+    "loopPlaybackStatus": "pending_root_playback",
+    "producerStaticVisualInspection": {
+      "sourceSheetActuallyInspected": true,
+      "registeredLightAndDarkActuallyInspected": true,
+      "inspectionType": "static contact sheets, actual generated source and actual exported alpha-composited frames",
+      "lightContact": "designs/motion-frames-v1/13-yunwengui/swim/registered-v3-light.jpg",
+      "darkContact": "designs/motion-frames-v1/13-yunwengui/swim/registered-v3-dark.jpg",
+      "observedArticulation": "Swimming foreflippers open during0–3 and fold during4–7; capture pulls fins toward body then recoils and settles. Existing3→4/7→0 swim transition and head/shell shape drift remain unpassed. No live playback approval.",
+      "edgeObservation": "The registered light and dark contacts show complete separate poses without an opaque rectangle or another frame fragment. Source grid / margin warnings are retained.",
+      "livePlaybackActuallyRun": false,
+      "finalArtApproval": false,
+      "inspectedAt": "2026-10-28T20:08:34.651768+00:00"
+    }
+  },
+  "status": "accepted_first_release_art",
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+  "acceptedAt": "2026-10-30T04:07:09.085600+00:00",
+  "releaseReady": true,
+  "playbackReview": "docs/UNITY_FINAL_ACCEPTANCE.json"
+}

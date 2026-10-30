@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "scene-harbor",
+  "file": "scene-harbor.png",
+  "nativeSize": [
+    1672,
+    941
+  ],
+  "sha256": "d065b33922d4f30c31b42592cf7b24d402825ac3d00ac7bb2b043480515a3e1b",
+  "generationRecord": "scene-harbor.png.generation.json",
+  "safePlayfield": {
+    "units": "normalized",
+    "x": 0.2,
+    "y": 0.15,
+    "width": 0.6,
+    "height": 0.6
+  },
+  "renderOrder": 0,
+  "scalePolicy": {
+    "default": "contain",
+    "alternative": "cover",
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "allowUpscale": false,
+    "coverRequiresSafePlayfieldCheck": true
+  },
+  "content": "Login and lobby background only. No actors, HUD or text.",
+  "status": "accepted_first_release_art",
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+  "acceptedAt": "2026-10-30T04:07:09.085600+00:00"
+}

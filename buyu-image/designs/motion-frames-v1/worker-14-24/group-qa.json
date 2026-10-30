@@ -1,0 +1,922 @@
+{
+  "schemaVersion": 1,
+  "scope": "13–24, swim and capture",
+  "clips": 24,
+  "exportedFrames": 192,
+  "sharedCanvas": [
+    844,
+    844
+  ],
+  "rootPixels": [
+    422,
+    422
+  ],
+  "fishLandmarkPixels": [
+    590,
+    350
+  ],
+  "jelly14LandmarkPixels": [
+    470,
+    250
+  ],
+  "noResamplingOrUpscaling": true,
+  "nativeSourceDimensions": [
+    1774,
+    887
+  ],
+  "registeredMinimumMargin": 0.15758293838862558,
+  "producerRegisteredLightDarkInspectedClips": 24,
+  "sourceMainComponentTotalCanvasBoundaryWarningCount": 0,
+  "sourceNominalGridWarningCount": 35,
+  "sourceMarginWarningCount": 191,
+  "runtimeMarginWarningCount": 0,
+  "noSourceAlphaAbove3LostOrDuplicated": true,
+  "livePlaybackActuallyRun": false,
+  "testsBrowserAtlasUnityRun": false,
+  "finalArtApproval": false,
+  "status": "producer_candidate_pending_root_registered_review",
+  "limitations": [
+    "Static visual inspection does not approve loop closure, frame timing or capture transition playback.",
+    "Integer anatomical landmark translation does not repair generated head, shell, ornament or camera-scale drift.",
+    "Native source margin below12% remains failed; transparent runtime padding does not retroactively pass source production.",
+    "Nominal grid crossing is retained as a warning; complete separate poses were extracted by native pixel ownership.",
+    "Actual image model / quality were not disclosed by the builtin tool and remain null in generation records."
+  ],
+  "updatedAt": "2026-10-28T20:08:34.651768+00:00",
+  "items": [
+    {
+      "id": "13-yunwengui/swim",
+      "source": "designs/motion-frames-v1/13-yunwengui/swim/13-yunwengui-swim-v3.png",
+      "manifest": "assets/animations/13-yunwengui/swim/manifest.json",
+      "review": "designs/motion-frames-v1/13-yunwengui/swim/candidate-review-v3.json",
+      "frames": 8,
+      "fps": 8,
+      "durationsMs": [
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125
+      ],
+      "loop": true,
+      "registeredMinMargin": 0.20260663507109006,
+      "sourceOwnership": {
+        "alphaThreshold": 3,
+        "sourcePixels": 453653,
+        "exportedPixels": 453653,
+        "duplicatePixels": 0,
+        "lostPixels": 0,
+        "rgbAndAlphaForOwnedPixelsUnchanged": true
+      },
+      "warningCounts": {
+        "source_margin_lt_12pct": 8,
+        "generated_core_shape_and_motion_pending_review": 1,
+        "playback_unverified": 1
+      },
+      "observation": "Swimming foreflippers open during0–3 and fold during4–7; capture pulls fins toward body then recoils and settles. Existing3→4/7→0 swim transition and head/shell shape drift remain unpassed. No live playback approval.",
+      "registeredLightAndDarkActuallyInspected": true,
+      "status": "producer_candidate_pending_root_registered_review"
+    },
+    {
+      "id": "13-yunwengui/capture",
+      "source": "designs/motion-frames-v1/13-yunwengui/capture/13-yunwengui-capture.png",
+      "manifest": "assets/animations/13-yunwengui/capture/manifest.json",
+      "review": "designs/motion-frames-v1/13-yunwengui/capture/candidate-review.json",
+      "frames": 8,
+      "fps": 12,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "loop": false,
+      "registeredMinMargin": 0.20497630331753555,
+      "sourceOwnership": {
+        "alphaThreshold": 3,
+        "sourcePixels": 463964,
+        "exportedPixels": 463964,
+        "duplicatePixels": 0,
+        "lostPixels": 0,
+        "rgbAndAlphaForOwnedPixelsUnchanged": true
+      },
+      "warningCounts": {
+        "source_margin_lt_12pct": 8,
+        "nominal_grid_cross": 1,
+        "generated_core_shape_and_motion_pending_review": 1,
+        "playback_unverified": 1
+      },
+      "observation": "Swimming foreflippers open during0–3 and fold during4–7; capture pulls fins toward body then recoils and settles. Existing3→4/7→0 swim transition and head/shell shape drift remain unpassed. No live playback approval.",
+      "registeredLightAndDarkActuallyInspected": true,
+      "status": "producer_candidate_pending_root_registered_review"
+    },
+    {
+      "id": "14-huanyue/swim",
+      "source": "designs/motion-frames-v1/14-huanyue/swim/14-huanyue-swim-v3.png",
+      "manifest": "assets/animations/14-huanyue/swim/manifest.json",
+      "review": "designs/motion-frames-v1/14-huanyue/swim/candidate-review-v3.json",
+      "frames": 8,
+      "fps": 8,
+      "durationsMs": [
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125
+      ],
+      "loop": true,
+      "registeredMinMargin": 0.2559241706161137,
+      "sourceOwnership": {
+        "alphaThreshold": 3,
+        "sourcePixels": 596737,
+        "exportedPixels": 596737,
+        "duplicatePixels": 0,
+        "lostPixels": 0,
+        "rgbAndAlphaForOwnedPixelsUnchanged": true
+      },
+      "warningCounts": {
+        "source_margin_lt_12pct": 7,
+        "generated_core_shape_and_motion_pending_review": 1,
+        "playback_unverified": 1
+      },
+      "observation": "Bell rim contracts/reopens; ruffled arms curl and drift. Bell width varies with the intended pulse; core identity/capture transition still needs coordinator playback.",
+      "registeredLightAndDarkActuallyInspected": true,
+      "status": "producer_candidate_pending_root_registered_review"
+    },
+    {
+      "id": "14-huanyue/capture",
+      "source": "designs/motion-frames-v1/14-huanyue/capture/14-huanyue-capture.png",
+      "manifest": "assets/animations/14-huanyue/capture/manifest.json",
+      "review": "designs/motion-frames-v1/14-huanyue/capture/candidate-review.json",
+      "frames": 8,
+      "fps": 12,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "loop": false,
+      "registeredMinMargin": 0.24052132701421802,
+      "sourceOwnership": {
+        "alphaThreshold": 3,
+        "sourcePixels": 681547,
+        "exportedPixels": 681547,
+        "duplicatePixels": 0,
+        "lostPixels": 0,
+        "rgbAndAlphaForOwnedPixelsUnchanged": true
+      },
+      "warningCounts": {
+        "source_margin_lt_12pct": 8,
+        "generated_core_shape_and_motion_pending_review": 1,
+        "playback_unverified": 1
+      },
+      "observation": "Bell rim contracts/reopens; ruffled arms curl and drift. Bell width varies with the intended pulse; core identity/capture transition still needs coordinator playback.",
+      "registeredLightAndDarkActuallyInspected": true,
+      "status": "producer_candidate_pending_root_registered_review"
+    },
+    {
+      "id": "15-lanray/swim",
+      "source": "designs/motion-frames-v1/15-lanray/swim/15-lanray-swim-v2.png",
+      "manifest": "assets/animations/15-lanray/swim/manifest.json",
+      "review": "designs/motion-frames-v1/15-lanray/swim/candidate-review-v2.json",
+      "frames": 8,
+      "fps": 12,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "loop": true,
+      "registeredMinMargin": 0.20616113744075829,
+      "sourceOwnership": {
+        "alphaThreshold": 3,
+        "sourcePixels": 299240,
+        "exportedPixels": 299240,
+        "duplicatePixels": 0,
+        "lostPixels": 0,
+        "rgbAndAlphaForOwnedPixelsUnchanged": true
+      },
+      "warningCounts": {
+        "source_margin_lt_12pct": 8,
+        "generated_core_shape_and_motion_pending_review": 1,
+        "playback_unverified": 1
+      },
+      "observation": "Near and far wings bend from shoulder with different camber, tail curls. Capture folds and recoils; remaining head/wing-base shape drift and capture-to-swim scale require review.",
+      "registeredLightAndDarkActuallyInspected": true,
+      "status": "producer_candidate_pending_root_registered_review"
+    },
+    {
+      "id": "15-lanray/capture",
+      "source": "designs/motion-frames-v1/15-lanray/capture/15-lanray-capture-v2.png",
+      "manifest": "assets/animations/15-lanray/capture/manifest.json",
+      "review": "designs/motion-frames-v1/15-lanray/capture/candidate-review-v2.json",
+      "frames": 8,
+      "fps": 12,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "loop": false,
+      "registeredMinMargin": 0.15758293838862558,
+      "sourceOwnership": {
+        "alphaThreshold": 3,
+        "sourcePixels": 345795,
+        "exportedPixels": 345795,
+        "duplicatePixels": 0,
+        "lostPixels": 0,
+        "rgbAndAlphaForOwnedPixelsUnchanged": true
+      },
+      "warningCounts": {
+        "source_margin_lt_12pct": 8,
+        "nominal_grid_cross": 4,
+        "generated_core_shape_and_motion_pending_review": 1,
+        "playback_unverified": 1
+      },
+      "observation": "Near and far wings bend from shoulder with different camber, tail curls. Capture folds and recoils; remaining head/wing-base shape drift and capture-to-swim scale require review.",
+      "registeredLightAndDarkActuallyInspected": true,
+      "status": "producer_candidate_pending_root_registered_review"
+    },
+    {
+      "id": "16-shiziyu/swim",
+      "source": "designs/motion-frames-v1/16-shiziyu/swim/16-shiziyu-swim.png",
+      "manifest": "assets/animations/16-shiziyu/swim/manifest.json",
+      "review": "designs/motion-frames-v1/16-shiziyu/swim/candidate-review.json",
+      "frames": 8,
+      "fps": 12,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "loop": true,
+      "registeredMinMargin": 0.20023696682464456,
+      "sourceOwnership": {
+        "alphaThreshold": 3,
+        "sourcePixels": 735254,
+        "exportedPixels": 735254,
+        "duplicatePixels": 0,
+        "lostPixels": 0,
+        "rgbAndAlphaForOwnedPixelsUnchanged": true
+      },
+      "warningCounts": {
+        "source_margin_lt_12pct": 8,
+        "generated_core_shape_and_motion_pending_review": 1,
+        "playback_unverified": 1
+      },
+      "observation": "Caudal base flexes and broad pectoral membranes fold/open; dorsal ray tips lag. Capture visibly curls rear body. Stripe/ray identity and exact root stability remain review items.",
+      "registeredLightAndDarkActuallyInspected": true,
+      "status": "producer_candidate_pending_root_registered_review"
+    },
+    {
+      "id": "16-shiziyu/capture",
+      "source": "designs/motion-frames-v1/16-shiziyu/capture/16-shiziyu-capture.png",
+      "manifest": "assets/animations/16-shiziyu/capture/manifest.json",
+      "review": "designs/motion-frames-v1/16-shiziyu/capture/candidate-review.json",
+      "frames": 8,
+      "fps": 12,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "loop": false,
+      "registeredMinMargin": 0.20023696682464456,
+      "sourceOwnership": {
+        "alphaThreshold": 3,
+        "sourcePixels": 741649,
+        "exportedPixels": 741649,
+        "duplicatePixels": 0,
+        "lostPixels": 0,
+        "rgbAndAlphaForOwnedPixelsUnchanged": true
+      },
+      "warningCounts": {
+        "source_margin_lt_12pct": 8,
+        "nominal_grid_cross": 4,
+        "generated_core_shape_and_motion_pending_review": 1,
+        "playback_unverified": 1
+      },
+      "observation": "Caudal base flexes and broad pectoral membranes fold/open; dorsal ray tips lag. Capture visibly curls rear body. Stripe/ray identity and exact root stability remain review items.",
+      "registeredLightAndDarkActuallyInspected": true,
+      "status": "producer_candidate_pending_root_registered_review"
+    },
+    {
+      "id": "17-shanhuyu/swim",
+      "source": "designs/motion-frames-v1/17-shanhuyu/swim/17-shanhuyu-swim.png",
+      "manifest": "assets/animations/17-shanhuyu/swim/manifest.json",
+      "review": "designs/motion-frames-v1/17-shanhuyu/swim/candidate-review.json",
+      "frames": 8,
+      "fps": 12,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "loop": true,
+      "registeredMinMargin": 0.20023696682464456,
+      "sourceOwnership": {
+        "alphaThreshold": 3,
+        "sourcePixels": 740014,
+        "exportedPixels": 740014,
+        "duplicatePixels": 0,
+        "lostPixels": 0,
+        "rgbAndAlphaForOwnedPixelsUnchanged": true
+      },
+      "warningCounts": {
+        "source_margin_lt_12pct": 8,
+        "generated_core_shape_and_motion_pending_review": 1,
+        "playback_unverified": 1
+      },
+      "observation": "Tail fan and pectoral frills change angle/fold; capture pulls tail and fins inward then relaxes. Coral crown branch details vary slightly; crown rigidity remains a review item.",
+      "registeredLightAndDarkActuallyInspected": true,
+      "status": "producer_candidate_pending_root_registered_review"
+    },
+    {
+      "id": "17-shanhuyu/capture",
+      "source": "designs/motion-frames-v1/17-shanhuyu/capture/17-shanhuyu-capture.png",
+      "manifest": "assets/animations/17-shanhuyu/capture/manifest.json",
+      "review": "designs/motion-frames-v1/17-shanhuyu/capture/candidate-review.json",
+      "frames": 8,
+      "fps": 12,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "loop": false,
+      "registeredMinMargin": 0.1990521327014218,
+      "sourceOwnership": {
+        "alphaThreshold": 3,
+        "sourcePixels": 754992,
+        "exportedPixels": 754992,
+        "duplicatePixels": 0,
+        "lostPixels": 0,
+        "rgbAndAlphaForOwnedPixelsUnchanged": true
+      },
+      "warningCounts": {
+        "source_margin_lt_12pct": 8,
+        "generated_core_shape_and_motion_pending_review": 1,
+        "playback_unverified": 1
+      },
+      "observation": "Tail fan and pectoral frills change angle/fold; capture pulls tail and fins inward then relaxes. Coral crown branch details vary slightly; crown rigidity remains a review item.",
+      "registeredLightAndDarkActuallyInspected": true,
+      "status": "producer_candidate_pending_root_registered_review"
+    },
+    {
+      "id": "18-qinglong/swim",
+      "source": "designs/motion-frames-v1/18-qinglong/swim/18-qinglong-swim.png",
+      "manifest": "assets/animations/18-qinglong/swim/manifest.json",
+      "review": "designs/motion-frames-v1/18-qinglong/swim/candidate-review.json",
+      "frames": 8,
+      "fps": 12,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "loop": true,
+      "registeredMinMargin": 0.20971563981042654,
+      "sourceOwnership": {
+        "alphaThreshold": 3,
+        "sourcePixels": 443788,
+        "exportedPixels": 443788,
+        "duplicatePixels": 0,
+        "lostPixels": 0,
+        "rgbAndAlphaForOwnedPixelsUnchanged": true
+      },
+      "warningCounts": {
+        "source_margin_lt_12pct": 8,
+        "generated_core_shape_and_motion_pending_review": 1,
+        "playback_unverified": 1
+      },
+      "observation": "Tail fan rolls/cambers, pectoral fins alternate, barbels curl subtly. Capture shows strong tail curl/recoil. Fine scales/cloud shapes and loop transitions remain review items.",
+      "registeredLightAndDarkActuallyInspected": true,
+      "status": "producer_candidate_pending_root_registered_review"
+    },
+    {
+      "id": "18-qinglong/capture",
+      "source": "designs/motion-frames-v1/18-qinglong/capture/18-qinglong-capture.png",
+      "manifest": "assets/animations/18-qinglong/capture/manifest.json",
+      "review": "designs/motion-frames-v1/18-qinglong/capture/candidate-review.json",
+      "frames": 8,
+      "fps": 12,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "loop": false,
+      "registeredMinMargin": 0.20971563981042654,
+      "sourceOwnership": {
+        "alphaThreshold": 3,
+        "sourcePixels": 489915,
+        "exportedPixels": 489915,
+        "duplicatePixels": 0,
+        "lostPixels": 0,
+        "rgbAndAlphaForOwnedPixelsUnchanged": true
+      },
+      "warningCounts": {
+        "source_margin_lt_12pct": 8,
+        "generated_core_shape_and_motion_pending_review": 1,
+        "playback_unverified": 1
+      },
+      "observation": "Tail fan rolls/cambers, pectoral fins alternate, barbels curl subtly. Capture shows strong tail curl/recoil. Fine scales/cloud shapes and loop transitions remain review items.",
+      "registeredLightAndDarkActuallyInspected": true,
+      "status": "producer_candidate_pending_root_registered_review"
+    },
+    {
+      "id": "19-lingjinli/swim",
+      "source": "designs/motion-frames-v1/19-lingjinli/swim/19-lingjinli-swim.png",
+      "manifest": "assets/animations/19-lingjinli/swim/manifest.json",
+      "review": "designs/motion-frames-v1/19-lingjinli/swim/candidate-review.json",
+      "frames": 8,
+      "fps": 12,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "loop": true,
+      "registeredMinMargin": 0.22867298578199052,
+      "sourceOwnership": {
+        "alphaThreshold": 3,
+        "sourcePixels": 574479,
+        "exportedPixels": 574479,
+        "duplicatePixels": 0,
+        "lostPixels": 0,
+        "rgbAndAlphaForOwnedPixelsUnchanged": true
+      },
+      "warningCounts": {
+        "source_margin_lt_12pct": 8,
+        "generated_core_shape_and_motion_pending_review": 1,
+        "playback_unverified": 1
+      },
+      "observation": "Long tail ribbons bend/fold with caudal base; capture draws ribbons inward and recoils. Head pose and red/white scale boundaries change subtly; transition/scale review remains.",
+      "registeredLightAndDarkActuallyInspected": true,
+      "status": "producer_candidate_pending_root_registered_review"
+    },
+    {
+      "id": "19-lingjinli/capture",
+      "source": "designs/motion-frames-v1/19-lingjinli/capture/19-lingjinli-capture-v2.png",
+      "manifest": "assets/animations/19-lingjinli/capture/manifest.json",
+      "review": "designs/motion-frames-v1/19-lingjinli/capture/candidate-review-v2.json",
+      "frames": 8,
+      "fps": 12,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "loop": false,
+      "registeredMinMargin": 0.21919431279620852,
+      "sourceOwnership": {
+        "alphaThreshold": 3,
+        "sourcePixels": 626545,
+        "exportedPixels": 626545,
+        "duplicatePixels": 0,
+        "lostPixels": 0,
+        "rgbAndAlphaForOwnedPixelsUnchanged": true
+      },
+      "warningCounts": {
+        "nominal_grid_cross": 6,
+        "source_margin_lt_12pct": 8,
+        "generated_core_shape_and_motion_pending_review": 1,
+        "playback_unverified": 1
+      },
+      "observation": "Long tail ribbons bend/fold with caudal base; capture draws ribbons inward and recoils. Head pose and red/white scale boundaries change subtly; transition/scale review remains.",
+      "registeredLightAndDarkActuallyInspected": true,
+      "status": "producer_candidate_pending_root_registered_review"
+    },
+    {
+      "id": "20-yuban/swim",
+      "source": "designs/motion-frames-v1/20-yuban/swim/20-yuban-swim.png",
+      "manifest": "assets/animations/20-yuban/swim/manifest.json",
+      "review": "designs/motion-frames-v1/20-yuban/swim/candidate-review.json",
+      "frames": 8,
+      "fps": 12,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "loop": true,
+      "registeredMinMargin": 0.18838862559241706,
+      "sourceOwnership": {
+        "alphaThreshold": 3,
+        "sourcePixels": 564423,
+        "exportedPixels": 564423,
+        "duplicatePixels": 0,
+        "lostPixels": 0,
+        "rgbAndAlphaForOwnedPixelsUnchanged": true
+      },
+      "warningCounts": {
+        "source_margin_lt_12pct": 8,
+        "generated_core_shape_and_motion_pending_review": 1,
+        "playback_unverified": 1
+      },
+      "observation": "Tail peduncle bends and pectoral fins change strokes; capture folds/tenses then settles. Camouflage patches and cheek ornament retain identity but slight silhouette drift remains review.",
+      "registeredLightAndDarkActuallyInspected": true,
+      "status": "producer_candidate_pending_root_registered_review"
+    },
+    {
+      "id": "20-yuban/capture",
+      "source": "designs/motion-frames-v1/20-yuban/capture/20-yuban-capture.png",
+      "manifest": "assets/animations/20-yuban/capture/manifest.json",
+      "review": "designs/motion-frames-v1/20-yuban/capture/candidate-review.json",
+      "frames": 8,
+      "fps": 12,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "loop": false,
+      "registeredMinMargin": 0.18246445497630331,
+      "sourceOwnership": {
+        "alphaThreshold": 3,
+        "sourcePixels": 605816,
+        "exportedPixels": 605816,
+        "duplicatePixels": 0,
+        "lostPixels": 0,
+        "rgbAndAlphaForOwnedPixelsUnchanged": true
+      },
+      "warningCounts": {
+        "source_margin_lt_12pct": 8,
+        "generated_core_shape_and_motion_pending_review": 1,
+        "playback_unverified": 1
+      },
+      "observation": "Tail peduncle bends and pectoral fins change strokes; capture folds/tenses then settles. Camouflage patches and cheek ornament retain identity but slight silhouette drift remains review.",
+      "registeredLightAndDarkActuallyInspected": true,
+      "status": "producer_candidate_pending_root_registered_review"
+    },
+    {
+      "id": "21-haiqiu/swim",
+      "source": "designs/motion-frames-v1/21-haiqiu/swim/21-haiqiu-swim-v2.png",
+      "manifest": "assets/animations/21-haiqiu/swim/manifest.json",
+      "review": "designs/motion-frames-v1/21-haiqiu/swim/candidate-review-v2.json",
+      "frames": 8,
+      "fps": 12,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "loop": true,
+      "registeredMinMargin": 0.20260663507109006,
+      "sourceOwnership": {
+        "alphaThreshold": 3,
+        "sourcePixels": 498278,
+        "exportedPixels": 498278,
+        "duplicatePixels": 0,
+        "lostPixels": 0,
+        "rgbAndAlphaForOwnedPixelsUnchanged": true
+      },
+      "warningCounts": {
+        "source_margin_lt_12pct": 8,
+        "nominal_grid_cross": 3,
+        "generated_core_shape_and_motion_pending_review": 1,
+        "playback_unverified": 1
+      },
+      "observation": "Long turquoise fin ribbons and gold tendrils deform with caudal flex; capture coils them closer. Tendril identity and head/front-body stability remain review.",
+      "registeredLightAndDarkActuallyInspected": true,
+      "status": "producer_candidate_pending_root_registered_review"
+    },
+    {
+      "id": "21-haiqiu/capture",
+      "source": "designs/motion-frames-v1/21-haiqiu/capture/21-haiqiu-capture.png",
+      "manifest": "assets/animations/21-haiqiu/capture/manifest.json",
+      "review": "designs/motion-frames-v1/21-haiqiu/capture/candidate-review.json",
+      "frames": 8,
+      "fps": 12,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "loop": false,
+      "registeredMinMargin": 0.19786729857819904,
+      "sourceOwnership": {
+        "alphaThreshold": 3,
+        "sourcePixels": 515581,
+        "exportedPixels": 515581,
+        "duplicatePixels": 0,
+        "lostPixels": 0,
+        "rgbAndAlphaForOwnedPixelsUnchanged": true
+      },
+      "warningCounts": {
+        "source_margin_lt_12pct": 8,
+        "nominal_grid_cross": 4,
+        "generated_core_shape_and_motion_pending_review": 1,
+        "playback_unverified": 1
+      },
+      "observation": "Long turquoise fin ribbons and gold tendrils deform with caudal flex; capture coils them closer. Tendril identity and head/front-body stability remain review.",
+      "registeredLightAndDarkActuallyInspected": true,
+      "status": "producer_candidate_pending_root_registered_review"
+    },
+    {
+      "id": "22-bailian/swim",
+      "source": "designs/motion-frames-v1/22-bailian/swim/22-bailian-swim-v3.png",
+      "manifest": "assets/animations/22-bailian/swim/manifest.json",
+      "review": "designs/motion-frames-v1/22-bailian/swim/candidate-review-v3.json",
+      "frames": 8,
+      "fps": 12,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "loop": true,
+      "registeredMinMargin": 0.22156398104265404,
+      "sourceOwnership": {
+        "alphaThreshold": 3,
+        "sourcePixels": 594022,
+        "exportedPixels": 594022,
+        "duplicatePixels": 0,
+        "lostPixels": 0,
+        "rgbAndAlphaForOwnedPixelsUnchanged": true
+      },
+      "warningCounts": {
+        "source_margin_lt_12pct": 8,
+        "nominal_grid_cross": 2,
+        "generated_core_shape_and_motion_pending_review": 1,
+        "playback_unverified": 1
+      },
+      "observation": "All adopted phases faceRIGHT. Lotus tail petals fold/roll at caudal base; capture petals curl inward and settle. Petal count/attachment and contour stability remain review.",
+      "registeredLightAndDarkActuallyInspected": true,
+      "status": "producer_candidate_pending_root_registered_review"
+    },
+    {
+      "id": "22-bailian/capture",
+      "source": "designs/motion-frames-v1/22-bailian/capture/22-bailian-capture.png",
+      "manifest": "assets/animations/22-bailian/capture/manifest.json",
+      "review": "designs/motion-frames-v1/22-bailian/capture/candidate-review.json",
+      "frames": 8,
+      "fps": 12,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "loop": false,
+      "registeredMinMargin": 0.2037914691943128,
+      "sourceOwnership": {
+        "alphaThreshold": 3,
+        "sourcePixels": 630140,
+        "exportedPixels": 630140,
+        "duplicatePixels": 0,
+        "lostPixels": 0,
+        "rgbAndAlphaForOwnedPixelsUnchanged": true
+      },
+      "warningCounts": {
+        "source_margin_lt_12pct": 8,
+        "nominal_grid_cross": 6,
+        "generated_core_shape_and_motion_pending_review": 1,
+        "playback_unverified": 1
+      },
+      "observation": "All adopted phases faceRIGHT. Lotus tail petals fold/roll at caudal base; capture petals curl inward and settle. Petal count/attachment and contour stability remain review.",
+      "registeredLightAndDarkActuallyInspected": true,
+      "status": "producer_candidate_pending_root_registered_review"
+    },
+    {
+      "id": "23-liuguang/swim",
+      "source": "designs/motion-frames-v1/23-liuguang/swim/23-liuguang-swim.png",
+      "manifest": "assets/animations/23-liuguang/swim/manifest.json",
+      "review": "designs/motion-frames-v1/23-liuguang/swim/candidate-review.json",
+      "frames": 8,
+      "fps": 12,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "loop": true,
+      "registeredMinMargin": 0.235781990521327,
+      "sourceOwnership": {
+        "alphaThreshold": 3,
+        "sourcePixels": 521308,
+        "exportedPixels": 521308,
+        "duplicatePixels": 0,
+        "lostPixels": 0,
+        "rgbAndAlphaForOwnedPixelsUnchanged": true
+      },
+      "warningCounts": {
+        "source_margin_lt_12pct": 8,
+        "generated_core_shape_and_motion_pending_review": 1,
+        "playback_unverified": 1
+      },
+      "observation": "Tail and pectoral membranes alternate curvature; capture contracts and curls then relaxes. Star patterns are similar but may drift slightly; ornament rigidity remains review.",
+      "registeredLightAndDarkActuallyInspected": true,
+      "status": "producer_candidate_pending_root_registered_review"
+    },
+    {
+      "id": "23-liuguang/capture",
+      "source": "designs/motion-frames-v1/23-liuguang/capture/23-liuguang-capture.png",
+      "manifest": "assets/animations/23-liuguang/capture/manifest.json",
+      "review": "designs/motion-frames-v1/23-liuguang/capture/candidate-review.json",
+      "frames": 8,
+      "fps": 12,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "loop": false,
+      "registeredMinMargin": 0.1895734597156398,
+      "sourceOwnership": {
+        "alphaThreshold": 3,
+        "sourcePixels": 558209,
+        "exportedPixels": 558209,
+        "duplicatePixels": 0,
+        "lostPixels": 0,
+        "rgbAndAlphaForOwnedPixelsUnchanged": true
+      },
+      "warningCounts": {
+        "source_margin_lt_12pct": 8,
+        "nominal_grid_cross": 2,
+        "generated_core_shape_and_motion_pending_review": 1,
+        "playback_unverified": 1
+      },
+      "observation": "Tail and pectoral membranes alternate curvature; capture contracts and curls then relaxes. Star patterns are similar but may drift slightly; ornament rigidity remains review.",
+      "registeredLightAndDarkActuallyInspected": true,
+      "status": "producer_candidate_pending_root_registered_review"
+    },
+    {
+      "id": "24-jindun/swim",
+      "source": "designs/motion-frames-v1/24-jindun/swim/24-jindun-swim.png",
+      "manifest": "assets/animations/24-jindun/swim/manifest.json",
+      "review": "designs/motion-frames-v1/24-jindun/swim/candidate-review.json",
+      "frames": 8,
+      "fps": 12,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "loop": true,
+      "registeredMinMargin": 0.22274881516587677,
+      "sourceOwnership": {
+        "alphaThreshold": 3,
+        "sourcePixels": 519284,
+        "exportedPixels": 519284,
+        "duplicatePixels": 0,
+        "lostPixels": 0,
+        "rgbAndAlphaForOwnedPixelsUnchanged": true
+      },
+      "warningCounts": {
+        "source_margin_lt_12pct": 8,
+        "generated_core_shape_and_motion_pending_review": 1,
+        "playback_unverified": 1
+      },
+      "observation": "Tail joint and pectoral fins articulate; capture curls tail/recoils. The large emerald and front armor should be rigid; their generated contour/angle variation remains review.",
+      "registeredLightAndDarkActuallyInspected": true,
+      "status": "producer_candidate_pending_root_registered_review"
+    },
+    {
+      "id": "24-jindun/capture",
+      "source": "designs/motion-frames-v1/24-jindun/capture/24-jindun-capture.png",
+      "manifest": "assets/animations/24-jindun/capture/manifest.json",
+      "review": "designs/motion-frames-v1/24-jindun/capture/candidate-review.json",
+      "frames": 8,
+      "fps": 12,
+      "durationsMs": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        83,
+        84
+      ],
+      "loop": false,
+      "registeredMinMargin": 0.22274881516587677,
+      "sourceOwnership": {
+        "alphaThreshold": 3,
+        "sourcePixels": 545797,
+        "exportedPixels": 545797,
+        "duplicatePixels": 0,
+        "lostPixels": 0,
+        "rgbAndAlphaForOwnedPixelsUnchanged": true
+      },
+      "warningCounts": {
+        "source_margin_lt_12pct": 8,
+        "nominal_grid_cross": 3,
+        "generated_core_shape_and_motion_pending_review": 1,
+        "playback_unverified": 1
+      },
+      "observation": "Tail joint and pectoral fins articulate; capture curls tail/recoils. The large emerald and front armor should be rigid; their generated contour/angle variation remains review.",
+      "registeredLightAndDarkActuallyInspected": true,
+      "status": "producer_candidate_pending_root_registered_review"
+    }
+  ]
+}

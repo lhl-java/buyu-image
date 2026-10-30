@@ -1,0 +1,7 @@
+Use case: precise-object-edit.
+Input 1 is the fishing daily task UI edit target; inputs 2 and 3 are the approved mail and team art style references.
+Change only the following small task-state inconsistencies on input 1:
+1. In the bottom task row labelled 收集材料, replace progress "3/5" with exactly "5/5" and fill that row's progress bar fully with green. Keep the adjacent 已领取 button disabled as it is. This must read as a completed and claimed task.
+2. Replace only the orange mooncake reward icon in that same bottom row with a small lustrous white pearl in an open pink shell. Preserve its existing square ivory/gold slot and quantity ×2.
+3. The bottom 今日活跃 60/100 bar should be green filled only up to the middle chest marked60, with a pale unfilled remaining segment toward100. Keep the first two checkmarks and leave the100 chest unclaimed.
+Keep absolutely everything else unchanged: layout, ratio, titles, daily/weekly tabs, all other rows and icons, colors, portrait, background, frames, cannon, numbers and typography. Do not add text, crop, blur or redesign.

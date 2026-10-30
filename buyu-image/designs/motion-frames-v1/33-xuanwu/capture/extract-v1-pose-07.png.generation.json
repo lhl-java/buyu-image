@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/motion-frames-v1/33-xuanwu/capture/extract-v1-pose-07.png",
+  "sha256": "a131273f97f1f168c633af6de781c100d68c57d2960f5fd07db8ff8979c6d90c",
+  "width": 399,
+  "height": 276,
+  "format": "RGBA PNG",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/33-xuanwu/capture/33-xuanwu-capture-v1.png",
+      "sha256": "cc313bb1951c0b1dd78a9241fb876f2c38b293240b9049c84982843cf0237127",
+      "generationRecord": "designs/motion-frames-v1/33-xuanwu/capture/33-xuanwu-capture-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_complete_actor_ownership_crop",
+    "evidence": {
+      "sourceFrame": 7,
+      "file": "designs/motion-frames-v1/33-xuanwu/capture/extract-v1-pose-07.png",
+      "sourceRect": [
+        1364,
+        527,
+        1763,
+        803
+      ],
+      "nominalSourceRect": [
+        1330,
+        444,
+        1774,
+        887
+      ],
+      "nominalGridCross": false,
+      "nativeVisibleSize": [
+        399,
+        276
+      ],
+      "ownedPixelCount": 67043,
+      "foreignPixelsRemovedFromCrop": 0,
+      "totalCanvasEdgeMaxAlpha": 0,
+      "nativeOwnedPixelsUnchanged": true,
+      "sourceMainAlphaComponent": 70
+    },
+    "alphaCleanup": "alpha<=3 discarded, other owned RGBA unchanged",
+    "resized": false,
+    "upscaled": false,
+    "newNativeDetailClaimed": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "intermediate_pending_semantic_review"
+}

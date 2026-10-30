@@ -1,0 +1,1837 @@
+{
+  "schemaVersion": 1,
+  "source": "designs/motion-frames-v1/14-huanyue/capture/14-huanyue-capture.png",
+  "sourceWidth": 1774,
+  "sourceHeight": 887,
+  "sourceSha256": "ca9a450e417d194627bc781d592a1deecec7bfee7c6eb333f9206b1185edbfab",
+  "output": "assets/animations/14-huanyue/capture",
+  "items": [
+    {
+      "schemaVersion": 1,
+      "id": "frame-00",
+      "name": "14-huanyue capture 0",
+      "file": "assets/animations/14-huanyue/capture/frame-00.png",
+      "sha256": "2899511e65bd5fba0e010bb005c26d093691967930cee2695c3fb6b42825579e",
+      "width": 844,
+      "height": 844,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/14-huanyue/capture/14-huanyue-capture.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/14-huanyue/capture/14-huanyue-capture.png",
+          "sha256": "ca9a450e417d194627bc781d592a1deecec7bfee7c6eb333f9206b1185edbfab",
+          "generationRecord": "designs/motion-frames-v1/14-huanyue/capture/14-huanyue-capture.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+        "nominalGrid": {
+          "cols": 4,
+          "rows": 2
+        },
+        "nominalGridRect": [
+          0,
+          0,
+          444,
+          444
+        ],
+        "sourceRect": [
+          16,
+          45,
+          404,
+          433
+        ],
+        "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+        "ownershipPixelCount": 90047,
+        "alphaCleanup": "Only alpha<=3 set to0",
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "registrationOffset": [
+          220,
+          242
+        ],
+        "registeredCanvas": [
+          844,
+          844
+        ],
+        "registrationReference": {
+          "type": "top12px of the connected bell dome crown; approximate silhouette landmark, needs visual registration review",
+          "sourcePointGlobal": [
+            266.0,
+            53.0
+          ],
+          "sourcePointLocal": [
+            250.0,
+            8.0
+          ],
+          "targetPoint": [
+            470,
+            250
+          ],
+          "rounding": "nearest integer",
+          "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+        },
+        "sourcePixelsRoundTripVerified": true,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        422,
+        422
+      ],
+      "landmarkPixels": [
+        470,
+        250
+      ],
+      "registeredAlphaBBox": [
+        220,
+        242,
+        608,
+        630
+      ],
+      "registeredMinMargin": 0.25355450236966826,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+      "animation": {
+        "id": "14-huanyue/capture",
+        "frames": 8,
+        "fps": 12,
+        "loop": false,
+        "order": "row-major",
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+        "identityStatus": "pending_root_visual",
+        "motionStatus": "pending_root_visual",
+        "loopVisualStatus": "single_shot_pending_root_playback",
+        "sourceRoute": "builtin_native_AI_sheet_user_requested"
+      },
+      "status": "accepted_first_release_art",
+      "targetBodyBox": [
+        180,
+        130
+      ],
+      "uniformDisplayScale": 0.3581267217630854,
+      "displaySize": [
+        302.25895316804406,
+        302.25895316804406
+      ],
+      "bodyDisplayBox": [
+        180,
+        130
+      ],
+      "displaySizing": {
+        "preserveAspect": true,
+        "uniformScaleAcrossAction": true,
+        "upscalingAllowed": false
+      },
+      "displayScaleReference": {
+        "restNativeVisibleBox": [
+          387,
+          383
+        ],
+        "fitMaxBox": [
+          180,
+          130
+        ],
+        "method": "same species swim display scale reused, never capture per-frame bbox fit",
+        "upscaling": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-01",
+      "name": "14-huanyue capture 1",
+      "file": "assets/animations/14-huanyue/capture/frame-01.png",
+      "sha256": "0c5dae0435b042ca94f6b2e8a6ea8198d0e67e515d430dfba784c5f1fc93911c",
+      "width": 844,
+      "height": 844,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/14-huanyue/capture/14-huanyue-capture.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/14-huanyue/capture/14-huanyue-capture.png",
+          "sha256": "ca9a450e417d194627bc781d592a1deecec7bfee7c6eb333f9206b1185edbfab",
+          "generationRecord": "designs/motion-frames-v1/14-huanyue/capture/14-huanyue-capture.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+        "nominalGrid": {
+          "cols": 4,
+          "rows": 2
+        },
+        "nominalGridRect": [
+          444,
+          0,
+          887,
+          444
+        ],
+        "sourceRect": [
+          478,
+          45,
+          854,
+          405
+        ],
+        "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+        "ownershipPixelCount": 84396,
+        "alphaCleanup": "Only alpha<=3 set to0",
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "registrationOffset": [
+          228,
+          242
+        ],
+        "registeredCanvas": [
+          844,
+          844
+        ],
+        "registrationReference": {
+          "type": "top12px of the connected bell dome crown; approximate silhouette landmark, needs visual registration review",
+          "sourcePointGlobal": [
+            720.0,
+            53.0
+          ],
+          "sourcePointLocal": [
+            242.0,
+            8.0
+          ],
+          "targetPoint": [
+            470,
+            250
+          ],
+          "rounding": "nearest integer",
+          "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+        },
+        "sourcePixelsRoundTripVerified": true,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        422,
+        422
+      ],
+      "landmarkPixels": [
+        470,
+        250
+      ],
+      "registeredAlphaBBox": [
+        228,
+        242,
+        604,
+        602
+      ],
+      "registeredMinMargin": 0.27014218009478674,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+      "animation": {
+        "id": "14-huanyue/capture",
+        "frames": 8,
+        "fps": 12,
+        "loop": false,
+        "order": "row-major",
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+        "identityStatus": "pending_root_visual",
+        "motionStatus": "pending_root_visual",
+        "loopVisualStatus": "single_shot_pending_root_playback",
+        "sourceRoute": "builtin_native_AI_sheet_user_requested"
+      },
+      "status": "accepted_first_release_art",
+      "targetBodyBox": [
+        180,
+        130
+      ],
+      "uniformDisplayScale": 0.3581267217630854,
+      "displaySize": [
+        302.25895316804406,
+        302.25895316804406
+      ],
+      "bodyDisplayBox": [
+        180,
+        130
+      ],
+      "displaySizing": {
+        "preserveAspect": true,
+        "uniformScaleAcrossAction": true,
+        "upscalingAllowed": false
+      },
+      "displayScaleReference": {
+        "restNativeVisibleBox": [
+          387,
+          383
+        ],
+        "fitMaxBox": [
+          180,
+          130
+        ],
+        "method": "same species swim display scale reused, never capture per-frame bbox fit",
+        "upscaling": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-02",
+      "name": "14-huanyue capture 2",
+      "file": "assets/animations/14-huanyue/capture/frame-02.png",
+      "sha256": "3f18e20969c47f995e692f7ecca8d4d8f56f084d686f323f4f0e554dc184196d",
+      "width": 844,
+      "height": 844,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/14-huanyue/capture/14-huanyue-capture.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/14-huanyue/capture/14-huanyue-capture.png",
+          "sha256": "ca9a450e417d194627bc781d592a1deecec7bfee7c6eb333f9206b1185edbfab",
+          "generationRecord": "designs/motion-frames-v1/14-huanyue/capture/14-huanyue-capture.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+        "nominalGrid": {
+          "cols": 4,
+          "rows": 2
+        },
+        "nominalGridRect": [
+          887,
+          0,
+          1330,
+          444
+        ],
+        "sourceRect": [
+          971,
+          54,
+          1307,
+          398
+        ],
+        "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+        "ownershipPixelCount": 74547,
+        "alphaCleanup": "Only alpha<=3 set to0",
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "registrationOffset": [
+          254,
+          242
+        ],
+        "registeredCanvas": [
+          844,
+          844
+        ],
+        "registrationReference": {
+          "type": "top12px of the connected bell dome crown; approximate silhouette landmark, needs visual registration review",
+          "sourcePointGlobal": [
+            1187.0,
+            62.0
+          ],
+          "sourcePointLocal": [
+            216.0,
+            8.0
+          ],
+          "targetPoint": [
+            470,
+            250
+          ],
+          "rounding": "nearest integer",
+          "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+        },
+        "sourcePixelsRoundTripVerified": true,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        422,
+        422
+      ],
+      "landmarkPixels": [
+        470,
+        250
+      ],
+      "registeredAlphaBBox": [
+        254,
+        242,
+        590,
+        586
+      ],
+      "registeredMinMargin": 0.28672985781990523,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+      "animation": {
+        "id": "14-huanyue/capture",
+        "frames": 8,
+        "fps": 12,
+        "loop": false,
+        "order": "row-major",
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+        "identityStatus": "pending_root_visual",
+        "motionStatus": "pending_root_visual",
+        "loopVisualStatus": "single_shot_pending_root_playback",
+        "sourceRoute": "builtin_native_AI_sheet_user_requested"
+      },
+      "status": "accepted_first_release_art",
+      "targetBodyBox": [
+        180,
+        130
+      ],
+      "uniformDisplayScale": 0.3581267217630854,
+      "displaySize": [
+        302.25895316804406,
+        302.25895316804406
+      ],
+      "bodyDisplayBox": [
+        180,
+        130
+      ],
+      "displaySizing": {
+        "preserveAspect": true,
+        "uniformScaleAcrossAction": true,
+        "upscalingAllowed": false
+      },
+      "displayScaleReference": {
+        "restNativeVisibleBox": [
+          387,
+          383
+        ],
+        "fitMaxBox": [
+          180,
+          130
+        ],
+        "method": "same species swim display scale reused, never capture per-frame bbox fit",
+        "upscaling": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-03",
+      "name": "14-huanyue capture 3",
+      "file": "assets/animations/14-huanyue/capture/frame-03.png",
+      "sha256": "67cf98eb1535fac6ee9a68047cf5d67fc640d250e327e4a79013bd5eae6df136",
+      "width": 844,
+      "height": 844,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/14-huanyue/capture/14-huanyue-capture.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/14-huanyue/capture/14-huanyue-capture.png",
+          "sha256": "ca9a450e417d194627bc781d592a1deecec7bfee7c6eb333f9206b1185edbfab",
+          "generationRecord": "designs/motion-frames-v1/14-huanyue/capture/14-huanyue-capture.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+        "nominalGrid": {
+          "cols": 4,
+          "rows": 2
+        },
+        "nominalGridRect": [
+          1330,
+          0,
+          1774,
+          444
+        ],
+        "sourceRect": [
+          1371,
+          44,
+          1763,
+          426
+        ],
+        "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+        "ownershipPixelCount": 83514,
+        "alphaCleanup": "Only alpha<=3 set to0",
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "registrationOffset": [
+          203,
+          242
+        ],
+        "registeredCanvas": [
+          844,
+          844
+        ],
+        "registrationReference": {
+          "type": "top12px of the connected bell dome crown; approximate silhouette landmark, needs visual registration review",
+          "sourcePointGlobal": [
+            1638.0,
+            52.0
+          ],
+          "sourcePointLocal": [
+            267.0,
+            8.0
+          ],
+          "targetPoint": [
+            470,
+            250
+          ],
+          "rounding": "nearest integer",
+          "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+        },
+        "sourcePixelsRoundTripVerified": true,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        422,
+        422
+      ],
+      "landmarkPixels": [
+        470,
+        250
+      ],
+      "registeredAlphaBBox": [
+        203,
+        242,
+        595,
+        624
+      ],
+      "registeredMinMargin": 0.24052132701421802,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+      "animation": {
+        "id": "14-huanyue/capture",
+        "frames": 8,
+        "fps": 12,
+        "loop": false,
+        "order": "row-major",
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+        "identityStatus": "pending_root_visual",
+        "motionStatus": "pending_root_visual",
+        "loopVisualStatus": "single_shot_pending_root_playback",
+        "sourceRoute": "builtin_native_AI_sheet_user_requested"
+      },
+      "status": "accepted_first_release_art",
+      "targetBodyBox": [
+        180,
+        130
+      ],
+      "uniformDisplayScale": 0.3581267217630854,
+      "displaySize": [
+        302.25895316804406,
+        302.25895316804406
+      ],
+      "bodyDisplayBox": [
+        180,
+        130
+      ],
+      "displaySizing": {
+        "preserveAspect": true,
+        "uniformScaleAcrossAction": true,
+        "upscalingAllowed": false
+      },
+      "displayScaleReference": {
+        "restNativeVisibleBox": [
+          387,
+          383
+        ],
+        "fitMaxBox": [
+          180,
+          130
+        ],
+        "method": "same species swim display scale reused, never capture per-frame bbox fit",
+        "upscaling": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-04",
+      "name": "14-huanyue capture 4",
+      "file": "assets/animations/14-huanyue/capture/frame-04.png",
+      "sha256": "125ad08ef936d248ff8e138090e1ed47b29097f826980b52cd75e0051d999deb",
+      "width": 844,
+      "height": 844,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/14-huanyue/capture/14-huanyue-capture.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/14-huanyue/capture/14-huanyue-capture.png",
+          "sha256": "ca9a450e417d194627bc781d592a1deecec7bfee7c6eb333f9206b1185edbfab",
+          "generationRecord": "designs/motion-frames-v1/14-huanyue/capture/14-huanyue-capture.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+        "nominalGrid": {
+          "cols": 4,
+          "rows": 2
+        },
+        "nominalGridRect": [
+          0,
+          444,
+          444,
+          887
+        ],
+        "sourceRect": [
+          18,
+          459,
+          407,
+          842
+        ],
+        "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+        "ownershipPixelCount": 88425,
+        "alphaCleanup": "Only alpha<=3 set to0",
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "registrationOffset": [
+          213,
+          242
+        ],
+        "registeredCanvas": [
+          844,
+          844
+        ],
+        "registrationReference": {
+          "type": "top12px of the connected bell dome crown; approximate silhouette landmark, needs visual registration review",
+          "sourcePointGlobal": [
+            275.0,
+            467.0
+          ],
+          "sourcePointLocal": [
+            257.0,
+            8.0
+          ],
+          "targetPoint": [
+            470,
+            250
+          ],
+          "rounding": "nearest integer",
+          "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+        },
+        "sourcePixelsRoundTripVerified": true,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        422,
+        422
+      ],
+      "landmarkPixels": [
+        470,
+        250
+      ],
+      "registeredAlphaBBox": [
+        213,
+        242,
+        602,
+        625
+      ],
+      "registeredMinMargin": 0.2523696682464455,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+      "animation": {
+        "id": "14-huanyue/capture",
+        "frames": 8,
+        "fps": 12,
+        "loop": false,
+        "order": "row-major",
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+        "identityStatus": "pending_root_visual",
+        "motionStatus": "pending_root_visual",
+        "loopVisualStatus": "single_shot_pending_root_playback",
+        "sourceRoute": "builtin_native_AI_sheet_user_requested"
+      },
+      "status": "accepted_first_release_art",
+      "targetBodyBox": [
+        180,
+        130
+      ],
+      "uniformDisplayScale": 0.3581267217630854,
+      "displaySize": [
+        302.25895316804406,
+        302.25895316804406
+      ],
+      "bodyDisplayBox": [
+        180,
+        130
+      ],
+      "displaySizing": {
+        "preserveAspect": true,
+        "uniformScaleAcrossAction": true,
+        "upscalingAllowed": false
+      },
+      "displayScaleReference": {
+        "restNativeVisibleBox": [
+          387,
+          383
+        ],
+        "fitMaxBox": [
+          180,
+          130
+        ],
+        "method": "same species swim display scale reused, never capture per-frame bbox fit",
+        "upscaling": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-05",
+      "name": "14-huanyue capture 5",
+      "file": "assets/animations/14-huanyue/capture/frame-05.png",
+      "sha256": "2a31407f1d43e92dd026d941890680efbaf259ed815e420dd7442c9eff6f1d9f",
+      "width": 844,
+      "height": 844,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/14-huanyue/capture/14-huanyue-capture.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/14-huanyue/capture/14-huanyue-capture.png",
+          "sha256": "ca9a450e417d194627bc781d592a1deecec7bfee7c6eb333f9206b1185edbfab",
+          "generationRecord": "designs/motion-frames-v1/14-huanyue/capture/14-huanyue-capture.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+        "nominalGrid": {
+          "cols": 4,
+          "rows": 2
+        },
+        "nominalGridRect": [
+          444,
+          444,
+          887,
+          887
+        ],
+        "sourceRect": [
+          474,
+          459,
+          854,
+          842
+        ],
+        "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+        "ownershipPixelCount": 87016,
+        "alphaCleanup": "Only alpha<=3 set to0",
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "registrationOffset": [
+          226,
+          242
+        ],
+        "registeredCanvas": [
+          844,
+          844
+        ],
+        "registrationReference": {
+          "type": "top12px of the connected bell dome crown; approximate silhouette landmark, needs visual registration review",
+          "sourcePointGlobal": [
+            718.0,
+            467.0
+          ],
+          "sourcePointLocal": [
+            244.0,
+            8.0
+          ],
+          "targetPoint": [
+            470,
+            250
+          ],
+          "rounding": "nearest integer",
+          "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+        },
+        "sourcePixelsRoundTripVerified": true,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        422,
+        422
+      ],
+      "landmarkPixels": [
+        470,
+        250
+      ],
+      "registeredAlphaBBox": [
+        226,
+        242,
+        606,
+        625
+      ],
+      "registeredMinMargin": 0.259478672985782,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+      "animation": {
+        "id": "14-huanyue/capture",
+        "frames": 8,
+        "fps": 12,
+        "loop": false,
+        "order": "row-major",
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+        "identityStatus": "pending_root_visual",
+        "motionStatus": "pending_root_visual",
+        "loopVisualStatus": "single_shot_pending_root_playback",
+        "sourceRoute": "builtin_native_AI_sheet_user_requested"
+      },
+      "status": "accepted_first_release_art",
+      "targetBodyBox": [
+        180,
+        130
+      ],
+      "uniformDisplayScale": 0.3581267217630854,
+      "displaySize": [
+        302.25895316804406,
+        302.25895316804406
+      ],
+      "bodyDisplayBox": [
+        180,
+        130
+      ],
+      "displaySizing": {
+        "preserveAspect": true,
+        "uniformScaleAcrossAction": true,
+        "upscalingAllowed": false
+      },
+      "displayScaleReference": {
+        "restNativeVisibleBox": [
+          387,
+          383
+        ],
+        "fitMaxBox": [
+          180,
+          130
+        ],
+        "method": "same species swim display scale reused, never capture per-frame bbox fit",
+        "upscaling": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-06",
+      "name": "14-huanyue capture 6",
+      "file": "assets/animations/14-huanyue/capture/frame-06.png",
+      "sha256": "3e2cbdf3c25b7ea1617f42024fa6b4d335f63e40f1f42d4543baab79d6b974dc",
+      "width": 844,
+      "height": 844,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/14-huanyue/capture/14-huanyue-capture.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/14-huanyue/capture/14-huanyue-capture.png",
+          "sha256": "ca9a450e417d194627bc781d592a1deecec7bfee7c6eb333f9206b1185edbfab",
+          "generationRecord": "designs/motion-frames-v1/14-huanyue/capture/14-huanyue-capture.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+        "nominalGrid": {
+          "cols": 4,
+          "rows": 2
+        },
+        "nominalGridRect": [
+          887,
+          444,
+          1330,
+          887
+        ],
+        "sourceRect": [
+          930,
+          459,
+          1296,
+          847
+        ],
+        "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+        "ownershipPixelCount": 85845,
+        "alphaCleanup": "Only alpha<=3 set to0",
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "registrationOffset": [
+          237,
+          242
+        ],
+        "registeredCanvas": [
+          844,
+          844
+        ],
+        "registrationReference": {
+          "type": "top12px of the connected bell dome crown; approximate silhouette landmark, needs visual registration review",
+          "sourcePointGlobal": [
+            1163.0,
+            467.0
+          ],
+          "sourcePointLocal": [
+            233.0,
+            8.0
+          ],
+          "targetPoint": [
+            470,
+            250
+          ],
+          "rounding": "nearest integer",
+          "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+        },
+        "sourcePixelsRoundTripVerified": true,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        422,
+        422
+      ],
+      "landmarkPixels": [
+        470,
+        250
+      ],
+      "registeredAlphaBBox": [
+        237,
+        242,
+        603,
+        630
+      ],
+      "registeredMinMargin": 0.25355450236966826,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+      "animation": {
+        "id": "14-huanyue/capture",
+        "frames": 8,
+        "fps": 12,
+        "loop": false,
+        "order": "row-major",
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+        "identityStatus": "pending_root_visual",
+        "motionStatus": "pending_root_visual",
+        "loopVisualStatus": "single_shot_pending_root_playback",
+        "sourceRoute": "builtin_native_AI_sheet_user_requested"
+      },
+      "status": "accepted_first_release_art",
+      "targetBodyBox": [
+        180,
+        130
+      ],
+      "uniformDisplayScale": 0.3581267217630854,
+      "displaySize": [
+        302.25895316804406,
+        302.25895316804406
+      ],
+      "bodyDisplayBox": [
+        180,
+        130
+      ],
+      "displaySizing": {
+        "preserveAspect": true,
+        "uniformScaleAcrossAction": true,
+        "upscalingAllowed": false
+      },
+      "displayScaleReference": {
+        "restNativeVisibleBox": [
+          387,
+          383
+        ],
+        "fitMaxBox": [
+          180,
+          130
+        ],
+        "method": "same species swim display scale reused, never capture per-frame bbox fit",
+        "upscaling": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-07",
+      "name": "14-huanyue capture 7",
+      "file": "assets/animations/14-huanyue/capture/frame-07.png",
+      "sha256": "4700fa5ea4acae14bf61df6f9814899410a87be5e9de0e70f65a5e65ddbc3ffa",
+      "width": 844,
+      "height": 844,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/14-huanyue/capture/14-huanyue-capture.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/14-huanyue/capture/14-huanyue-capture.png",
+          "sha256": "ca9a450e417d194627bc781d592a1deecec7bfee7c6eb333f9206b1185edbfab",
+          "generationRecord": "designs/motion-frames-v1/14-huanyue/capture/14-huanyue-capture.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_complete_pose_ownership_crop_integer_landmark_registration",
+        "nominalGrid": {
+          "cols": 4,
+          "rows": 2
+        },
+        "nominalGridRect": [
+          1330,
+          444,
+          1774,
+          887
+        ],
+        "sourceRect": [
+          1388,
+          459,
+          1756,
+          846
+        ],
+        "ownership": "All alpha>3 source pixels partitioned exactly once by nearest separate anatomical alpha>16 components. Native RGBA copied unchanged; zeroing pixels owned by other7poses only. No artwork component discarded.",
+        "ownershipPixelCount": 87757,
+        "alphaCleanup": "Only alpha<=3 set to0",
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "registrationOffset": [
+          237,
+          242
+        ],
+        "registeredCanvas": [
+          844,
+          844
+        ],
+        "registrationReference": {
+          "type": "top12px of the connected bell dome crown; approximate silhouette landmark, needs visual registration review",
+          "sourcePointGlobal": [
+            1621.0,
+            467.0
+          ],
+          "sourcePointLocal": [
+            233.0,
+            8.0
+          ],
+          "targetPoint": [
+            470,
+            250
+          ],
+          "rounding": "nearest integer",
+          "limitation": "Translation removes layout displacement; it cannot correct generated shape or camera-scale drift."
+        },
+        "sourcePixelsRoundTripVerified": true,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        422,
+        422
+      ],
+      "landmarkPixels": [
+        470,
+        250
+      ],
+      "registeredAlphaBBox": [
+        237,
+        242,
+        605,
+        629
+      ],
+      "registeredMinMargin": 0.254739336492891,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for native crop/ownership/padding; actual source version/quality undisclosed.",
+      "animation": {
+        "id": "14-huanyue/capture",
+        "frames": 8,
+        "fps": 12,
+        "loop": false,
+        "order": "row-major",
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+        "root": [
+          0.5,
+          0.5
+        ],
+        "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+        "identityStatus": "pending_root_visual",
+        "motionStatus": "pending_root_visual",
+        "loopVisualStatus": "single_shot_pending_root_playback",
+        "sourceRoute": "builtin_native_AI_sheet_user_requested"
+      },
+      "status": "accepted_first_release_art",
+      "targetBodyBox": [
+        180,
+        130
+      ],
+      "uniformDisplayScale": 0.3581267217630854,
+      "displaySize": [
+        302.25895316804406,
+        302.25895316804406
+      ],
+      "bodyDisplayBox": [
+        180,
+        130
+      ],
+      "displaySizing": {
+        "preserveAspect": true,
+        "uniformScaleAcrossAction": true,
+        "upscalingAllowed": false
+      },
+      "displayScaleReference": {
+        "restNativeVisibleBox": [
+          387,
+          383
+        ],
+        "fitMaxBox": [
+          180,
+          130
+        ],
+        "method": "same species swim display scale reused, never capture per-frame bbox fit",
+        "upscaling": false
+      }
+    }
+  ],
+  "animation": {
+    "id": "14-huanyue/capture",
+    "frames": 8,
+    "fps": 12,
+    "loop": false,
+    "order": "row-major",
+    "durationsMs": [
+      83,
+      84,
+      83,
+      83,
+      84,
+      83,
+      83,
+      84
+    ],
+    "timingNote": "fps authoritative; cumulative boundaries rounded to integer milliseconds",
+    "root": [
+      0.5,
+      0.5
+    ],
+    "registrationStatus": "integer_anatomical_landmark_registered_core_shape_pending",
+    "identityStatus": "pending_root_visual",
+    "motionStatus": "pending_root_visual",
+    "loopVisualStatus": "single_shot_pending_root_playback",
+    "sourceRoute": "builtin_native_AI_sheet_user_requested",
+    "releaseReady": true
+  },
+  "sharedCanvas": [
+    844,
+    844
+  ],
+  "rootPixels": [
+    422,
+    422
+  ],
+  "landmarkPixels": [
+    470,
+    250
+  ],
+  "bodyRootEvidence": "One common logical body root relative to registered anatomical eye/bell crown; generated rigidity remains review.",
+  "registration": [
+    {
+      "frame": 0,
+      "sourceRect": [
+        16,
+        45,
+        404,
+        433
+      ],
+      "sourceLandmarkGlobal": [
+        266.0,
+        53.0
+      ],
+      "sourceLandmarkLocal": [
+        250.0,
+        8.0
+      ],
+      "registrationOffset": [
+        220,
+        242
+      ],
+      "targetLandmark": [
+        470,
+        250
+      ],
+      "bodyRoot": [
+        422,
+        422
+      ],
+      "bbox": [
+        220,
+        242,
+        608,
+        630
+      ],
+      "marginsLTRB": [
+        0.26066350710900477,
+        0.28672985781990523,
+        0.2796208530805687,
+        0.25355450236966826
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 1,
+      "sourceRect": [
+        478,
+        45,
+        854,
+        405
+      ],
+      "sourceLandmarkGlobal": [
+        720.0,
+        53.0
+      ],
+      "sourceLandmarkLocal": [
+        242.0,
+        8.0
+      ],
+      "registrationOffset": [
+        228,
+        242
+      ],
+      "targetLandmark": [
+        470,
+        250
+      ],
+      "bodyRoot": [
+        422,
+        422
+      ],
+      "bbox": [
+        228,
+        242,
+        604,
+        602
+      ],
+      "marginsLTRB": [
+        0.27014218009478674,
+        0.28672985781990523,
+        0.2843601895734597,
+        0.28672985781990523
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 2,
+      "sourceRect": [
+        971,
+        54,
+        1307,
+        398
+      ],
+      "sourceLandmarkGlobal": [
+        1187.0,
+        62.0
+      ],
+      "sourceLandmarkLocal": [
+        216.0,
+        8.0
+      ],
+      "registrationOffset": [
+        254,
+        242
+      ],
+      "targetLandmark": [
+        470,
+        250
+      ],
+      "bodyRoot": [
+        422,
+        422
+      ],
+      "bbox": [
+        254,
+        242,
+        590,
+        586
+      ],
+      "marginsLTRB": [
+        0.3009478672985782,
+        0.28672985781990523,
+        0.3009478672985782,
+        0.3056872037914692
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 3,
+      "sourceRect": [
+        1371,
+        44,
+        1763,
+        426
+      ],
+      "sourceLandmarkGlobal": [
+        1638.0,
+        52.0
+      ],
+      "sourceLandmarkLocal": [
+        267.0,
+        8.0
+      ],
+      "registrationOffset": [
+        203,
+        242
+      ],
+      "targetLandmark": [
+        470,
+        250
+      ],
+      "bodyRoot": [
+        422,
+        422
+      ],
+      "bbox": [
+        203,
+        242,
+        595,
+        624
+      ],
+      "marginsLTRB": [
+        0.24052132701421802,
+        0.28672985781990523,
+        0.2950236966824645,
+        0.26066350710900477
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 4,
+      "sourceRect": [
+        18,
+        459,
+        407,
+        842
+      ],
+      "sourceLandmarkGlobal": [
+        275.0,
+        467.0
+      ],
+      "sourceLandmarkLocal": [
+        257.0,
+        8.0
+      ],
+      "registrationOffset": [
+        213,
+        242
+      ],
+      "targetLandmark": [
+        470,
+        250
+      ],
+      "bodyRoot": [
+        422,
+        422
+      ],
+      "bbox": [
+        213,
+        242,
+        602,
+        625
+      ],
+      "marginsLTRB": [
+        0.2523696682464455,
+        0.28672985781990523,
+        0.28672985781990523,
+        0.259478672985782
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 5,
+      "sourceRect": [
+        474,
+        459,
+        854,
+        842
+      ],
+      "sourceLandmarkGlobal": [
+        718.0,
+        467.0
+      ],
+      "sourceLandmarkLocal": [
+        244.0,
+        8.0
+      ],
+      "registrationOffset": [
+        226,
+        242
+      ],
+      "targetLandmark": [
+        470,
+        250
+      ],
+      "bodyRoot": [
+        422,
+        422
+      ],
+      "bbox": [
+        226,
+        242,
+        606,
+        625
+      ],
+      "marginsLTRB": [
+        0.2677725118483412,
+        0.28672985781990523,
+        0.28199052132701424,
+        0.259478672985782
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 6,
+      "sourceRect": [
+        930,
+        459,
+        1296,
+        847
+      ],
+      "sourceLandmarkGlobal": [
+        1163.0,
+        467.0
+      ],
+      "sourceLandmarkLocal": [
+        233.0,
+        8.0
+      ],
+      "registrationOffset": [
+        237,
+        242
+      ],
+      "targetLandmark": [
+        470,
+        250
+      ],
+      "bodyRoot": [
+        422,
+        422
+      ],
+      "bbox": [
+        237,
+        242,
+        603,
+        630
+      ],
+      "marginsLTRB": [
+        0.28080568720379145,
+        0.28672985781990523,
+        0.28554502369668244,
+        0.25355450236966826
+      ],
+      "pixelsRoundTrip": true
+    },
+    {
+      "frame": 7,
+      "sourceRect": [
+        1388,
+        459,
+        1756,
+        846
+      ],
+      "sourceLandmarkGlobal": [
+        1621.0,
+        467.0
+      ],
+      "sourceLandmarkLocal": [
+        233.0,
+        8.0
+      ],
+      "registrationOffset": [
+        237,
+        242
+      ],
+      "targetLandmark": [
+        470,
+        250
+      ],
+      "bodyRoot": [
+        422,
+        422
+      ],
+      "bbox": [
+        237,
+        242,
+        605,
+        629
+      ],
+      "marginsLTRB": [
+        0.28080568720379145,
+        0.28672985781990523,
+        0.283175355450237,
+        0.254739336492891
+      ],
+      "pixelsRoundTrip": true
+    }
+  ],
+  "eyeMeasurement": [
+    {
+      "center": [
+        266.0,
+        53.0
+      ],
+      "boundsLTRB": null,
+      "area": null,
+      "method": "top12px of the connected bell dome crown; approximate silhouette landmark, needs visual registration review"
+    },
+    {
+      "center": [
+        720.0,
+        53.0
+      ],
+      "boundsLTRB": null,
+      "area": null,
+      "method": "top12px of the connected bell dome crown; approximate silhouette landmark, needs visual registration review"
+    },
+    {
+      "center": [
+        1187.0,
+        62.0
+      ],
+      "boundsLTRB": null,
+      "area": null,
+      "method": "top12px of the connected bell dome crown; approximate silhouette landmark, needs visual registration review"
+    },
+    {
+      "center": [
+        1638.0,
+        52.0
+      ],
+      "boundsLTRB": null,
+      "area": null,
+      "method": "top12px of the connected bell dome crown; approximate silhouette landmark, needs visual registration review"
+    },
+    {
+      "center": [
+        275.0,
+        467.0
+      ],
+      "boundsLTRB": null,
+      "area": null,
+      "method": "top12px of the connected bell dome crown; approximate silhouette landmark, needs visual registration review"
+    },
+    {
+      "center": [
+        718.0,
+        467.0
+      ],
+      "boundsLTRB": null,
+      "area": null,
+      "method": "top12px of the connected bell dome crown; approximate silhouette landmark, needs visual registration review"
+    },
+    {
+      "center": [
+        1163.0,
+        467.0
+      ],
+      "boundsLTRB": null,
+      "area": null,
+      "method": "top12px of the connected bell dome crown; approximate silhouette landmark, needs visual registration review"
+    },
+    {
+      "center": [
+        1621.0,
+        467.0
+      ],
+      "boundsLTRB": null,
+      "area": null,
+      "method": "top12px of the connected bell dome crown; approximate silhouette landmark, needs visual registration review"
+    }
+  ],
+  "eyeNativeBoxSizes": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sourcePixelOwnership": {
+    "alphaThreshold": 3,
+    "sourcePixels": 681547,
+    "exportedPixels": 681547,
+    "duplicatePixels": 0,
+    "lostPixels": 0,
+    "rgbAndAlphaForOwnedPixelsUnchanged": true
+  },
+  "order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "warnings": [
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 0,
+      "actual": 0.024774774774774775,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 1,
+      "actual": 0.0744920993227991,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 2,
+      "actual": 0.05191873589164785,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 3,
+      "actual": 0.024774774774774775,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 4,
+      "actual": 0.033860045146726865,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 5,
+      "actual": 0.033860045146726865,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 6,
+      "actual": 0.033860045146726865,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 7,
+      "actual": 0.033860045146726865,
+      "required": 0.12
+    },
+    {
+      "id": "generated_core_shape_and_motion_pending_review",
+      "note": "Bell rim contracts/reopens; ruffled arms curl and drift. Bell width varies with the intended pulse; core identity/capture transition still needs coordinator playback."
+    },
+    {
+      "id": "playback_unverified",
+      "note": "No live loop/single-shot playback during local heavy-job hold; distinct hashes are not motion evidence."
+    }
+  ],
+  "sourceMarginWarnings": [
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 0,
+      "actual": 0.024774774774774775,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 1,
+      "actual": 0.0744920993227991,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 2,
+      "actual": 0.05191873589164785,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 3,
+      "actual": 0.024774774774774775,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 4,
+      "actual": 0.033860045146726865,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 5,
+      "actual": 0.033860045146726865,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 6,
+      "actual": 0.033860045146726865,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 7,
+      "actual": 0.033860045146726865,
+      "required": 0.12
+    }
+  ],
+  "runtimeMarginWarnings": [],
+  "uniformDisplayScale": 0.3581267217630854,
+  "displaySize": [
+    302.25895316804406,
+    302.25895316804406
+  ],
+  "bodyDisplayBox": [
+    180,
+    130
+  ],
+  "qa": {
+    "technicalAlpha": "true_rgba",
+    "sourceBorderStatus": "ownership_extracted_nominal_grid_crossings_retained_as_warnings",
+    "sourceTotalCanvasStatus": "main_anatomical_components_within_total_canvas",
+    "sourceMarginStatus": "fail_preserved_source_gate",
+    "registeredMarginStatus": "pass",
+    "identityStatus": "candidate_pending_root_visual",
+    "actualMotionStatus": "candidate_visible_articulation_pending_root_visual",
+    "registrationStatus": "integer_landmark_registered_core_shape_pending",
+    "loopPlaybackStatus": "single_shot_pending_root_playback",
+    "producerStaticVisualInspection": {
+      "sourceSheetActuallyInspected": true,
+      "registeredLightAndDarkActuallyInspected": true,
+      "inspectionType": "static contact sheets, actual generated source and actual exported alpha-composited frames",
+      "lightContact": "designs/motion-frames-v1/14-huanyue/capture/registered-light.jpg",
+      "darkContact": "designs/motion-frames-v1/14-huanyue/capture/registered-dark.jpg",
+      "observedArticulation": "Bell rim contracts/reopens; ruffled arms curl and drift. Bell width varies with the intended pulse; core identity/capture transition still needs coordinator playback.",
+      "edgeObservation": "The registered light and dark contacts show complete separate poses without an opaque rectangle or another frame fragment. Source grid / margin warnings are retained.",
+      "livePlaybackActuallyRun": false,
+      "finalArtApproval": false,
+      "inspectedAt": "2026-10-28T20:08:34.651768+00:00"
+    }
+  },
+  "status": "accepted_first_release_art",
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+  "acceptedAt": "2026-10-30T04:07:09.085600+00:00",
+  "releaseReady": true,
+  "playbackReview": "docs/UNITY_FINAL_ACCEPTANCE.json"
+}

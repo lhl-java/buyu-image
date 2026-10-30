@@ -1,0 +1,53 @@
+{
+  "id": "03-chiyu",
+  "source": {
+    "swim": "designs/motion-frames-v1/03-chiyu/swim/03-chiyu-swim-v1.png",
+    "capture": "designs/motion-frames-v1/03-chiyu/capture/03-chiyu-capture-v3.png"
+  },
+  "canvas": 800,
+  "eyeOffset": [
+    80,
+    -30
+  ],
+  "eyeTarget": [
+    480,
+    370
+  ],
+  "root": [
+    400,
+    400
+  ],
+  "ownershipWarnings": {},
+  "nominalGridWarnings": {
+    "swim": [],
+    "capture": [
+      3,
+      7
+    ]
+  },
+  "sourceGridMarginWarnings": {
+    "swim": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "capture": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "actualPupilVisual": "pending",
+  "eyeReviewImage": "designs/motion-frames-v1/03-chiyu/source-eye-review.png",
+  "notes": "Scarlet/pearl long tail and dorsal ribbons change shape; capture curls inward/up then down. Nominal-grid crossings recoverable by complete ownership."
+}

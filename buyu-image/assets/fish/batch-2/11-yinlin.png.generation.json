@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "11-yinlin",
+  "name": "银鳞鱼",
+  "file": "assets/fish/batch-2/11-yinlin.png",
+  "sha256": "c842c7c5c11da79a6795450cd06bd5c4634d972647fe7dfc18864bf7ab387b89",
+  "width": 496,
+  "height": 320,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/production-v1/fish-sheet-2/fish-sheet-2.png",
+  "derivedFrom": [
+    {
+      "file": "designs/production-v1/fish-sheet-2/fish-sheet-2.png",
+      "sha256": "525c9c8f32d2feded5a21ea6c2ecb276b17981ffe9ca45fb8ec0d00c61d8af52",
+      "generationRecord": "designs/production-v1/fish-sheet-2/fish-sheet-2.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_grid_crop",
+    "grid": {
+      "rows": 2,
+      "cols": 3
+    },
+    "sourceRect": [
+      512,
+      512,
+      1024,
+      1024
+    ],
+    "cellCropRect": [
+      10,
+      66,
+      506,
+      386
+    ],
+    "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+    "resized": false,
+    "upscaled": false
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "displaySize": [
+    120,
+    80
+  ],
+  "status": "prepared_pending_visual_review",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source generation record; no new model call for this slice."
+}

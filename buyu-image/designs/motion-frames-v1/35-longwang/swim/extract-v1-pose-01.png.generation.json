@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/motion-frames-v1/35-longwang/swim/extract-v1-pose-01.png",
+  "sha256": "1676d0f8d5bd8febdf5d445b435105b34c653f19bf47dc9513d6b199f26836a1",
+  "width": 413,
+  "height": 287,
+  "format": "RGBA PNG",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/35-longwang/swim/35-longwang-swim-v1.png",
+      "sha256": "4f8fb7a9a9cf8331dda8e3e4b5ffbfc3a889e729cda3a0ca5768e1ab9e9a0901",
+      "generationRecord": "designs/motion-frames-v1/35-longwang/swim/35-longwang-swim-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_complete_actor_ownership_crop",
+    "evidence": {
+      "sourceFrame": 1,
+      "file": "designs/motion-frames-v1/35-longwang/swim/extract-v1-pose-01.png",
+      "sourceRect": [
+        470,
+        104,
+        883,
+        391
+      ],
+      "nominalSourceRect": [
+        444,
+        0,
+        887,
+        444
+      ],
+      "nominalGridCross": false,
+      "nativeVisibleSize": [
+        413,
+        287
+      ],
+      "ownedPixelCount": 63011,
+      "foreignPixelsRemovedFromCrop": 0,
+      "totalCanvasEdgeMaxAlpha": 0,
+      "nativeOwnedPixelsUnchanged": true,
+      "sourceMainAlphaComponent": 1
+    },
+    "alphaCleanup": "alpha<=3 discarded, other owned RGBA unchanged",
+    "resized": false,
+    "upscaled": false,
+    "newNativeDetailClaimed": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "intermediate_pending_semantic_review"
+}

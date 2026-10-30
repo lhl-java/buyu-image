@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "job": "item-icons",
+  "reviewedAt": "2026-10-26T20:07:40.751031+00:00",
+  "source": "designs/production-v1/item-icons/item-icons.png",
+  "sourceSha256": "b644fa3141ab7c2ff3ae7430cbacac0a166018e82862bacb61ee52cd2644d472",
+  "nativeSize": [
+    1254,
+    1254
+  ],
+  "alphaRange": [
+    0,
+    255
+  ],
+  "transparentPixelCount": 628770,
+  "actualModel": null,
+  "actualQuality": null,
+  "noUpscaling": true,
+  "manifest": "assets/icons/manifest.json",
+  "sliceCount": 36,
+  "sliceHashesVerified": true,
+  "warnings": [],
+  "contactSheet": "tmp/art-qa/item-icons.slice.jpg",
+  "visualReview": "36 个图标按清单顺序齐全；实际目视源图及切片联系表。金币、灵玉、碎片、灵贝、冰蓝符、紫雷符及各功能图标轮廓完整无串格，无文字。按实际非等距行间透明间隙裁切，未等分截断。",
+  "result": "pass_for_static_visual_asset",
+  "runtimeIntegrationVerified": false,
+  "resolvedPriorWarnings": {
+    "type": "cell_border_alpha",
+    "resolution": "Equal row slicing crossed real icon outlines. Replaced with native ownership rectangles between actual 6x6 icon layout; rechecked all 36 and no border warnings remain."
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-05",
+  "name": "冰晶鲨 capture 5",
+  "file": "assets/animations/31-bingjing/capture/frame-05.png",
+  "sha256": "3588a99ee7e860b5de964704837f946acce429b47ab4e4d85fdd61020fa2bd4c",
+  "width": 800,
+  "height": 800,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/motion-frames-v1/31-bingjing/capture/31-bingjing-capture-v1.png",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/31-bingjing/capture/extract-v1-pose-05.png",
+      "sha256": "0c5cfc6335f2235c753ffac3aa0c0459ccdfa87af2bf01ff0d32c91d5c859ced",
+      "generationRecord": "designs/motion-frames-v1/31-bingjing/capture/extract-v1-pose-05.png.generation.json"
+    },
+    {
+      "file": "designs/motion-frames-v1/31-bingjing/capture/31-bingjing-capture-v1.png",
+      "sha256": "56a48b232146d007bcab5a64fb6c697bb7b6e672a7a91d5e08c055da555ebe88",
+      "generationRecord": "designs/motion-frames-v1/31-bingjing/capture/31-bingjing-capture-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_ownership_crop_integer_eye_landmark_registration_and_transparent_padding",
+    "sourceRect": [
+      480,
+      551,
+      863,
+      787
+    ],
+    "nominalGridRect": [
+      444,
+      444,
+      887,
+      887
+    ],
+    "nominalGridCross": false,
+    "ownershipEvidence": {
+      "report": "designs/motion-frames-v1/31-bingjing/capture/extract-v1.json",
+      "sourceMainAlphaComponent": 100,
+      "ownedPixelCount": 47851,
+      "foreignPixelsRemovedFromCrop": 0,
+      "nativeOwnedPixelsUnchanged": true
+    },
+    "registrationOffset": [
+      255,
+      266
+    ],
+    "registeredCanvas": [
+      800,
+      800
+    ],
+    "registrationReference": {
+      "type": "bounded_dark_iris_component_centroid_candidate",
+      "qaReport": "designs/motion-frames-v1/31-bingjing/capture/source-v1-qa.json",
+      "qaReportSha256": "b0e5cea51767091c4e359a80d5f10a4adbc2de5c70e08a2c5d005d7a92ecea99",
+      "candidateIndex": 0,
+      "sourceGlobalPointFloat": [
+        785.4264069264069,
+        685.2099567099567
+      ],
+      "poseLocalPointFloat": [
+        305.4264069264069,
+        134.2099567099567
+      ],
+      "poseLocalPointRounded": [
+        305,
+        134
+      ],
+      "targetPoint": [
+        560,
+        400
+      ],
+      "warning": "QA candidate fragment/eyelid is an approximate visual landmark, not an exact anatomical pupil.",
+      "priorCandidateLocator": {
+        "type": "dark_eye_component_centroid_candidate",
+        "qaReport": "designs/motion-frames-v1/31-bingjing/capture/source-v1-qa.json",
+        "qaReportSha256": "b0e5cea51767091c4e359a80d5f10a4adbc2de5c70e08a2c5d005d7a92ecea99",
+        "candidateIndex": 0,
+        "sourceGlobalPointFloat": [
+          787.4454976303318,
+          683.2417061611375
+        ],
+        "poseLocalPointFloat": [
+          307.44549763033183,
+          132.24170616113747
+        ],
+        "poseLocalPointRounded": [
+          307,
+          132
+        ],
+        "targetPoint": [
+          560,
+          400
+        ],
+        "warning": "QA candidate fragment/eyelid is an approximate visual landmark, not an exact anatomical pupil."
+      },
+      "poseOrCellLocalPointFloat": [
+        305.4264069264069,
+        134.2099567099567
+      ],
+      "poseOrCellLocalPointRounded": [
+        305,
+        134
+      ],
+      "refinement": {
+        "relativeIntegerShift": [
+          2,
+          -2
+        ],
+        "criterion": "RGB max<170,alpha>220; bounded component inside71px inspected eye ROI, nearest prior eye target",
+        "nativeVisibleRGBAUnchanged": true
+      }
+    },
+    "alphaCleanup": "Inherit root ownership extraction: alpha<=3 discarded; every owned RGBA above3 preserved. No extra alpha cleanup.",
+    "resized": false,
+    "upscaled": false,
+    "poseWarped": false,
+    "sourcePixelsRoundTripVerified": true
+  },
+  "anchor": [
+    0.7,
+    0.5
+  ],
+  "status": "candidate_pending_root_visual_and_playback_review",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See original source generation record; this export is not a generation call.",
+  "animation": {
+    "id": "31-bingjing/capture",
+    "frames": 8,
+    "fps": 12,
+    "loop": false,
+    "order": "root ownership row-major",
+    "root": [
+      0.7,
+      0.5
+    ],
+    "phase": 0.625,
+    "durationMs": 83,
+    "targetBodyBox": [
+      240,
+      180
+    ],
+    "displayCalibration": {
+      "status": "candidate_pending_root_visual_runtime_review",
+      "method": "one_uniform_scale_per_clip_from_first_open_rest_bounded_dark_iris_interior",
+      "nativeReferenceEyeFeatureWidth": 30,
+      "sharedTargetDisplayedEyeFeatureWidth": 17.753,
+      "uniformDisplayScale": 0.5917666666666667,
+      "upscale": false,
+      "perFrameBboxFit": false,
+      "sharedVisualPivotPixels": [
+        560,
+        400
+      ],
+      "sharedVisualPivotNormalized": [
+        0.7,
+        0.5
+      ],
+      "displayBodyMaxPixels": [
+        224.87133333333333,
+        175.16293333333334
+      ],
+      "warning": "Eye component is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered eye pivot when applying clip scales."
+    }
+  },
+  "qa": {
+    "nativeBodyBoxAlpha16": [
+      1,
+      2,
+      381,
+      236
+    ],
+    "nativeVisibleSize": [
+      380,
+      234
+    ],
+    "ownedPoseSize": [
+      383,
+      236
+    ],
+    "rawTotalCanvasEdgeMaxAlpha": 0,
+    "rawWeakAlphaBoundaryWarning": false,
+    "registeredBoxAlpha16": [
+      256,
+      268,
+      636,
+      502
+    ],
+    "registeredMarginsFraction": [
+      0.32,
+      0.335,
+      0.205,
+      0.3725
+    ],
+    "finalMargin12PercentPassed": true,
+    "pupilComponent": {
+      "area": 211,
+      "bbox": [
+        325,
+        231,
+        355,
+        251
+      ],
+      "centroid": [
+        343.4454976303318,
+        239.24170616113744
+      ],
+      "isClosedEyelidProxy": false
+    },
+    "actualSourceAlphaContactViewedByProducer": true,
+    "motionAccepted": false,
+    "loopOrRecoveryAccepted": false,
+    "targetClientAccepted": false,
+    "densityEyeComponent": {
+      "area": 462,
+      "bbox": [
+        541,
+        390,
+        574,
+        420
+      ],
+      "centroid": [
+        558.4264069264069,
+        402.2099567099567
+      ],
+      "type": "bounded_dark_iris_interior",
+      "isAnatomicalOuterEyeDiameter": false
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/characters/fishing-dao-child-v1/fishing-dao-child-v1.png",
+  "sha256": "a3d37b28c4703056c27c900fb66712f596049dbe2ac5b8cf42b40d2db6d574ae",
+  "generatedAt": "2026-10-26T07:38:18.299Z",
+  "startedAt": "2026-10-26T07:36:43.380Z",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "pixelFormat": "RGBA",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "builtin_evidence": {
+      "model_parameter_exposed": false,
+      "quality_parameter_exposed": false,
+      "actual_model": null,
+      "actual_quality": null,
+      "note": "Configuration targets only; verify actual model and quality per generated image."
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\buyu-image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\buyu-image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "D:\\work\\buyu-image\\designs\\ui\\fishing-main-v1\\fishing-main-v1.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具未开放 model/quality 参数，结果未披露实际型号或质量。",
+  "evidence": {
+    "toolResult": "fishing-dao-child-v1.tool-result.txt",
+    "sourceOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a17713-70e6-7261-8609-a9eabcbfb0a5\\exec-31f6dbe6-4a71-41b9-b47e-3b55fa5032ea.png",
+    "toolResultId": "exec-31f6dbe6-4a71-41b9-b47e-3b55fa5032ea"
+  },
+  "prompt": "fishing-dao-child-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "role": "approved art style and chibi rendering"
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "role": "approved art style and character proportions"
+    },
+    {
+      "file": "designs/ui/fishing-main-v1/fishing-main-v1.png",
+      "role": "avatar identity and cannon design vocabulary",
+      "sha256": "957cfb67b8a26bde70cee652a1c0c4e4e5bcfa05597b6da47f1a73544419e9bf"
+    }
+  ],
+  "requestedCanvasInPrompt": "2048x2048 if available; tool has no size selector",
+  "resampled": false,
+  "status": "draft_pending_user_review",
+  "review": {
+    "composition": "全身、头带、法器、双脚完整；形象和法器延续主界面。",
+    "alpha": {
+      "present": true,
+      "sampleStep": 8,
+      "min": 0,
+      "max": 255,
+      "transparentSamples": 14077,
+      "partialSamples": 10565,
+      "opaqueSamples": 7,
+      "alpha250to254Samples": 9361,
+      "nonTransparentBorderPixels": 21,
+      "maximumBorderAlpha": 1,
+      "centerForegroundObservedAlpha": 253
+    },
+    "compositeCheck": "原始RGBA不缩放，分别叠加米白#F4EBD6和深玉绿#11312A实看；未见明显红绿彩边、黑底或裁切。边界仅有alpha1的低透明残点，未清洗或重采样。",
+    "scope": "角色美术首稿；无动作帧、方向集、骨骼或客户端接入验收。"
+  }
+}

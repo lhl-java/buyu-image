@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-06",
+  "name": "fx-thunder 6",
+  "file": "assets/fx/fx-thunder/frame-06.png",
+  "sha256": "3d73cc925695579043a2ca19424369c373f5587666f62a794ceab1e5c2105784",
+  "width": 314,
+  "height": 314,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/production-v1/fx-thunder/fx-thunder.png",
+  "derivedFrom": [
+    {
+      "file": "designs/production-v1/fx-thunder/fx-thunder.png",
+      "sha256": "35a757ea9b26ea2ed271f8338199c6a56057f60f00bdf6240726d80619e17d2f",
+      "generationRecord": "designs/production-v1/fx-thunder/fx-thunder.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_grid_crop",
+    "grid": {
+      "rows": 4,
+      "cols": 4
+    },
+    "sourceRect": [
+      627,
+      314,
+      940,
+      627
+    ],
+    "cellCropRect": [
+      0,
+      0,
+      313,
+      313
+    ],
+    "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+    "resized": false,
+    "upscaled": false,
+    "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize"
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "displaySize": [
+    192,
+    192
+  ],
+  "status": "static_asset_visual_reviewed_pending_user_review",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source generation record; no new model call for this slice.",
+  "animation": {
+    "fps": 16,
+    "loop": false,
+    "order": "row-major",
+    "frames": 16,
+    "root": [
+      0.5,
+      0.5
+    ]
+  }
+}

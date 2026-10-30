@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/motion-frames-v1/30-jinjia/capture/30-jinjia-capture.png",
+  "sha256": "b861f7765930eda0c7721d7b90aa1d2142674eb628c84f86464ad53c0a4551b5",
+  "generatedAt": "2026-10-28T19:04:08.510Z",
+  "startedAt": "2026-10-28T19:02:35.209Z",
+  "width": 1774,
+  "height": 887,
+  "format": "PNG",
+  "pixelFormat": "Format32bppArgb",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-28",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "builtin_evidence": {
+      "model_parameter_exposed": false,
+      "quality_parameter_exposed": false,
+      "actual_model": null,
+      "actual_quality": null,
+      "note": "Configuration targets only; verify actual model and quality per generated image."
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\buyu-image\\designs\\motion-frames-v1\\30-jinjia\\swim\\30-jinjia-swim.png",
+      "D:\\work\\buyu-image\\assets\\fish\\batch-5\\30-jinjia.png",
+      "D:\\work\\buyu-image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\buyu-image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具未开放 model/quality 参数，本次结果未披露实际型号及质量。",
+  "evidence": {
+    "toolResult": "30-jinjia-capture.tool-result.txt",
+    "sourceOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a18184-f61a-7760-b69c-882264640513\\exec-19e99918-e5ef-4c14-b1f3-a5cb82a2655e.png",
+    "toolResultId": "exec-19e99918-e5ef-4c14-b1f3-a5cb82a2655e",
+    "request": "30-jinjia-capture.request.json"
+  },
+  "prompt": "30-jinjia-capture.prompt.txt",
+  "references": [
+    {
+      "file": "designs/motion-frames-v1/30-jinjia/swim/30-jinjia-swim.png",
+      "sha256": "4e10cbe1c5e301d57e449c13ef54b81c5d70e9e59afb2c574f4362c429144767",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "assets/fish/batch-5/30-jinjia.png",
+      "sha256": "54ae6cf3c8b68dcd3136f14f480ed90b82a20173186ebfdfe44761b3af559fed",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    }
+  ],
+  "requestedCanvasInPrompt": "1774x887 4x2真透明帧表。",
+  "resampled": false,
+  "status": "draft_pending_user_review",
+  "visualReview": "螯和腿真实内折，峰值姿态低收两螯；壳脸保持，足螯拓扑待根窗口实看。",
+  "scope": "原生AI捕获8帧候选，未实际播放/Unity。"
+}

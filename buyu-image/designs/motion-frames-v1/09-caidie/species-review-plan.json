@@ -1,0 +1,59 @@
+{
+  "id": "09-caidie",
+  "source": {
+    "swim": "designs/motion-frames-v1/09-caidie/swim/09-caidie-swim-facing-v2.png",
+    "capture": "designs/motion-frames-v1/09-caidie/capture/09-caidie-capture-v1.png"
+  },
+  "canvas": 672,
+  "eyeOffset": [
+    130,
+    0
+  ],
+  "eyeTarget": [
+    466,
+    336
+  ],
+  "root": [
+    336,
+    336
+  ],
+  "ownershipWarnings": {},
+  "nominalGridWarnings": {
+    "swim": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "capture": [
+      2,
+      6
+    ]
+  },
+  "sourceGridMarginWarnings": {
+    "swim": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "capture": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "actualPupilVisual": "producer_inspected_combined_ROI",
+  "eyeReviewImage": "designs/motion-frames-v1/09-caidie/source-eye-review.png",
+  "notes": "Orientation fixed by AI: all eight face RIGHT. Orange/ivory/black bands stable, long dorsal/anal curves and tail fold. Bottom-row scale consistency requires root visual attention.",
+  "registeredContactVisual": "pending_actual_view"
+}

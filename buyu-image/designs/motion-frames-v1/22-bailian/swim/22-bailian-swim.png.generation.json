@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/motion-frames-v1/22-bailian/swim/22-bailian-swim.png",
+  "sha256": "6531498967ea81aa5e37fd913cd5f86278a09ebbd7a917d567f7a410c9874ea9",
+  "generatedAt": "2026-10-28T17:34:53.214Z",
+  "startedAt": "2026-10-28T17:31:07.535Z",
+  "width": 1774,
+  "height": 887,
+  "format": "PNG",
+  "pixelFormat": "Format32bppArgb",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-28",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "builtin_evidence": {
+      "model_parameter_exposed": false,
+      "quality_parameter_exposed": false,
+      "actual_model": null,
+      "actual_quality": null,
+      "note": "Configuration targets only; verify actual model and quality per generated image."
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\buyu-image\\designs\\motion-frames-v1\\22-bailian\\geometry-reference.png",
+      "D:\\work\\buyu-image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\buyu-image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "D:\\work\\buyu-image\\assets\\fish\\batch-4\\22-bailian.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具未开放 model/quality 参数，本次结果未披露实际型号及质量。",
+  "evidence": {
+    "toolResult": "22-bailian-swim.tool-result.txt",
+    "sourceOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a18291-7f9d-7081-8ee8-2bec0f32ff89\\exec-d27cf04e-4f72-49ad-b9de-238ed0b774f2.png",
+    "toolResultId": "exec-d27cf04e-4f72-49ad-b9de-238ed0b774f2",
+    "request": "22-bailian-swim.request.json"
+  },
+  "prompt": "22-bailian-swim.prompt.txt",
+  "references": [
+    {
+      "file": "designs/motion-frames-v1/22-bailian/geometry-reference.png",
+      "sha256": "98178a5f431b22698b768d7b669f32d84f5cedbdc6e9eb64f0a0284b021b28bd",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "assets/fish/batch-4/22-bailian.png",
+      "sha256": "e91dca66621d562535ad35a3327dd0536d62186245e2097d3e993a6d1ab64269",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    }
+  ],
+  "requestedCanvasInPrompt": "4x2 native8frames trueAlpha2:1.",
+  "resampled": false,
+  "status": "draft_pending_user_review",
+  "visualReview": "Actual fin/tail articulation visible. Native source boundary, orientation and camera pending producer review; candidate only.",
+  "scope": "22-bailian swim8nativeframes; no playback or finalpass claimed."
+}

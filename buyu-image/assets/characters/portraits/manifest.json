@@ -1,0 +1,333 @@
+{
+  "schemaVersion": 1,
+  "source": "designs/production-v1/portraits/portraits-v2.png",
+  "sourceWidth": 1536,
+  "sourceHeight": 1024,
+  "output": "assets/characters/portraits",
+  "items": [
+    {
+      "schemaVersion": 1,
+      "id": "fisher",
+      "name": "见习渔师",
+      "file": "assets/characters/portraits/fisher.png",
+      "sha256": "a07f4ce63cf9e228ab00a43a5e1c80d705dce9720ac181a9fda8f5b0f6485f47",
+      "width": 420,
+      "height": 403,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/portraits/portraits-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/portraits/portraits-v2.png",
+          "sha256": "b05fa8788eaf7f7c45449617921447ff5c55c1af98f2226b534bf4a6c02e8431",
+          "generationRecord": "designs/production-v1/portraits/portraits-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 2,
+          "cols": 3
+        },
+        "sourceRect": [
+          0,
+          0,
+          512,
+          512
+        ],
+        "cellCropRect": [
+          52,
+          79,
+          472,
+          482
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        128,
+        128
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "visualReview": "Reviewed actual sliced QA: isolated complete head/shoulders, no neighboring fragments or visible clipped hats/ornaments; native-alpha RGBA, no resizing."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "healer",
+      "name": "青荷",
+      "file": "assets/characters/portraits/healer.png",
+      "sha256": "f818b7650eaf876826a94504d1ac94181942b78e5ec35dd8d9a6b2cdce200173",
+      "width": 439,
+      "height": 421,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/portraits/portraits-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/portraits/portraits-v2.png",
+          "sha256": "b05fa8788eaf7f7c45449617921447ff5c55c1af98f2226b534bf4a6c02e8431",
+          "generationRecord": "designs/production-v1/portraits/portraits-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 2,
+          "cols": 3
+        },
+        "sourceRect": [
+          512,
+          0,
+          1024,
+          512
+        ],
+        "cellCropRect": [
+          37,
+          62,
+          476,
+          483
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        128,
+        128
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "visualReview": "Reviewed actual sliced QA: isolated complete head/shoulders, no neighboring fragments or visible clipped hats/ornaments; native-alpha RGBA, no resizing."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "navigator",
+      "name": "云帆",
+      "file": "assets/characters/portraits/navigator.png",
+      "sha256": "9c05d65c5c78dfa12770ba47dd3fb4521c22e352e5939214bb5246d365d6faed",
+      "width": 429,
+      "height": 420,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/portraits/portraits-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/portraits/portraits-v2.png",
+          "sha256": "b05fa8788eaf7f7c45449617921447ff5c55c1af98f2226b534bf4a6c02e8431",
+          "generationRecord": "designs/production-v1/portraits/portraits-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 2,
+          "cols": 3
+        },
+        "sourceRect": [
+          1024,
+          0,
+          1536,
+          512
+        ],
+        "cellCropRect": [
+          45,
+          64,
+          474,
+          484
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        128,
+        128
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "visualReview": "Reviewed actual sliced QA: isolated complete head/shoulders, no neighboring fragments or visible clipped hats/ornaments; native-alpha RGBA, no resizing."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "merchant",
+      "name": "渔舟客",
+      "file": "assets/characters/portraits/merchant.png",
+      "sha256": "886b9aea8d94df6739dc60a93976bc3504947302f6db1996e5d42691ba116b1b",
+      "width": 452,
+      "height": 413,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/portraits/portraits-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/portraits/portraits-v2.png",
+          "sha256": "b05fa8788eaf7f7c45449617921447ff5c55c1af98f2226b534bf4a6c02e8431",
+          "generationRecord": "designs/production-v1/portraits/portraits-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 2,
+          "cols": 3
+        },
+        "sourceRect": [
+          0,
+          512,
+          512,
+          1024
+        ],
+        "cellCropRect": [
+          46,
+          31,
+          498,
+          444
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        128,
+        128
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "visualReview": "Reviewed actual sliced QA: isolated complete head/shoulders, no neighboring fragments or visible clipped hats/ornaments; native-alpha RGBA, no resizing."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "guide",
+      "name": "海棠",
+      "file": "assets/characters/portraits/guide.png",
+      "sha256": "42619603e8c753d2236fd567714ade31978f5cc7158ac6f8269ea07ba081fc4c",
+      "width": 377,
+      "height": 424,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/portraits/portraits-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/portraits/portraits-v2.png",
+          "sha256": "b05fa8788eaf7f7c45449617921447ff5c55c1af98f2226b534bf4a6c02e8431",
+          "generationRecord": "designs/production-v1/portraits/portraits-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 2,
+          "cols": 3
+        },
+        "sourceRect": [
+          512,
+          512,
+          1024,
+          1024
+        ],
+        "cellCropRect": [
+          68,
+          26,
+          445,
+          450
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        128,
+        128
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "visualReview": "Reviewed actual sliced QA: isolated complete head/shoulders, no neighboring fragments or visible clipped hats/ornaments; native-alpha RGBA, no resizing."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "elder",
+      "name": "灵海长者",
+      "file": "assets/characters/portraits/elder.png",
+      "sha256": "bc7d3ebe00e979dc623b47f1906fb512df1f7981184ab64ca88cf960f0f57c40",
+      "width": 462,
+      "height": 436,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/portraits/portraits-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/portraits/portraits-v2.png",
+          "sha256": "b05fa8788eaf7f7c45449617921447ff5c55c1af98f2226b534bf4a6c02e8431",
+          "generationRecord": "designs/production-v1/portraits/portraits-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 2,
+          "cols": 3
+        },
+        "sourceRect": [
+          1024,
+          512,
+          1536,
+          1024
+        ],
+        "cellCropRect": [
+          11,
+          14,
+          473,
+          450
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        128,
+        128
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "visualReview": "Reviewed actual sliced QA: isolated complete head/shoulders, no neighboring fragments or visible clipped hats/ornaments; native-alpha RGBA, no resizing."
+    }
+  ],
+  "warnings": [],
+  "complete": true,
+  "visualReview": "Actual final6-sprite QA inspected on ivory; no crossing, crop truncation or foreign fragments. Zero cell_border_alpha warnings on corrected master.",
+  "status": "accepted_first_release_art",
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+  "acceptedAt": "2026-10-30T04:07:09.085600+00:00"
+}

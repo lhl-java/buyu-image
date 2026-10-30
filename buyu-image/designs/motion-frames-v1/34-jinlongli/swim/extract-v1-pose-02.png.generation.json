@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/motion-frames-v1/34-jinlongli/swim/extract-v1-pose-02.png",
+  "sha256": "403f71ede8ae060cc869cdf457f64306846f4f2a1f3f0815e6be291a7ddffd62",
+  "width": 380,
+  "height": 301,
+  "format": "RGBA PNG",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/34-jinlongli/swim/34-jinlongli-swim-v1.png",
+      "sha256": "68914ce5cbdd86c90ed376cc948ba95dd243c5d592956ba33b2f26255231487b",
+      "generationRecord": "designs/motion-frames-v1/34-jinlongli/swim/34-jinlongli-swim-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_complete_actor_ownership_crop",
+    "evidence": {
+      "sourceFrame": 2,
+      "file": "designs/motion-frames-v1/34-jinlongli/swim/extract-v1-pose-02.png",
+      "sourceRect": [
+        913,
+        75,
+        1293,
+        376
+      ],
+      "nominalSourceRect": [
+        887,
+        0,
+        1330,
+        444
+      ],
+      "nominalGridCross": false,
+      "nativeVisibleSize": [
+        380,
+        301
+      ],
+      "ownedPixelCount": 64477,
+      "foreignPixelsRemovedFromCrop": 0,
+      "totalCanvasEdgeMaxAlpha": 0,
+      "nativeOwnedPixelsUnchanged": true,
+      "sourceMainAlphaComponent": 1
+    },
+    "alphaCleanup": "alpha<=3 discarded, other owned RGBA unchanged",
+    "resized": false,
+    "upscaled": false,
+    "newNativeDetailClaimed": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "intermediate_pending_semantic_review"
+}

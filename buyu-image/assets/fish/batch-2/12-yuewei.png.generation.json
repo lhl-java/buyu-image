@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "12-yuewei",
+  "name": "月尾鱼",
+  "file": "assets/fish/batch-2/12-yuewei.png",
+  "sha256": "0b89a5691344bf6861d901de1b0b4653142bbf39b58c15444cf0974dc89621e0",
+  "width": 459,
+  "height": 395,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/production-v1/fish-sheet-2/fish-sheet-2.png",
+  "derivedFrom": [
+    {
+      "file": "designs/production-v1/fish-sheet-2/fish-sheet-2.png",
+      "sha256": "525c9c8f32d2feded5a21ea6c2ecb276b17981ffe9ca45fb8ec0d00c61d8af52",
+      "generationRecord": "designs/production-v1/fish-sheet-2/fish-sheet-2.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_grid_crop",
+    "grid": {
+      "rows": 2,
+      "cols": 3
+    },
+    "sourceRect": [
+      1024,
+      512,
+      1536,
+      1024
+    ],
+    "cellCropRect": [
+      25,
+      24,
+      484,
+      419
+    ],
+    "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+    "resized": false,
+    "upscaled": false
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "displaySize": [
+    120,
+    80
+  ],
+  "status": "prepared_pending_visual_review",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source generation record; no new model call for this slice."
+}

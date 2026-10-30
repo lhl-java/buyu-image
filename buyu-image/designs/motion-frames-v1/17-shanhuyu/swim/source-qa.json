@@ -1,0 +1,392 @@
+{
+  "schemaVersion": 1,
+  "source": "designs/motion-frames-v1/17-shanhuyu/swim/17-shanhuyu-swim.png",
+  "sha256": "a960d1a4dfc8db0d6d771449aa414e67e093fa87c6f2c858f46ab9fcaf40c013",
+  "nativeSize": [
+    1774,
+    887
+  ],
+  "cellCanvas": [
+    444,
+    444
+  ],
+  "frames": [
+    {
+      "frame": 0,
+      "sourceRect": [
+        0,
+        0,
+        444,
+        444
+      ],
+      "nativeCell": [
+        444,
+        444
+      ],
+      "alphaBBox": [
+        17,
+        25,
+        438,
+        401
+      ],
+      "marginsLTRB": [
+        0.038288288288288286,
+        0.05630630630630631,
+        0.013513513513513514,
+        0.09684684684684684
+      ],
+      "edgeMaxAlpha": 1
+    },
+    {
+      "frame": 1,
+      "sourceRect": [
+        444,
+        0,
+        887,
+        444
+      ],
+      "nativeCell": [
+        443,
+        444
+      ],
+      "alphaBBox": [
+        38,
+        25,
+        440,
+        396
+      ],
+      "marginsLTRB": [
+        0.08558558558558559,
+        0.05630630630630631,
+        0.009009009009009009,
+        0.10810810810810811
+      ],
+      "edgeMaxAlpha": 2
+    },
+    {
+      "frame": 2,
+      "sourceRect": [
+        887,
+        0,
+        1330,
+        444
+      ],
+      "nativeCell": [
+        443,
+        444
+      ],
+      "alphaBBox": [
+        49,
+        25,
+        437,
+        402
+      ],
+      "marginsLTRB": [
+        0.11036036036036036,
+        0.05630630630630631,
+        0.015765765765765764,
+        0.0945945945945946
+      ],
+      "edgeMaxAlpha": 2
+    },
+    {
+      "frame": 3,
+      "sourceRect": [
+        1330,
+        0,
+        1774,
+        444
+      ],
+      "nativeCell": [
+        444,
+        444
+      ],
+      "alphaBBox": [
+        26,
+        26,
+        437,
+        401
+      ],
+      "marginsLTRB": [
+        0.05855855855855856,
+        0.05855855855855856,
+        0.015765765765765764,
+        0.09684684684684684
+      ],
+      "edgeMaxAlpha": 3
+    },
+    {
+      "frame": 4,
+      "sourceRect": [
+        0,
+        444,
+        444,
+        887
+      ],
+      "nativeCell": [
+        444,
+        443
+      ],
+      "alphaBBox": [
+        18,
+        25,
+        438,
+        382
+      ],
+      "marginsLTRB": [
+        0.04054054054054054,
+        0.05630630630630631,
+        0.013513513513513514,
+        0.13963963963963963
+      ],
+      "edgeMaxAlpha": 1
+    },
+    {
+      "frame": 5,
+      "sourceRect": [
+        444,
+        444,
+        887,
+        887
+      ],
+      "nativeCell": [
+        443,
+        443
+      ],
+      "alphaBBox": [
+        33,
+        24,
+        437,
+        392
+      ],
+      "marginsLTRB": [
+        0.07432432432432433,
+        0.05405405405405406,
+        0.015765765765765764,
+        0.11711711711711711
+      ],
+      "edgeMaxAlpha": 1
+    },
+    {
+      "frame": 6,
+      "sourceRect": [
+        887,
+        444,
+        1330,
+        887
+      ],
+      "nativeCell": [
+        443,
+        443
+      ],
+      "alphaBBox": [
+        37,
+        25,
+        436,
+        396
+      ],
+      "marginsLTRB": [
+        0.08333333333333333,
+        0.05630630630630631,
+        0.018018018018018018,
+        0.10810810810810811
+      ],
+      "edgeMaxAlpha": 1
+    },
+    {
+      "frame": 7,
+      "sourceRect": [
+        1330,
+        444,
+        1774,
+        887
+      ],
+      "nativeCell": [
+        444,
+        443
+      ],
+      "alphaBBox": [
+        27,
+        24,
+        438,
+        397
+      ],
+      "marginsLTRB": [
+        0.060810810810810814,
+        0.05405405405405406,
+        0.013513513513513514,
+        0.10585585585585586
+      ],
+      "edgeMaxAlpha": 3
+    }
+  ],
+  "warnings": [
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 0,
+      "actual": 0.013513513513513514,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 1,
+      "actual": 0.009009009009009009,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 2,
+      "actual": 0.015765765765765764,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 3,
+      "actual": 0.015765765765765764,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 4,
+      "actual": 0.013513513513513514,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 5,
+      "actual": 0.015765765765765764,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 6,
+      "actual": 0.018018018018018018,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 7,
+      "actual": 0.013513513513513514,
+      "threshold": 0.12
+    }
+  ],
+  "actualMotionReview": "Source contact review pending.",
+  "actualMotionApproved": false,
+  "loopPlaybackStatus": "not_run_during_heavy_job_hold",
+  "noResampling": true,
+  "eyeMeasurement": {
+    "roi": [
+      280,
+      100,
+      420,
+      300
+    ],
+    "results": [
+      {
+        "center": [
+          355.49490373725934,
+          185.8335220838052
+        ],
+        "boundsLTRB": [
+          333,
+          169,
+          378,
+          204
+        ],
+        "area": 883
+      },
+      {
+        "center": [
+          354.931843575419,
+          185.6927374301676
+        ],
+        "boundsLTRB": [
+          333,
+          169,
+          377,
+          204
+        ],
+        "area": 895
+      },
+      {
+        "center": [
+          355.1877828054299,
+          185.69909502262445
+        ],
+        "boundsLTRB": [
+          333,
+          169,
+          378,
+          203
+        ],
+        "area": 884
+      },
+      {
+        "center": [
+          354.5948945615982,
+          185.78801331853495
+        ],
+        "boundsLTRB": [
+          332,
+          169,
+          377,
+          203
+        ],
+        "area": 901
+      },
+      {
+        "center": [
+          355.6275167785235,
+          185.2337807606264
+        ],
+        "boundsLTRB": [
+          333,
+          169,
+          378,
+          203
+        ],
+        "area": 894
+      },
+      {
+        "center": [
+          412.42028985507244,
+          205.08695652173913
+        ],
+        "boundsLTRB": [
+          403,
+          200,
+          419,
+          212
+        ],
+        "area": 69
+      },
+      {
+        "center": [
+          355.4293721973094,
+          185.3531390134529
+        ],
+        "boundsLTRB": [
+          333,
+          169,
+          378,
+          205
+        ],
+        "area": 892
+      },
+      {
+        "center": [
+          354.60546448087433,
+          185.51693989071038
+        ],
+        "boundsLTRB": [
+          333,
+          169,
+          377,
+          207
+        ],
+        "area": 915
+      }
+    ],
+    "method": "rightmost roughlyround dark component inside fixed head ROI, manual approval required; metadata only, no source masking"
+  }
+}

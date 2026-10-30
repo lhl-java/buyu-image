@@ -1,0 +1,1500 @@
+{
+  "schemaVersion": 1,
+  "source": [
+    "designs/motion-frames-v1/36-xuanjing/enrage/enrage-a-v1.png",
+    "designs/motion-frames-v1/36-xuanjing/enrage/enrage-b-v1.png"
+  ],
+  "output": "assets/animations/36-xuanjing/enrage",
+  "sourceEvidence": [
+    {
+      "file": "designs/motion-frames-v1/36-xuanjing/enrage/enrage-a-v1.png",
+      "sha256": "f03ddaf6b315ea2d5c7c5051cb673e6bb914243ec955132f494adce308d5c438",
+      "generationRecord": "designs/motion-frames-v1/36-xuanjing/enrage/enrage-a-v1.png.generation.json"
+    },
+    {
+      "file": "designs/motion-frames-v1/36-xuanjing/enrage/enrage-b-v1.png",
+      "sha256": "d8bb1da4ac7d2d5276cc7eca6ff86f750a391cfad61f7a2d3c542a117229c62b",
+      "generationRecord": "designs/motion-frames-v1/36-xuanjing/enrage/enrage-b-v1.png.generation.json"
+    }
+  ],
+  "frameCount": 8,
+  "items": [
+    {
+      "schemaVersion": 1,
+      "id": "frame-00",
+      "name": "玄海巨鲸怒态 1/8",
+      "file": "assets/animations/36-xuanjing/enrage/frame-00.png",
+      "sha256": "cc8d3ddbe8274f981dafa42aa1879121048f8c09b28b1aa78b50c20e784c7926",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T17:55:07.468524+00:00",
+      "nativeSource": "designs/motion-frames-v1/36-xuanjing/enrage/enrage-a-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/36-xuanjing/enrage/enrage-a-v1.png",
+          "sha256": "f03ddaf6b315ea2d5c7c5051cb673e6bb914243ec955132f494adce308d5c438",
+          "generationRecord": "designs/motion-frames-v1/36-xuanjing/enrage/enrage-a-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/36-xuanjing/enrage/extract-a.json",
+          "sourceRect": [
+            63,
+            201,
+            629,
+            587
+          ],
+          "evidence": {
+            "sourceFrame": 0,
+            "file": "designs/motion-frames-v1/36-xuanjing/enrage/extract-a-pose-00.png",
+            "sourceRect": [
+              63,
+              201,
+              629,
+              587
+            ],
+            "nominalSourceRect": [
+              0,
+              0,
+              627,
+              627
+            ],
+            "nominalGridCross": true,
+            "nativeVisibleSize": [
+              566,
+              386
+            ],
+            "ownedPixelCount": 112833,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 1
+          }
+        },
+        "sourceEyePoint": [
+          391.15546218487395,
+          203.2535014005602
+        ],
+        "globalSourceEye": [
+          454.15546218487395,
+          404.2535014005602
+        ],
+        "registrationOffset": [
+          289,
+          217
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        289,
+        217,
+        855,
+        603
+      ],
+      "registeredMinMargin": 0.145,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "manually checked dark pupil ROI component center, nearest integer",
+        "qa": "designs/motion-frames-v1/36-xuanjing/enrage/source-a-qa.json",
+        "sourceFrame": 0,
+        "candidateIndex": 0,
+        "detection": null,
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+      },
+      "displaySize": [
+        600.7067137809188,
+        600.7067137809188
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.6007067137809188,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          566,
+          386
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "36-xuanjing/enrage",
+        "frames": 8,
+        "fps": 8,
+        "loop": true,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 0,
+        "durationMs": 125
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-01",
+      "name": "玄海巨鲸怒态 2/8",
+      "file": "assets/animations/36-xuanjing/enrage/frame-01.png",
+      "sha256": "37893b6bb38b761855a117b7accbd3c4cf8ceba329e42981dcd1c12749079fde",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T17:55:07.468524+00:00",
+      "nativeSource": "designs/motion-frames-v1/36-xuanjing/enrage/enrage-a-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/36-xuanjing/enrage/enrage-a-v1.png",
+          "sha256": "f03ddaf6b315ea2d5c7c5051cb673e6bb914243ec955132f494adce308d5c438",
+          "generationRecord": "designs/motion-frames-v1/36-xuanjing/enrage/enrage-a-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/36-xuanjing/enrage/extract-a.json",
+          "sourceRect": [
+            646,
+            297,
+            1220,
+            598
+          ],
+          "evidence": {
+            "sourceFrame": 1,
+            "file": "designs/motion-frames-v1/36-xuanjing/enrage/extract-a-pose-01.png",
+            "sourceRect": [
+              646,
+              297,
+              1220,
+              598
+            ],
+            "nominalSourceRect": [
+              627,
+              0,
+              1254,
+              627
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              574,
+              301
+            ],
+            "ownedPixelCount": 100310,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 8
+          }
+        },
+        "sourceEyePoint": [
+          400.9831081081081,
+          106.74155405405406
+        ],
+        "globalSourceEye": [
+          1046.9831081081081,
+          403.74155405405406
+        ],
+        "registrationOffset": [
+          279,
+          313
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        279,
+        313,
+        853,
+        614
+      ],
+      "registeredMinMargin": 0.147,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "manually checked dark pupil ROI component center, nearest integer",
+        "qa": "designs/motion-frames-v1/36-xuanjing/enrage/source-a-qa.json",
+        "sourceFrame": 1,
+        "candidateIndex": 0,
+        "detection": null,
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+      },
+      "displaySize": [
+        600.7067137809188,
+        600.7067137809188
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.6007067137809188,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          566,
+          386
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "36-xuanjing/enrage",
+        "frames": 8,
+        "fps": 8,
+        "loop": true,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 1,
+        "durationMs": 125
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-02",
+      "name": "玄海巨鲸怒态 3/8",
+      "file": "assets/animations/36-xuanjing/enrage/frame-02.png",
+      "sha256": "cf5002be231323a7ae77e4ff2d6cd73ff4f0744a9ef7ecb16ff37a315d9d54a8",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T17:55:07.468524+00:00",
+      "nativeSource": "designs/motion-frames-v1/36-xuanjing/enrage/enrage-a-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/36-xuanjing/enrage/enrage-a-v1.png",
+          "sha256": "f03ddaf6b315ea2d5c7c5051cb673e6bb914243ec955132f494adce308d5c438",
+          "generationRecord": "designs/motion-frames-v1/36-xuanjing/enrage/enrage-a-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/36-xuanjing/enrage/extract-a.json",
+          "sourceRect": [
+            51,
+            774,
+            627,
+            1119
+          ],
+          "evidence": {
+            "sourceFrame": 2,
+            "file": "designs/motion-frames-v1/36-xuanjing/enrage/extract-a-pose-02.png",
+            "sourceRect": [
+              51,
+              774,
+              627,
+              1119
+            ],
+            "nominalSourceRect": [
+              0,
+              627,
+              627,
+              1254
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              576,
+              345
+            ],
+            "ownedPixelCount": 107483,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 108
+          }
+        },
+        "sourceEyePoint": [
+          403.951566951567,
+          152.71652421652425
+        ],
+        "globalSourceEye": [
+          454.951566951567,
+          926.7165242165242
+        ],
+        "registrationOffset": [
+          276,
+          267
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        276,
+        267,
+        852,
+        612
+      ],
+      "registeredMinMargin": 0.148,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "manually checked dark pupil ROI component center, nearest integer",
+        "qa": "designs/motion-frames-v1/36-xuanjing/enrage/source-a-qa.json",
+        "sourceFrame": 2,
+        "candidateIndex": 1,
+        "detection": null,
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+      },
+      "displaySize": [
+        600.7067137809188,
+        600.7067137809188
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.6007067137809188,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          566,
+          386
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "36-xuanjing/enrage",
+        "frames": 8,
+        "fps": 8,
+        "loop": true,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 2,
+        "durationMs": 125
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-03",
+      "name": "玄海巨鲸怒态 4/8",
+      "file": "assets/animations/36-xuanjing/enrage/frame-03.png",
+      "sha256": "eb7f837f8b7d95eb0e95cae6e3e1c831bd8f75dbb501374e45738c35c1651b19",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T17:55:07.468524+00:00",
+      "nativeSource": "designs/motion-frames-v1/36-xuanjing/enrage/enrage-a-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/36-xuanjing/enrage/enrage-a-v1.png",
+          "sha256": "f03ddaf6b315ea2d5c7c5051cb673e6bb914243ec955132f494adce308d5c438",
+          "generationRecord": "designs/motion-frames-v1/36-xuanjing/enrage/enrage-a-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/36-xuanjing/enrage/extract-a.json",
+          "sourceRect": [
+            652,
+            703,
+            1218,
+            1096
+          ],
+          "evidence": {
+            "sourceFrame": 3,
+            "file": "designs/motion-frames-v1/36-xuanjing/enrage/extract-a-pose-03.png",
+            "sourceRect": [
+              652,
+              703,
+              1218,
+              1096
+            ],
+            "nominalSourceRect": [
+              627,
+              627,
+              1254,
+              1254
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              566,
+              393
+            ],
+            "ownedPixelCount": 108028,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 101
+          }
+        },
+        "sourceEyePoint": [
+          394.1150729335495,
+          229.65153970826577
+        ],
+        "globalSourceEye": [
+          1046.1150729335495,
+          932.6515397082658
+        ],
+        "registrationOffset": [
+          286,
+          190
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        286,
+        190,
+        852,
+        583
+      ],
+      "registeredMinMargin": 0.148,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "manually checked dark pupil ROI component center, nearest integer",
+        "qa": "designs/motion-frames-v1/36-xuanjing/enrage/source-a-qa.json",
+        "sourceFrame": 3,
+        "candidateIndex": 1,
+        "detection": null,
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+      },
+      "displaySize": [
+        600.7067137809188,
+        600.7067137809188
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.6007067137809188,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          566,
+          386
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "36-xuanjing/enrage",
+        "frames": 8,
+        "fps": 8,
+        "loop": true,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 3,
+        "durationMs": 125
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-04",
+      "name": "玄海巨鲸怒态 5/8",
+      "file": "assets/animations/36-xuanjing/enrage/frame-04.png",
+      "sha256": "96126b9927819df8ea6b9832fa7eb17c25b47de44d1f491d010e3f9143f9fa77",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T17:55:07.468524+00:00",
+      "nativeSource": "designs/motion-frames-v1/36-xuanjing/enrage/enrage-b-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/36-xuanjing/enrage/enrage-b-v1.png",
+          "sha256": "d8bb1da4ac7d2d5276cc7eca6ff86f750a391cfad61f7a2d3c542a117229c62b",
+          "generationRecord": "designs/motion-frames-v1/36-xuanjing/enrage/enrage-b-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/36-xuanjing/enrage/extract-b.json",
+          "sourceRect": [
+            47,
+            292,
+            627,
+            582
+          ],
+          "evidence": {
+            "sourceFrame": 0,
+            "file": "designs/motion-frames-v1/36-xuanjing/enrage/extract-b-pose-00.png",
+            "sourceRect": [
+              47,
+              292,
+              627,
+              582
+            ],
+            "nominalSourceRect": [
+              0,
+              0,
+              627,
+              627
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              580,
+              290
+            ],
+            "ownedPixelCount": 109095,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 1
+          }
+        },
+        "sourceEyePoint": [
+          405.59432799013564,
+          111.66337854500614
+        ],
+        "globalSourceEye": [
+          452.59432799013564,
+          403.66337854500614
+        ],
+        "registrationOffset": [
+          274,
+          308
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        274,
+        308,
+        854,
+        598
+      ],
+      "registeredMinMargin": 0.146,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "manually checked dark pupil ROI component center, nearest integer",
+        "qa": "designs/motion-frames-v1/36-xuanjing/enrage/source-b-qa.json",
+        "sourceFrame": 0,
+        "candidateIndex": 0,
+        "detection": null,
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+      },
+      "displaySize": [
+        600.7067137809188,
+        600.7067137809188
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.6007067137809188,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          566,
+          386
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "36-xuanjing/enrage",
+        "frames": 8,
+        "fps": 8,
+        "loop": true,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 4,
+        "durationMs": 125
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-05",
+      "name": "玄海巨鲸怒态 6/8",
+      "file": "assets/animations/36-xuanjing/enrage/frame-05.png",
+      "sha256": "23e38fe4200a3ce04afd53545bafa4fcf948ef66ace22bdf372f6bad1f5a5088",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T17:55:07.468524+00:00",
+      "nativeSource": "designs/motion-frames-v1/36-xuanjing/enrage/enrage-b-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/36-xuanjing/enrage/enrage-b-v1.png",
+          "sha256": "d8bb1da4ac7d2d5276cc7eca6ff86f750a391cfad61f7a2d3c542a117229c62b",
+          "generationRecord": "designs/motion-frames-v1/36-xuanjing/enrage/enrage-b-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/36-xuanjing/enrage/extract-b.json",
+          "sourceRect": [
+            663,
+            298,
+            1221,
+            574
+          ],
+          "evidence": {
+            "sourceFrame": 1,
+            "file": "designs/motion-frames-v1/36-xuanjing/enrage/extract-b-pose-01.png",
+            "sourceRect": [
+              663,
+              298,
+              1221,
+              574
+            ],
+            "nominalSourceRect": [
+              627,
+              0,
+              1254,
+              627
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              558,
+              276
+            ],
+            "ownedPixelCount": 95609,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 12
+          }
+        },
+        "sourceEyePoint": [
+          385.2452054794521,
+          109.67123287671234
+        ],
+        "globalSourceEye": [
+          1048.2452054794521,
+          407.67123287671234
+        ],
+        "registrationOffset": [
+          295,
+          310
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        295,
+        310,
+        853,
+        586
+      ],
+      "registeredMinMargin": 0.147,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "manually checked dark pupil ROI component center, nearest integer",
+        "qa": "designs/motion-frames-v1/36-xuanjing/enrage/source-b-qa.json",
+        "sourceFrame": 1,
+        "candidateIndex": 0,
+        "detection": null,
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+      },
+      "displaySize": [
+        600.7067137809188,
+        600.7067137809188
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.6007067137809188,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          566,
+          386
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "36-xuanjing/enrage",
+        "frames": 8,
+        "fps": 8,
+        "loop": true,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 5,
+        "durationMs": 125
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-06",
+      "name": "玄海巨鲸怒态 7/8",
+      "file": "assets/animations/36-xuanjing/enrage/frame-06.png",
+      "sha256": "53fcbdeb25c005efd30cc98233621c0455b075ed570ca346368388d4850adee3",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T17:55:07.468524+00:00",
+      "nativeSource": "designs/motion-frames-v1/36-xuanjing/enrage/enrage-b-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/36-xuanjing/enrage/enrage-b-v1.png",
+          "sha256": "d8bb1da4ac7d2d5276cc7eca6ff86f750a391cfad61f7a2d3c542a117229c62b",
+          "generationRecord": "designs/motion-frames-v1/36-xuanjing/enrage/enrage-b-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/36-xuanjing/enrage/extract-b.json",
+          "sourceRect": [
+            62,
+            755,
+            627,
+            1128
+          ],
+          "evidence": {
+            "sourceFrame": 2,
+            "file": "designs/motion-frames-v1/36-xuanjing/enrage/extract-b-pose-02.png",
+            "sourceRect": [
+              62,
+              755,
+              627,
+              1128
+            ],
+            "nominalSourceRect": [
+              0,
+              627,
+              627,
+              1254
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              565,
+              373
+            ],
+            "ownedPixelCount": 113689,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 115
+          }
+        },
+        "sourceEyePoint": [
+          390.83393501805057,
+          173.42238267148014
+        ],
+        "globalSourceEye": [
+          452.83393501805057,
+          928.4223826714801
+        ],
+        "registrationOffset": [
+          289,
+          247
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        289,
+        247,
+        854,
+        620
+      ],
+      "registeredMinMargin": 0.146,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "manually checked dark pupil ROI component center, nearest integer",
+        "qa": "designs/motion-frames-v1/36-xuanjing/enrage/source-b-qa.json",
+        "sourceFrame": 2,
+        "candidateIndex": 1,
+        "detection": null,
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+      },
+      "displaySize": [
+        600.7067137809188,
+        600.7067137809188
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.6007067137809188,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          566,
+          386
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "36-xuanjing/enrage",
+        "frames": 8,
+        "fps": 8,
+        "loop": true,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 6,
+        "durationMs": 125
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-07",
+      "name": "玄海巨鲸怒态 8/8",
+      "file": "assets/animations/36-xuanjing/enrage/frame-07.png",
+      "sha256": "bb1027d0b314a419393d35fd28a7ca16441bfb75f67f200a5750236a9bcc59f0",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T17:55:07.468524+00:00",
+      "nativeSource": "designs/motion-frames-v1/36-xuanjing/enrage/enrage-b-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/36-xuanjing/enrage/enrage-b-v1.png",
+          "sha256": "d8bb1da4ac7d2d5276cc7eca6ff86f750a391cfad61f7a2d3c542a117229c62b",
+          "generationRecord": "designs/motion-frames-v1/36-xuanjing/enrage/enrage-b-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/36-xuanjing/enrage/extract-b.json",
+          "sourceRect": [
+            657,
+            764,
+            1224,
+            1113
+          ],
+          "evidence": {
+            "sourceFrame": 3,
+            "file": "designs/motion-frames-v1/36-xuanjing/enrage/extract-b-pose-03.png",
+            "sourceRect": [
+              657,
+              764,
+              1224,
+              1113
+            ],
+            "nominalSourceRect": [
+              627,
+              627,
+              1254,
+              1254
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              567,
+              349
+            ],
+            "ownedPixelCount": 106371,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 119
+          }
+        },
+        "sourceEyePoint": [
+          394.90821256038635,
+          164.53743961352654
+        ],
+        "globalSourceEye": [
+          1051.9082125603863,
+          928.5374396135265
+        ],
+        "registrationOffset": [
+          285,
+          255
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        285,
+        255,
+        852,
+        604
+      ],
+      "registeredMinMargin": 0.148,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "manually checked dark pupil ROI component center, nearest integer",
+        "qa": "designs/motion-frames-v1/36-xuanjing/enrage/source-b-qa.json",
+        "sourceFrame": 3,
+        "candidateIndex": 1,
+        "detection": null,
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+      },
+      "displaySize": [
+        600.7067137809188,
+        600.7067137809188
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.6007067137809188,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          566,
+          386
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "36-xuanjing/enrage",
+        "frames": 8,
+        "fps": 8,
+        "loop": true,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 7,
+        "durationMs": 125
+      }
+    }
+  ],
+  "animation": {
+    "id": "36-xuanjing/enrage",
+    "frames": 8,
+    "fps": 8,
+    "loop": true,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "durationsMs": [
+      125,
+      125,
+      125,
+      125,
+      125,
+      125,
+      125,
+      125
+    ],
+    "root": [
+      0.68,
+      0.42
+    ],
+    "sourceRoute": "builtin_native_AI_sheet_user_requested",
+    "sourcePixelsNeverResampled": true,
+    "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+    "releaseReady": true
+  },
+  "sharedCanvas": [
+    1000,
+    1000
+  ],
+  "rootPixels": [
+    680,
+    420
+  ],
+  "eyePixels": [
+    680,
+    420
+  ],
+  "anchor": [
+    0.68,
+    0.42
+  ],
+  "uniformDisplayScale": 0.6007067137809188,
+  "bodyDisplayBox": [
+    340,
+    260
+  ],
+  "displaySize": [
+    600.7067137809188,
+    600.7067137809188
+  ],
+  "warnings": [
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 0,
+      "sourceMinMargin": 0.0,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 1,
+      "sourceMinMargin": 0.0,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 2,
+      "sourceMinMargin": 0.0,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 3,
+      "sourceMinMargin": 0.03987240829346093,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 4,
+      "sourceMinMargin": 0.0,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 5,
+      "sourceMinMargin": 0.05263157894736842,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 6,
+      "sourceMinMargin": 0.0,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 7,
+      "sourceMinMargin": 0.04784688995215311,
+      "retained": true
+    },
+    {
+      "id": "native_head_shape_and_inter_sheet_density",
+      "severity": "pending_playback_review",
+      "note": "Integer translation cannot correct generated head contour or native scale drift; do not treat pixel bounds as motion approval."
+    }
+  ],
+  "contactSheets": [
+    "tmp/art-qa/36-xuanjing-enrage-registered-light.jpg",
+    "tmp/art-qa/36-xuanjing-enrage-registered-dark.jpg"
+  ],
+  "qa": {
+    "nativeOwnedPixelsPreserved": true,
+    "registeredMarginStatus": "pass_12pct",
+    "sourceMarginStatus": "warnings_preserved",
+    "sourceCanvasClipping": "none_for_adopted_extractions",
+    "semanticOwnershipStatus": "pending_root_contact_sheet_review",
+    "poseAndIdentityStatus": "native_source_stills_observed_pending_registered_review",
+    "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+    "unityPlaybackStatus": "not_run"
+  },
+  "status": "accepted_first_release_art",
+  "releaseReady": true,
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+  "acceptedAt": "2026-10-30T04:07:09.085600+00:00",
+  "playbackReview": "docs/UNITY_FINAL_ACCEPTANCE.json"
+}

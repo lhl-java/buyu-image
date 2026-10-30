@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "manifest": "assets/animations/20-yuban/capture/manifest.json",
+  "source": "designs/motion-frames-v1/20-yuban/capture/20-yuban-capture.png",
+  "status": "producer_candidate_pending_root_registered_review",
+  "actualVisualObservation": "Tail peduncle bends and pectoral fins change strokes; capture folds/tenses then settles. Camouflage patches and cheek ornament retain identity but slight silhouette drift remains review.",
+  "warnings": [
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 0,
+      "actual": 0.038288288288288286,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 1,
+      "actual": 0.04288939051918736,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 2,
+      "actual": 0.013544018058690745,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 3,
+      "actual": 0.04054054054054054,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 4,
+      "actual": 0.024774774774774775,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 5,
+      "actual": 0.03837471783295711,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 6,
+      "actual": 0.03837471783295711,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 7,
+      "actual": 0.038288288288288286,
+      "required": 0.12
+    },
+    {
+      "id": "generated_core_shape_and_motion_pending_review",
+      "note": "Tail peduncle bends and pectoral fins change strokes; capture folds/tenses then settles. Camouflage patches and cheek ornament retain identity but slight silhouette drift remains review."
+    },
+    {
+      "id": "playback_unverified",
+      "note": "No live loop/single-shot playback during local heavy-job hold; distinct hashes are not motion evidence."
+    }
+  ],
+  "sourceOwnership": {
+    "alphaThreshold": 3,
+    "sourcePixels": 605816,
+    "exportedPixels": 605816,
+    "duplicatePixels": 0,
+    "lostPixels": 0,
+    "rgbAndAlphaForOwnedPixelsUnchanged": true
+  },
+  "fps": 12,
+  "durationsMs": [
+    83,
+    84,
+    83,
+    83,
+    84,
+    83,
+    83,
+    84
+  ],
+  "loop": false,
+  "noResamplingOrUpscaling": true,
+  "eyeNativeBoxSizes": [
+    [
+      35,
+      31
+    ],
+    [
+      33,
+      27
+    ],
+    [
+      30,
+      28
+    ],
+    [
+      30,
+      28
+    ],
+    [
+      31,
+      28
+    ],
+    [
+      29,
+      27
+    ],
+    [
+      42,
+      32
+    ],
+    [
+      30,
+      27
+    ]
+  ],
+  "testsBrowserAtlasUnityRun": false,
+  "reviewedAt": "2026-10-28T20:08:34.651768+00:00",
+  "sourceSheetActuallyInspected": true,
+  "registeredLightAndDarkActuallyInspected": true,
+  "inspectionType": "static contact sheets, actual generated source and actual exported alpha-composited frames",
+  "lightContact": "designs/motion-frames-v1/20-yuban/capture/registered-light.jpg",
+  "darkContact": "designs/motion-frames-v1/20-yuban/capture/registered-dark.jpg",
+  "observedArticulation": "Tail peduncle bends and pectoral fins change strokes; capture folds/tenses then settles. Camouflage patches and cheek ornament retain identity but slight silhouette drift remains review.",
+  "edgeObservation": "The registered light and dark contacts show complete separate poses without an opaque rectangle or another frame fragment. Source grid / margin warnings are retained.",
+  "livePlaybackActuallyRun": false,
+  "finalArtApproval": false,
+  "inspectedAt": "2026-10-28T20:08:34.651768+00:00",
+  "landmarkCorrection": "Fixed face-only pupil ROI avoids dark camouflage / fin plate false landmarks; native pixels unchanged by integer registration."
+}

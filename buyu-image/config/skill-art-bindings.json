@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "status": "accepted_art_bindings",
+  "sourceDesign": "designs/ui/full-suite-v1/08-skills/08-skills.png",
+  "runtimeOrder": {
+    "fish": 10,
+    "skillFx": 25,
+    "cannonBase": 30,
+    "cannonBarrel": 31,
+    "ui": 100
+  },
+  "bindings": [
+    {
+      "id": "ice",
+      "name": "冰封",
+      "icon": "skills/skill-ice",
+      "castFx": "fx-ice",
+      "placement": "target area center",
+      "playback": "one_shot",
+      "runtimeState": "slow indicator and its duration are client state, not baked into fish art"
+    },
+    {
+      "id": "thunder",
+      "name": "雷网",
+      "icon": "skills/skill-thunder",
+      "castFx": "fx-thunder",
+      "placement": "target area center",
+      "playback": "one_shot"
+    },
+    {
+      "id": "gather",
+      "name": "聚鱼",
+      "icon": "skills/skill-gather",
+      "castFx": "fx-gather",
+      "placement": "attraction center",
+      "playback": "one_shot",
+      "runtimeState": "Fish trajectory attraction is gameplay; gold fish-shaped light in this FX is spell ornament, not creature animation"
+    },
+    {
+      "id": "track",
+      "name": "追踪",
+      "icon": "skills/skill-track",
+      "targetOverlay": "ornaments/aim-gold",
+      "placement": "selected fish registered body root",
+      "playback": "persistent_overlay",
+      "opacityPulse": {
+        "minimum": 0.75,
+        "maximum": 1.0,
+        "periodMs": 900
+      },
+      "geometryScaleChanges": false,
+      "runtimeState": "Bind overlay to target; keep target readable; no claim of fish body motion"
+    },
+    {
+      "id": "guard",
+      "name": "护持",
+      "icon": "skills/skill-guard",
+      "castFx": "fx-guard",
+      "placement": "protected player cannon root",
+      "playback": "one_shot_release",
+      "activeOverlay": {
+        "sourceClip": "fx-guard",
+        "sourceFrame": 6,
+        "loopBodyFrames": false,
+        "opacityPulse": {
+          "minimum": 0.8,
+          "maximum": 1.0,
+          "periodMs": 1200
+        },
+        "status": "candidate_active_overlay_frame_requires_runtime_readability_review"
+      },
+      "runtimeState": "Hold a separately registered peak-frame shield during protection; do not loop disappearance frames or claim the release clip is a persistent animation"
+    },
+    {
+      "id": "surge",
+      "name": "激流",
+      "icon": "skills/skill-surge",
+      "castFx": "fx-surge",
+      "placement": "skill target area center",
+      "playback": "one_shot",
+      "runtimeState": "Hit/knockback decisions and direction are gameplay; this is the blue-white wave art"
+    }
+  ],
+  "common": {
+    "noBodyAnimationSubstitution": true,
+    "fixedClipRoot": [
+      0.5,
+      0.5
+    ],
+    "cooldownMask": "client radial mask over icon",
+    "cooldownText": "live text",
+    "sourceFramesMustNotBePerFrameTrimmed": true
+  },
+  "remaining": "Art binding and authored frames do not prove target-client timing, clarity, overlap or state behavior.",
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json"
+}

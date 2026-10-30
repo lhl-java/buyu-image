@@ -1,0 +1,50 @@
+{
+  "source": "designs/production-v2/hud-additions/hud-additions.png",
+  "output": "assets/ui/additions",
+  "rows": 1,
+  "cols": 3,
+  "items": [
+    {
+      "id": "backpack",
+      "name": "背包",
+      "sourceRect": [
+        0,
+        0,
+        845,
+        724
+      ],
+      "displaySize": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "slider-thumb-normal",
+      "name": "太极滑块正常",
+      "sourceRect": [
+        845,
+        0,
+        1450,
+        724
+      ],
+      "displaySize": [
+        48,
+        48
+      ]
+    },
+    {
+      "id": "slider-thumb-pressed",
+      "name": "太极滑块按下",
+      "sourceRect": [
+        1450,
+        0,
+        2172,
+        724
+      ],
+      "displaySize": [
+        48,
+        48
+      ]
+    }
+  ]
+}

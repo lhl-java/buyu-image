@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "job": "gameplay-ornaments",
+  "source": "designs/production-v1/gameplay-ornaments/gameplay-ornaments-v2.png",
+  "sourceSha256": "ac5c793caf0aa116e552d496bf3a716d73b0a5faf81d408a54daa22dd89ef6fc",
+  "nativeSize": [
+    1254,
+    1254
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "reviewedAt": "2026-10-26T20:44:05.205026+00:00",
+  "visualReview": "已实际查看源图及切片联系表：9件无字饰件顺序准确、轮廓完整、无跨格。两空心准星和水滴标中心采样Alpha为0；三甲奖章中心留空无数字。v2修订了留白，按实际带透明留边所有权矩形切片，不缩放。",
+  "sliceCount": 9,
+  "warnings": [],
+  "alphaRange": [
+    0,
+    255
+  ],
+  "noUpscaling": true,
+  "sourceAndContactSheetViewed": true,
+  "runtimeIntegrationVerified": false,
+  "holes": {
+    "aim-jade": {
+      "central20PercentPatchAlphaMax": 0
+    },
+    "aim-gold": {
+      "central20PercentPatchAlphaMax": 0
+    },
+    "stage-marker": {
+      "central20PercentPatchAlphaMax": 0
+    }
+  },
+  "ownershipPaddingRatios": {
+    "aim-jade": [
+      0.1342,
+      0.1332,
+      0.1342,
+      0.1332
+    ],
+    "aim-gold": [
+      0.1326,
+      0.1342,
+      0.1326,
+      0.1342
+    ],
+    "skill-speed": [
+      0.1327,
+      0.1341,
+      0.1327,
+      0.1341
+    ],
+    "medal-gold": [
+      0.1333,
+      0.1328,
+      0.1333,
+      0.1328
+    ],
+    "medal-silver": [
+      0.1324,
+      0.1342,
+      0.1324,
+      0.1342
+    ],
+    "medal-bronze": [
+      0.1341,
+      0.1335,
+      0.1341,
+      0.1335
+    ],
+    "rarity-star": [
+      0.1337,
+      0.1336,
+      0.1337,
+      0.1336
+    ],
+    "brand-emblem": [
+      0.1343,
+      0.1326,
+      0.1343,
+      0.1326
+    ],
+    "stage-marker": [
+      0.1324,
+      0.1346,
+      0.1324,
+      0.1346
+    ]
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "source": "designs/motion-frames-v1/22-bailian/swim/22-bailian-swim-v3.png",
+  "threshold": 16,
+  "largest8Components": [
+    {
+      "label": 1,
+      "area": 73439,
+      "bbox": [
+        18,
+        75,
+        437,
+        382
+      ],
+      "center": [
+        238.6315445471752,
+        239.62609784991625
+      ],
+      "touchesTotalCanvas": false
+    },
+    {
+      "label": 3,
+      "area": 66961,
+      "bbox": [
+        506,
+        81,
+        884,
+        376
+      ],
+      "center": [
+        696.2025806066217,
+        235.10286584728425
+      ],
+      "touchesTotalCanvas": false
+    },
+    {
+      "label": 4,
+      "area": 70766,
+      "bbox": [
+        933,
+        95,
+        1326,
+        385
+      ],
+      "center": [
+        1130.0707119238052,
+        242.63543226973405
+      ],
+      "touchesTotalCanvas": false
+    },
+    {
+      "label": 2,
+      "area": 69627,
+      "bbox": [
+        1369,
+        79,
+        1764,
+        384
+      ],
+      "center": [
+        1574.4806181510046,
+        239.4033636376693
+      ],
+      "touchesTotalCanvas": false
+    },
+    {
+      "label": 8,
+      "area": 74480,
+      "bbox": [
+        28,
+        488,
+        448,
+        800
+      ],
+      "center": [
+        245.99751611170785,
+        655.7797798066595
+      ],
+      "touchesTotalCanvas": false
+    },
+    {
+      "label": 9,
+      "area": 66604,
+      "bbox": [
+        507,
+        499,
+        884,
+        799
+      ],
+      "center": [
+        696.9790853402199,
+        656.6341961443757
+      ],
+      "touchesTotalCanvas": false
+    },
+    {
+      "label": 11,
+      "area": 73406,
+      "bbox": [
+        923,
+        510,
+        1323,
+        800
+      ],
+      "center": [
+        1123.2151867694738,
+        653.9083181211345
+      ],
+      "touchesTotalCanvas": false
+    },
+    {
+      "label": 10,
+      "area": 71451,
+      "bbox": [
+        1359,
+        500,
+        1762,
+        800
+      ],
+      "center": [
+        1567.353431022659,
+        657.757190242264
+      ],
+      "touchesTotalCanvas": false
+    }
+  ],
+  "meaning": "Connectivity evidence only: no automatic motion pass, component deletion, or clipping repair."
+}

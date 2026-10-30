@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-05",
+  "name": "金甲蟹 capture 5",
+  "file": "assets/animations/30-jinjia/capture/frame-05.png",
+  "sha256": "7cfe8adff01de53c514381c54655c8a6c45870d80a9605a299f6f12c22fcfe34",
+  "width": 640,
+  "height": 640,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/motion-frames-v1/30-jinjia/capture/30-jinjia-capture.png",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/30-jinjia/capture/30-jinjia-capture.png",
+      "sha256": "b861f7765930eda0c7721d7b90aa1d2142674eb628c84f86464ad53c0a4551b5",
+      "generationRecord": "designs/motion-frames-v1/30-jinjia/capture/30-jinjia-capture.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_grid_crop_integer_pupil_registration",
+    "grid": {
+      "rows": 2,
+      "cols": 4
+    },
+    "sourceRect": [
+      450,
+      444,
+      887,
+      887
+    ],
+    "registrationOffset": [
+      111,
+      107,
+      548,
+      550
+    ],
+    "registeredCanvas": [
+      640,
+      640
+    ],
+    "registrationReference": {
+      "type": "black_pupil_connected_component_centroid",
+      "sourcePointFloat": [
+        209.49521988527724,
+        213.37284894837475
+      ],
+      "sourcePointRounded": [
+        209,
+        213
+      ],
+      "targetPoint": [
+        320,
+        320
+      ],
+      "pupilBounds": [
+        190,
+        200,
+        228,
+        232
+      ],
+      "detectionRoi": [
+        170,
+        180,
+        270,
+        310
+      ],
+      "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+    },
+    "nominalGridRect": [
+      444,
+      444,
+      887,
+      887
+    ],
+    "sourceRectType": "custom_ownership_between_separated_characters",
+    "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+    "resized": false,
+    "upscaled": false,
+    "poseWarped": false,
+    "sourcePixelsRoundTripVerified": true,
+    "sourceBoundaryClippingAssessment": "only_alpha0_3_at_boundary"
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "status": "candidate_pending_root_visual_and_playback_review",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source record; this is a native derivative, not new generation.",
+  "animation": {
+    "id": "30-jinjia/capture",
+    "frames": 8,
+    "fps": 12,
+    "loop": false,
+    "order": "row-major",
+    "root": [
+      0.5,
+      0.5
+    ],
+    "phase": 0.625,
+    "durationMs": 83,
+    "targetBodyBox": [
+      240,
+      180
+    ],
+    "displayCalibration": {
+      "status": "candidate_pending_root_visual_runtime_review",
+      "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+      "nativeMedianPupilWidth": 37.5,
+      "sharedTargetDisplayedPupilWidth": 19.304,
+      "uniformDisplayScale": 0.5147733333333333,
+      "upscale": false,
+      "perFrameBboxFit": false,
+      "sharedVisualPivotPixels": [
+        320,
+        320
+      ],
+      "sharedVisualPivotNormalized": [
+        0.5,
+        0.5
+      ],
+      "displayBodyMaxPixels": [
+        220.83775999999997,
+        174.50816
+      ],
+      "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+    }
+  },
+  "qa": {
+    "nativeBodyBoxAlpha16": [
+      11,
+      42,
+      435,
+      368
+    ],
+    "nativeVisibleSize": [
+      424,
+      326
+    ],
+    "rawCellEdgeMaxAlpha": 3,
+    "nominalGridEdgeMaxAlpha": 3,
+    "registeredBoxAlpha16": [
+      122,
+      149,
+      546,
+      475
+    ],
+    "registeredMarginsFraction": [
+      0.190625,
+      0.2328125,
+      0.146875,
+      0.2578125
+    ],
+    "finalMargin12PercentPassed": true,
+    "pupilComponent": {
+      "area": 523,
+      "bbox": [
+        190,
+        200,
+        228,
+        232
+      ],
+      "centroid": [
+        209.49521988527724,
+        213.37284894837475
+      ]
+    },
+    "actualSourceViewedByProducer": true,
+    "loopOrRecoveryAccepted": false,
+    "targetClientAccepted": false
+  }
+}

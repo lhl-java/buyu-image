@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/production-v2/fx-gather/fx-gather-contained.png",
+  "sha256": "79fc2f68375864f62ccf497d3e1155c16e578d4c90738cd6db99c7b40c7201fb",
+  "generatedAt": "2026-10-28T11:01:49.892Z",
+  "startedAt": "2026-10-28T11:00:37.686Z",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "pixelFormat": "Format32bppArgb",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-28",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "builtin_evidence": {
+      "model_parameter_exposed": false,
+      "quality_parameter_exposed": false,
+      "actual_model": null,
+      "actual_quality": null,
+      "note": "Configuration targets only; verify actual model and quality per generated image."
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\buyu-image\\designs\\production-v2\\fx-gather\\fx-gather.png",
+      "D:\\work\\buyu-image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\buyu-image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "D:\\work\\buyu-image\\designs\\ui\\full-suite-v1\\08-skills\\08-skills.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具未开放 model/quality 参数，本次结果未披露实际型号及质量。",
+  "evidence": {
+    "toolResult": "fx-gather-contained.tool-result.txt",
+    "sourceOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a18186-fd02-7812-b30d-2810b1c9973a\\exec-2aa27be7-4a4b-4747-b6f5-78b6847bba44.png",
+    "toolResultId": "exec-2aa27be7-4a4b-4747-b6f5-78b6847bba44",
+    "request": "fx-gather-contained.request.json"
+  },
+  "prompt": "fx-gather-contained.prompt.txt",
+  "references": [
+    {
+      "file": "designs/production-v2/fx-gather/fx-gather.png",
+      "sha256": "0d72e47db0ddf2f73853a197805a958d32a98e6e3087f20b9fe101a2d95034f7",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/ui/full-suite-v1/08-skills/08-skills.png",
+      "sha256": "0bd3b30c84b5a61fa2e0ed9dcea66875d80763fd69aed8c13c88ab667440f9bc",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    }
+  ],
+  "requestedCanvasInPrompt": "Square4x4 fixed cell centers, nativeactualsize",
+  "resampled": false,
+  "status": "source_visual_reviewed_runtime_padding_applied_pending_user",
+  "visualReview": "已实际查看原生源和最终16帧浅米白/深青Alpha合成：金鱼旋流由种子、三鱼环绕峰值到收回消散，轮廓/光尾完整，无跨格截断。source低alpha留白告警保留；统一40px补边后runtime门禁通过。",
+  "scope": "AI containment edit of16 native skill FX frames",
+  "sourceMarginWarnings": [
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 2,
+      "value": 0.07961783439490445,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-gather/fx-gather-contained.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 3,
+      "value": 0.03503184713375796,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-gather/fx-gather-contained.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 4,
+      "value": 0.04472843450479233,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-gather/fx-gather-contained.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 5,
+      "value": 0.04792332268370607,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-gather/fx-gather-contained.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 6,
+      "value": 0.04792332268370607,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-gather/fx-gather-contained.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 7,
+      "value": 0.04472843450479233,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-gather/fx-gather-contained.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 8,
+      "value": 0.07667731629392971,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-gather/fx-gather-contained.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 9,
+      "value": 0.08626198083067092,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-gather/fx-gather-contained.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 10,
+      "value": 0.09584664536741214,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-gather/fx-gather-contained.png"
+    }
+  ]
+}

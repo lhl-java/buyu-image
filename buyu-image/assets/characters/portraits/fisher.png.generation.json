@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "fisher",
+  "name": "见习渔师",
+  "file": "assets/characters/portraits/fisher.png",
+  "sha256": "a07f4ce63cf9e228ab00a43a5e1c80d705dce9720ac181a9fda8f5b0f6485f47",
+  "width": 420,
+  "height": 403,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/production-v1/portraits/portraits-v2.png",
+  "derivedFrom": [
+    {
+      "file": "designs/production-v1/portraits/portraits-v2.png",
+      "sha256": "b05fa8788eaf7f7c45449617921447ff5c55c1af98f2226b534bf4a6c02e8431",
+      "generationRecord": "designs/production-v1/portraits/portraits-v2.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_grid_crop",
+    "grid": {
+      "rows": 2,
+      "cols": 3
+    },
+    "sourceRect": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "cellCropRect": [
+      52,
+      79,
+      472,
+      482
+    ],
+    "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+    "resized": false,
+    "upscaled": false
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "displaySize": [
+    128,
+    128
+  ],
+  "status": "prepared_visual_reviewed_pending_user_review",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source generation record; no new model call for this slice.",
+  "visualReview": "Reviewed actual sliced QA: isolated complete head/shoulders, no neighboring fragments or visible clipped hats/ornaments; native-alpha RGBA, no resizing."
+}

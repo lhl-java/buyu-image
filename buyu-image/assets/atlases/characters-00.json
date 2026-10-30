@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "frames": {
+    "characters/dao-child/dao-child": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 1254,
+        "h": 1254
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 1254,
+        "h": 1254
+      },
+      "pivot": [
+        0.5,
+        0.88
+      ],
+      "source": "assets/characters/dao-child/dao-child.png",
+      "sourceSha256": "a3d37b28c4703056c27c900fb66712f596049dbe2ac5b8cf42b40d2db6d574ae"
+    },
+    "characters/portraits/elder": {
+      "frame": {
+        "x": 1260,
+        "y": 2,
+        "w": 462,
+        "h": 436
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 462,
+        "h": 436
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/characters/portraits/elder.png",
+      "sourceSha256": "bc7d3ebe00e979dc623b47f1906fb512df1f7981184ab64ca88cf960f0f57c40"
+    },
+    "characters/portraits/guide": {
+      "frame": {
+        "x": 2,
+        "y": 1260,
+        "w": 377,
+        "h": 424
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 377,
+        "h": 424
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/characters/portraits/guide.png",
+      "sourceSha256": "42619603e8c753d2236fd567714ade31978f5cc7158ac6f8269ea07ba081fc4c"
+    },
+    "characters/portraits/healer": {
+      "frame": {
+        "x": 383,
+        "y": 1260,
+        "w": 439,
+        "h": 421
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 439,
+        "h": 421
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/characters/portraits/healer.png",
+      "sourceSha256": "f818b7650eaf876826a94504d1ac94181942b78e5ec35dd8d9a6b2cdce200173"
+    },
+    "characters/portraits/navigator": {
+      "frame": {
+        "x": 826,
+        "y": 1260,
+        "w": 429,
+        "h": 420
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 429,
+        "h": 420
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/characters/portraits/navigator.png",
+      "sourceSha256": "9c05d65c5c78dfa12770ba47dd3fb4521c22e352e5939214bb5246d365d6faed"
+    },
+    "characters/portraits/merchant": {
+      "frame": {
+        "x": 1259,
+        "y": 1260,
+        "w": 452,
+        "h": 413
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 452,
+        "h": 413
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/characters/portraits/merchant.png",
+      "sourceSha256": "886b9aea8d94df6739dc60a93976bc3504947302f6db1996e5d42691ba116b1b"
+    }
+  },
+  "meta": {
+    "image": "characters-00.png",
+    "size": {
+      "w": 1724,
+      "h": 1686
+    },
+    "format": "RGBA8888",
+    "scale": 1,
+    "padding": 2,
+    "noRotation": true,
+    "generatedAt": "2026-10-30T03:30:12.489824+00:00",
+    "operation": "native pixel packing; no resampling or redraw"
+  }
+}

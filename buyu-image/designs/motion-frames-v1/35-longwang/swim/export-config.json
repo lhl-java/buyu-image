@@ -1,0 +1,26 @@
+{
+  "actor": "35-longwang",
+  "action": "swim",
+  "name": "龙王海龙游动",
+  "canvas": [
+    1000,
+    1000
+  ],
+  "eyeRoot": [
+    680,
+    420
+  ],
+  "fps": 12,
+  "loop": true,
+  "bodyDisplayBox": [
+    340,
+    260
+  ],
+  "sheets": [
+    {
+      "qa": "designs/motion-frames-v1/35-longwang/swim/source-v1-qa.json",
+      "ownership": "designs/motion-frames-v1/35-longwang/swim/extract-v1.json",
+      "closedEyeFrames": []
+    }
+  ]
+}

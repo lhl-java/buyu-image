@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/motion-frames-v1/19-lingjinli/capture/19-lingjinli-capture.png",
+  "sha256": "c65f6f2cd5380abe06484a134ec6325e710c82a694f1cee913537c14cd73b242",
+  "generatedAt": "2026-10-28T17:54:25.269Z",
+  "startedAt": "2026-10-28T17:50:55.937Z",
+  "width": 1774,
+  "height": 887,
+  "format": "PNG",
+  "pixelFormat": "Format32bppArgb",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-28",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "builtin_evidence": {
+      "model_parameter_exposed": false,
+      "quality_parameter_exposed": false,
+      "actual_model": null,
+      "actual_quality": null,
+      "note": "Configuration targets only; verify actual model and quality per generated image."
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\buyu-image\\designs\\motion-frames-v1\\19-lingjinli\\swim\\19-lingjinli-swim.png",
+      "D:\\work\\buyu-image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\buyu-image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "D:\\work\\buyu-image\\assets\\fish\\batch-4\\19-lingjinli.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具未开放 model/quality 参数，本次结果未披露实际型号及质量。",
+  "evidence": {
+    "toolResult": "19-lingjinli-capture.tool-result.txt",
+    "sourceOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a18291-7f9d-7081-8ee8-2bec0f32ff89\\exec-503584c0-504b-4dc7-9fb8-3249c5afce2f.png",
+    "toolResultId": "exec-503584c0-504b-4dc7-9fb8-3249c5afce2f",
+    "request": "19-lingjinli-capture.request.json"
+  },
+  "prompt": "19-lingjinli-capture.prompt.txt",
+  "references": [
+    {
+      "file": "designs/motion-frames-v1/19-lingjinli/swim/19-lingjinli-swim.png",
+      "sha256": "bf1e1b996e00822e8bd38930f951e233a4915cf191080b8bfc24f3d394d782ba",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "assets/fish/batch-4/19-lingjinli.png",
+      "sha256": "6324cf5f31eeae3307cb13cc6e9885b24bad162619ddeb71341c6edbf91d56ef",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    }
+  ],
+  "requestedCanvasInPrompt": "4x2 native8frames2:1 trueAlpha.",
+  "resampled": false,
+  "status": "draft_pending_user_review",
+  "visualReview": "Real capture fin/tail fold visible; native boundary, head/body scale and continuity pending actual contact review. Candidate only.",
+  "scope": "19-lingjinli capture8nativeframes12fpssingle-shot, no playback/finalpass."
+}

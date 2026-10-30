@@ -1,0 +1,1018 @@
+{
+  "schemaVersion": 1,
+  "source": "designs/production-v1/fx-hit/fx-hit.png",
+  "sourceWidth": 1254,
+  "sourceHeight": 1254,
+  "output": "assets/fx/fx-hit",
+  "items": [
+    {
+      "schemaVersion": 1,
+      "id": "frame-00",
+      "name": "fx-hit 0",
+      "file": "assets/fx/fx-hit/frame-00.png",
+      "sha256": "211c56b27b50616b12d91fb25824bebb5584c5c4c7d7cd539d7d465de0c0fef8",
+      "width": 314,
+      "height": 314,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/fx-hit/fx-hit.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/fx-hit/fx-hit.png",
+          "sha256": "9cda5a6dab990adfadbce659709ee08e55f84615f8df8e88f9ef1d20c6752137",
+          "generationRecord": "designs/production-v1/fx-hit/fx-hit.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          0,
+          0,
+          314,
+          314
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          314,
+          314
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-01",
+      "name": "fx-hit 1",
+      "file": "assets/fx/fx-hit/frame-01.png",
+      "sha256": "67fb2e7ca8f4cc314774e8c8c207c5a55216ff7133d3cff7f903ad01cbcd1a57",
+      "width": 314,
+      "height": 314,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/fx-hit/fx-hit.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/fx-hit/fx-hit.png",
+          "sha256": "9cda5a6dab990adfadbce659709ee08e55f84615f8df8e88f9ef1d20c6752137",
+          "generationRecord": "designs/production-v1/fx-hit/fx-hit.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          314,
+          0,
+          627,
+          314
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          313,
+          314
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-02",
+      "name": "fx-hit 2",
+      "file": "assets/fx/fx-hit/frame-02.png",
+      "sha256": "d93a4aefde363085c2d5b1e4c222c24659b0f51d6088a1f157741b34f5f9a2d5",
+      "width": 314,
+      "height": 314,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/fx-hit/fx-hit.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/fx-hit/fx-hit.png",
+          "sha256": "9cda5a6dab990adfadbce659709ee08e55f84615f8df8e88f9ef1d20c6752137",
+          "generationRecord": "designs/production-v1/fx-hit/fx-hit.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          627,
+          0,
+          940,
+          314
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          313,
+          314
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-03",
+      "name": "fx-hit 3",
+      "file": "assets/fx/fx-hit/frame-03.png",
+      "sha256": "5823a804ca6492adeacd95d0063ae5c10b216b5690ab073271fef24d3abc64d9",
+      "width": 314,
+      "height": 314,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/fx-hit/fx-hit.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/fx-hit/fx-hit.png",
+          "sha256": "9cda5a6dab990adfadbce659709ee08e55f84615f8df8e88f9ef1d20c6752137",
+          "generationRecord": "designs/production-v1/fx-hit/fx-hit.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          940,
+          0,
+          1254,
+          314
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          314,
+          314
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-04",
+      "name": "fx-hit 4",
+      "file": "assets/fx/fx-hit/frame-04.png",
+      "sha256": "011088baee82cfaf53f89e90f920ee5108af856703284d70c94e533b61c99b58",
+      "width": 314,
+      "height": 314,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/fx-hit/fx-hit.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/fx-hit/fx-hit.png",
+          "sha256": "9cda5a6dab990adfadbce659709ee08e55f84615f8df8e88f9ef1d20c6752137",
+          "generationRecord": "designs/production-v1/fx-hit/fx-hit.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          0,
+          314,
+          314,
+          627
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          314,
+          313
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-05",
+      "name": "fx-hit 5",
+      "file": "assets/fx/fx-hit/frame-05.png",
+      "sha256": "8eeccbca4881ea3d01a875dc1a7e41f88e31370dd3d9cc21fbb8fe987155f57e",
+      "width": 314,
+      "height": 314,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/fx-hit/fx-hit.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/fx-hit/fx-hit.png",
+          "sha256": "9cda5a6dab990adfadbce659709ee08e55f84615f8df8e88f9ef1d20c6752137",
+          "generationRecord": "designs/production-v1/fx-hit/fx-hit.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          314,
+          314,
+          627,
+          627
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          313,
+          313
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-06",
+      "name": "fx-hit 6",
+      "file": "assets/fx/fx-hit/frame-06.png",
+      "sha256": "3919e33dd817e4fc6dadd154c32d3f3f5c83bd6a03825c843f58f66e4e5f83b7",
+      "width": 314,
+      "height": 314,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/fx-hit/fx-hit.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/fx-hit/fx-hit.png",
+          "sha256": "9cda5a6dab990adfadbce659709ee08e55f84615f8df8e88f9ef1d20c6752137",
+          "generationRecord": "designs/production-v1/fx-hit/fx-hit.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          627,
+          314,
+          940,
+          627
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          313,
+          313
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-07",
+      "name": "fx-hit 7",
+      "file": "assets/fx/fx-hit/frame-07.png",
+      "sha256": "1229bb2a3ec65ad703e163691a7c3de97524b004accf940f2416ddeb79ef9372",
+      "width": 314,
+      "height": 314,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/fx-hit/fx-hit.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/fx-hit/fx-hit.png",
+          "sha256": "9cda5a6dab990adfadbce659709ee08e55f84615f8df8e88f9ef1d20c6752137",
+          "generationRecord": "designs/production-v1/fx-hit/fx-hit.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          940,
+          314,
+          1254,
+          627
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          314,
+          313
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-08",
+      "name": "fx-hit 8",
+      "file": "assets/fx/fx-hit/frame-08.png",
+      "sha256": "479d4c465af7a7525afd17069e0f6f2aa1e5cce9c75b6ae9d5fb2dfb13ea58e3",
+      "width": 314,
+      "height": 314,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/fx-hit/fx-hit.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/fx-hit/fx-hit.png",
+          "sha256": "9cda5a6dab990adfadbce659709ee08e55f84615f8df8e88f9ef1d20c6752137",
+          "generationRecord": "designs/production-v1/fx-hit/fx-hit.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          0,
+          627,
+          314,
+          940
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          314,
+          313
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-09",
+      "name": "fx-hit 9",
+      "file": "assets/fx/fx-hit/frame-09.png",
+      "sha256": "ca1dfaece33b174d4c76990ca1f4d7fb8e84dd2483dab620710df77fb17fa455",
+      "width": 314,
+      "height": 314,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/fx-hit/fx-hit.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/fx-hit/fx-hit.png",
+          "sha256": "9cda5a6dab990adfadbce659709ee08e55f84615f8df8e88f9ef1d20c6752137",
+          "generationRecord": "designs/production-v1/fx-hit/fx-hit.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          314,
+          627,
+          627,
+          940
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          313,
+          313
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-10",
+      "name": "fx-hit 10",
+      "file": "assets/fx/fx-hit/frame-10.png",
+      "sha256": "7773071bd598fea7c560935c86b53d6cde0c27d374e36b3ee55069d7077ec2ff",
+      "width": 314,
+      "height": 314,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/fx-hit/fx-hit.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/fx-hit/fx-hit.png",
+          "sha256": "9cda5a6dab990adfadbce659709ee08e55f84615f8df8e88f9ef1d20c6752137",
+          "generationRecord": "designs/production-v1/fx-hit/fx-hit.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          627,
+          627,
+          940,
+          940
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          313,
+          313
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-11",
+      "name": "fx-hit 11",
+      "file": "assets/fx/fx-hit/frame-11.png",
+      "sha256": "4f1abfd97bfec8d95bb69b5f40399a251318da61bdbf8f6757a93d9fed927adb",
+      "width": 314,
+      "height": 314,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/fx-hit/fx-hit.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/fx-hit/fx-hit.png",
+          "sha256": "9cda5a6dab990adfadbce659709ee08e55f84615f8df8e88f9ef1d20c6752137",
+          "generationRecord": "designs/production-v1/fx-hit/fx-hit.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          940,
+          627,
+          1254,
+          940
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          314,
+          313
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-12",
+      "name": "fx-hit 12",
+      "file": "assets/fx/fx-hit/frame-12.png",
+      "sha256": "dec2f1c45e1ed2f69c6adabae774050ea8ed04e6b8c2f6fca4c1eda12f7ec17c",
+      "width": 314,
+      "height": 314,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/fx-hit/fx-hit.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/fx-hit/fx-hit.png",
+          "sha256": "9cda5a6dab990adfadbce659709ee08e55f84615f8df8e88f9ef1d20c6752137",
+          "generationRecord": "designs/production-v1/fx-hit/fx-hit.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          0,
+          940,
+          314,
+          1254
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          314,
+          314
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-13",
+      "name": "fx-hit 13",
+      "file": "assets/fx/fx-hit/frame-13.png",
+      "sha256": "5cf8f70d876899da2403746484d1abd99ba564c31f0fd136da181a3076d33dfd",
+      "width": 314,
+      "height": 314,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/fx-hit/fx-hit.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/fx-hit/fx-hit.png",
+          "sha256": "9cda5a6dab990adfadbce659709ee08e55f84615f8df8e88f9ef1d20c6752137",
+          "generationRecord": "designs/production-v1/fx-hit/fx-hit.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          314,
+          940,
+          627,
+          1254
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          313,
+          314
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-14",
+      "name": "fx-hit 14",
+      "file": "assets/fx/fx-hit/frame-14.png",
+      "sha256": "73409c044bcd1efdef774a8dac33aa2dbd41d9157a8417cecd1e8480d49ef82c",
+      "width": 314,
+      "height": 314,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/fx-hit/fx-hit.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/fx-hit/fx-hit.png",
+          "sha256": "9cda5a6dab990adfadbce659709ee08e55f84615f8df8e88f9ef1d20c6752137",
+          "generationRecord": "designs/production-v1/fx-hit/fx-hit.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          627,
+          940,
+          940,
+          1254
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          313,
+          314
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-15",
+      "name": "fx-hit 15",
+      "file": "assets/fx/fx-hit/frame-15.png",
+      "sha256": "21ca22372f78183daaeb11841e621b109181d6cdc0452ce759bb80012dbb4429",
+      "width": 314,
+      "height": 314,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/fx-hit/fx-hit.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/fx-hit/fx-hit.png",
+          "sha256": "9cda5a6dab990adfadbce659709ee08e55f84615f8df8e88f9ef1d20c6752137",
+          "generationRecord": "designs/production-v1/fx-hit/fx-hit.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          940,
+          940,
+          1254,
+          1254
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          314,
+          314
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ]
+      }
+    }
+  ],
+  "warnings": [],
+  "complete": true,
+  "status": "accepted_first_release_art",
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+  "acceptedAt": "2026-10-30T04:07:09.085600+00:00"
+}

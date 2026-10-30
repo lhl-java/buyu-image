@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "status": "accepted_first_release_art",
+  "sourceMaster": "assets/characters/dao-child/dao-child.png",
+  "sourceGenerationRecord": "assets/characters/dao-child/dao-child.png.generation.json",
+  "identity": "金发带、棕黑短发大眼道童，玉绿米白金边道袍，腰间葫芦与鱼篓；同现存捕鱼道童，不换脸、不换衣、不改变法器。",
+  "capabilityEvidence": "docs/media-doctor-20261026.json",
+  "actions": [
+    {
+      "id": "idle",
+      "type": "loop",
+      "durationSeconds": 1.0,
+      "plannedFps": 8,
+      "plannedFrames": 8,
+      "motion": "Gentle breathing, one subtle natural blink and slight sash motion. Feet stay planted. End at source rest pose.",
+      "status": "accepted_Unity_art",
+      "rootAnchorNormalized": [
+        0.5,
+        0.88
+      ],
+      "camera": "locked; source projection; no pan/zoom/turn",
+      "canvasPaddingRatio": [
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      "identityLock": true,
+      "alpha": "native alpha or measured matte; no painted checkerboard",
+      "output": "assets/animations/dao-child/idle/manifest.json",
+      "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+      "previousVideoSamplingPlan": {
+        "fps": 16,
+        "frames": 32,
+        "durationSeconds": 2
+      },
+      "releaseReady": true,
+      "actualFps": 8,
+      "actualFrameCount": 8,
+      "actualDurationMs": 1000
+    },
+    {
+      "id": "point",
+      "type": "one_shot",
+      "durationSeconds": 0.8,
+      "plannedFps": 10,
+      "plannedFrames": 8,
+      "motion": "One clear short guide gesture toward the left menu area; preserve held props and return to source rest pose.",
+      "status": "accepted_Unity_art",
+      "rootAnchorNormalized": [
+        0.5,
+        0.88
+      ],
+      "camera": "locked; source projection; no pan/zoom/turn",
+      "canvasPaddingRatio": [
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      "identityLock": true,
+      "alpha": "native alpha or measured matte; no painted checkerboard",
+      "output": "assets/animations/dao-child/point/manifest.json",
+      "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+      "previousVideoSamplingPlan": {
+        "fps": 16,
+        "frames": 24,
+        "durationSeconds": 1.5
+      },
+      "releaseReady": true,
+      "actualFps": 10,
+      "actualFrameCount": 8,
+      "actualDurationMs": 800
+    },
+    {
+      "id": "celebrate",
+      "type": "one_shot",
+      "durationSeconds": 0.8,
+      "plannedFps": 10,
+      "plannedFrames": 8,
+      "motion": "Warm smile and one small celebratory upper-body bounce; preserve grounded feet, all equipment and identity; recover source rest pose.",
+      "status": "accepted_Unity_art",
+      "rootAnchorNormalized": [
+        0.5,
+        0.88
+      ],
+      "camera": "locked; source projection; no pan/zoom/turn",
+      "canvasPaddingRatio": [
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      "identityLock": true,
+      "alpha": "native alpha or measured matte; no painted checkerboard",
+      "output": "assets/animations/dao-child/celebrate/manifest.json",
+      "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+      "previousVideoSamplingPlan": {
+        "fps": 16,
+        "frames": 32,
+        "durationSeconds": 2
+      },
+      "releaseReady": true,
+      "actualFps": 10,
+      "actualFrameCount": 8,
+      "actualDurationMs": 800
+    }
+  ],
+  "generationRoute": "builtin_native_action_sheets_per_explicit_user_choice",
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json"
+}

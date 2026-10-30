@@ -1,0 +1,10 @@
+{
+  "prompt": "EDIT IMAGE1's layout into a REAL8FRAME ANIMATION. Image1 is only a 4columns×2rows reference arrangement of the approved master; its repeated static copies are NOT the requested output. KEEP EXACTLY the normalized cell positions, generous transparent spaces, constant head/body size and orientation from image1. Generate native2:1 trueAlpha landscape at highest native quality. Maintain4columns×2rows8completecreatures. Images2and3 are STYLE ONLY; image4 exactidentity ONLY. Do NOT enlarge creatures tofillcells. Do NOT fit everypose toitsownbbox. Same eye/head/root/bodylength and camera in all8cells. Allanatomicalparts fullyinsideowncellwithtransparentgutter; nevercrossgrid. Preserve allgoldornament/scalepatterns/colors. Need real articulated posechanges in tail/fins/tentacles, NEVER eight rigid translations/rotations/scales ofthewholecreature. Row-majorphases0,45,90,135,180,225,270,315; uniquephase7notduplicate0. No labels/numbers/UI/gridlines/bubbles/water/background/groundshadow/checkerboard. Complete transparent silhouettes.\nThe exact round jade-spotted grouper in image4: ivory belly, dark jade camouflage patches, gold trims and curled gold cheek ornament, amber-black eye, chunky green-and-gold fins. Face upper-right as master. Keep the round head and body shape rigid and the patches identical. Real swimming motion mainly from tail peduncle flex and paired pectoral beats: phases0 left-tail/open near fin;1 left-mid/near fin back;2 center/near fin folded;3 right-mid/near fin recover;4 right-tail/far fin back;5 right-mid/near fin opens;6 center with opposite S tail base;7 left-mid/near fin ready for0. Dorsal/anal fin tips subtly trail the stroke. No whole-body zoom, rigid image rocking or swimming translation.",
+  "transparent_background": true,
+  "referenced_image_paths": [
+    "D:\\work\\buyu-image\\designs\\motion-frames-v1\\20-yuban\\geometry-reference.png",
+    "D:\\work\\buyu-image\\designs\\mail-ui-v1\\01-mail-event.png",
+    "D:\\work\\buyu-image\\designs\\team-ui-v2\\team-ui-v2.png",
+    "D:\\work\\buyu-image\\assets\\fish\\batch-4\\20-yuban.png"
+  ]
+}

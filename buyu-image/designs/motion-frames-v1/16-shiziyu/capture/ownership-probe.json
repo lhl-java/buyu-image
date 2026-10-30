@@ -1,0 +1,127 @@
+{
+  "source": "designs/motion-frames-v1/16-shiziyu/capture/16-shiziyu-capture.png",
+  "threshold": 16,
+  "largest8Components": [
+    {
+      "label": 1,
+      "area": 94616,
+      "bbox": [
+        21,
+        64,
+        443,
+        428
+      ],
+      "center": [
+        246.5681174431386,
+        254.21797581804347
+      ],
+      "touchesTotalCanvas": false
+    },
+    {
+      "label": 2,
+      "area": 92105,
+      "bbox": [
+        468,
+        67,
+        891,
+        429
+      ],
+      "center": [
+        690.3851148146138,
+        251.68749796427988
+      ],
+      "touchesTotalCanvas": false
+    },
+    {
+      "label": 6,
+      "area": 81862,
+      "bbox": [
+        919,
+        91,
+        1318,
+        417
+      ],
+      "center": [
+        1123.3131856050427,
+        251.60600767144706
+      ],
+      "touchesTotalCanvas": false
+    },
+    {
+      "label": 5,
+      "area": 75369,
+      "bbox": [
+        1340,
+        90,
+        1755,
+        410
+      ],
+      "center": [
+        1554.9862277594236,
+        243.32453661319641
+      ],
+      "touchesTotalCanvas": false
+    },
+    {
+      "label": 35,
+      "area": 86034,
+      "bbox": [
+        19,
+        494,
+        447,
+        833
+      ],
+      "center": [
+        238.61335053583468,
+        667.1047260385429
+      ],
+      "touchesTotalCanvas": false
+    },
+    {
+      "label": 32,
+      "area": 88372,
+      "bbox": [
+        470,
+        491,
+        882,
+        843
+      ],
+      "center": [
+        684.3610759063956,
+        676.0880482505771
+      ],
+      "touchesTotalCanvas": false
+    },
+    {
+      "label": 34,
+      "area": 89331,
+      "bbox": [
+        909,
+        493,
+        1322,
+        844
+      ],
+      "center": [
+        1123.280417772106,
+        678.6242066024113
+      ],
+      "touchesTotalCanvas": false
+    },
+    {
+      "label": 33,
+      "area": 91475,
+      "bbox": [
+        1342,
+        491,
+        1756,
+        843
+      ],
+      "center": [
+        1558.8762503416233,
+        675.7768024050287
+      ],
+      "touchesTotalCanvas": false
+    }
+  ],
+  "meaning": "Connectivity evidence only: no automatic motion pass, component deletion, or clipping repair."
+}

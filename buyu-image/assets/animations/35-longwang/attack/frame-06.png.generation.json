@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-06",
+  "name": "龙王海龙攻击 7/8",
+  "file": "assets/animations/35-longwang/attack/frame-06.png",
+  "sha256": "b1ab104b8fd5d7cc4b04f4fff919d1c6eabd2babed12008bd58ad3d36442a91a",
+  "width": 1000,
+  "height": 1000,
+  "format": "RGBA PNG",
+  "derivedAt": "2026-10-28T17:55:05.484363+00:00",
+  "nativeSource": "designs/motion-frames-v1/35-longwang/attack/attack-b-v1.png",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/35-longwang/attack/attack-b-v1.png",
+      "sha256": "93b27af7a4c459fe9a5bdcf393ca9d26d2f997e201b0c3fa8ce9c2304a4cbdf3",
+      "generationRecord": "designs/motion-frames-v1/35-longwang/attack/attack-b-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_extraction_integer_eye_registration_and_padding",
+    "extraction": {
+      "type": "complete_native_actor_ownership",
+      "report": "designs/motion-frames-v1/35-longwang/attack/extract-b.json",
+      "sourceRect": [
+        82,
+        691,
+        656,
+        1173
+      ],
+      "evidence": {
+        "sourceFrame": 2,
+        "file": "designs/motion-frames-v1/35-longwang/attack/extract-b-pose-02.png",
+        "sourceRect": [
+          82,
+          691,
+          656,
+          1173
+        ],
+        "nominalSourceRect": [
+          0,
+          627,
+          627,
+          1254
+        ],
+        "nominalGridCross": true,
+        "nativeVisibleSize": [
+          574,
+          482
+        ],
+        "ownedPixelCount": 181191,
+        "foreignPixelsRemovedFromCrop": 0,
+        "totalCanvasEdgeMaxAlpha": 0,
+        "nativeOwnedPixelsUnchanged": true,
+        "sourceMainAlphaComponent": 114
+      }
+    },
+    "sourceEyePoint": [
+      472.722972972973,
+      176.44932432432438
+    ],
+    "globalSourceEye": [
+      554.722972972973,
+      867.4493243243244
+    ],
+    "registrationOffset": [
+      207,
+      244
+    ],
+    "registeredCanvas": [
+      1000,
+      1000
+    ],
+    "targetEye": [
+      680,
+      420
+    ],
+    "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+    "sourcePixelsRoundTripVerified": true,
+    "resized": false,
+    "upscaled": false,
+    "rotated": false,
+    "poseWarped": false,
+    "newNativeDetailClaimed": false
+  },
+  "anchor": [
+    0.68,
+    0.42
+  ],
+  "rootPixels": [
+    680,
+    420
+  ],
+  "eyePixels": [
+    680,
+    420
+  ],
+  "registeredAlphaBBox": [
+    207,
+    244,
+    781,
+    726
+  ],
+  "registeredMinMargin": 0.207,
+  "status": "candidate_pending_playback_and_final_visual_review",
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceLandmarkEvidence": {
+    "type": "manually checked dark pupil ROI component center, nearest integer",
+    "qa": "designs/motion-frames-v1/35-longwang/attack/source-b-qa.json",
+    "sourceFrame": 2,
+    "candidateIndex": 0,
+    "detection": null,
+    "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+  },
+  "displaySize": [
+    585.5855855855856,
+    585.5855855855856
+  ],
+  "bodyDisplayBox": [
+    340,
+    260
+  ],
+  "uniformDisplayScale": 0.5855855855855856,
+  "displaySizing": {
+    "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+    "sourceVisibleReference": [
+      530,
+      444
+    ],
+    "upscalingAllowed": false,
+    "crossClipDensityReview": "pending_common_head_scale_review"
+  },
+  "animation": {
+    "id": "35-longwang/attack",
+    "frames": 8,
+    "fps": 10,
+    "loop": false,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "durationsMs": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "root": [
+      0.68,
+      0.42
+    ],
+    "sourceRoute": "builtin_native_AI_sheet_user_requested",
+    "sourcePixelsNeverResampled": true,
+    "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+    "phase": 6,
+    "durationMs": 100
+  }
+}

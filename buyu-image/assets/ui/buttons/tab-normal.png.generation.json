@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "tab-normal",
+  "name": "tab-normal",
+  "file": "assets/ui/buttons/tab-normal.png",
+  "sha256": "9082885e3b9c97963a2acd24545ca51fa1fad1d0e0f62da757361f800a13ede7",
+  "width": 327,
+  "height": 133,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/production-v1/kit-buttons/kit-buttons.png",
+  "derivedFrom": [
+    {
+      "file": "designs/production-v1/kit-buttons/kit-buttons.png",
+      "sha256": "83356440142af10947700328ef951cfd6818d82bbb8450a8beae09386d0bb84a",
+      "generationRecord": "designs/production-v1/kit-buttons/kit-buttons.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_ownership_crop",
+    "grid": {
+      "rows": 3,
+      "cols": 4
+    },
+    "sourceRect": [
+      0,
+      724,
+      362,
+      1086
+    ],
+    "cellCropRect": [
+      27,
+      77,
+      354,
+      210
+    ],
+    "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+    "resized": false,
+    "upscaled": false
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "displaySize": [
+    128,
+    128
+  ],
+  "status": "visual_reviewed_pending_runtime_integration",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source generation record; no new model call for this slice.",
+  "visualReview": {
+    "reviewedAt": "2026-10-26T20:07:40.751031+00:00",
+    "sourceAndContactSheetViewed": true,
+    "result": "pass_for_static_visual_asset",
+    "notes": "十二个按钮状态完整；实际目视源图及切片联系表。主/次按钮四态、页签二态、关闭二态均正确，除关闭 X 无文字。第3/4列按透明分隔 x=1075 裁切，去除原等分边界误纳入相邻辉光造成的警告。",
+    "runtimeIntegrationVerified": false
+  }
+}

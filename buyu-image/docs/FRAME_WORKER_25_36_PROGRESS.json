@@ -1,0 +1,579 @@
+{
+  "schemaVersion": 1,
+  "owner": "whole_game_gap_audit",
+  "updatedAt": "2026-10-28T20:06:53.219533+00:00",
+  "scope": "25-30 swim/capture production,31-33 swim/capture export only,Daochild idle. Root owns all31+ generation,point/celebrate,34-36 andallbossattack/enrage.",
+  "heavyLocalHold": true,
+  "candidateActionCount": 19,
+  "candidatePngFrameCount": 152,
+  "allMotionAccepted": false,
+  "gameArtComplete": false,
+  "jobs": [
+    {
+      "id": "25-yexing/swim",
+      "frames": 8,
+      "status": "candidate_pending_root_visual_and_playback_review",
+      "output": "assets/animations/25-yexing/swim",
+      "manifest": "assets/animations/25-yexing/swim/manifest.json",
+      "source": "designs/motion-frames-v1/25-yexing/swim/25-yexing-swim-contained.png",
+      "displayCalibration": {
+        "status": "candidate_pending_root_visual_runtime_review",
+        "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+        "nativeMedianPupilWidth": 36.0,
+        "targetDisplayedPupilWidth": 20,
+        "uniformDisplayScale": 0.5555555555555556,
+        "upscale": false,
+        "perFrameBboxFit": false,
+        "sharedVisualPivotPixels": [
+          440,
+          320
+        ],
+        "sharedVisualPivotNormalized": [
+          0.6875,
+          0.5
+        ],
+        "displayBodyMaxPixels": [
+          216.66666666666669,
+          163.88888888888889
+        ],
+        "warning": "Pupil is an approximate density proxy, not exact outer head geometry; root playback review still required. Pivot must use registered pupil when applying different clip scales, otherwise head shifts."
+      },
+      "releaseReady": false
+    },
+    {
+      "id": "25-yexing/capture",
+      "frames": 8,
+      "status": "candidate_pending_root_visual_and_playback_review",
+      "output": "assets/animations/25-yexing/capture",
+      "manifest": "assets/animations/25-yexing/capture/manifest.json",
+      "source": "designs/motion-frames-v1/25-yexing/capture/25-yexing-capture-contained-v2.png",
+      "displayCalibration": {
+        "status": "candidate_pending_root_visual_runtime_review",
+        "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+        "nativeMedianPupilWidth": 30.5,
+        "targetDisplayedPupilWidth": 20,
+        "uniformDisplayScale": 0.6557377049180327,
+        "upscale": false,
+        "perFrameBboxFit": false,
+        "sharedVisualPivotPixels": [
+          440,
+          320
+        ],
+        "sharedVisualPivotNormalized": [
+          0.6875,
+          0.5
+        ],
+        "displayBodyMaxPixels": [
+          222.95081967213113,
+          162.62295081967213
+        ],
+        "warning": "Pupil is an approximate density proxy, not exact outer head geometry; root playback review still required. Pivot must use registered pupil when applying different clip scales, otherwise head shifts."
+      },
+      "releaseReady": false
+    },
+    {
+      "id": "26-moyu/swim",
+      "frames": 8,
+      "status": "candidate_pending_root_visual_and_playback_review",
+      "output": "assets/animations/26-moyu/swim",
+      "manifest": "assets/animations/26-moyu/swim/manifest.json",
+      "source": "designs/motion-frames-v1/26-moyu/swim/26-moyu-swim.png",
+      "displayCalibration": {
+        "status": "candidate_pending_root_visual_runtime_review",
+        "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+        "nativeMedianPupilWidth": 32.0,
+        "sharedTargetDisplayedPupilWidth": 16.097,
+        "uniformDisplayScale": 0.50303125,
+        "upscale": false,
+        "perFrameBboxFit": false,
+        "sharedVisualPivotPixels": [
+          320,
+          280
+        ],
+        "sharedVisualPivotNormalized": [
+          0.5,
+          0.4375
+        ],
+        "displayBodyMaxPixels": [
+          217.3095,
+          177.067
+        ],
+        "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+      },
+      "releaseReady": false
+    },
+    {
+      "id": "26-moyu/capture",
+      "frames": 8,
+      "status": "candidate_pending_root_visual_and_playback_review",
+      "output": "assets/animations/26-moyu/capture",
+      "manifest": "assets/animations/26-moyu/capture/manifest.json",
+      "source": "designs/motion-frames-v1/26-moyu/capture/26-moyu-capture.png",
+      "displayCalibration": {
+        "status": "candidate_pending_root_visual_runtime_review",
+        "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+        "nativeMedianPupilWidth": 33.0,
+        "sharedTargetDisplayedPupilWidth": 16.097,
+        "uniformDisplayScale": 0.4877878787878788,
+        "upscale": false,
+        "perFrameBboxFit": false,
+        "sharedVisualPivotPixels": [
+          320,
+          280
+        ],
+        "sharedVisualPivotNormalized": [
+          0.5,
+          0.4375
+        ],
+        "displayBodyMaxPixels": [
+          211.21215151515153,
+          179.99372727272728
+        ],
+        "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+      },
+      "releaseReady": false
+    },
+    {
+      "id": "27-yingguang/swim",
+      "frames": 8,
+      "status": "candidate_pending_root_visual_and_playback_review",
+      "output": "assets/animations/27-yingguang/swim",
+      "manifest": "assets/animations/27-yingguang/swim/manifest.json",
+      "source": "designs/motion-frames-v1/27-yingguang/swim/27-yingguang-swim-contained.png",
+      "displayCalibration": {
+        "status": "candidate_pending_root_visual_runtime_review",
+        "method": "one_uniform_scale_per_clip_from_first_open_rest_bounded_dark_iris_interior",
+        "nativeReferenceEyeFeatureWidth": 35,
+        "sharedTargetDisplayedEyeFeatureWidth": 20.0,
+        "uniformDisplayScale": 0.5714285714285714,
+        "upscale": false,
+        "perFrameBboxFit": false,
+        "sharedVisualPivotPixels": [
+          384,
+          320
+        ],
+        "sharedVisualPivotNormalized": [
+          0.6,
+          0.5
+        ],
+        "displayBodyMaxPixels": [
+          181.7142857142857,
+          154.28571428571428
+        ],
+        "warning": "Eye component is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered eye pivot when applying clip scales."
+      },
+      "releaseReady": false
+    },
+    {
+      "id": "27-yingguang/capture",
+      "frames": 8,
+      "status": "candidate_pending_root_visual_and_playback_review",
+      "output": "assets/animations/27-yingguang/capture",
+      "manifest": "assets/animations/27-yingguang/capture/manifest.json",
+      "source": "designs/motion-frames-v1/27-yingguang/capture/27-yingguang-capture.png",
+      "displayCalibration": {
+        "status": "candidate_pending_root_visual_runtime_review",
+        "method": "one_uniform_scale_per_clip_from_first_open_rest_bounded_dark_iris_interior",
+        "nativeReferenceEyeFeatureWidth": 41,
+        "sharedTargetDisplayedEyeFeatureWidth": 20.0,
+        "uniformDisplayScale": 0.4878048780487805,
+        "upscale": false,
+        "perFrameBboxFit": false,
+        "sharedVisualPivotPixels": [
+          384,
+          320
+        ],
+        "sharedVisualPivotNormalized": [
+          0.6,
+          0.5
+        ],
+        "displayBodyMaxPixels": [
+          170.2439024390244,
+          142.9268292682927
+        ],
+        "warning": "Eye component is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered eye pivot when applying clip scales."
+      },
+      "releaseReady": false
+    },
+    {
+      "id": "28-shenhai/swim",
+      "frames": 8,
+      "status": "candidate_pending_root_visual_and_playback_review",
+      "output": "assets/animations/28-shenhai/swim",
+      "manifest": "assets/animations/28-shenhai/swim/manifest.json",
+      "source": "designs/motion-frames-v1/28-shenhai/swim/28-shenhai-swim.png",
+      "displayCalibration": {
+        "status": "candidate_pending_root_visual_runtime_review",
+        "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+        "nativeMedianPupilWidth": 36.0,
+        "sharedTargetDisplayedPupilWidth": 20.0,
+        "uniformDisplayScale": 0.5555555555555556,
+        "upscale": false,
+        "perFrameBboxFit": false,
+        "sharedVisualPivotPixels": [
+          352,
+          320
+        ],
+        "sharedVisualPivotNormalized": [
+          0.55,
+          0.5
+        ],
+        "displayBodyMaxPixels": [
+          237.7777777777778,
+          158.88888888888889
+        ],
+        "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+      },
+      "releaseReady": false
+    },
+    {
+      "id": "28-shenhai/capture",
+      "frames": 8,
+      "status": "candidate_pending_root_visual_and_playback_review",
+      "output": "assets/animations/28-shenhai/capture",
+      "manifest": "assets/animations/28-shenhai/capture/manifest.json",
+      "source": "designs/motion-frames-v1/28-shenhai/capture/28-shenhai-capture.png",
+      "displayCalibration": {
+        "status": "candidate_pending_root_visual_runtime_review",
+        "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+        "nativeMedianPupilWidth": 36.0,
+        "sharedTargetDisplayedPupilWidth": 20.0,
+        "uniformDisplayScale": 0.5555555555555556,
+        "upscale": false,
+        "perFrameBboxFit": false,
+        "sharedVisualPivotPixels": [
+          352,
+          320
+        ],
+        "sharedVisualPivotNormalized": [
+          0.55,
+          0.5
+        ],
+        "displayBodyMaxPixels": [
+          233.88888888888889,
+          160.55555555555557
+        ],
+        "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+      },
+      "releaseReady": false
+    },
+    {
+      "id": "29-hailong/swim",
+      "frames": 8,
+      "status": "candidate_pending_root_visual_and_playback_review",
+      "output": "assets/animations/29-hailong/swim",
+      "manifest": "assets/animations/29-hailong/swim/manifest.json",
+      "source": "designs/motion-frames-v1/29-hailong/swim/29-hailong-swim.png",
+      "displayCalibration": {
+        "status": "candidate_pending_root_visual_runtime_review",
+        "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+        "nativeMedianPupilWidth": 29.0,
+        "sharedTargetDisplayedPupilWidth": 14.301,
+        "uniformDisplayScale": 0.4931379310344828,
+        "upscale": false,
+        "perFrameBboxFit": false,
+        "sharedVisualPivotPixels": [
+          432,
+          256
+        ],
+        "sharedVisualPivotNormalized": [
+          0.675,
+          0.4
+        ],
+        "displayBodyMaxPixels": [
+          194.2963448275862,
+          179.99534482758622
+        ],
+        "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+      },
+      "releaseReady": false
+    },
+    {
+      "id": "29-hailong/capture",
+      "frames": 8,
+      "status": "candidate_pending_root_visual_and_playback_review",
+      "output": "assets/animations/29-hailong/capture",
+      "manifest": "assets/animations/29-hailong/capture/manifest.json",
+      "source": "designs/motion-frames-v1/29-hailong/capture/29-hailong-capture.png",
+      "displayCalibration": {
+        "status": "candidate_pending_root_visual_runtime_review",
+        "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+        "nativeMedianPupilWidth": 30.0,
+        "sharedTargetDisplayedPupilWidth": 14.301,
+        "uniformDisplayScale": 0.4767,
+        "upscale": false,
+        "perFrameBboxFit": false,
+        "sharedVisualPivotPixels": [
+          432,
+          256
+        ],
+        "sharedVisualPivotNormalized": [
+          0.675,
+          0.4
+        ],
+        "displayBodyMaxPixels": [
+          193.5402,
+          176.8557
+        ],
+        "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+      },
+      "releaseReady": false
+    },
+    {
+      "id": "30-jinjia/swim",
+      "frames": 8,
+      "status": "candidate_pending_root_visual_and_playback_review",
+      "output": "assets/animations/30-jinjia/swim",
+      "manifest": "assets/animations/30-jinjia/swim/manifest.json",
+      "source": "designs/motion-frames-v1/30-jinjia/swim/30-jinjia-swim.png",
+      "displayCalibration": {
+        "status": "candidate_pending_root_visual_runtime_review",
+        "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+        "nativeMedianPupilWidth": 37.0,
+        "sharedTargetDisplayedPupilWidth": 19.304,
+        "uniformDisplayScale": 0.5217297297297296,
+        "upscale": false,
+        "perFrameBboxFit": false,
+        "sharedVisualPivotPixels": [
+          320,
+          320
+        ],
+        "sharedVisualPivotNormalized": [
+          0.5,
+          0.5
+        ],
+        "displayBodyMaxPixels": [
+          225.3872432432432,
+          179.99675675675672
+        ],
+        "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+      },
+      "releaseReady": false
+    },
+    {
+      "id": "30-jinjia/capture",
+      "frames": 8,
+      "status": "candidate_pending_root_visual_and_playback_review",
+      "output": "assets/animations/30-jinjia/capture",
+      "manifest": "assets/animations/30-jinjia/capture/manifest.json",
+      "source": "designs/motion-frames-v1/30-jinjia/capture/30-jinjia-capture.png",
+      "displayCalibration": {
+        "status": "candidate_pending_root_visual_runtime_review",
+        "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+        "nativeMedianPupilWidth": 37.5,
+        "sharedTargetDisplayedPupilWidth": 19.304,
+        "uniformDisplayScale": 0.5147733333333333,
+        "upscale": false,
+        "perFrameBboxFit": false,
+        "sharedVisualPivotPixels": [
+          320,
+          320
+        ],
+        "sharedVisualPivotNormalized": [
+          0.5,
+          0.5
+        ],
+        "displayBodyMaxPixels": [
+          220.83775999999997,
+          174.50816
+        ],
+        "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+      },
+      "releaseReady": false
+    },
+    {
+      "id": "31-bingjing/swim",
+      "frames": 8,
+      "status": "candidate_pending_root_visual_and_playback_review",
+      "output": "assets/animations/31-bingjing/swim",
+      "manifest": "assets/animations/31-bingjing/swim/manifest.json",
+      "source": "designs/motion-frames-v1/31-bingjing/swim/31-bingjing-swim-v1.png",
+      "displayCalibration": {
+        "status": "candidate_pending_root_visual_runtime_review",
+        "method": "one_uniform_scale_per_clip_from_first_open_rest_bounded_dark_iris_interior",
+        "nativeReferenceEyeFeatureWidth": 27,
+        "sharedTargetDisplayedEyeFeatureWidth": 17.753,
+        "uniformDisplayScale": 0.6575185185185185,
+        "upscale": false,
+        "perFrameBboxFit": false,
+        "sharedVisualPivotPixels": [
+          560,
+          400
+        ],
+        "sharedVisualPivotNormalized": [
+          0.7,
+          0.5
+        ],
+        "displayBodyMaxPixels": [
+          239.99425925925925,
+          157.14692592592593
+        ],
+        "warning": "Eye component is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered eye pivot when applying clip scales."
+      },
+      "releaseReady": false
+    },
+    {
+      "id": "31-bingjing/capture",
+      "frames": 8,
+      "status": "candidate_pending_root_visual_and_playback_review",
+      "output": "assets/animations/31-bingjing/capture",
+      "manifest": "assets/animations/31-bingjing/capture/manifest.json",
+      "source": "designs/motion-frames-v1/31-bingjing/capture/31-bingjing-capture-v1.png",
+      "displayCalibration": {
+        "status": "candidate_pending_root_visual_runtime_review",
+        "method": "one_uniform_scale_per_clip_from_first_open_rest_bounded_dark_iris_interior",
+        "nativeReferenceEyeFeatureWidth": 30,
+        "sharedTargetDisplayedEyeFeatureWidth": 17.753,
+        "uniformDisplayScale": 0.5917666666666667,
+        "upscale": false,
+        "perFrameBboxFit": false,
+        "sharedVisualPivotPixels": [
+          560,
+          400
+        ],
+        "sharedVisualPivotNormalized": [
+          0.7,
+          0.5
+        ],
+        "displayBodyMaxPixels": [
+          224.87133333333333,
+          175.16293333333334
+        ],
+        "warning": "Eye component is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered eye pivot when applying clip scales."
+      },
+      "releaseReady": false
+    },
+    {
+      "id": "32-honglian/swim",
+      "frames": 8,
+      "status": "candidate_pending_root_visual_and_playback_review",
+      "output": "assets/animations/32-honglian/swim",
+      "manifest": "assets/animations/32-honglian/swim/manifest.json",
+      "source": "designs/motion-frames-v1/32-honglian/swim/32-honglian-swim-v1.png",
+      "displayCalibration": {
+        "status": "candidate_pending_root_visual_runtime_review",
+        "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+        "nativeMedianPupilWidth": 24.0,
+        "sharedTargetDisplayedPupilWidth": 11.739,
+        "uniformDisplayScale": 0.48912500000000003,
+        "upscale": false,
+        "perFrameBboxFit": false,
+        "sharedVisualPivotPixels": [
+          560,
+          400
+        ],
+        "sharedVisualPivotNormalized": [
+          0.7,
+          0.5
+        ],
+        "displayBodyMaxPixels": [
+          209.83462500000002,
+          179.99800000000002
+        ],
+        "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+      },
+      "releaseReady": false
+    },
+    {
+      "id": "32-honglian/capture",
+      "frames": 8,
+      "status": "candidate_pending_root_visual_and_playback_review",
+      "output": "assets/animations/32-honglian/capture",
+      "manifest": "assets/animations/32-honglian/capture/manifest.json",
+      "source": "designs/motion-frames-v1/32-honglian/capture/32-honglian-capture-v1.png",
+      "displayCalibration": {
+        "status": "candidate_pending_root_visual_runtime_review",
+        "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+        "nativeMedianPupilWidth": 26,
+        "sharedTargetDisplayedPupilWidth": 11.739,
+        "uniformDisplayScale": 0.4515,
+        "upscale": false,
+        "perFrameBboxFit": false,
+        "sharedVisualPivotPixels": [
+          560,
+          400
+        ],
+        "sharedVisualPivotNormalized": [
+          0.7,
+          0.5
+        ],
+        "displayBodyMaxPixels": [
+          194.5965,
+          146.286
+        ],
+        "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+      },
+      "releaseReady": false
+    },
+    {
+      "id": "33-xuanwu/swim",
+      "frames": 8,
+      "status": "candidate_pending_root_visual_and_playback_review",
+      "output": "assets/animations/33-xuanwu/swim",
+      "manifest": "assets/animations/33-xuanwu/swim/manifest.json",
+      "source": "designs/motion-frames-v1/33-xuanwu/swim/33-xuanwu-swim-v1.png",
+      "displayCalibration": {
+        "status": "candidate_pending_root_visual_runtime_review",
+        "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+        "nativeMedianPupilWidth": 24.5,
+        "sharedTargetDisplayedPupilWidth": 13.095,
+        "uniformDisplayScale": 0.5344897959183674,
+        "upscale": false,
+        "perFrameBboxFit": false,
+        "sharedVisualPivotPixels": [
+          560,
+          400
+        ],
+        "sharedVisualPivotNormalized": [
+          0.7,
+          0.5
+        ],
+        "displayBodyMaxPixels": [
+          239.98591836734698,
+          168.36428571428573
+        ],
+        "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+      },
+      "releaseReady": false
+    },
+    {
+      "id": "33-xuanwu/capture",
+      "frames": 8,
+      "status": "candidate_pending_root_visual_and_playback_review",
+      "output": "assets/animations/33-xuanwu/capture",
+      "manifest": "assets/animations/33-xuanwu/capture/manifest.json",
+      "source": "designs/motion-frames-v1/33-xuanwu/capture/33-xuanwu-capture-v1.png",
+      "displayCalibration": {
+        "status": "candidate_pending_root_visual_runtime_review",
+        "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+        "nativeMedianPupilWidth": 24,
+        "sharedTargetDisplayedPupilWidth": 13.095,
+        "uniformDisplayScale": 0.545625,
+        "upscale": false,
+        "perFrameBboxFit": false,
+        "sharedVisualPivotPixels": [
+          560,
+          400
+        ],
+        "sharedVisualPivotNormalized": [
+          0.7,
+          0.5
+        ],
+        "displayBodyMaxPixels": [
+          228.61687500000002,
+          152.775
+        ],
+        "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+      },
+      "releaseReady": false
+    },
+    {
+      "id": "dao-child/idle",
+      "frames": 8,
+      "status": "candidate_pending_root_visual_and_playback_review",
+      "manifest": "assets/animations/dao-child/idle/manifest.json",
+      "output": "assets/animations/dao-child/idle",
+      "releaseReady": false
+    }
+  ]
+}

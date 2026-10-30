@@ -1,0 +1,72 @@
+{
+  "grid": [
+    2,
+    4
+  ],
+  "canvas": [
+    640,
+    640
+  ],
+  "fps": 12,
+  "displayBox": [
+    240,
+    180
+  ],
+  "loop": true,
+  "action": "swim",
+  "pending": [
+    "Root actual loop playback and identity/appendage review.",
+    "Unity runtime not reviewed; static counts/geometry do not prove motion pass.",
+    "Weak lantern glow/fringe reaches mathematical source boundaries alpha4..10; visible alpha>16 anatomy complete. Preserve raw warning; shallow/deep composite and loop review pending."
+  ],
+  "id": "28-shenhai/swim",
+  "name": "深海鮟鱇",
+  "source": "designs/motion-frames-v1/28-shenhai/swim/28-shenhai-swim.png",
+  "output": "assets/animations/28-shenhai/swim",
+  "pupilTarget": [
+    352,
+    320
+  ],
+  "pupilRoi": [
+    220,
+    180,
+    315,
+    290
+  ],
+  "pupilExpected": [
+    [
+      265,
+      254
+    ],
+    [
+      269,
+      254
+    ],
+    [
+      261,
+      254
+    ],
+    [
+      259,
+      254
+    ],
+    [
+      270,
+      209
+    ],
+    [
+      271,
+      214
+    ],
+    [
+      268,
+      217
+    ],
+    [
+      266,
+      213
+    ]
+  ],
+  "maxSourceEdgeAlpha": 16,
+  "visualReview": "Actual source viewed: full lantern/stalk/tassel, fan tail and gold fins present. Local fin/tail articulation, no body affine animation. Visible alpha>16 body bounds stay inside nominal cells; source border only alpha4..10 weak lantern glow/fringe, total outer edge max4. Low-alpha boundary needs composite review, retained not erased."
+}

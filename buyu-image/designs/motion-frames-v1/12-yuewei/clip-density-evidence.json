@@ -1,0 +1,345 @@
+{
+  "schemaVersion": 1,
+  "id": "12-yuewei",
+  "method": "Actual native 47px eye ROI warm-amber segmentation; binary closing1, smallest enclosing component; median of8 widths. Height ignored because highlights/shading split upper iris.",
+  "mask": "R>100,G>50,B<.75R,G>1.3B,R-G>-15,A>200",
+  "producerROIActuallyViewed": true,
+  "evidence": {
+    "swim": {
+      "source": "designs/motion-frames-v1/12-yuewei/swim/12-yuewei-swim-v1.png",
+      "sha256": "17dbf4f162163e0b4dd4e4067ffd4817d016f1e14ca8c42c58eacbd0c9d85190",
+      "entries": [
+        {
+          "frame": 0,
+          "roiGlobal": [
+            346,
+            214,
+            393,
+            261
+          ],
+          "iris": {
+            "box": [
+              4,
+              13,
+              38,
+              43
+            ],
+            "width": 34,
+            "height": 30,
+            "area": 356
+          }
+        },
+        {
+          "frame": 1,
+          "roiGlobal": [
+            788,
+            218,
+            835,
+            265
+          ],
+          "iris": {
+            "box": [
+              3,
+              17,
+              37,
+              43
+            ],
+            "width": 34,
+            "height": 26,
+            "area": 352
+          }
+        },
+        {
+          "frame": 2,
+          "roiGlobal": [
+            1197,
+            216,
+            1244,
+            263
+          ],
+          "iris": {
+            "box": [
+              4,
+              17,
+              37,
+              43
+            ],
+            "width": 33,
+            "height": 26,
+            "area": 307
+          }
+        },
+        {
+          "frame": 3,
+          "roiGlobal": [
+            1659,
+            218,
+            1706,
+            265
+          ],
+          "iris": {
+            "box": [
+              3,
+              13,
+              37,
+              43
+            ],
+            "width": 34,
+            "height": 30,
+            "area": 389
+          }
+        },
+        {
+          "frame": 4,
+          "roiGlobal": [
+            353,
+            610,
+            400,
+            657
+          ],
+          "iris": {
+            "box": [
+              3,
+              11,
+              37,
+              44
+            ],
+            "width": 34,
+            "height": 33,
+            "area": 396
+          }
+        },
+        {
+          "frame": 5,
+          "roiGlobal": [
+            801,
+            612,
+            848,
+            659
+          ],
+          "iris": {
+            "box": [
+              2,
+              12,
+              37,
+              42
+            ],
+            "width": 35,
+            "height": 30,
+            "area": 348
+          }
+        },
+        {
+          "frame": 6,
+          "roiGlobal": [
+            1214,
+            614,
+            1261,
+            661
+          ],
+          "iris": {
+            "box": [
+              4,
+              17,
+              37,
+              44
+            ],
+            "width": 33,
+            "height": 27,
+            "area": 333
+          }
+        },
+        {
+          "frame": 7,
+          "roiGlobal": [
+            1665,
+            613,
+            1712,
+            660
+          ],
+          "iris": {
+            "box": [
+              5,
+              15,
+              37,
+              42
+            ],
+            "width": 32,
+            "height": 27,
+            "area": 354
+          }
+        }
+      ],
+      "medianIrisWidth": 34.0
+    },
+    "capture": {
+      "source": "designs/motion-frames-v1/12-yuewei/capture/12-yuewei-capture-v1.png",
+      "sha256": "e28fa05f2254cebbcb19af0ef68c1c6d3db3849e9a6fbead143514a8692b232d",
+      "entries": [
+        {
+          "frame": 0,
+          "roiGlobal": [
+            355,
+            204,
+            402,
+            251
+          ],
+          "iris": {
+            "box": [
+              1,
+              8,
+              39,
+              46
+            ],
+            "width": 38,
+            "height": 38,
+            "area": 568
+          }
+        },
+        {
+          "frame": 1,
+          "roiGlobal": [
+            799,
+            201,
+            846,
+            248
+          ],
+          "iris": {
+            "box": [
+              1,
+              16,
+              39,
+              45
+            ],
+            "width": 38,
+            "height": 29,
+            "area": 456
+          }
+        },
+        {
+          "frame": 2,
+          "roiGlobal": [
+            1226,
+            203,
+            1273,
+            250
+          ],
+          "iris": {
+            "box": [
+              1,
+              11,
+              39,
+              45
+            ],
+            "width": 38,
+            "height": 34,
+            "area": 500
+          }
+        },
+        {
+          "frame": 3,
+          "roiGlobal": [
+            1673,
+            204,
+            1720,
+            251
+          ],
+          "iris": {
+            "box": [
+              1,
+              9,
+              39,
+              46
+            ],
+            "width": 38,
+            "height": 37,
+            "area": 534
+          }
+        },
+        {
+          "frame": 4,
+          "roiGlobal": [
+            348,
+            612,
+            395,
+            659
+          ],
+          "iris": {
+            "box": [
+              1,
+              6,
+              40,
+              46
+            ],
+            "width": 39,
+            "height": 40,
+            "area": 544
+          }
+        },
+        {
+          "frame": 5,
+          "roiGlobal": [
+            807,
+            612,
+            854,
+            659
+          ],
+          "iris": {
+            "box": [
+              1,
+              8,
+              39,
+              46
+            ],
+            "width": 38,
+            "height": 38,
+            "area": 545
+          }
+        },
+        {
+          "frame": 6,
+          "roiGlobal": [
+            1242,
+            613,
+            1289,
+            660
+          ],
+          "iris": {
+            "box": [
+              1,
+              9,
+              38,
+              46
+            ],
+            "width": 37,
+            "height": 37,
+            "area": 496
+          }
+        },
+        {
+          "frame": 7,
+          "roiGlobal": [
+            1673,
+            611,
+            1720,
+            658
+          ],
+          "iris": {
+            "box": [
+              1,
+              6,
+              39,
+              46
+            ],
+            "width": 38,
+            "height": 40,
+            "area": 563
+          }
+        }
+      ],
+      "medianIrisWidth": 38.0
+    }
+  },
+  "uniformCaptureSourceDensityRatio": 1.1176470588235294,
+  "scope": "One constant capture clip display scale only. No per-frame scaling, no source upsampling. Native pixels preserved and root/eye offset adjusted by same density."
+}

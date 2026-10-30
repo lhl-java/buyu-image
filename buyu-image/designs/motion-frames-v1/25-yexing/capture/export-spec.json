@@ -1,0 +1,71 @@
+{
+  "grid": [
+    2,
+    4
+  ],
+  "canvas": [
+    640,
+    640
+  ],
+  "pupilTarget": [
+    440,
+    320
+  ],
+  "fps": 12,
+  "displayBox": [
+    240,
+    180
+  ],
+  "pupilRoi": [
+    300,
+    150,
+    435,
+    290
+  ],
+  "pending": [
+    "Root actual playback/loop or capture recovery review.",
+    "Actual target Unity review; metadata/PNG count is not an animation pass.",
+    "Cross-action native head/pupil density differs from swim. Uniform whole-clip source-to-display calibration requires review; do not fit each frame bbox or silently claim same source density."
+  ],
+  "id": "25-yexing/capture",
+  "name": "夜星鱼",
+  "action": "capture",
+  "source": "designs/motion-frames-v1/25-yexing/capture/25-yexing-capture-contained-v2.png",
+  "output": "assets/animations/25-yexing/capture",
+  "loop": false,
+  "pupilExpected": [
+    [
+      375,
+      258
+    ],
+    [
+      371,
+      258
+    ],
+    [
+      341,
+      258
+    ],
+    [
+      340,
+      261
+    ],
+    [
+      358,
+      212
+    ],
+    [
+      364,
+      211
+    ],
+    [
+      358,
+      214
+    ],
+    [
+      335,
+      214
+    ]
+  ],
+  "visualReview": "Actual source viewed: fins and tail curl inward to capture peak and partially relax; eight distinct complete poses, no net or FX baked in. Alive/non-graphic. Head native density smaller than swim; cross-action density calibration still pending."
+}

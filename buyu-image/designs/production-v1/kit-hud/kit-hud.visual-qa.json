@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "job": "kit-hud",
+  "reviewedAt": "2026-10-26T20:07:40.751031+00:00",
+  "source": "designs/production-v1/kit-hud/kit-hud.png",
+  "sourceSha256": "fa7025d75e40f5a7fa1a8758c12738fffaacb0b275c6764bbd6fc9daeefd46a3",
+  "nativeSize": [
+    1448,
+    1086
+  ],
+  "alphaRange": [
+    0,
+    255
+  ],
+  "transparentPixelCount": 938167,
+  "actualModel": null,
+  "actualQuality": null,
+  "noUpscaling": true,
+  "manifest": "assets/ui/hud/manifest.json",
+  "sliceCount": 12,
+  "sliceHashesVerified": true,
+  "warnings": [],
+  "contactSheet": "tmp/art-qa/kit-hud.slice.jpg",
+  "visualReview": "十二个 HUD 控件完整；实际目视源图及切片联系表。资源胶囊、底栏、进度槽/填充、开关、复选框及四种槽状态用途清楚；按实际透明间隙划分所有权矩形。",
+  "result": "pass_for_static_visual_asset",
+  "runtimeIntegrationVerified": false
+}

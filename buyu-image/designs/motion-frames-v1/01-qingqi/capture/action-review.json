@@ -1,0 +1,206 @@
+{
+  "source": "designs/motion-frames-v1/01-qingqi/capture/01-qingqi-capture-scale-v2.png",
+  "sourceSHA256": "530b993692377ab5dff2a1cf689174e14ea294bb8b7553424a3cd08e5df493cd",
+  "action": "capture",
+  "registeredAt": "2026-10-28T16:22:09.983177+00:00",
+  "sharedCanvas": [
+    576,
+    576
+  ],
+  "rootPixels": [
+    288,
+    288
+  ],
+  "eyePixels": [
+    368,
+    276
+  ],
+  "registration": [
+    {
+      "frame": 0,
+      "pupil": [
+        349,
+        281
+      ],
+      "registeredPupil": [
+        368,
+        276
+      ],
+      "offset": [
+        19,
+        -5
+      ],
+      "minMargin": 0.17881944444444445,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 1,
+      "pupil": [
+        347,
+        280
+      ],
+      "registeredPupil": [
+        368,
+        276
+      ],
+      "offset": [
+        21,
+        -4
+      ],
+      "minMargin": 0.16493055555555555,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 2,
+      "pupil": [
+        340,
+        283
+      ],
+      "registeredPupil": [
+        368,
+        276
+      ],
+      "offset": [
+        28,
+        -7
+      ],
+      "minMargin": 0.1527777777777778,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 3,
+      "pupil": [
+        325,
+        282
+      ],
+      "registeredPupil": [
+        368,
+        276
+      ],
+      "offset": [
+        43,
+        -6
+      ],
+      "minMargin": 0.1527777777777778,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 4,
+      "pupil": [
+        372,
+        201
+      ],
+      "registeredPupil": [
+        368,
+        276
+      ],
+      "offset": [
+        -4,
+        75
+      ],
+      "minMargin": 0.1388888888888889,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 5,
+      "pupil": [
+        351,
+        201
+      ],
+      "registeredPupil": [
+        368,
+        276
+      ],
+      "offset": [
+        17,
+        75
+      ],
+      "minMargin": 0.15625,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 6,
+      "pupil": [
+        334,
+        203
+      ],
+      "registeredPupil": [
+        368,
+        276
+      ],
+      "offset": [
+        34,
+        73
+      ],
+      "minMargin": 0.14756944444444445,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 7,
+      "pupil": [
+        329,
+        202
+      ],
+      "registeredPupil": [
+        368,
+        276
+      ],
+      "offset": [
+        39,
+        74
+      ],
+      "minMargin": 0.1579861111111111,
+      "pixelRoundTrip": true
+    }
+  ],
+  "uniformScale": 0.39473684210526316,
+  "sourceMarginWarnings": [
+    {
+      "frame": 0,
+      "actual": 0.1036036036036036,
+      "required": 0.12
+    },
+    {
+      "frame": 1,
+      "actual": 0.0990990990990991,
+      "required": 0.12
+    },
+    {
+      "frame": 2,
+      "actual": 0.09234234234234234,
+      "required": 0.12
+    },
+    {
+      "frame": 3,
+      "actual": 0.10135135135135136,
+      "required": 0.12
+    },
+    {
+      "frame": 4,
+      "actual": 0.05405405405405406,
+      "required": 0.12
+    },
+    {
+      "frame": 5,
+      "actual": 0.09480812641083522,
+      "required": 0.12
+    },
+    {
+      "frame": 6,
+      "actual": 0.11512415349887133,
+      "required": 0.12
+    },
+    {
+      "frame": 7,
+      "actual": 0.11711711711711711,
+      "required": 0.12
+    }
+  ],
+  "runtimeWarnings": [],
+  "producerVisualNote": "Actual native/light and eye ROI inspected: real C-bend at phase4, tail fan fold differences and relaxed final fin pose; cross-action head/body near same native size after scale correction. Root visual and playback pending.",
+  "registeredContactVisual": "producer_actually_viewed_light_dark_and_display_rest_comparison",
+  "identityAndMotion": "pending_root_visual",
+  "playback": "pending_Unity",
+  "references": "designs/motion-frames-v1/01-qingqi/swim/01-qingqi-swim-contained-v2.png",
+  "rootVisual": "pending"
+}

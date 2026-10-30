@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-06",
+  "file": "assets/animations/01-qingqi/capture/frame-06.png",
+  "sha256": "7737b1ffd1849df31b485f16ffab4b92ec18422810b2768a2baa54433d591879",
+  "width": 576,
+  "height": 576,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/motion-frames-v1/01-qingqi/capture/01-qingqi-capture-scale-v2.png",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/01-qingqi/capture/01-qingqi-capture-scale-v2.png",
+      "sha256": "530b993692377ab5dff2a1cf689174e14ea294bb8b7553424a3cd08e5df493cd",
+      "generationRecord": "designs/motion-frames-v1/01-qingqi/capture/01-qingqi-capture-scale-v2.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_grid_crop_integer_pupil_registration",
+    "sourceRect": [
+      887,
+      444,
+      1330,
+      887
+    ],
+    "cellCropRect": [
+      0,
+      0,
+      443,
+      443
+    ],
+    "registrationOffset": [
+      34,
+      73
+    ],
+    "registeredCanvas": [
+      576,
+      576
+    ],
+    "registrationReference": {
+      "type": "black_pupil_component_centroid",
+      "sourcePointFloat": [
+        334.18529411764706,
+        203.17352941176472
+      ],
+      "sourcePointRounded": [
+        334,
+        203
+      ],
+      "targetPoint": [
+        368,
+        276
+      ],
+      "method": "largest RGBmax<55 and A>220 component within right48percent cell; requires actual ROI visual confirmation",
+      "roiActuallyInspected": true
+    },
+    "resized": false,
+    "upscaled": false,
+    "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+    "sourcePixelsRoundTripVerified": true
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "rootPixels": [
+    288,
+    288
+  ],
+  "eyePixels": [
+    368,
+    276
+  ],
+  "displaySize": [
+    227.3684210526316,
+    227.3684210526316
+  ],
+  "bodyDisplayBox": [
+    120,
+    80
+  ],
+  "uniformDisplayScale": 0.39473684210526316,
+  "scaleReference": "assets/animations/01-qingqi/swim/manifest.json",
+  "registeredAlphaBBox": [
+    85,
+    189,
+    419,
+    395
+  ],
+  "registeredMinMargin": 0.14756944444444445,
+  "status": "producer_candidate_pending_root_visual",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+  "producerLightDarkStillReview": "viewed_candidate_pass"
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/motion-frames-v1/32-honglian/swim/extract-v1-pose-00.png",
+  "sha256": "f65af32283f68f4b53e9f99257f50c9779ef1ab0ed6a23a19a4abfe06b8ec254",
+  "width": 425,
+  "height": 296,
+  "format": "RGBA PNG",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/32-honglian/swim/32-honglian-swim-v1.png",
+      "sha256": "99f1b398b5dd1061b47b5f4b68583b31652b2ccfb1f10c30656e12b15f109616",
+      "generationRecord": "designs/motion-frames-v1/32-honglian/swim/32-honglian-swim-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_complete_actor_ownership_crop",
+    "evidence": {
+      "sourceFrame": 0,
+      "file": "designs/motion-frames-v1/32-honglian/swim/extract-v1-pose-00.png",
+      "sourceRect": [
+        13,
+        99,
+        438,
+        395
+      ],
+      "nominalSourceRect": [
+        0,
+        0,
+        444,
+        444
+      ],
+      "nominalGridCross": false,
+      "nativeVisibleSize": [
+        425,
+        296
+      ],
+      "ownedPixelCount": 64986,
+      "foreignPixelsRemovedFromCrop": 0,
+      "totalCanvasEdgeMaxAlpha": 0,
+      "nativeOwnedPixelsUnchanged": true,
+      "sourceMainAlphaComponent": 8
+    },
+    "alphaCleanup": "alpha<=3 discarded, other owned RGBA unchanged",
+    "resized": false,
+    "upscaled": false,
+    "newNativeDetailClaimed": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "intermediate_pending_semantic_review"
+}

@@ -1,0 +1,69 @@
+{
+  "source": "designs/production-v1/fish-sheet-1/fish-sheet-1.png",
+  "output": "assets/fish/batch-1",
+  "rows": 2,
+  "cols": 3,
+  "items": [
+    {
+      "id": "01-qingqi",
+      "name": "青鳍鱼",
+      "description": "small streamlined cobalt-blue river fish, jade-blue fin tips",
+      "tier": "common",
+      "displaySize": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "02-jinwei",
+      "name": "金尾鱼",
+      "description": "small bright golden yellow fish, broad fan tail",
+      "tier": "common",
+      "displaySize": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "03-chiyu",
+      "name": "赤羽鱼",
+      "description": "small coral-orange fish with red feather-like fins",
+      "tier": "common",
+      "displaySize": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "04-shenxian",
+      "name": "神仙鱼",
+      "description": "black white and warm yellow angelfish, long triangular dorsal fin",
+      "tier": "common",
+      "displaySize": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "05-hetun",
+      "name": "河豚",
+      "description": "round cheerful cream pufferfish with brown dots and short soft spines",
+      "tier": "common",
+      "displaySize": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "06-haima",
+      "name": "海马",
+      "description": "pink peach seahorse, curled tail, delicate jade crest",
+      "tier": "common",
+      "displaySize": [
+        120,
+        80
+      ]
+    }
+  ],
+  "keepCell": false
+}

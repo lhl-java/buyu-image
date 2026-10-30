@@ -1,0 +1,70 @@
+{
+  "grid": [
+    2,
+    4
+  ],
+  "canvas": [
+    640,
+    640
+  ],
+  "fps": 12,
+  "displayBox": [
+    240,
+    180
+  ],
+  "loop": true,
+  "action": "swim",
+  "pending": [
+    "Root actual loop playback and identity/appendage review.",
+    "Unity runtime not reviewed; static counts/geometry do not prove motion pass."
+  ],
+  "id": "27-yingguang/swim",
+  "name": "荧光乌贼",
+  "source": "designs/motion-frames-v1/27-yingguang/swim/27-yingguang-swim-contained.png",
+  "output": "assets/animations/27-yingguang/swim",
+  "pupilTarget": [
+    384,
+    320
+  ],
+  "pupilRoi": [
+    240,
+    190,
+    335,
+    290
+  ],
+  "pupilExpected": [
+    [
+      296,
+      254
+    ],
+    [
+      290,
+      254
+    ],
+    [
+      278,
+      254
+    ],
+    [
+      277,
+      254
+    ],
+    [
+      295,
+      217
+    ],
+    [
+      287,
+      220
+    ],
+    [
+      282,
+      221
+    ],
+    [
+      277,
+      217
+    ]
+  ],
+  "visualReview": "Source actually viewed: ivory side fins alternately flex and tentacle tips sweep; full mantle, face and fin/tentacles preserved after containment edit. Distinct articulated poses; loop not reviewed."
+}

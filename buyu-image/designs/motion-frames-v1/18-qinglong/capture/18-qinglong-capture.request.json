@@ -1,0 +1,10 @@
+{
+  "prompt": "EDIT IMAGE1 as the ONLY geometry target: it is this creature's actual4x2 SWIM sheet. Keep the SAME native2:1 canvas, same8 equalcells, same head/eye size, same local anatomical root and same body scale in ALL8cells, and match source firstframe camera. Images2/3 are artstyle only, image4 identity only. Change only the REAL ARTICULATED CAPTURE/STARTLE ACTION, not camera/wholeimage transform. 8FRAME SINGLE SHOT,12fps, chronological row-major0–7, NOT a loop. The creature remains alive and fullyvisible, no gore. Keep actualposevariation at joints, not eight copies or merelyblink/opacity. 0neutralbaseline matching swimfirstpose;1startle eyeswide/mouthslightlyopens;2finsflare andtailcontracts;3 strongest benttail/foldedfinstruggle;4 recoilwith oppositefinangles;5 limbsfold/loosentension;6 gentlysettle;7 calmcapturedpose distinctfrom0. No fade/shrink/disappear; opacity fading handledlaterbyengine. Preserve fixedheadroot/bodylength and markings, do not zoom/translate/rotate wholeanimal. Everylongfin/tail fullyinsidetheircellwithtransparentgutter; ifneeded extendtransparentgutter WITHOUT changing bodycamera/scale. TrueAlpha, no grids/labels/UI/net/water/bubbles/groundshadow/checkerboard/background. All8 unique anatomicallycoherent poses; one completecreaturepercell.\nJade gold Arowana: head/eye/frontbody and gold cloud scale ornaments fixed, same body length as image1. Startle reaction:0rest;1pairedfinsbrace;2rearbody/tailrootcontractsleft;3strongestlefttailcurlwithcaudalfanpartfolded;4tailrecoilsrightandpectoralchangesstroke;5tailrelaxes;6finsloosensettle;7calmalertpose. Barbels sway gently from fixed roots. Keep front half rigid, body scale unchanged, no full fish rotation. All8 faceRIGHT.",
+  "transparent_background": true,
+  "referenced_image_paths": [
+    "D:\\work\\buyu-image\\designs\\motion-frames-v1\\18-qinglong\\swim\\18-qinglong-swim.png",
+    "D:\\work\\buyu-image\\designs\\mail-ui-v1\\01-mail-event.png",
+    "D:\\work\\buyu-image\\designs\\team-ui-v2\\team-ui-v2.png",
+    "D:\\work\\buyu-image\\assets\\fish\\batch-3\\18-qinglong.png"
+  ]
+}

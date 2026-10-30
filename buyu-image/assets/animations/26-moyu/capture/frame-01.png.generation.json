@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-01",
+  "name": "墨玉章鱼 capture 1",
+  "file": "assets/animations/26-moyu/capture/frame-01.png",
+  "sha256": "7a383154ee6f7eeca49cce70f319345450517604b38f59e778b2442cd3416808",
+  "width": 640,
+  "height": 640,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/motion-frames-v1/26-moyu/capture/26-moyu-capture.png",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/26-moyu/capture/26-moyu-capture.png",
+      "sha256": "86364701f556c5609e3c58e98cb52531b2f1f7e0ac53ab4c73515391c45a206d",
+      "generationRecord": "designs/motion-frames-v1/26-moyu/capture/26-moyu-capture.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_grid_crop_integer_pupil_registration",
+    "grid": {
+      "rows": 2,
+      "cols": 4
+    },
+    "sourceRect": [
+      450,
+      0,
+      900,
+      444
+    ],
+    "registrationOffset": [
+      115,
+      64,
+      565,
+      508
+    ],
+    "registeredCanvas": [
+      640,
+      640
+    ],
+    "registrationReference": {
+      "type": "black_pupil_connected_component_centroid",
+      "sourcePointFloat": [
+        204.58230452674897,
+        215.5493827160494
+      ],
+      "sourcePointRounded": [
+        205,
+        216
+      ],
+      "targetPoint": [
+        320,
+        280
+      ],
+      "pupilBounds": [
+        188,
+        203,
+        220,
+        230
+      ],
+      "detectionRoi": [
+        170,
+        150,
+        270,
+        270
+      ],
+      "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+    },
+    "nominalGridRect": [
+      444,
+      0,
+      887,
+      444
+    ],
+    "sourceRectType": "custom_ownership_between_separated_characters",
+    "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+    "resized": false,
+    "upscaled": false,
+    "poseWarped": false,
+    "sourcePixelsRoundTripVerified": true,
+    "sourceCellClipping": false
+  },
+  "anchor": [
+    0.5,
+    0.4375
+  ],
+  "status": "candidate_pending_root_visual_and_playback_review",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source record; this is a native derivative, not new generation.",
+  "animation": {
+    "id": "26-moyu/capture",
+    "frames": 8,
+    "fps": 12,
+    "loop": false,
+    "order": "row-major",
+    "root": [
+      0.5,
+      0.4375
+    ],
+    "phase": 0.125,
+    "durationMs": 84,
+    "targetBodyBox": [
+      240,
+      180
+    ],
+    "displayCalibration": {
+      "status": "candidate_pending_root_visual_runtime_review",
+      "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+      "nativeMedianPupilWidth": 33.0,
+      "sharedTargetDisplayedPupilWidth": 16.097,
+      "uniformDisplayScale": 0.4877878787878788,
+      "upscale": false,
+      "perFrameBboxFit": false,
+      "sharedVisualPivotPixels": [
+        320,
+        280
+      ],
+      "sharedVisualPivotNormalized": [
+        0.5,
+        0.4375
+      ],
+      "displayBodyMaxPixels": [
+        211.21215151515153,
+        179.99372727272728
+      ],
+      "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+    }
+  },
+  "qa": {
+    "nativeBodyBoxAlpha16": [
+      9,
+      60,
+      433,
+      423
+    ],
+    "nativeVisibleSize": [
+      424,
+      363
+    ],
+    "rawCellEdgeMaxAlpha": 2,
+    "nominalGridEdgeMaxAlpha": 6,
+    "registeredBoxAlpha16": [
+      124,
+      124,
+      548,
+      487
+    ],
+    "registeredMarginsFraction": [
+      0.19375,
+      0.19375,
+      0.14375,
+      0.2390625
+    ],
+    "finalMargin12PercentPassed": true,
+    "pupilComponent": {
+      "area": 486,
+      "bbox": [
+        188,
+        203,
+        220,
+        230
+      ],
+      "centroid": [
+        204.58230452674897,
+        215.5493827160494
+      ]
+    },
+    "actualSourceViewedByProducer": true,
+    "loopOrRecoveryAccepted": false,
+    "targetClientAccepted": false
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/motion-frames-v1/26-moyu/capture/26-moyu-capture.png",
+  "sha256": "86364701f556c5609e3c58e98cb52531b2f1f7e0ac53ab4c73515391c45a206d",
+  "generatedAt": "2026-10-28T17:40:04.788Z",
+  "startedAt": "2026-10-28T17:39:14.597Z",
+  "width": 1774,
+  "height": 887,
+  "format": "PNG",
+  "pixelFormat": "Format32bppArgb",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-28",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "builtin_evidence": {
+      "model_parameter_exposed": false,
+      "quality_parameter_exposed": false,
+      "actual_model": null,
+      "actual_quality": null,
+      "note": "Configuration targets only; verify actual model and quality per generated image."
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\buyu-image\\designs\\motion-frames-v1\\26-moyu\\swim\\26-moyu-swim.png",
+      "D:\\work\\buyu-image\\assets\\fish\\batch-5\\26-moyu.png",
+      "D:\\work\\buyu-image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\buyu-image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具未开放 model/quality 参数，本次结果未披露实际型号及质量。",
+  "evidence": {
+    "toolResult": "26-moyu-capture.tool-result.txt",
+    "sourceOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a18184-f61a-7760-b69c-882264640513\\exec-bfc8e7c3-a069-4622-b35d-9dc433f81a5a.png",
+    "toolResultId": "exec-bfc8e7c3-a069-4622-b35d-9dc433f81a5a",
+    "request": "26-moyu-capture.request.json"
+  },
+  "prompt": "26-moyu-capture.prompt.txt",
+  "references": [
+    {
+      "file": "designs/motion-frames-v1/26-moyu/swim/26-moyu-swim.png",
+      "sha256": "fd07f8724dc23722b0fd601311e6220898eefcdd948638e0ece6964f3647b8f7",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "assets/fish/batch-5/26-moyu.png",
+      "sha256": "ee96d8418b26abe93514426570e2906e76384da98edefd7c0225d7fad8a505fe",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    }
+  ],
+  "requestedCanvasInPrompt": "1774x887 4x2透明8帧。",
+  "resampled": false,
+  "status": "draft_pending_user_review",
+  "visualReview": "已目视腕足局部合拢/峰值/回弹，头部未明显缩放，真透明背景，腕足解剖及节奏候选待实际播放检查。",
+  "scope": "墨玉章鱼捕获8帧原生AI候选。"
+}

@@ -1,0 +1,41 @@
+{
+  "actor": "36-xuanjing",
+  "action": "attack",
+  "name": "玄海巨鲸攻击",
+  "canvas": [
+    1000,
+    1000
+  ],
+  "eyeRoot": [
+    680,
+    420
+  ],
+  "fps": 10,
+  "loop": false,
+  "bodyDisplayBox": [
+    340,
+    260
+  ],
+  "sheets": [
+    {
+      "qa": "designs/motion-frames-v1/36-xuanjing/attack/source-a-qa.json",
+      "ownership": "designs/motion-frames-v1/36-xuanjing/attack/extract-a.json",
+      "eyeCandidateIndices": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "qa": "designs/motion-frames-v1/36-xuanjing/attack/source-b-qa.json",
+      "ownership": "designs/motion-frames-v1/36-xuanjing/attack/extract-b.json",
+      "eyeCandidateIndices": [
+        0,
+        0,
+        1,
+        1
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "33-xuanwu",
+  "name": "玄武灵龟",
+  "file": "assets/fish/batch-6/33-xuanwu.png",
+  "sha256": "f70b793821b3eb1f8507a02b4820d2e5fee5226e6c972121ced5ce639f317c8a",
+  "width": 462,
+  "height": 315,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/production-v1/fish-sheet-6/fish-sheet-6-contained.png",
+  "derivedFrom": [
+    {
+      "file": "designs/production-v1/fish-sheet-6/fish-sheet-6-contained.png",
+      "sha256": "01a7da68643144e7dfbe14eb861b5e953798e758edb18a790f43a956ad3f1104",
+      "generationRecord": "designs/production-v1/fish-sheet-6/fish-sheet-6-contained.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_grid_crop",
+    "grid": {
+      "rows": 2,
+      "cols": 3
+    },
+    "sourceRect": [
+      1024,
+      0,
+      1536,
+      512
+    ],
+    "cellCropRect": [
+      17,
+      142,
+      479,
+      457
+    ],
+    "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+    "resized": false,
+    "upscaled": false
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "displaySize": [
+    240,
+    180
+  ],
+  "status": "prepared_pending_visual_review",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source generation record; no new model call for this slice."
+}

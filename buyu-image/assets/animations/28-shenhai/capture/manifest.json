@@ -1,0 +1,1453 @@
+{
+  "schemaVersion": 1,
+  "source": "designs/motion-frames-v1/28-shenhai/capture/28-shenhai-capture.png",
+  "sourceWidth": 1774,
+  "sourceHeight": 887,
+  "output": "assets/animations/28-shenhai/capture",
+  "status": "accepted_first_release_art",
+  "items": [
+    {
+      "schemaVersion": 1,
+      "id": "frame-00",
+      "name": "深海鮟鱇 capture 0",
+      "file": "assets/animations/28-shenhai/capture/frame-00.png",
+      "sha256": "402297d1602e22b0c871958f801d483c2703cbfdeb92458e49073ec07da8155b",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/28-shenhai/capture/28-shenhai-capture.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/28-shenhai/capture/28-shenhai-capture.png",
+          "sha256": "b99aaee04c4ed3fa87d531ad2ef2b6a8cbbbbfb54d5662ed37a57523fb9fed3b",
+          "generationRecord": "designs/motion-frames-v1/28-shenhai/capture/28-shenhai-capture.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          0,
+          0,
+          444,
+          444
+        ],
+        "registrationOffset": [
+          93,
+          72,
+          537,
+          516
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_connected_component_centroid",
+          "sourcePointFloat": [
+            259.0409356725146,
+            248.15009746588694
+          ],
+          "sourcePointRounded": [
+            259,
+            248
+          ],
+          "targetPoint": [
+            352,
+            320
+          ],
+          "pupilBounds": [
+            242,
+            235,
+            278,
+            264
+          ],
+          "detectionRoi": [
+            220,
+            180,
+            315,
+            290
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+        },
+        "nominalGridRect": [
+          0,
+          0,
+          444,
+          444
+        ],
+        "sourceRectType": "nominal_grid",
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceBoundaryClippingAssessment": "only_alpha0_3_at_boundary"
+      },
+      "anchor": [
+        0.55,
+        0.5
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "28-shenhai/capture",
+        "frames": 8,
+        "fps": 12,
+        "loop": false,
+        "order": "row-major",
+        "root": [
+          0.55,
+          0.5
+        ],
+        "phase": 0.0,
+        "durationMs": 83,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+          "nativeMedianPupilWidth": 36.0,
+          "sharedTargetDisplayedPupilWidth": 20.0,
+          "uniformDisplayScale": 0.5555555555555556,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            352,
+            320
+          ],
+          "sharedVisualPivotNormalized": [
+            0.55,
+            0.5
+          ],
+          "displayBodyMaxPixels": [
+            233.88888888888889,
+            160.55555555555557
+          ],
+          "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          14,
+          119,
+          435,
+          404
+        ],
+        "nativeVisibleSize": [
+          421,
+          285
+        ],
+        "rawCellEdgeMaxAlpha": 1,
+        "nominalGridEdgeMaxAlpha": 1,
+        "registeredBoxAlpha16": [
+          107,
+          191,
+          528,
+          476
+        ],
+        "registeredMarginsFraction": [
+          0.1671875,
+          0.2984375,
+          0.175,
+          0.25625
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 513,
+          "bbox": [
+            242,
+            235,
+            278,
+            264
+          ],
+          "centroid": [
+            259.0409356725146,
+            248.15009746588694
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-01",
+      "name": "深海鮟鱇 capture 1",
+      "file": "assets/animations/28-shenhai/capture/frame-01.png",
+      "sha256": "d07d434f9a72a020ca572667988dc3808319d3d166ca66c1a3818f628804da10",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/28-shenhai/capture/28-shenhai-capture.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/28-shenhai/capture/28-shenhai-capture.png",
+          "sha256": "b99aaee04c4ed3fa87d531ad2ef2b6a8cbbbbfb54d5662ed37a57523fb9fed3b",
+          "generationRecord": "designs/motion-frames-v1/28-shenhai/capture/28-shenhai-capture.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          444,
+          0,
+          887,
+          444
+        ],
+        "registrationOffset": [
+          88,
+          74,
+          531,
+          518
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_connected_component_centroid",
+          "sourcePointFloat": [
+            263.740206185567,
+            245.58969072164948
+          ],
+          "sourcePointRounded": [
+            264,
+            246
+          ],
+          "targetPoint": [
+            352,
+            320
+          ],
+          "pupilBounds": [
+            246,
+            234,
+            283,
+            258
+          ],
+          "detectionRoi": [
+            220,
+            180,
+            315,
+            290
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+        },
+        "nominalGridRect": [
+          444,
+          0,
+          887,
+          444
+        ],
+        "sourceRectType": "nominal_grid",
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceBoundaryClippingAssessment": "only_alpha0_3_at_boundary"
+      },
+      "anchor": [
+        0.55,
+        0.5
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "28-shenhai/capture",
+        "frames": 8,
+        "fps": 12,
+        "loop": false,
+        "order": "row-major",
+        "root": [
+          0.55,
+          0.5
+        ],
+        "phase": 0.125,
+        "durationMs": 84,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+          "nativeMedianPupilWidth": 36.0,
+          "sharedTargetDisplayedPupilWidth": 20.0,
+          "uniformDisplayScale": 0.5555555555555556,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            352,
+            320
+          ],
+          "sharedVisualPivotNormalized": [
+            0.55,
+            0.5
+          ],
+          "displayBodyMaxPixels": [
+            233.88888888888889,
+            160.55555555555557
+          ],
+          "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          22,
+          117,
+          441,
+          406
+        ],
+        "nativeVisibleSize": [
+          419,
+          289
+        ],
+        "rawCellEdgeMaxAlpha": 3,
+        "nominalGridEdgeMaxAlpha": 3,
+        "registeredBoxAlpha16": [
+          110,
+          191,
+          529,
+          480
+        ],
+        "registeredMarginsFraction": [
+          0.171875,
+          0.2984375,
+          0.1734375,
+          0.25
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 485,
+          "bbox": [
+            246,
+            234,
+            283,
+            258
+          ],
+          "centroid": [
+            263.740206185567,
+            245.58969072164948
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-02",
+      "name": "深海鮟鱇 capture 2",
+      "file": "assets/animations/28-shenhai/capture/frame-02.png",
+      "sha256": "2f5e8eeb143806fc56d667a96f9e17692e528360c964e70262b8f183d2e859a5",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/28-shenhai/capture/28-shenhai-capture.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/28-shenhai/capture/28-shenhai-capture.png",
+          "sha256": "b99aaee04c4ed3fa87d531ad2ef2b6a8cbbbbfb54d5662ed37a57523fb9fed3b",
+          "generationRecord": "designs/motion-frames-v1/28-shenhai/capture/28-shenhai-capture.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          887,
+          0,
+          1330,
+          444
+        ],
+        "registrationOffset": [
+          106,
+          70,
+          549,
+          514
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_connected_component_centroid",
+          "sourcePointFloat": [
+            245.7821100917431,
+            250.1834862385321
+          ],
+          "sourcePointRounded": [
+            246,
+            250
+          ],
+          "targetPoint": [
+            352,
+            320
+          ],
+          "pupilBounds": [
+            229,
+            239,
+            265,
+            263
+          ],
+          "detectionRoi": [
+            220,
+            180,
+            315,
+            290
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+        },
+        "nominalGridRect": [
+          887,
+          0,
+          1330,
+          444
+        ],
+        "sourceRectType": "nominal_grid",
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceBoundaryClippingAssessment": "only_alpha0_3_at_boundary"
+      },
+      "anchor": [
+        0.55,
+        0.5
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "28-shenhai/capture",
+        "frames": 8,
+        "fps": 12,
+        "loop": false,
+        "order": "row-major",
+        "root": [
+          0.55,
+          0.5
+        ],
+        "phase": 0.25,
+        "durationMs": 83,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+          "nativeMedianPupilWidth": 36.0,
+          "sharedTargetDisplayedPupilWidth": 20.0,
+          "uniformDisplayScale": 0.5555555555555556,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            352,
+            320
+          ],
+          "sharedVisualPivotNormalized": [
+            0.55,
+            0.5
+          ],
+          "displayBodyMaxPixels": [
+            233.88888888888889,
+            160.55555555555557
+          ],
+          "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          34,
+          120,
+          418,
+          403
+        ],
+        "nativeVisibleSize": [
+          384,
+          283
+        ],
+        "rawCellEdgeMaxAlpha": 1,
+        "nominalGridEdgeMaxAlpha": 1,
+        "registeredBoxAlpha16": [
+          140,
+          190,
+          524,
+          473
+        ],
+        "registeredMarginsFraction": [
+          0.21875,
+          0.296875,
+          0.18125,
+          0.2609375
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 436,
+          "bbox": [
+            229,
+            239,
+            265,
+            263
+          ],
+          "centroid": [
+            245.7821100917431,
+            250.1834862385321
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-03",
+      "name": "深海鮟鱇 capture 3",
+      "file": "assets/animations/28-shenhai/capture/frame-03.png",
+      "sha256": "5b21200de9b97c68e860c1c95e17030bee03558aec65e6bd0e671f7702c8b445",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/28-shenhai/capture/28-shenhai-capture.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/28-shenhai/capture/28-shenhai-capture.png",
+          "sha256": "b99aaee04c4ed3fa87d531ad2ef2b6a8cbbbbfb54d5662ed37a57523fb9fed3b",
+          "generationRecord": "designs/motion-frames-v1/28-shenhai/capture/28-shenhai-capture.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          1330,
+          0,
+          1774,
+          444
+        ],
+        "registrationOffset": [
+          115,
+          70,
+          559,
+          514
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_connected_component_centroid",
+          "sourcePointFloat": [
+            236.75635593220338,
+            250.28177966101694
+          ],
+          "sourcePointRounded": [
+            237,
+            250
+          ],
+          "targetPoint": [
+            352,
+            320
+          ],
+          "pupilBounds": [
+            220,
+            238,
+            255,
+            266
+          ],
+          "detectionRoi": [
+            220,
+            180,
+            315,
+            290
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+        },
+        "nominalGridRect": [
+          1330,
+          0,
+          1774,
+          444
+        ],
+        "sourceRectType": "nominal_grid",
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceBoundaryClippingAssessment": "only_alpha0_3_at_boundary"
+      },
+      "anchor": [
+        0.55,
+        0.5
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "28-shenhai/capture",
+        "frames": 8,
+        "fps": 12,
+        "loop": false,
+        "order": "row-major",
+        "root": [
+          0.55,
+          0.5
+        ],
+        "phase": 0.375,
+        "durationMs": 83,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+          "nativeMedianPupilWidth": 36.0,
+          "sharedTargetDisplayedPupilWidth": 20.0,
+          "uniformDisplayScale": 0.5555555555555556,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            352,
+            320
+          ],
+          "sharedVisualPivotNormalized": [
+            0.55,
+            0.5
+          ],
+          "displayBodyMaxPixels": [
+            233.88888888888889,
+            160.55555555555557
+          ],
+          "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          31,
+          120,
+          404,
+          396
+        ],
+        "nativeVisibleSize": [
+          373,
+          276
+        ],
+        "rawCellEdgeMaxAlpha": 1,
+        "nominalGridEdgeMaxAlpha": 1,
+        "registeredBoxAlpha16": [
+          146,
+          190,
+          519,
+          466
+        ],
+        "registeredMarginsFraction": [
+          0.228125,
+          0.296875,
+          0.1890625,
+          0.271875
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 472,
+          "bbox": [
+            220,
+            238,
+            255,
+            266
+          ],
+          "centroid": [
+            236.75635593220338,
+            250.28177966101694
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-04",
+      "name": "深海鮟鱇 capture 4",
+      "file": "assets/animations/28-shenhai/capture/frame-04.png",
+      "sha256": "a745468272f4a6ae9b0d8d4f598dbcde53573c3de5edd935c501b0d31f359ad1",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/28-shenhai/capture/28-shenhai-capture.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/28-shenhai/capture/28-shenhai-capture.png",
+          "sha256": "b99aaee04c4ed3fa87d531ad2ef2b6a8cbbbbfb54d5662ed37a57523fb9fed3b",
+          "generationRecord": "designs/motion-frames-v1/28-shenhai/capture/28-shenhai-capture.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          0,
+          444,
+          444,
+          887
+        ],
+        "registrationOffset": [
+          95,
+          112,
+          539,
+          555
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_connected_component_centroid",
+          "sourcePointFloat": [
+            257.10585585585585,
+            208.4391891891892
+          ],
+          "sourcePointRounded": [
+            257,
+            208
+          ],
+          "targetPoint": [
+            352,
+            320
+          ],
+          "pupilBounds": [
+            240,
+            197,
+            276,
+            221
+          ],
+          "detectionRoi": [
+            220,
+            180,
+            315,
+            290
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+        },
+        "nominalGridRect": [
+          0,
+          444,
+          444,
+          887
+        ],
+        "sourceRectType": "nominal_grid",
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceBoundaryClippingAssessment": "only_alpha0_3_at_boundary"
+      },
+      "anchor": [
+        0.55,
+        0.5
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "28-shenhai/capture",
+        "frames": 8,
+        "fps": 12,
+        "loop": false,
+        "order": "row-major",
+        "root": [
+          0.55,
+          0.5
+        ],
+        "phase": 0.5,
+        "durationMs": 84,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+          "nativeMedianPupilWidth": 36.0,
+          "sharedTargetDisplayedPupilWidth": 20.0,
+          "uniformDisplayScale": 0.5555555555555556,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            352,
+            320
+          ],
+          "sharedVisualPivotNormalized": [
+            0.55,
+            0.5
+          ],
+          "displayBodyMaxPixels": [
+            233.88888888888889,
+            160.55555555555557
+          ],
+          "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          65,
+          88,
+          400,
+          351
+        ],
+        "nativeVisibleSize": [
+          335,
+          263
+        ],
+        "rawCellEdgeMaxAlpha": 1,
+        "nominalGridEdgeMaxAlpha": 1,
+        "registeredBoxAlpha16": [
+          160,
+          200,
+          495,
+          463
+        ],
+        "registeredMarginsFraction": [
+          0.25,
+          0.3125,
+          0.2265625,
+          0.2765625
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 444,
+          "bbox": [
+            240,
+            197,
+            276,
+            221
+          ],
+          "centroid": [
+            257.10585585585585,
+            208.4391891891892
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-05",
+      "name": "深海鮟鱇 capture 5",
+      "file": "assets/animations/28-shenhai/capture/frame-05.png",
+      "sha256": "b11e349246fa19b751ebd8d8de9ae78bcadd3cff98f42eab88728c8809936303",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/28-shenhai/capture/28-shenhai-capture.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/28-shenhai/capture/28-shenhai-capture.png",
+          "sha256": "b99aaee04c4ed3fa87d531ad2ef2b6a8cbbbbfb54d5662ed37a57523fb9fed3b",
+          "generationRecord": "designs/motion-frames-v1/28-shenhai/capture/28-shenhai-capture.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          444,
+          444,
+          887,
+          887
+        ],
+        "registrationOffset": [
+          103,
+          119,
+          546,
+          562
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_connected_component_centroid",
+          "sourcePointFloat": [
+            248.62412993039442,
+            201.39443155452437
+          ],
+          "sourcePointRounded": [
+            249,
+            201
+          ],
+          "targetPoint": [
+            352,
+            320
+          ],
+          "pupilBounds": [
+            232,
+            190,
+            266,
+            213
+          ],
+          "detectionRoi": [
+            220,
+            180,
+            315,
+            290
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+        },
+        "nominalGridRect": [
+          444,
+          444,
+          887,
+          887
+        ],
+        "sourceRectType": "nominal_grid",
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceBoundaryClippingAssessment": "only_alpha0_3_at_boundary"
+      },
+      "anchor": [
+        0.55,
+        0.5
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "28-shenhai/capture",
+        "frames": 8,
+        "fps": 12,
+        "loop": false,
+        "order": "row-major",
+        "root": [
+          0.55,
+          0.5
+        ],
+        "phase": 0.625,
+        "durationMs": 83,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+          "nativeMedianPupilWidth": 36.0,
+          "sharedTargetDisplayedPupilWidth": 20.0,
+          "uniformDisplayScale": 0.5555555555555556,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            352,
+            320
+          ],
+          "sharedVisualPivotNormalized": [
+            0.55,
+            0.5
+          ],
+          "displayBodyMaxPixels": [
+            233.88888888888889,
+            160.55555555555557
+          ],
+          "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          17,
+          74,
+          424,
+          353
+        ],
+        "nativeVisibleSize": [
+          407,
+          279
+        ],
+        "rawCellEdgeMaxAlpha": 1,
+        "nominalGridEdgeMaxAlpha": 1,
+        "registeredBoxAlpha16": [
+          120,
+          193,
+          527,
+          472
+        ],
+        "registeredMarginsFraction": [
+          0.1875,
+          0.3015625,
+          0.1765625,
+          0.2625
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 431,
+          "bbox": [
+            232,
+            190,
+            266,
+            213
+          ],
+          "centroid": [
+            248.62412993039442,
+            201.39443155452437
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-06",
+      "name": "深海鮟鱇 capture 6",
+      "file": "assets/animations/28-shenhai/capture/frame-06.png",
+      "sha256": "70071fe7d838c3c802add56386233ccd0a3206035eaea6b35c4523085ddbf8d5",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/28-shenhai/capture/28-shenhai-capture.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/28-shenhai/capture/28-shenhai-capture.png",
+          "sha256": "b99aaee04c4ed3fa87d531ad2ef2b6a8cbbbbfb54d5662ed37a57523fb9fed3b",
+          "generationRecord": "designs/motion-frames-v1/28-shenhai/capture/28-shenhai-capture.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          887,
+          444,
+          1330,
+          887
+        ],
+        "registrationOffset": [
+          111,
+          116,
+          554,
+          559
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_connected_component_centroid",
+          "sourcePointFloat": [
+            240.55165289256198,
+            203.5206611570248
+          ],
+          "sourcePointRounded": [
+            241,
+            204
+          ],
+          "targetPoint": [
+            352,
+            320
+          ],
+          "pupilBounds": [
+            224,
+            190,
+            260,
+            218
+          ],
+          "detectionRoi": [
+            220,
+            180,
+            315,
+            290
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+        },
+        "nominalGridRect": [
+          887,
+          444,
+          1330,
+          887
+        ],
+        "sourceRectType": "nominal_grid",
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceBoundaryClippingAssessment": "only_alpha0_3_at_boundary"
+      },
+      "anchor": [
+        0.55,
+        0.5
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "28-shenhai/capture",
+        "frames": 8,
+        "fps": 12,
+        "loop": false,
+        "order": "row-major",
+        "root": [
+          0.55,
+          0.5
+        ],
+        "phase": 0.75,
+        "durationMs": 83,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+          "nativeMedianPupilWidth": 36.0,
+          "sharedTargetDisplayedPupilWidth": 20.0,
+          "uniformDisplayScale": 0.5555555555555556,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            352,
+            320
+          ],
+          "sharedVisualPivotNormalized": [
+            0.55,
+            0.5
+          ],
+          "displayBodyMaxPixels": [
+            233.88888888888889,
+            160.55555555555557
+          ],
+          "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          13,
+          72,
+          419,
+          353
+        ],
+        "nativeVisibleSize": [
+          406,
+          281
+        ],
+        "rawCellEdgeMaxAlpha": 1,
+        "nominalGridEdgeMaxAlpha": 1,
+        "registeredBoxAlpha16": [
+          124,
+          188,
+          530,
+          469
+        ],
+        "registeredMarginsFraction": [
+          0.19375,
+          0.29375,
+          0.171875,
+          0.2671875
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 484,
+          "bbox": [
+            224,
+            190,
+            260,
+            218
+          ],
+          "centroid": [
+            240.55165289256198,
+            203.5206611570248
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-07",
+      "name": "深海鮟鱇 capture 7",
+      "file": "assets/animations/28-shenhai/capture/frame-07.png",
+      "sha256": "a5d64ea3dcb71b66bce6d9422e42be7899f2467eef6776c4274ed58bb36a58e8",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/28-shenhai/capture/28-shenhai-capture.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/28-shenhai/capture/28-shenhai-capture.png",
+          "sha256": "b99aaee04c4ed3fa87d531ad2ef2b6a8cbbbbfb54d5662ed37a57523fb9fed3b",
+          "generationRecord": "designs/motion-frames-v1/28-shenhai/capture/28-shenhai-capture.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          1330,
+          444,
+          1774,
+          887
+        ],
+        "registrationOffset": [
+          105,
+          117,
+          549,
+          560
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_connected_component_centroid",
+          "sourcePointFloat": [
+            247.17715617715618,
+            202.64102564102564
+          ],
+          "sourcePointRounded": [
+            247,
+            203
+          ],
+          "targetPoint": [
+            352,
+            320
+          ],
+          "pupilBounds": [
+            230,
+            192,
+            266,
+            215
+          ],
+          "detectionRoi": [
+            220,
+            180,
+            315,
+            290
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+        },
+        "nominalGridRect": [
+          1330,
+          444,
+          1774,
+          887
+        ],
+        "sourceRectType": "nominal_grid",
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceBoundaryClippingAssessment": "only_alpha0_3_at_boundary"
+      },
+      "anchor": [
+        0.55,
+        0.5
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "28-shenhai/capture",
+        "frames": 8,
+        "fps": 12,
+        "loop": false,
+        "order": "row-major",
+        "root": [
+          0.55,
+          0.5
+        ],
+        "phase": 0.875,
+        "durationMs": 84,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+          "nativeMedianPupilWidth": 36.0,
+          "sharedTargetDisplayedPupilWidth": 20.0,
+          "uniformDisplayScale": 0.5555555555555556,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            352,
+            320
+          ],
+          "sharedVisualPivotNormalized": [
+            0.55,
+            0.5
+          ],
+          "displayBodyMaxPixels": [
+            233.88888888888889,
+            160.55555555555557
+          ],
+          "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          13,
+          72,
+          423,
+          356
+        ],
+        "nativeVisibleSize": [
+          410,
+          284
+        ],
+        "rawCellEdgeMaxAlpha": 1,
+        "nominalGridEdgeMaxAlpha": 1,
+        "registeredBoxAlpha16": [
+          118,
+          189,
+          528,
+          473
+        ],
+        "registeredMarginsFraction": [
+          0.184375,
+          0.2953125,
+          0.175,
+          0.2609375
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 429,
+          "bbox": [
+            230,
+            192,
+            266,
+            215
+          ],
+          "centroid": [
+            247.17715617715618,
+            202.64102564102564
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false
+      }
+    }
+  ],
+  "animation": {
+    "id": "28-shenhai/capture",
+    "frameCount": 8,
+    "fps": 12,
+    "loop": false,
+    "canvas": [
+      640,
+      640
+    ],
+    "pupilRegistrationTarget": [
+      352,
+      320
+    ],
+    "root": [
+      0.55,
+      0.5
+    ],
+    "durationMs": 667,
+    "durationsMs": [
+      83,
+      84,
+      83,
+      83,
+      84,
+      83,
+      83,
+      84
+    ],
+    "sourceScale": "Uniform native pixels, no per-frame bbox normalization.",
+    "visualReview": "Actual source viewed: fan tail and lower/pectoral fins fold inward to peak then rebound; lantern/stalk/tassel retained, alive friendly teeth. Alpha confirms outer body not cut despite colored transparent RGB display. Full capture pose rhythm needs root review.",
+    "pending": [
+      "Root actual playback/recovery and face/appendage identity review.",
+      "Unity runtime not reviewed; registration/PNG counts alone are not motion acceptance."
+    ],
+    "releaseReady": true,
+    "displayCalibration": {
+      "status": "candidate_pending_root_visual_runtime_review",
+      "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+      "nativeMedianPupilWidth": 36.0,
+      "sharedTargetDisplayedPupilWidth": 20.0,
+      "uniformDisplayScale": 0.5555555555555556,
+      "upscale": false,
+      "perFrameBboxFit": false,
+      "sharedVisualPivotPixels": [
+        352,
+        320
+      ],
+      "sharedVisualPivotNormalized": [
+        0.55,
+        0.5
+      ],
+      "displayBodyMaxPixels": [
+        233.88888888888889,
+        160.55555555555557
+      ],
+      "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+    }
+  },
+  "notes": [
+    "Native AI articulated body/appendage frames; crop/translation/padding only aligns layout and does not create animation.",
+    "Raw source padding may be smaller than final contract; only final transparent padding meets12%.",
+    "No PNG upsample, full-image rotation/scale or per-frame body warp."
+  ],
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+  "acceptedAt": "2026-10-30T04:07:09.085600+00:00",
+  "releaseReady": true,
+  "playbackReview": "docs/UNITY_FINAL_ACCEPTANCE.json"
+}

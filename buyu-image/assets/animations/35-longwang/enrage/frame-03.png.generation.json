@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-03",
+  "name": "龙王海龙怒态 4/8",
+  "file": "assets/animations/35-longwang/enrage/frame-03.png",
+  "sha256": "4b89bf7e6c9ed7bc71bd5bac8c2cec3e03058c444d7f9b434cfa75ed02e3ada9",
+  "width": 1000,
+  "height": 1000,
+  "format": "RGBA PNG",
+  "derivedAt": "2026-10-28T17:55:06.185747+00:00",
+  "nativeSource": "designs/motion-frames-v1/35-longwang/enrage/enrage-a-contained-v2.png",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/35-longwang/enrage/enrage-a-contained-v2.png",
+      "sha256": "7257dbfe250f2ceb31a8e9a6861c45b9786ef83058c289e94067cef29b09d284",
+      "generationRecord": "designs/motion-frames-v1/35-longwang/enrage/enrage-a-contained-v2.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_extraction_integer_eye_registration_and_padding",
+    "extraction": {
+      "type": "complete_native_actor_ownership",
+      "report": "designs/motion-frames-v1/35-longwang/enrage/extract-a.json",
+      "sourceRect": [
+        738,
+        738,
+        1220,
+        1123
+      ],
+      "evidence": {
+        "sourceFrame": 3,
+        "file": "designs/motion-frames-v1/35-longwang/enrage/extract-a-pose-03.png",
+        "sourceRect": [
+          738,
+          738,
+          1220,
+          1123
+        ],
+        "nominalSourceRect": [
+          627,
+          627,
+          1254,
+          1254
+        ],
+        "nominalGridCross": false,
+        "nativeVisibleSize": [
+          482,
+          385
+        ],
+        "ownedPixelCount": 122437,
+        "foreignPixelsRemovedFromCrop": 0,
+        "totalCanvasEdgeMaxAlpha": 0,
+        "nativeOwnedPixelsUnchanged": true,
+        "sourceMainAlphaComponent": 88
+      }
+    },
+    "sourceEyePoint": [
+      391.91379310344837,
+      159.8275862068965
+    ],
+    "globalSourceEye": [
+      1129.9137931034484,
+      897.8275862068965
+    ],
+    "registrationOffset": [
+      288,
+      260
+    ],
+    "registeredCanvas": [
+      1000,
+      1000
+    ],
+    "targetEye": [
+      680,
+      420
+    ],
+    "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+    "sourcePixelsRoundTripVerified": true,
+    "resized": false,
+    "upscaled": false,
+    "rotated": false,
+    "poseWarped": false,
+    "newNativeDetailClaimed": false
+  },
+  "anchor": [
+    0.68,
+    0.42
+  ],
+  "rootPixels": [
+    680,
+    420
+  ],
+  "eyePixels": [
+    680,
+    420
+  ],
+  "registeredAlphaBBox": [
+    288,
+    260,
+    770,
+    645
+  ],
+  "registeredMinMargin": 0.23,
+  "status": "candidate_pending_playback_and_final_visual_review",
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceLandmarkEvidence": {
+    "type": "manually checked dark pupil ROI component center, nearest integer",
+    "qa": "designs/motion-frames-v1/35-longwang/enrage/source-a-qa.json",
+    "sourceFrame": 3,
+    "candidateIndex": 0,
+    "detection": null,
+    "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+  },
+  "displaySize": [
+    673.5751295336787,
+    673.5751295336787
+  ],
+  "bodyDisplayBox": [
+    340,
+    260
+  ],
+  "uniformDisplayScale": 0.6735751295336787,
+  "displaySizing": {
+    "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+    "sourceVisibleReference": [
+      498,
+      386
+    ],
+    "upscalingAllowed": false,
+    "crossClipDensityReview": "pending_common_head_scale_review"
+  },
+  "animation": {
+    "id": "35-longwang/enrage",
+    "frames": 8,
+    "fps": 8,
+    "loop": true,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "durationsMs": [
+      125,
+      125,
+      125,
+      125,
+      125,
+      125,
+      125,
+      125
+    ],
+    "root": [
+      0.68,
+      0.42
+    ],
+    "sourceRoute": "builtin_native_AI_sheet_user_requested",
+    "sourcePixelsNeverResampled": true,
+    "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+    "phase": 3,
+    "durationMs": 125
+  }
+}

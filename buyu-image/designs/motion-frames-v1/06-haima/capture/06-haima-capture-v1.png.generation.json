@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/motion-frames-v1/06-haima/capture/06-haima-capture-v1.png",
+  "sha256": "a49b37fb9bc4c625de84dfaeb7f8e37e8746dac2cbbbfb14af769866b0f46f83",
+  "generatedAt": "2026-10-28T17:05:14.736Z",
+  "startedAt": "2026-10-28T17:04:19.847Z",
+  "width": 1774,
+  "height": 887,
+  "format": "PNG",
+  "pixelFormat": "Format32bppArgb",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-28",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "builtin_evidence": {
+      "model_parameter_exposed": false,
+      "quality_parameter_exposed": false,
+      "actual_model": null,
+      "actual_quality": null,
+      "note": "Configuration targets only; verify actual model and quality per generated image."
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\buyu-image\\designs\\motion-frames-v1\\06-haima\\swim\\06-haima-swim-v1.png",
+      "D:\\work\\buyu-image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\buyu-image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "D:\\work\\buyu-image\\assets\\fish\\batch-1\\06-haima.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具未开放 model/quality 参数，本次结果未披露实际型号及质量。",
+  "evidence": {
+    "toolResult": "06-haima-capture-v1.tool-result.txt",
+    "sourceOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a18186-fd02-7812-b30d-2810b1c9973a\\exec-ba06130d-f865-4067-92b0-4112ae145ecf.png",
+    "toolResultId": "exec-ba06130d-f865-4067-92b0-4112ae145ecf",
+    "request": "06-haima-capture-v1.request.json"
+  },
+  "prompt": "06-haima-capture-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/motion-frames-v1/06-haima/swim/06-haima-swim-v1.png",
+      "sha256": "b495beb0da8e6671072997379c5a0d6da91b5cb5a2a94b4da82473a2e1f2aca5",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "assets/fish/batch-1/06-haima.png",
+      "sha256": "1de7ce12e2300befac22df5b8aa02bb0fd74e79550937409ce1c8c89682f9a5f",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    }
+  ],
+  "requestedCanvasInPrompt": "Requested native2:1 eight-frame4x2 alpha action table; actual dimensions recorded.",
+  "resampled": false,
+  "status": "draft_pending_user_review",
+  "visualReview": "Eight native poses candidate; source alpha, identity, root, native scale and actual anatomical motion pending review.",
+  "scope": "01-12 fish action native AI sheet generation/edit; no API, no procedural character transforms.",
+  "retentionRole": "selected_current_animation_source_candidate",
+  "producerStillReview": "native source and registered light/dark composite inspected; root/Unity pending"
+}

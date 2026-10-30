@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-05",
+  "name": "龙王海龙捕获 6/8",
+  "file": "assets/animations/35-longwang/capture/frame-05.png",
+  "sha256": "b4b5245137721fa7981ce38961cc03ab45856e37feeca1f6f24425eda98fb95a",
+  "width": 1000,
+  "height": 1000,
+  "format": "RGBA PNG",
+  "derivedAt": "2026-10-28T19:38:04.233103+00:00",
+  "nativeSource": "designs/motion-frames-v1/35-longwang/capture/35-longwang-capture-contained-v2.png",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/35-longwang/capture/35-longwang-capture-contained-v2.png",
+      "sha256": "8b6632022e55032538fae15f3905a6b88e8bcc562b8fb501d3fbb0d9b888edb8",
+      "generationRecord": "designs/motion-frames-v1/35-longwang/capture/35-longwang-capture-contained-v2.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_extraction_integer_eye_registration_and_padding",
+    "extraction": {
+      "type": "complete_native_actor_ownership",
+      "report": "designs/motion-frames-v1/35-longwang/capture/extract-v2.json",
+      "sourceRect": [
+        466,
+        487,
+        862,
+        748
+      ],
+      "evidence": {
+        "sourceFrame": 5,
+        "file": "designs/motion-frames-v1/35-longwang/capture/extract-v2-pose-05.png",
+        "sourceRect": [
+          466,
+          487,
+          862,
+          748
+        ],
+        "nominalSourceRect": [
+          444,
+          444,
+          887,
+          887
+        ],
+        "nominalGridCross": false,
+        "nativeVisibleSize": [
+          396,
+          261
+        ],
+        "ownedPixelCount": 58999,
+        "foreignPixelsRemovedFromCrop": 0,
+        "totalCanvasEdgeMaxAlpha": 0,
+        "nativeOwnedPixelsUnchanged": true,
+        "sourceMainAlphaComponent": 78
+      }
+    },
+    "sourceEyePoint": [
+      324.60740740740744,
+      104.85185185185185
+    ],
+    "globalSourceEye": [
+      790.6074074074074,
+      591.8518518518518
+    ],
+    "registrationOffset": [
+      355,
+      315
+    ],
+    "registeredCanvas": [
+      1000,
+      1000
+    ],
+    "targetEye": [
+      680,
+      420
+    ],
+    "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+    "sourcePixelsRoundTripVerified": true,
+    "resized": false,
+    "upscaled": false,
+    "rotated": false,
+    "poseWarped": false,
+    "newNativeDetailClaimed": false
+  },
+  "anchor": [
+    0.68,
+    0.42
+  ],
+  "rootPixels": [
+    680,
+    420
+  ],
+  "eyePixels": [
+    680,
+    420
+  ],
+  "registeredAlphaBBox": [
+    355,
+    315,
+    751,
+    576
+  ],
+  "registeredMinMargin": 0.249,
+  "status": "candidate_pending_playback_and_final_visual_review",
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceLandmarkEvidence": {
+    "type": "visible_eye_pupil_ROI_component_center",
+    "qa": "designs/motion-frames-v1/35-longwang/capture/source-v2-qa.json",
+    "sourceFrame": 5,
+    "candidateIndex": 0,
+    "detection": {
+      "roi": [
+        300,
+        110,
+        430,
+        320
+      ],
+      "darkMaxExclusive": 28,
+      "warmRAtLeastGAndB": false,
+      "alphaMinExclusive": 220,
+      "componentConnectivity": 4
+    },
+    "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review. Closed eyelid proxies are not true pupils and must be excluded from pixel-density calibration."
+  },
+  "displaySize": [
+    856.4231738035264,
+    856.4231738035264
+  ],
+  "bodyDisplayBox": [
+    340,
+    260
+  ],
+  "uniformDisplayScale": 0.8564231738035264,
+  "displaySizing": {
+    "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+    "sourceVisibleReference": [
+      397,
+      273
+    ],
+    "upscalingAllowed": false,
+    "crossClipDensityReview": "pending_common_head_scale_review"
+  },
+  "animation": {
+    "id": "35-longwang/capture",
+    "frames": 8,
+    "fps": 12,
+    "loop": false,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "durationsMs": [
+      83,
+      84,
+      83,
+      83,
+      84,
+      83,
+      83,
+      84
+    ],
+    "root": [
+      0.68,
+      0.42
+    ],
+    "sourceRoute": "builtin_native_AI_sheet_user_requested",
+    "sourcePixelsNeverResampled": true,
+    "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+    "phase": 5,
+    "durationMs": 83
+  }
+}

@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>灵海仙渔 · 素材验收台</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="../assets/runtime-catalog.js"></script>
+  <script defer src="ui-states.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header class="masthead">
+    <div class="brand"><img class="brand-logo" src="../assets/branding/linghai-xianyu-logo-v1.png" width="220" height="110" alt="灵海仙渔"><div><p class="eyebrow">道家 Q 版 · 首发美术</p><h1>灵海仙渔 · 素材验收台</h1></div></div>
+    <span class="local-badge">本地文件预览</span>
+  </header>
+  <main>
+    <section class="intro">
+      <div><h2>每一份素材，都可以独立查看。</h2><p>浏览透明切片、播放鱼类与角色动作、检查特效节奏和炮台旋转叠合。</p></div>
+      <div class="stats" aria-live="polite"><div><strong id="asset-count">—</strong><span>独立素材</span></div><div><strong id="clip-count">—</strong><span>动作与特效</span></div><div><strong id="cannon-count">—</strong><span>炮台组合</span></div></div>
+    </section>
+    <p class="notice"><span aria-hidden="true">●</span> 首发美术已完成 Unity 导入、编译和逐项验收：81 套角色动作、648 张原生帧，另有 8 组特效。验收报告与实际运行画面在 docs/acceptance。</p>
+    <nav class="section-nav" aria-label="预览区"><a href="#library">素材库</a><a href="#effects">动作与特效</a><a href="#cannons">炮台叠合</a><a href="#ui-states">UI 状态切换</a><a href="../gallery/index.html">31 项 UI 设计集 ↗</a></nav>
+    <div id="catalog-error" class="empty-state" hidden>素材目录尚未就绪。请确认 assets/runtime-catalog.js 已生成，然后重新打开此文件。</div>
+    <section id="library" class="section">
+      <div class="section-heading"><div><p class="eyebrow">01 / ASSET LIBRARY</p><h2>素材库</h2></div><span id="result-count" class="muted" aria-live="polite"></span></div>
+      <div class="toolbar">
+        <label class="search"><span>搜索</span><input id="search" type="search" placeholder="名称、编号或分类" autocomplete="off"></label>
+        <label>分类<select id="category"><option value="all">全部分类</option></select></label>
+        <label>查看底色<select id="backdrop"><option value="checker">透明棋盘</option><option value="light">米白</option><option value="dark">深青</option><option value="aqua">浅水色</option></select></label>
+      </div>
+      <div id="asset-grid" class="asset-grid"></div>
+      <p id="no-results" class="empty-state" hidden>没有匹配的素材，请尝试其他名称或分类。</p>
+    </section>
+    <section id="effects" class="section">
+      <div class="section-heading"><div><p class="eyebrow">02 / FRAME PLAYER</p><h2>动作与特效</h2></div><span class="candidate-badge">Unity 美术验收通过</span></div>
+      <div class="demo-layout">
+        <div class="frame-viewport surface" id="fx-stage">
+          <div class="frame-plane" id="frame-plane"><img id="fx-image" alt="动作当前帧" hidden><span id="frame-origin" class="frame-origin" aria-hidden="true" hidden></span><span id="fx-empty" class="frame-empty muted">等待动作与特效素材</span></div>
+          <p id="frame-image-error" class="ui-state-image-error" hidden>当前 PNG 无法读取；未使用替代图。</p>
+        </div>
+        <div class="demo-controls">
+          <label>动作／特效片段<select id="clip-select"></select></label>
+          <div class="button-row"><button id="clip-prev" type="button" class="secondary">上一片段</button><button id="clip-next" type="button" class="secondary">下一片段</button></div>
+          <p id="clip-info" class="detail-line">—</p>
+          <div class="button-row"><button id="play-fx" type="button">播放</button><button id="reset-fx" type="button" class="secondary">回到首帧</button></div>
+          <label class="check-label"><input id="loop-fx" type="checkbox"> 循环播放（仅本次审片覆盖）</label>
+          <label>画布尺寸<select id="frame-scale"><option value="display">清单参考显示尺寸</option><option value="native">原生 1:1</option></select></label>
+          <label>帧位置<input id="frame-seek" type="range" min="0" max="0" value="0"></label>
+          <div class="button-row"><button id="frame-prev" type="button" class="secondary">上一帧</button><button id="frame-next" type="button" class="secondary">下一帧</button></div>
+          <p id="frame-info" class="detail-line" aria-live="polite">—</p>
+          <a id="frame-source" class="ui-state-source" target="_blank" rel="noopener" hidden>打开当前原生 PNG ↗</a>
+          <p class="fine-print">逐帧使用实际 PNG 与清单时长。红色十字是固定根点；透明边距属于帧画布，不按每帧可见轮廓适配。参考尺寸使用整段统一缩放，较大画布可滚动查看；原生档不缩放。</p>
+        </div>
+      </div>
+    </section>
+    <section id="cannons" class="section">
+      <div class="section-heading"><div><p class="eyebrow">03 / CANNON ASSEMBLY</p><h2>炮台叠合</h2></div><p class="muted">底座固定，炮管绕清单锚点旋转。</p></div>
+      <div class="demo-layout">
+        <div class="demo-stage cannon-stage surface"><div class="cannon-rig"><img id="cannon-base" alt="炮台底座" hidden><img id="cannon-barrel" alt="炮管" hidden></div><span id="cannon-empty" class="muted">等待炮台素材</span></div>
+        <div class="demo-controls"><label>炮台<select id="cannon-select"></select></label><label>炮管角度 <output id="angle-output">0°</output><input id="angle" type="range" min="-180" max="180" value="0"></label><div class="button-row"><button id="rotate-cannon" type="button">自动旋转</button><button id="reset-cannon" type="button" class="secondary">朝向正上方</button></div><p id="cannon-info" class="detail-line">—</p><p class="fine-print">使用实际底座与炮管 PNG，按 displaySize 和 anchor 对齐。叠合预览用于发现轴心、比例和遮挡问题，不代表已通过客户端验收。</p></div>
+      </div>
+    </section>
+    <section id="ui-states" class="section">
+      <div class="section-heading"><div><p class="eyebrow">04 / UI STATE REGISTRATION</p><h2>UI 状态切换</h2></div><span class="candidate-badge">8 类 22 状态已验收</span></div>
+      <p class="muted">8 组 22 状态使用同组逻辑画布、根点和唯一缩放。选中辉光不参与逐张适配；原画本体差异仍需实看切换。</p>
+      <div id="ui-state-error" class="empty-state" hidden>状态注册数据尚未就绪。请确认 ui-states.js 与 config/ui-state-registration.json 对应，然后重新打开此文件。</div>
+      <div class="demo-layout">
+        <div id="ui-state-stage" class="ui-state-stage surface">
+          <div id="ui-state-plane" class="ui-state-plane">
+            <div id="ui-state-space" class="ui-state-space" data-guides="on" hidden>
+              <img id="ui-state-image" class="ui-state-image" alt="UI 当前状态原图">
+              <span id="ui-state-text" class="ui-state-text" aria-hidden="true"></span>
+              <span id="ui-state-content" class="ui-state-guide ui-state-content" aria-hidden="true"></span>
+              <span id="ui-state-hit" class="ui-state-guide ui-state-hit" aria-hidden="true"></span>
+              <span id="ui-state-origin" class="ui-state-guide ui-state-origin" aria-hidden="true"></span>
+            </div>
+          </div>
+          <p id="ui-state-image-error" class="ui-state-image-error" hidden>当前 PNG 无法读取；未使用替代图。</p>
+        </div>
+        <div class="demo-controls">
+          <label>控件组<select id="ui-family-select"></select></label>
+          <label>状态<select id="ui-state-select"></select></label>
+          <div class="button-row"><button id="ui-state-prev" class="secondary" type="button">上一态</button><button id="ui-state-next" type="button">下一态</button></div>
+          <label>查看尺寸<select id="ui-state-scale"><option value="display">参考显示尺寸 · 同组统一缩放</option><option value="native">原生 1:1 · 逻辑画布</option></select></label>
+          <label>固定锚点文案<input id="ui-state-sample" class="state-text-input" type="text" value="开始游戏" maxlength="20" autocomplete="off"></label>
+          <label class="check-label"><input id="ui-state-show-text" type="checkbox" checked> 主／次按钮与页签叠加文案</label>
+          <label class="check-label"><input id="ui-state-guides" type="checkbox" checked> 显示原点、文字区与点击框</label>
+          <p id="ui-state-info" class="detail-line" aria-live="polite">—</p>
+          <a id="ui-state-source" class="ui-state-source" target="_blank" rel="noopener">打开当前原生 PNG ↗</a>
+        </div>
+      </div>
+      <p class="state-guide-legend"><span class="legend-origin">＋ 根点</span><span class="legend-content">青色虚线：contentRect</span><span class="legend-hit">金色虚线：hitRect</span>辅助标记只用于检查，不是游戏美术资源。</p>
+      <div class="state-review-notice"><strong>保留原画测量记录</strong><ul id="ui-state-warnings"></ul><p class="fine-print">原画轮廓差异已结合 Unity 状态切换审阅，测量记录保留用于追溯。首发美术范围和实际验收证据见 docs/UNITY_FINAL_ACCEPTANCE.json。</p></div>
+    </section>
+  </main>
+  <footer>保留原生像素与透明通道 · 本页不放大导出文件 · <a href="../docs/GAME_ART_COMPLETION_CONTRACT.md">查看美术完成合同</a></footer>
+  <dialog id="asset-dialog">
+    <div class="dialog-head"><div><h2 id="dialog-title">素材</h2><p id="dialog-meta" class="muted"></p></div><button id="close-dialog" class="secondary" type="button" aria-label="关闭素材详情">关闭 ×</button></div>
+    <div class="dialog-toolbar"><div class="button-row"><button id="fit-image" class="secondary" type="button">适应窗口</button><button id="native-image" class="secondary" type="button">原生 1:1</button></div><a id="open-image" target="_blank" rel="noopener">打开 PNG ↗</a></div>
+    <div id="dialog-viewport" class="dialog-viewport surface"><img id="dialog-image" alt=""></div>
+    <p id="dialog-path" class="path-label"></p>
+  </dialog>
+</body>
+</html>

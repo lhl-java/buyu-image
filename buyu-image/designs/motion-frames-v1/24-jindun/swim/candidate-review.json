@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "manifest": "assets/animations/24-jindun/swim/manifest.json",
+  "source": "designs/motion-frames-v1/24-jindun/swim/24-jindun-swim.png",
+  "status": "producer_candidate_pending_root_registered_review",
+  "actualVisualObservation": "Tail joint and pectoral fins articulate; capture curls tail/recoils. The large emerald and front armor should be rigid; their generated contour/angle variation remains review.",
+  "warnings": [
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 0,
+      "actual": 0.03153153153153153,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 1,
+      "actual": 0.03160270880361174,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 2,
+      "actual": 0.08126410835214447,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 3,
+      "actual": 0.04954954954954955,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 4,
+      "actual": 0.033783783783783786,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 5,
+      "actual": 0.03160270880361174,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 6,
+      "actual": 0.08126410835214447,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 7,
+      "actual": 0.013513513513513514,
+      "required": 0.12
+    },
+    {
+      "id": "generated_core_shape_and_motion_pending_review",
+      "note": "Tail joint and pectoral fins articulate; capture curls tail/recoils. The large emerald and front armor should be rigid; their generated contour/angle variation remains review."
+    },
+    {
+      "id": "playback_unverified",
+      "note": "No live loop/single-shot playback during local heavy-job hold; distinct hashes are not motion evidence."
+    }
+  ],
+  "sourceOwnership": {
+    "alphaThreshold": 3,
+    "sourcePixels": 519284,
+    "exportedPixels": 519284,
+    "duplicatePixels": 0,
+    "lostPixels": 0,
+    "rgbAndAlphaForOwnedPixelsUnchanged": true
+  },
+  "fps": 12,
+  "durationsMs": [
+    83,
+    84,
+    83,
+    83,
+    84,
+    83,
+    83,
+    84
+  ],
+  "loop": true,
+  "noResamplingOrUpscaling": true,
+  "eyeNativeBoxSizes": [
+    [
+      26,
+      23
+    ],
+    [
+      25,
+      27
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      25,
+      27
+    ],
+    [
+      24,
+      27
+    ],
+    [
+      25,
+      24
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      23,
+      24
+    ]
+  ],
+  "testsBrowserAtlasUnityRun": false,
+  "reviewedAt": "2026-10-28T20:08:34.651768+00:00",
+  "sourceSheetActuallyInspected": true,
+  "registeredLightAndDarkActuallyInspected": true,
+  "inspectionType": "static contact sheets, actual generated source and actual exported alpha-composited frames",
+  "lightContact": "designs/motion-frames-v1/24-jindun/swim/registered-light.jpg",
+  "darkContact": "designs/motion-frames-v1/24-jindun/swim/registered-dark.jpg",
+  "observedArticulation": "Tail joint and pectoral fins articulate; capture curls tail/recoils. The large emerald and front armor should be rigid; their generated contour/angle variation remains review.",
+  "edgeObservation": "The registered light and dark contacts show complete separate poses without an opaque rectangle or another frame fragment. Source grid / margin warnings are retained.",
+  "livePlaybackActuallyRun": false,
+  "finalArtApproval": false,
+  "inspectedAt": "2026-10-28T20:08:34.651768+00:00",
+  "landmarkCorrection": "Fixed face-only pupil ROI avoids dark camouflage / fin plate false landmarks; native pixels unchanged by integer registration."
+}

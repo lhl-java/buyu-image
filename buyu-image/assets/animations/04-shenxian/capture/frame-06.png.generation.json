@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-06",
+  "file": "assets/animations/04-shenxian/capture/frame-06.png",
+  "sha256": "31e256a44f09276bfe4f445ca6712e986e9e1ce88af6ee49ccad9ecd52475640",
+  "width": 672,
+  "height": 672,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/motion-frames-v1/04-shenxian/capture/04-shenxian-capture-v1.png",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/04-shenxian/capture/04-shenxian-capture-v1.png",
+      "sha256": "6886e031ede816a59aa019611fea39415f2370b0f4a6e37fa83304bf6f112393",
+      "generationRecord": "designs/motion-frames-v1/04-shenxian/capture/04-shenxian-capture-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_grid_crop_integer_pupil_registration",
+    "sourceRect": [
+      948,
+      492,
+      1300,
+      827
+    ],
+    "cellCropRect": [
+      0,
+      0,
+      352,
+      335
+    ],
+    "registrationOffset": [
+      151,
+      160
+    ],
+    "registeredCanvas": [
+      672,
+      672
+    ],
+    "registrationReference": {
+      "type": "black_pupil_component_centroid",
+      "sourcePointFloat": [
+        294.78853046594986,
+        136.40501792114696
+      ],
+      "sourcePointRounded": [
+        295,
+        136
+      ],
+      "targetPoint": [
+        446,
+        296
+      ],
+      "method": "RGBmax<55 and A>220 pupil component; restricted to manually placed radius14px ROI and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+      "roiActuallyInspected": true
+    },
+    "resized": false,
+    "upscaled": false,
+    "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+    "sourcePixelsRoundTripVerified": true,
+    "nominalGridRect": [
+      887,
+      444,
+      1330,
+      887
+    ],
+    "nominalGridBorderAlpha": 1,
+    "ownershipType": "complete_nonoverlapping_pose_rectangle",
+    "foreignFishAlphaPixels": 0,
+    "allAssignedPixelsInsideRect": true
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "rootPixels": [
+    336,
+    336
+  ],
+  "eyePixels": [
+    446,
+    296
+  ],
+  "displaySize": [
+    172.3076923076923,
+    172.3076923076923
+  ],
+  "bodyDisplayBox": [
+    120,
+    80
+  ],
+  "uniformDisplayScale": 0.2564102564102564,
+  "scaleReference": "assets/animations/04-shenxian/swim/manifest.json",
+  "registeredAlphaBBox": [
+    159,
+    168,
+    495,
+    487
+  ],
+  "registeredMinMargin": 0.23660714285714285,
+  "status": "producer_candidate_pending_root_visual",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+  "clipDensityAdjustment": null,
+  "producerLightDarkStillReview": "viewed_candidate_pass"
+}

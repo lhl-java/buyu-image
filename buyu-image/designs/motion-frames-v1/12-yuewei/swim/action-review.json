@@ -1,0 +1,206 @@
+{
+  "source": "designs/motion-frames-v1/12-yuewei/swim/12-yuewei-swim-v1.png",
+  "sourceSHA256": "17dbf4f162163e0b4dd4e4067ffd4817d016f1e14ca8c42c58eacbd0c9d85190",
+  "action": "swim",
+  "registeredAt": "2026-10-28T18:27:30.184400+00:00",
+  "sharedCanvas": [
+    768,
+    768
+  ],
+  "rootPixels": [
+    384,
+    384
+  ],
+  "eyePixels": [
+    464,
+    354
+  ],
+  "registration": [
+    {
+      "frame": 0,
+      "pupil": [
+        326,
+        157
+      ],
+      "registeredPupil": [
+        464,
+        354
+      ],
+      "offset": [
+        138,
+        197
+      ],
+      "minMargin": 0.19010416666666666,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 1,
+      "pupil": [
+        317,
+        166
+      ],
+      "registeredPupil": [
+        464,
+        354
+      ],
+      "offset": [
+        147,
+        188
+      ],
+      "minMargin": 0.20182291666666666,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 2,
+      "pupil": [
+        309,
+        197
+      ],
+      "registeredPupil": [
+        464,
+        354
+      ],
+      "offset": [
+        155,
+        157
+      ],
+      "minMargin": 0.21223958333333334,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 3,
+      "pupil": [
+        319,
+        142
+      ],
+      "registeredPupil": [
+        464,
+        354
+      ],
+      "offset": [
+        145,
+        212
+      ],
+      "minMargin": 0.19921875,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 4,
+      "pupil": [
+        334,
+        130
+      ],
+      "registeredPupil": [
+        464,
+        354
+      ],
+      "offset": [
+        130,
+        224
+      ],
+      "minMargin": 0.1796875,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 5,
+      "pupil": [
+        329,
+        113
+      ],
+      "registeredPupil": [
+        464,
+        354
+      ],
+      "offset": [
+        135,
+        241
+      ],
+      "minMargin": 0.18619791666666666,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 6,
+      "pupil": [
+        323,
+        112
+      ],
+      "registeredPupil": [
+        464,
+        354
+      ],
+      "offset": [
+        141,
+        242
+      ],
+      "minMargin": 0.19401041666666666,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 7,
+      "pupil": [
+        321,
+        145
+      ],
+      "registeredPupil": [
+        464,
+        354
+      ],
+      "offset": [
+        143,
+        209
+      ],
+      "minMargin": 0.19661458333333334,
+      "pixelRoundTrip": true
+    }
+  ],
+  "uniformScale": 0.2572347266881029,
+  "sourceMarginWarnings": [
+    {
+      "frame": 0,
+      "actual": 0.05630630630630631,
+      "required": 0.12
+    },
+    {
+      "frame": 1,
+      "actual": 0.060948081264108354,
+      "required": 0.12
+    },
+    {
+      "frame": 2,
+      "actual": 0.07223476297968397,
+      "required": 0.12
+    },
+    {
+      "frame": 3,
+      "actual": 0.09009009009009009,
+      "required": 0.12
+    },
+    {
+      "frame": 4,
+      "actual": 0.036036036036036036,
+      "required": 0.12
+    },
+    {
+      "frame": 5,
+      "actual": 0.029345372460496615,
+      "required": 0.12
+    },
+    {
+      "frame": 6,
+      "actual": 0.07900677200902935,
+      "required": 0.12
+    },
+    {
+      "frame": 7,
+      "actual": 0.08108108108108109,
+      "required": 0.12
+    }
+  ],
+  "runtimeWarnings": [],
+  "producerVisualNote": "Pearl/mint/ivory long fan identity retained; flowing folded membranes and near/far fin phases, strong tail curl then droop in capture. Actual native/pupil ROI inspected. Root visual and Unity playback pending.",
+  "registeredContactVisual": "producer_actually_viewed_light_dark_and_display_rest_comparison",
+  "identityAndMotion": "pending_root_visual",
+  "playback": "pending_Unity",
+  "references": null,
+  "rootVisual": "pending"
+}

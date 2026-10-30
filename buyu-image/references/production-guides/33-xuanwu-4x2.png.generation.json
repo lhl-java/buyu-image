@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "file": "references/production-guides/33-xuanwu-4x2.png",
+  "sha256": "b3deef118dbb7009ed8a7033bd78933f7795998323959002bb64961ef92a03f2",
+  "createdAt": "2026-10-28T18:06:10.544214+00:00",
+  "purpose": "Image model geometry/identity edit reference only; identical stills are NOT animation frames or game art.",
+  "operation": {
+    "type": "reference_only_master_layout_composite",
+    "masterCropRect": [
+      4,
+      4,
+      458,
+      311
+    ],
+    "referenceCropSize": [
+      454,
+      307
+    ],
+    "referencePlacedSize": [
+      310,
+      210
+    ],
+    "canvas": [
+      1774,
+      887
+    ],
+    "grid": [
+      4,
+      2
+    ],
+    "placements": [
+      [
+        67,
+        117,
+        310,
+        210
+      ],
+      [
+        510,
+        117,
+        310,
+        210
+      ],
+      [
+        954,
+        117,
+        310,
+        210
+      ],
+      [
+        1397,
+        117,
+        310,
+        210
+      ],
+      [
+        67,
+        560,
+        310,
+        210
+      ],
+      [
+        510,
+        560,
+        310,
+        210
+      ],
+      [
+        954,
+        560,
+        310,
+        210
+      ],
+      [
+        1397,
+        560,
+        310,
+        210
+      ]
+    ],
+    "finalGameAsset": false
+  },
+  "derivedFrom": [
+    {
+      "file": "assets/fish/batch-6/33-xuanwu.png",
+      "sha256": "f70b793821b3eb1f8507a02b4820d2e5fee5226e6c972121ced5ce639f317c8a",
+      "generationRecord": "assets/fish/batch-6/33-xuanwu.png.generation.json"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "newModelCall": false
+}

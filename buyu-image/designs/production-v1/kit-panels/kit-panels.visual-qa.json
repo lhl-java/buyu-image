@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "job": "kit-panels",
+  "reviewedAt": "2026-10-26T20:07:40.751031+00:00",
+  "source": "designs/production-v1/kit-panels/kit-panels.png",
+  "sourceSha256": "7beb64df946a6e3044e0d4a19e250f403acfd18f9832a09d62d017435aa6e11a",
+  "nativeSize": [
+    1536,
+    1024
+  ],
+  "alphaRange": [
+    0,
+    254
+  ],
+  "transparentPixelCount": 960193,
+  "actualModel": null,
+  "actualQuality": null,
+  "noUpscaling": true,
+  "manifest": "assets/ui/panels/manifest.json",
+  "sliceCount": 6,
+  "sliceHashesVerified": true,
+  "warnings": [],
+  "contactSheet": "tmp/art-qa/kit-panels.slice.jpg",
+  "visualReview": "六块独立无字窗框、标题牌、列表行、提示框及头像框；实际目视源图及切片联系表。标题牌右端轮廓完整，头像框中央真透明。原排布不等宽，按实际所有权矩形裁切。",
+  "result": "pass_for_static_visual_asset",
+  "runtimeIntegrationVerified": false
+}

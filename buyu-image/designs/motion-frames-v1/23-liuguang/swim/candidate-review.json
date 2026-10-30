@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "manifest": "assets/animations/23-liuguang/swim/manifest.json",
+  "source": "designs/motion-frames-v1/23-liuguang/swim/23-liuguang-swim.png",
+  "status": "producer_candidate_pending_root_registered_review",
+  "actualVisualObservation": "Tail and pectoral membranes alternate curvature; capture contracts and curls then relaxes. Star patterns are similar but may drift slightly; ornament rigidity remains review.",
+  "warnings": [
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 0,
+      "actual": 0.0518018018018018,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 1,
+      "actual": 0.06320541760722348,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 2,
+      "actual": 0.07674943566591422,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 3,
+      "actual": 0.05855855855855856,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 4,
+      "actual": 0.0,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 5,
+      "actual": 0.0,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 6,
+      "actual": 0.05417607223476298,
+      "required": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 7,
+      "actual": 0.05405405405405406,
+      "required": 0.12
+    },
+    {
+      "id": "generated_core_shape_and_motion_pending_review",
+      "note": "Tail and pectoral membranes alternate curvature; capture contracts and curls then relaxes. Star patterns are similar but may drift slightly; ornament rigidity remains review."
+    },
+    {
+      "id": "playback_unverified",
+      "note": "No live loop/single-shot playback during local heavy-job hold; distinct hashes are not motion evidence."
+    }
+  ],
+  "sourceOwnership": {
+    "alphaThreshold": 3,
+    "sourcePixels": 521308,
+    "exportedPixels": 521308,
+    "duplicatePixels": 0,
+    "lostPixels": 0,
+    "rgbAndAlphaForOwnedPixelsUnchanged": true
+  },
+  "fps": 12,
+  "durationsMs": [
+    83,
+    84,
+    83,
+    83,
+    84,
+    83,
+    83,
+    84
+  ],
+  "loop": true,
+  "noResamplingOrUpscaling": true,
+  "eyeNativeBoxSizes": [
+    [
+      31,
+      26
+    ],
+    [
+      25,
+      25
+    ],
+    [
+      27,
+      26
+    ],
+    [
+      26,
+      25
+    ],
+    [
+      36,
+      28
+    ],
+    [
+      32,
+      26
+    ],
+    [
+      36,
+      26
+    ],
+    [
+      32,
+      26
+    ]
+  ],
+  "testsBrowserAtlasUnityRun": false,
+  "reviewedAt": "2026-10-28T20:08:34.651768+00:00",
+  "sourceSheetActuallyInspected": true,
+  "registeredLightAndDarkActuallyInspected": true,
+  "inspectionType": "static contact sheets, actual generated source and actual exported alpha-composited frames",
+  "lightContact": "designs/motion-frames-v1/23-liuguang/swim/registered-light.jpg",
+  "darkContact": "designs/motion-frames-v1/23-liuguang/swim/registered-dark.jpg",
+  "observedArticulation": "Tail and pectoral membranes alternate curvature; capture contracts and curls then relaxes. Star patterns are similar but may drift slightly; ornament rigidity remains review.",
+  "edgeObservation": "The registered light and dark contacts show complete separate poses without an opaque rectangle or another frame fragment. Source grid / margin warnings are retained.",
+  "livePlaybackActuallyRun": false,
+  "finalArtApproval": false,
+  "inspectedAt": "2026-10-28T20:08:34.651768+00:00"
+}

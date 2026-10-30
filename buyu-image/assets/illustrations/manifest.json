@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "schemaVersion": 1,
+      "id": "event-banner",
+      "name": "灵海寻宝活动横幅",
+      "file": "assets/illustrations/event-banner.png",
+      "width": 1942,
+      "height": 809,
+      "sha256": "7a307f034eaad957bba362e3cd6178ba233e3e330abc2bcec86d108c7481c820",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        960,
+        400
+      ],
+      "nativeSource": "designs/production-v1/event-banner/event-banner.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/event-banner/event-banner.png",
+          "sha256": "7a307f034eaad957bba362e3cd6178ba233e3e330abc2bcec86d108c7481c820",
+          "generationRecord": "designs/production-v1/event-banner/event-banner.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "byte_identical_copy",
+        "resized": false,
+        "upscaled": false
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "accepted_first_release_art",
+      "visualReview": "Actual recovered native output inspected: gold-headband Daochild, white fox, pearl-shell net, bamboo rod and long-tail red-gold koi; clear left water area, no baked text or UI frame. Byte-identical recovered output, not a new call."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "event-route",
+      "name": "灵海寻宝空节点岛图",
+      "file": "assets/illustrations/event-route.png",
+      "width": 1122,
+      "height": 1402,
+      "sha256": "95028451d0f2faa9f36b2b2bbb10e14000eb23e6e5075693e861dffa4ad2b946",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        560,
+        700
+      ],
+      "nativeSource": "designs/production-v1/event-route/event-route.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/event-route/event-route.png",
+          "sha256": "95028451d0f2faa9f36b2b2bbb10e14000eb23e6e5075693e861dffa4ad2b946",
+          "generationRecord": "designs/production-v1/event-route/event-route.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "byte_identical_copy",
+        "resized": false,
+        "upscaled": false
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "accepted_first_release_art",
+      "visualReview": "实际查看：五个完整独立空岛，无烘焙路线、图标、数字、文案、贝壳或状态标记；亭阁、海水、石地及珊瑚延续主参考，节点坐标需采用实际图中岛心。",
+      "nodeCentersNormalized": [
+        [
+          0.27,
+          0.215
+        ],
+        [
+          0.735,
+          0.322
+        ],
+        [
+          0.755,
+          0.515
+        ],
+        [
+          0.275,
+          0.62
+        ],
+        [
+          0.745,
+          0.805
+        ]
+      ]
+    }
+  ],
+  "warnings": [],
+  "complete": true,
+  "opaqueIllustrations": true,
+  "nativeNoResampling": true,
+  "status": "accepted_first_release_art",
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+  "acceptedAt": "2026-10-30T04:07:09.085600+00:00"
+}

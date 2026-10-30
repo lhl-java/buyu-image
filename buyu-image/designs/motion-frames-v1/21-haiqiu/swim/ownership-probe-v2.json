@@ -1,0 +1,127 @@
+{
+  "source": "designs/motion-frames-v1/21-haiqiu/swim/21-haiqiu-swim-v2.png",
+  "threshold": 16,
+  "largest8Components": [
+    {
+      "label": 2,
+      "area": 55648,
+      "bbox": [
+        32,
+        140,
+        439,
+        395
+      ],
+      "center": [
+        249.0949719666475,
+        269.83539390454285
+      ],
+      "touchesTotalCanvas": false
+    },
+    {
+      "label": 3,
+      "area": 53988,
+      "bbox": [
+        480,
+        140,
+        884,
+        394
+      ],
+      "center": [
+        698.2660220789805,
+        259.29595465659037
+      ],
+      "touchesTotalCanvas": false
+    },
+    {
+      "label": 1,
+      "area": 55949,
+      "bbox": [
+        911,
+        136,
+        1316,
+        395
+      ],
+      "center": [
+        1125.9489713846538,
+        259.99644318933315
+      ],
+      "touchesTotalCanvas": false
+    },
+    {
+      "label": 4,
+      "area": 53406,
+      "bbox": [
+        1344,
+        144,
+        1749,
+        392
+      ],
+      "center": [
+        1571.065423360671,
+        272.71360895779503
+      ],
+      "touchesTotalCanvas": false
+    },
+    {
+      "label": 37,
+      "area": 55956,
+      "bbox": [
+        25,
+        524,
+        448,
+        784
+      ],
+      "center": [
+        259.3121917220673,
+        658.1684716563013
+      ],
+      "touchesTotalCanvas": false
+    },
+    {
+      "label": 39,
+      "area": 53309,
+      "bbox": [
+        491,
+        527,
+        890,
+        781
+      ],
+      "center": [
+        707.3229285861674,
+        641.5325179613199
+      ],
+      "touchesTotalCanvas": false
+    },
+    {
+      "label": 38,
+      "area": 53880,
+      "bbox": [
+        921,
+        525,
+        1322,
+        785
+      ],
+      "center": [
+        1135.8036377134372,
+        644.5062731997031
+      ],
+      "touchesTotalCanvas": false
+    },
+    {
+      "label": 36,
+      "area": 55214,
+      "bbox": [
+        1363,
+        518,
+        1762,
+        785
+      ],
+      "center": [
+        1577.3679139348715,
+        644.6580758503278
+      ],
+      "touchesTotalCanvas": false
+    }
+  ],
+  "meaning": "Connectivity evidence only: no automatic motion pass, component deletion, or clipping repair."
+}

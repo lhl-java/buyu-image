@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-07",
+  "file": "assets/animations/dao-child/point/frame-07.png",
+  "sha256": "174a16b0ef31fb25fd1d6e124eff0920ca60d633224343e963aef6c7f3eb1203",
+  "width": 1000,
+  "height": 1000,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/motion-frames-v1/dao-child/point/point-b-v1.png",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/dao-child/point/point-b-v1.png",
+      "sha256": "6a5d1245c727a3c689ca346ca8fecd7529140c9170b7eab8498a275e1ff5e55f",
+      "generationRecord": "designs/motion-frames-v1/dao-child/point/point-b-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_complete_pose_ownership_crop_integer_sole_registration_transparent_padding",
+    "sourceRect": [
+      665,
+      630,
+      1199,
+      1248
+    ],
+    "nominalGridRect": [
+      627,
+      627,
+      1254,
+      1254
+    ],
+    "nominalGridEdgeMaxAlpha": 1,
+    "foreignPoseAlphaPixels": 0,
+    "allOwnedPixelsRetained": true,
+    "registrationOffset": [
+      213,
+      243
+    ],
+    "registrationReference": {
+      "type": "midpoint_of_two_sole_contacts_and_lowest_solid_sole",
+      "sourceRootGlobal": [
+        952,
+        1237
+      ],
+      "sourceRootLocal": [
+        287,
+        607
+      ],
+      "sourceSolesGlobal": [
+        [
+          826,
+          1237
+        ],
+        [
+          1079,
+          1236
+        ]
+      ],
+      "targetRootPixels": [
+        500,
+        850
+      ],
+      "method": "Manually inspected green/ivory/gold shoe ROIs; current pose alpha>200 lowest row and x centroid of bottom5rows. Same method as idle."
+    },
+    "registeredCanvas": [
+      1000,
+      1000
+    ],
+    "alphaCleanup": "Values<=3 set0; all other RGBA pixels preserved",
+    "resized": false,
+    "upscaled": false,
+    "warped": false,
+    "sourcePixelsRoundTripVerified": true
+  },
+  "anchor": [
+    0.5,
+    0.85
+  ],
+  "unityPivotNormalizedBottomLeft": [
+    0.5,
+    0.15
+  ],
+  "displaySize": [
+    467.44574290484144,
+    467.44574290484144
+  ],
+  "uniformDisplayScale": 0.4674457429048414,
+  "bodyDisplayHeight": 280,
+  "scaleReference": {
+    "frame": 0,
+    "nativeVisibleBodyHeightIgnoringRaisedArms": 599,
+    "targetVisibleBodyHeight": 280,
+    "method": "one whole-clip display scale from entry body/head; every frame reuses, no per-frame bbox scaling"
+  },
+  "registeredSoles": [
+    [
+      374,
+      850
+    ],
+    [
+      627,
+      849
+    ]
+  ],
+  "registeredRoot": [
+    500,
+    850
+  ],
+  "qa": {
+    "registeredAlphaBBox": [
+      221,
+      251,
+      739,
+      853
+    ],
+    "registeredMarginsLTRB": [
+      0.221,
+      0.251,
+      0.261,
+      0.147
+    ],
+    "runtimeMinMargin": 0.147,
+    "sourceGridWarningPreserved": false,
+    "sourceNativeBodyHeight": 600,
+    "sourceNativeSoleSpan": 253,
+    "sourceCanvasTouched": false,
+    "motionAndTiming": "pending_root_and_Unity"
+  },
+  "animation": {
+    "id": "dao-child/point",
+    "frames": 8,
+    "fps": 10,
+    "loop": false,
+    "order": "A row-major4 then B row-major4",
+    "frameIndex": 7,
+    "durationMs": 100
+  },
+  "status": "producer_candidate_pending_root_visual_and_Unity",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "No AI generation in this export. Actual source records retained by root."
+}

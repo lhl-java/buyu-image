@@ -1,0 +1,117 @@
+{
+  "keepCell": false,
+  "output": "assets/skills",
+  "items": [
+    {
+      "name": "冰封",
+      "displaySize": [
+        96,
+        96
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "id": "skill-ice",
+      "sourceRect": [
+        4,
+        8,
+        543,
+        534
+      ]
+    },
+    {
+      "name": "雷网",
+      "displaySize": [
+        96,
+        96
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "id": "skill-thunder",
+      "sourceRect": [
+        499,
+        4,
+        1035,
+        535
+      ]
+    },
+    {
+      "name": "聚鱼",
+      "displaySize": [
+        96,
+        96
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "id": "skill-gather",
+      "sourceRect": [
+        991,
+        4,
+        1527,
+        536
+      ]
+    },
+    {
+      "name": "追踪",
+      "displaySize": [
+        96,
+        96
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "id": "skill-track",
+      "sourceRect": [
+        3,
+        475,
+        543,
+        1008
+      ]
+    },
+    {
+      "name": "护持",
+      "displaySize": [
+        96,
+        96
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "id": "skill-guard",
+      "sourceRect": [
+        494,
+        475,
+        1037,
+        1009
+      ]
+    },
+    {
+      "name": "激流",
+      "displaySize": [
+        96,
+        96
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "id": "skill-surge",
+      "sourceRect": [
+        991,
+        475,
+        1527,
+        1009
+      ]
+    }
+  ],
+  "source": "designs/production-v1/skill-icons/skill-icons.png",
+  "cols": 3,
+  "rows": 2
+}

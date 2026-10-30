@@ -1,0 +1,10 @@
+{
+  "transparent_background": true,
+  "referenced_image_paths": [
+    "D:\\work\\buyu-image\\designs\\motion-frames-v1\\27-yingguang\\swim\\27-yingguang-swim.png",
+    "D:\\work\\buyu-image\\assets\\fish\\batch-5\\27-yingguang.png",
+    "D:\\work\\buyu-image\\designs\\mail-ui-v1\\01-mail-event.png",
+    "D:\\work\\buyu-image\\designs\\team-ui-v2\\team-ui-v2.png"
+  ],
+  "prompt": "Repair the FIRST squid action sheet by zooming out its artwork dramatically, to roughly60% current creature size, keeping the8 articulated swim phases. Reconstruct any clipped outer fin/tentacle tips. This is a composition repair, no action-phase scaling. Output true RGBA transparent PNG1774x887, exactly4columns2rows of8complete isolated sprites, row-major. Each tile is about444square. Leave MOST of every tile as EMPTY TRANSPARENT SPACE: each entire creature including all ornaments and appendages occupies ONLY about HALF the tile width and height, approximately250–285pixels in the center. Leave at least70pixels transparent around all tips and on the outer image edges. Do not enlarge creatures to fill tiles. Native sharp hand-painted detail, no upscaling. No background rectangle from any reference, no scenery, water, checkerboard, ground shadow, text, numbers, grid, UI, particles or extra FX. Keep the same jade/teal squid, ivory gold-edged side fins, gold filigree, amber big eye and original tentacles; head/eye/mantle core size and head root must be identical across8tiles. Preserve changing side-fin curvature and tentacle sweeps in the first image, not8static duplicates. Reference2 is identity only; last2 are Daoist chibi hand-painted style only. Every tentacle, mantle tip, white fin peak and gold edge must be whole and surrounded by empty transparency, especially outer-left and outer-right creatures. Camera/facing unchanged, no full-sprite affine motion."
+}

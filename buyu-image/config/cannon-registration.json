@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "coordinateSystem": "Top-left origin, native PNG pixels; normalized point is the centre of the visible opening, artist registration with approximately 2px tolerance.",
+  "review": "Six native barrel images visually inspected, then fixed child transform checked at -60/0/+60 degrees in actual Unity rendering.",
+  "cannons": [
+    {
+      "id": "hulu",
+      "barrelAssetId": "cannons/batch-1/hulu-barrel",
+      "barrelSha256": "88ec99466d144990b64137af047c5881c65c42e00c361781e4c91177c6c16214",
+      "nativeSize": [
+        463,
+        513
+      ],
+      "muzzlePixels": [
+        231,
+        50
+      ],
+      "muzzleNormalized": [
+        0.49892008639308855,
+        0.09746588693957114
+      ],
+      "rotationRoot": [
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "yunwen",
+      "barrelAssetId": "cannons/batch-1/yunwen-barrel",
+      "barrelSha256": "28329d74bec5bc1da831d85d8f82016f9b3db9361e92b2b5e2bdf724f9f3a606",
+      "nativeSize": [
+        408,
+        514
+      ],
+      "muzzlePixels": [
+        204,
+        44
+      ],
+      "muzzleNormalized": [
+        0.5,
+        0.08560311284046693
+      ],
+      "rotationRoot": [
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "lianhua",
+      "barrelAssetId": "cannons/batch-1/lianhua-barrel",
+      "barrelSha256": "856e084ae429cc38249c928eeb1fe93a114cc36177c60cd2bf407c997db014fe",
+      "nativeSize": [
+        408,
+        500
+      ],
+      "muzzlePixels": [
+        204,
+        49
+      ],
+      "muzzleNormalized": [
+        0.5,
+        0.098
+      ],
+      "rotationRoot": [
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "leizhen",
+      "barrelAssetId": "cannons/batch-2/leizhen-barrel",
+      "barrelSha256": "9a2748e321c738452b21d1cc50399c38300443f6293d8027cc0195bf16ef1783",
+      "nativeSize": [
+        512,
+        512
+      ],
+      "muzzlePixels": [
+        267,
+        34
+      ],
+      "muzzleNormalized": [
+        0.521484375,
+        0.06640625
+      ],
+      "rotationRoot": [
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "hanjing",
+      "barrelAssetId": "cannons/batch-2/hanjing-barrel",
+      "barrelSha256": "47813a0961497e33b514418e7cc68bc275e6decb233b25a1cd28a54bb4e477c7",
+      "nativeSize": [
+        512,
+        512
+      ],
+      "muzzlePixels": [
+        256,
+        36
+      ],
+      "muzzleNormalized": [
+        0.5,
+        0.0703125
+      ],
+      "rotationRoot": [
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "longyu",
+      "barrelAssetId": "cannons/batch-2/longyu-barrel",
+      "barrelSha256": "0deb74b5bf84ff8c1bec715f080164b1ebc4274e42e2007c042071c8474857c6",
+      "nativeSize": [
+        512,
+        512
+      ],
+      "muzzlePixels": [
+        240,
+        36
+      ],
+      "muzzleNormalized": [
+        0.46875,
+        0.0703125
+      ],
+      "rotationRoot": [
+        0.5,
+        0.7
+      ]
+    }
+  ]
+}

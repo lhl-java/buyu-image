@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "frames": {
+    "animations/35-longwang/attack/frame-00": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 1000,
+        "h": 1000
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 1000,
+        "h": 1000
+      },
+      "pivot": [
+        0.68,
+        0.42
+      ],
+      "source": "assets/animations/35-longwang/attack/frame-00.png",
+      "sourceSha256": "9e6c194a33829fcbc5ae1be4d49fe8b2b1820609430c9ef9bc7bfb6c14827b31"
+    },
+    "animations/35-longwang/attack/frame-01": {
+      "frame": {
+        "x": 1006,
+        "y": 2,
+        "w": 1000,
+        "h": 1000
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 1000,
+        "h": 1000
+      },
+      "pivot": [
+        0.68,
+        0.42
+      ],
+      "source": "assets/animations/35-longwang/attack/frame-01.png",
+      "sourceSha256": "9934779be2e5720896b51b667b5a9942e23af1444988cc8c6e2b791a9c80de7a"
+    },
+    "animations/35-longwang/attack/frame-02": {
+      "frame": {
+        "x": 2,
+        "y": 1006,
+        "w": 1000,
+        "h": 1000
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 1000,
+        "h": 1000
+      },
+      "pivot": [
+        0.68,
+        0.42
+      ],
+      "source": "assets/animations/35-longwang/attack/frame-02.png",
+      "sourceSha256": "9e89409152c490191ebc6f2be1364fbac4610adc5ec7334d6b53bf930cdbeffa"
+    },
+    "animations/35-longwang/attack/frame-03": {
+      "frame": {
+        "x": 1006,
+        "y": 1006,
+        "w": 1000,
+        "h": 1000
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 1000,
+        "h": 1000
+      },
+      "pivot": [
+        0.68,
+        0.42
+      ],
+      "source": "assets/animations/35-longwang/attack/frame-03.png",
+      "sourceSha256": "7439f482d1cef1954f6d144a0f57c66977ca2db03ce9d7bb107c1ebcdadc4e6c"
+    }
+  },
+  "meta": {
+    "image": "animations-08.png",
+    "size": {
+      "w": 2008,
+      "h": 2008
+    },
+    "format": "RGBA8888",
+    "scale": 1,
+    "padding": 2,
+    "noRotation": true,
+    "generatedAt": "2026-10-30T03:30:12.489824+00:00",
+    "operation": "native pixel packing; no resampling or redraw"
+  }
+}

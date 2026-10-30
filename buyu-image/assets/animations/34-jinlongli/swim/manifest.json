@@ -1,0 +1,1582 @@
+{
+  "schemaVersion": 1,
+  "source": [
+    "designs/motion-frames-v1/34-jinlongli/swim/34-jinlongli-swim-v1.png"
+  ],
+  "output": "assets/animations/34-jinlongli/swim",
+  "sourceEvidence": [
+    {
+      "file": "designs/motion-frames-v1/34-jinlongli/swim/34-jinlongli-swim-v1.png",
+      "sha256": "68914ce5cbdd86c90ed376cc948ba95dd243c5d592956ba33b2f26255231487b",
+      "generationRecord": "designs/motion-frames-v1/34-jinlongli/swim/34-jinlongli-swim-v1.png.generation.json"
+    }
+  ],
+  "frameCount": 8,
+  "items": [
+    {
+      "schemaVersion": 1,
+      "id": "frame-00",
+      "name": "金龙锦鲤游动 1/8",
+      "file": "assets/animations/34-jinlongli/swim/frame-00.png",
+      "sha256": "c3761d81cda575c58b64f59d69a7e28f173e0c71b3d8c9de9b622d484b18f150",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T19:38:02.512780+00:00",
+      "nativeSource": "designs/motion-frames-v1/34-jinlongli/swim/34-jinlongli-swim-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/34-jinlongli/swim/34-jinlongli-swim-v1.png",
+          "sha256": "68914ce5cbdd86c90ed376cc948ba95dd243c5d592956ba33b2f26255231487b",
+          "generationRecord": "designs/motion-frames-v1/34-jinlongli/swim/34-jinlongli-swim-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/34-jinlongli/swim/extract-v1.json",
+          "sourceRect": [
+            41,
+            129,
+            406,
+            389
+          ],
+          "evidence": {
+            "sourceFrame": 0,
+            "file": "designs/motion-frames-v1/34-jinlongli/swim/extract-v1-pose-00.png",
+            "sourceRect": [
+              41,
+              129,
+              406,
+              389
+            ],
+            "nominalSourceRect": [
+              0,
+              0,
+              444,
+              444
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              365,
+              260
+            ],
+            "ownedPixelCount": 65283,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 21
+          }
+        },
+        "sourceEyePoint": [
+          309.4575163398693,
+          95.60784313725489
+        ],
+        "globalSourceEye": [
+          350.4575163398693,
+          224.6078431372549
+        ],
+        "registrationOffset": [
+          371,
+          324
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        371,
+        324,
+        736,
+        584
+      ],
+      "registeredMinMargin": 0.264,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "visible_eye_pupil_ROI_component_center",
+        "qa": "designs/motion-frames-v1/34-jinlongli/swim/source-v1-qa.json",
+        "sourceFrame": 0,
+        "candidateIndex": 0,
+        "detection": {
+          "roi": [
+            270,
+            130,
+            440,
+            335
+          ],
+          "darkMaxExclusive": 50,
+          "warmRAtLeastGAndB": true,
+          "alphaMinExclusive": 220,
+          "componentConnectivity": 4
+        },
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review. Closed eyelid proxies are not true pupils and must be excluded from pixel-density calibration."
+      },
+      "displaySize": [
+        931.5068493150684,
+        931.5068493150684
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.9315068493150684,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          365,
+          260
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "34-jinlongli/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 0,
+        "durationMs": 83
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-01",
+      "name": "金龙锦鲤游动 2/8",
+      "file": "assets/animations/34-jinlongli/swim/frame-01.png",
+      "sha256": "6cdd9a3d9e166f15c2eece8a946660a397f20e4c10956cbdd64e4e4f8489d13b",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T19:38:02.512780+00:00",
+      "nativeSource": "designs/motion-frames-v1/34-jinlongli/swim/34-jinlongli-swim-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/34-jinlongli/swim/34-jinlongli-swim-v1.png",
+          "sha256": "68914ce5cbdd86c90ed376cc948ba95dd243c5d592956ba33b2f26255231487b",
+          "generationRecord": "designs/motion-frames-v1/34-jinlongli/swim/34-jinlongli-swim-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/34-jinlongli/swim/extract-v1.json",
+          "sourceRect": [
+            474,
+            98,
+            868,
+            380
+          ],
+          "evidence": {
+            "sourceFrame": 1,
+            "file": "designs/motion-frames-v1/34-jinlongli/swim/extract-v1-pose-01.png",
+            "sourceRect": [
+              474,
+              98,
+              868,
+              380
+            ],
+            "nominalSourceRect": [
+              444,
+              0,
+              887,
+              444
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              394,
+              282
+            ],
+            "ownedPixelCount": 65708,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 6
+          }
+        },
+        "sourceEyePoint": [
+          336.1812080536913,
+          126.7785234899329
+        ],
+        "globalSourceEye": [
+          810.1812080536913,
+          224.7785234899329
+        ],
+        "registrationOffset": [
+          344,
+          293
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        344,
+        293,
+        738,
+        575
+      ],
+      "registeredMinMargin": 0.262,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "visible_eye_pupil_ROI_component_center",
+        "qa": "designs/motion-frames-v1/34-jinlongli/swim/source-v1-qa.json",
+        "sourceFrame": 1,
+        "candidateIndex": 0,
+        "detection": {
+          "roi": [
+            270,
+            130,
+            440,
+            335
+          ],
+          "darkMaxExclusive": 50,
+          "warmRAtLeastGAndB": true,
+          "alphaMinExclusive": 220,
+          "componentConnectivity": 4
+        },
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review. Closed eyelid proxies are not true pupils and must be excluded from pixel-density calibration."
+      },
+      "displaySize": [
+        931.5068493150684,
+        931.5068493150684
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.9315068493150684,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          365,
+          260
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "34-jinlongli/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 1,
+        "durationMs": 84
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-02",
+      "name": "金龙锦鲤游动 3/8",
+      "file": "assets/animations/34-jinlongli/swim/frame-02.png",
+      "sha256": "f298be17aafac730e154839c2b20e401e0cdb4a315af61641dd5dce96c1b6a50",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T19:38:02.512780+00:00",
+      "nativeSource": "designs/motion-frames-v1/34-jinlongli/swim/34-jinlongli-swim-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/34-jinlongli/swim/34-jinlongli-swim-v1.png",
+          "sha256": "68914ce5cbdd86c90ed376cc948ba95dd243c5d592956ba33b2f26255231487b",
+          "generationRecord": "designs/motion-frames-v1/34-jinlongli/swim/34-jinlongli-swim-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/34-jinlongli/swim/extract-v1.json",
+          "sourceRect": [
+            913,
+            75,
+            1293,
+            376
+          ],
+          "evidence": {
+            "sourceFrame": 2,
+            "file": "designs/motion-frames-v1/34-jinlongli/swim/extract-v1-pose-02.png",
+            "sourceRect": [
+              913,
+              75,
+              1293,
+              376
+            ],
+            "nominalSourceRect": [
+              887,
+              0,
+              1330,
+              444
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              380,
+              301
+            ],
+            "ownedPixelCount": 64477,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 1
+          }
+        },
+        "sourceEyePoint": [
+          322.31468531468545,
+          149.82517482517483
+        ],
+        "globalSourceEye": [
+          1235.3146853146854,
+          224.82517482517483
+        ],
+        "registrationOffset": [
+          358,
+          270
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        358,
+        270,
+        738,
+        571
+      ],
+      "registeredMinMargin": 0.262,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "visible_eye_pupil_ROI_component_center",
+        "qa": "designs/motion-frames-v1/34-jinlongli/swim/source-v1-qa.json",
+        "sourceFrame": 2,
+        "candidateIndex": 0,
+        "detection": {
+          "roi": [
+            270,
+            130,
+            440,
+            335
+          ],
+          "darkMaxExclusive": 50,
+          "warmRAtLeastGAndB": true,
+          "alphaMinExclusive": 220,
+          "componentConnectivity": 4
+        },
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review. Closed eyelid proxies are not true pupils and must be excluded from pixel-density calibration."
+      },
+      "displaySize": [
+        931.5068493150684,
+        931.5068493150684
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.9315068493150684,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          365,
+          260
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "34-jinlongli/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 2,
+        "durationMs": 83
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-03",
+      "name": "金龙锦鲤游动 4/8",
+      "file": "assets/animations/34-jinlongli/swim/frame-03.png",
+      "sha256": "a2467df54acad1c442ad0119749ee72a8a97bbf8661b1182629d7a0942d8f2b1",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T19:38:02.512780+00:00",
+      "nativeSource": "designs/motion-frames-v1/34-jinlongli/swim/34-jinlongli-swim-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/34-jinlongli/swim/34-jinlongli-swim-v1.png",
+          "sha256": "68914ce5cbdd86c90ed376cc948ba95dd243c5d592956ba33b2f26255231487b",
+          "generationRecord": "designs/motion-frames-v1/34-jinlongli/swim/34-jinlongli-swim-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/34-jinlongli/swim/extract-v1.json",
+          "sourceRect": [
+            1345,
+            128,
+            1739,
+            387
+          ],
+          "evidence": {
+            "sourceFrame": 3,
+            "file": "designs/motion-frames-v1/34-jinlongli/swim/extract-v1-pose-03.png",
+            "sourceRect": [
+              1345,
+              128,
+              1739,
+              387
+            ],
+            "nominalSourceRect": [
+              1330,
+              0,
+              1774,
+              444
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              394,
+              259
+            ],
+            "ownedPixelCount": 69251,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 20
+          }
+        },
+        "sourceEyePoint": [
+          332.941935483871,
+          95.56129032258065
+        ],
+        "globalSourceEye": [
+          1677.941935483871,
+          223.56129032258065
+        ],
+        "registrationOffset": [
+          347,
+          324
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        347,
+        324,
+        741,
+        583
+      ],
+      "registeredMinMargin": 0.259,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "visible_eye_pupil_ROI_component_center",
+        "qa": "designs/motion-frames-v1/34-jinlongli/swim/source-v1-qa.json",
+        "sourceFrame": 3,
+        "candidateIndex": 0,
+        "detection": {
+          "roi": [
+            270,
+            130,
+            440,
+            335
+          ],
+          "darkMaxExclusive": 50,
+          "warmRAtLeastGAndB": true,
+          "alphaMinExclusive": 220,
+          "componentConnectivity": 4
+        },
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review. Closed eyelid proxies are not true pupils and must be excluded from pixel-density calibration."
+      },
+      "displaySize": [
+        931.5068493150684,
+        931.5068493150684
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.9315068493150684,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          365,
+          260
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "34-jinlongli/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 3,
+        "durationMs": 83
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-04",
+      "name": "金龙锦鲤游动 5/8",
+      "file": "assets/animations/34-jinlongli/swim/frame-04.png",
+      "sha256": "af3d47ce8c4ade49c41f572f1c6668a0a849289641bcb3f01b7549d7347f3933",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T19:38:02.512780+00:00",
+      "nativeSource": "designs/motion-frames-v1/34-jinlongli/swim/34-jinlongli-swim-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/34-jinlongli/swim/34-jinlongli-swim-v1.png",
+          "sha256": "68914ce5cbdd86c90ed376cc948ba95dd243c5d592956ba33b2f26255231487b",
+          "generationRecord": "designs/motion-frames-v1/34-jinlongli/swim/34-jinlongli-swim-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/34-jinlongli/swim/extract-v1.json",
+          "sourceRect": [
+            36,
+            516,
+            414,
+            778
+          ],
+          "evidence": {
+            "sourceFrame": 4,
+            "file": "designs/motion-frames-v1/34-jinlongli/swim/extract-v1-pose-04.png",
+            "sourceRect": [
+              36,
+              516,
+              414,
+              778
+            ],
+            "nominalSourceRect": [
+              0,
+              444,
+              444,
+              887
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              378,
+              262
+            ],
+            "ownedPixelCount": 64310,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 132
+          }
+        },
+        "sourceEyePoint": [
+          319.52985074626866,
+          99.1044776119403
+        ],
+        "globalSourceEye": [
+          355.52985074626866,
+          615.1044776119403
+        ],
+        "registrationOffset": [
+          360,
+          321
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        360,
+        321,
+        738,
+        583
+      ],
+      "registeredMinMargin": 0.262,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "visible_eye_pupil_ROI_component_center",
+        "qa": "designs/motion-frames-v1/34-jinlongli/swim/source-v1-qa.json",
+        "sourceFrame": 4,
+        "candidateIndex": 0,
+        "detection": {
+          "roi": [
+            270,
+            130,
+            440,
+            335
+          ],
+          "darkMaxExclusive": 50,
+          "warmRAtLeastGAndB": true,
+          "alphaMinExclusive": 220,
+          "componentConnectivity": 4
+        },
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review. Closed eyelid proxies are not true pupils and must be excluded from pixel-density calibration."
+      },
+      "displaySize": [
+        931.5068493150684,
+        931.5068493150684
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.9315068493150684,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          365,
+          260
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "34-jinlongli/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 4,
+        "durationMs": 84
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-05",
+      "name": "金龙锦鲤游动 6/8",
+      "file": "assets/animations/34-jinlongli/swim/frame-05.png",
+      "sha256": "4f9037b3aa36107e786e67a8dd7bb6ee980be3e3c74b1646a3435af235c118ec",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T19:38:02.512780+00:00",
+      "nativeSource": "designs/motion-frames-v1/34-jinlongli/swim/34-jinlongli-swim-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/34-jinlongli/swim/34-jinlongli-swim-v1.png",
+          "sha256": "68914ce5cbdd86c90ed376cc948ba95dd243c5d592956ba33b2f26255231487b",
+          "generationRecord": "designs/motion-frames-v1/34-jinlongli/swim/34-jinlongli-swim-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/34-jinlongli/swim/extract-v1.json",
+          "sourceRect": [
+            471,
+            516,
+            869,
+            802
+          ],
+          "evidence": {
+            "sourceFrame": 5,
+            "file": "designs/motion-frames-v1/34-jinlongli/swim/extract-v1-pose-05.png",
+            "sourceRect": [
+              471,
+              516,
+              869,
+              802
+            ],
+            "nominalSourceRect": [
+              444,
+              444,
+              887,
+              887
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              398,
+              286
+            ],
+            "ownedPixelCount": 64889,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 133
+          }
+        },
+        "sourceEyePoint": [
+          339.37837837837833,
+          98.95270270270271
+        ],
+        "globalSourceEye": [
+          810.3783783783783,
+          614.9527027027027
+        ],
+        "registrationOffset": [
+          341,
+          321
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        341,
+        321,
+        739,
+        607
+      ],
+      "registeredMinMargin": 0.261,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "visible_eye_pupil_ROI_component_center",
+        "qa": "designs/motion-frames-v1/34-jinlongli/swim/source-v1-qa.json",
+        "sourceFrame": 5,
+        "candidateIndex": 0,
+        "detection": {
+          "roi": [
+            270,
+            130,
+            440,
+            335
+          ],
+          "darkMaxExclusive": 50,
+          "warmRAtLeastGAndB": true,
+          "alphaMinExclusive": 220,
+          "componentConnectivity": 4
+        },
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review. Closed eyelid proxies are not true pupils and must be excluded from pixel-density calibration."
+      },
+      "displaySize": [
+        931.5068493150684,
+        931.5068493150684
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.9315068493150684,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          365,
+          260
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "34-jinlongli/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 5,
+        "durationMs": 83
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-06",
+      "name": "金龙锦鲤游动 7/8",
+      "file": "assets/animations/34-jinlongli/swim/frame-06.png",
+      "sha256": "f6235ea74691526bc74e26858e50a882ebea2462293d30f97565551509aa32ce",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T19:38:02.512780+00:00",
+      "nativeSource": "designs/motion-frames-v1/34-jinlongli/swim/34-jinlongli-swim-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/34-jinlongli/swim/34-jinlongli-swim-v1.png",
+          "sha256": "68914ce5cbdd86c90ed376cc948ba95dd243c5d592956ba33b2f26255231487b",
+          "generationRecord": "designs/motion-frames-v1/34-jinlongli/swim/34-jinlongli-swim-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/34-jinlongli/swim/extract-v1.json",
+          "sourceRect": [
+            906,
+            516,
+            1296,
+            777
+          ],
+          "evidence": {
+            "sourceFrame": 6,
+            "file": "designs/motion-frames-v1/34-jinlongli/swim/extract-v1-pose-06.png",
+            "sourceRect": [
+              906,
+              516,
+              1296,
+              777
+            ],
+            "nominalSourceRect": [
+              887,
+              444,
+              1330,
+              887
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              390,
+              261
+            ],
+            "ownedPixelCount": 64780,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 134
+          }
+        },
+        "sourceEyePoint": [
+          332.86428571428564,
+          99.06428571428569
+        ],
+        "globalSourceEye": [
+          1238.8642857142856,
+          615.0642857142857
+        ],
+        "registrationOffset": [
+          347,
+          321
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        347,
+        321,
+        737,
+        582
+      ],
+      "registeredMinMargin": 0.263,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "visible_eye_pupil_ROI_component_center",
+        "qa": "designs/motion-frames-v1/34-jinlongli/swim/source-v1-qa.json",
+        "sourceFrame": 6,
+        "candidateIndex": 0,
+        "detection": {
+          "roi": [
+            270,
+            130,
+            440,
+            335
+          ],
+          "darkMaxExclusive": 50,
+          "warmRAtLeastGAndB": true,
+          "alphaMinExclusive": 220,
+          "componentConnectivity": 4
+        },
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review. Closed eyelid proxies are not true pupils and must be excluded from pixel-density calibration."
+      },
+      "displaySize": [
+        931.5068493150684,
+        931.5068493150684
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.9315068493150684,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          365,
+          260
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "34-jinlongli/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 6,
+        "durationMs": 83
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-07",
+      "name": "金龙锦鲤游动 8/8",
+      "file": "assets/animations/34-jinlongli/swim/frame-07.png",
+      "sha256": "1d4086bd8358fd306ea318468078d0f3167bd60f5fa3914ee40011c35f339572",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T19:38:02.512780+00:00",
+      "nativeSource": "designs/motion-frames-v1/34-jinlongli/swim/34-jinlongli-swim-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/34-jinlongli/swim/34-jinlongli-swim-v1.png",
+          "sha256": "68914ce5cbdd86c90ed376cc948ba95dd243c5d592956ba33b2f26255231487b",
+          "generationRecord": "designs/motion-frames-v1/34-jinlongli/swim/34-jinlongli-swim-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/34-jinlongli/swim/extract-v1.json",
+          "sourceRect": [
+            1344,
+            515,
+            1734,
+            777
+          ],
+          "evidence": {
+            "sourceFrame": 7,
+            "file": "designs/motion-frames-v1/34-jinlongli/swim/extract-v1-pose-07.png",
+            "sourceRect": [
+              1344,
+              515,
+              1734,
+              777
+            ],
+            "nominalSourceRect": [
+              1330,
+              444,
+              1774,
+              887
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              390,
+              262
+            ],
+            "ownedPixelCount": 71130,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 135
+          }
+        },
+        "sourceEyePoint": [
+          330.4113924050632,
+          103.36075949367091
+        ],
+        "globalSourceEye": [
+          1674.4113924050632,
+          618.3607594936709
+        ],
+        "registrationOffset": [
+          350,
+          317
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        350,
+        317,
+        740,
+        579
+      ],
+      "registeredMinMargin": 0.26,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "visible_eye_pupil_ROI_component_center",
+        "qa": "designs/motion-frames-v1/34-jinlongli/swim/source-v1-qa.json",
+        "sourceFrame": 7,
+        "candidateIndex": 0,
+        "detection": {
+          "roi": [
+            270,
+            130,
+            440,
+            335
+          ],
+          "darkMaxExclusive": 50,
+          "warmRAtLeastGAndB": true,
+          "alphaMinExclusive": 220,
+          "componentConnectivity": 4
+        },
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review. Closed eyelid proxies are not true pupils and must be excluded from pixel-density calibration."
+      },
+      "displaySize": [
+        931.5068493150684,
+        931.5068493150684
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.9315068493150684,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          365,
+          260
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "34-jinlongli/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 7,
+        "durationMs": 84
+      }
+    }
+  ],
+  "animation": {
+    "id": "34-jinlongli/swim",
+    "frames": 8,
+    "fps": 12,
+    "loop": true,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "durationsMs": [
+      83,
+      84,
+      83,
+      83,
+      84,
+      83,
+      83,
+      84
+    ],
+    "root": [
+      0.68,
+      0.42
+    ],
+    "sourceRoute": "builtin_native_AI_sheet_user_requested",
+    "sourcePixelsNeverResampled": true,
+    "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+    "releaseReady": true
+  },
+  "sharedCanvas": [
+    1000,
+    1000
+  ],
+  "rootPixels": [
+    680,
+    420
+  ],
+  "eyePixels": [
+    680,
+    420
+  ],
+  "anchor": [
+    0.68,
+    0.42
+  ],
+  "uniformDisplayScale": 0.9315068493150684,
+  "bodyDisplayBox": [
+    340,
+    260
+  ],
+  "displaySize": [
+    931.5068493150684,
+    931.5068493150684
+  ],
+  "warnings": [
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 0,
+      "sourceMinMargin": 0.08558558558558559,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 1,
+      "sourceMinMargin": 0.04288939051918736,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 2,
+      "sourceMinMargin": 0.05869074492099323,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 3,
+      "sourceMinMargin": 0.033783783783783786,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 4,
+      "sourceMinMargin": 0.06756756756756757,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 5,
+      "sourceMinMargin": 0.040632054176072234,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 6,
+      "sourceMinMargin": 0.04288939051918736,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 7,
+      "sourceMinMargin": 0.03153153153153153,
+      "retained": true
+    },
+    {
+      "id": "native_head_shape_and_inter_sheet_density",
+      "severity": "pending_playback_review",
+      "note": "Integer translation cannot correct generated head contour or native scale drift; do not treat pixel bounds as motion approval."
+    }
+  ],
+  "contactSheets": [
+    "tmp/art-qa/34-jinlongli-swim-registered-light.jpg",
+    "tmp/art-qa/34-jinlongli-swim-registered-dark.jpg"
+  ],
+  "qa": {
+    "nativeOwnedPixelsPreserved": true,
+    "registeredMarginStatus": "pass_12pct",
+    "sourceMarginStatus": "warnings_preserved",
+    "sourceCanvasClipping": "none_for_adopted_extractions",
+    "semanticOwnershipStatus": "pending_root_contact_sheet_review",
+    "poseAndIdentityStatus": "native_source_stills_observed_pending_registered_review",
+    "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+    "unityPlaybackStatus": "not_run"
+  },
+  "status": "accepted_first_release_art",
+  "releaseReady": true,
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+  "acceptedAt": "2026-10-30T04:07:09.085600+00:00",
+  "playbackReview": "docs/UNITY_FINAL_ACCEPTANCE.json"
+}

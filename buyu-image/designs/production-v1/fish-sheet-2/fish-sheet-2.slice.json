@@ -1,0 +1,69 @@
+{
+  "source": "designs/production-v1/fish-sheet-2/fish-sheet-2.png",
+  "output": "assets/fish/batch-2",
+  "rows": 2,
+  "cols": 3,
+  "items": [
+    {
+      "id": "07-zihai",
+      "name": "紫海鱼",
+      "description": "lavender oval reef fish with silver stripes and round head",
+      "tier": "common",
+      "displaySize": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "08-lanbian",
+      "name": "蓝鳊",
+      "description": "flat round blue bream with ivory belly",
+      "tier": "common",
+      "displaySize": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "09-caidie",
+      "name": "彩蝶鱼",
+      "description": "orange and cream butterflyfish with black eye stripe",
+      "tier": "common",
+      "displaySize": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "10-qingya",
+      "name": "青牙鱼",
+      "description": "small mint and jade fish with short blunt muzzle and tiny teeth",
+      "tier": "common",
+      "displaySize": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "11-yinlin",
+      "name": "银鳞鱼",
+      "description": "silver-blue schooling fish, shimmering scale panels",
+      "tier": "common",
+      "displaySize": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "12-yuewei",
+      "name": "月尾鱼",
+      "description": "pearly cream fish with crescent-shaped soft aqua tail",
+      "tier": "common",
+      "displaySize": [
+        120,
+        80
+      ]
+    }
+  ],
+  "keepCell": false
+}

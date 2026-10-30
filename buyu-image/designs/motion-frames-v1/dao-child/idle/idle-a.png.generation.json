@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/motion-frames-v1/dao-child/idle/idle-a.png",
+  "sha256": "a46bcc6dab638e7f5e10984f4a953ce8addfd0dc6abb4f314b25b10f459f5f22",
+  "generatedAt": "2026-10-28T14:33:29.411Z",
+  "startedAt": "2026-10-28T14:29:45.599Z",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "pixelFormat": "Format32bppArgb",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-28",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "builtin_evidence": {
+      "model_parameter_exposed": false,
+      "quality_parameter_exposed": false,
+      "actual_model": null,
+      "actual_quality": null,
+      "note": "Configuration targets only; verify actual model and quality per generated image."
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\buyu-image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\buyu-image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "D:\\work\\buyu-image\\assets\\characters\\dao-child\\dao-child.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具未开放 model/quality 参数，本次结果未披露实际型号及质量。",
+  "evidence": {
+    "toolResult": "idle-a.tool-result.txt",
+    "sourceOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a18184-f61a-7760-b69c-882264640513\\exec-d39a4c04-f8e0-45fd-a49c-cf4f577db40b.png",
+    "toolResultId": "exec-d39a4c04-f8e0-45fd-a49c-cf4f577db40b",
+    "request": "idle-a.request.json"
+  },
+  "prompt": "idle-a.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "assets/characters/dao-child/dao-child.png",
+      "sha256": "a3d37b28c4703056c27c900fb66712f596049dbe2ac5b8cf42b40d2db6d574ae",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    }
+  ],
+  "requestedCanvasInPrompt": "2x2 equal grid alpha sheet, four phases0/.125/.25/.375; actual native size recorded",
+  "resampled": false,
+  "status": "draft_pending_user_review",
+  "visualReview": "四相位眼睑与衣褶变化明确，脸型/持炮/服装身份承接master；实际目视发现角色占格过满，炮口与底缘接近格边，不满足12%留白，待AI定点缩回留白后再切片。",
+  "scope": "First four native AI-generated character idle animation phases, pending containment correction"
+}

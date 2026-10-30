@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-03",
+  "name": "青鳍鱼游动相位 135°",
+  "file": "assets/animations/01-qingqi/swim/frame-03.png",
+  "sha256": "b4f206acb7fdecf8b087d8a9e15d5522d77fb6bb763b963ea72afb3caa9ec8fd",
+  "width": 576,
+  "height": 576,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/motion-frames-v1/01-qingqi/swim/01-qingqi-swim-contained-v2.png",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/01-qingqi/swim/01-qingqi-swim-contained-v2.png",
+      "sha256": "8062b4d48c58d7d0d64f776e24a670ae3b100fe0898208d12132c1d0ba856bfd",
+      "generationRecord": "designs/motion-frames-v1/01-qingqi/swim/01-qingqi-swim-contained-v2.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_grid_crop_integer_pupil_registration",
+    "grid": {
+      "rows": 2,
+      "cols": 4
+    },
+    "sourceRect": [
+      1330,
+      0,
+      1774,
+      444
+    ],
+    "cellCropRect": [
+      0,
+      0,
+      444,
+      444
+    ],
+    "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+    "resized": false,
+    "upscaled": false,
+    "registrationOffset": [
+      36,
+      -5
+    ],
+    "registeredCanvas": [
+      576,
+      576
+    ],
+    "registrationReference": {
+      "type": "black_pupil_connected_component_centroid",
+      "sourcePointFloat": [
+        332.34432234432234,
+        281.4908424908425
+      ],
+      "sourcePointRounded": [
+        332,
+        281
+      ],
+      "targetPoint": [
+        368,
+        276
+      ],
+      "rounding": "nearest integer",
+      "detection": "within manually inspected local eye ROI; largest RGB max<55 and alpha>220 component"
+    },
+    "sourcePixelsRoundTripVerified": true,
+    "transparentOnlyClipping": true
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "status": "producer_candidate_pending_root_visual",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source generation record; no new model call for this slice.",
+  "animation": {
+    "id": "01-qingqi/swim",
+    "frames": 8,
+    "fps": 12,
+    "loop": true,
+    "order": "row-major",
+    "phasesDegrees": [
+      0,
+      45,
+      90,
+      135,
+      180,
+      225,
+      270,
+      315
+    ],
+    "root": [
+      0.5,
+      0.5
+    ],
+    "durationsMs": [
+      83,
+      84,
+      83,
+      83,
+      84,
+      83,
+      83,
+      84
+    ],
+    "timingNote": "fps=12 authoritative; durations rounded from cumulative frame boundaries",
+    "targetBodyBox": [
+      120,
+      80
+    ],
+    "registrationStatus": "pending_root_registration",
+    "identityStatus": "pending_root_visual",
+    "motionStatus": "pending_root_visual",
+    "loopVisualStatus": "pending_root_playback",
+    "sourceRoute": "builtin_native_AI_sheet_user_requested"
+  },
+  "targetBodyBox": [
+    120,
+    80
+  ],
+  "displaySizing": {
+    "preserveAspect": true,
+    "uniformScaleAcrossAction": true,
+    "upscalingAllowed": false,
+    "status": "pending_root_selection"
+  },
+  "rootPixels": [
+    288,
+    288
+  ],
+  "eyePixels": [
+    368,
+    276
+  ],
+  "registeredAlphaBBox": [
+    100,
+    190,
+    416,
+    389
+  ],
+  "registeredMinMargin": 0.1736111111111111,
+  "displaySize": [
+    227.3684210526316,
+    227.3684210526316
+  ],
+  "bodyDisplayBox": [
+    120,
+    80
+  ],
+  "uniformDisplayScale": 0.39473684210526316,
+  "displayScaleReference": {
+    "frame": 0,
+    "restNativeVisibleBox": [
+      304,
+      198
+    ],
+    "fitMaxBox": [
+      120,
+      80
+    ],
+    "actualRestDisplayBox": [
+      120.0,
+      78.15789473684211
+    ],
+    "method": "one aspect-preserving scale from rest visible box; reused across every frame",
+    "upscaling": false
+  },
+  "producerLightDarkStillReview": "viewed_candidate_pass"
+}

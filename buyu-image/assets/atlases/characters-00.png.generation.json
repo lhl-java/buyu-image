@@ -1,0 +1,46 @@
+{
+  "file": "assets/atlases/characters-00.png",
+  "sha256": "a88e4cf6a810805611f2a1179f7a09e88c5af554ba27451831ec3a1db76aa113",
+  "width": 1724,
+  "height": 1686,
+  "operation": {
+    "type": "native_atlas_packing",
+    "resampled": false,
+    "upscaled": false
+  },
+  "derivedFrom": [
+    {
+      "file": "assets/characters/dao-child/dao-child.png",
+      "sha256": "a3d37b28c4703056c27c900fb66712f596049dbe2ac5b8cf42b40d2db6d574ae",
+      "generationRecord": "assets/characters/dao-child/dao-child.png.generation.json"
+    },
+    {
+      "file": "assets/characters/portraits/elder.png",
+      "sha256": "bc7d3ebe00e979dc623b47f1906fb512df1f7981184ab64ca88cf960f0f57c40",
+      "generationRecord": "assets/characters/portraits/elder.png.generation.json"
+    },
+    {
+      "file": "assets/characters/portraits/guide.png",
+      "sha256": "42619603e8c753d2236fd567714ade31978f5cc7158ac6f8269ea07ba081fc4c",
+      "generationRecord": "assets/characters/portraits/guide.png.generation.json"
+    },
+    {
+      "file": "assets/characters/portraits/healer.png",
+      "sha256": "f818b7650eaf876826a94504d1ac94181942b78e5ec35dd8d9a6b2cdce200173",
+      "generationRecord": "assets/characters/portraits/healer.png.generation.json"
+    },
+    {
+      "file": "assets/characters/portraits/navigator.png",
+      "sha256": "9c05d65c5c78dfa12770ba47dd3fb4521c22e352e5939214bb5246d365d6faed",
+      "generationRecord": "assets/characters/portraits/navigator.png.generation.json"
+    },
+    {
+      "file": "assets/characters/portraits/merchant.png",
+      "sha256": "886b9aea8d94df6739dc60a93976bc3504947302f6db1996e5d42691ba116b1b",
+      "generationRecord": "assets/characters/portraits/merchant.png.generation.json"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "No model call; see individual sources."
+}

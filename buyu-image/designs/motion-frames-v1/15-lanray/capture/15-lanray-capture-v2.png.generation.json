@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/motion-frames-v1/15-lanray/capture/15-lanray-capture-v2.png",
+  "sha256": "10281d771b528cc5dc9a33307ab47ec141318e5b441c6a9a0338f984c8fd75b8",
+  "generatedAt": "2026-10-28T18:35:27.035Z",
+  "startedAt": "2026-10-28T18:33:05.047Z",
+  "width": 1774,
+  "height": 887,
+  "format": "PNG",
+  "pixelFormat": "Format32bppArgb",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-28",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "builtin_evidence": {
+      "model_parameter_exposed": false,
+      "quality_parameter_exposed": false,
+      "actual_model": null,
+      "actual_quality": null,
+      "note": "Configuration targets only; verify actual model and quality per generated image."
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\buyu-image\\designs\\motion-frames-v1\\15-lanray\\capture\\15-lanray-capture.png",
+      "D:\\work\\buyu-image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\buyu-image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "D:\\work\\buyu-image\\assets\\fish\\batch-3\\15-lanray.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具未开放 model/quality 参数，本次结果未披露实际型号及质量。",
+  "evidence": {
+    "toolResult": "15-lanray-capture-v2.tool-result.txt",
+    "sourceOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a18291-7f9d-7081-8ee8-2bec0f32ff89\\exec-18fd1968-3d52-4652-8347-ab536eab91dd.png",
+    "toolResultId": "exec-18fd1968-3d52-4652-8347-ab536eab91dd",
+    "request": "15-lanray-capture-v2.request.json"
+  },
+  "prompt": "15-lanray-capture-v2.prompt.txt",
+  "references": [
+    {
+      "file": "designs/motion-frames-v1/15-lanray/capture/15-lanray-capture.png",
+      "sha256": "a001911c83de77dc365b0cb98010bf195fdef6cf827ed20c18cc64f158e16ae3",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "assets/fish/batch-3/15-lanray.png",
+      "sha256": "6551be93eaf191f5987523b512adbd3565930638a38a9804cf114f05499c4e69",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    }
+  ],
+  "requestedCanvasInPrompt": "4x2 native8frames2:1 trueAlpha.",
+  "resampled": false,
+  "status": "draft_pending_user_review",
+  "visualReview": "Real fin/tail/rim articulation visible; fixed root/scale, source boundary and continuity pending producer review; candidate only.",
+  "scope": "15-lanray capture 8nativeframes; no playback/finalpass."
+}

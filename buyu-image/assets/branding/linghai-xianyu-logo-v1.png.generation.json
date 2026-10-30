@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/branding/linghai-xianyu-logo-v1.png",
+  "sha256": "def85ed9e51d2c9c6525980bf815af01480e1b3359a7b7d430412780c0e6ef38",
+  "generatedAt": "2026-10-29T02:58:51.442264+00:00",
+  "width": 1774,
+  "height": 887,
+  "format": "RGBA PNG",
+  "tool": "filesystem byte-identical copy",
+  "route": "derived",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "No new model call. Source record retains actual undisclosed builtin model/quality.",
+  "derivedFrom": [
+    {
+      "file": "designs/branding/linghai-xianyu-logo-v1/linghai-xianyu-logo.png",
+      "sha256": "def85ed9e51d2c9c6525980bf815af01480e1b3359a7b7d430412780c0e6ef38",
+      "generationRecord": "designs/branding/linghai-xianyu-logo-v1/linghai-xianyu-logo.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "byte_identical_copy",
+    "resized": false,
+    "upscaled": false,
+    "sourcePixelsModified": false,
+    "pixelFidelityVerifiedBySHA256": true
+  },
+  "status": "visual_reviewed_pending_user_and_runtime_review"
+}

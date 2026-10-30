@@ -1,0 +1,888 @@
+{
+  "schemaVersion": 1,
+  "id": "fx-surge",
+  "checkedAt": "2026-10-28T12:06:01.562369+00:00",
+  "source": "designs/production-v2/fx-surge/fx-surge.png",
+  "sourceSha256": "90d55ed95e8a98af8b82799864c9c61f526b418af4af641a47b7f638ceabce00",
+  "nativeSourceSize": [
+    1254,
+    1254
+  ],
+  "frames": 16,
+  "uniqueFrameCount": 16,
+  "sharedCanvas": [
+    314,
+    314
+  ],
+  "animation": {
+    "fps": 16,
+    "loop": false,
+    "order": "row-major",
+    "frames": 16,
+    "root": [
+      0.5,
+      0.5
+    ],
+    "durationMs": 1000,
+    "role": "skill_one_shot"
+  },
+  "allMarginsMinimum": 0.022364217252396165,
+  "runtimeMarginsMinimum": 0.025477707006369428,
+  "peakAlphaSumFrame": 6,
+  "measurements": [
+    {
+      "frame": 0,
+      "sourceRect": [
+        0,
+        0,
+        314,
+        314
+      ],
+      "nativeExportSize": [
+        314,
+        314
+      ],
+      "alphaRange": [
+        0,
+        250
+      ],
+      "boundsAboveAlpha3": [
+        65,
+        160,
+        273,
+        277
+      ],
+      "marginRatios": [
+        0.2070063694267516,
+        0.5095541401273885,
+        0.1305732484076433,
+        0.1178343949044586
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        65,
+        160,
+        273,
+        277
+      ],
+      "runtimeMarginRatios": [
+        0.2070063694267516,
+        0.5095541401273885,
+        0.1305732484076433,
+        0.1178343949044586
+      ],
+      "alphaSum": 1402758,
+      "sha256": "cc4b0f6a3fcaea04801f067864e902e780a98c240ba98c58dcb317eba477decb"
+    },
+    {
+      "frame": 1,
+      "sourceRect": [
+        314,
+        0,
+        627,
+        314
+      ],
+      "nativeExportSize": [
+        314,
+        314
+      ],
+      "alphaRange": [
+        0,
+        251
+      ],
+      "boundsAboveAlpha3": [
+        65,
+        120,
+        262,
+        278
+      ],
+      "marginRatios": [
+        0.20766773162939298,
+        0.3821656050955414,
+        0.16293929712460065,
+        0.11464968152866242
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        65,
+        120,
+        262,
+        278
+      ],
+      "runtimeMarginRatios": [
+        0.2070063694267516,
+        0.3821656050955414,
+        0.16560509554140126,
+        0.11464968152866242
+      ],
+      "alphaSum": 2192657,
+      "sha256": "dde381ee2a178d7e68db1f4709da611ca032e7421de50410c4b5c70c2f406e22"
+    },
+    {
+      "frame": 2,
+      "sourceRect": [
+        627,
+        0,
+        940,
+        314
+      ],
+      "nativeExportSize": [
+        314,
+        314
+      ],
+      "alphaRange": [
+        0,
+        252
+      ],
+      "boundsAboveAlpha3": [
+        41,
+        104,
+        269,
+        287
+      ],
+      "marginRatios": [
+        0.13099041533546327,
+        0.33121019108280253,
+        0.14057507987220447,
+        0.08598726114649681
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        41,
+        104,
+        269,
+        287
+      ],
+      "runtimeMarginRatios": [
+        0.1305732484076433,
+        0.33121019108280253,
+        0.14331210191082802,
+        0.08598726114649681
+      ],
+      "alphaSum": 4002061,
+      "sha256": "69d48e02af1f2ab5ecc6ef724e1e7b3ed893a9a806fc61381ac43eff55e870ff"
+    },
+    {
+      "frame": 3,
+      "sourceRect": [
+        940,
+        0,
+        1254,
+        314
+      ],
+      "nativeExportSize": [
+        314,
+        314
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "boundsAboveAlpha3": [
+        24,
+        97,
+        266,
+        288
+      ],
+      "marginRatios": [
+        0.07643312101910828,
+        0.3089171974522293,
+        0.15286624203821655,
+        0.08280254777070063
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        24,
+        97,
+        266,
+        288
+      ],
+      "runtimeMarginRatios": [
+        0.07643312101910828,
+        0.3089171974522293,
+        0.15286624203821655,
+        0.08280254777070063
+      ],
+      "alphaSum": 5492680,
+      "sha256": "b4eedb211886d8dea963980014c75dbb95bb31f81c5b296649674d00f011802b"
+    },
+    {
+      "frame": 4,
+      "sourceRect": [
+        0,
+        314,
+        314,
+        627
+      ],
+      "nativeExportSize": [
+        314,
+        314
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "boundsAboveAlpha3": [
+        39,
+        55,
+        300,
+        285
+      ],
+      "marginRatios": [
+        0.12420382165605096,
+        0.1757188498402556,
+        0.044585987261146494,
+        0.08945686900958466
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        39,
+        55,
+        300,
+        285
+      ],
+      "runtimeMarginRatios": [
+        0.12420382165605096,
+        0.1751592356687898,
+        0.044585987261146494,
+        0.09235668789808917
+      ],
+      "alphaSum": 7551057,
+      "sha256": "679d1a5d296b1c9181ce5fbcabc9593e765bc8571e93edd0a4bd6466d36bcfce"
+    },
+    {
+      "frame": 5,
+      "sourceRect": [
+        314,
+        314,
+        627,
+        627
+      ],
+      "nativeExportSize": [
+        314,
+        314
+      ],
+      "alphaRange": [
+        0,
+        253
+      ],
+      "boundsAboveAlpha3": [
+        14,
+        40,
+        305,
+        297
+      ],
+      "marginRatios": [
+        0.04472843450479233,
+        0.12779552715654952,
+        0.025559105431309903,
+        0.051118210862619806
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        14,
+        40,
+        305,
+        297
+      ],
+      "runtimeMarginRatios": [
+        0.044585987261146494,
+        0.12738853503184713,
+        0.028662420382165606,
+        0.054140127388535034
+      ],
+      "alphaSum": 9727262,
+      "sha256": "2d87e819a849d950136e6f86f3c7cd86f80d91ba6f5bc5cbc777120ef3fcb524"
+    },
+    {
+      "frame": 6,
+      "sourceRect": [
+        627,
+        314,
+        940,
+        627
+      ],
+      "nativeExportSize": [
+        314,
+        314
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "boundsAboveAlpha3": [
+        12,
+        40,
+        306,
+        299
+      ],
+      "marginRatios": [
+        0.038338658146964855,
+        0.12779552715654952,
+        0.022364217252396165,
+        0.04472843450479233
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        12,
+        40,
+        306,
+        299
+      ],
+      "runtimeMarginRatios": [
+        0.03821656050955414,
+        0.12738853503184713,
+        0.025477707006369428,
+        0.04777070063694268
+      ],
+      "alphaSum": 12075157,
+      "sha256": "b6221984762218dace379cfcf22ebbcd501b0a05af81beb9e352c17242cbadff"
+    },
+    {
+      "frame": 7,
+      "sourceRect": [
+        940,
+        314,
+        1254,
+        627
+      ],
+      "nativeExportSize": [
+        314,
+        314
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "boundsAboveAlpha3": [
+        18,
+        50,
+        295,
+        287
+      ],
+      "marginRatios": [
+        0.05732484076433121,
+        0.1597444089456869,
+        0.06050955414012739,
+        0.08306709265175719
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        18,
+        50,
+        295,
+        287
+      ],
+      "runtimeMarginRatios": [
+        0.05732484076433121,
+        0.1592356687898089,
+        0.06050955414012739,
+        0.08598726114649681
+      ],
+      "alphaSum": 7860694,
+      "sha256": "e017a12af65fc947f6894133369d9cc7bb4f88454389f1dd61d6f141b021fe2a"
+    },
+    {
+      "frame": 8,
+      "sourceRect": [
+        0,
+        627,
+        314,
+        940
+      ],
+      "nativeExportSize": [
+        314,
+        314
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "boundsAboveAlpha3": [
+        41,
+        41,
+        300,
+        280
+      ],
+      "marginRatios": [
+        0.1305732484076433,
+        0.13099041533546327,
+        0.044585987261146494,
+        0.10543130990415335
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        41,
+        41,
+        300,
+        280
+      ],
+      "runtimeMarginRatios": [
+        0.1305732484076433,
+        0.1305732484076433,
+        0.044585987261146494,
+        0.10828025477707007
+      ],
+      "alphaSum": 7141975,
+      "sha256": "41d09f867f578c2b666818e94a2de2eda48a08233585bfec3ef4552eb95f2641"
+    },
+    {
+      "frame": 9,
+      "sourceRect": [
+        314,
+        627,
+        627,
+        940
+      ],
+      "nativeExportSize": [
+        314,
+        314
+      ],
+      "alphaRange": [
+        0,
+        253
+      ],
+      "boundsAboveAlpha3": [
+        47,
+        45,
+        285,
+        272
+      ],
+      "marginRatios": [
+        0.1501597444089457,
+        0.14376996805111822,
+        0.08945686900958466,
+        0.13099041533546327
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        47,
+        45,
+        285,
+        272
+      ],
+      "runtimeMarginRatios": [
+        0.14968152866242038,
+        0.14331210191082802,
+        0.09235668789808917,
+        0.1337579617834395
+      ],
+      "alphaSum": 5568452,
+      "sha256": "12b901ef5727c4a52bfb841ec866b17c61be675e614185835ff2767da250d8f7"
+    },
+    {
+      "frame": 10,
+      "sourceRect": [
+        627,
+        627,
+        940,
+        940
+      ],
+      "nativeExportSize": [
+        314,
+        314
+      ],
+      "alphaRange": [
+        0,
+        251
+      ],
+      "boundsAboveAlpha3": [
+        39,
+        59,
+        280,
+        271
+      ],
+      "marginRatios": [
+        0.12460063897763578,
+        0.18849840255591055,
+        0.10543130990415335,
+        0.134185303514377
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        39,
+        59,
+        280,
+        271
+      ],
+      "runtimeMarginRatios": [
+        0.12420382165605096,
+        0.18789808917197454,
+        0.10828025477707007,
+        0.13694267515923567
+      ],
+      "alphaSum": 4059092,
+      "sha256": "714ceb7071ce6a2ebb69900a31774e2009bf31fb1b2cae2870ee5bbdcd6a174f"
+    },
+    {
+      "frame": 11,
+      "sourceRect": [
+        940,
+        627,
+        1254,
+        940
+      ],
+      "nativeExportSize": [
+        314,
+        314
+      ],
+      "alphaRange": [
+        0,
+        250
+      ],
+      "boundsAboveAlpha3": [
+        56,
+        72,
+        268,
+        263
+      ],
+      "marginRatios": [
+        0.17834394904458598,
+        0.23003194888178913,
+        0.1464968152866242,
+        0.1597444089456869
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        56,
+        72,
+        268,
+        263
+      ],
+      "runtimeMarginRatios": [
+        0.17834394904458598,
+        0.22929936305732485,
+        0.1464968152866242,
+        0.1624203821656051
+      ],
+      "alphaSum": 2356738,
+      "sha256": "b91c5bc28e47bd68d442198b87c52927dde219773cba24b78ae73b55db047979"
+    },
+    {
+      "frame": 12,
+      "sourceRect": [
+        0,
+        940,
+        314,
+        1254
+      ],
+      "nativeExportSize": [
+        314,
+        314
+      ],
+      "alphaRange": [
+        0,
+        249
+      ],
+      "boundsAboveAlpha3": [
+        64,
+        91,
+        266,
+        220
+      ],
+      "marginRatios": [
+        0.20382165605095542,
+        0.2898089171974522,
+        0.15286624203821655,
+        0.29936305732484075
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        64,
+        91,
+        266,
+        220
+      ],
+      "runtimeMarginRatios": [
+        0.20382165605095542,
+        0.2898089171974522,
+        0.15286624203821655,
+        0.29936305732484075
+      ],
+      "alphaSum": 1614877,
+      "sha256": "1fb3ca7d2f90a98d6d1d78324d30bf082a0c510d7f6e86dca286c7abc2a419e3"
+    },
+    {
+      "frame": 13,
+      "sourceRect": [
+        314,
+        940,
+        627,
+        1254
+      ],
+      "nativeExportSize": [
+        314,
+        314
+      ],
+      "alphaRange": [
+        0,
+        249
+      ],
+      "boundsAboveAlpha3": [
+        67,
+        91,
+        251,
+        217
+      ],
+      "marginRatios": [
+        0.21405750798722045,
+        0.2898089171974522,
+        0.19808306709265175,
+        0.3089171974522293
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        67,
+        91,
+        251,
+        217
+      ],
+      "runtimeMarginRatios": [
+        0.21337579617834396,
+        0.2898089171974522,
+        0.20063694267515925,
+        0.3089171974522293
+      ],
+      "alphaSum": 1067668,
+      "sha256": "40b2d74d9a3b1c86b500cc6d6e59fbce09342885fe01a0a7554076a48243c53b"
+    },
+    {
+      "frame": 14,
+      "sourceRect": [
+        627,
+        940,
+        940,
+        1254
+      ],
+      "nativeExportSize": [
+        314,
+        314
+      ],
+      "alphaRange": [
+        0,
+        248
+      ],
+      "boundsAboveAlpha3": [
+        74,
+        119,
+        247,
+        205
+      ],
+      "marginRatios": [
+        0.2364217252396166,
+        0.37898089171974525,
+        0.2108626198083067,
+        0.3471337579617834
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        74,
+        119,
+        247,
+        205
+      ],
+      "runtimeMarginRatios": [
+        0.2356687898089172,
+        0.37898089171974525,
+        0.21337579617834396,
+        0.3471337579617834
+      ],
+      "alphaSum": 654437,
+      "sha256": "49a88ba7219f469f2dd6b0acdd7160a6621830c8cb0a73044d94319e63a8073c"
+    },
+    {
+      "frame": 15,
+      "sourceRect": [
+        940,
+        940,
+        1254,
+        1254
+      ],
+      "nativeExportSize": [
+        314,
+        314
+      ],
+      "alphaRange": [
+        0,
+        248
+      ],
+      "boundsAboveAlpha3": [
+        99,
+        112,
+        216,
+        202
+      ],
+      "marginRatios": [
+        0.31528662420382164,
+        0.35668789808917195,
+        0.31210191082802546,
+        0.35668789808917195
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        99,
+        112,
+        216,
+        202
+      ],
+      "runtimeMarginRatios": [
+        0.31528662420382164,
+        0.35668789808917195,
+        0.31210191082802546,
+        0.35668789808917195
+      ],
+      "alphaSum": 432553,
+      "sha256": "4dfe5f056580fe135506ead95d1ffadc2dae437b1d6408ed713ec0fd034c8f56"
+    }
+  ],
+  "manifestWarnings": [],
+  "sourceWarnings": [
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 0,
+      "value": 0.1178343949044586,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-surge/fx-surge.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 1,
+      "value": 0.11464968152866242,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-surge/fx-surge.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 2,
+      "value": 0.08598726114649681,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-surge/fx-surge.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 3,
+      "value": 0.07643312101910828,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-surge/fx-surge.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 4,
+      "value": 0.044585987261146494,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-surge/fx-surge.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 5,
+      "value": 0.025559105431309903,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-surge/fx-surge.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 6,
+      "value": 0.022364217252396165,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-surge/fx-surge.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 7,
+      "value": 0.05732484076433121,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-surge/fx-surge.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 8,
+      "value": 0.044585987261146494,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-surge/fx-surge.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 9,
+      "value": 0.08945686900958466,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-surge/fx-surge.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 10,
+      "value": 0.10543130990415335,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-surge/fx-surge.png"
+    }
+  ],
+  "runtimeWarnings": [
+    {
+      "id": "runtime_margin_below_contract",
+      "frame": 0,
+      "value": 0.1178343949044586,
+      "threshold": 0.12,
+      "file": "assets/fx/fx-surge/frame-00.png"
+    },
+    {
+      "id": "runtime_margin_below_contract",
+      "frame": 1,
+      "value": 0.11464968152866242,
+      "threshold": 0.12,
+      "file": "assets/fx/fx-surge/frame-01.png"
+    },
+    {
+      "id": "runtime_margin_below_contract",
+      "frame": 2,
+      "value": 0.08598726114649681,
+      "threshold": 0.12,
+      "file": "assets/fx/fx-surge/frame-02.png"
+    },
+    {
+      "id": "runtime_margin_below_contract",
+      "frame": 3,
+      "value": 0.07643312101910828,
+      "threshold": 0.12,
+      "file": "assets/fx/fx-surge/frame-03.png"
+    },
+    {
+      "id": "runtime_margin_below_contract",
+      "frame": 4,
+      "value": 0.044585987261146494,
+      "threshold": 0.12,
+      "file": "assets/fx/fx-surge/frame-04.png"
+    },
+    {
+      "id": "runtime_margin_below_contract",
+      "frame": 5,
+      "value": 0.028662420382165606,
+      "threshold": 0.12,
+      "file": "assets/fx/fx-surge/frame-05.png"
+    },
+    {
+      "id": "runtime_margin_below_contract",
+      "frame": 6,
+      "value": 0.025477707006369428,
+      "threshold": 0.12,
+      "file": "assets/fx/fx-surge/frame-06.png"
+    },
+    {
+      "id": "runtime_margin_below_contract",
+      "frame": 7,
+      "value": 0.05732484076433121,
+      "threshold": 0.12,
+      "file": "assets/fx/fx-surge/frame-07.png"
+    },
+    {
+      "id": "runtime_margin_below_contract",
+      "frame": 8,
+      "value": 0.044585987261146494,
+      "threshold": 0.12,
+      "file": "assets/fx/fx-surge/frame-08.png"
+    },
+    {
+      "id": "runtime_margin_below_contract",
+      "frame": 9,
+      "value": 0.09235668789808917,
+      "threshold": 0.12,
+      "file": "assets/fx/fx-surge/frame-09.png"
+    },
+    {
+      "id": "runtime_margin_below_contract",
+      "frame": 10,
+      "value": 0.10828025477707007,
+      "threshold": 0.12,
+      "file": "assets/fx/fx-surge/frame-10.png"
+    }
+  ],
+  "sourceMarginContractPassed": false,
+  "runtimePaddingMarginPassed": false,
+  "numericPass": false,
+  "visualReviewStatus": "pending_actual_view",
+  "runtimeIntegrationVerified": false,
+  "actualModel": null,
+  "actualQuality": null
+}

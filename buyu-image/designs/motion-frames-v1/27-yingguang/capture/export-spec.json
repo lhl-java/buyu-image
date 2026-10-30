@@ -1,0 +1,70 @@
+{
+  "grid": [
+    2,
+    4
+  ],
+  "canvas": [
+    640,
+    640
+  ],
+  "fps": 12,
+  "displayBox": [
+    240,
+    180
+  ],
+  "loop": false,
+  "action": "capture",
+  "pending": [
+    "Root actual playback/recovery and face/appendage identity review.",
+    "Unity runtime not reviewed; registration/PNG counts alone are not motion acceptance."
+  ],
+  "id": "27-yingguang/capture",
+  "name": "荧光乌贼",
+  "source": "designs/motion-frames-v1/27-yingguang/capture/27-yingguang-capture.png",
+  "output": "assets/animations/27-yingguang/capture",
+  "pupilTarget": [
+    384,
+    320
+  ],
+  "pupilRoi": [
+    260,
+    220,
+    365,
+    320
+  ],
+  "pupilExpected": [
+    [
+      309,
+      275
+    ],
+    [
+      328,
+      285
+    ],
+    [
+      301,
+      286
+    ],
+    [
+      276,
+      286
+    ],
+    [
+      309,
+      262
+    ],
+    [
+      298,
+      241
+    ],
+    [
+      302,
+      241
+    ],
+    [
+      294,
+      241
+    ]
+  ],
+  "visualReview": "Actual source viewed: short tentacles tuck and fins curl to capture peak, local mantle creases, full creature retained. Larger source density than swim; uniform whole-clip calibration applied after slicing. No per-frame fit or body affine fake motion."
+}

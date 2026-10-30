@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-26",
+  "count": 36,
+  "sourceSheets": 6,
+  "route": "host_image",
+  "actualModel": null,
+  "actualQuality": null,
+  "staticOnly": true,
+  "batches": [
+    {
+      "batch": 1,
+      "count": 6,
+      "source": "designs/production-v1/fish-sheet-1/fish-sheet-1.png",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "manifest": "assets/fish/batch-1/manifest.json",
+      "warnings": [],
+      "review": "complete static sprites visually checked, pending overall user acceptance"
+    },
+    {
+      "batch": 2,
+      "count": 6,
+      "source": "designs/production-v1/fish-sheet-2/fish-sheet-2.png",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "manifest": "assets/fish/batch-2/manifest.json",
+      "warnings": [],
+      "review": "complete static sprites visually checked, pending overall user acceptance"
+    },
+    {
+      "batch": 3,
+      "count": 6,
+      "source": "designs/production-v1/fish-sheet-3/fish-sheet-3-contained.png",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "manifest": "assets/fish/batch-3/manifest.json",
+      "warnings": [],
+      "review": "complete static sprites visually checked, pending overall user acceptance"
+    },
+    {
+      "batch": 4,
+      "count": 6,
+      "source": "designs/production-v1/fish-sheet-4/fish-sheet-4-contained.png",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "manifest": "assets/fish/batch-4/manifest.json",
+      "warnings": [],
+      "review": "complete static sprites visually checked, pending overall user acceptance"
+    },
+    {
+      "batch": 5,
+      "count": 6,
+      "source": "designs/production-v1/fish-sheet-5/fish-sheet-5-contained.png",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "manifest": "assets/fish/batch-5/manifest.json",
+      "warnings": [],
+      "review": "complete static sprites visually checked, pending overall user acceptance"
+    },
+    {
+      "batch": 6,
+      "count": 6,
+      "source": "designs/production-v1/fish-sheet-6/fish-sheet-6-contained.png",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "manifest": "assets/fish/batch-6/manifest.json",
+      "warnings": [],
+      "review": "complete static sprites visually checked, pending overall user acceptance"
+    }
+  ],
+  "motionBacklog": "docs/FISH_MOTION_BACKLOG.json",
+  "motionStatus": "pending_video_capability",
+  "upscaled": false,
+  "alphaCleanup": "Only alpha values <=3 set to zero in deterministic slice tool",
+  "notes": [
+    "Hidden RGB under zero alpha can appear as color halo in raw tool display; real composites checked",
+    "Superseded crossing sheets removed from project; original prompt/records and current AI correction evidence retained"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "friend",
+  "name": "好友",
+  "file": "assets/icons/friend.png",
+  "sha256": "d3e6f6a607b3073879b90f9c9c5de9e386bc9927f63f3f119c863b6331bf7c97",
+  "width": 182,
+  "height": 166,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/production-v1/item-icons/item-icons.png",
+  "derivedFrom": [
+    {
+      "file": "designs/production-v1/item-icons/item-icons.png",
+      "sha256": "b644fa3141ab7c2ff3ae7430cbacac0a166018e82862bacb61ee52cd2644d472",
+      "generationRecord": "designs/production-v1/item-icons/item-icons.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_ownership_crop",
+    "grid": {
+      "rows": 6,
+      "cols": 6
+    },
+    "sourceRect": [
+      633,
+      634,
+      838,
+      837
+    ],
+    "cellCropRect": [
+      7,
+      24,
+      189,
+      190
+    ],
+    "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+    "resized": false,
+    "upscaled": false
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "displaySize": [
+    96,
+    96
+  ],
+  "status": "visual_reviewed_pending_runtime_integration",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source generation record; no new model call for this slice.",
+  "visualReview": {
+    "reviewedAt": "2026-10-26T20:07:40.751031+00:00",
+    "sourceAndContactSheetViewed": true,
+    "result": "pass_for_static_visual_asset",
+    "notes": "36 个图标按清单顺序齐全；实际目视源图及切片联系表。金币、灵玉、碎片、灵贝、冰蓝符、紫雷符及各功能图标轮廓完整无串格，无文字。按实际非等距行间透明间隙裁切，未等分截断。",
+    "runtimeIntegrationVerified": false
+  }
+}

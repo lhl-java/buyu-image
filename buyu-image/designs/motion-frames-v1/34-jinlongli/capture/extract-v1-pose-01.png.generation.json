@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/motion-frames-v1/34-jinlongli/capture/extract-v1-pose-01.png",
+  "sha256": "7c54a07f1f63df0c8716847c2c51026a8b6c39ae1d5043d1b8305b58718e8101",
+  "width": 403,
+  "height": 261,
+  "format": "RGBA PNG",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/34-jinlongli/capture/34-jinlongli-capture-v1.png",
+      "sha256": "8d0bae3b03be119e1e2f031099b55b3dcaefc1682e834ab45685d1c9dff60bea",
+      "generationRecord": "designs/motion-frames-v1/34-jinlongli/capture/34-jinlongli-capture-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_complete_actor_ownership_crop",
+    "evidence": {
+      "sourceFrame": 1,
+      "file": "designs/motion-frames-v1/34-jinlongli/capture/extract-v1-pose-01.png",
+      "sourceRect": [
+        481,
+        158,
+        884,
+        419
+      ],
+      "nominalSourceRect": [
+        444,
+        0,
+        887,
+        444
+      ],
+      "nominalGridCross": false,
+      "nativeVisibleSize": [
+        403,
+        261
+      ],
+      "ownedPixelCount": 78503,
+      "foreignPixelsRemovedFromCrop": 0,
+      "totalCanvasEdgeMaxAlpha": 0,
+      "nativeOwnedPixelsUnchanged": true,
+      "sourceMainAlphaComponent": 8
+    },
+    "alphaCleanup": "alpha<=3 discarded, other owned RGBA unchanged",
+    "resized": false,
+    "upscaled": false,
+    "newNativeDetailClaimed": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "intermediate_pending_semantic_review"
+}

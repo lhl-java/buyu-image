@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-07",
+  "name": "夜星鱼 capture 7",
+  "file": "assets/animations/25-yexing/capture/frame-07.png",
+  "sha256": "a65cebc21c57cf9b1eb763ab239e096dc530b5942c3c06291897ebe197966d3c",
+  "width": 640,
+  "height": 640,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/motion-frames-v1/25-yexing/capture/25-yexing-capture-contained-v2.png",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/25-yexing/capture/25-yexing-capture-contained-v2.png",
+      "sha256": "a84bcb6ed98b468baff61af464d841ed7365f2221c1a24508445ef4be66364d3",
+      "generationRecord": "designs/motion-frames-v1/25-yexing/capture/25-yexing-capture-contained-v2.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_grid_crop_integer_pupil_registration",
+    "grid": {
+      "rows": 2,
+      "cols": 4
+    },
+    "sourceRect": [
+      1330,
+      444,
+      1774,
+      887
+    ],
+    "registrationOffset": [
+      108,
+      107,
+      552,
+      550
+    ],
+    "registeredCanvas": [
+      640,
+      640
+    ],
+    "registrationReference": {
+      "type": "black_pupil_connected_component_centroid",
+      "sourcePointFloat": [
+        332.1630434782609,
+        213.1576086956522
+      ],
+      "sourcePointRounded": [
+        332,
+        213
+      ],
+      "targetPoint": [
+        440,
+        320
+      ],
+      "pupilBounds": [
+        314,
+        201,
+        345,
+        227
+      ],
+      "detectionRoi": [
+        300,
+        150,
+        435,
+        290
+      ],
+      "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+    },
+    "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+    "resized": false,
+    "upscaled": false,
+    "poseWarped": false,
+    "sourcePixelsRoundTripVerified": true,
+    "sourceCellClipping": false
+  },
+  "anchor": [
+    0.6875,
+    0.5
+  ],
+  "status": "candidate_pending_root_visual_and_playback_review",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source record; this is a native derivative, not new generation.",
+  "animation": {
+    "id": "25-yexing/capture",
+    "frames": 8,
+    "fps": 12,
+    "loop": false,
+    "order": "row-major",
+    "root": [
+      0.6875,
+      0.5
+    ],
+    "phase": 0.875,
+    "durationMs": 84,
+    "targetBodyBox": [
+      240,
+      180
+    ],
+    "displayCalibration": {
+      "status": "candidate_pending_root_visual_runtime_review",
+      "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+      "nativeMedianPupilWidth": 30.5,
+      "targetDisplayedPupilWidth": 20,
+      "uniformDisplayScale": 0.6557377049180327,
+      "upscale": false,
+      "perFrameBboxFit": false,
+      "sharedVisualPivotPixels": [
+        440,
+        320
+      ],
+      "sharedVisualPivotNormalized": [
+        0.6875,
+        0.5
+      ],
+      "displayBodyMaxPixels": [
+        222.95081967213113,
+        162.62295081967213
+      ],
+      "warning": "Pupil is an approximate density proxy, not exact outer head geometry; root playback review still required. Pivot must use registered pupil when applying different clip scales, otherwise head shifts."
+    }
+  },
+  "qa": {
+    "nativeBodyBoxAlpha16": [
+      60,
+      95,
+      372,
+      337
+    ],
+    "nativeVisibleSize": [
+      312,
+      242
+    ],
+    "rawCellEdgeMaxAlpha": 1,
+    "registeredBoxAlpha16": [
+      168,
+      202,
+      480,
+      444
+    ],
+    "registeredMarginsFraction": [
+      0.2625,
+      0.315625,
+      0.25,
+      0.30625
+    ],
+    "finalMargin12PercentPassed": true,
+    "pupilComponent": {
+      "area": 368,
+      "bbox": [
+        314,
+        201,
+        345,
+        227
+      ],
+      "centroid": [
+        332.1630434782609,
+        213.1576086956522
+      ]
+    },
+    "actualSourceViewedByProducer": true,
+    "loopOrRecoveryAccepted": false,
+    "targetClientAccepted": false
+  }
+}

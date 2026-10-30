@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "skill-surge",
+  "name": "激流",
+  "file": "assets/skills/skill-surge.png",
+  "sha256": "4b11d5c79529dfc928425fc32d703d02aa7d9aa84a402f3608622f960aa5ac04",
+  "width": 402,
+  "height": 400,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/production-v1/skill-icons/skill-icons.png",
+  "derivedFrom": [
+    {
+      "file": "designs/production-v1/skill-icons/skill-icons.png",
+      "sha256": "da51f1b68770635f7c778cb0efef8b183a075a75c714448cbe01e7a289060998",
+      "generationRecord": "designs/production-v1/skill-icons/skill-icons.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_ownership_crop",
+    "grid": {
+      "rows": 2,
+      "cols": 3
+    },
+    "sourceRect": [
+      991,
+      475,
+      1527,
+      1009
+    ],
+    "cellCropRect": [
+      67,
+      67,
+      469,
+      467
+    ],
+    "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+    "resized": false,
+    "upscaled": false
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "displaySize": [
+    96,
+    96
+  ],
+  "status": "visual_reviewed_pending_runtime_integration",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source generation record; no new model call for this slice.",
+  "visualReview": {
+    "reviewedAt": "2026-10-26T20:51:53.348938+00:00",
+    "sourceAndContactSheetViewed": true,
+    "result": "pass_for_static_visual_asset",
+    "notes": "已实际查看源图与切片联系表，六项依次为冰封、雷网、聚鱼、追踪、护持、激流；冰晶雪花、紫雷渔网、金鱼旋流、鱼身加空心瞄准环、太极葫芦护罩、蓝白大浪符号与08技能参考对应。金细边圆形完整，圆外真实透明，无字、无截断、无串格。",
+    "runtimeIntegrationVerified": false
+  }
+}

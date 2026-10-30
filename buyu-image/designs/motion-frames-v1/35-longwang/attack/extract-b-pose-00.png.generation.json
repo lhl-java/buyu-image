@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/motion-frames-v1/35-longwang/attack/extract-b-pose-00.png",
+  "sha256": "79f43dbed8e4606d2406eb842032f5740678000d4022fcdf49230fca2e07f2d6",
+  "width": 576,
+  "height": 506,
+  "format": "RGBA PNG",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/35-longwang/attack/attack-b-v1.png",
+      "sha256": "93b27af7a4c459fe9a5bdcf393ca9d26d2f997e201b0c3fa8ce9c2304a4cbdf3",
+      "generationRecord": "designs/motion-frames-v1/35-longwang/attack/attack-b-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_complete_actor_ownership_crop",
+    "evidence": {
+      "sourceFrame": 0,
+      "file": "designs/motion-frames-v1/35-longwang/attack/extract-b-pose-00.png",
+      "sourceRect": [
+        71,
+        106,
+        647,
+        612
+      ],
+      "nominalSourceRect": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "nominalGridCross": true,
+      "nativeVisibleSize": [
+        576,
+        506
+      ],
+      "ownedPixelCount": 171747,
+      "foreignPixelsRemovedFromCrop": 0,
+      "totalCanvasEdgeMaxAlpha": 0,
+      "nativeOwnedPixelsUnchanged": true,
+      "sourceMainAlphaComponent": 1
+    },
+    "alphaCleanup": "alpha<=3 discarded, other owned RGBA unchanged",
+    "resized": false,
+    "upscaled": false,
+    "newNativeDetailClaimed": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "intermediate_pending_semantic_review"
+}

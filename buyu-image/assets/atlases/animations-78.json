@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "frames": {
+    "animations/03-chiyu/swim/frame-00": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 800,
+        "h": 800
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 800,
+        "h": 800
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/animations/03-chiyu/swim/frame-00.png",
+      "sourceSha256": "4f5902e200ee12b551c12615cbe52b1cb159dad2ed61b46af1542a04ab379669"
+    },
+    "animations/03-chiyu/swim/frame-01": {
+      "frame": {
+        "x": 806,
+        "y": 2,
+        "w": 800,
+        "h": 800
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 800,
+        "h": 800
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/animations/03-chiyu/swim/frame-01.png",
+      "sourceSha256": "2dce76184514ec50686f5f9d4d24e2901f470412e8cc741a9659a7e764008fad"
+    },
+    "animations/03-chiyu/swim/frame-02": {
+      "frame": {
+        "x": 2,
+        "y": 806,
+        "w": 800,
+        "h": 800
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 800,
+        "h": 800
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/animations/03-chiyu/swim/frame-02.png",
+      "sourceSha256": "11c6aa2ad47d1d5578c58fe9b624b24e0178920c27237a02679be62d9175cc2f"
+    },
+    "animations/03-chiyu/swim/frame-03": {
+      "frame": {
+        "x": 806,
+        "y": 806,
+        "w": 800,
+        "h": 800
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 800,
+        "h": 800
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/animations/03-chiyu/swim/frame-03.png",
+      "sourceSha256": "596d83f82169490130064812a95933fba1a5b13996353bf11d7b793ea4153f05"
+    }
+  },
+  "meta": {
+    "image": "animations-78.png",
+    "size": {
+      "w": 1608,
+      "h": 1608
+    },
+    "format": "RGBA8888",
+    "scale": 1,
+    "padding": 2,
+    "noRotation": true,
+    "generatedAt": "2026-10-30T03:30:12.489824+00:00",
+    "operation": "native pixel packing; no resampling or redraw"
+  }
+}

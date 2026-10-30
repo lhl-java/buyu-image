@@ -1,0 +1,22 @@
+{
+  "file": "designs/motion-frames-v1/22-bailian/geometry-reference.png",
+  "sha256": "98178a5f431b22698b768d7b669f32d84f5cedbdc6e9eb64f0a0284b021b28bd",
+  "purpose": "AI geometry reference only;8 repeated copies are NOT animation or runtime assets",
+  "derivedFrom": "assets/fish/batch-4/22-bailian.png",
+  "sourceSha256": "e91dca66621d562535ad35a3327dd0536d62186245e2097d3e993a6d1ab64269",
+  "operation": "native RGBA copy8times into2400x1200 transparent4x2 reference; no resize, no drawn art, no synthetic motion",
+  "cellSize": [
+    600,
+    600
+  ],
+  "sourceNativeSize": [
+    477,
+    359
+  ],
+  "offsetWithinCell": [
+    62,
+    120
+  ],
+  "resized": false,
+  "runtimeApproved": false
+}

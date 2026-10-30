@@ -1,0 +1,166 @@
+{
+  "file": "assets/atlases/ui-00.png",
+  "sha256": "01ec9085f2ede83d2461ca5544c5e917da63c464a41212cccf80a6f433a8077f",
+  "width": 2043,
+  "height": 2046,
+  "operation": {
+    "type": "native_atlas_packing",
+    "resampled": false,
+    "upscaled": false
+  },
+  "derivedFrom": [
+    {
+      "file": "assets/ui/runtime-panel/panel-runtime.png",
+      "sha256": "35e8b2895262a41586bab388068d74b6dfad44481795dc7e346b63dd6da4cfc2",
+      "generationRecord": "assets/ui/runtime-panel/panel-runtime.png.generation.json"
+    },
+    {
+      "file": "assets/ui/additions/backpack.png",
+      "sha256": "3845821962e081008f3fda6ec727e0bc75e61b9c3fa30f243faaae1ed703237f",
+      "generationRecord": "assets/ui/additions/backpack.png.generation.json"
+    },
+    {
+      "file": "assets/ui/panels/panel-large.png",
+      "sha256": "5a63a75d427b4c6bfca7de0b19b9e4f0b2b3222ae09f9f625c0792bc0d27dd42",
+      "generationRecord": "assets/ui/panels/panel-large.png.generation.json"
+    },
+    {
+      "file": "assets/ui/additions/slider-thumb-normal.png",
+      "sha256": "296f5941d06b7b00157e04b68fa298f3911ec638127432a33297459e137efa04",
+      "generationRecord": "assets/ui/additions/slider-thumb-normal.png.generation.json"
+    },
+    {
+      "file": "assets/ui/additions/slider-thumb-pressed.png",
+      "sha256": "149de357b7a50e1d59dedf99c86ed16952d5bc24c6c6b2d2304ef9ab71693094",
+      "generationRecord": "assets/ui/additions/slider-thumb-pressed.png.generation.json"
+    },
+    {
+      "file": "assets/ui/panels/panel-compact.png",
+      "sha256": "3e820477f9d2ffdeff684262e9c552549b2960a2b94f9f135c581f2eec84b060",
+      "generationRecord": "assets/ui/panels/panel-compact.png.generation.json"
+    },
+    {
+      "file": "assets/ui/panels/portrait-frame.png",
+      "sha256": "3babf20a561d38d934f696f0fb4636409feacf89ded3136901c149795aeac587",
+      "generationRecord": "assets/ui/panels/portrait-frame.png.generation.json"
+    },
+    {
+      "file": "assets/ui/hud/slot-selected.png",
+      "sha256": "e8a9b6262461f7f72a2975566f281b56019577e76a7d304ecb81e2803562bd25",
+      "generationRecord": "assets/ui/hud/slot-selected.png.generation.json"
+    },
+    {
+      "file": "assets/ui/hud/slot-locked.png",
+      "sha256": "624c508270584f607041914a1b5136ff8cf0773868d81b36e83d034f4a3ef95d",
+      "generationRecord": "assets/ui/hud/slot-locked.png.generation.json"
+    },
+    {
+      "file": "assets/ui/hud/slot-empty.png",
+      "sha256": "837b0bdbb9ea0ccc081fc3a25bfc5d5e7062bd0b759918c70469bb0bb887f0d1",
+      "generationRecord": "assets/ui/hud/slot-empty.png.generation.json"
+    },
+    {
+      "file": "assets/ui/hud/slot-normal.png",
+      "sha256": "a4524e8f180217a2a3d2c2b5802ba88277567fa5446bcd0e55300fba3ec0527e",
+      "generationRecord": "assets/ui/hud/slot-normal.png.generation.json"
+    },
+    {
+      "file": "assets/ui/buttons/close-normal.png",
+      "sha256": "65b94aeeabc88acd656419a248e595d0bcb6f507e5ff0f209985af7b30aec884",
+      "generationRecord": "assets/ui/buttons/close-normal.png.generation.json"
+    },
+    {
+      "file": "assets/ui/buttons/close-pressed.png",
+      "sha256": "0dd573212396c57ed9b4ffee84ed58498f2f8ac0f0e58e579dc5ae5c7e05b4ae",
+      "generationRecord": "assets/ui/buttons/close-pressed.png.generation.json"
+    },
+    {
+      "file": "assets/ui/hud/checkbox-on.png",
+      "sha256": "a3fd44e00e3b9657f20e49e65da08d70c50cc2aef75a3535fab4febe0cd5a372",
+      "generationRecord": "assets/ui/hud/checkbox-on.png.generation.json"
+    },
+    {
+      "file": "assets/ui/panels/tooltip-panel.png",
+      "sha256": "e6d916402f7670cd63831234d8241832915e91658b6dc62b32df9118e6d06137",
+      "generationRecord": "assets/ui/panels/tooltip-panel.png.generation.json"
+    },
+    {
+      "file": "assets/ui/hud/checkbox-off.png",
+      "sha256": "1f8f5aaf04d2bb60c5c3e3c538e1dd3d1fdf1d57c1fbe3c4f5b45ad013be86fc",
+      "generationRecord": "assets/ui/hud/checkbox-off.png.generation.json"
+    },
+    {
+      "file": "assets/ui/buttons/primary-selected.png",
+      "sha256": "9e640e22035d7012d22f19e27453176608b8a20ba2111e03d5ec7b55295e7dfe",
+      "generationRecord": "assets/ui/buttons/primary-selected.png.generation.json"
+    },
+    {
+      "file": "assets/ui/buttons/secondary-selected.png",
+      "sha256": "80cc7126aa694a32adf7bd5a1df8f10669b40a8879b15231216339308f73ba5b",
+      "generationRecord": "assets/ui/buttons/secondary-selected.png.generation.json"
+    },
+    {
+      "file": "assets/ui/panels/title-plaque.png",
+      "sha256": "8111dbe5a5d7f206af48cbab3d10e4ca7a59c5802228281c0dafe43075d2c107",
+      "generationRecord": "assets/ui/panels/title-plaque.png.generation.json"
+    },
+    {
+      "file": "assets/ui/hud/toggle-off.png",
+      "sha256": "fe4ffc89c5049cf06b9bc030c89cd5fe961ad01f1695587772929c2b491a6129",
+      "generationRecord": "assets/ui/hud/toggle-off.png.generation.json"
+    },
+    {
+      "file": "assets/ui/hud/toggle-on.png",
+      "sha256": "9ec0a2ed6831f36ccd6097ccfe3b23fb10b65f5d651432828b4233099f701f00",
+      "generationRecord": "assets/ui/hud/toggle-on.png.generation.json"
+    },
+    {
+      "file": "assets/ui/panels/list-row.png",
+      "sha256": "dd025d3e45b4a61c62bdbe980bc557e0abf9d07f3d31dc413fa8eb02796db168",
+      "generationRecord": "assets/ui/panels/list-row.png.generation.json"
+    },
+    {
+      "file": "assets/ui/buttons/secondary-disabled.png",
+      "sha256": "bda8a266fee8bc4fc511d9239a99a8553a1aa9042de960696595394ffc92f023",
+      "generationRecord": "assets/ui/buttons/secondary-disabled.png.generation.json"
+    },
+    {
+      "file": "assets/ui/buttons/secondary-pressed.png",
+      "sha256": "9b0bd71160c2d46632beb1f01cff58db3391251ab65d34385569d664b8f9c238",
+      "generationRecord": "assets/ui/buttons/secondary-pressed.png.generation.json"
+    },
+    {
+      "file": "assets/ui/buttons/tab-selected.png",
+      "sha256": "cf254f9c84e8059770448aed7eebca898bd588c3de2be822bb91e086f00d906a",
+      "generationRecord": "assets/ui/buttons/tab-selected.png.generation.json"
+    },
+    {
+      "file": "assets/ui/buttons/secondary-normal.png",
+      "sha256": "46d45bec5225aff71df93b769b89d429bb5b60cb63f0a6104db36afc468f9614",
+      "generationRecord": "assets/ui/buttons/secondary-normal.png.generation.json"
+    },
+    {
+      "file": "assets/ui/buttons/primary-disabled.png",
+      "sha256": "23625154ed59351cd856f1491c0f3630b3fd2fc2e413601c5b50e50749726058",
+      "generationRecord": "assets/ui/buttons/primary-disabled.png.generation.json"
+    },
+    {
+      "file": "assets/ui/buttons/primary-normal.png",
+      "sha256": "421410e59b3a8773c3bec36c1f7f468a82e5fc9d20c0a783dbb659f4614e7f45",
+      "generationRecord": "assets/ui/buttons/primary-normal.png.generation.json"
+    },
+    {
+      "file": "assets/ui/buttons/tab-normal.png",
+      "sha256": "9082885e3b9c97963a2acd24545ca51fa1fad1d0e0f62da757361f800a13ede7",
+      "generationRecord": "assets/ui/buttons/tab-normal.png.generation.json"
+    },
+    {
+      "file": "assets/ui/hud/progress-fill.png",
+      "sha256": "f056f90eab4c64f2c86f1dc954f44cc2b78fccfee6da6d18fa062635c40aba59",
+      "generationRecord": "assets/ui/hud/progress-fill.png.generation.json"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "No model call; see individual sources."
+}

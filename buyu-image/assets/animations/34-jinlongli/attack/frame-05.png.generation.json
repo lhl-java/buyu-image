@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-05",
+  "name": "金龙锦鲤攻击 6/8",
+  "file": "assets/animations/34-jinlongli/attack/frame-05.png",
+  "sha256": "13adf7d6d1cbe3460776b4e7dd68afb1d5b28ca074c939fb1e1a69c6853f3c69",
+  "width": 1000,
+  "height": 1000,
+  "format": "RGBA PNG",
+  "derivedAt": "2026-10-28T17:48:23.625394+00:00",
+  "nativeSource": "designs/motion-frames-v1/34-jinlongli/attack/attack-b-v1.png",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/34-jinlongli/attack/attack-b-v1.png",
+      "sha256": "b58e6f18e4787cdd00e2497e065647e072e8526604ca9433ad512c55c545cddb",
+      "generationRecord": "designs/motion-frames-v1/34-jinlongli/attack/attack-b-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_extraction_integer_eye_registration_and_padding",
+    "extraction": {
+      "type": "native_grid_crop",
+      "sourceRect": [
+        627,
+        0,
+        1254,
+        627
+      ],
+      "nominalGridCross": false
+    },
+    "sourceEyePoint": [
+      459.0433145009416,
+      319.4331450094162
+    ],
+    "globalSourceEye": [
+      1086.0433145009415,
+      319.4331450094162
+    ],
+    "registrationOffset": [
+      221,
+      101
+    ],
+    "registeredCanvas": [
+      1000,
+      1000
+    ],
+    "targetEye": [
+      680,
+      420
+    ],
+    "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+    "sourcePixelsRoundTripVerified": true,
+    "resized": false,
+    "upscaled": false,
+    "rotated": false,
+    "poseWarped": false,
+    "newNativeDetailClaimed": false
+  },
+  "anchor": [
+    0.68,
+    0.42
+  ],
+  "rootPixels": [
+    680,
+    420
+  ],
+  "eyePixels": [
+    680,
+    420
+  ],
+  "registeredAlphaBBox": [
+    250,
+    270,
+    768,
+    656
+  ],
+  "registeredMinMargin": 0.232,
+  "status": "candidate_pending_playback_and_final_visual_review",
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceLandmarkEvidence": {
+    "type": "manually checked dark pupil ROI component center, nearest integer",
+    "qa": "designs/motion-frames-v1/34-jinlongli/attack/source-b-qa.json",
+    "sourceFrame": 1,
+    "candidateIndex": 0,
+    "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+  },
+  "displaySize": [
+    728.051391862955,
+    728.051391862955
+  ],
+  "bodyDisplayBox": [
+    340,
+    260
+  ],
+  "uniformDisplayScale": 0.728051391862955,
+  "displaySizing": {
+    "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+    "sourceVisibleReference": [
+      467,
+      336
+    ],
+    "upscalingAllowed": false,
+    "crossClipDensityReview": "pending_common_head_scale_review"
+  },
+  "animation": {
+    "id": "34-jinlongli/attack",
+    "frames": 8,
+    "fps": 10,
+    "loop": false,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "durationsMs": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "root": [
+      0.68,
+      0.42
+    ],
+    "sourceRoute": "builtin_native_AI_sheet_user_requested",
+    "sourcePixelsNeverResampled": true,
+    "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+    "phase": 5,
+    "durationMs": 100
+  }
+}

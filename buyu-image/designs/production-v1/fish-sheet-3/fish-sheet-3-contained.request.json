@@ -1,0 +1,10 @@
+{
+  "prompt": "Use case: precise-object-edit. Input image 1 is the edit target: six distinct static aquatic sprites in 3 columns by 2 rows. Input images 2 and 3 are approved Daoist Q art style; input image 4 is fish encyclopedia continuity. ONLY correct the oversized placement and cell containment. Preserve exactly the same six species and identities, coloration, anatomy, shading and facing: top-left cloud jade turtle, top-middle lavender jellyfish, top-right blue manta; bottom-left striped lionfish, bottom-middle coral-crested pink fish, bottom-right emerald arowana. Repaint this as a 1536x1024 3:2 genuine transparent RGBA sheet with three equal columns and two equal rows. Scale each entire creature DOWN to at most 65 percent of its current size, then center at its cell center: approximately (256,256), (768,256), (1280,256), (256,768), (768,768), (1280,768). Every creature, fin, turtle head, ray tail, whisker and tentacle must be entirely inside a 360x360 area around its cell center, with a large fully transparent gap between sprites. Restore any tiny appendage currently crossing the invisible grid into its own complete creature. Do not draw visible boxes, grid lines, labels or numbers. No scene, floor, drop shadow or opaque background; preserve genuine alpha and erase all surrounding backdrop. Six unchanged recognizable animal identities, only smaller relative scale and corrected placement. No other changes.",
+  "referenced_image_paths": [
+    "D:\\work\\buyu-image\\designs\\production-v1\\fish-sheet-3\\fish-sheet-3.png",
+    "D:\\work\\buyu-image\\designs\\mail-ui-v1\\01-mail-event.png",
+    "D:\\work\\buyu-image\\designs\\team-ui-v2\\team-ui-v2.png",
+    "D:\\work\\buyu-image\\designs\\ui\\full-suite-v1\\09-encyclopedia\\09-encyclopedia.png"
+  ],
+  "transparent_background": true
+}

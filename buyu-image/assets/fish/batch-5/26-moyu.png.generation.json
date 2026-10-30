@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "26-moyu",
+  "name": "墨玉章鱼",
+  "file": "assets/fish/batch-5/26-moyu.png",
+  "sha256": "ee96d8418b26abe93514426570e2906e76384da98edefd7c0225d7fad8a505fe",
+  "width": 309,
+  "height": 258,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/production-v1/fish-sheet-5/fish-sheet-5-contained.png",
+  "derivedFrom": [
+    {
+      "file": "designs/production-v1/fish-sheet-5/fish-sheet-5-contained.png",
+      "sha256": "c24a9d0ea412535171fb36af7f6559678a1cadff299594bbc673dc3919e4d7c4",
+      "generationRecord": "designs/production-v1/fish-sheet-5/fish-sheet-5-contained.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_grid_crop",
+    "grid": {
+      "rows": 2,
+      "cols": 3
+    },
+    "sourceRect": [
+      512,
+      0,
+      1024,
+      512
+    ],
+    "cellCropRect": [
+      104,
+      153,
+      413,
+      411
+    ],
+    "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+    "resized": false,
+    "upscaled": false
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "displaySize": [
+    240,
+    180
+  ],
+  "status": "prepared_pending_visual_review",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source generation record; no new model call for this slice."
+}

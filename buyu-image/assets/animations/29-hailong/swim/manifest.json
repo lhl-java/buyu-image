@@ -1,0 +1,1453 @@
+{
+  "schemaVersion": 1,
+  "source": "designs/motion-frames-v1/29-hailong/swim/29-hailong-swim.png",
+  "sourceWidth": 1774,
+  "sourceHeight": 887,
+  "output": "assets/animations/29-hailong/swim",
+  "status": "accepted_first_release_art",
+  "items": [
+    {
+      "schemaVersion": 1,
+      "id": "frame-00",
+      "name": "海龙 swim 0",
+      "file": "assets/animations/29-hailong/swim/frame-00.png",
+      "sha256": "32aa9ac59e48bc91926aabce524ed649a46cdefb0a2060e1099429c85fc27b7d",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/29-hailong/swim/29-hailong-swim.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/29-hailong/swim/29-hailong-swim.png",
+          "sha256": "99a2e3d6f4fb3e0c2a27d1493d25e00e585918e5cdd4109f8fa8de53e10c2768",
+          "generationRecord": "designs/motion-frames-v1/29-hailong/swim/29-hailong-swim.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          0,
+          0,
+          444,
+          444
+        ],
+        "registrationOffset": [
+          83,
+          98,
+          527,
+          542
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_connected_component_centroid",
+          "sourcePointFloat": [
+            348.78909090909093,
+            157.5090909090909
+          ],
+          "sourcePointRounded": [
+            349,
+            158
+          ],
+          "targetPoint": [
+            432,
+            256
+          ],
+          "pupilBounds": [
+            333,
+            149,
+            362,
+            169
+          ],
+          "detectionRoi": [
+            315,
+            130,
+            380,
+            195
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+        },
+        "nominalGridRect": [
+          0,
+          0,
+          444,
+          444
+        ],
+        "sourceRectType": "nominal_grid",
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceBoundaryClippingAssessment": "only_alpha0_3_at_boundary"
+      },
+      "anchor": [
+        0.675,
+        0.4
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "29-hailong/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "root": [
+          0.675,
+          0.4
+        ],
+        "phase": 0.0,
+        "durationMs": 83,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+          "nativeMedianPupilWidth": 29.0,
+          "sharedTargetDisplayedPupilWidth": 14.301,
+          "uniformDisplayScale": 0.4931379310344828,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            432,
+            256
+          ],
+          "sharedVisualPivotNormalized": [
+            0.675,
+            0.4
+          ],
+          "displayBodyMaxPixels": [
+            194.2963448275862,
+            179.99534482758622
+          ],
+          "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          31,
+          43,
+          411,
+          397
+        ],
+        "nativeVisibleSize": [
+          380,
+          354
+        ],
+        "rawCellEdgeMaxAlpha": 0,
+        "nominalGridEdgeMaxAlpha": 0,
+        "registeredBoxAlpha16": [
+          114,
+          141,
+          494,
+          495
+        ],
+        "registeredMarginsFraction": [
+          0.178125,
+          0.2203125,
+          0.228125,
+          0.2265625
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 275,
+          "bbox": [
+            333,
+            149,
+            362,
+            169
+          ],
+          "centroid": [
+            348.78909090909093,
+            157.5090909090909
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-01",
+      "name": "海龙 swim 1",
+      "file": "assets/animations/29-hailong/swim/frame-01.png",
+      "sha256": "c40c84dc9ceae29274ca9b4c8e0d73bd83f9ce8f06ae75b63f9dede4674cba31",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/29-hailong/swim/29-hailong-swim.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/29-hailong/swim/29-hailong-swim.png",
+          "sha256": "99a2e3d6f4fb3e0c2a27d1493d25e00e585918e5cdd4109f8fa8de53e10c2768",
+          "generationRecord": "designs/motion-frames-v1/29-hailong/swim/29-hailong-swim.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          444,
+          0,
+          887,
+          444
+        ],
+        "registrationOffset": [
+          84,
+          99,
+          527,
+          543
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_connected_component_centroid",
+          "sourcePointFloat": [
+            348.4642857142857,
+            157.35
+          ],
+          "sourcePointRounded": [
+            348,
+            157
+          ],
+          "targetPoint": [
+            432,
+            256
+          ],
+          "pupilBounds": [
+            333,
+            149,
+            362,
+            169
+          ],
+          "detectionRoi": [
+            315,
+            130,
+            380,
+            195
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+        },
+        "nominalGridRect": [
+          444,
+          0,
+          887,
+          444
+        ],
+        "sourceRectType": "nominal_grid",
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceBoundaryClippingAssessment": "only_alpha0_3_at_boundary"
+      },
+      "anchor": [
+        0.675,
+        0.4
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "29-hailong/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "root": [
+          0.675,
+          0.4
+        ],
+        "phase": 0.125,
+        "durationMs": 84,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+          "nativeMedianPupilWidth": 29.0,
+          "sharedTargetDisplayedPupilWidth": 14.301,
+          "uniformDisplayScale": 0.4931379310344828,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            432,
+            256
+          ],
+          "sharedVisualPivotNormalized": [
+            0.675,
+            0.4
+          ],
+          "displayBodyMaxPixels": [
+            194.2963448275862,
+            179.99534482758622
+          ],
+          "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          33,
+          43,
+          411,
+          391
+        ],
+        "nativeVisibleSize": [
+          378,
+          348
+        ],
+        "rawCellEdgeMaxAlpha": 1,
+        "nominalGridEdgeMaxAlpha": 1,
+        "registeredBoxAlpha16": [
+          117,
+          142,
+          495,
+          490
+        ],
+        "registeredMarginsFraction": [
+          0.1828125,
+          0.221875,
+          0.2265625,
+          0.234375
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 280,
+          "bbox": [
+            333,
+            149,
+            362,
+            169
+          ],
+          "centroid": [
+            348.4642857142857,
+            157.35
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-02",
+      "name": "海龙 swim 2",
+      "file": "assets/animations/29-hailong/swim/frame-02.png",
+      "sha256": "4ef019e919144b2d3e9c03dd080a1b6b7266a5f6a17f7cfbd3905c524a936e4a",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/29-hailong/swim/29-hailong-swim.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/29-hailong/swim/29-hailong-swim.png",
+          "sha256": "99a2e3d6f4fb3e0c2a27d1493d25e00e585918e5cdd4109f8fa8de53e10c2768",
+          "generationRecord": "designs/motion-frames-v1/29-hailong/swim/29-hailong-swim.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          887,
+          0,
+          1330,
+          444
+        ],
+        "registrationOffset": [
+          84,
+          99,
+          527,
+          543
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_connected_component_centroid",
+          "sourcePointFloat": [
+            348.0921985815603,
+            157.15602836879432
+          ],
+          "sourcePointRounded": [
+            348,
+            157
+          ],
+          "targetPoint": [
+            432,
+            256
+          ],
+          "pupilBounds": [
+            333,
+            149,
+            361,
+            169
+          ],
+          "detectionRoi": [
+            315,
+            130,
+            380,
+            195
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+        },
+        "nominalGridRect": [
+          887,
+          0,
+          1330,
+          444
+        ],
+        "sourceRectType": "nominal_grid",
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceBoundaryClippingAssessment": "only_alpha0_3_at_boundary"
+      },
+      "anchor": [
+        0.675,
+        0.4
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "29-hailong/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "root": [
+          0.675,
+          0.4
+        ],
+        "phase": 0.25,
+        "durationMs": 83,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+          "nativeMedianPupilWidth": 29.0,
+          "sharedTargetDisplayedPupilWidth": 14.301,
+          "uniformDisplayScale": 0.4931379310344828,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            432,
+            256
+          ],
+          "sharedVisualPivotNormalized": [
+            0.675,
+            0.4
+          ],
+          "displayBodyMaxPixels": [
+            194.2963448275862,
+            179.99534482758622
+          ],
+          "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          36,
+          43,
+          411,
+          408
+        ],
+        "nativeVisibleSize": [
+          375,
+          365
+        ],
+        "rawCellEdgeMaxAlpha": 1,
+        "nominalGridEdgeMaxAlpha": 1,
+        "registeredBoxAlpha16": [
+          120,
+          142,
+          495,
+          507
+        ],
+        "registeredMarginsFraction": [
+          0.1875,
+          0.221875,
+          0.2265625,
+          0.2078125
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 282,
+          "bbox": [
+            333,
+            149,
+            361,
+            169
+          ],
+          "centroid": [
+            348.0921985815603,
+            157.15602836879432
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-03",
+      "name": "海龙 swim 3",
+      "file": "assets/animations/29-hailong/swim/frame-03.png",
+      "sha256": "27740ac412549abfece188f664ae2d15329c7a62ea9e726a6f58d5096a10bf3e",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/29-hailong/swim/29-hailong-swim.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/29-hailong/swim/29-hailong-swim.png",
+          "sha256": "99a2e3d6f4fb3e0c2a27d1493d25e00e585918e5cdd4109f8fa8de53e10c2768",
+          "generationRecord": "designs/motion-frames-v1/29-hailong/swim/29-hailong-swim.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          1330,
+          0,
+          1774,
+          444
+        ],
+        "registrationOffset": [
+          84,
+          99,
+          528,
+          543
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_connected_component_centroid",
+          "sourcePointFloat": [
+            347.87725631768956,
+            157.29602888086643
+          ],
+          "sourcePointRounded": [
+            348,
+            157
+          ],
+          "targetPoint": [
+            432,
+            256
+          ],
+          "pupilBounds": [
+            332,
+            149,
+            361,
+            169
+          ],
+          "detectionRoi": [
+            315,
+            130,
+            380,
+            195
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+        },
+        "nominalGridRect": [
+          1330,
+          0,
+          1774,
+          444
+        ],
+        "sourceRectType": "nominal_grid",
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceBoundaryClippingAssessment": "only_alpha0_3_at_boundary"
+      },
+      "anchor": [
+        0.675,
+        0.4
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "29-hailong/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "root": [
+          0.675,
+          0.4
+        ],
+        "phase": 0.375,
+        "durationMs": 83,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+          "nativeMedianPupilWidth": 29.0,
+          "sharedTargetDisplayedPupilWidth": 14.301,
+          "uniformDisplayScale": 0.4931379310344828,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            432,
+            256
+          ],
+          "sharedVisualPivotNormalized": [
+            0.675,
+            0.4
+          ],
+          "displayBodyMaxPixels": [
+            194.2963448275862,
+            179.99534482758622
+          ],
+          "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          33,
+          43,
+          410,
+          389
+        ],
+        "nativeVisibleSize": [
+          377,
+          346
+        ],
+        "rawCellEdgeMaxAlpha": 0,
+        "nominalGridEdgeMaxAlpha": 0,
+        "registeredBoxAlpha16": [
+          117,
+          142,
+          494,
+          488
+        ],
+        "registeredMarginsFraction": [
+          0.1828125,
+          0.221875,
+          0.228125,
+          0.2375
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 277,
+          "bbox": [
+            332,
+            149,
+            361,
+            169
+          ],
+          "centroid": [
+            347.87725631768956,
+            157.29602888086643
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-04",
+      "name": "海龙 swim 4",
+      "file": "assets/animations/29-hailong/swim/frame-04.png",
+      "sha256": "a495c25b7e454b80e7c52be7554878bcc06e0e63fafe7b36ccd5c92b4141a907",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/29-hailong/swim/29-hailong-swim.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/29-hailong/swim/29-hailong-swim.png",
+          "sha256": "99a2e3d6f4fb3e0c2a27d1493d25e00e585918e5cdd4109f8fa8de53e10c2768",
+          "generationRecord": "designs/motion-frames-v1/29-hailong/swim/29-hailong-swim.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          0,
+          444,
+          444,
+          887
+        ],
+        "registrationOffset": [
+          84,
+          102,
+          528,
+          545
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_connected_component_centroid",
+          "sourcePointFloat": [
+            348.38235294117646,
+            154.10294117647058
+          ],
+          "sourcePointRounded": [
+            348,
+            154
+          ],
+          "targetPoint": [
+            432,
+            256
+          ],
+          "pupilBounds": [
+            334,
+            146,
+            362,
+            166
+          ],
+          "detectionRoi": [
+            315,
+            130,
+            380,
+            195
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+        },
+        "nominalGridRect": [
+          0,
+          444,
+          444,
+          887
+        ],
+        "sourceRectType": "nominal_grid",
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceBoundaryClippingAssessment": "only_alpha0_3_at_boundary"
+      },
+      "anchor": [
+        0.675,
+        0.4
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "29-hailong/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "root": [
+          0.675,
+          0.4
+        ],
+        "phase": 0.5,
+        "durationMs": 84,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+          "nativeMedianPupilWidth": 29.0,
+          "sharedTargetDisplayedPupilWidth": 14.301,
+          "uniformDisplayScale": 0.4931379310344828,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            432,
+            256
+          ],
+          "sharedVisualPivotNormalized": [
+            0.675,
+            0.4
+          ],
+          "displayBodyMaxPixels": [
+            194.2963448275862,
+            179.99534482758622
+          ],
+          "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          27,
+          39,
+          411,
+          394
+        ],
+        "nativeVisibleSize": [
+          384,
+          355
+        ],
+        "rawCellEdgeMaxAlpha": 0,
+        "nominalGridEdgeMaxAlpha": 0,
+        "registeredBoxAlpha16": [
+          111,
+          141,
+          495,
+          496
+        ],
+        "registeredMarginsFraction": [
+          0.1734375,
+          0.2203125,
+          0.2265625,
+          0.225
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 272,
+          "bbox": [
+            334,
+            146,
+            362,
+            166
+          ],
+          "centroid": [
+            348.38235294117646,
+            154.10294117647058
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-05",
+      "name": "海龙 swim 5",
+      "file": "assets/animations/29-hailong/swim/frame-05.png",
+      "sha256": "ae855a2a67d938915d4c85076d784a1f99eaa388b98acffebe5e230bbfe15526",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/29-hailong/swim/29-hailong-swim.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/29-hailong/swim/29-hailong-swim.png",
+          "sha256": "99a2e3d6f4fb3e0c2a27d1493d25e00e585918e5cdd4109f8fa8de53e10c2768",
+          "generationRecord": "designs/motion-frames-v1/29-hailong/swim/29-hailong-swim.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          444,
+          444,
+          887,
+          887
+        ],
+        "registrationOffset": [
+          85,
+          101,
+          528,
+          544
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_connected_component_centroid",
+          "sourcePointFloat": [
+            347.1508771929825,
+            155.25964912280702
+          ],
+          "sourcePointRounded": [
+            347,
+            155
+          ],
+          "targetPoint": [
+            432,
+            256
+          ],
+          "pupilBounds": [
+            332,
+            147,
+            361,
+            167
+          ],
+          "detectionRoi": [
+            315,
+            130,
+            380,
+            195
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+        },
+        "nominalGridRect": [
+          444,
+          444,
+          887,
+          887
+        ],
+        "sourceRectType": "nominal_grid",
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceBoundaryClippingAssessment": "only_alpha0_3_at_boundary"
+      },
+      "anchor": [
+        0.675,
+        0.4
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "29-hailong/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "root": [
+          0.675,
+          0.4
+        ],
+        "phase": 0.625,
+        "durationMs": 83,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+          "nativeMedianPupilWidth": 29.0,
+          "sharedTargetDisplayedPupilWidth": 14.301,
+          "uniformDisplayScale": 0.4931379310344828,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            432,
+            256
+          ],
+          "sharedVisualPivotNormalized": [
+            0.675,
+            0.4
+          ],
+          "displayBodyMaxPixels": [
+            194.2963448275862,
+            179.99534482758622
+          ],
+          "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          15,
+          39,
+          409,
+          391
+        ],
+        "nativeVisibleSize": [
+          394,
+          352
+        ],
+        "rawCellEdgeMaxAlpha": 1,
+        "nominalGridEdgeMaxAlpha": 1,
+        "registeredBoxAlpha16": [
+          100,
+          140,
+          494,
+          492
+        ],
+        "registeredMarginsFraction": [
+          0.15625,
+          0.21875,
+          0.228125,
+          0.23125
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 285,
+          "bbox": [
+            332,
+            147,
+            361,
+            167
+          ],
+          "centroid": [
+            347.1508771929825,
+            155.25964912280702
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-06",
+      "name": "海龙 swim 6",
+      "file": "assets/animations/29-hailong/swim/frame-06.png",
+      "sha256": "e1b8680bc71927c0596df342333e4a97e2dd24f1041e2ac005dafa5c528a8ca4",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/29-hailong/swim/29-hailong-swim.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/29-hailong/swim/29-hailong-swim.png",
+          "sha256": "99a2e3d6f4fb3e0c2a27d1493d25e00e585918e5cdd4109f8fa8de53e10c2768",
+          "generationRecord": "designs/motion-frames-v1/29-hailong/swim/29-hailong-swim.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          887,
+          444,
+          1330,
+          887
+        ],
+        "registrationOffset": [
+          84,
+          99,
+          527,
+          542
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_connected_component_centroid",
+          "sourcePointFloat": [
+            348.10283687943263,
+            156.65602836879432
+          ],
+          "sourcePointRounded": [
+            348,
+            157
+          ],
+          "targetPoint": [
+            432,
+            256
+          ],
+          "pupilBounds": [
+            333,
+            148,
+            361,
+            168
+          ],
+          "detectionRoi": [
+            315,
+            130,
+            380,
+            195
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+        },
+        "nominalGridRect": [
+          887,
+          444,
+          1330,
+          887
+        ],
+        "sourceRectType": "nominal_grid",
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceBoundaryClippingAssessment": "only_alpha0_3_at_boundary"
+      },
+      "anchor": [
+        0.675,
+        0.4
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "29-hailong/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "root": [
+          0.675,
+          0.4
+        ],
+        "phase": 0.75,
+        "durationMs": 83,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+          "nativeMedianPupilWidth": 29.0,
+          "sharedTargetDisplayedPupilWidth": 14.301,
+          "uniformDisplayScale": 0.4931379310344828,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            432,
+            256
+          ],
+          "sharedVisualPivotNormalized": [
+            0.675,
+            0.4
+          ],
+          "displayBodyMaxPixels": [
+            194.2963448275862,
+            179.99534482758622
+          ],
+          "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          17,
+          41,
+          411,
+          387
+        ],
+        "nativeVisibleSize": [
+          394,
+          346
+        ],
+        "rawCellEdgeMaxAlpha": 0,
+        "nominalGridEdgeMaxAlpha": 0,
+        "registeredBoxAlpha16": [
+          101,
+          140,
+          495,
+          486
+        ],
+        "registeredMarginsFraction": [
+          0.1578125,
+          0.21875,
+          0.2265625,
+          0.240625
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 282,
+          "bbox": [
+            333,
+            148,
+            361,
+            168
+          ],
+          "centroid": [
+            348.10283687943263,
+            156.65602836879432
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-07",
+      "name": "海龙 swim 7",
+      "file": "assets/animations/29-hailong/swim/frame-07.png",
+      "sha256": "42309a4b4702325c254b516d4e676458bdacd63883cc4d318f8ded81e58eb4ef",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/29-hailong/swim/29-hailong-swim.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/29-hailong/swim/29-hailong-swim.png",
+          "sha256": "99a2e3d6f4fb3e0c2a27d1493d25e00e585918e5cdd4109f8fa8de53e10c2768",
+          "generationRecord": "designs/motion-frames-v1/29-hailong/swim/29-hailong-swim.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          1330,
+          444,
+          1774,
+          887
+        ],
+        "registrationOffset": [
+          84,
+          100,
+          528,
+          543
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_connected_component_centroid",
+          "sourcePointFloat": [
+            348.1083916083916,
+            155.8041958041958
+          ],
+          "sourcePointRounded": [
+            348,
+            156
+          ],
+          "targetPoint": [
+            432,
+            256
+          ],
+          "pupilBounds": [
+            332,
+            147,
+            361,
+            168
+          ],
+          "detectionRoi": [
+            315,
+            130,
+            380,
+            195
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+        },
+        "nominalGridRect": [
+          1330,
+          444,
+          1774,
+          887
+        ],
+        "sourceRectType": "nominal_grid",
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceBoundaryClippingAssessment": "only_alpha0_3_at_boundary"
+      },
+      "anchor": [
+        0.675,
+        0.4
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "29-hailong/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "root": [
+          0.675,
+          0.4
+        ],
+        "phase": 0.875,
+        "durationMs": 84,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+          "nativeMedianPupilWidth": 29.0,
+          "sharedTargetDisplayedPupilWidth": 14.301,
+          "uniformDisplayScale": 0.4931379310344828,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            432,
+            256
+          ],
+          "sharedVisualPivotNormalized": [
+            0.675,
+            0.4
+          ],
+          "displayBodyMaxPixels": [
+            194.2963448275862,
+            179.99534482758622
+          ],
+          "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          36,
+          40,
+          410,
+          397
+        ],
+        "nativeVisibleSize": [
+          374,
+          357
+        ],
+        "rawCellEdgeMaxAlpha": 0,
+        "nominalGridEdgeMaxAlpha": 0,
+        "registeredBoxAlpha16": [
+          120,
+          140,
+          494,
+          497
+        ],
+        "registeredMarginsFraction": [
+          0.1875,
+          0.21875,
+          0.228125,
+          0.2234375
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 286,
+          "bbox": [
+            332,
+            147,
+            361,
+            168
+          ],
+          "centroid": [
+            348.1083916083916,
+            155.8041958041958
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false
+      }
+    }
+  ],
+  "animation": {
+    "id": "29-hailong/swim",
+    "frameCount": 8,
+    "fps": 12,
+    "loop": true,
+    "canvas": [
+      640,
+      640
+    ],
+    "pupilRegistrationTarget": [
+      432,
+      256
+    ],
+    "root": [
+      0.675,
+      0.4
+    ],
+    "durationMs": 667,
+    "durationsMs": [
+      83,
+      84,
+      83,
+      83,
+      84,
+      83,
+      83,
+      84
+    ],
+    "sourceScale": "Uniform native pixels, no per-frame bbox normalization.",
+    "visualReview": "Actual source viewed: C-body and tail multi-joint curl changes, blue mane/fins counter-sweep, horns/whiskers/pearl ornaments retained. Complete source bounds with alpha0..1 at grid edges. Loop and small head identity changes need root playback review.",
+    "pending": [
+      "Root actual loop playback and identity/appendage review.",
+      "Unity runtime not reviewed; static counts/geometry do not prove motion pass."
+    ],
+    "releaseReady": true,
+    "displayCalibration": {
+      "status": "candidate_pending_root_visual_runtime_review",
+      "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+      "nativeMedianPupilWidth": 29.0,
+      "sharedTargetDisplayedPupilWidth": 14.301,
+      "uniformDisplayScale": 0.4931379310344828,
+      "upscale": false,
+      "perFrameBboxFit": false,
+      "sharedVisualPivotPixels": [
+        432,
+        256
+      ],
+      "sharedVisualPivotNormalized": [
+        0.675,
+        0.4
+      ],
+      "displayBodyMaxPixels": [
+        194.2963448275862,
+        179.99534482758622
+      ],
+      "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+    }
+  },
+  "notes": [
+    "Native AI articulated body/appendage frames; crop/translation/padding only aligns layout and does not create animation.",
+    "Raw source padding may be smaller than final contract; only final transparent padding meets12%.",
+    "No PNG upsample, full-image rotation/scale or per-frame body warp."
+  ],
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+  "acceptedAt": "2026-10-30T04:07:09.085600+00:00",
+  "releaseReady": true,
+  "playbackReview": "docs/UNITY_FINAL_ACCEPTANCE.json"
+}

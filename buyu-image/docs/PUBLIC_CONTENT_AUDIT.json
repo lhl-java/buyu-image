@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-27T15:26:54.530326+00:00",
+  "scope": "Candidate local content for public lhl-java/luhailong-python buyu-image/; parent freezes final manifest later.",
+  "readOnlySourceAudit": true,
+  "candidateFileCount": 1010,
+  "candidateBytes": 267716739,
+  "maxFileBytes": 5866956,
+  "scannedTextFiles": 700,
+  "credentialPatternsChecked": [
+    "github_token",
+    "openai_api_key",
+    "aws_access_key",
+    "private_key",
+    "jwt_token"
+  ],
+  "potentialCredentialFindings": [],
+  "blockingCredentialsDetected": false,
+  "unrecognizedTopLevelFiles": [],
+  "symlinkFiles": [],
+  "requiredFiles": [
+    {
+      "file": "AGENTS.md",
+      "exists": true
+    },
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "exists": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "exists": true
+    },
+    {
+      "file": "assets/runtime-catalog.json",
+      "exists": true
+    },
+    {
+      "file": "docs/FISH_MOTION_BACKLOG.json",
+      "exists": true
+    },
+    {
+      "file": "docs/GUIDE_MOTION_BACKLOG.json",
+      "exists": true
+    }
+  ],
+  "excludedFiles": [
+    {
+      "file": "tmp/audit-preview.cjs",
+      "reason": "temporary_or_internal"
+    },
+    {
+      "file": "tmp/build-ui-runtime-map.py",
+      "reason": "temporary_or_internal"
+    },
+    {
+      "file": "tmp/art-qa/brand-title.slice.jpg",
+      "reason": "temporary_or_internal"
+    },
+    {
+      "file": "tmp/art-qa/cannon-parts-1.slice.jpg",
+      "reason": "temporary_or_internal"
+    },
+    {
+      "file": "tmp/art-qa/cannon-parts-2.slice.jpg",
+      "reason": "temporary_or_internal"
+    },
+    {
+      "file": "tmp/art-qa/fish-sheet-1.slice.jpg",
+      "reason": "temporary_or_internal"
+    },
+    {
+      "file": "tmp/art-qa/fish-sheet-2.slice.jpg",
+      "reason": "temporary_or_internal"
+    },
+    {
+      "file": "tmp/art-qa/fish-sheet-3.slice.jpg",
+      "reason": "temporary_or_internal"
+    },
+    {
+      "file": "tmp/art-qa/fish-sheet-4.slice.jpg",
+      "reason": "temporary_or_internal"
+    },
+    {
+      "file": "tmp/art-qa/fish-sheet-5.slice.jpg",
+      "reason": "temporary_or_internal"
+    },
+    {
+      "file": "tmp/art-qa/fish-sheet-6.slice.jpg",
+      "reason": "temporary_or_internal"
+    },
+    {
+      "file": "tmp/art-qa/fx-capture.slice.jpg",
+      "reason": "temporary_or_internal"
+    },
+    {
+      "file": "tmp/art-qa/fx-hit.slice.jpg",
+      "reason": "temporary_or_internal"
+    },
+    {
+      "file": "tmp/art-qa/fx-ice.slice.jpg",
+      "reason": "temporary_or_internal"
+    },
+    {
+      "file": "tmp/art-qa/fx-net.slice.jpg",
+      "reason": "temporary_or_internal"
+    },
+    {
+      "file": "tmp/art-qa/fx-thunder.slice.jpg",
+      "reason": "temporary_or_internal"
+    },
+    {
+      "file": "tmp/art-qa/gameplay-ornaments.slice.jpg",
+      "reason": "temporary_or_internal"
+    },
+    {
+      "file": "tmp/art-qa/item-icons.slice.jpg",
+      "reason": "temporary_or_internal"
+    },
+    {
+      "file": "tmp/art-qa/kit-buttons.slice.jpg",
+      "reason": "temporary_or_internal"
+    },
+    {
+      "file": "tmp/art-qa/kit-hud.slice.jpg",
+      "reason": "temporary_or_internal"
+    },
+    {
+      "file": "tmp/art-qa/kit-panel-runtime.slice.jpg",
+      "reason": "temporary_or_internal"
+    },
+    {
+      "file": "tmp/art-qa/kit-panels.slice.jpg",
+      "reason": "temporary_or_internal"
+    },
+    {
+      "file": "tmp/art-qa/portraits.slice.jpg",
+      "reason": "temporary_or_internal"
+    },
+    {
+      "file": "tmp/art-qa/skill-icons.slice.jpg",
+      "reason": "temporary_or_internal"
+    },
+    {
+      "file": "tmp/preview/http.stderr.log",
+      "reason": "temporary_or_internal"
+    },
+    {
+      "file": "tmp/preview/http.stdout.log",
+      "reason": "temporary_or_internal"
+    },
+    {
+      "file": "tmp/preview/server.json",
+      "reason": "temporary_or_internal"
+    },
+    {
+      "file": "tools/__pycache__/Build-GameArtPack.cpython-312.pyc",
+      "reason": "temporary_or_internal"
+    }
+  ],
+  "recommendedIncludeRoots": [
+    ".gitignore",
+    "AGENTS.md",
+    "README.md",
+    "assets",
+    "assets-preview",
+    "config",
+    "designs",
+    "docs",
+    "gallery",
+    "references",
+    "tools"
+  ],
+  "recommendedExcludeParts": [
+    ".cache",
+    ".git",
+    ".venv",
+    ".work",
+    "__pycache__",
+    "node_modules",
+    "tmp"
+  ],
+  "recommendedExcludeNames": [
+    ".env",
+    ".env.* except .env.example",
+    "*.pyc",
+    "*.log",
+    "private-key or credential containers"
+  ],
+  "currentCatalog": {
+    "assetCount": 225,
+    "counts": {
+      "branding": 1,
+      "cannons": 12,
+      "characters": 7,
+      "fish": 36,
+      "fx": 80,
+      "icons": 36,
+      "illustrations": 2,
+      "ornaments": 9,
+      "skills": 6,
+      "ui": 31,
+      "scenes": 5
+    },
+    "gameArtComplete": false
+  },
+  "motionPending": 81,
+  "supersededImage": {
+    "file": "designs/production-v1/kit-panel-runtime/kit-panel-runtime.png",
+    "exists": true,
+    "activeRuntimeReferences": [],
+    "recommendation": "After final parent reference check, remove superseded PNG only; keep generation/prompt/receipt text evidence."
+  },
+  "notes": [
+    "Absolute local source paths and usernames in provenance are traceability information, not credential material.",
+    "No other project files are nested in the candidate roots. Source-image copied MD are project style/provenance dependencies.",
+    "Pattern scan cannot prove absence of all possible secret formats; no matched values were printed or stored.",
+    "Do not publish as whole-game art complete while 81 motion actions and target-client art checks remain pending."
+  ]
+}

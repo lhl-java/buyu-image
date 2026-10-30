@@ -1,0 +1,206 @@
+{
+  "source": "designs/motion-frames-v1/04-shenxian/capture/04-shenxian-capture-v1.png",
+  "sourceSHA256": "6886e031ede816a59aa019611fea39415f2370b0f4a6e37fa83304bf6f112393",
+  "action": "capture",
+  "registeredAt": "2026-10-28T18:08:48.595215+00:00",
+  "sharedCanvas": [
+    672,
+    672
+  ],
+  "rootPixels": [
+    336,
+    336
+  ],
+  "eyePixels": [
+    446,
+    296
+  ],
+  "registration": [
+    {
+      "frame": 0,
+      "pupil": [
+        324,
+        139
+      ],
+      "registeredPupil": [
+        446,
+        296
+      ],
+      "offset": [
+        122,
+        157
+      ],
+      "minMargin": 0.19345238095238096,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 1,
+      "pupil": [
+        352,
+        178
+      ],
+      "registeredPupil": [
+        446,
+        296
+      ],
+      "offset": [
+        94,
+        118
+      ],
+      "minMargin": 0.15178571428571427,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 2,
+      "pupil": [
+        308,
+        222
+      ],
+      "registeredPupil": [
+        446,
+        296
+      ],
+      "offset": [
+        138,
+        74
+      ],
+      "minMargin": 0.12202380952380952,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 3,
+      "pupil": [
+        326,
+        148
+      ],
+      "registeredPupil": [
+        446,
+        296
+      ],
+      "offset": [
+        120,
+        148
+      ],
+      "minMargin": 0.19047619047619047,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 4,
+      "pupil": [
+        301,
+        160
+      ],
+      "registeredPupil": [
+        446,
+        296
+      ],
+      "offset": [
+        145,
+        136
+      ],
+      "minMargin": 0.21428571428571427,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 5,
+      "pupil": [
+        317,
+        134
+      ],
+      "registeredPupil": [
+        446,
+        296
+      ],
+      "offset": [
+        129,
+        162
+      ],
+      "minMargin": 0.20386904761904762,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 6,
+      "pupil": [
+        295,
+        136
+      ],
+      "registeredPupil": [
+        446,
+        296
+      ],
+      "offset": [
+        151,
+        160
+      ],
+      "minMargin": 0.23660714285714285,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 7,
+      "pupil": [
+        297,
+        133
+      ],
+      "registeredPupil": [
+        446,
+        296
+      ],
+      "offset": [
+        149,
+        163
+      ],
+      "minMargin": 0.23363095238095238,
+      "pixelRoundTrip": true
+    }
+  ],
+  "uniformScale": 0.2564102564102564,
+  "sourceMarginWarnings": [
+    {
+      "frame": 0,
+      "actual": 0.006756756756756757,
+      "required": 0.12
+    },
+    {
+      "frame": 1,
+      "actual": 0.009029345372460496,
+      "required": 0.12
+    },
+    {
+      "frame": 2,
+      "actual": 0.04954954954954955,
+      "required": 0.12
+    },
+    {
+      "frame": 3,
+      "actual": 0.01126126126126126,
+      "required": 0.12
+    },
+    {
+      "frame": 4,
+      "actual": 0.02027027027027027,
+      "required": 0.12
+    },
+    {
+      "frame": 5,
+      "actual": 0.03837471783295711,
+      "required": 0.12
+    },
+    {
+      "frame": 6,
+      "actual": 0.08577878103837472,
+      "required": 0.12
+    },
+    {
+      "frame": 7,
+      "actual": 0.08558558558558559,
+      "required": 0.12
+    }
+  ],
+  "runtimeWarnings": [],
+  "producerVisualNote": "Black/gold striped identity; long dorsal/anal tips and tail articulate. Black face bands excluded from pupil ROI. Actual native/pupil ROI inspected. Root visual and Unity playback pending.",
+  "registeredContactVisual": "producer_actually_viewed_light_dark_and_display_rest_comparison",
+  "identityAndMotion": "pending_root_visual",
+  "playback": "pending_Unity",
+  "references": "designs/motion-frames-v1/04-shenxian/swim/04-shenxian-swim-v1.png",
+  "rootVisual": "pending"
+}

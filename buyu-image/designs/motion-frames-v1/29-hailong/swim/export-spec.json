@@ -1,0 +1,75 @@
+{
+  "grid": [
+    2,
+    4
+  ],
+  "canvas": [
+    640,
+    640
+  ],
+  "fps": 12,
+  "displayBox": [
+    240,
+    180
+  ],
+  "loop": true,
+  "action": "swim",
+  "pending": [
+    "Root actual loop playback and identity/appendage review.",
+    "Unity runtime not reviewed; static counts/geometry do not prove motion pass."
+  ],
+  "id": "29-hailong/swim",
+  "name": "海龙",
+  "source": "designs/motion-frames-v1/29-hailong/swim/29-hailong-swim.png",
+  "output": "assets/animations/29-hailong/swim",
+  "pupilTarget": [
+    432,
+    256
+  ],
+  "pupilRoi": [
+    315,
+    130,
+    380,
+    195
+  ],
+  "pupilMinSize": [
+    8,
+    8
+  ],
+  "pupilMinArea": 30,
+  "pupilExpected": [
+    [
+      348,
+      164
+    ],
+    [
+      346,
+      164
+    ],
+    [
+      346,
+      164
+    ],
+    [
+      346,
+      164
+    ],
+    [
+      347,
+      161
+    ],
+    [
+      347,
+      161
+    ],
+    [
+      347,
+      161
+    ],
+    [
+      347,
+      161
+    ]
+  ],
+  "visualReview": "Actual source viewed: C-body and tail multi-joint curl changes, blue mane/fins counter-sweep, horns/whiskers/pearl ornaments retained. Complete source bounds with alpha0..1 at grid edges. Loop and small head identity changes need root playback review."
+}

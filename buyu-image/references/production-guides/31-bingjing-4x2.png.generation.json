@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "file": "references/production-guides/31-bingjing-4x2.png",
+  "sha256": "34cfadf5446f0171f4ffc27036c1717d813dbc3ceca9d6abef832e96cb1455de",
+  "createdAt": "2026-10-28T18:06:09.886718+00:00",
+  "purpose": "Image model geometry/identity edit reference only; identical stills are NOT animation frames or game art.",
+  "operation": {
+    "type": "reference_only_master_layout_composite",
+    "masterCropRect": [
+      4,
+      4,
+      480,
+      336
+    ],
+    "referenceCropSize": [
+      476,
+      332
+    ],
+    "referencePlacedSize": [
+      310,
+      216
+    ],
+    "canvas": [
+      1774,
+      887
+    ],
+    "grid": [
+      4,
+      2
+    ],
+    "placements": [
+      [
+        67,
+        114,
+        310,
+        216
+      ],
+      [
+        510,
+        114,
+        310,
+        216
+      ],
+      [
+        954,
+        114,
+        310,
+        216
+      ],
+      [
+        1397,
+        114,
+        310,
+        216
+      ],
+      [
+        67,
+        557,
+        310,
+        216
+      ],
+      [
+        510,
+        557,
+        310,
+        216
+      ],
+      [
+        954,
+        557,
+        310,
+        216
+      ],
+      [
+        1397,
+        557,
+        310,
+        216
+      ]
+    ],
+    "finalGameAsset": false
+  },
+  "derivedFrom": [
+    {
+      "file": "assets/fish/batch-6/31-bingjing.png",
+      "sha256": "5b11fc5bb8b8823ac7e0a51cfd6cf0f6d4462e0df519fa7e166a7386781d6497",
+      "generationRecord": "assets/fish/batch-6/31-bingjing.png.generation.json"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "newModelCall": false
+}

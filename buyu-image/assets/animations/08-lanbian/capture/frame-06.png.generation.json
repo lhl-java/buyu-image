@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-06",
+  "file": "assets/animations/08-lanbian/capture/frame-06.png",
+  "sha256": "45244625a8bc95921b48509a1ff0aeba22247522e3952d43c05dd15e9eb21bb6",
+  "width": 640,
+  "height": 640,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/motion-frames-v1/08-lanbian/capture/08-lanbian-capture-v1.png",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/08-lanbian/capture/08-lanbian-capture-v1.png",
+      "sha256": "f18a90a9745ad8cf6bd6d9998477cbfe490fe293f871b52dbdd4cc3240ab1fd4",
+      "generationRecord": "designs/motion-frames-v1/08-lanbian/capture/08-lanbian-capture-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_grid_crop_integer_pupil_registration",
+    "sourceRect": [
+      924,
+      508,
+      1323,
+      779
+    ],
+    "cellCropRect": [
+      0,
+      0,
+      399,
+      271
+    ],
+    "registrationOffset": [
+      101,
+      168
+    ],
+    "registeredCanvas": [
+      640,
+      640
+    ],
+    "registrationReference": {
+      "type": "black_pupil_component_centroid",
+      "sourcePointFloat": [
+        329.0437317784256,
+        122.11953352769683
+      ],
+      "sourcePointRounded": [
+        329,
+        122
+      ],
+      "targetPoint": [
+        430,
+        290
+      ],
+      "method": "RGBmax<55 and A>220 pupil component; restricted to local radius22px and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+      "roiActuallyInspected": true
+    },
+    "resized": false,
+    "upscaled": false,
+    "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+    "sourcePixelsRoundTripVerified": true,
+    "nominalGridRect": [
+      887,
+      444,
+      1330,
+      887
+    ],
+    "nominalGridBorderAlpha": 1,
+    "ownershipType": "complete_nonoverlapping_pose_rectangle",
+    "foreignFishAlphaPixels": 0,
+    "allAssignedPixelsInsideRect": true
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "rootPixels": [
+    320,
+    320
+  ],
+  "eyePixels": [
+    430,
+    290
+  ],
+  "displaySize": [
+    186.1818181818182,
+    186.1818181818182
+  ],
+  "bodyDisplayBox": [
+    120,
+    80
+  ],
+  "uniformDisplayScale": 0.2909090909090909,
+  "scaleReference": "assets/animations/08-lanbian/swim/manifest.json",
+  "registeredAlphaBBox": [
+    109,
+    176,
+    492,
+    431
+  ],
+  "registeredMinMargin": 0.1703125,
+  "status": "producer_candidate_pending_root_visual",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+  "clipDensityAdjustment": null,
+  "producerLightDarkStillReview": "viewed_candidate_pass"
+}

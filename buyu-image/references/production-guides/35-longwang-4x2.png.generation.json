@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "file": "references/production-guides/35-longwang-4x2.png",
+  "sha256": "ab9380be37471f56f993ed14de27c8f1f48e8a4c5f1c15df48212ced5938cd0f",
+  "createdAt": "2026-10-28T18:37:33.683837+00:00",
+  "purpose": "Image model geometry/identity edit reference only; identical stills are NOT animation frames or game art.",
+  "operation": {
+    "type": "reference_only_master_layout_composite",
+    "masterCropRect": [
+      4,
+      4,
+      319,
+      271
+    ],
+    "referenceCropSize": [
+      315,
+      267
+    ],
+    "referencePlacedSize": [
+      310,
+      263
+    ],
+    "canvas": [
+      1774,
+      887
+    ],
+    "grid": [
+      4,
+      2
+    ],
+    "placements": [
+      [
+        67,
+        90,
+        310,
+        263
+      ],
+      [
+        510,
+        90,
+        310,
+        263
+      ],
+      [
+        954,
+        90,
+        310,
+        263
+      ],
+      [
+        1397,
+        90,
+        310,
+        263
+      ],
+      [
+        67,
+        534,
+        310,
+        263
+      ],
+      [
+        510,
+        534,
+        310,
+        263
+      ],
+      [
+        954,
+        534,
+        310,
+        263
+      ],
+      [
+        1397,
+        534,
+        310,
+        263
+      ]
+    ],
+    "finalGameAsset": false
+  },
+  "derivedFrom": [
+    {
+      "file": "assets/fish/batch-6/35-longwang.png",
+      "sha256": "dc334ba36a875e803e6155052ba825b018a985f7b1af3ee6a5a89fdca98908c3",
+      "generationRecord": "assets/fish/batch-6/35-longwang.png.generation.json"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "newModelCall": false
+}

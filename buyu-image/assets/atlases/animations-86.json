@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "frames": {
+    "animations/32-honglian/swim/frame-00": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 800,
+        "h": 800
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 800,
+        "h": 800
+      },
+      "pivot": [
+        0.7,
+        0.5
+      ],
+      "source": "assets/animations/32-honglian/swim/frame-00.png",
+      "sourceSha256": "5a4262ee37794dbe0d069d4bbc58a0971fcc14c5df12fbc67b57f731064f02e0"
+    },
+    "animations/32-honglian/swim/frame-01": {
+      "frame": {
+        "x": 806,
+        "y": 2,
+        "w": 800,
+        "h": 800
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 800,
+        "h": 800
+      },
+      "pivot": [
+        0.7,
+        0.5
+      ],
+      "source": "assets/animations/32-honglian/swim/frame-01.png",
+      "sourceSha256": "5bda299a838fdde5f6ce6afd6596899dae6d08135a4627f2689050693bf39336"
+    },
+    "animations/32-honglian/swim/frame-02": {
+      "frame": {
+        "x": 2,
+        "y": 806,
+        "w": 800,
+        "h": 800
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 800,
+        "h": 800
+      },
+      "pivot": [
+        0.7,
+        0.5
+      ],
+      "source": "assets/animations/32-honglian/swim/frame-02.png",
+      "sourceSha256": "90afd739e517bb60c72a79e278b3094391be8943d9c0005a27750319e2703d2c"
+    },
+    "animations/32-honglian/swim/frame-03": {
+      "frame": {
+        "x": 806,
+        "y": 806,
+        "w": 800,
+        "h": 800
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 800,
+        "h": 800
+      },
+      "pivot": [
+        0.7,
+        0.5
+      ],
+      "source": "assets/animations/32-honglian/swim/frame-03.png",
+      "sourceSha256": "a6f7490c21bf2e77fa35f8621721238a44d13760f5c0f9c8ba827909e169bdc9"
+    }
+  },
+  "meta": {
+    "image": "animations-86.png",
+    "size": {
+      "w": 1608,
+      "h": 1608
+    },
+    "format": "RGBA8888",
+    "scale": 1,
+    "padding": 2,
+    "noRotation": true,
+    "generatedAt": "2026-10-30T03:30:12.489824+00:00",
+    "operation": "native pixel packing; no resampling or redraw"
+  }
+}

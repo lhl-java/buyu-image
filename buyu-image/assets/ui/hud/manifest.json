@@ -1,0 +1,728 @@
+{
+  "schemaVersion": 1,
+  "source": "designs/production-v1/kit-hud/kit-hud.png",
+  "sourceWidth": 1448,
+  "sourceHeight": 1086,
+  "output": "assets/ui/hud",
+  "items": [
+    {
+      "schemaVersion": 1,
+      "id": "resource-capsule",
+      "name": "resource-capsule",
+      "file": "assets/ui/hud/resource-capsule.png",
+      "sha256": "a43e6d1c349d6d58bba25a72adbde1b25728f7ff8473935d101ccbec31645a6a",
+      "width": 318,
+      "height": 110,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/kit-hud/kit-hud.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/kit-hud/kit-hud.png",
+          "sha256": "fa7025d75e40f5a7fa1a8758c12738fffaacb0b275c6764bbd6fc9daeefd46a3",
+          "generationRecord": "designs/production-v1/kit-hud/kit-hud.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_ownership_crop",
+        "grid": {
+          "rows": 3,
+          "cols": 4
+        },
+        "sourceRect": [
+          5,
+          120,
+          350,
+          310
+        ],
+        "cellCropRect": [
+          13,
+          40,
+          331,
+          150
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        128,
+        128
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "visualReview": {
+        "reviewedAt": "2026-10-26T20:07:40.751031+00:00",
+        "sourceAndContactSheetViewed": true,
+        "result": "pass_for_static_visual_asset",
+        "notes": "十二个 HUD 控件完整；实际目视源图及切片联系表。资源胶囊、底栏、进度槽/填充、开关、复选框及四种槽状态用途清楚；按实际透明间隙划分所有权矩形。",
+        "runtimeIntegrationVerified": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "bottom-rail",
+      "name": "bottom-rail",
+      "file": "assets/ui/hud/bottom-rail.png",
+      "sha256": "0b221f95c3f5d3e8f4915902fc574c9e832b0cd44592c03d3717d4caed1a3788",
+      "width": 379,
+      "height": 121,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/kit-hud/kit-hud.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/kit-hud/kit-hud.png",
+          "sha256": "fa7025d75e40f5a7fa1a8758c12738fffaacb0b275c6764bbd6fc9daeefd46a3",
+          "generationRecord": "designs/production-v1/kit-hud/kit-hud.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_ownership_crop",
+        "grid": {
+          "rows": 3,
+          "cols": 4
+        },
+        "sourceRect": [
+          350,
+          120,
+          744,
+          312
+        ],
+        "cellCropRect": [
+          6,
+          36,
+          385,
+          157
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        128,
+        128
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "visualReview": {
+        "reviewedAt": "2026-10-26T20:07:40.751031+00:00",
+        "sourceAndContactSheetViewed": true,
+        "result": "pass_for_static_visual_asset",
+        "notes": "十二个 HUD 控件完整；实际目视源图及切片联系表。资源胶囊、底栏、进度槽/填充、开关、复选框及四种槽状态用途清楚；按实际透明间隙划分所有权矩形。",
+        "runtimeIntegrationVerified": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "progress-track",
+      "name": "progress-track",
+      "file": "assets/ui/hud/progress-track.png",
+      "sha256": "d0dd0e39e489ae6dc2e20171faa4ddc0a253fb1dda470c56fb9d93b61eb12082",
+      "width": 336,
+      "height": 90,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/kit-hud/kit-hud.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/kit-hud/kit-hud.png",
+          "sha256": "fa7025d75e40f5a7fa1a8758c12738fffaacb0b275c6764bbd6fc9daeefd46a3",
+          "generationRecord": "designs/production-v1/kit-hud/kit-hud.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_ownership_crop",
+        "grid": {
+          "rows": 3,
+          "cols": 4
+        },
+        "sourceRect": [
+          744,
+          140,
+          1105,
+          300
+        ],
+        "cellCropRect": [
+          10,
+          31,
+          346,
+          121
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        128,
+        128
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "visualReview": {
+        "reviewedAt": "2026-10-26T20:07:40.751031+00:00",
+        "sourceAndContactSheetViewed": true,
+        "result": "pass_for_static_visual_asset",
+        "notes": "十二个 HUD 控件完整；实际目视源图及切片联系表。资源胶囊、底栏、进度槽/填充、开关、复选框及四种槽状态用途清楚；按实际透明间隙划分所有权矩形。",
+        "runtimeIntegrationVerified": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "progress-fill",
+      "name": "progress-fill",
+      "file": "assets/ui/hud/progress-fill.png",
+      "sha256": "f056f90eab4c64f2c86f1dc954f44cc2b78fccfee6da6d18fa062635c40aba59",
+      "width": 302,
+      "height": 81,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/kit-hud/kit-hud.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/kit-hud/kit-hud.png",
+          "sha256": "fa7025d75e40f5a7fa1a8758c12738fffaacb0b275c6764bbd6fc9daeefd46a3",
+          "generationRecord": "designs/production-v1/kit-hud/kit-hud.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_ownership_crop",
+        "grid": {
+          "rows": 3,
+          "cols": 4
+        },
+        "sourceRect": [
+          1115,
+          145,
+          1445,
+          290
+        ],
+        "cellCropRect": [
+          15,
+          28,
+          317,
+          109
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        128,
+        128
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "visualReview": {
+        "reviewedAt": "2026-10-26T20:07:40.751031+00:00",
+        "sourceAndContactSheetViewed": true,
+        "result": "pass_for_static_visual_asset",
+        "notes": "十二个 HUD 控件完整；实际目视源图及切片联系表。资源胶囊、底栏、进度槽/填充、开关、复选框及四种槽状态用途清楚；按实际透明间隙划分所有权矩形。",
+        "runtimeIntegrationVerified": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "toggle-on",
+      "name": "toggle-on",
+      "file": "assets/ui/hud/toggle-on.png",
+      "sha256": "9ec0a2ed6831f36ccd6097ccfe3b23fb10b65f5d651432828b4233099f701f00",
+      "width": 280,
+      "height": 144,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/kit-hud/kit-hud.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/kit-hud/kit-hud.png",
+          "sha256": "fa7025d75e40f5a7fa1a8758c12738fffaacb0b275c6764bbd6fc9daeefd46a3",
+          "generationRecord": "designs/production-v1/kit-hud/kit-hud.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_ownership_crop",
+        "grid": {
+          "rows": 3,
+          "cols": 4
+        },
+        "sourceRect": [
+          20,
+          395,
+          350,
+          660
+        ],
+        "cellCropRect": [
+          24,
+          64,
+          304,
+          208
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        128,
+        128
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "visualReview": {
+        "reviewedAt": "2026-10-26T20:07:40.751031+00:00",
+        "sourceAndContactSheetViewed": true,
+        "result": "pass_for_static_visual_asset",
+        "notes": "十二个 HUD 控件完整；实际目视源图及切片联系表。资源胶囊、底栏、进度槽/填充、开关、复选框及四种槽状态用途清楚；按实际透明间隙划分所有权矩形。",
+        "runtimeIntegrationVerified": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "toggle-off",
+      "name": "toggle-off",
+      "file": "assets/ui/hud/toggle-off.png",
+      "sha256": "fe4ffc89c5049cf06b9bc030c89cd5fe961ad01f1695587772929c2b491a6129",
+      "width": 285,
+      "height": 145,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/kit-hud/kit-hud.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/kit-hud/kit-hud.png",
+          "sha256": "fa7025d75e40f5a7fa1a8758c12738fffaacb0b275c6764bbd6fc9daeefd46a3",
+          "generationRecord": "designs/production-v1/kit-hud/kit-hud.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_ownership_crop",
+        "grid": {
+          "rows": 3,
+          "cols": 4
+        },
+        "sourceRect": [
+          370,
+          385,
+          735,
+          665
+        ],
+        "cellCropRect": [
+          29,
+          73,
+          314,
+          218
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        128,
+        128
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "visualReview": {
+        "reviewedAt": "2026-10-26T20:07:40.751031+00:00",
+        "sourceAndContactSheetViewed": true,
+        "result": "pass_for_static_visual_asset",
+        "notes": "十二个 HUD 控件完整；实际目视源图及切片联系表。资源胶囊、底栏、进度槽/填充、开关、复选框及四种槽状态用途清楚；按实际透明间隙划分所有权矩形。",
+        "runtimeIntegrationVerified": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "checkbox-on",
+      "name": "checkbox-on",
+      "file": "assets/ui/hud/checkbox-on.png",
+      "sha256": "a3fd44e00e3b9657f20e49e65da08d70c50cc2aef75a3535fab4febe0cd5a372",
+      "width": 209,
+      "height": 206,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/kit-hud/kit-hud.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/kit-hud/kit-hud.png",
+          "sha256": "fa7025d75e40f5a7fa1a8758c12738fffaacb0b275c6764bbd6fc9daeefd46a3",
+          "generationRecord": "designs/production-v1/kit-hud/kit-hud.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_ownership_crop",
+        "grid": {
+          "rows": 3,
+          "cols": 4
+        },
+        "sourceRect": [
+          770,
+          390,
+          1045,
+          665
+        ],
+        "cellCropRect": [
+          29,
+          33,
+          238,
+          239
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        128,
+        128
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "visualReview": {
+        "reviewedAt": "2026-10-26T20:07:40.751031+00:00",
+        "sourceAndContactSheetViewed": true,
+        "result": "pass_for_static_visual_asset",
+        "notes": "十二个 HUD 控件完整；实际目视源图及切片联系表。资源胶囊、底栏、进度槽/填充、开关、复选框及四种槽状态用途清楚；按实际透明间隙划分所有权矩形。",
+        "runtimeIntegrationVerified": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "checkbox-off",
+      "name": "checkbox-off",
+      "file": "assets/ui/hud/checkbox-off.png",
+      "sha256": "1f8f5aaf04d2bb60c5c3e3c538e1dd3d1fdf1d57c1fbe3c4f5b45ad013be86fc",
+      "width": 214,
+      "height": 202,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/kit-hud/kit-hud.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/kit-hud/kit-hud.png",
+          "sha256": "fa7025d75e40f5a7fa1a8758c12738fffaacb0b275c6764bbd6fc9daeefd46a3",
+          "generationRecord": "designs/production-v1/kit-hud/kit-hud.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_ownership_crop",
+        "grid": {
+          "rows": 3,
+          "cols": 4
+        },
+        "sourceRect": [
+          1125,
+          390,
+          1420,
+          665
+        ],
+        "cellCropRect": [
+          35,
+          36,
+          249,
+          238
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        128,
+        128
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "visualReview": {
+        "reviewedAt": "2026-10-26T20:07:40.751031+00:00",
+        "sourceAndContactSheetViewed": true,
+        "result": "pass_for_static_visual_asset",
+        "notes": "十二个 HUD 控件完整；实际目视源图及切片联系表。资源胶囊、底栏、进度槽/填充、开关、复选框及四种槽状态用途清楚；按实际透明间隙划分所有权矩形。",
+        "runtimeIntegrationVerified": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "slot-normal",
+      "name": "slot-normal",
+      "file": "assets/ui/hud/slot-normal.png",
+      "sha256": "a4524e8f180217a2a3d2c2b5802ba88277567fa5446bcd0e55300fba3ec0527e",
+      "width": 261,
+      "height": 262,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/kit-hud/kit-hud.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/kit-hud/kit-hud.png",
+          "sha256": "fa7025d75e40f5a7fa1a8758c12738fffaacb0b275c6764bbd6fc9daeefd46a3",
+          "generationRecord": "designs/production-v1/kit-hud/kit-hud.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_ownership_crop",
+        "grid": {
+          "rows": 3,
+          "cols": 4
+        },
+        "sourceRect": [
+          15,
+          680,
+          350,
+          1040
+        ],
+        "cellCropRect": [
+          36,
+          36,
+          297,
+          298
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        128,
+        128
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "visualReview": {
+        "reviewedAt": "2026-10-26T20:07:40.751031+00:00",
+        "sourceAndContactSheetViewed": true,
+        "result": "pass_for_static_visual_asset",
+        "notes": "十二个 HUD 控件完整；实际目视源图及切片联系表。资源胶囊、底栏、进度槽/填充、开关、复选框及四种槽状态用途清楚；按实际透明间隙划分所有权矩形。",
+        "runtimeIntegrationVerified": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "slot-selected",
+      "name": "slot-selected",
+      "file": "assets/ui/hud/slot-selected.png",
+      "sha256": "e8a9b6262461f7f72a2975566f281b56019577e76a7d304ecb81e2803562bd25",
+      "width": 293,
+      "height": 288,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/kit-hud/kit-hud.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/kit-hud/kit-hud.png",
+          "sha256": "fa7025d75e40f5a7fa1a8758c12738fffaacb0b275c6764bbd6fc9daeefd46a3",
+          "generationRecord": "designs/production-v1/kit-hud/kit-hud.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_ownership_crop",
+        "grid": {
+          "rows": 3,
+          "cols": 4
+        },
+        "sourceRect": [
+          370,
+          680,
+          735,
+          1040
+        ],
+        "cellCropRect": [
+          29,
+          26,
+          322,
+          314
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        128,
+        128
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "visualReview": {
+        "reviewedAt": "2026-10-26T20:07:40.751031+00:00",
+        "sourceAndContactSheetViewed": true,
+        "result": "pass_for_static_visual_asset",
+        "notes": "十二个 HUD 控件完整；实际目视源图及切片联系表。资源胶囊、底栏、进度槽/填充、开关、复选框及四种槽状态用途清楚；按实际透明间隙划分所有权矩形。",
+        "runtimeIntegrationVerified": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "slot-locked",
+      "name": "slot-locked",
+      "file": "assets/ui/hud/slot-locked.png",
+      "sha256": "624c508270584f607041914a1b5136ff8cf0773868d81b36e83d034f4a3ef95d",
+      "width": 265,
+      "height": 263,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/kit-hud/kit-hud.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/kit-hud/kit-hud.png",
+          "sha256": "fa7025d75e40f5a7fa1a8758c12738fffaacb0b275c6764bbd6fc9daeefd46a3",
+          "generationRecord": "designs/production-v1/kit-hud/kit-hud.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_ownership_crop",
+        "grid": {
+          "rows": 3,
+          "cols": 4
+        },
+        "sourceRect": [
+          745,
+          680,
+          1080,
+          1040
+        ],
+        "cellCropRect": [
+          26,
+          36,
+          291,
+          299
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        128,
+        128
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "visualReview": {
+        "reviewedAt": "2026-10-26T20:07:40.751031+00:00",
+        "sourceAndContactSheetViewed": true,
+        "result": "pass_for_static_visual_asset",
+        "notes": "十二个 HUD 控件完整；实际目视源图及切片联系表。资源胶囊、底栏、进度槽/填充、开关、复选框及四种槽状态用途清楚；按实际透明间隙划分所有权矩形。",
+        "runtimeIntegrationVerified": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "slot-empty",
+      "name": "slot-empty",
+      "file": "assets/ui/hud/slot-empty.png",
+      "sha256": "837b0bdbb9ea0ccc081fc3a25bfc5d5e7062bd0b759918c70469bb0bb887f0d1",
+      "width": 267,
+      "height": 262,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/kit-hud/kit-hud.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/kit-hud/kit-hud.png",
+          "sha256": "fa7025d75e40f5a7fa1a8758c12738fffaacb0b275c6764bbd6fc9daeefd46a3",
+          "generationRecord": "designs/production-v1/kit-hud/kit-hud.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_ownership_crop",
+        "grid": {
+          "rows": 3,
+          "cols": 4
+        },
+        "sourceRect": [
+          1105,
+          680,
+          1435,
+          1040
+        ],
+        "cellCropRect": [
+          31,
+          37,
+          298,
+          299
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        128,
+        128
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "visualReview": {
+        "reviewedAt": "2026-10-26T20:07:40.751031+00:00",
+        "sourceAndContactSheetViewed": true,
+        "result": "pass_for_static_visual_asset",
+        "notes": "十二个 HUD 控件完整；实际目视源图及切片联系表。资源胶囊、底栏、进度槽/填充、开关、复选框及四种槽状态用途清楚；按实际透明间隙划分所有权矩形。",
+        "runtimeIntegrationVerified": false
+      }
+    }
+  ],
+  "warnings": [],
+  "complete": true,
+  "visualReview": {
+    "reviewedAt": "2026-10-26T20:07:40.751031+00:00",
+    "result": "pass_for_static_visual_asset",
+    "notes": "十二个 HUD 控件完整；实际目视源图及切片联系表。资源胶囊、底栏、进度槽/填充、开关、复选框及四种槽状态用途清楚；按实际透明间隙划分所有权矩形。",
+    "runtimeIntegrationVerified": false
+  },
+  "status": "accepted_first_release_art",
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+  "acceptedAt": "2026-10-30T04:07:09.085600+00:00"
+}

@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/ui/fishing-main-v1/fishing-main-v1.png",
+  "sha256": "957cfb67b8a26bde70cee652a1c0c4e4e5bcfa05597b6da47f1a73544419e9bf",
+  "generatedAt": "2026-10-26T07:35:53.870Z",
+  "startedAt": "2026-10-26T07:34:35.602Z",
+  "width": 1672,
+  "height": 941,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "builtin_evidence": {
+      "model_parameter_exposed": false,
+      "quality_parameter_exposed": false,
+      "actual_model": null,
+      "actual_quality": null,
+      "note": "Configuration targets only; verify actual model and quality per generated image."
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\buyu-image\\designs\\ui\\fishing-main-v1\\fishing-main-v1-initial.png",
+      "D:\\work\\buyu-image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\buyu-image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具未开放 model/quality 参数，结果未披露实际型号或质量。",
+  "evidence": {
+    "toolResult": "fishing-main-v1.tool-result.txt",
+    "sourceOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a17713-70e6-7261-8609-a9eabcbfb0a5\\exec-b1e7f43a-5e5d-425b-92a4-49902e2023cb.png",
+    "toolResultId": "exec-b1e7f43a-5e5d-425b-92a4-49902e2023cb"
+  },
+  "prompt": "fishing-main-v1-text-fix.prompt.txt",
+  "references": [
+    {
+      "file": "designs/ui/fishing-main-v1/fishing-main-v1-initial.png",
+      "role": "AI edit target",
+      "sha256": "8693e788001f3208df74ecea89c18741a2d987379ee4d9eb8e5a1574fe4557f1",
+      "generationRecord": "fishing-main-v1-initial.png.generation.json"
+    },
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "role": "approved art style only"
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "role": "approved art style only"
+    }
+  ],
+  "editOperation": "AI text replacement: replace old example player name and level with 见习渔师 / 角色首稿.",
+  "resampled": false,
+  "status": "draft_pending_user_review",
+  "review": {
+    "text": "旧参考示例姓名与等级已替换；主标题、场景名、资源与四个操作标签可读。",
+    "visual": "玉绿、米白、暖金控件与道家手绘风格延续；捕鱼区与边缘 HUD 清楚。",
+    "scope": "美术首稿；尺寸、单炮台布局、演示数字与功能标签为首稿假设，非已确认客户端规格。"
+  }
+}

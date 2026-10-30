@@ -1,0 +1,206 @@
+{
+  "source": "designs/motion-frames-v1/07-zihai/swim/07-zihai-swim-v1.png",
+  "sourceSHA256": "bd794b58bc937a76d228be7d5f741e6c8fe9e3fae90c3cf6ab412f42d879dc2b",
+  "action": "swim",
+  "registeredAt": "2026-10-28T18:16:44.214259+00:00",
+  "sharedCanvas": [
+    704,
+    704
+  ],
+  "rootPixels": [
+    352,
+    352
+  ],
+  "eyePixels": [
+    442,
+    337
+  ],
+  "registration": [
+    {
+      "frame": 0,
+      "pupil": [
+        337,
+        154
+      ],
+      "registeredPupil": [
+        442,
+        337
+      ],
+      "offset": [
+        105,
+        183
+      ],
+      "minMargin": 0.16051136363636365,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 1,
+      "pupil": [
+        353,
+        161
+      ],
+      "registeredPupil": [
+        442,
+        337
+      ],
+      "offset": [
+        89,
+        176
+      ],
+      "minMargin": 0.1377840909090909,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 2,
+      "pupil": [
+        318,
+        164
+      ],
+      "registeredPupil": [
+        442,
+        337
+      ],
+      "offset": [
+        124,
+        173
+      ],
+      "minMargin": 0.1875,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 3,
+      "pupil": [
+        338,
+        151
+      ],
+      "registeredPupil": [
+        442,
+        337
+      ],
+      "offset": [
+        104,
+        186
+      ],
+      "minMargin": 0.1590909090909091,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 4,
+      "pupil": [
+        340,
+        153
+      ],
+      "registeredPupil": [
+        442,
+        337
+      ],
+      "offset": [
+        102,
+        184
+      ],
+      "minMargin": 0.15625,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 5,
+      "pupil": [
+        346,
+        138
+      ],
+      "registeredPupil": [
+        442,
+        337
+      ],
+      "offset": [
+        96,
+        199
+      ],
+      "minMargin": 0.14772727272727273,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 6,
+      "pupil": [
+        346,
+        139
+      ],
+      "registeredPupil": [
+        442,
+        337
+      ],
+      "offset": [
+        96,
+        198
+      ],
+      "minMargin": 0.14772727272727273,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 7,
+      "pupil": [
+        338,
+        154
+      ],
+      "registeredPupil": [
+        442,
+        337
+      ],
+      "offset": [
+        104,
+        183
+      ],
+      "minMargin": 0.1590909090909091,
+      "pixelRoundTrip": true
+    }
+  ],
+  "uniformScale": 0.2702702702702703,
+  "sourceMarginWarnings": [
+    {
+      "frame": 0,
+      "actual": 0.02252252252252252,
+      "required": 0.12
+    },
+    {
+      "frame": 1,
+      "actual": 0.02927927927927928,
+      "required": 0.12
+    },
+    {
+      "frame": 2,
+      "actual": 0.009009009009009009,
+      "required": 0.12
+    },
+    {
+      "frame": 3,
+      "actual": 0.038288288288288286,
+      "required": 0.12
+    },
+    {
+      "frame": 4,
+      "actual": 0.05855855855855856,
+      "required": 0.12
+    },
+    {
+      "frame": 5,
+      "actual": 0.02708803611738149,
+      "required": 0.12
+    },
+    {
+      "frame": 6,
+      "actual": 0.05191873589164785,
+      "required": 0.12
+    },
+    {
+      "frame": 7,
+      "actual": 0.06306306306306306,
+      "required": 0.12
+    }
+  ],
+  "runtimeWarnings": [],
+  "producerVisualNote": "Purple/silver THREE bands retained; wide tail fan and near pectoral membrane articulate; captured rear C-curve and folding. Actual native/pupil ROI inspected. Root visual and Unity playback pending.",
+  "registeredContactVisual": "producer_actually_viewed_light_dark_and_display_rest_comparison",
+  "identityAndMotion": "pending_root_visual",
+  "playback": "pending_Unity",
+  "references": null,
+  "rootVisual": "pending"
+}

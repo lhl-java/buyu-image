@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/motion-frames-v1/36-xuanjing/attack/extract-a-pose-02.png",
+  "sha256": "a3f8bf57f3ca4d0e61862f0c4d07e39928cafbf7e96791a2bc6198f57ac875a8",
+  "width": 515,
+  "height": 379,
+  "format": "RGBA PNG",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/36-xuanjing/attack/attack-a-contained-v2.png",
+      "sha256": "db7934e6638218ca44f13a11e029c36afcaf7bf803411a9689ef0015872c87a4",
+      "generationRecord": "designs/motion-frames-v1/36-xuanjing/attack/attack-a-contained-v2.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_complete_actor_ownership_crop",
+    "evidence": {
+      "sourceFrame": 2,
+      "file": "designs/motion-frames-v1/36-xuanjing/attack/extract-a-pose-02.png",
+      "sourceRect": [
+        84,
+        688,
+        599,
+        1067
+      ],
+      "nominalSourceRect": [
+        0,
+        627,
+        627,
+        1254
+      ],
+      "nominalGridCross": false,
+      "nativeVisibleSize": [
+        515,
+        379
+      ],
+      "ownedPixelCount": 108233,
+      "foreignPixelsRemovedFromCrop": 0,
+      "totalCanvasEdgeMaxAlpha": 0,
+      "nativeOwnedPixelsUnchanged": true,
+      "sourceMainAlphaComponent": 131
+    },
+    "alphaCleanup": "alpha<=3 discarded, other owned RGBA unchanged",
+    "resized": false,
+    "upscaled": false,
+    "newNativeDetailClaimed": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "intermediate_pending_semantic_review"
+}

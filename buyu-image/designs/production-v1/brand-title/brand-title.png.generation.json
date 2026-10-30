@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/production-v1/brand-title/brand-title.png",
+  "sha256": "fca50365b30d290bddea77960509cf1758913926740d1fde6a11b8e943550672",
+  "generatedAt": "2026-10-26T20:29:39.860Z",
+  "startedAt": "2026-10-26T20:28:15.059Z",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "pixelFormat": "Format32bppArgb",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "builtin_evidence": {
+      "model_parameter_exposed": false,
+      "quality_parameter_exposed": false,
+      "actual_model": null,
+      "actual_quality": null,
+      "note": "Configuration targets only; verify actual model and quality per generated image."
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\buyu-image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\buyu-image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "D:\\work\\buyu-image\\designs\\ui\\full-suite-v1\\01-start\\01-start.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具未开放 model/quality 参数，本次结果未披露实际型号及质量。",
+  "evidence": {
+    "toolResult": "brand-title.tool-result.txt",
+    "sourceOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a17713-70e6-7261-8609-a9eabcbfb0a5\\exec-1de74c9d-ff68-4521-9828-a70bd3241cad.png",
+    "toolResultId": "exec-1de74c9d-ff68-4521-9828-a70bd3241cad",
+    "request": "brand-title.request.json"
+  },
+  "prompt": "brand-title.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/ui/full-suite-v1/01-start/01-start.png",
+      "sha256": "1b0ad8ad7fd372c5829ef6862e48771e0611a25b2448ea7fdd583125a897e4ac",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    }
+  ],
+  "requestedCanvasInPrompt": "Wide transparent single title logo; native size recorded",
+  "resampled": false,
+  "status": "draft_pending_user_review",
+  "visualReview": "字形目视为捕鱼两字，玉金牌、太极、云水、红穗完整；等待Alpha合成检查。",
+  "scope": "Independent existing-game title logo cutout"
+}

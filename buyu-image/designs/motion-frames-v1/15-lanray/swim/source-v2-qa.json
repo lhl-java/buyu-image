@@ -1,0 +1,392 @@
+{
+  "schemaVersion": 1,
+  "source": "designs/motion-frames-v1/15-lanray/swim/15-lanray-swim-v2.png",
+  "sha256": "9631272a800b599a554e04f717ee0255da9332b396b73fa2128cf4e04a590a61",
+  "nativeSize": [
+    1774,
+    887
+  ],
+  "cellCanvas": [
+    444,
+    444
+  ],
+  "frames": [
+    {
+      "frame": 0,
+      "sourceRect": [
+        0,
+        0,
+        444,
+        444
+      ],
+      "nativeCell": [
+        444,
+        444
+      ],
+      "alphaBBox": [
+        75,
+        122,
+        408,
+        392
+      ],
+      "marginsLTRB": [
+        0.16891891891891891,
+        0.2747747747747748,
+        0.08108108108108109,
+        0.11711711711711711
+      ],
+      "edgeMaxAlpha": 1
+    },
+    {
+      "frame": 1,
+      "sourceRect": [
+        444,
+        0,
+        887,
+        444
+      ],
+      "nativeCell": [
+        443,
+        444
+      ],
+      "alphaBBox": [
+        68,
+        146,
+        413,
+        400
+      ],
+      "marginsLTRB": [
+        0.15315315315315314,
+        0.32882882882882886,
+        0.06981981981981981,
+        0.0990990990990991
+      ],
+      "edgeMaxAlpha": 1
+    },
+    {
+      "frame": 2,
+      "sourceRect": [
+        887,
+        0,
+        1330,
+        444
+      ],
+      "nativeCell": [
+        443,
+        444
+      ],
+      "alphaBBox": [
+        50,
+        155,
+        391,
+        391
+      ],
+      "marginsLTRB": [
+        0.11261261261261261,
+        0.3490990990990991,
+        0.11936936936936937,
+        0.11936936936936937
+      ],
+      "edgeMaxAlpha": 1
+    },
+    {
+      "frame": 3,
+      "sourceRect": [
+        1330,
+        0,
+        1774,
+        444
+      ],
+      "nativeCell": [
+        444,
+        444
+      ],
+      "alphaBBox": [
+        40,
+        147,
+        371,
+        401
+      ],
+      "marginsLTRB": [
+        0.09009009009009009,
+        0.3310810810810811,
+        0.16441441441441443,
+        0.09684684684684684
+      ],
+      "edgeMaxAlpha": 1
+    },
+    {
+      "frame": 4,
+      "sourceRect": [
+        0,
+        444,
+        444,
+        887
+      ],
+      "nativeCell": [
+        444,
+        443
+      ],
+      "alphaBBox": [
+        70,
+        62,
+        409,
+        343
+      ],
+      "marginsLTRB": [
+        0.15765765765765766,
+        0.13963963963963963,
+        0.07882882882882883,
+        0.22747747747747749
+      ],
+      "edgeMaxAlpha": 1
+    },
+    {
+      "frame": 5,
+      "sourceRect": [
+        444,
+        444,
+        887,
+        887
+      ],
+      "nativeCell": [
+        443,
+        443
+      ],
+      "alphaBBox": [
+        69,
+        63,
+        402,
+        330
+      ],
+      "marginsLTRB": [
+        0.1554054054054054,
+        0.14189189189189189,
+        0.0945945945945946,
+        0.25675675675675674
+      ],
+      "edgeMaxAlpha": 1
+    },
+    {
+      "frame": 6,
+      "sourceRect": [
+        887,
+        444,
+        1330,
+        887
+      ],
+      "nativeCell": [
+        443,
+        443
+      ],
+      "alphaBBox": [
+        53,
+        117,
+        401,
+        320
+      ],
+      "marginsLTRB": [
+        0.11936936936936937,
+        0.2635135135135135,
+        0.09684684684684684,
+        0.27927927927927926
+      ],
+      "edgeMaxAlpha": 1
+    },
+    {
+      "frame": 7,
+      "sourceRect": [
+        1330,
+        444,
+        1774,
+        887
+      ],
+      "nativeCell": [
+        444,
+        443
+      ],
+      "alphaBBox": [
+        51,
+        58,
+        385,
+        335
+      ],
+      "marginsLTRB": [
+        0.11486486486486487,
+        0.13063063063063063,
+        0.13288288288288289,
+        0.24549549549549549
+      ],
+      "edgeMaxAlpha": 1
+    }
+  ],
+  "warnings": [
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 0,
+      "actual": 0.08108108108108109,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 1,
+      "actual": 0.06981981981981981,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 2,
+      "actual": 0.11261261261261261,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 3,
+      "actual": 0.09009009009009009,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 4,
+      "actual": 0.07882882882882883,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 5,
+      "actual": 0.0945945945945946,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 6,
+      "actual": 0.09684684684684684,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 7,
+      "actual": 0.11486486486486487,
+      "threshold": 0.12
+    }
+  ],
+  "actualMotionReview": "Source contact review pending.",
+  "actualMotionApproved": false,
+  "loopPlaybackStatus": "not_run_during_heavy_job_hold",
+  "noResampling": true,
+  "eyeMeasurement": {
+    "roi": [
+      280,
+      150,
+      410,
+      340
+    ],
+    "results": [
+      {
+        "center": [
+          369.8378378378378,
+          296.18918918918916
+        ],
+        "boundsLTRB": [
+          361,
+          293,
+          377,
+          303
+        ],
+        "area": 74
+      },
+      {
+        "center": [
+          338.0182370820669,
+          276.87841945288756
+        ],
+        "boundsLTRB": [
+          328,
+          267,
+          350,
+          288
+        ],
+        "area": 329
+      },
+      {
+        "center": [
+          316.2514450867052,
+          277.14739884393066
+        ],
+        "boundsLTRB": [
+          303,
+          267,
+          329,
+          289
+        ],
+        "area": 346
+      },
+      {
+        "center": [
+          313.25925925925924,
+          325.2962962962963
+        ],
+        "boundsLTRB": [
+          309,
+          322,
+          318,
+          330
+        ],
+        "area": 27
+      },
+      {
+        "center": [
+          332.9174041297935,
+          211.7197640117994
+        ],
+        "boundsLTRB": [
+          320,
+          202,
+          345,
+          224
+        ],
+        "area": 339
+      },
+      {
+        "center": [
+          322.1381215469613,
+          213.15745856353593
+        ],
+        "boundsLTRB": [
+          309,
+          203,
+          335,
+          225
+        ],
+        "area": 362
+      },
+      {
+        "center": [
+          324.1364902506964,
+          213.35654596100278
+        ],
+        "boundsLTRB": [
+          311,
+          203,
+          337,
+          225
+        ],
+        "area": 359
+      },
+      {
+        "center": [
+          313.2,
+          213.69206349206348
+        ],
+        "boundsLTRB": [
+          301,
+          204,
+          325,
+          224
+        ],
+        "area": 315
+      }
+    ],
+    "method": "rightmost roughlyround dark component inside fixed head ROI, manual approval required; metadata only, no source masking"
+  }
+}

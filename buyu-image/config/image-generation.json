@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "max",
+  "builtin_product": "ChatGPT Images 2.5",
+  "selection": "user_selected_gpt_image_2_5",
+  "preferred_route": "builtin",
+  "verified_on": "2026-10-28",
+  "sources": {
+    "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+    "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+  },
+  "builtin_evidence": {
+    "model_parameter_exposed": false,
+    "quality_parameter_exposed": false,
+    "actual_model": null,
+    "actual_quality": null,
+    "note": "Configuration targets only; verify actual model and quality per generated image."
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "source": "designs/branding/linghai-xianyu-logo-v1/linghai-xianyu-logo.png",
+  "sourceWidth": 1774,
+  "sourceHeight": 887,
+  "output": "assets/branding",
+  "items": [
+    {
+      "schemaVersion": 1,
+      "id": "brand-title",
+      "name": "灵海仙渔 主Logo",
+      "file": "assets/branding/linghai-xianyu-logo-v1.png",
+      "sha256": "def85ed9e51d2c9c6525980bf815af01480e1b3359a7b7d430412780c0e6ef38",
+      "width": 1774,
+      "height": 887,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/branding/linghai-xianyu-logo-v1/linghai-xianyu-logo.png",
+      "derivedFrom": [
+        {
+          "file": "designs/branding/linghai-xianyu-logo-v1/linghai-xianyu-logo.png",
+          "sha256": "def85ed9e51d2c9c6525980bf815af01480e1b3359a7b7d430412780c0e6ef38",
+          "generationRecord": "designs/branding/linghai-xianyu-logo-v1/linghai-xianyu-logo.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "byte_identical_copy",
+        "resized": false,
+        "upscaled": false,
+        "sourcePixelsModified": false,
+        "pixelFidelityVerifiedBySHA256": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        600,
+        300.0
+      ],
+      "displayBox": [
+        600,
+        300
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Byte-identical copy, not a model call. Source builtin imagegen did not disclose actual model or quality.",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visualReview": {
+        "rootViewed": true,
+        "independentViewed": true,
+        "text": "灵海仙渔",
+        "lightDarkMattesViewed": true,
+        "runtimeRendered": false
+      }
+    }
+  ],
+  "warnings": [
+    {
+      "id": "subvisible_native_edge_fringe",
+      "edge": "left",
+      "maxAlpha": 1,
+      "structuralAlphaClipping": false,
+      "sourceUnmodified": true
+    }
+  ],
+  "complete": true,
+  "adoptedAt": "2026-10-29T02:58:51.442264+00:00",
+  "canonicalAssetId": "branding/brand-title",
+  "status": "accepted_first_release_art",
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+  "acceptedAt": "2026-10-30T04:07:09.085600+00:00"
+}

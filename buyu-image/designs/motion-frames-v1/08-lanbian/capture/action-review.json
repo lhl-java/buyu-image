@@ -1,0 +1,206 @@
+{
+  "source": "designs/motion-frames-v1/08-lanbian/capture/08-lanbian-capture-v1.png",
+  "sourceSHA256": "f18a90a9745ad8cf6bd6d9998477cbfe490fe293f871b52dbdd4cc3240ab1fd4",
+  "action": "capture",
+  "registeredAt": "2026-10-28T18:21:49.537874+00:00",
+  "sharedCanvas": [
+    640,
+    640
+  ],
+  "rootPixels": [
+    320,
+    320
+  ],
+  "eyePixels": [
+    430,
+    290
+  ],
+  "registration": [
+    {
+      "frame": 0,
+      "pupil": [
+        336,
+        130
+      ],
+      "registeredPupil": [
+        430,
+        290
+      ],
+      "offset": [
+        94,
+        160
+      ],
+      "minMargin": 0.159375,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 1,
+      "pupil": [
+        358,
+        133
+      ],
+      "registeredPupil": [
+        430,
+        290
+      ],
+      "offset": [
+        72,
+        157
+      ],
+      "minMargin": 0.125,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 2,
+      "pupil": [
+        281,
+        138
+      ],
+      "registeredPupil": [
+        430,
+        290
+      ],
+      "offset": [
+        149,
+        152
+      ],
+      "minMargin": 0.228125,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 3,
+      "pupil": [
+        344,
+        129
+      ],
+      "registeredPupil": [
+        430,
+        290
+      ],
+      "offset": [
+        86,
+        161
+      ],
+      "minMargin": 0.146875,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 4,
+      "pupil": [
+        318,
+        128
+      ],
+      "registeredPupil": [
+        430,
+        290
+      ],
+      "offset": [
+        112,
+        162
+      ],
+      "minMargin": 0.1875,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 5,
+      "pupil": [
+        348,
+        125
+      ],
+      "registeredPupil": [
+        430,
+        290
+      ],
+      "offset": [
+        82,
+        165
+      ],
+      "minMargin": 0.140625,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 6,
+      "pupil": [
+        329,
+        122
+      ],
+      "registeredPupil": [
+        430,
+        290
+      ],
+      "offset": [
+        101,
+        168
+      ],
+      "minMargin": 0.1703125,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 7,
+      "pupil": [
+        342,
+        122
+      ],
+      "registeredPupil": [
+        430,
+        290
+      ],
+      "offset": [
+        88,
+        168
+      ],
+      "minMargin": 0.15,
+      "pixelRoundTrip": true
+    }
+  ],
+  "uniformScale": 0.2909090909090909,
+  "sourceMarginWarnings": [
+    {
+      "frame": 0,
+      "actual": 0.013513513513513514,
+      "required": 0.12
+    },
+    {
+      "frame": 1,
+      "actual": 0.0,
+      "required": 0.12
+    },
+    {
+      "frame": 2,
+      "actual": 0.0,
+      "required": 0.12
+    },
+    {
+      "frame": 3,
+      "actual": 0.024774774774774775,
+      "required": 0.12
+    },
+    {
+      "frame": 4,
+      "actual": 0.03153153153153153,
+      "required": 0.12
+    },
+    {
+      "frame": 5,
+      "actual": 0.02708803611738149,
+      "required": 0.12
+    },
+    {
+      "frame": 6,
+      "actual": 0.033860045146726865,
+      "required": 0.12
+    },
+    {
+      "frame": 7,
+      "actual": 0.0518018018018018,
+      "required": 0.12
+    }
+  ],
+  "runtimeWarnings": [],
+  "producerVisualNote": "Blue bream spiky dorsal identity retained, short fork-tail up/down and fan pectoral shape changes; capture posterior C-flex and droop. Actual native/pupil ROI inspected. Root visual and Unity playback pending.",
+  "registeredContactVisual": "producer_actually_viewed_light_dark_and_display_rest_comparison",
+  "identityAndMotion": "pending_root_visual",
+  "playback": "pending_Unity",
+  "references": "designs/motion-frames-v1/08-lanbian/swim/08-lanbian-swim-v1.png",
+  "rootVisual": "pending"
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "progress-fill",
+  "name": "progress-fill",
+  "file": "assets/ui/hud/progress-fill.png",
+  "sha256": "f056f90eab4c64f2c86f1dc954f44cc2b78fccfee6da6d18fa062635c40aba59",
+  "width": 302,
+  "height": 81,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/production-v1/kit-hud/kit-hud.png",
+  "derivedFrom": [
+    {
+      "file": "designs/production-v1/kit-hud/kit-hud.png",
+      "sha256": "fa7025d75e40f5a7fa1a8758c12738fffaacb0b275c6764bbd6fc9daeefd46a3",
+      "generationRecord": "designs/production-v1/kit-hud/kit-hud.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_ownership_crop",
+    "grid": {
+      "rows": 3,
+      "cols": 4
+    },
+    "sourceRect": [
+      1115,
+      145,
+      1445,
+      290
+    ],
+    "cellCropRect": [
+      15,
+      28,
+      317,
+      109
+    ],
+    "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+    "resized": false,
+    "upscaled": false
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "displaySize": [
+    128,
+    128
+  ],
+  "status": "visual_reviewed_pending_runtime_integration",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source generation record; no new model call for this slice.",
+  "visualReview": {
+    "reviewedAt": "2026-10-26T20:07:40.751031+00:00",
+    "sourceAndContactSheetViewed": true,
+    "result": "pass_for_static_visual_asset",
+    "notes": "十二个 HUD 控件完整；实际目视源图及切片联系表。资源胶囊、底栏、进度槽/填充、开关、复选框及四种槽状态用途清楚；按实际透明间隙划分所有权矩形。",
+    "runtimeIntegrationVerified": false
+  }
+}

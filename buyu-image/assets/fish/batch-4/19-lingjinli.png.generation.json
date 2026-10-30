@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "19-lingjinli",
+  "name": "灵锦鲤",
+  "file": "assets/fish/batch-4/19-lingjinli.png",
+  "sha256": "6324cf5f31eeae3307cb13cc6e9885b24bad162619ddeb71341c6edbf91d56ef",
+  "width": 344,
+  "height": 245,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/production-v1/fish-sheet-4/fish-sheet-4-contained.png",
+  "derivedFrom": [
+    {
+      "file": "designs/production-v1/fish-sheet-4/fish-sheet-4-contained.png",
+      "sha256": "6348eb20faa6655965d42b76baa307f74378a1b5fb097c5d94e2037ff77072e4",
+      "generationRecord": "designs/production-v1/fish-sheet-4/fish-sheet-4-contained.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_grid_crop",
+    "grid": {
+      "rows": 2,
+      "cols": 3
+    },
+    "sourceRect": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "cellCropRect": [
+      97,
+      158,
+      441,
+      403
+    ],
+    "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+    "resized": false,
+    "upscaled": false
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "displaySize": [
+    180,
+    130
+  ],
+  "status": "prepared_pending_visual_review",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source generation record; no new model call for this slice."
+}

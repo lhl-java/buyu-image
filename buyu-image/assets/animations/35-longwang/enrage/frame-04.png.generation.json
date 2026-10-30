@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-04",
+  "name": "龙王海龙怒态 5/8",
+  "file": "assets/animations/35-longwang/enrage/frame-04.png",
+  "sha256": "cd320391ea5e4fce5f0749c8a6418ef42a29365d9719d5df998564c6e9b0c2e5",
+  "width": 1000,
+  "height": 1000,
+  "format": "RGBA PNG",
+  "derivedAt": "2026-10-28T17:55:06.185747+00:00",
+  "nativeSource": "designs/motion-frames-v1/35-longwang/enrage/enrage-b-v1.png",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/35-longwang/enrage/enrage-b-v1.png",
+      "sha256": "abecd473e9155fe4ec414baff1294fddf53ca0e080ace32f4e36ee7b182d87a6",
+      "generationRecord": "designs/motion-frames-v1/35-longwang/enrage/enrage-b-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_extraction_integer_eye_registration_and_padding",
+    "extraction": {
+      "type": "complete_native_actor_ownership",
+      "report": "designs/motion-frames-v1/35-longwang/enrage/extract-b.json",
+      "sourceRect": [
+        39,
+        237,
+        612,
+        614
+      ],
+      "evidence": {
+        "sourceFrame": 0,
+        "file": "designs/motion-frames-v1/35-longwang/enrage/extract-b-pose-00.png",
+        "sourceRect": [
+          39,
+          237,
+          612,
+          614
+        ],
+        "nominalSourceRect": [
+          0,
+          0,
+          627,
+          627
+        ],
+        "nominalGridCross": false,
+        "nativeVisibleSize": [
+          573,
+          377
+        ],
+        "ownedPixelCount": 122782,
+        "foreignPixelsRemovedFromCrop": 0,
+        "totalCanvasEdgeMaxAlpha": 0,
+        "nativeOwnedPixelsUnchanged": true,
+        "sourceMainAlphaComponent": 1
+      }
+    },
+    "sourceEyePoint": [
+      487.69230769230774,
+      155.47692307692307
+    ],
+    "globalSourceEye": [
+      526.6923076923077,
+      392.4769230769231
+    ],
+    "registrationOffset": [
+      192,
+      265
+    ],
+    "registeredCanvas": [
+      1000,
+      1000
+    ],
+    "targetEye": [
+      680,
+      420
+    ],
+    "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+    "sourcePixelsRoundTripVerified": true,
+    "resized": false,
+    "upscaled": false,
+    "rotated": false,
+    "poseWarped": false,
+    "newNativeDetailClaimed": false
+  },
+  "anchor": [
+    0.68,
+    0.42
+  ],
+  "rootPixels": [
+    680,
+    420
+  ],
+  "eyePixels": [
+    680,
+    420
+  ],
+  "registeredAlphaBBox": [
+    192,
+    265,
+    765,
+    642
+  ],
+  "registeredMinMargin": 0.192,
+  "status": "candidate_pending_playback_and_final_visual_review",
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceLandmarkEvidence": {
+    "type": "manually checked dark pupil ROI component center, nearest integer",
+    "qa": "designs/motion-frames-v1/35-longwang/enrage/source-b-qa.json",
+    "sourceFrame": 0,
+    "candidateIndex": 0,
+    "detection": null,
+    "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+  },
+  "displaySize": [
+    673.5751295336787,
+    673.5751295336787
+  ],
+  "bodyDisplayBox": [
+    340,
+    260
+  ],
+  "uniformDisplayScale": 0.6735751295336787,
+  "displaySizing": {
+    "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+    "sourceVisibleReference": [
+      498,
+      386
+    ],
+    "upscalingAllowed": false,
+    "crossClipDensityReview": "pending_common_head_scale_review"
+  },
+  "animation": {
+    "id": "35-longwang/enrage",
+    "frames": 8,
+    "fps": 8,
+    "loop": true,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "durationsMs": [
+      125,
+      125,
+      125,
+      125,
+      125,
+      125,
+      125,
+      125
+    ],
+    "root": [
+      0.68,
+      0.42
+    ],
+    "sourceRoute": "builtin_native_AI_sheet_user_requested",
+    "sourcePixelsNeverResampled": true,
+    "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+    "phase": 4,
+    "durationMs": 125
+  }
+}

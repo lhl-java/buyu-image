@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "frames": {
+    "skills/skill-guard": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 407,
+        "h": 400
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 407,
+        "h": 400
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/skills/skill-guard.png",
+      "sourceSha256": "23c50e42a82c72cd48ebb75b349cd1e3c4d50df47a3516ae2ebf3ece8041d962"
+    },
+    "skills/skill-surge": {
+      "frame": {
+        "x": 413,
+        "y": 2,
+        "w": 402,
+        "h": 400
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 402,
+        "h": 400
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/skills/skill-surge.png",
+      "sourceSha256": "4b11d5c79529dfc928425fc32d703d02aa7d9aa84a402f3608622f960aa5ac04"
+    },
+    "skills/skill-track": {
+      "frame": {
+        "x": 819,
+        "y": 2,
+        "w": 404,
+        "h": 399
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 404,
+        "h": 399
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/skills/skill-track.png",
+      "sourceSha256": "2a6f7054a568ef4bba10e80c2d4c89172027400a2201d58148896cc89d9fabd4"
+    },
+    "skills/skill-gather": {
+      "frame": {
+        "x": 1227,
+        "y": 2,
+        "w": 402,
+        "h": 398
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 402,
+        "h": 398
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/skills/skill-gather.png",
+      "sourceSha256": "e578cfe2e6888f862d46b864180baeb36e841164361bc7916305983494ef69ff"
+    },
+    "skills/skill-thunder": {
+      "frame": {
+        "x": 1633,
+        "y": 2,
+        "w": 402,
+        "h": 397
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 402,
+        "h": 397
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/skills/skill-thunder.png",
+      "sourceSha256": "460e5ca8d7dd53cd0fba78d21a804c0cd1c7d97ebd6f2cd314dd81c74d06574b"
+    },
+    "skills/skill-ice": {
+      "frame": {
+        "x": 2,
+        "y": 406,
+        "w": 403,
+        "h": 394
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 403,
+        "h": 394
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/skills/skill-ice.png",
+      "sourceSha256": "eec6caa0a52d8da4cc04612448ec089d56d525d53916a8926bb2a3a88abb8519"
+    }
+  },
+  "meta": {
+    "image": "skills-00.png",
+    "size": {
+      "w": 2037,
+      "h": 802
+    },
+    "format": "RGBA8888",
+    "scale": 1,
+    "padding": 2,
+    "noRotation": true,
+    "generatedAt": "2026-10-30T03:30:12.489824+00:00",
+    "operation": "native pixel packing; no resampling or redraw"
+  }
+}

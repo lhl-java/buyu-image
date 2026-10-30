@@ -1,0 +1,1454 @@
+{
+  "schemaVersion": 1,
+  "source": "designs/motion-frames-v1/26-moyu/swim/26-moyu-swim.png",
+  "sourceWidth": 1774,
+  "sourceHeight": 887,
+  "output": "assets/animations/26-moyu/swim",
+  "status": "accepted_first_release_art",
+  "items": [
+    {
+      "schemaVersion": 1,
+      "id": "frame-00",
+      "name": "墨玉章鱼 swim 0",
+      "file": "assets/animations/26-moyu/swim/frame-00.png",
+      "sha256": "2e05d439b0e83a82858e97025d8cef480862a86008ac614dce2fd888d870d25e",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/26-moyu/swim/26-moyu-swim.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/26-moyu/swim/26-moyu-swim.png",
+          "sha256": "fd07f8724dc23722b0fd601311e6220898eefcdd948638e0ece6964f3647b8f7",
+          "generationRecord": "designs/motion-frames-v1/26-moyu/swim/26-moyu-swim.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          0,
+          0,
+          450,
+          444
+        ],
+        "registrationOffset": [
+          103,
+          66,
+          553,
+          510
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_connected_component_centroid",
+          "sourcePointFloat": [
+            217.47173913043477,
+            213.90869565217392
+          ],
+          "sourcePointRounded": [
+            217,
+            214
+          ],
+          "targetPoint": [
+            320,
+            280
+          ],
+          "pupilBounds": [
+            201,
+            202,
+            233,
+            229
+          ],
+          "detectionRoi": [
+            170,
+            150,
+            270,
+            270
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+        },
+        "nominalGridRect": [
+          0,
+          0,
+          444,
+          444
+        ],
+        "sourceRectType": "custom_ownership_between_separated_characters",
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceCellClipping": false
+      },
+      "anchor": [
+        0.5,
+        0.4375
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "26-moyu/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "root": [
+          0.5,
+          0.4375
+        ],
+        "phase": 0.0,
+        "durationMs": 83,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+          "nativeMedianPupilWidth": 32.0,
+          "sharedTargetDisplayedPupilWidth": 16.097,
+          "uniformDisplayScale": 0.50303125,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            320,
+            280
+          ],
+          "sharedVisualPivotNormalized": [
+            0.5,
+            0.4375
+          ],
+          "displayBodyMaxPixels": [
+            217.3095,
+            177.067
+          ],
+          "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          15,
+          63,
+          442,
+          414
+        ],
+        "nativeVisibleSize": [
+          427,
+          351
+        ],
+        "rawCellEdgeMaxAlpha": 1,
+        "nominalGridEdgeMaxAlpha": 6,
+        "registeredBoxAlpha16": [
+          118,
+          129,
+          545,
+          480
+        ],
+        "registeredMarginsFraction": [
+          0.184375,
+          0.2015625,
+          0.1484375,
+          0.25
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 460,
+          "bbox": [
+            201,
+            202,
+            233,
+            229
+          ],
+          "centroid": [
+            217.47173913043477,
+            213.90869565217392
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-01",
+      "name": "墨玉章鱼 swim 1",
+      "file": "assets/animations/26-moyu/swim/frame-01.png",
+      "sha256": "98f26f0f9f14259a81706aa2921a72d106e88794a35d7ecaf70c6be62012a694",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/26-moyu/swim/26-moyu-swim.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/26-moyu/swim/26-moyu-swim.png",
+          "sha256": "fd07f8724dc23722b0fd601311e6220898eefcdd948638e0ece6964f3647b8f7",
+          "generationRecord": "designs/motion-frames-v1/26-moyu/swim/26-moyu-swim.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          450,
+          0,
+          887,
+          444
+        ],
+        "registrationOffset": [
+          103,
+          66,
+          540,
+          510
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_connected_component_centroid",
+          "sourcePointFloat": [
+            217.40292275574112,
+            214.0125260960334
+          ],
+          "sourcePointRounded": [
+            217,
+            214
+          ],
+          "targetPoint": [
+            320,
+            280
+          ],
+          "pupilBounds": [
+            201,
+            202,
+            233,
+            229
+          ],
+          "detectionRoi": [
+            170,
+            150,
+            270,
+            270
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+        },
+        "nominalGridRect": [
+          444,
+          0,
+          887,
+          444
+        ],
+        "sourceRectType": "custom_ownership_between_separated_characters",
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceCellClipping": false
+      },
+      "anchor": [
+        0.5,
+        0.4375
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "26-moyu/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "root": [
+          0.5,
+          0.4375
+        ],
+        "phase": 0.125,
+        "durationMs": 84,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+          "nativeMedianPupilWidth": 32.0,
+          "sharedTargetDisplayedPupilWidth": 16.097,
+          "uniformDisplayScale": 0.50303125,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            320,
+            280
+          ],
+          "sharedVisualPivotNormalized": [
+            0.5,
+            0.4375
+          ],
+          "displayBodyMaxPixels": [
+            217.3095,
+            177.067
+          ],
+          "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          11,
+          63,
+          418,
+          414
+        ],
+        "nativeVisibleSize": [
+          407,
+          351
+        ],
+        "rawCellEdgeMaxAlpha": 1,
+        "nominalGridEdgeMaxAlpha": 2,
+        "registeredBoxAlpha16": [
+          114,
+          129,
+          521,
+          480
+        ],
+        "registeredMarginsFraction": [
+          0.178125,
+          0.2015625,
+          0.1859375,
+          0.25
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 479,
+          "bbox": [
+            201,
+            202,
+            233,
+            229
+          ],
+          "centroid": [
+            217.40292275574112,
+            214.0125260960334
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-02",
+      "name": "墨玉章鱼 swim 2",
+      "file": "assets/animations/26-moyu/swim/frame-02.png",
+      "sha256": "0d0fd8a511880e35161b47076c14583c2f62f5d12321666346de60f28f13f714",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/26-moyu/swim/26-moyu-swim.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/26-moyu/swim/26-moyu-swim.png",
+          "sha256": "fd07f8724dc23722b0fd601311e6220898eefcdd948638e0ece6964f3647b8f7",
+          "generationRecord": "designs/motion-frames-v1/26-moyu/swim/26-moyu-swim.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          887,
+          0,
+          1330,
+          444
+        ],
+        "registrationOffset": [
+          95,
+          66,
+          538,
+          510
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_connected_component_centroid",
+          "sourcePointFloat": [
+            224.55150214592274,
+            213.87768240343348
+          ],
+          "sourcePointRounded": [
+            225,
+            214
+          ],
+          "targetPoint": [
+            320,
+            280
+          ],
+          "pupilBounds": [
+            208,
+            202,
+            240,
+            228
+          ],
+          "detectionRoi": [
+            170,
+            150,
+            270,
+            270
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+        },
+        "nominalGridRect": [
+          887,
+          0,
+          1330,
+          444
+        ],
+        "sourceRectType": "nominal_grid",
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceCellClipping": false
+      },
+      "anchor": [
+        0.5,
+        0.4375
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "26-moyu/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "root": [
+          0.5,
+          0.4375
+        ],
+        "phase": 0.25,
+        "durationMs": 83,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+          "nativeMedianPupilWidth": 32.0,
+          "sharedTargetDisplayedPupilWidth": 16.097,
+          "uniformDisplayScale": 0.50303125,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            320,
+            280
+          ],
+          "sharedVisualPivotNormalized": [
+            0.5,
+            0.4375
+          ],
+          "displayBodyMaxPixels": [
+            217.3095,
+            177.067
+          ],
+          "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          7,
+          63,
+          439,
+          415
+        ],
+        "nativeVisibleSize": [
+          432,
+          352
+        ],
+        "rawCellEdgeMaxAlpha": 1,
+        "nominalGridEdgeMaxAlpha": 1,
+        "registeredBoxAlpha16": [
+          102,
+          129,
+          534,
+          481
+        ],
+        "registeredMarginsFraction": [
+          0.159375,
+          0.2015625,
+          0.165625,
+          0.2484375
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 466,
+          "bbox": [
+            208,
+            202,
+            240,
+            228
+          ],
+          "centroid": [
+            224.55150214592274,
+            213.87768240343348
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-03",
+      "name": "墨玉章鱼 swim 3",
+      "file": "assets/animations/26-moyu/swim/frame-03.png",
+      "sha256": "92723cce3d1123374c10a59e4b494410a3ef2e39a0897141aac1b0d21d8848d5",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/26-moyu/swim/26-moyu-swim.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/26-moyu/swim/26-moyu-swim.png",
+          "sha256": "fd07f8724dc23722b0fd601311e6220898eefcdd948638e0ece6964f3647b8f7",
+          "generationRecord": "designs/motion-frames-v1/26-moyu/swim/26-moyu-swim.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          1330,
+          0,
+          1774,
+          444
+        ],
+        "registrationOffset": [
+          101,
+          66,
+          545,
+          510
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_connected_component_centroid",
+          "sourcePointFloat": [
+            219.34177215189874,
+            214.07805907172997
+          ],
+          "sourcePointRounded": [
+            219,
+            214
+          ],
+          "targetPoint": [
+            320,
+            280
+          ],
+          "pupilBounds": [
+            203,
+            202,
+            235,
+            228
+          ],
+          "detectionRoi": [
+            170,
+            150,
+            270,
+            270
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+        },
+        "nominalGridRect": [
+          1330,
+          0,
+          1774,
+          444
+        ],
+        "sourceRectType": "nominal_grid",
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceCellClipping": false
+      },
+      "anchor": [
+        0.5,
+        0.4375
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "26-moyu/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "root": [
+          0.5,
+          0.4375
+        ],
+        "phase": 0.375,
+        "durationMs": 83,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+          "nativeMedianPupilWidth": 32.0,
+          "sharedTargetDisplayedPupilWidth": 16.097,
+          "uniformDisplayScale": 0.50303125,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            320,
+            280
+          ],
+          "sharedVisualPivotNormalized": [
+            0.5,
+            0.4375
+          ],
+          "displayBodyMaxPixels": [
+            217.3095,
+            177.067
+          ],
+          "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          17,
+          63,
+          426,
+          411
+        ],
+        "nativeVisibleSize": [
+          409,
+          348
+        ],
+        "rawCellEdgeMaxAlpha": 1,
+        "nominalGridEdgeMaxAlpha": 1,
+        "registeredBoxAlpha16": [
+          118,
+          129,
+          527,
+          477
+        ],
+        "registeredMarginsFraction": [
+          0.184375,
+          0.2015625,
+          0.1765625,
+          0.2546875
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 474,
+          "bbox": [
+            203,
+            202,
+            235,
+            228
+          ],
+          "centroid": [
+            219.34177215189874,
+            214.07805907172997
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-04",
+      "name": "墨玉章鱼 swim 4",
+      "file": "assets/animations/26-moyu/swim/frame-04.png",
+      "sha256": "b6232922d6cffe2f6d68448e7fd783d0eb9efd0970adf218f3cad468a15850f9",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/26-moyu/swim/26-moyu-swim.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/26-moyu/swim/26-moyu-swim.png",
+          "sha256": "fd07f8724dc23722b0fd601311e6220898eefcdd948638e0ece6964f3647b8f7",
+          "generationRecord": "designs/motion-frames-v1/26-moyu/swim/26-moyu-swim.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          0,
+          444,
+          444,
+          887
+        ],
+        "registrationOffset": [
+          90,
+          80,
+          534,
+          523
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_connected_component_centroid",
+          "sourcePointFloat": [
+            230.11727078891258,
+            200.37313432835822
+          ],
+          "sourcePointRounded": [
+            230,
+            200
+          ],
+          "targetPoint": [
+            320,
+            280
+          ],
+          "pupilBounds": [
+            214,
+            188,
+            247,
+            215
+          ],
+          "detectionRoi": [
+            170,
+            150,
+            270,
+            270
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+        },
+        "nominalGridRect": [
+          0,
+          444,
+          444,
+          887
+        ],
+        "sourceRectType": "nominal_grid",
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceCellClipping": false
+      },
+      "anchor": [
+        0.5,
+        0.4375
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "26-moyu/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "root": [
+          0.5,
+          0.4375
+        ],
+        "phase": 0.5,
+        "durationMs": 84,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+          "nativeMedianPupilWidth": 32.0,
+          "sharedTargetDisplayedPupilWidth": 16.097,
+          "uniformDisplayScale": 0.50303125,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            320,
+            280
+          ],
+          "sharedVisualPivotNormalized": [
+            0.5,
+            0.4375
+          ],
+          "displayBodyMaxPixels": [
+            217.3095,
+            177.067
+          ],
+          "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          23,
+          47,
+          437,
+          396
+        ],
+        "nativeVisibleSize": [
+          414,
+          349
+        ],
+        "rawCellEdgeMaxAlpha": 1,
+        "nominalGridEdgeMaxAlpha": 1,
+        "registeredBoxAlpha16": [
+          113,
+          127,
+          527,
+          476
+        ],
+        "registeredMarginsFraction": [
+          0.1765625,
+          0.1984375,
+          0.1765625,
+          0.25625
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 469,
+          "bbox": [
+            214,
+            188,
+            247,
+            215
+          ],
+          "centroid": [
+            230.11727078891258,
+            200.37313432835822
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-05",
+      "name": "墨玉章鱼 swim 5",
+      "file": "assets/animations/26-moyu/swim/frame-05.png",
+      "sha256": "3c5b90d148e3543059eec34e688becf2544e15e483788e11d843d7cbd4a697c3",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/26-moyu/swim/26-moyu-swim.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/26-moyu/swim/26-moyu-swim.png",
+          "sha256": "fd07f8724dc23722b0fd601311e6220898eefcdd948638e0ece6964f3647b8f7",
+          "generationRecord": "designs/motion-frames-v1/26-moyu/swim/26-moyu-swim.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          444,
+          444,
+          887,
+          887
+        ],
+        "registrationOffset": [
+          104,
+          81,
+          547,
+          524
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_connected_component_centroid",
+          "sourcePointFloat": [
+            216.31304347826088,
+            199.4282608695652
+          ],
+          "sourcePointRounded": [
+            216,
+            199
+          ],
+          "targetPoint": [
+            320,
+            280
+          ],
+          "pupilBounds": [
+            200,
+            188,
+            232,
+            214
+          ],
+          "detectionRoi": [
+            170,
+            150,
+            270,
+            270
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+        },
+        "nominalGridRect": [
+          444,
+          444,
+          887,
+          887
+        ],
+        "sourceRectType": "nominal_grid",
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceCellClipping": false
+      },
+      "anchor": [
+        0.5,
+        0.4375
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "26-moyu/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "root": [
+          0.5,
+          0.4375
+        ],
+        "phase": 0.625,
+        "durationMs": 83,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+          "nativeMedianPupilWidth": 32.0,
+          "sharedTargetDisplayedPupilWidth": 16.097,
+          "uniformDisplayScale": 0.50303125,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            320,
+            280
+          ],
+          "sharedVisualPivotNormalized": [
+            0.5,
+            0.4375
+          ],
+          "displayBodyMaxPixels": [
+            217.3095,
+            177.067
+          ],
+          "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          22,
+          46,
+          423,
+          386
+        ],
+        "nativeVisibleSize": [
+          401,
+          340
+        ],
+        "rawCellEdgeMaxAlpha": 1,
+        "nominalGridEdgeMaxAlpha": 1,
+        "registeredBoxAlpha16": [
+          126,
+          127,
+          527,
+          467
+        ],
+        "registeredMarginsFraction": [
+          0.196875,
+          0.1984375,
+          0.1765625,
+          0.2703125
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 460,
+          "bbox": [
+            200,
+            188,
+            232,
+            214
+          ],
+          "centroid": [
+            216.31304347826088,
+            199.4282608695652
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-06",
+      "name": "墨玉章鱼 swim 6",
+      "file": "assets/animations/26-moyu/swim/frame-06.png",
+      "sha256": "0b497c036e2e854bc222f50ef215fa3fec2c728177c51197486d8c4154682411",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/26-moyu/swim/26-moyu-swim.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/26-moyu/swim/26-moyu-swim.png",
+          "sha256": "fd07f8724dc23722b0fd601311e6220898eefcdd948638e0ece6964f3647b8f7",
+          "generationRecord": "designs/motion-frames-v1/26-moyu/swim/26-moyu-swim.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          887,
+          444,
+          1330,
+          887
+        ],
+        "registrationOffset": [
+          104,
+          80,
+          547,
+          523
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_connected_component_centroid",
+          "sourcePointFloat": [
+            216.36681222707423,
+            199.6353711790393
+          ],
+          "sourcePointRounded": [
+            216,
+            200
+          ],
+          "targetPoint": [
+            320,
+            280
+          ],
+          "pupilBounds": [
+            200,
+            188,
+            233,
+            214
+          ],
+          "detectionRoi": [
+            170,
+            150,
+            270,
+            270
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+        },
+        "nominalGridRect": [
+          887,
+          444,
+          1330,
+          887
+        ],
+        "sourceRectType": "nominal_grid",
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceCellClipping": false
+      },
+      "anchor": [
+        0.5,
+        0.4375
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "26-moyu/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "root": [
+          0.5,
+          0.4375
+        ],
+        "phase": 0.75,
+        "durationMs": 83,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+          "nativeMedianPupilWidth": 32.0,
+          "sharedTargetDisplayedPupilWidth": 16.097,
+          "uniformDisplayScale": 0.50303125,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            320,
+            280
+          ],
+          "sharedVisualPivotNormalized": [
+            0.5,
+            0.4375
+          ],
+          "displayBodyMaxPixels": [
+            217.3095,
+            177.067
+          ],
+          "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          4,
+          47,
+          426,
+          399
+        ],
+        "nativeVisibleSize": [
+          422,
+          352
+        ],
+        "rawCellEdgeMaxAlpha": 1,
+        "nominalGridEdgeMaxAlpha": 1,
+        "registeredBoxAlpha16": [
+          108,
+          127,
+          530,
+          479
+        ],
+        "registeredMarginsFraction": [
+          0.16875,
+          0.1984375,
+          0.171875,
+          0.2515625
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 458,
+          "bbox": [
+            200,
+            188,
+            233,
+            214
+          ],
+          "centroid": [
+            216.36681222707423,
+            199.6353711790393
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-07",
+      "name": "墨玉章鱼 swim 7",
+      "file": "assets/animations/26-moyu/swim/frame-07.png",
+      "sha256": "4778d33d214b4959c8567850bbc206a8edbe906b2b27789d6c3a91e7d813f738",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/26-moyu/swim/26-moyu-swim.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/26-moyu/swim/26-moyu-swim.png",
+          "sha256": "fd07f8724dc23722b0fd601311e6220898eefcdd948638e0ece6964f3647b8f7",
+          "generationRecord": "designs/motion-frames-v1/26-moyu/swim/26-moyu-swim.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          1330,
+          444,
+          1774,
+          887
+        ],
+        "registrationOffset": [
+          101,
+          80,
+          545,
+          523
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_connected_component_centroid",
+          "sourcePointFloat": [
+            218.9004424778761,
+            200.4646017699115
+          ],
+          "sourcePointRounded": [
+            219,
+            200
+          ],
+          "targetPoint": [
+            320,
+            280
+          ],
+          "pupilBounds": [
+            203,
+            189,
+            235,
+            215
+          ],
+          "detectionRoi": [
+            170,
+            150,
+            270,
+            270
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+        },
+        "nominalGridRect": [
+          1330,
+          444,
+          1774,
+          887
+        ],
+        "sourceRectType": "nominal_grid",
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceCellClipping": false
+      },
+      "anchor": [
+        0.5,
+        0.4375
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "26-moyu/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "root": [
+          0.5,
+          0.4375
+        ],
+        "phase": 0.875,
+        "durationMs": 84,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+          "nativeMedianPupilWidth": 32.0,
+          "sharedTargetDisplayedPupilWidth": 16.097,
+          "uniformDisplayScale": 0.50303125,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            320,
+            280
+          ],
+          "sharedVisualPivotNormalized": [
+            0.5,
+            0.4375
+          ],
+          "displayBodyMaxPixels": [
+            217.3095,
+            177.067
+          ],
+          "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          6,
+          47,
+          425,
+          395
+        ],
+        "nativeVisibleSize": [
+          419,
+          348
+        ],
+        "rawCellEdgeMaxAlpha": 1,
+        "nominalGridEdgeMaxAlpha": 1,
+        "registeredBoxAlpha16": [
+          107,
+          127,
+          526,
+          475
+        ],
+        "registeredMarginsFraction": [
+          0.1671875,
+          0.1984375,
+          0.178125,
+          0.2578125
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 452,
+          "bbox": [
+            203,
+            189,
+            235,
+            215
+          ],
+          "centroid": [
+            218.9004424778761,
+            200.4646017699115
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false
+      }
+    }
+  ],
+  "animation": {
+    "id": "26-moyu/swim",
+    "frameCount": 8,
+    "fps": 12,
+    "loop": true,
+    "canvas": [
+      640,
+      640
+    ],
+    "pupilRegistrationTarget": [
+      320,
+      280
+    ],
+    "root": [
+      0.5,
+      0.4375
+    ],
+    "durationMs": 667,
+    "durationsMs": [
+      83,
+      84,
+      83,
+      83,
+      84,
+      83,
+      83,
+      84
+    ],
+    "sourceScale": "Uniform native pixels, no per-frame bbox normalization.",
+    "visualReview": "Actual source viewed: alternating arms bend/curl while jade dome/face/gold ornaments retain identity. Native source no rectangle background. Small fringe crosses nominal frame0 line; custom ownership chosen in empty gap, not genuine shape cutoff. Eight-arm anatomy and loop remain candidate pending visual playback.",
+    "pending": [
+      "Root actual playback/loop or capture recovery review.",
+      "Eight-arm topology and suction-cup continuity need root visual review; source has natural overlapping arms.",
+      "Actual target Unity review; geometry/PNG count alone is not an animation pass."
+    ],
+    "releaseReady": true,
+    "displayCalibration": {
+      "status": "candidate_pending_root_visual_runtime_review",
+      "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+      "nativeMedianPupilWidth": 32.0,
+      "sharedTargetDisplayedPupilWidth": 16.097,
+      "uniformDisplayScale": 0.50303125,
+      "upscale": false,
+      "perFrameBboxFit": false,
+      "sharedVisualPivotPixels": [
+        320,
+        280
+      ],
+      "sharedVisualPivotNormalized": [
+        0.5,
+        0.4375
+      ],
+      "displayBodyMaxPixels": [
+        217.3095,
+        177.067
+      ],
+      "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+    }
+  },
+  "notes": [
+    "Native AI articulated body/appendage frames; crop/translation/padding only aligns layout and does not create animation.",
+    "Raw source padding may be smaller than final contract; only final transparent padding meets12%.",
+    "No PNG upsample, full-image rotation/scale or per-frame body warp."
+  ],
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+  "acceptedAt": "2026-10-30T04:07:09.085600+00:00",
+  "releaseReady": true,
+  "playbackReview": "docs/UNITY_FINAL_ACCEPTANCE.json"
+}

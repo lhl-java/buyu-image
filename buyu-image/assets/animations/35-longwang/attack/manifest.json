@@ -1,0 +1,1500 @@
+{
+  "schemaVersion": 1,
+  "source": [
+    "designs/motion-frames-v1/35-longwang/attack/attack-a-contained-v2.png",
+    "designs/motion-frames-v1/35-longwang/attack/attack-b-v1.png"
+  ],
+  "output": "assets/animations/35-longwang/attack",
+  "sourceEvidence": [
+    {
+      "file": "designs/motion-frames-v1/35-longwang/attack/attack-a-contained-v2.png",
+      "sha256": "206b5c5d2f92ef3e88a45a627673dbba48a2a0717e6cb8bed81cc11e3155d06a",
+      "generationRecord": "designs/motion-frames-v1/35-longwang/attack/attack-a-contained-v2.png.generation.json"
+    },
+    {
+      "file": "designs/motion-frames-v1/35-longwang/attack/attack-b-v1.png",
+      "sha256": "93b27af7a4c459fe9a5bdcf393ca9d26d2f997e201b0c3fa8ce9c2304a4cbdf3",
+      "generationRecord": "designs/motion-frames-v1/35-longwang/attack/attack-b-v1.png.generation.json"
+    }
+  ],
+  "frameCount": 8,
+  "items": [
+    {
+      "schemaVersion": 1,
+      "id": "frame-00",
+      "name": "龙王海龙攻击 1/8",
+      "file": "assets/animations/35-longwang/attack/frame-00.png",
+      "sha256": "9e6c194a33829fcbc5ae1be4d49fe8b2b1820609430c9ef9bc7bfb6c14827b31",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T17:55:05.484363+00:00",
+      "nativeSource": "designs/motion-frames-v1/35-longwang/attack/attack-a-contained-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/35-longwang/attack/attack-a-contained-v2.png",
+          "sha256": "206b5c5d2f92ef3e88a45a627673dbba48a2a0717e6cb8bed81cc11e3155d06a",
+          "generationRecord": "designs/motion-frames-v1/35-longwang/attack/attack-a-contained-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/35-longwang/attack/extract-a.json",
+          "sourceRect": [
+            110,
+            142,
+            640,
+            586
+          ],
+          "evidence": {
+            "sourceFrame": 0,
+            "file": "designs/motion-frames-v1/35-longwang/attack/extract-a-pose-00.png",
+            "sourceRect": [
+              110,
+              142,
+              640,
+              586
+            ],
+            "nominalSourceRect": [
+              0,
+              0,
+              627,
+              627
+            ],
+            "nominalGridCross": true,
+            "nativeVisibleSize": [
+              530,
+              444
+            ],
+            "ownedPixelCount": 147818,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 1
+          }
+        },
+        "sourceEyePoint": [
+          424.3189655172414,
+          172.6810344827586
+        ],
+        "globalSourceEye": [
+          534.3189655172414,
+          314.6810344827586
+        ],
+        "registrationOffset": [
+          256,
+          247
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        256,
+        247,
+        786,
+        691
+      ],
+      "registeredMinMargin": 0.214,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "manually checked dark pupil ROI component center, nearest integer",
+        "qa": "designs/motion-frames-v1/35-longwang/attack/source-a-qa.json",
+        "sourceFrame": 0,
+        "candidateIndex": 0,
+        "detection": null,
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+      },
+      "displaySize": [
+        585.5855855855856,
+        585.5855855855856
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.5855855855855856,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          530,
+          444
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "35-longwang/attack",
+        "frames": 8,
+        "fps": 10,
+        "loop": false,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 0,
+        "durationMs": 100
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-01",
+      "name": "龙王海龙攻击 2/8",
+      "file": "assets/animations/35-longwang/attack/frame-01.png",
+      "sha256": "9934779be2e5720896b51b667b5a9942e23af1444988cc8c6e2b791a9c80de7a",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T17:55:05.484363+00:00",
+      "nativeSource": "designs/motion-frames-v1/35-longwang/attack/attack-a-contained-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/35-longwang/attack/attack-a-contained-v2.png",
+          "sha256": "206b5c5d2f92ef3e88a45a627673dbba48a2a0717e6cb8bed81cc11e3155d06a",
+          "generationRecord": "designs/motion-frames-v1/35-longwang/attack/attack-a-contained-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/35-longwang/attack/extract-a.json",
+          "sourceRect": [
+            686,
+            155,
+            1177,
+            600
+          ],
+          "evidence": {
+            "sourceFrame": 1,
+            "file": "designs/motion-frames-v1/35-longwang/attack/extract-a-pose-01.png",
+            "sourceRect": [
+              686,
+              155,
+              1177,
+              600
+            ],
+            "nominalSourceRect": [
+              627,
+              0,
+              1254,
+              627
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              491,
+              445
+            ],
+            "ownedPixelCount": 137722,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 5
+          }
+        },
+        "sourceEyePoint": [
+          382.9748427672955,
+          167.43396226415092
+        ],
+        "globalSourceEye": [
+          1068.9748427672955,
+          322.4339622641509
+        ],
+        "registrationOffset": [
+          297,
+          253
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        297,
+        253,
+        788,
+        698
+      ],
+      "registeredMinMargin": 0.212,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "manually checked dark pupil ROI component center, nearest integer",
+        "qa": "designs/motion-frames-v1/35-longwang/attack/source-a-qa.json",
+        "sourceFrame": 1,
+        "candidateIndex": 0,
+        "detection": null,
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+      },
+      "displaySize": [
+        585.5855855855856,
+        585.5855855855856
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.5855855855855856,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          530,
+          444
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "35-longwang/attack",
+        "frames": 8,
+        "fps": 10,
+        "loop": false,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 1,
+        "durationMs": 100
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-02",
+      "name": "龙王海龙攻击 3/8",
+      "file": "assets/animations/35-longwang/attack/frame-02.png",
+      "sha256": "9e89409152c490191ebc6f2be1364fbac4610adc5ec7334d6b53bf930cdbeffa",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T17:55:05.484363+00:00",
+      "nativeSource": "designs/motion-frames-v1/35-longwang/attack/attack-a-contained-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/35-longwang/attack/attack-a-contained-v2.png",
+          "sha256": "206b5c5d2f92ef3e88a45a627673dbba48a2a0717e6cb8bed81cc11e3155d06a",
+          "generationRecord": "designs/motion-frames-v1/35-longwang/attack/attack-a-contained-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/35-longwang/attack/extract-a.json",
+          "sourceRect": [
+            96,
+            697,
+            645,
+            1159
+          ],
+          "evidence": {
+            "sourceFrame": 2,
+            "file": "designs/motion-frames-v1/35-longwang/attack/extract-a-pose-02.png",
+            "sourceRect": [
+              96,
+              697,
+              645,
+              1159
+            ],
+            "nominalSourceRect": [
+              0,
+              627,
+              627,
+              1254
+            ],
+            "nominalGridCross": true,
+            "nativeVisibleSize": [
+              549,
+              462
+            ],
+            "ownedPixelCount": 166333,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 114
+          }
+        },
+        "sourceEyePoint": [
+          448.02272727272725,
+          164.70909090909095
+        ],
+        "globalSourceEye": [
+          544.0227272727273,
+          861.709090909091
+        ],
+        "registrationOffset": [
+          232,
+          255
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        232,
+        255,
+        781,
+        717
+      ],
+      "registeredMinMargin": 0.219,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "manually checked dark pupil ROI component center, nearest integer",
+        "qa": "designs/motion-frames-v1/35-longwang/attack/source-a-qa.json",
+        "sourceFrame": 2,
+        "candidateIndex": 0,
+        "detection": null,
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+      },
+      "displaySize": [
+        585.5855855855856,
+        585.5855855855856
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.5855855855855856,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          530,
+          444
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "35-longwang/attack",
+        "frames": 8,
+        "fps": 10,
+        "loop": false,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 2,
+        "durationMs": 100
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-03",
+      "name": "龙王海龙攻击 4/8",
+      "file": "assets/animations/35-longwang/attack/frame-03.png",
+      "sha256": "7439f482d1cef1954f6d144a0f57c66977ca2db03ce9d7bb107c1ebcdadc4e6c",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T17:55:05.484363+00:00",
+      "nativeSource": "designs/motion-frames-v1/35-longwang/attack/attack-a-contained-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/35-longwang/attack/attack-a-contained-v2.png",
+          "sha256": "206b5c5d2f92ef3e88a45a627673dbba48a2a0717e6cb8bed81cc11e3155d06a",
+          "generationRecord": "designs/motion-frames-v1/35-longwang/attack/attack-a-contained-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/35-longwang/attack/extract-a.json",
+          "sourceRect": [
+            666,
+            702,
+            1190,
+            1175
+          ],
+          "evidence": {
+            "sourceFrame": 3,
+            "file": "designs/motion-frames-v1/35-longwang/attack/extract-a-pose-03.png",
+            "sourceRect": [
+              666,
+              702,
+              1190,
+              1175
+            ],
+            "nominalSourceRect": [
+              627,
+              627,
+              1254,
+              1254
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              524,
+              473
+            ],
+            "ownedPixelCount": 161872,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 118
+          }
+        },
+        "sourceEyePoint": [
+          424.4088397790056,
+          167.060773480663
+        ],
+        "globalSourceEye": [
+          1090.4088397790056,
+          869.060773480663
+        ],
+        "registrationOffset": [
+          256,
+          253
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        256,
+        253,
+        780,
+        726
+      ],
+      "registeredMinMargin": 0.22,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "manually checked dark pupil ROI component center, nearest integer",
+        "qa": "designs/motion-frames-v1/35-longwang/attack/source-a-qa.json",
+        "sourceFrame": 3,
+        "candidateIndex": 0,
+        "detection": null,
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+      },
+      "displaySize": [
+        585.5855855855856,
+        585.5855855855856
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.5855855855855856,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          530,
+          444
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "35-longwang/attack",
+        "frames": 8,
+        "fps": 10,
+        "loop": false,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 3,
+        "durationMs": 100
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-04",
+      "name": "龙王海龙攻击 5/8",
+      "file": "assets/animations/35-longwang/attack/frame-04.png",
+      "sha256": "9a63396eee7e4d40b6fe402422e3e1f37ef8c461605df0e4a0bfa5858b3d3b8d",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T17:55:05.484363+00:00",
+      "nativeSource": "designs/motion-frames-v1/35-longwang/attack/attack-b-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/35-longwang/attack/attack-b-v1.png",
+          "sha256": "93b27af7a4c459fe9a5bdcf393ca9d26d2f997e201b0c3fa8ce9c2304a4cbdf3",
+          "generationRecord": "designs/motion-frames-v1/35-longwang/attack/attack-b-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/35-longwang/attack/extract-b.json",
+          "sourceRect": [
+            71,
+            106,
+            647,
+            612
+          ],
+          "evidence": {
+            "sourceFrame": 0,
+            "file": "designs/motion-frames-v1/35-longwang/attack/extract-b-pose-00.png",
+            "sourceRect": [
+              71,
+              106,
+              647,
+              612
+            ],
+            "nominalSourceRect": [
+              0,
+              0,
+              627,
+              627
+            ],
+            "nominalGridCross": true,
+            "nativeVisibleSize": [
+              576,
+              506
+            ],
+            "ownedPixelCount": 171747,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 1
+          }
+        },
+        "sourceEyePoint": [
+          477.703557312253,
+          164.88932806324112
+        ],
+        "globalSourceEye": [
+          548.703557312253,
+          270.8893280632411
+        ],
+        "registrationOffset": [
+          202,
+          255
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        202,
+        255,
+        778,
+        761
+      ],
+      "registeredMinMargin": 0.202,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "manually checked dark pupil ROI component center, nearest integer",
+        "qa": "designs/motion-frames-v1/35-longwang/attack/source-b-qa.json",
+        "sourceFrame": 0,
+        "candidateIndex": 0,
+        "detection": null,
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+      },
+      "displaySize": [
+        585.5855855855856,
+        585.5855855855856
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.5855855855855856,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          530,
+          444
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "35-longwang/attack",
+        "frames": 8,
+        "fps": 10,
+        "loop": false,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 4,
+        "durationMs": 100
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-05",
+      "name": "龙王海龙攻击 6/8",
+      "file": "assets/animations/35-longwang/attack/frame-05.png",
+      "sha256": "335201358cea5d3bb362b78bd8041a7327204186ad71e502fa567e2cc10ddf98",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T17:55:05.484363+00:00",
+      "nativeSource": "designs/motion-frames-v1/35-longwang/attack/attack-b-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/35-longwang/attack/attack-b-v1.png",
+          "sha256": "93b27af7a4c459fe9a5bdcf393ca9d26d2f997e201b0c3fa8ce9c2304a4cbdf3",
+          "generationRecord": "designs/motion-frames-v1/35-longwang/attack/attack-b-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/35-longwang/attack/extract-b.json",
+          "sourceRect": [
+            670,
+            131,
+            1218,
+            597
+          ],
+          "evidence": {
+            "sourceFrame": 1,
+            "file": "designs/motion-frames-v1/35-longwang/attack/extract-b-pose-01.png",
+            "sourceRect": [
+              670,
+              131,
+              1218,
+              597
+            ],
+            "nominalSourceRect": [
+              627,
+              0,
+              1254,
+              627
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              548,
+              466
+            ],
+            "ownedPixelCount": 163102,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 9
+          }
+        },
+        "sourceEyePoint": [
+          443.16862745098047,
+          175.12549019607843
+        ],
+        "globalSourceEye": [
+          1113.1686274509805,
+          306.12549019607843
+        ],
+        "registrationOffset": [
+          237,
+          245
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        237,
+        245,
+        785,
+        711
+      ],
+      "registeredMinMargin": 0.215,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "manually checked dark pupil ROI component center, nearest integer",
+        "qa": "designs/motion-frames-v1/35-longwang/attack/source-b-qa.json",
+        "sourceFrame": 1,
+        "candidateIndex": 0,
+        "detection": null,
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+      },
+      "displaySize": [
+        585.5855855855856,
+        585.5855855855856
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.5855855855855856,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          530,
+          444
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "35-longwang/attack",
+        "frames": 8,
+        "fps": 10,
+        "loop": false,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 5,
+        "durationMs": 100
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-06",
+      "name": "龙王海龙攻击 7/8",
+      "file": "assets/animations/35-longwang/attack/frame-06.png",
+      "sha256": "b1ab104b8fd5d7cc4b04f4fff919d1c6eabd2babed12008bd58ad3d36442a91a",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T17:55:05.484363+00:00",
+      "nativeSource": "designs/motion-frames-v1/35-longwang/attack/attack-b-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/35-longwang/attack/attack-b-v1.png",
+          "sha256": "93b27af7a4c459fe9a5bdcf393ca9d26d2f997e201b0c3fa8ce9c2304a4cbdf3",
+          "generationRecord": "designs/motion-frames-v1/35-longwang/attack/attack-b-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/35-longwang/attack/extract-b.json",
+          "sourceRect": [
+            82,
+            691,
+            656,
+            1173
+          ],
+          "evidence": {
+            "sourceFrame": 2,
+            "file": "designs/motion-frames-v1/35-longwang/attack/extract-b-pose-02.png",
+            "sourceRect": [
+              82,
+              691,
+              656,
+              1173
+            ],
+            "nominalSourceRect": [
+              0,
+              627,
+              627,
+              1254
+            ],
+            "nominalGridCross": true,
+            "nativeVisibleSize": [
+              574,
+              482
+            ],
+            "ownedPixelCount": 181191,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 114
+          }
+        },
+        "sourceEyePoint": [
+          472.722972972973,
+          176.44932432432438
+        ],
+        "globalSourceEye": [
+          554.722972972973,
+          867.4493243243244
+        ],
+        "registrationOffset": [
+          207,
+          244
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        207,
+        244,
+        781,
+        726
+      ],
+      "registeredMinMargin": 0.207,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "manually checked dark pupil ROI component center, nearest integer",
+        "qa": "designs/motion-frames-v1/35-longwang/attack/source-b-qa.json",
+        "sourceFrame": 2,
+        "candidateIndex": 0,
+        "detection": null,
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+      },
+      "displaySize": [
+        585.5855855855856,
+        585.5855855855856
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.5855855855855856,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          530,
+          444
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "35-longwang/attack",
+        "frames": 8,
+        "fps": 10,
+        "loop": false,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 6,
+        "durationMs": 100
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-07",
+      "name": "龙王海龙攻击 8/8",
+      "file": "assets/animations/35-longwang/attack/frame-07.png",
+      "sha256": "06ccc8a01768c04b3ec8107e33bd5853e6d823f0fa22f7f5a5016d5f7ce2a0a1",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T17:55:05.484363+00:00",
+      "nativeSource": "designs/motion-frames-v1/35-longwang/attack/attack-b-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/35-longwang/attack/attack-b-v1.png",
+          "sha256": "93b27af7a4c459fe9a5bdcf393ca9d26d2f997e201b0c3fa8ce9c2304a4cbdf3",
+          "generationRecord": "designs/motion-frames-v1/35-longwang/attack/attack-b-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/35-longwang/attack/extract-b.json",
+          "sourceRect": [
+            689,
+            691,
+            1210,
+            1188
+          ],
+          "evidence": {
+            "sourceFrame": 3,
+            "file": "designs/motion-frames-v1/35-longwang/attack/extract-b-pose-03.png",
+            "sourceRect": [
+              689,
+              691,
+              1210,
+              1188
+            ],
+            "nominalSourceRect": [
+              627,
+              627,
+              1254,
+              1254
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              521,
+              497
+            ],
+            "ownedPixelCount": 170260,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 113
+          }
+        },
+        "sourceEyePoint": [
+          418.8632478632478,
+          177.6025641025641
+        ],
+        "globalSourceEye": [
+          1107.8632478632478,
+          868.6025641025641
+        ],
+        "registrationOffset": [
+          261,
+          242
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        261,
+        242,
+        782,
+        739
+      ],
+      "registeredMinMargin": 0.218,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "manually checked dark pupil ROI component center, nearest integer",
+        "qa": "designs/motion-frames-v1/35-longwang/attack/source-b-qa.json",
+        "sourceFrame": 3,
+        "candidateIndex": 0,
+        "detection": null,
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+      },
+      "displaySize": [
+        585.5855855855856,
+        585.5855855855856
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.5855855855855856,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          530,
+          444
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "35-longwang/attack",
+        "frames": 8,
+        "fps": 10,
+        "loop": false,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 7,
+        "durationMs": 100
+      }
+    }
+  ],
+  "animation": {
+    "id": "35-longwang/attack",
+    "frames": 8,
+    "fps": 10,
+    "loop": false,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "durationsMs": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "root": [
+      0.68,
+      0.42
+    ],
+    "sourceRoute": "builtin_native_AI_sheet_user_requested",
+    "sourcePixelsNeverResampled": true,
+    "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+    "releaseReady": true
+  },
+  "sharedCanvas": [
+    1000,
+    1000
+  ],
+  "rootPixels": [
+    680,
+    420
+  ],
+  "eyePixels": [
+    680,
+    420
+  ],
+  "anchor": [
+    0.68,
+    0.42
+  ],
+  "uniformDisplayScale": 0.5855855855855856,
+  "bodyDisplayBox": [
+    340,
+    260
+  ],
+  "displaySize": [
+    585.5855855855856,
+    585.5855855855856
+  ],
+  "warnings": [
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 0,
+      "sourceMinMargin": 0.0,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 1,
+      "sourceMinMargin": 0.0,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 2,
+      "sourceMinMargin": 0.0,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 3,
+      "sourceMinMargin": 0.0,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 4,
+      "sourceMinMargin": 0.0,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 5,
+      "sourceMinMargin": 0.0,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 6,
+      "sourceMinMargin": 0.0,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 7,
+      "sourceMinMargin": 0.0,
+      "retained": true
+    },
+    {
+      "id": "native_head_shape_and_inter_sheet_density",
+      "severity": "pending_playback_review",
+      "note": "Integer translation cannot correct generated head contour or native scale drift; do not treat pixel bounds as motion approval."
+    }
+  ],
+  "contactSheets": [
+    "tmp/art-qa/35-longwang-attack-registered-light.jpg",
+    "tmp/art-qa/35-longwang-attack-registered-dark.jpg"
+  ],
+  "qa": {
+    "nativeOwnedPixelsPreserved": true,
+    "registeredMarginStatus": "pass_12pct",
+    "sourceMarginStatus": "warnings_preserved",
+    "sourceCanvasClipping": "none_for_adopted_extractions",
+    "semanticOwnershipStatus": "pending_root_contact_sheet_review",
+    "poseAndIdentityStatus": "native_source_stills_observed_pending_registered_review",
+    "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+    "unityPlaybackStatus": "not_run"
+  },
+  "status": "accepted_first_release_art",
+  "releaseReady": true,
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+  "acceptedAt": "2026-10-30T04:07:09.085600+00:00",
+  "playbackReview": "docs/UNITY_FINAL_ACCEPTANCE.json"
+}

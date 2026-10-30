@@ -1,0 +1,87 @@
+{
+  "source": "designs/production-v1/fx-hit/fx-hit.png",
+  "output": "assets/fx/fx-hit",
+  "rows": 4,
+  "cols": 4,
+  "items": [
+    {
+      "id": "frame-00",
+      "name": "fx-hit 0"
+    },
+    {
+      "id": "frame-01",
+      "name": "fx-hit 1"
+    },
+    {
+      "id": "frame-02",
+      "name": "fx-hit 2"
+    },
+    {
+      "id": "frame-03",
+      "name": "fx-hit 3"
+    },
+    {
+      "id": "frame-04",
+      "name": "fx-hit 4"
+    },
+    {
+      "id": "frame-05",
+      "name": "fx-hit 5"
+    },
+    {
+      "id": "frame-06",
+      "name": "fx-hit 6"
+    },
+    {
+      "id": "frame-07",
+      "name": "fx-hit 7"
+    },
+    {
+      "id": "frame-08",
+      "name": "fx-hit 8"
+    },
+    {
+      "id": "frame-09",
+      "name": "fx-hit 9"
+    },
+    {
+      "id": "frame-10",
+      "name": "fx-hit 10"
+    },
+    {
+      "id": "frame-11",
+      "name": "fx-hit 11"
+    },
+    {
+      "id": "frame-12",
+      "name": "fx-hit 12"
+    },
+    {
+      "id": "frame-13",
+      "name": "fx-hit 13"
+    },
+    {
+      "id": "frame-14",
+      "name": "fx-hit 14"
+    },
+    {
+      "id": "frame-15",
+      "name": "fx-hit 15"
+    }
+  ],
+  "keepCell": true,
+  "displaySize": [
+    192,
+    192
+  ],
+  "animation": {
+    "fps": 16,
+    "loop": false,
+    "order": "row-major",
+    "frames": 16,
+    "root": [
+      0.5,
+      0.5
+    ]
+  }
+}

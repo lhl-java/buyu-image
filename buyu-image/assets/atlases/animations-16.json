@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "frames": {
+    "animations/36-xuanjing/attack/frame-00": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 1000,
+        "h": 1000
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 1000,
+        "h": 1000
+      },
+      "pivot": [
+        0.68,
+        0.42
+      ],
+      "source": "assets/animations/36-xuanjing/attack/frame-00.png",
+      "sourceSha256": "2cf622fe50062c3c82f9cbf24e5143c2f0377736d2f479d193192cfc3a80bcf5"
+    },
+    "animations/36-xuanjing/attack/frame-01": {
+      "frame": {
+        "x": 1006,
+        "y": 2,
+        "w": 1000,
+        "h": 1000
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 1000,
+        "h": 1000
+      },
+      "pivot": [
+        0.68,
+        0.42
+      ],
+      "source": "assets/animations/36-xuanjing/attack/frame-01.png",
+      "sourceSha256": "c272a997133207c5cd763ce46b97030e02fde8795eac16abbccdfebe82136a13"
+    },
+    "animations/36-xuanjing/attack/frame-02": {
+      "frame": {
+        "x": 2,
+        "y": 1006,
+        "w": 1000,
+        "h": 1000
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 1000,
+        "h": 1000
+      },
+      "pivot": [
+        0.68,
+        0.42
+      ],
+      "source": "assets/animations/36-xuanjing/attack/frame-02.png",
+      "sourceSha256": "061478d08843baf907bd28e833762f42393f113fab8dff3e46cee63fb592320c"
+    },
+    "animations/36-xuanjing/attack/frame-03": {
+      "frame": {
+        "x": 1006,
+        "y": 1006,
+        "w": 1000,
+        "h": 1000
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 1000,
+        "h": 1000
+      },
+      "pivot": [
+        0.68,
+        0.42
+      ],
+      "source": "assets/animations/36-xuanjing/attack/frame-03.png",
+      "sourceSha256": "fd6ff403d46341fb5a08d4cf043e57507a5ec4a36d0df69aa6cecf3ad60ff05b"
+    }
+  },
+  "meta": {
+    "image": "animations-16.png",
+    "size": {
+      "w": 2008,
+      "h": 2008
+    },
+    "format": "RGBA8888",
+    "scale": 1,
+    "padding": 2,
+    "noRotation": true,
+    "generatedAt": "2026-10-30T03:30:12.489824+00:00",
+    "operation": "native pixel packing; no resampling or redraw"
+  }
+}

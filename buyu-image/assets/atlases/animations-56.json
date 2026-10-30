@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "frames": {
+    "animations/20-yuban/capture/frame-00": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 844,
+        "h": 844
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 844,
+        "h": 844
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/animations/20-yuban/capture/frame-00.png",
+      "sourceSha256": "6d317472e38bcb935ebb6fd91ec32f255188821738e80caff104255ccef0e20c"
+    },
+    "animations/20-yuban/capture/frame-01": {
+      "frame": {
+        "x": 850,
+        "y": 2,
+        "w": 844,
+        "h": 844
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 844,
+        "h": 844
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/animations/20-yuban/capture/frame-01.png",
+      "sourceSha256": "6d0c055fb6cb54695fc0106de27c3b2e3b28f4ca5792eeeee84ec8883e857f03"
+    },
+    "animations/20-yuban/capture/frame-02": {
+      "frame": {
+        "x": 2,
+        "y": 850,
+        "w": 844,
+        "h": 844
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 844,
+        "h": 844
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/animations/20-yuban/capture/frame-02.png",
+      "sourceSha256": "84543c893c14a613d635bde449fb664c55af6eb01f4fb15ceac870392104c15e"
+    },
+    "animations/20-yuban/capture/frame-03": {
+      "frame": {
+        "x": 850,
+        "y": 850,
+        "w": 844,
+        "h": 844
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 844,
+        "h": 844
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/animations/20-yuban/capture/frame-03.png",
+      "sourceSha256": "032157bb7b83eadcdef7ca95159778297f6c97e4ce9aba482c590b097f05d737"
+    }
+  },
+  "meta": {
+    "image": "animations-56.png",
+    "size": {
+      "w": 1696,
+      "h": 1696
+    },
+    "format": "RGBA8888",
+    "scale": 1,
+    "padding": 2,
+    "noRotation": true,
+    "generatedAt": "2026-10-30T03:30:12.489824+00:00",
+    "operation": "native pixel packing; no resampling or redraw"
+  }
+}

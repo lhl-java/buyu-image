@@ -1,0 +1,1582 @@
+{
+  "schemaVersion": 1,
+  "source": [
+    "designs/motion-frames-v1/36-xuanjing/capture/36-xuanjing-capture-v1.png"
+  ],
+  "output": "assets/animations/36-xuanjing/capture",
+  "sourceEvidence": [
+    {
+      "file": "designs/motion-frames-v1/36-xuanjing/capture/36-xuanjing-capture-v1.png",
+      "sha256": "b2b7db2d29af9722958b5eef7c092a5229267e3dd48e6617ffa27d6baf53e93d",
+      "generationRecord": "designs/motion-frames-v1/36-xuanjing/capture/36-xuanjing-capture-v1.png.generation.json"
+    }
+  ],
+  "frameCount": 8,
+  "items": [
+    {
+      "schemaVersion": 1,
+      "id": "frame-00",
+      "name": "玄海巨鲸捕获 1/8",
+      "file": "assets/animations/36-xuanjing/capture/frame-00.png",
+      "sha256": "fdad5eb29ad762ac4b7bb33954dd4341110f21d4bde213e0f8eef11037bc3d3d",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T19:38:05.347857+00:00",
+      "nativeSource": "designs/motion-frames-v1/36-xuanjing/capture/36-xuanjing-capture-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/36-xuanjing/capture/36-xuanjing-capture-v1.png",
+          "sha256": "b2b7db2d29af9722958b5eef7c092a5229267e3dd48e6617ffa27d6baf53e93d",
+          "generationRecord": "designs/motion-frames-v1/36-xuanjing/capture/36-xuanjing-capture-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/36-xuanjing/capture/extract-v1.json",
+          "sourceRect": [
+            17,
+            117,
+            437,
+            400
+          ],
+          "evidence": {
+            "sourceFrame": 0,
+            "file": "designs/motion-frames-v1/36-xuanjing/capture/extract-v1-pose-00.png",
+            "sourceRect": [
+              17,
+              117,
+              437,
+              400
+            ],
+            "nominalSourceRect": [
+              0,
+              0,
+              444,
+              444
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              420,
+              283
+            ],
+            "ownedPixelCount": 60146,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 12
+          }
+        },
+        "sourceEyePoint": [
+          284.84,
+          126.225
+        ],
+        "globalSourceEye": [
+          301.84,
+          243.225
+        ],
+        "registrationOffset": [
+          395,
+          294
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        395,
+        294,
+        815,
+        577
+      ],
+      "registeredMinMargin": 0.185,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "visible_eye_pupil_ROI_component_center",
+        "qa": "designs/motion-frames-v1/36-xuanjing/capture/source-v1-qa.json",
+        "sourceFrame": 0,
+        "candidateIndex": 0,
+        "detection": {
+          "roi": [
+            235,
+            180,
+            425,
+            330
+          ],
+          "darkMaxExclusive": 28,
+          "warmRAtLeastGAndB": false,
+          "alphaMinExclusive": 220,
+          "componentConnectivity": 4
+        },
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review. Closed eyelid proxies are not true pupils and must be excluded from pixel-density calibration."
+      },
+      "displaySize": [
+        809.5238095238095,
+        809.5238095238095
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.8095238095238095,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          420,
+          283
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "36-xuanjing/capture",
+        "frames": 8,
+        "fps": 12,
+        "loop": false,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 0,
+        "durationMs": 83
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-01",
+      "name": "玄海巨鲸捕获 2/8",
+      "file": "assets/animations/36-xuanjing/capture/frame-01.png",
+      "sha256": "252587103cec69099ce8ea128de16063c408063716241f73380a9bc8553c7166",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T19:38:05.347857+00:00",
+      "nativeSource": "designs/motion-frames-v1/36-xuanjing/capture/36-xuanjing-capture-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/36-xuanjing/capture/36-xuanjing-capture-v1.png",
+          "sha256": "b2b7db2d29af9722958b5eef7c092a5229267e3dd48e6617ffa27d6baf53e93d",
+          "generationRecord": "designs/motion-frames-v1/36-xuanjing/capture/36-xuanjing-capture-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/36-xuanjing/capture/extract-v1.json",
+          "sourceRect": [
+            477,
+            124,
+            884,
+            373
+          ],
+          "evidence": {
+            "sourceFrame": 1,
+            "file": "designs/motion-frames-v1/36-xuanjing/capture/extract-v1-pose-01.png",
+            "sourceRect": [
+              477,
+              124,
+              884,
+              373
+            ],
+            "nominalSourceRect": [
+              444,
+              0,
+              887,
+              444
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              407,
+              249
+            ],
+            "ownedPixelCount": 56407,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 13
+          }
+        },
+        "sourceEyePoint": [
+          275.53398058252424,
+          110.50809061488673
+        ],
+        "globalSourceEye": [
+          752.5339805825242,
+          234.50809061488673
+        ],
+        "registrationOffset": [
+          404,
+          309
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        404,
+        309,
+        811,
+        558
+      ],
+      "registeredMinMargin": 0.189,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "visible_eye_pupil_ROI_component_center",
+        "qa": "designs/motion-frames-v1/36-xuanjing/capture/source-v1-qa.json",
+        "sourceFrame": 1,
+        "candidateIndex": 0,
+        "detection": {
+          "roi": [
+            235,
+            180,
+            425,
+            330
+          ],
+          "darkMaxExclusive": 28,
+          "warmRAtLeastGAndB": false,
+          "alphaMinExclusive": 220,
+          "componentConnectivity": 4
+        },
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review. Closed eyelid proxies are not true pupils and must be excluded from pixel-density calibration."
+      },
+      "displaySize": [
+        809.5238095238095,
+        809.5238095238095
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.8095238095238095,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          420,
+          283
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "36-xuanjing/capture",
+        "frames": 8,
+        "fps": 12,
+        "loop": false,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 1,
+        "durationMs": 84
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-02",
+      "name": "玄海巨鲸捕获 3/8",
+      "file": "assets/animations/36-xuanjing/capture/frame-02.png",
+      "sha256": "360c9a8b5b75320bb44b8b1225fe893780751af78ec59c413a6b1907dc93dc71",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T19:38:05.347857+00:00",
+      "nativeSource": "designs/motion-frames-v1/36-xuanjing/capture/36-xuanjing-capture-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/36-xuanjing/capture/36-xuanjing-capture-v1.png",
+          "sha256": "b2b7db2d29af9722958b5eef7c092a5229267e3dd48e6617ffa27d6baf53e93d",
+          "generationRecord": "designs/motion-frames-v1/36-xuanjing/capture/36-xuanjing-capture-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/36-xuanjing/capture/extract-v1.json",
+          "sourceRect": [
+            931,
+            42,
+            1295,
+            365
+          ],
+          "evidence": {
+            "sourceFrame": 2,
+            "file": "designs/motion-frames-v1/36-xuanjing/capture/extract-v1-pose-02.png",
+            "sourceRect": [
+              931,
+              42,
+              1295,
+              365
+            ],
+            "nominalSourceRect": [
+              887,
+              0,
+              1330,
+              444
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              364,
+              323
+            ],
+            "ownedPixelCount": 59304,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 1
+          }
+        },
+        "sourceEyePoint": [
+          232.0453074433658,
+          188.0873786407767
+        ],
+        "globalSourceEye": [
+          1163.0453074433658,
+          230.0873786407767
+        ],
+        "registrationOffset": [
+          448,
+          232
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        448,
+        232,
+        812,
+        555
+      ],
+      "registeredMinMargin": 0.188,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "visible_eye_pupil_ROI_component_center",
+        "qa": "designs/motion-frames-v1/36-xuanjing/capture/source-v1-qa.json",
+        "sourceFrame": 2,
+        "candidateIndex": 0,
+        "detection": {
+          "roi": [
+            235,
+            180,
+            425,
+            330
+          ],
+          "darkMaxExclusive": 28,
+          "warmRAtLeastGAndB": false,
+          "alphaMinExclusive": 220,
+          "componentConnectivity": 4
+        },
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review. Closed eyelid proxies are not true pupils and must be excluded from pixel-density calibration."
+      },
+      "displaySize": [
+        809.5238095238095,
+        809.5238095238095
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.8095238095238095,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          420,
+          283
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "36-xuanjing/capture",
+        "frames": 8,
+        "fps": 12,
+        "loop": false,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 2,
+        "durationMs": 83
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-03",
+      "name": "玄海巨鲸捕获 4/8",
+      "file": "assets/animations/36-xuanjing/capture/frame-03.png",
+      "sha256": "96e5b72156cb6210e7947fd899f3193a1ebc44ba82c713fe72cab814504cdc65",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T19:38:05.347857+00:00",
+      "nativeSource": "designs/motion-frames-v1/36-xuanjing/capture/36-xuanjing-capture-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/36-xuanjing/capture/36-xuanjing-capture-v1.png",
+          "sha256": "b2b7db2d29af9722958b5eef7c092a5229267e3dd48e6617ffa27d6baf53e93d",
+          "generationRecord": "designs/motion-frames-v1/36-xuanjing/capture/36-xuanjing-capture-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/36-xuanjing/capture/extract-v1.json",
+          "sourceRect": [
+            1342,
+            181,
+            1756,
+            402
+          ],
+          "evidence": {
+            "sourceFrame": 3,
+            "file": "designs/motion-frames-v1/36-xuanjing/capture/extract-v1-pose-03.png",
+            "sourceRect": [
+              1342,
+              181,
+              1756,
+              402
+            ],
+            "nominalSourceRect": [
+              1330,
+              0,
+              1774,
+              444
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              414,
+              221
+            ],
+            "ownedPixelCount": 53533,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 36
+          }
+        },
+        "sourceEyePoint": [
+          284.5270270270271,
+          86.8310810810811
+        ],
+        "globalSourceEye": [
+          1626.527027027027,
+          267.8310810810811
+        ],
+        "registrationOffset": [
+          395,
+          333
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        395,
+        333,
+        809,
+        554
+      ],
+      "registeredMinMargin": 0.191,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "visible_eye_pupil_ROI_component_center",
+        "qa": "designs/motion-frames-v1/36-xuanjing/capture/source-v1-qa.json",
+        "sourceFrame": 3,
+        "candidateIndex": 0,
+        "detection": {
+          "roi": [
+            235,
+            180,
+            425,
+            330
+          ],
+          "darkMaxExclusive": 28,
+          "warmRAtLeastGAndB": false,
+          "alphaMinExclusive": 220,
+          "componentConnectivity": 4
+        },
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review. Closed eyelid proxies are not true pupils and must be excluded from pixel-density calibration."
+      },
+      "displaySize": [
+        809.5238095238095,
+        809.5238095238095
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.8095238095238095,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          420,
+          283
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "36-xuanjing/capture",
+        "frames": 8,
+        "fps": 12,
+        "loop": false,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 3,
+        "durationMs": 83
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-04",
+      "name": "玄海巨鲸捕获 5/8",
+      "file": "assets/animations/36-xuanjing/capture/frame-04.png",
+      "sha256": "d2a45b66a45c1eff58f2b438f38bf9b93f61f617c6bafbd2df81cebd80198c78",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T19:38:05.347857+00:00",
+      "nativeSource": "designs/motion-frames-v1/36-xuanjing/capture/36-xuanjing-capture-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/36-xuanjing/capture/36-xuanjing-capture-v1.png",
+          "sha256": "b2b7db2d29af9722958b5eef7c092a5229267e3dd48e6617ffa27d6baf53e93d",
+          "generationRecord": "designs/motion-frames-v1/36-xuanjing/capture/36-xuanjing-capture-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/36-xuanjing/capture/extract-v1.json",
+          "sourceRect": [
+            22,
+            578,
+            430,
+            839
+          ],
+          "evidence": {
+            "sourceFrame": 4,
+            "file": "designs/motion-frames-v1/36-xuanjing/capture/extract-v1-pose-04.png",
+            "sourceRect": [
+              22,
+              578,
+              430,
+              839
+            ],
+            "nominalSourceRect": [
+              0,
+              444,
+              444,
+              887
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              408,
+              261
+            ],
+            "ownedPixelCount": 52911,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 129
+          }
+        },
+        "sourceEyePoint": [
+          273.76153846153846,
+          69.0
+        ],
+        "globalSourceEye": [
+          295.76153846153846,
+          647.0
+        ],
+        "registrationOffset": [
+          406,
+          351
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        406,
+        351,
+        814,
+        612
+      ],
+      "registeredMinMargin": 0.186,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "closed_eyelid_proxy_center",
+        "qa": "designs/motion-frames-v1/36-xuanjing/capture/source-v1-qa.json",
+        "sourceFrame": 4,
+        "candidateIndex": 0,
+        "detection": {
+          "roi": [
+            235,
+            180,
+            425,
+            330
+          ],
+          "darkMaxExclusive": 28,
+          "warmRAtLeastGAndB": false,
+          "alphaMinExclusive": 220,
+          "componentConnectivity": 4
+        },
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review. Closed eyelid proxies are not true pupils and must be excluded from pixel-density calibration."
+      },
+      "displaySize": [
+        809.5238095238095,
+        809.5238095238095
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.8095238095238095,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          420,
+          283
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "36-xuanjing/capture",
+        "frames": 8,
+        "fps": 12,
+        "loop": false,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 4,
+        "durationMs": 84
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-05",
+      "name": "玄海巨鲸捕获 6/8",
+      "file": "assets/animations/36-xuanjing/capture/frame-05.png",
+      "sha256": "26c71f2be21edb75dfebb2f062c5d3d9f0c56f3b8891c7af8c30381cc4c6af02",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T19:38:05.347857+00:00",
+      "nativeSource": "designs/motion-frames-v1/36-xuanjing/capture/36-xuanjing-capture-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/36-xuanjing/capture/36-xuanjing-capture-v1.png",
+          "sha256": "b2b7db2d29af9722958b5eef7c092a5229267e3dd48e6617ffa27d6baf53e93d",
+          "generationRecord": "designs/motion-frames-v1/36-xuanjing/capture/36-xuanjing-capture-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/36-xuanjing/capture/extract-v1.json",
+          "sourceRect": [
+            455,
+            522,
+            877,
+            808
+          ],
+          "evidence": {
+            "sourceFrame": 5,
+            "file": "designs/motion-frames-v1/36-xuanjing/capture/extract-v1-pose-05.png",
+            "sourceRect": [
+              455,
+              522,
+              877,
+              808
+            ],
+            "nominalSourceRect": [
+              444,
+              444,
+              887,
+              887
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              422,
+              286
+            ],
+            "ownedPixelCount": 58832,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 103
+          }
+        },
+        "sourceEyePoint": [
+          291.2835820895523,
+          143.76119402985069
+        ],
+        "globalSourceEye": [
+          746.2835820895523,
+          665.7611940298507
+        ],
+        "registrationOffset": [
+          389,
+          276
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        389,
+        276,
+        811,
+        562
+      ],
+      "registeredMinMargin": 0.189,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "visible_eye_pupil_ROI_component_center",
+        "qa": "designs/motion-frames-v1/36-xuanjing/capture/source-v1-qa.json",
+        "sourceFrame": 5,
+        "candidateIndex": 0,
+        "detection": {
+          "roi": [
+            235,
+            180,
+            425,
+            330
+          ],
+          "darkMaxExclusive": 28,
+          "warmRAtLeastGAndB": false,
+          "alphaMinExclusive": 220,
+          "componentConnectivity": 4
+        },
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review. Closed eyelid proxies are not true pupils and must be excluded from pixel-density calibration."
+      },
+      "displaySize": [
+        809.5238095238095,
+        809.5238095238095
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.8095238095238095,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          420,
+          283
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "36-xuanjing/capture",
+        "frames": 8,
+        "fps": 12,
+        "loop": false,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 5,
+        "durationMs": 83
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-06",
+      "name": "玄海巨鲸捕获 7/8",
+      "file": "assets/animations/36-xuanjing/capture/frame-06.png",
+      "sha256": "fdc2272c713db04798a6f7675832e110bb4a49784e14d8ba552a873693b724f1",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T19:38:05.347857+00:00",
+      "nativeSource": "designs/motion-frames-v1/36-xuanjing/capture/36-xuanjing-capture-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/36-xuanjing/capture/36-xuanjing-capture-v1.png",
+          "sha256": "b2b7db2d29af9722958b5eef7c092a5229267e3dd48e6617ffa27d6baf53e93d",
+          "generationRecord": "designs/motion-frames-v1/36-xuanjing/capture/36-xuanjing-capture-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/36-xuanjing/capture/extract-v1.json",
+          "sourceRect": [
+            896,
+            548,
+            1321,
+            821
+          ],
+          "evidence": {
+            "sourceFrame": 6,
+            "file": "designs/motion-frames-v1/36-xuanjing/capture/extract-v1-pose-06.png",
+            "sourceRect": [
+              896,
+              548,
+              1321,
+              821
+            ],
+            "nominalSourceRect": [
+              887,
+              444,
+              1330,
+              887
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              425,
+              273
+            ],
+            "ownedPixelCount": 60012,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 108
+          }
+        },
+        "sourceEyePoint": [
+          291.30941704035877,
+          118.42152466367713
+        ],
+        "globalSourceEye": [
+          1187.3094170403588,
+          666.4215246636771
+        ],
+        "registrationOffset": [
+          389,
+          302
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        389,
+        302,
+        814,
+        575
+      ],
+      "registeredMinMargin": 0.186,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "visible_eye_pupil_ROI_component_center",
+        "qa": "designs/motion-frames-v1/36-xuanjing/capture/source-v1-qa.json",
+        "sourceFrame": 6,
+        "candidateIndex": 0,
+        "detection": {
+          "roi": [
+            235,
+            180,
+            425,
+            330
+          ],
+          "darkMaxExclusive": 28,
+          "warmRAtLeastGAndB": false,
+          "alphaMinExclusive": 220,
+          "componentConnectivity": 4
+        },
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review. Closed eyelid proxies are not true pupils and must be excluded from pixel-density calibration."
+      },
+      "displaySize": [
+        809.5238095238095,
+        809.5238095238095
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.8095238095238095,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          420,
+          283
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "36-xuanjing/capture",
+        "frames": 8,
+        "fps": 12,
+        "loop": false,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 6,
+        "durationMs": 83
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-07",
+      "name": "玄海巨鲸捕获 8/8",
+      "file": "assets/animations/36-xuanjing/capture/frame-07.png",
+      "sha256": "b2eb9d4b5010e6df04f6aef77d520ca5eb1a324cda40dc2253843833921672a4",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T19:38:05.347857+00:00",
+      "nativeSource": "designs/motion-frames-v1/36-xuanjing/capture/36-xuanjing-capture-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/36-xuanjing/capture/36-xuanjing-capture-v1.png",
+          "sha256": "b2b7db2d29af9722958b5eef7c092a5229267e3dd48e6617ffa27d6baf53e93d",
+          "generationRecord": "designs/motion-frames-v1/36-xuanjing/capture/36-xuanjing-capture-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/36-xuanjing/capture/extract-v1.json",
+          "sourceRect": [
+            1339,
+            543,
+            1756,
+            818
+          ],
+          "evidence": {
+            "sourceFrame": 7,
+            "file": "designs/motion-frames-v1/36-xuanjing/capture/extract-v1-pose-07.png",
+            "sourceRect": [
+              1339,
+              543,
+              1756,
+              818
+            ],
+            "nominalSourceRect": [
+              1330,
+              444,
+              1774,
+              887
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              417,
+              275
+            ],
+            "ownedPixelCount": 59757,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 105
+          }
+        },
+        "sourceEyePoint": [
+          288.13772455089816,
+          124.69461077844312
+        ],
+        "globalSourceEye": [
+          1627.1377245508982,
+          667.6946107784431
+        ],
+        "registrationOffset": [
+          392,
+          295
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        392,
+        295,
+        809,
+        570
+      ],
+      "registeredMinMargin": 0.191,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "visible_eye_pupil_ROI_component_center",
+        "qa": "designs/motion-frames-v1/36-xuanjing/capture/source-v1-qa.json",
+        "sourceFrame": 7,
+        "candidateIndex": 0,
+        "detection": {
+          "roi": [
+            235,
+            180,
+            425,
+            330
+          ],
+          "darkMaxExclusive": 28,
+          "warmRAtLeastGAndB": false,
+          "alphaMinExclusive": 220,
+          "componentConnectivity": 4
+        },
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review. Closed eyelid proxies are not true pupils and must be excluded from pixel-density calibration."
+      },
+      "displaySize": [
+        809.5238095238095,
+        809.5238095238095
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.8095238095238095,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          420,
+          283
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "36-xuanjing/capture",
+        "frames": 8,
+        "fps": 12,
+        "loop": false,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          83,
+          84,
+          83,
+          83,
+          84,
+          83,
+          83,
+          84
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 7,
+        "durationMs": 84
+      }
+    }
+  ],
+  "animation": {
+    "id": "36-xuanjing/capture",
+    "frames": 8,
+    "fps": 12,
+    "loop": false,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "durationsMs": [
+      83,
+      84,
+      83,
+      83,
+      84,
+      83,
+      83,
+      84
+    ],
+    "root": [
+      0.68,
+      0.42
+    ],
+    "sourceRoute": "builtin_native_AI_sheet_user_requested",
+    "sourcePixelsNeverResampled": true,
+    "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+    "releaseReady": true
+  },
+  "sharedCanvas": [
+    1000,
+    1000
+  ],
+  "rootPixels": [
+    680,
+    420
+  ],
+  "eyePixels": [
+    680,
+    420
+  ],
+  "anchor": [
+    0.68,
+    0.42
+  ],
+  "uniformDisplayScale": 0.8095238095238095,
+  "bodyDisplayBox": [
+    340,
+    260
+  ],
+  "displaySize": [
+    809.5238095238095,
+    809.5238095238095
+  ],
+  "warnings": [
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 0,
+      "sourceMinMargin": 0.015765765765765764,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 1,
+      "sourceMinMargin": 0.006772009029345372,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 2,
+      "sourceMinMargin": 0.07900677200902935,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 3,
+      "sourceMinMargin": 0.02702702702702703,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 4,
+      "sourceMinMargin": 0.03153153153153153,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 5,
+      "sourceMinMargin": 0.022573363431151242,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 6,
+      "sourceMinMargin": 0.020316027088036117,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 7,
+      "sourceMinMargin": 0.02027027027027027,
+      "retained": true
+    },
+    {
+      "id": "native_head_shape_and_inter_sheet_density",
+      "severity": "pending_playback_review",
+      "note": "Integer translation cannot correct generated head contour or native scale drift; do not treat pixel bounds as motion approval."
+    }
+  ],
+  "contactSheets": [
+    "tmp/art-qa/36-xuanjing-capture-registered-light.jpg",
+    "tmp/art-qa/36-xuanjing-capture-registered-dark.jpg"
+  ],
+  "qa": {
+    "nativeOwnedPixelsPreserved": true,
+    "registeredMarginStatus": "pass_12pct",
+    "sourceMarginStatus": "warnings_preserved",
+    "sourceCanvasClipping": "none_for_adopted_extractions",
+    "semanticOwnershipStatus": "pending_root_contact_sheet_review",
+    "poseAndIdentityStatus": "native_source_stills_observed_pending_registered_review",
+    "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+    "unityPlaybackStatus": "not_run"
+  },
+  "status": "accepted_first_release_art",
+  "releaseReady": true,
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+  "acceptedAt": "2026-10-30T04:07:09.085600+00:00",
+  "playbackReview": "docs/UNITY_FINAL_ACCEPTANCE.json"
+}

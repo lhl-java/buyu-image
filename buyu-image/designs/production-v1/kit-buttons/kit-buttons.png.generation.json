@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/production-v1/kit-buttons/kit-buttons.png",
+  "sha256": "83356440142af10947700328ef951cfd6818d82bbb8450a8beae09386d0bb84a",
+  "generatedAt": "2026-10-26T18:38:07.567Z",
+  "startedAt": "2026-10-26T18:36:48.486Z",
+  "width": 1448,
+  "height": 1086,
+  "format": "PNG",
+  "pixelFormat": "Format32bppArgb",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "builtin_evidence": {
+      "model_parameter_exposed": false,
+      "quality_parameter_exposed": false,
+      "actual_model": null,
+      "actual_quality": null,
+      "note": "Configuration targets only; verify actual model and quality per generated image."
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\buyu-image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\buyu-image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "D:\\work\\buyu-image\\designs\\ui\\full-suite-v1\\31-components\\31-components.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具未开放 model/quality 参数，本次结果未披露实际型号及质量。",
+  "evidence": {
+    "toolResult": "kit-buttons.tool-result.txt",
+    "sourceOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a1792c-499c-79e1-9da0-1d0b6d1d6515\\exec-3d92a0e8-4b8b-443b-8059-22f7a0848c1c.png",
+    "toolResultId": "exec-3d92a0e8-4b8b-443b-8059-22f7a0848c1c",
+    "request": "kit-buttons.request.json"
+  },
+  "prompt": "kit-buttons.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/ui/full-suite-v1/31-components/31-components.png",
+      "sha256": "f197742aac1dee57fee6c35daf72becda2eb8e16ae4ec6b285b4abec0fdca5e3",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    }
+  ],
+  "requestedCanvasInPrompt": "4 columns x 3 rows, requested 4:3; actual native returned recorded",
+  "resampled": false,
+  "status": "draft_pending_user_review",
+  "visualReview": "十二个按钮状态完整；实际目视源图及切片联系表。主/次按钮四态、页签二态、关闭二态均正确，除关闭 X 无文字。第3/4列按透明分隔 x=1075 裁切，去除原等分边界误纳入相邻辉光造成的警告。",
+  "scope": "Textless reusable production UI button skin sheet",
+  "visualReviewedAt": "2026-10-26T20:07:40.751031+00:00"
+}

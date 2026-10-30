@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "file": "references/production-guides/34-jinlongli-4x2.png",
+  "sha256": "3621208b8b37fc7e30329d74c8d3e11ecfaf530aa10625144b21a5b741801a5f",
+  "createdAt": "2026-10-28T18:37:33.340302+00:00",
+  "purpose": "Image model geometry/identity edit reference only; identical stills are NOT animation frames or game art.",
+  "operation": {
+    "type": "reference_only_master_layout_composite",
+    "masterCropRect": [
+      4,
+      4,
+      344,
+      252
+    ],
+    "referenceCropSize": [
+      340,
+      248
+    ],
+    "referencePlacedSize": [
+      310,
+      226
+    ],
+    "canvas": [
+      1774,
+      887
+    ],
+    "grid": [
+      4,
+      2
+    ],
+    "placements": [
+      [
+        67,
+        109,
+        310,
+        226
+      ],
+      [
+        510,
+        109,
+        310,
+        226
+      ],
+      [
+        954,
+        109,
+        310,
+        226
+      ],
+      [
+        1397,
+        109,
+        310,
+        226
+      ],
+      [
+        67,
+        552,
+        310,
+        226
+      ],
+      [
+        510,
+        552,
+        310,
+        226
+      ],
+      [
+        954,
+        552,
+        310,
+        226
+      ],
+      [
+        1397,
+        552,
+        310,
+        226
+      ]
+    ],
+    "finalGameAsset": false
+  },
+  "derivedFrom": [
+    {
+      "file": "assets/fish/batch-6/34-jinlongli.png",
+      "sha256": "a062713a2181c13e0e040dbdddbc15932484d2ab8fecd0f1e36768c14398a484",
+      "generationRecord": "assets/fish/batch-6/34-jinlongli.png.generation.json"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "newModelCall": false
+}

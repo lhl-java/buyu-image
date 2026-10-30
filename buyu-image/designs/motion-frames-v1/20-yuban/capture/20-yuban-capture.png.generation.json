@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/motion-frames-v1/20-yuban/capture/20-yuban-capture.png",
+  "sha256": "25850572380c89233c4fc6aef8298dfb3a1152d96c81f514a4b5dca2d1491b62",
+  "generatedAt": "2026-10-28T18:07:38.721Z",
+  "startedAt": "2026-10-28T18:07:08.454Z",
+  "width": 1774,
+  "height": 887,
+  "format": "PNG",
+  "pixelFormat": "Format32bppArgb",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-28",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "builtin_evidence": {
+      "model_parameter_exposed": false,
+      "quality_parameter_exposed": false,
+      "actual_model": null,
+      "actual_quality": null,
+      "note": "Configuration targets only; verify actual model and quality per generated image."
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\buyu-image\\designs\\motion-frames-v1\\20-yuban\\swim\\20-yuban-swim.png",
+      "D:\\work\\buyu-image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\buyu-image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "D:\\work\\buyu-image\\assets\\fish\\batch-4\\20-yuban.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具未开放 model/quality 参数，本次结果未披露实际型号及质量。",
+  "evidence": {
+    "toolResult": "20-yuban-capture.tool-result.txt",
+    "sourceOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a18291-7f9d-7081-8ee8-2bec0f32ff89\\exec-fff6b742-9a69-4247-96d0-712b78fd4121.png",
+    "toolResultId": "exec-fff6b742-9a69-4247-96d0-712b78fd4121",
+    "request": "20-yuban-capture.request.json"
+  },
+  "prompt": "20-yuban-capture.prompt.txt",
+  "references": [
+    {
+      "file": "designs/motion-frames-v1/20-yuban/swim/20-yuban-swim.png",
+      "sha256": "f2fc14dfe35f973d797589a72b4735473ecc1adbba66aca778cefcbf9ba70227",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "assets/fish/batch-4/20-yuban.png",
+      "sha256": "856016c9d959de844e7e7e3781a14fe18c9c9cadff2f7633ad06e8a10ab7e489",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    }
+  ],
+  "requestedCanvasInPrompt": "4x2 native8frames2:1 trueAlpha.",
+  "resampled": false,
+  "status": "draft_pending_user_review",
+  "visualReview": "Actual articulated poses visible, fixed root/scale and source boundary pending producer review; candidate only.",
+  "scope": "20-yuban capture 8nativeframes; no playback/finalpass."
+}

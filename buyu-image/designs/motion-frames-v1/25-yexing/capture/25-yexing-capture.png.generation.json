@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/motion-frames-v1/25-yexing/capture/25-yexing-capture.png",
+  "sha256": "aa0b983a38501a4df1db4671ff376c21b67aa35b2ea2821ef0bc9e418367fb91",
+  "generatedAt": "2026-10-28T17:05:22.349Z",
+  "startedAt": "2026-10-28T17:04:20.151Z",
+  "width": 1774,
+  "height": 887,
+  "format": "PNG",
+  "pixelFormat": "Format32bppArgb",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-28",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "builtin_evidence": {
+      "model_parameter_exposed": false,
+      "quality_parameter_exposed": false,
+      "actual_model": null,
+      "actual_quality": null,
+      "note": "Configuration targets only; verify actual model and quality per generated image."
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\buyu-image\\designs\\motion-frames-v1\\25-yexing\\swim\\25-yexing-swim-contained.png",
+      "D:\\work\\buyu-image\\assets\\fish\\batch-5\\25-yexing.png",
+      "D:\\work\\buyu-image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\buyu-image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具未开放 model/quality 参数，本次结果未披露实际型号及质量。",
+  "evidence": {
+    "toolResult": "25-yexing-capture.tool-result.txt",
+    "sourceOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a18184-f61a-7760-b69c-882264640513\\exec-04f690ad-43b9-40bf-9736-4b24edee4c62.png",
+    "toolResultId": "exec-04f690ad-43b9-40bf-9736-4b24edee4c62",
+    "request": "25-yexing-capture.request.json"
+  },
+  "prompt": "25-yexing-capture.prompt.txt",
+  "references": [
+    {
+      "file": "designs/motion-frames-v1/25-yexing/swim/25-yexing-swim-contained.png",
+      "sha256": "466be1c1c4c7b6af4df03514143b801c0c333e2eb80862a8d731cf2dddd3c896",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "assets/fish/batch-5/25-yexing.png",
+      "sha256": "c10035b8f215667098e10609a251c376d173b37ebb89c0e76b611991288969a3",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    }
+  ],
+  "requestedCanvasInPrompt": "请求1774x887 4x2透明8帧。",
+  "resampled": false,
+  "status": "draft_pending_user_review",
+  "visualReview": "可见尾鳍局部收拢和反弹，被捕动作明确；首行前两格过满跨格风险，未通过。",
+  "scope": "夜星鱼捕获8原生AI帧初稿，待containment。"
+}

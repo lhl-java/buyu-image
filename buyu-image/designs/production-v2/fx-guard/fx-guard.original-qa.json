@@ -1,0 +1,889 @@
+{
+  "schemaVersion": 1,
+  "id": "fx-guard",
+  "checkedAt": "2026-10-28T11:45:38.704141+00:00",
+  "source": "designs/production-v2/fx-guard/fx-guard.png",
+  "sourceSha256": "6d2ac4e12c0f3e79fc43fb0052cb500e7882053eabf79a6a29344648cc453ac4",
+  "nativeSourceSize": [
+    1254,
+    1254
+  ],
+  "frames": 16,
+  "uniqueFrameCount": 16,
+  "sharedCanvas": [
+    314,
+    314
+  ],
+  "animation": {
+    "fps": 16,
+    "loop": false,
+    "order": "row-major",
+    "frames": 16,
+    "root": [
+      0.5,
+      0.5
+    ],
+    "durationMs": 1000,
+    "role": "cast_release_one_shot"
+  },
+  "allMarginsMinimum": 0.0,
+  "runtimeMarginsMinimum": 0.0,
+  "peakAlphaSumFrame": 6,
+  "measurements": [
+    {
+      "frame": 0,
+      "sourceRect": [
+        0,
+        0,
+        314,
+        314
+      ],
+      "nativeExportSize": [
+        314,
+        314
+      ],
+      "alphaRange": [
+        0,
+        246
+      ],
+      "boundsAboveAlpha3": [
+        95,
+        85,
+        243,
+        223
+      ],
+      "marginRatios": [
+        0.30254777070063693,
+        0.27070063694267515,
+        0.22611464968152867,
+        0.2898089171974522
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        95,
+        85,
+        243,
+        223
+      ],
+      "runtimeMarginRatios": [
+        0.30254777070063693,
+        0.27070063694267515,
+        0.22611464968152867,
+        0.2898089171974522
+      ],
+      "alphaSum": 552682,
+      "sha256": "fddf9e4740eb6ddc92181d7dc889917fcbdc4a5e5da3bf66ba105bbfc017a915"
+    },
+    {
+      "frame": 1,
+      "sourceRect": [
+        314,
+        0,
+        627,
+        314
+      ],
+      "nativeExportSize": [
+        314,
+        314
+      ],
+      "alphaRange": [
+        0,
+        252
+      ],
+      "boundsAboveAlpha3": [
+        59,
+        67,
+        252,
+        246
+      ],
+      "marginRatios": [
+        0.18849840255591055,
+        0.21337579617834396,
+        0.19488817891373802,
+        0.21656050955414013
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        59,
+        67,
+        252,
+        246
+      ],
+      "runtimeMarginRatios": [
+        0.18789808917197454,
+        0.21337579617834396,
+        0.19745222929936307,
+        0.21656050955414013
+      ],
+      "alphaSum": 2080435,
+      "sha256": "a740876ab2c7caf74f20e50cbe46cc3dbb940dcd4209a5bf9b2a29b62e8e7742"
+    },
+    {
+      "frame": 2,
+      "sourceRect": [
+        627,
+        0,
+        940,
+        314
+      ],
+      "nativeExportSize": [
+        314,
+        314
+      ],
+      "alphaRange": [
+        0,
+        253
+      ],
+      "boundsAboveAlpha3": [
+        45,
+        55,
+        269,
+        314
+      ],
+      "marginRatios": [
+        0.14376996805111822,
+        0.1751592356687898,
+        0.14057507987220447,
+        0.0
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        45,
+        55,
+        269,
+        314
+      ],
+      "runtimeMarginRatios": [
+        0.14331210191082802,
+        0.1751592356687898,
+        0.14331210191082802,
+        0.0
+      ],
+      "alphaSum": 3948476,
+      "sha256": "b6b19320d4982ee766e945e622ae9f668762d5623601cf244e6ed272fa8880cf"
+    },
+    {
+      "frame": 3,
+      "sourceRect": [
+        940,
+        0,
+        1254,
+        314
+      ],
+      "nativeExportSize": [
+        314,
+        314
+      ],
+      "alphaRange": [
+        0,
+        253
+      ],
+      "boundsAboveAlpha3": [
+        22,
+        29,
+        294,
+        277
+      ],
+      "marginRatios": [
+        0.07006369426751592,
+        0.09235668789808917,
+        0.06369426751592357,
+        0.1178343949044586
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        22,
+        29,
+        294,
+        277
+      ],
+      "runtimeMarginRatios": [
+        0.07006369426751592,
+        0.09235668789808917,
+        0.06369426751592357,
+        0.1178343949044586
+      ],
+      "alphaSum": 6995171,
+      "sha256": "57cb210b6825bae86338fbb8e81859de06082ed5661df3b476b229abd2140cad"
+    },
+    {
+      "frame": 4,
+      "sourceRect": [
+        0,
+        314,
+        314,
+        627
+      ],
+      "nativeExportSize": [
+        314,
+        314
+      ],
+      "alphaRange": [
+        0,
+        253
+      ],
+      "boundsAboveAlpha3": [
+        22,
+        23,
+        300,
+        283
+      ],
+      "marginRatios": [
+        0.07006369426751592,
+        0.07348242811501597,
+        0.044585987261146494,
+        0.09584664536741214
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        22,
+        23,
+        300,
+        283
+      ],
+      "runtimeMarginRatios": [
+        0.07006369426751592,
+        0.0732484076433121,
+        0.044585987261146494,
+        0.09872611464968153
+      ],
+      "alphaSum": 8914582,
+      "sha256": "9c5f76bc4e8329decf25324f940d876943fcd841f04a39a6402cff9c46faf0c8"
+    },
+    {
+      "frame": 5,
+      "sourceRect": [
+        314,
+        314,
+        627,
+        627
+      ],
+      "nativeExportSize": [
+        314,
+        314
+      ],
+      "alphaRange": [
+        0,
+        253
+      ],
+      "boundsAboveAlpha3": [
+        18,
+        7,
+        297,
+        294
+      ],
+      "marginRatios": [
+        0.05750798722044728,
+        0.022364217252396165,
+        0.051118210862619806,
+        0.06070287539936102
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        18,
+        7,
+        297,
+        294
+      ],
+      "runtimeMarginRatios": [
+        0.05732484076433121,
+        0.022292993630573247,
+        0.054140127388535034,
+        0.06369426751592357
+      ],
+      "alphaSum": 11082486,
+      "sha256": "b23e194b06ad17663ad8bc6d01730e6e06ebb34e7019d328ce1786b704c32eb1"
+    },
+    {
+      "frame": 6,
+      "sourceRect": [
+        627,
+        314,
+        940,
+        627
+      ],
+      "nativeExportSize": [
+        314,
+        314
+      ],
+      "alphaRange": [
+        0,
+        253
+      ],
+      "boundsAboveAlpha3": [
+        11,
+        0,
+        308,
+        310
+      ],
+      "marginRatios": [
+        0.03514376996805112,
+        0.0,
+        0.01597444089456869,
+        0.009584664536741214
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        11,
+        0,
+        308,
+        310
+      ],
+      "runtimeMarginRatios": [
+        0.03503184713375796,
+        0.0,
+        0.01910828025477707,
+        0.012738853503184714
+      ],
+      "alphaSum": 13762711,
+      "sha256": "86ca4768e55d398fae5b510bd70215720d0f81ceff5136394c2287638fdac612"
+    },
+    {
+      "frame": 7,
+      "sourceRect": [
+        940,
+        314,
+        1254,
+        627
+      ],
+      "nativeExportSize": [
+        314,
+        314
+      ],
+      "alphaRange": [
+        0,
+        253
+      ],
+      "boundsAboveAlpha3": [
+        21,
+        8,
+        301,
+        283
+      ],
+      "marginRatios": [
+        0.06687898089171974,
+        0.025559105431309903,
+        0.041401273885350316,
+        0.09584664536741214
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        21,
+        8,
+        301,
+        283
+      ],
+      "runtimeMarginRatios": [
+        0.06687898089171974,
+        0.025477707006369428,
+        0.041401273885350316,
+        0.09872611464968153
+      ],
+      "alphaSum": 10181242,
+      "sha256": "f03e47511e630a340e4a54cb6212953ec0c151b6c2c78e8482bb894e505de5e3"
+    },
+    {
+      "frame": 8,
+      "sourceRect": [
+        0,
+        627,
+        314,
+        940
+      ],
+      "nativeExportSize": [
+        314,
+        314
+      ],
+      "alphaRange": [
+        0,
+        253
+      ],
+      "boundsAboveAlpha3": [
+        26,
+        33,
+        305,
+        288
+      ],
+      "marginRatios": [
+        0.08280254777070063,
+        0.10543130990415335,
+        0.028662420382165606,
+        0.07987220447284345
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        26,
+        33,
+        305,
+        288
+      ],
+      "runtimeMarginRatios": [
+        0.08280254777070063,
+        0.10509554140127389,
+        0.028662420382165606,
+        0.08280254777070063
+      ],
+      "alphaSum": 7634780,
+      "sha256": "abaf85b201a03ed9bd944d54a74370c88550bba7d5beb501475195f5bf201f1d"
+    },
+    {
+      "frame": 9,
+      "sourceRect": [
+        314,
+        627,
+        627,
+        940
+      ],
+      "nativeExportSize": [
+        314,
+        314
+      ],
+      "alphaRange": [
+        0,
+        252
+      ],
+      "boundsAboveAlpha3": [
+        23,
+        35,
+        295,
+        288
+      ],
+      "marginRatios": [
+        0.07348242811501597,
+        0.11182108626198083,
+        0.05750798722044728,
+        0.07987220447284345
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        23,
+        35,
+        295,
+        288
+      ],
+      "runtimeMarginRatios": [
+        0.0732484076433121,
+        0.11146496815286625,
+        0.06050955414012739,
+        0.08280254777070063
+      ],
+      "alphaSum": 6038250,
+      "sha256": "b3f069bf514954a1c36fa072f77799671b6c1cfb17b28209c2f004485e9d15ad"
+    },
+    {
+      "frame": 10,
+      "sourceRect": [
+        627,
+        627,
+        940,
+        940
+      ],
+      "nativeExportSize": [
+        314,
+        314
+      ],
+      "alphaRange": [
+        0,
+        252
+      ],
+      "boundsAboveAlpha3": [
+        31,
+        36,
+        295,
+        288
+      ],
+      "marginRatios": [
+        0.09904153354632587,
+        0.11501597444089456,
+        0.05750798722044728,
+        0.07987220447284345
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        31,
+        36,
+        295,
+        288
+      ],
+      "runtimeMarginRatios": [
+        0.09872611464968153,
+        0.11464968152866242,
+        0.06050955414012739,
+        0.08280254777070063
+      ],
+      "alphaSum": 4719044,
+      "sha256": "86695ae4cac7f72717770ff427204dce9605cae3bed679a072e5448461580486"
+    },
+    {
+      "frame": 11,
+      "sourceRect": [
+        940,
+        627,
+        1254,
+        940
+      ],
+      "nativeExportSize": [
+        314,
+        314
+      ],
+      "alphaRange": [
+        0,
+        252
+      ],
+      "boundsAboveAlpha3": [
+        39,
+        47,
+        279,
+        265
+      ],
+      "marginRatios": [
+        0.12420382165605096,
+        0.1501597444089457,
+        0.11146496815286625,
+        0.15335463258785942
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        39,
+        47,
+        279,
+        265
+      ],
+      "runtimeMarginRatios": [
+        0.12420382165605096,
+        0.14968152866242038,
+        0.11146496815286625,
+        0.15605095541401273
+      ],
+      "alphaSum": 3077097,
+      "sha256": "0ef9fea53f8c8095e902cd306cc893c3f619f9ba8fe280e5f6025a9d332323fb"
+    },
+    {
+      "frame": 12,
+      "sourceRect": [
+        0,
+        940,
+        314,
+        1254
+      ],
+      "nativeExportSize": [
+        314,
+        314
+      ],
+      "alphaRange": [
+        0,
+        249
+      ],
+      "boundsAboveAlpha3": [
+        58,
+        47,
+        272,
+        250
+      ],
+      "marginRatios": [
+        0.18471337579617833,
+        0.14968152866242038,
+        0.1337579617834395,
+        0.20382165605095542
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        58,
+        47,
+        272,
+        250
+      ],
+      "runtimeMarginRatios": [
+        0.18471337579617833,
+        0.14968152866242038,
+        0.1337579617834395,
+        0.20382165605095542
+      ],
+      "alphaSum": 1972708,
+      "sha256": "2cfcf1a105e052a08f78118f20a195ccf22878b214dd496d51a0239dec757765"
+    },
+    {
+      "frame": 13,
+      "sourceRect": [
+        314,
+        940,
+        627,
+        1254
+      ],
+      "nativeExportSize": [
+        314,
+        314
+      ],
+      "alphaRange": [
+        0,
+        250
+      ],
+      "boundsAboveAlpha3": [
+        61,
+        56,
+        258,
+        241
+      ],
+      "marginRatios": [
+        0.19488817891373802,
+        0.17834394904458598,
+        0.1757188498402556,
+        0.23248407643312102
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        61,
+        56,
+        258,
+        241
+      ],
+      "runtimeMarginRatios": [
+        0.1942675159235669,
+        0.17834394904458598,
+        0.17834394904458598,
+        0.23248407643312102
+      ],
+      "alphaSum": 989803,
+      "sha256": "440f42c52a83939695e5f1e8dfdc5c8e9320b5003481db17f10882de320fcca2"
+    },
+    {
+      "frame": 14,
+      "sourceRect": [
+        627,
+        940,
+        940,
+        1254
+      ],
+      "nativeExportSize": [
+        314,
+        314
+      ],
+      "alphaRange": [
+        0,
+        248
+      ],
+      "boundsAboveAlpha3": [
+        76,
+        70,
+        249,
+        251
+      ],
+      "marginRatios": [
+        0.24281150159744408,
+        0.2229299363057325,
+        0.20447284345047922,
+        0.20063694267515925
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        76,
+        70,
+        249,
+        251
+      ],
+      "runtimeMarginRatios": [
+        0.24203821656050956,
+        0.2229299363057325,
+        0.2070063694267516,
+        0.20063694267515925
+      ],
+      "alphaSum": 719622,
+      "sha256": "fcb733513f2edd70835a12b484c86d039b6a5634d1620f5bd3f6f2360f2368f3"
+    },
+    {
+      "frame": 15,
+      "sourceRect": [
+        940,
+        940,
+        1254,
+        1254
+      ],
+      "nativeExportSize": [
+        314,
+        314
+      ],
+      "alphaRange": [
+        0,
+        247
+      ],
+      "boundsAboveAlpha3": [
+        112,
+        116,
+        201,
+        207
+      ],
+      "marginRatios": [
+        0.35668789808917195,
+        0.36942675159235666,
+        0.35987261146496813,
+        0.34076433121019106
+      ],
+      "runtimeBoundsAboveAlpha3": [
+        112,
+        116,
+        201,
+        207
+      ],
+      "runtimeMarginRatios": [
+        0.35668789808917195,
+        0.36942675159235666,
+        0.35987261146496813,
+        0.34076433121019106
+      ],
+      "alphaSum": 207201,
+      "sha256": "233d36d7392d4cc13ee95af965278ac750f89cdfb5860abc5f21939b66d6c9dc"
+    }
+  ],
+  "manifestWarnings": [
+    {
+      "id": "cell_border_alpha",
+      "asset": "frame-02",
+      "value": 20,
+      "threshold": 16,
+      "file": "designs/production-v2/fx-guard/fx-guard.png"
+    },
+    {
+      "id": "cell_border_alpha",
+      "asset": "frame-06",
+      "value": 27,
+      "threshold": 16,
+      "file": "designs/production-v2/fx-guard/fx-guard.png"
+    }
+  ],
+  "sourceWarnings": [
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 2,
+      "value": 0.0,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-guard/fx-guard.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 3,
+      "value": 0.06369426751592357,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-guard/fx-guard.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 4,
+      "value": 0.044585987261146494,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-guard/fx-guard.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 5,
+      "value": 0.022364217252396165,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-guard/fx-guard.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 6,
+      "value": 0.0,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-guard/fx-guard.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 7,
+      "value": 0.025559105431309903,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-guard/fx-guard.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 8,
+      "value": 0.028662420382165606,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-guard/fx-guard.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 9,
+      "value": 0.05750798722044728,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-guard/fx-guard.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 10,
+      "value": 0.05750798722044728,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-guard/fx-guard.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 11,
+      "value": 0.11146496815286625,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-guard/fx-guard.png"
+    }
+  ],
+  "runtimeWarnings": [
+    {
+      "id": "runtime_margin_below_contract",
+      "frame": 2,
+      "value": 0.0,
+      "threshold": 0.12,
+      "file": "assets/fx/fx-guard/frame-02.png"
+    },
+    {
+      "id": "runtime_margin_below_contract",
+      "frame": 3,
+      "value": 0.06369426751592357,
+      "threshold": 0.12,
+      "file": "assets/fx/fx-guard/frame-03.png"
+    },
+    {
+      "id": "runtime_margin_below_contract",
+      "frame": 4,
+      "value": 0.044585987261146494,
+      "threshold": 0.12,
+      "file": "assets/fx/fx-guard/frame-04.png"
+    },
+    {
+      "id": "runtime_margin_below_contract",
+      "frame": 5,
+      "value": 0.022292993630573247,
+      "threshold": 0.12,
+      "file": "assets/fx/fx-guard/frame-05.png"
+    },
+    {
+      "id": "runtime_margin_below_contract",
+      "frame": 6,
+      "value": 0.0,
+      "threshold": 0.12,
+      "file": "assets/fx/fx-guard/frame-06.png"
+    },
+    {
+      "id": "runtime_margin_below_contract",
+      "frame": 7,
+      "value": 0.025477707006369428,
+      "threshold": 0.12,
+      "file": "assets/fx/fx-guard/frame-07.png"
+    },
+    {
+      "id": "runtime_margin_below_contract",
+      "frame": 8,
+      "value": 0.028662420382165606,
+      "threshold": 0.12,
+      "file": "assets/fx/fx-guard/frame-08.png"
+    },
+    {
+      "id": "runtime_margin_below_contract",
+      "frame": 9,
+      "value": 0.06050955414012739,
+      "threshold": 0.12,
+      "file": "assets/fx/fx-guard/frame-09.png"
+    },
+    {
+      "id": "runtime_margin_below_contract",
+      "frame": 10,
+      "value": 0.06050955414012739,
+      "threshold": 0.12,
+      "file": "assets/fx/fx-guard/frame-10.png"
+    },
+    {
+      "id": "runtime_margin_below_contract",
+      "frame": 11,
+      "value": 0.11146496815286625,
+      "threshold": 0.12,
+      "file": "assets/fx/fx-guard/frame-11.png"
+    }
+  ],
+  "sourceMarginContractPassed": false,
+  "runtimePaddingMarginPassed": false,
+  "numericPass": false,
+  "visualReviewStatus": "pending_actual_view",
+  "runtimeIntegrationVerified": false,
+  "actualModel": null,
+  "actualQuality": null
+}

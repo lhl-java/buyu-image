@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "longyu-barrel",
+  "name": "龙吟炮炮管",
+  "file": "assets/cannons/batch-2/longyu-barrel.png",
+  "sha256": "0deb74b5bf84ff8c1bec715f080164b1ebc4274e42e2007c042071c8474857c6",
+  "width": 512,
+  "height": 512,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/production-v1/cannon-parts-2/cannon-parts-2.png",
+  "derivedFrom": [
+    {
+      "file": "designs/production-v1/cannon-parts-2/cannon-parts-2.png",
+      "sha256": "d65100cb98ea0dda3bca4cd86aaec7710747cbae8da498273c62449013b270c3",
+      "generationRecord": "designs/production-v1/cannon-parts-2/cannon-parts-2.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_grid_crop",
+    "grid": {
+      "rows": 2,
+      "cols": 3
+    },
+    "sourceRect": [
+      1024,
+      512,
+      1536,
+      1024
+    ],
+    "cellCropRect": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+    "resized": false,
+    "upscaled": false
+  },
+  "anchor": [
+    0.5,
+    0.7
+  ],
+  "displaySize": [
+    160,
+    200
+  ],
+  "status": "static_asset_visual_reviewed_pending_user_review",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source generation record; no new model call for this slice."
+}

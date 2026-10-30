@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-01",
+  "name": "金龙锦鲤捕获 2/8",
+  "file": "assets/animations/34-jinlongli/capture/frame-01.png",
+  "sha256": "b8ace996c8c1d037d1d84ddf9b9906836140cf5ca392feb728e918c8f9c9eb11",
+  "width": 1000,
+  "height": 1000,
+  "format": "RGBA PNG",
+  "derivedAt": "2026-10-28T19:38:03.072431+00:00",
+  "nativeSource": "designs/motion-frames-v1/34-jinlongli/capture/34-jinlongli-capture-v1.png",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/34-jinlongli/capture/34-jinlongli-capture-v1.png",
+      "sha256": "8d0bae3b03be119e1e2f031099b55b3dcaefc1682e834ab45685d1c9dff60bea",
+      "generationRecord": "designs/motion-frames-v1/34-jinlongli/capture/34-jinlongli-capture-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_extraction_integer_eye_registration_and_padding",
+    "extraction": {
+      "type": "complete_native_actor_ownership",
+      "report": "designs/motion-frames-v1/34-jinlongli/capture/extract-v1.json",
+      "sourceRect": [
+        481,
+        158,
+        884,
+        419
+      ],
+      "evidence": {
+        "sourceFrame": 1,
+        "file": "designs/motion-frames-v1/34-jinlongli/capture/extract-v1-pose-01.png",
+        "sourceRect": [
+          481,
+          158,
+          884,
+          419
+        ],
+        "nominalSourceRect": [
+          444,
+          0,
+          887,
+          444
+        ],
+        "nominalGridCross": false,
+        "nativeVisibleSize": [
+          403,
+          261
+        ],
+        "ownedPixelCount": 78503,
+        "foreignPixelsRemovedFromCrop": 0,
+        "totalCanvasEdgeMaxAlpha": 0,
+        "nativeOwnedPixelsUnchanged": true,
+        "sourceMainAlphaComponent": 8
+      }
+    },
+    "sourceEyePoint": [
+      342.03846153846155,
+      102.76923076923077
+    ],
+    "globalSourceEye": [
+      823.0384615384615,
+      260.7692307692308
+    ],
+    "registrationOffset": [
+      338,
+      317
+    ],
+    "registeredCanvas": [
+      1000,
+      1000
+    ],
+    "targetEye": [
+      680,
+      420
+    ],
+    "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+    "sourcePixelsRoundTripVerified": true,
+    "resized": false,
+    "upscaled": false,
+    "rotated": false,
+    "poseWarped": false,
+    "newNativeDetailClaimed": false
+  },
+  "anchor": [
+    0.68,
+    0.42
+  ],
+  "rootPixels": [
+    680,
+    420
+  ],
+  "eyePixels": [
+    680,
+    420
+  ],
+  "registeredAlphaBBox": [
+    338,
+    317,
+    741,
+    578
+  ],
+  "registeredMinMargin": 0.259,
+  "status": "candidate_pending_playback_and_final_visual_review",
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceLandmarkEvidence": {
+    "type": "visible_eye_pupil_ROI_component_center",
+    "qa": "designs/motion-frames-v1/34-jinlongli/capture/source-v1-qa.json",
+    "sourceFrame": 1,
+    "candidateIndex": 0,
+    "detection": {
+      "roi": [
+        270,
+        175,
+        440,
+        335
+      ],
+      "darkMaxExclusive": 50,
+      "warmRAtLeastGAndB": true,
+      "alphaMinExclusive": 220,
+      "componentConnectivity": 4
+    },
+    "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review. Closed eyelid proxies are not true pupils and must be excluded from pixel-density calibration."
+  },
+  "displaySize": [
+    819.277108433735,
+    819.277108433735
+  ],
+  "bodyDisplayBox": [
+    340,
+    260
+  ],
+  "uniformDisplayScale": 0.8192771084337349,
+  "displaySizing": {
+    "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+    "sourceVisibleReference": [
+      415,
+      275
+    ],
+    "upscalingAllowed": false,
+    "crossClipDensityReview": "pending_common_head_scale_review"
+  },
+  "animation": {
+    "id": "34-jinlongli/capture",
+    "frames": 8,
+    "fps": 12,
+    "loop": false,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "durationsMs": [
+      83,
+      84,
+      83,
+      83,
+      84,
+      83,
+      83,
+      84
+    ],
+    "root": [
+      0.68,
+      0.42
+    ],
+    "sourceRoute": "builtin_native_AI_sheet_user_requested",
+    "sourcePixelsNeverResampled": true,
+    "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+    "phase": 1,
+    "durationMs": 84
+  }
+}

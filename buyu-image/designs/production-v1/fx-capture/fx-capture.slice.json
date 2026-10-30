@@ -1,0 +1,87 @@
+{
+  "source": "designs/production-v1/fx-capture/fx-capture.png",
+  "output": "assets/fx/fx-capture",
+  "rows": 4,
+  "cols": 4,
+  "items": [
+    {
+      "id": "frame-00",
+      "name": "fx-capture 0"
+    },
+    {
+      "id": "frame-01",
+      "name": "fx-capture 1"
+    },
+    {
+      "id": "frame-02",
+      "name": "fx-capture 2"
+    },
+    {
+      "id": "frame-03",
+      "name": "fx-capture 3"
+    },
+    {
+      "id": "frame-04",
+      "name": "fx-capture 4"
+    },
+    {
+      "id": "frame-05",
+      "name": "fx-capture 5"
+    },
+    {
+      "id": "frame-06",
+      "name": "fx-capture 6"
+    },
+    {
+      "id": "frame-07",
+      "name": "fx-capture 7"
+    },
+    {
+      "id": "frame-08",
+      "name": "fx-capture 8"
+    },
+    {
+      "id": "frame-09",
+      "name": "fx-capture 9"
+    },
+    {
+      "id": "frame-10",
+      "name": "fx-capture 10"
+    },
+    {
+      "id": "frame-11",
+      "name": "fx-capture 11"
+    },
+    {
+      "id": "frame-12",
+      "name": "fx-capture 12"
+    },
+    {
+      "id": "frame-13",
+      "name": "fx-capture 13"
+    },
+    {
+      "id": "frame-14",
+      "name": "fx-capture 14"
+    },
+    {
+      "id": "frame-15",
+      "name": "fx-capture 15"
+    }
+  ],
+  "keepCell": true,
+  "displaySize": [
+    192,
+    192
+  ],
+  "animation": {
+    "fps": 16,
+    "loop": false,
+    "order": "row-major",
+    "frames": 16,
+    "root": [
+      0.5,
+      0.5
+    ]
+  }
+}

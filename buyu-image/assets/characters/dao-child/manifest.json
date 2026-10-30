@@ -1,0 +1,41 @@
+{
+  "items": [
+    {
+      "id": "dao-child",
+      "name": "捕鱼道童",
+      "file": "assets/characters/dao-child/dao-child.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "a3d37b28c4703056c27c900fb66712f596049dbe2ac5b8cf42b40d2db6d574ae",
+      "anchor": [
+        0.5,
+        0.88
+      ],
+      "displaySize": [
+        280,
+        280
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "derivedFrom": [
+        {
+          "file": "designs/characters/fishing-dao-child-v1/fishing-dao-child-v1.png",
+          "sha256": "a3d37b28c4703056c27c900fb66712f596049dbe2ac5b8cf42b40d2db6d574ae",
+          "generationRecord": "designs/characters/fishing-dao-child-v1/fishing-dao-child-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "byte_identical_copy",
+        "resized": false,
+        "upscaled": false
+      }
+    }
+  ],
+  "warnings": [],
+  "complete": true,
+  "source": "designs/characters/fishing-dao-child-v1/fishing-dao-child-v1.png",
+  "status": "accepted_first_release_art",
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+  "acceptedAt": "2026-10-30T04:07:09.085600+00:00"
+}

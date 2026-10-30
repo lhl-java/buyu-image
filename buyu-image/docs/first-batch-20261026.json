@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-26",
+  "timezone": "America/New_York",
+  "projectRoot": "D:\\work\\buyu-image",
+  "status": "draft_pending_user_review",
+  "outputs": [
+    {
+      "file": "designs/ui/fishing-main-v1/fishing-main-v1.png",
+      "sha256": "957cfb67b8a26bde70cee652a1c0c4e4e5bcfa05597b6da47f1a73544419e9bf",
+      "width": 1672,
+      "height": 941,
+      "record": "designs/ui/fishing-main-v1/fishing-main-v1.png.generation.json",
+      "type": "ui_visual_draft"
+    },
+    {
+      "file": "designs/characters/fishing-dao-child-v1/fishing-dao-child-v1.png",
+      "sha256": "a3d37b28c4703056c27c900fb66712f596049dbe2ac5b8cf42b40d2db6d574ae",
+      "width": 1254,
+      "height": 1254,
+      "record": "designs/characters/fishing-dao-child-v1/fishing-dao-child-v1.png.generation.json",
+      "type": "character_visual_draft",
+      "alpha": true
+    }
+  ],
+  "checks": {
+    "selectedOutputsCopiedWithoutReencoding": true,
+    "sourceHashVerified": true,
+    "uiTextReviewed": true,
+    "characterFullBodyReviewed": true,
+    "characterAlphaAndLightDarkCompositesReviewed": true,
+    "modelAndQualityActualValues": "unconfirmed",
+    "upscaled": false
+  },
+  "assumptions": [
+    "Landscape fishing gameplay screen with one bottom-center cannon",
+    "Example resource amounts and action labels are visual mock data",
+    "First character preserves main-screen avatar identity"
+  ],
+  "formalRuntimeAssetsExported": false,
+  "clientIntegrated": false
+}

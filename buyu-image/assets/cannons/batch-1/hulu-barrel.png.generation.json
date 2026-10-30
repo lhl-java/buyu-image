@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "hulu-barrel",
+  "name": "葫芦炮炮管",
+  "file": "assets/cannons/batch-1/hulu-barrel.png",
+  "sha256": "88ec99466d144990b64137af047c5881c65c42e00c361781e4c91177c6c16214",
+  "width": 463,
+  "height": 513,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/production-v1/cannon-parts-1/cannon-parts-1.png",
+  "derivedFrom": [
+    {
+      "file": "designs/production-v1/cannon-parts-1/cannon-parts-1.png",
+      "sha256": "c7455e9365584a89f3e8771f96575a6a5f83171be179f1d55e5609da3c27e6a1",
+      "generationRecord": "designs/production-v1/cannon-parts-1/cannon-parts-1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_ownership_crop",
+    "grid": {
+      "rows": 2,
+      "cols": 3
+    },
+    "sourceRect": [
+      0,
+      479,
+      512,
+      1024
+    ],
+    "cellCropRect": [
+      42,
+      0,
+      505,
+      513
+    ],
+    "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+    "resized": false,
+    "upscaled": false
+  },
+  "anchor": [
+    0.5,
+    0.7
+  ],
+  "displaySize": [
+    160,
+    200
+  ],
+  "status": "static_asset_visual_reviewed_pending_user_review",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source generation record; no new model call for this slice."
+}

@@ -1,0 +1,551 @@
+{
+  "schemaVersion": 1,
+  "source": "designs/production-v1/gameplay-ornaments/gameplay-ornaments-v2.png",
+  "sourceWidth": 1254,
+  "sourceHeight": 1254,
+  "output": "assets/ornaments",
+  "items": [
+    {
+      "schemaVersion": 1,
+      "id": "aim-jade",
+      "name": "玉环准星",
+      "file": "assets/ornaments/aim-jade.png",
+      "sha256": "5cc39a3ab24e7709f1d68e2de69331186ea28b89119824d7dba8060c487fffa2",
+      "width": 275,
+      "height": 289,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/gameplay-ornaments/gameplay-ornaments-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/gameplay-ornaments/gameplay-ornaments-v2.png",
+          "sha256": "ac5c793caf0aa116e552d496bf3a716d73b0a5faf81d408a54daa22dd89ef6fc",
+          "generationRecord": "designs/production-v1/gameplay-ornaments/gameplay-ornaments-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_ownership_crop",
+        "grid": {
+          "rows": 3,
+          "cols": 3
+        },
+        "sourceRect": [
+          52,
+          67,
+          417,
+          450
+        ],
+        "cellCropRect": [
+          45,
+          47,
+          320,
+          336
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        112,
+        112
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "visualReview": {
+        "reviewedAt": "2026-10-26T20:44:05.205026+00:00",
+        "sourceAndContactSheetViewed": true,
+        "result": "pass_for_static_visual_asset",
+        "notes": "已实际查看源图及切片联系表：9件无字饰件顺序准确、轮廓完整、无跨格。两空心准星和水滴标中心采样Alpha为0；三甲奖章中心留空无数字。v2修订了留白，按实际带透明留边所有权矩形切片，不缩放。",
+        "runtimeIntegrationVerified": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "aim-gold",
+      "name": "金环锁定",
+      "file": "assets/ornaments/aim-gold.png",
+      "sha256": "db08214b0aa19fb877319c38ebb9d1f966eb8464579f7b680b53cd794654ca3c",
+      "width": 285,
+      "height": 275,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/gameplay-ornaments/gameplay-ornaments-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/gameplay-ornaments/gameplay-ornaments-v2.png",
+          "sha256": "ac5c793caf0aa116e552d496bf3a716d73b0a5faf81d408a54daa22dd89ef6fc",
+          "generationRecord": "designs/production-v1/gameplay-ornaments/gameplay-ornaments-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_ownership_crop",
+        "grid": {
+          "rows": 3,
+          "cols": 3
+        },
+        "sourceRect": [
+          439,
+          78,
+          816,
+          443
+        ],
+        "cellCropRect": [
+          46,
+          45,
+          331,
+          320
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        112,
+        112
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "visualReview": {
+        "reviewedAt": "2026-10-26T20:44:05.205026+00:00",
+        "sourceAndContactSheetViewed": true,
+        "result": "pass_for_static_visual_asset",
+        "notes": "已实际查看源图及切片联系表：9件无字饰件顺序准确、轮廓完整、无跨格。两空心准星和水滴标中心采样Alpha为0；三甲奖章中心留空无数字。v2修订了留白，按实际带透明留边所有权矩形切片，不缩放。",
+        "runtimeIntegrationVerified": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "skill-speed",
+      "name": "迅捷",
+      "file": "assets/ornaments/skill-speed.png",
+      "sha256": "f049f14f3a07959a9800f61369f0dd18da866b118cd319823766348a16dd51d4",
+      "width": 257,
+      "height": 259,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/gameplay-ornaments/gameplay-ornaments-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/gameplay-ornaments/gameplay-ornaments-v2.png",
+          "sha256": "ac5c793caf0aa116e552d496bf3a716d73b0a5faf81d408a54daa22dd89ef6fc",
+          "generationRecord": "designs/production-v1/gameplay-ornaments/gameplay-ornaments-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_ownership_crop",
+        "grid": {
+          "rows": 3,
+          "cols": 3
+        },
+        "sourceRect": [
+          847,
+          90,
+          1186,
+          433
+        ],
+        "cellCropRect": [
+          41,
+          42,
+          298,
+          301
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        96,
+        96
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "visualReview": {
+        "reviewedAt": "2026-10-26T20:44:05.205026+00:00",
+        "sourceAndContactSheetViewed": true,
+        "result": "pass_for_static_visual_asset",
+        "notes": "已实际查看源图及切片联系表：9件无字饰件顺序准确、轮廓完整、无跨格。两空心准星和水滴标中心采样Alpha为0；三甲奖章中心留空无数字。v2修订了留白，按实际带透明留边所有权矩形切片，不缩放。",
+        "runtimeIntegrationVerified": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "medal-gold",
+      "name": "金牌",
+      "file": "assets/ornaments/medal-gold.png",
+      "sha256": "951b772cd73a828d3d740684d7a30383219fbbf087d6da77cd1c6bceaa864483",
+      "width": 272,
+      "height": 301,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/gameplay-ornaments/gameplay-ornaments-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/gameplay-ornaments/gameplay-ornaments-v2.png",
+          "sha256": "ac5c793caf0aa116e552d496bf3a716d73b0a5faf81d408a54daa22dd89ef6fc",
+          "generationRecord": "designs/production-v1/gameplay-ornaments/gameplay-ornaments-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_ownership_crop",
+        "grid": {
+          "rows": 3,
+          "cols": 3
+        },
+        "sourceRect": [
+          54,
+          439,
+          414,
+          838
+        ],
+        "cellCropRect": [
+          44,
+          49,
+          316,
+          350
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        60,
+        60
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "visualReview": {
+        "reviewedAt": "2026-10-26T20:44:05.205026+00:00",
+        "sourceAndContactSheetViewed": true,
+        "result": "pass_for_static_visual_asset",
+        "notes": "已实际查看源图及切片联系表：9件无字饰件顺序准确、轮廓完整、无跨格。两空心准星和水滴标中心采样Alpha为0；三甲奖章中心留空无数字。v2修订了留白，按实际带透明留边所有权矩形切片，不缩放。",
+        "runtimeIntegrationVerified": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "medal-silver",
+      "name": "银牌",
+      "file": "assets/ornaments/medal-silver.png",
+      "sha256": "39bfebabf80fd30a65f1f5c938a6cdbcc39ae3a0afcce1fa619bc409c944ebb0",
+      "width": 269,
+      "height": 297,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/gameplay-ornaments/gameplay-ornaments-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/gameplay-ornaments/gameplay-ornaments-v2.png",
+          "sha256": "ac5c793caf0aa116e552d496bf3a716d73b0a5faf81d408a54daa22dd89ef6fc",
+          "generationRecord": "designs/production-v1/gameplay-ornaments/gameplay-ornaments-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_ownership_crop",
+        "grid": {
+          "rows": 3,
+          "cols": 3
+        },
+        "sourceRect": [
+          452,
+          444,
+          807,
+          839
+        ],
+        "cellCropRect": [
+          43,
+          49,
+          312,
+          346
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        60,
+        60
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "visualReview": {
+        "reviewedAt": "2026-10-26T20:44:05.205026+00:00",
+        "sourceAndContactSheetViewed": true,
+        "result": "pass_for_static_visual_asset",
+        "notes": "已实际查看源图及切片联系表：9件无字饰件顺序准确、轮廓完整、无跨格。两空心准星和水滴标中心采样Alpha为0；三甲奖章中心留空无数字。v2修订了留白，按实际带透明留边所有权矩形切片，不缩放。",
+        "runtimeIntegrationVerified": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "medal-bronze",
+      "name": "铜牌",
+      "file": "assets/ornaments/medal-bronze.png",
+      "sha256": "b64ba9d4362223111e5e4c8ad327c353697323fad564b92bc90f7545efe86e63",
+      "width": 270,
+      "height": 299,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/gameplay-ornaments/gameplay-ornaments-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/gameplay-ornaments/gameplay-ornaments-v2.png",
+          "sha256": "ac5c793caf0aa116e552d496bf3a716d73b0a5faf81d408a54daa22dd89ef6fc",
+          "generationRecord": "designs/production-v1/gameplay-ornaments/gameplay-ornaments-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_ownership_crop",
+        "grid": {
+          "rows": 3,
+          "cols": 3
+        },
+        "sourceRect": [
+          850,
+          442,
+          1208,
+          839
+        ],
+        "cellCropRect": [
+          44,
+          49,
+          314,
+          348
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        60,
+        60
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "visualReview": {
+        "reviewedAt": "2026-10-26T20:44:05.205026+00:00",
+        "sourceAndContactSheetViewed": true,
+        "result": "pass_for_static_visual_asset",
+        "notes": "已实际查看源图及切片联系表：9件无字饰件顺序准确、轮廓完整、无跨格。两空心准星和水滴标中心采样Alpha为0；三甲奖章中心留空无数字。v2修订了留白，按实际带透明留边所有权矩形切片，不缩放。",
+        "runtimeIntegrationVerified": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "rarity-star",
+      "name": "品质星",
+      "file": "assets/ornaments/rarity-star.png",
+      "sha256": "5eeeeec1ed80973c88345ea494f7c91e8ab1d01065ab92f0473fd243fe39c320",
+      "width": 249,
+      "height": 233,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/gameplay-ornaments/gameplay-ornaments-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/gameplay-ornaments/gameplay-ornaments-v2.png",
+          "sha256": "ac5c793caf0aa116e552d496bf3a716d73b0a5faf81d408a54daa22dd89ef6fc",
+          "generationRecord": "designs/production-v1/gameplay-ornaments/gameplay-ornaments-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_ownership_crop",
+        "grid": {
+          "rows": 3,
+          "cols": 3
+        },
+        "sourceRect": [
+          70,
+          862,
+          399,
+          1169
+        ],
+        "cellCropRect": [
+          40,
+          37,
+          289,
+          270
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        32,
+        32
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "visualReview": {
+        "reviewedAt": "2026-10-26T20:44:05.205026+00:00",
+        "sourceAndContactSheetViewed": true,
+        "result": "pass_for_static_visual_asset",
+        "notes": "已实际查看源图及切片联系表：9件无字饰件顺序准确、轮廓完整、无跨格。两空心准星和水滴标中心采样Alpha为0；三甲奖章中心留空无数字。v2修订了留白，按实际带透明留边所有权矩形切片，不缩放。",
+        "runtimeIntegrationVerified": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "brand-emblem",
+      "name": "锦鲤太极徽记",
+      "file": "assets/ornaments/brand-emblem.png",
+      "sha256": "d48fcc754d406587a86f9fe4d7f78860a52261987895b67a7a3034c49a8f6336",
+      "width": 264,
+      "height": 263,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/gameplay-ornaments/gameplay-ornaments-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/gameplay-ornaments/gameplay-ornaments-v2.png",
+          "sha256": "ac5c793caf0aa116e552d496bf3a716d73b0a5faf81d408a54daa22dd89ef6fc",
+          "generationRecord": "designs/production-v1/gameplay-ornaments/gameplay-ornaments-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_ownership_crop",
+        "grid": {
+          "rows": 3,
+          "cols": 3
+        },
+        "sourceRect": [
+          451,
+          839,
+          801,
+          1186
+        ],
+        "cellCropRect": [
+          43,
+          42,
+          307,
+          305
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        256,
+        256
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "visualReview": {
+        "reviewedAt": "2026-10-26T20:44:05.205026+00:00",
+        "sourceAndContactSheetViewed": true,
+        "result": "pass_for_static_visual_asset",
+        "notes": "已实际查看源图及切片联系表：9件无字饰件顺序准确、轮廓完整、无跨格。两空心准星和水滴标中心采样Alpha为0；三甲奖章中心留空无数字。v2修订了留白，按实际带透明留边所有权矩形切片，不缩放。",
+        "runtimeIntegrationVerified": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "stage-marker",
+      "name": "关卡标记",
+      "file": "assets/ornaments/stage-marker.png",
+      "sha256": "5f1ece07aa0b2679d119a29e19c474538f4dced5272dc81e5ce198b9f583f2e3",
+      "width": 208,
+      "height": 247,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/gameplay-ornaments/gameplay-ornaments-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/gameplay-ornaments/gameplay-ornaments-v2.png",
+          "sha256": "ac5c793caf0aa116e552d496bf3a716d73b0a5faf81d408a54daa22dd89ef6fc",
+          "generationRecord": "designs/production-v1/gameplay-ornaments/gameplay-ornaments-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_ownership_crop",
+        "grid": {
+          "rows": 3,
+          "cols": 3
+        },
+        "sourceRect": [
+          887,
+          844,
+          1159,
+          1171
+        ],
+        "cellCropRect": [
+          32,
+          40,
+          240,
+          287
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.96
+      ],
+      "displaySize": [
+        72,
+        96
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "visualReview": {
+        "reviewedAt": "2026-10-26T20:44:05.205026+00:00",
+        "sourceAndContactSheetViewed": true,
+        "result": "pass_for_static_visual_asset",
+        "notes": "已实际查看源图及切片联系表：9件无字饰件顺序准确、轮廓完整、无跨格。两空心准星和水滴标中心采样Alpha为0；三甲奖章中心留空无数字。v2修订了留白，按实际带透明留边所有权矩形切片，不缩放。",
+        "runtimeIntegrationVerified": false
+      }
+    }
+  ],
+  "warnings": [],
+  "complete": true,
+  "visualReview": {
+    "reviewedAt": "2026-10-26T20:44:05.205026+00:00",
+    "result": "pass_for_static_visual_asset",
+    "notes": "已实际查看源图及切片联系表：9件无字饰件顺序准确、轮廓完整、无跨格。两空心准星和水滴标中心采样Alpha为0；三甲奖章中心留空无数字。v2修订了留白，按实际带透明留边所有权矩形切片，不缩放。",
+    "runtimeIntegrationVerified": false
+  },
+  "status": "accepted_first_release_art",
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+  "acceptedAt": "2026-10-30T04:07:09.085600+00:00"
+}

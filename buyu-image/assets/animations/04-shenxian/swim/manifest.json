@@ -1,0 +1,1073 @@
+{
+  "schemaVersion": 1,
+  "source": "designs/motion-frames-v1/04-shenxian/swim/04-shenxian-swim-v1.png",
+  "sourceWidth": 1774,
+  "sourceHeight": 887,
+  "output": "assets/animations/04-shenxian/swim",
+  "id": "04-shenxian",
+  "action": "swim",
+  "items": [
+    {
+      "schemaVersion": 1,
+      "id": "frame-00",
+      "file": "assets/animations/04-shenxian/swim/frame-00.png",
+      "sha256": "3eb14f00df1a9a413aaf55839e595a384d472f8c4ae3ed762428cfdcfccf8a2d",
+      "width": 672,
+      "height": 672,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/04-shenxian/swim/04-shenxian-swim-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/04-shenxian/swim/04-shenxian-swim-v1.png",
+          "sha256": "febe40c0c8767e4815421c661bf4b10281a7a131099ce84c9ae34c52831ba19e",
+          "generationRecord": "designs/motion-frames-v1/04-shenxian/swim/04-shenxian-swim-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          73,
+          106,
+          445,
+          434
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          372,
+          328
+        ],
+        "registrationOffset": [
+          132,
+          164
+        ],
+        "registeredCanvas": [
+          672,
+          672
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            314.2133333333333,
+            131.79666666666665
+          ],
+          "sourcePointRounded": [
+            314,
+            132
+          ],
+          "targetPoint": [
+            446,
+            296
+          ],
+          "method": "RGBmax<55 and A>220 pupil component; restricted to manually placed radius14px ROI and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          0,
+          0,
+          444,
+          444
+        ],
+        "nominalGridBorderAlpha": 1,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        336,
+        336
+      ],
+      "eyePixels": [
+        446,
+        296
+      ],
+      "displaySize": [
+        172.3076923076923,
+        172.3076923076923
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.2564102564102564,
+      "scaleReference": "rest frame00 native visible box",
+      "registeredAlphaBBox": [
+        140,
+        172,
+        496,
+        484
+      ],
+      "registeredMinMargin": 0.20833333333333334,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-01",
+      "file": "assets/animations/04-shenxian/swim/frame-01.png",
+      "sha256": "7b8e85ac5b6150f13382542f61fd63b3b7953f8a536caa0f286a5c141d6ec69f",
+      "width": 672,
+      "height": 672,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/04-shenxian/swim/04-shenxian-swim-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/04-shenxian/swim/04-shenxian-swim-v1.png",
+          "sha256": "febe40c0c8767e4815421c661bf4b10281a7a131099ce84c9ae34c52831ba19e",
+          "generationRecord": "designs/motion-frames-v1/04-shenxian/swim/04-shenxian-swim-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          499,
+          75,
+          885,
+          446
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          386,
+          371
+        ],
+        "registrationOffset": [
+          116,
+          133
+        ],
+        "registeredCanvas": [
+          672,
+          672
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            330.3365079365079,
+            162.64761904761906
+          ],
+          "sourcePointRounded": [
+            330,
+            163
+          ],
+          "targetPoint": [
+            446,
+            296
+          ],
+          "method": "RGBmax<55 and A>220 pupil component; restricted to manually placed radius14px ROI and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          444,
+          0,
+          887,
+          444
+        ],
+        "nominalGridBorderAlpha": 1,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        336,
+        336
+      ],
+      "eyePixels": [
+        446,
+        296
+      ],
+      "displaySize": [
+        172.3076923076923,
+        172.3076923076923
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.2564102564102564,
+      "scaleReference": "rest frame00 native visible box",
+      "registeredAlphaBBox": [
+        124,
+        141,
+        494,
+        496
+      ],
+      "registeredMinMargin": 0.18452380952380953,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-02",
+      "file": "assets/animations/04-shenxian/swim/frame-02.png",
+      "sha256": "e9427161d45a3da2716b42ede72ddbf6205a6cb731aecea9859a48a22eae73b6",
+      "width": 672,
+      "height": 672,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/04-shenxian/swim/04-shenxian-swim-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/04-shenxian/swim/04-shenxian-swim-v1.png",
+          "sha256": "febe40c0c8767e4815421c661bf4b10281a7a131099ce84c9ae34c52831ba19e",
+          "generationRecord": "designs/motion-frames-v1/04-shenxian/swim/04-shenxian-swim-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          921,
+          32,
+          1296,
+          440
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          375,
+          408
+        ],
+        "registrationOffset": [
+          127,
+          90
+        ],
+        "registeredCanvas": [
+          672,
+          672
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            318.96894409937886,
+            205.69565217391303
+          ],
+          "sourcePointRounded": [
+            319,
+            206
+          ],
+          "targetPoint": [
+            446,
+            296
+          ],
+          "method": "RGBmax<55 and A>220 pupil component; restricted to manually placed radius14px ROI and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          887,
+          0,
+          1330,
+          444
+        ],
+        "nominalGridBorderAlpha": 1,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        336,
+        336
+      ],
+      "eyePixels": [
+        446,
+        296
+      ],
+      "displaySize": [
+        172.3076923076923,
+        172.3076923076923
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.2564102564102564,
+      "scaleReference": "rest frame00 native visible box",
+      "registeredAlphaBBox": [
+        135,
+        98,
+        494,
+        490
+      ],
+      "registeredMinMargin": 0.14583333333333334,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-03",
+      "file": "assets/animations/04-shenxian/swim/frame-03.png",
+      "sha256": "cd454bd042f19a2666c0be07afb0abdd6a803fea731b000c2a028546a21d4653",
+      "width": 672,
+      "height": 672,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/04-shenxian/swim/04-shenxian-swim-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/04-shenxian/swim/04-shenxian-swim-v1.png",
+          "sha256": "febe40c0c8767e4815421c661bf4b10281a7a131099ce84c9ae34c52831ba19e",
+          "generationRecord": "designs/motion-frames-v1/04-shenxian/swim/04-shenxian-swim-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          1358,
+          79,
+          1739,
+          429
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          381,
+          350
+        ],
+        "registrationOffset": [
+          124,
+          137
+        ],
+        "registeredCanvas": [
+          672,
+          672
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            322.32424242424236,
+            158.76666666666668
+          ],
+          "sourcePointRounded": [
+            322,
+            159
+          ],
+          "targetPoint": [
+            446,
+            296
+          ],
+          "method": "RGBmax<55 and A>220 pupil component; restricted to manually placed radius14px ROI and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          1330,
+          0,
+          1774,
+          444
+        ],
+        "nominalGridBorderAlpha": 1,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        336,
+        336
+      ],
+      "eyePixels": [
+        446,
+        296
+      ],
+      "displaySize": [
+        172.3076923076923,
+        172.3076923076923
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.2564102564102564,
+      "scaleReference": "rest frame00 native visible box",
+      "registeredAlphaBBox": [
+        132,
+        145,
+        497,
+        479
+      ],
+      "registeredMinMargin": 0.19642857142857142,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-04",
+      "file": "assets/animations/04-shenxian/swim/frame-04.png",
+      "sha256": "622122a3f419706f302057c2a8e18c9b10463607649a87121f584deae159a072",
+      "width": 672,
+      "height": 672,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/04-shenxian/swim/04-shenxian-swim-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/04-shenxian/swim/04-shenxian-swim-v1.png",
+          "sha256": "febe40c0c8767e4815421c661bf4b10281a7a131099ce84c9ae34c52831ba19e",
+          "generationRecord": "designs/motion-frames-v1/04-shenxian/swim/04-shenxian-swim-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          56,
+          491,
+          444,
+          837
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          388,
+          346
+        ],
+        "registrationOffset": [
+          114,
+          160
+        ],
+        "registeredCanvas": [
+          672,
+          672
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            332.42105263157896,
+            136.0488721804511
+          ],
+          "sourcePointRounded": [
+            332,
+            136
+          ],
+          "targetPoint": [
+            446,
+            296
+          ],
+          "method": "RGBmax<55 and A>220 pupil component; restricted to manually placed radius14px ROI and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          0,
+          444,
+          444,
+          887
+        ],
+        "nominalGridBorderAlpha": 1,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        336,
+        336
+      ],
+      "eyePixels": [
+        446,
+        296
+      ],
+      "displaySize": [
+        172.3076923076923,
+        172.3076923076923
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.2564102564102564,
+      "scaleReference": "rest frame00 native visible box",
+      "registeredAlphaBBox": [
+        122,
+        168,
+        494,
+        498
+      ],
+      "registeredMinMargin": 0.18154761904761904,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-05",
+      "file": "assets/animations/04-shenxian/swim/frame-05.png",
+      "sha256": "71c8df3fffb564ea3a63aa38616d1e73e31a4fa3a6ff9dbb87db17658f0f22a3",
+      "width": 672,
+      "height": 672,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/04-shenxian/swim/04-shenxian-swim-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/04-shenxian/swim/04-shenxian-swim-v1.png",
+          "sha256": "febe40c0c8767e4815421c661bf4b10281a7a131099ce84c9ae34c52831ba19e",
+          "generationRecord": "designs/motion-frames-v1/04-shenxian/swim/04-shenxian-swim-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          501,
+          502,
+          879,
+          814
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          378,
+          312
+        ],
+        "registrationOffset": [
+          123,
+          170
+        ],
+        "registeredCanvas": [
+          672,
+          672
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            323.32993197278915,
+            126.48299319727892
+          ],
+          "sourcePointRounded": [
+            323,
+            126
+          ],
+          "targetPoint": [
+            446,
+            296
+          ],
+          "method": "RGBmax<55 and A>220 pupil component; restricted to manually placed radius14px ROI and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          444,
+          444,
+          887,
+          887
+        ],
+        "nominalGridBorderAlpha": 1,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        336,
+        336
+      ],
+      "eyePixels": [
+        446,
+        296
+      ],
+      "displaySize": [
+        172.3076923076923,
+        172.3076923076923
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.2564102564102564,
+      "scaleReference": "rest frame00 native visible box",
+      "registeredAlphaBBox": [
+        131,
+        178,
+        493,
+        474
+      ],
+      "registeredMinMargin": 0.1949404761904762,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-06",
+      "file": "assets/animations/04-shenxian/swim/frame-06.png",
+      "sha256": "7f4a3815637413d3942293821f2c9e452eb59e40884d7db6f42bbd6b444f49b2",
+      "width": 672,
+      "height": 672,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/04-shenxian/swim/04-shenxian-swim-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/04-shenxian/swim/04-shenxian-swim-v1.png",
+          "sha256": "febe40c0c8767e4815421c661bf4b10281a7a131099ce84c9ae34c52831ba19e",
+          "generationRecord": "designs/motion-frames-v1/04-shenxian/swim/04-shenxian-swim-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          923,
+          509,
+          1296,
+          843
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          373,
+          334
+        ],
+        "registrationOffset": [
+          127,
+          177
+        ],
+        "registeredCanvas": [
+          672,
+          672
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            319.2249999999999,
+            119.1464285714286
+          ],
+          "sourcePointRounded": [
+            319,
+            119
+          ],
+          "targetPoint": [
+            446,
+            296
+          ],
+          "method": "RGBmax<55 and A>220 pupil component; restricted to manually placed radius14px ROI and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          887,
+          444,
+          1330,
+          887
+        ],
+        "nominalGridBorderAlpha": 1,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        336,
+        336
+      ],
+      "eyePixels": [
+        446,
+        296
+      ],
+      "displaySize": [
+        172.3076923076923,
+        172.3076923076923
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.2564102564102564,
+      "scaleReference": "rest frame00 native visible box",
+      "registeredAlphaBBox": [
+        135,
+        185,
+        492,
+        503
+      ],
+      "registeredMinMargin": 0.20089285714285715,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-07",
+      "file": "assets/animations/04-shenxian/swim/frame-07.png",
+      "sha256": "1fbd714a78d5cf708be5ce37534ea7b666a571131fab8d8ad2a6a4041d8d040b",
+      "width": 672,
+      "height": 672,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/04-shenxian/swim/04-shenxian-swim-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/04-shenxian/swim/04-shenxian-swim-v1.png",
+          "sha256": "febe40c0c8767e4815421c661bf4b10281a7a131099ce84c9ae34c52831ba19e",
+          "generationRecord": "designs/motion-frames-v1/04-shenxian/swim/04-shenxian-swim-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          1365,
+          484,
+          1739,
+          838
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          374,
+          354
+        ],
+        "registrationOffset": [
+          127,
+          153
+        ],
+        "registeredCanvas": [
+          672,
+          672
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            318.8795986622074,
+            143.45819397993307
+          ],
+          "sourcePointRounded": [
+            319,
+            143
+          ],
+          "targetPoint": [
+            446,
+            296
+          ],
+          "method": "RGBmax<55 and A>220 pupil component; restricted to manually placed radius14px ROI and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          1330,
+          444,
+          1774,
+          887
+        ],
+        "nominalGridBorderAlpha": 1,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        336,
+        336
+      ],
+      "eyePixels": [
+        446,
+        296
+      ],
+      "displaySize": [
+        172.3076923076923,
+        172.3076923076923
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.2564102564102564,
+      "scaleReference": "rest frame00 native visible box",
+      "registeredAlphaBBox": [
+        135,
+        161,
+        493,
+        499
+      ],
+      "registeredMinMargin": 0.20089285714285715,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    }
+  ],
+  "sourceRects": [
+    [
+      73,
+      106,
+      445,
+      434
+    ],
+    [
+      499,
+      75,
+      885,
+      446
+    ],
+    [
+      921,
+      32,
+      1296,
+      440
+    ],
+    [
+      1358,
+      79,
+      1739,
+      429
+    ],
+    [
+      56,
+      491,
+      444,
+      837
+    ],
+    [
+      501,
+      502,
+      879,
+      814
+    ],
+    [
+      923,
+      509,
+      1296,
+      843
+    ],
+    [
+      1365,
+      484,
+      1739,
+      838
+    ]
+  ],
+  "sharedCanvas": [
+    672,
+    672
+  ],
+  "root": [
+    0.5,
+    0.5
+  ],
+  "rootPixels": [
+    336,
+    336
+  ],
+  "eyePixels": [
+    446,
+    296
+  ],
+  "fps": 12,
+  "loop": true,
+  "durationsMs": [
+    83,
+    84,
+    83,
+    83,
+    84,
+    83,
+    83,
+    84
+  ],
+  "displaySize": [
+    172.3076923076923,
+    172.3076923076923
+  ],
+  "bodyDisplayBox": [
+    120,
+    80
+  ],
+  "uniformDisplayScale": 0.2564102564102564,
+  "displayScaleReference": {
+    "frame": 0,
+    "restVisibleBox": [
+      356,
+      312
+    ],
+    "actualRestDisplayBox": [
+      91.28205128205127,
+      80.0
+    ]
+  },
+  "warnings": [],
+  "runtimeMarginWarnings": [],
+  "sourceMarginWarnings": [
+    {
+      "frame": 0,
+      "actual": 0.015765765765765764,
+      "required": 0.12
+    },
+    {
+      "frame": 1,
+      "actual": 0.013513513513513514,
+      "required": 0.12
+    },
+    {
+      "frame": 2,
+      "actual": 0.02702702702702703,
+      "required": 0.12
+    },
+    {
+      "frame": 3,
+      "actual": 0.0518018018018018,
+      "required": 0.12
+    },
+    {
+      "frame": 4,
+      "actual": 0.018018018018018018,
+      "required": 0.12
+    },
+    {
+      "frame": 5,
+      "actual": 0.03611738148984198,
+      "required": 0.12
+    },
+    {
+      "frame": 6,
+      "actual": 0.09480812641083522,
+      "required": 0.12
+    },
+    {
+      "frame": 7,
+      "actual": 0.09684684684684684,
+      "required": 0.12
+    }
+  ],
+  "animation": {
+    "frames": 8,
+    "fps": 12,
+    "loop": true,
+    "durationsMs": [
+      83,
+      84,
+      83,
+      83,
+      84,
+      83,
+      83,
+      84
+    ],
+    "order": "row-major",
+    "root": [
+      0.5,
+      0.5
+    ],
+    "rootPixels": [
+      336,
+      336
+    ],
+    "eyePixels": [
+      446,
+      296
+    ],
+    "sharedCanvas": [
+      672,
+      672
+    ],
+    "phaseDegrees": [
+      0,
+      45,
+      90,
+      135,
+      180,
+      225,
+      270,
+      315
+    ],
+    "poseMeaning": "8-phase swim cycle",
+    "identityStatus": "pending_root_visual",
+    "motionStatus": "pending_root_visual",
+    "registrationStatus": "producer_pupil_registered_pending_root_visual",
+    "playbackStatus": "pending_Unity",
+    "timingNote": "12FPS authoritative; integer durations cumulative-boundary rounded",
+    "releaseReady": true
+  },
+  "status": "accepted_first_release_art",
+  "complete": true,
+  "qa": {
+    "trueAlpha": true,
+    "actualPupilROIReviewed": true,
+    "registeredPixelRoundTrip": true,
+    "minimumRuntimeMargin": 0.14583333333333334,
+    "sourceMarginStatus": "nominal_grid_warnings_preserved; complete_ownership_and_registered_margin_verified",
+    "runtimeMarginStatus": "pass",
+    "producerVisualNote": "Black/gold striped identity; long dorsal/anal tips and tail articulate. Black face bands excluded from pupil ROI. Actual native/pupil ROI inspected. Root visual and Unity playback pending.",
+    "rootVisualStatus": "pending",
+    "playbackStatus": "pending_Unity",
+    "producerLightDarkAlphaCompositeActuallyViewed": true,
+    "producerRegisteredPoseStillReview": "candidate_pass",
+    "producerPoseEvidence": "Black/gold striped identity; long dorsal/anal tips and tail articulate. Black face bands excluded from pupil ROI.",
+    "hashUniquenessIsNotMotionEvidence": true,
+    "producerReviewedAt": "2026-10-28T18:52:01.296582+00:00",
+    "originalNominalGridMarginStatus": "fail_preserved"
+  },
+  "nominalGridBorderWarnings": [],
+  "ownershipWarnings": [],
+  "clipDensityAdjustment": null,
+  "bodyRootOffsetFromEye": [
+    -110,
+    40
+  ],
+  "producerStage": "candidate_ready_for_root_visual",
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+  "acceptedAt": "2026-10-30T04:07:09.085600+00:00",
+  "releaseReady": true,
+  "playbackReview": "docs/UNITY_FINAL_ACCEPTANCE.json"
+}

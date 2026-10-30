@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-01",
+  "file": "assets/animations/11-yinlin/capture/frame-01.png",
+  "sha256": "0a022cf418da48a239df02d6af0ead61d3a3cfb71ea8296fdfcf6f9dacb77d39",
+  "width": 640,
+  "height": 640,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/motion-frames-v1/11-yinlin/capture/11-yinlin-capture-v1.png",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/11-yinlin/capture/11-yinlin-capture-v1.png",
+      "sha256": "dfb1785234ed10ab4c99f4ece5429042b76f3ea5e154114a29721259d46fe212",
+      "generationRecord": "designs/motion-frames-v1/11-yinlin/capture/11-yinlin-capture-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_grid_crop_integer_pupil_registration",
+    "sourceRect": [
+      464,
+      168,
+      893,
+      429
+    ],
+    "cellCropRect": [
+      0,
+      0,
+      429,
+      261
+    ],
+    "registrationOffset": [
+      75,
+      183
+    ],
+    "registeredCanvas": [
+      640,
+      640
+    ],
+    "registrationReference": {
+      "type": "black_pupil_component_centroid",
+      "sourcePointFloat": [
+        364.860248447205,
+        117.00310559006209
+      ],
+      "sourcePointRounded": [
+        365,
+        117
+      ],
+      "targetPoint": [
+        440,
+        300
+      ],
+      "method": "RGBmax<55 and A>220 pupil component; restricted to local radius22px and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+      "roiActuallyInspected": true
+    },
+    "resized": false,
+    "upscaled": false,
+    "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+    "sourcePixelsRoundTripVerified": true,
+    "nominalGridRect": [
+      444,
+      0,
+      887,
+      444
+    ],
+    "nominalGridBorderAlpha": 2,
+    "ownershipType": "complete_nonoverlapping_pose_rectangle",
+    "foreignFishAlphaPixels": 0,
+    "allAssignedPixelsInsideRect": true
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "rootPixels": [
+    320,
+    320
+  ],
+  "eyePixels": [
+    440,
+    300
+  ],
+  "displaySize": [
+    196.41943734015345,
+    196.41943734015345
+  ],
+  "bodyDisplayBox": [
+    120,
+    80
+  ],
+  "uniformDisplayScale": 0.3069053708439898,
+  "scaleReference": "assets/animations/11-yinlin/swim/manifest.json",
+  "registeredAlphaBBox": [
+    83,
+    191,
+    496,
+    436
+  ],
+  "registeredMinMargin": 0.1296875,
+  "status": "producer_candidate_pending_root_visual",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+  "clipDensityAdjustment": null,
+  "producerLightDarkStillReview": "viewed_candidate_pass"
+}

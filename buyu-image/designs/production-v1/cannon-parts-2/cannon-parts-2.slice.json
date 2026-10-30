@@ -1,0 +1,87 @@
+{
+  "source": "designs/production-v1/cannon-parts-2/cannon-parts-2.png",
+  "output": "assets/cannons/batch-2",
+  "rows": 2,
+  "cols": 3,
+  "items": [
+    {
+      "id": "leizhen-base",
+      "name": "雷霆炮底座",
+      "description": "purple gold thunder jade circular cannon pedestal, directly top down",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        160,
+        160
+      ]
+    },
+    {
+      "id": "hanjing-base",
+      "name": "玄冰炮底座",
+      "description": "ice cyan crystal ivory circular cannon pedestal, directly top down",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        160,
+        160
+      ]
+    },
+    {
+      "id": "longyu-base",
+      "name": "龙吟炮底座",
+      "description": "jade dragon gold ivory circular cannon pedestal, directly top down",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        160,
+        160
+      ]
+    },
+    {
+      "id": "leizhen-barrel",
+      "name": "雷霆炮炮管",
+      "description": "purple gold thunder jade upright vertical barrel pointing to twelve o clock, no base",
+      "anchor": [
+        0.5,
+        0.7
+      ],
+      "displaySize": [
+        160,
+        200
+      ]
+    },
+    {
+      "id": "hanjing-barrel",
+      "name": "玄冰炮炮管",
+      "description": "ice cyan crystal ivory upright vertical barrel pointing to twelve o clock, no base",
+      "anchor": [
+        0.5,
+        0.7
+      ],
+      "displaySize": [
+        160,
+        200
+      ]
+    },
+    {
+      "id": "longyu-barrel",
+      "name": "龙吟炮炮管",
+      "description": "jade dragon gold ivory upright vertical barrel pointing to twelve o clock, no base",
+      "anchor": [
+        0.5,
+        0.7
+      ],
+      "displaySize": [
+        160,
+        200
+      ]
+    }
+  ],
+  "keepCell": true
+}

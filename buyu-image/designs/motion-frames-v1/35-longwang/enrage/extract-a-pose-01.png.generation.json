@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/motion-frames-v1/35-longwang/enrage/extract-a-pose-01.png",
+  "sha256": "39756beba32ab02228336a291a5e3d8fd800d5aa33140c69996383fca2d5c586",
+  "width": 502,
+  "height": 446,
+  "format": "RGBA PNG",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/35-longwang/enrage/enrage-a-contained-v2.png",
+      "sha256": "7257dbfe250f2ceb31a8e9a6861c45b9786ef83058c289e94067cef29b09d284",
+      "generationRecord": "designs/motion-frames-v1/35-longwang/enrage/enrage-a-contained-v2.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_complete_actor_ownership_crop",
+    "evidence": {
+      "sourceFrame": 1,
+      "file": "designs/motion-frames-v1/35-longwang/enrage/extract-a-pose-01.png",
+      "sourceRect": [
+        703,
+        195,
+        1205,
+        641
+      ],
+      "nominalSourceRect": [
+        627,
+        0,
+        1254,
+        627
+      ],
+      "nominalGridCross": true,
+      "nativeVisibleSize": [
+        502,
+        446
+      ],
+      "ownedPixelCount": 145700,
+      "foreignPixelsRemovedFromCrop": 0,
+      "totalCanvasEdgeMaxAlpha": 0,
+      "nativeOwnedPixelsUnchanged": true,
+      "sourceMainAlphaComponent": 1
+    },
+    "alphaCleanup": "alpha<=3 discarded, other owned RGBA unchanged",
+    "resized": false,
+    "upscaled": false,
+    "newNativeDetailClaimed": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "intermediate_pending_semantic_review"
+}

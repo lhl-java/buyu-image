@@ -1,0 +1,176 @@
+{
+  "source": "designs/production-v2/fx-gather/fx-gather-contained.png",
+  "output": "assets/fx/fx-gather",
+  "rows": 4,
+  "cols": 4,
+  "items": [
+    {
+      "id": "frame-00",
+      "name": "聚鱼金鱼旋流 0",
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "frame-01",
+      "name": "聚鱼金鱼旋流 1",
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "frame-02",
+      "name": "聚鱼金鱼旋流 2",
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "frame-03",
+      "name": "聚鱼金鱼旋流 3",
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "frame-04",
+      "name": "聚鱼金鱼旋流 4",
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "frame-05",
+      "name": "聚鱼金鱼旋流 5",
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "frame-06",
+      "name": "聚鱼金鱼旋流 6",
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "frame-07",
+      "name": "聚鱼金鱼旋流 7",
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "frame-08",
+      "name": "聚鱼金鱼旋流 8",
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "frame-09",
+      "name": "聚鱼金鱼旋流 9",
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "frame-10",
+      "name": "聚鱼金鱼旋流 10",
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "frame-11",
+      "name": "聚鱼金鱼旋流 11",
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "frame-12",
+      "name": "聚鱼金鱼旋流 12",
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "frame-13",
+      "name": "聚鱼金鱼旋流 13",
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "frame-14",
+      "name": "聚鱼金鱼旋流 14",
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "frame-15",
+      "name": "聚鱼金鱼旋流 15",
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    }
+  ],
+  "keepCell": true,
+  "displaySize": [
+    192,
+    192
+  ],
+  "animation": {
+    "fps": 16,
+    "loop": false,
+    "order": "row-major",
+    "frames": 16,
+    "root": [
+      0.5,
+      0.5
+    ],
+    "durationMs": 1000,
+    "role": "skill_one_shot"
+  },
+  "postprocess": {
+    "script": "designs/production-v2/Finish-SkillFx.py",
+    "arguments": [
+      "fx-gather",
+      "--pad",
+      "40"
+    ],
+    "nativeNormalizedFrame": [
+      314,
+      314
+    ],
+    "runtimeCanvas": [
+      394,
+      394
+    ],
+    "pad": [
+      40,
+      40,
+      40,
+      40
+    ],
+    "resampled": false
+  }
+}

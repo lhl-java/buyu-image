@@ -1,0 +1,69 @@
+{
+  "source": "designs/production-v1/fish-sheet-6/fish-sheet-6-contained.png",
+  "output": "assets/fish/batch-6",
+  "rows": 2,
+  "cols": 3,
+  "items": [
+    {
+      "id": "31-bingjing",
+      "name": "冰晶鲨",
+      "description": "icy blue chibi shark with crystal fin, broad clean silhouette",
+      "tier": "elite",
+      "displaySize": [
+        240,
+        180
+      ]
+    },
+    {
+      "id": "32-honglian",
+      "name": "红莲鳐",
+      "description": "large crimson manta with lotus motifs and ivory belly",
+      "tier": "elite",
+      "displaySize": [
+        240,
+        180
+      ]
+    },
+    {
+      "id": "33-xuanwu",
+      "name": "玄武灵龟",
+      "description": "elite large dark-jade tortoise with refined gold cloud armor, no snakes",
+      "tier": "elite",
+      "displaySize": [
+        240,
+        180
+      ]
+    },
+    {
+      "id": "34-jinlongli",
+      "name": "金龙锦鲤",
+      "description": "boss grand gold and red dragon koi with jade whiskers and crownlike fin",
+      "tier": "boss",
+      "displaySize": [
+        340,
+        260
+      ]
+    },
+    {
+      "id": "35-longwang",
+      "name": "龙王海龙",
+      "description": "boss serpentine turquoise aquatic dragon with ivory antler horns and pearl, chibi rounded head",
+      "tier": "boss",
+      "displaySize": [
+        340,
+        260
+      ]
+    },
+    {
+      "id": "36-xuanjing",
+      "name": "玄海巨鲸",
+      "description": "boss massive rounded navy whale with soft jade cloud markings and ivory belly",
+      "tier": "boss",
+      "displaySize": [
+        340,
+        260
+      ]
+    }
+  ],
+  "keepCell": false
+}

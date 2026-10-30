@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-05",
+  "file": "assets/animations/03-chiyu/capture/frame-05.png",
+  "sha256": "eb3d2a103a19570913f483de1ec8127c220d270255dfcfc7a93aaee8263ee038",
+  "width": 800,
+  "height": 800,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/motion-frames-v1/03-chiyu/capture/03-chiyu-capture-v3.png",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/03-chiyu/capture/03-chiyu-capture-v3.png",
+      "sha256": "9ce2448d7b64de9f6b58ad243696a7bcf3938fe5860cc3149bcd3f82d3cf5f6a",
+      "generationRecord": "designs/motion-frames-v1/03-chiyu/capture/03-chiyu-capture-v3.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_grid_crop_integer_pupil_registration",
+    "sourceRect": [
+      461,
+      536,
+      895,
+      847
+    ],
+    "cellCropRect": [
+      0,
+      0,
+      434,
+      311
+    ],
+    "registrationOffset": [
+      115,
+      286
+    ],
+    "registeredCanvas": [
+      800,
+      800
+    ],
+    "registrationReference": {
+      "type": "black_pupil_component_centroid",
+      "sourcePointFloat": [
+        364.5818713450292,
+        83.66666666666663
+      ],
+      "sourcePointRounded": [
+        365,
+        84
+      ],
+      "targetPoint": [
+        480,
+        370
+      ],
+      "method": "RGBmax<55 and A>220 pupil component; restricted to manually placed radius22px ROI and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+      "roiActuallyInspected": true
+    },
+    "resized": false,
+    "upscaled": false,
+    "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+    "sourcePixelsRoundTripVerified": true,
+    "nominalGridRect": [
+      444,
+      444,
+      887,
+      887
+    ],
+    "nominalGridBorderAlpha": 4,
+    "ownershipType": "complete_nonoverlapping_pose_rectangle",
+    "foreignFishAlphaPixels": 0,
+    "allAssignedPixelsInsideRect": true
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "rootPixels": [
+    400,
+    400
+  ],
+  "eyePixels": [
+    480,
+    370
+  ],
+  "displaySize": [
+    214.76510067114094,
+    214.76510067114094
+  ],
+  "bodyDisplayBox": [
+    120,
+    80
+  ],
+  "uniformDisplayScale": 0.2684563758389262,
+  "scaleReference": "assets/animations/03-chiyu/swim/manifest.json",
+  "registeredAlphaBBox": [
+    123,
+    294,
+    541,
+    589
+  ],
+  "registeredMinMargin": 0.15375,
+  "status": "producer_candidate_pending_root_visual",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+  "clipDensityAdjustment": null,
+  "producerLightDarkStillReview": "viewed_candidate_pass"
+}

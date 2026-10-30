@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/scenes/scene-deep/scene-deep.png",
+  "sha256": "ff030a33b8ae67a33fe767e82396f8387ad9a0be844370bea518908d3936c05f",
+  "width": 1672,
+  "height": 941,
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "designs/production-v1/scene-deep/scene-deep-v2.png",
+      "sha256": "ff030a33b8ae67a33fe767e82396f8387ad9a0be844370bea518908d3936c05f",
+      "generationRecord": "designs/production-v1/scene-deep/scene-deep-v2.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "byte_identical_copy",
+    "resized": false,
+    "upscaled": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See original generation record; no new model call for export.",
+  "status": "prepared_visual_reviewed_pending_user_review"
+}

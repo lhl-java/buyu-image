@@ -1,0 +1,1430 @@
+{
+  "schemaVersion": 1,
+  "source": "designs/production-v2/fx-gather/fx-gather-contained.png",
+  "sourceWidth": 1254,
+  "sourceHeight": 1254,
+  "output": "assets/fx/fx-gather",
+  "items": [
+    {
+      "schemaVersion": 1,
+      "id": "frame-00",
+      "name": "聚鱼金鱼旋流 0",
+      "file": "assets/fx/fx-gather/frame-00.png",
+      "sha256": "8361e5958b3ea6ce8db78830a165e8d97d069771ff28543343b59a3454226aa7",
+      "width": 394,
+      "height": 394,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v2/fx-gather/fx-gather-contained.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v2/fx-gather/fx-gather-contained.png",
+          "sha256": "79fc2f68375864f62ccf497d3e1155c16e578d4c90738cd6db99c7b40c7201fb",
+          "generationRecord": "designs/production-v2/fx-gather/fx-gather-contained.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_then_uniform_transparent_padding",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          0,
+          0,
+          314,
+          314
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          314,
+          314
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "nativeExtractedFrameSize": [
+          314,
+          314
+        ],
+        "nativeExtractedFramePngSha256": "01b67f8c5145786441b3ae72a2ed0e42300028f79246669a16b05a981cbf35e7",
+        "nativeExtractedRgbaPixelsSha256": "89f324bf8fc1e0c09d26ec5de4a27f2769dca7743c9e54c9cccc39e630f78434",
+        "runtimeTransparentPadding": [
+          40,
+          40,
+          40,
+          40
+        ],
+        "paddingOrder": "left,top,right,bottom",
+        "paddingResampled": false,
+        "sourcePixelsRoundtripIdentical": true,
+        "paddingReason": "Provide runtime safe empty border; source cell margin contract remains separately reported, not reclassified as passed.",
+        "nativeDetailClaim": "New canvas dimension is transparent padding only; source native detail remains [314, 314]"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ],
+        "durationMs": 1000,
+        "role": "skill_one_shot"
+      },
+      "visualReview": "已实际查看原生源和最终16帧浅米白/深青Alpha合成：金鱼旋流由种子、三鱼环绕峰值到收回消散，轮廓/光尾完整，无跨格截断。source低alpha留白告警保留；统一40px补边后runtime门禁通过。",
+      "sourceQa": "designs/production-v2/fx-gather/fx-gather.visual-qa.json"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-01",
+      "name": "聚鱼金鱼旋流 1",
+      "file": "assets/fx/fx-gather/frame-01.png",
+      "sha256": "ef555b3f82e56bbbd21b9497850a80b84414229ec3991c6fc4b36953ae634065",
+      "width": 394,
+      "height": 394,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v2/fx-gather/fx-gather-contained.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v2/fx-gather/fx-gather-contained.png",
+          "sha256": "79fc2f68375864f62ccf497d3e1155c16e578d4c90738cd6db99c7b40c7201fb",
+          "generationRecord": "designs/production-v2/fx-gather/fx-gather-contained.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_then_uniform_transparent_padding",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          314,
+          0,
+          627,
+          314
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          313,
+          314
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize",
+        "nativeExtractedFrameSize": [
+          314,
+          314
+        ],
+        "nativeExtractedFramePngSha256": "c28817a18f680cb6271d0e64798e244b86ddf943b65a5745a82cf529052facb0",
+        "nativeExtractedRgbaPixelsSha256": "cc2fb88a4433b149947b49bcf1309b24ad8cdf996679335f91c093d21349cb5a",
+        "runtimeTransparentPadding": [
+          40,
+          40,
+          40,
+          40
+        ],
+        "paddingOrder": "left,top,right,bottom",
+        "paddingResampled": false,
+        "sourcePixelsRoundtripIdentical": true,
+        "paddingReason": "Provide runtime safe empty border; source cell margin contract remains separately reported, not reclassified as passed.",
+        "nativeDetailClaim": "New canvas dimension is transparent padding only; source native detail remains [314, 314]"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ],
+        "durationMs": 1000,
+        "role": "skill_one_shot"
+      },
+      "visualReview": "已实际查看原生源和最终16帧浅米白/深青Alpha合成：金鱼旋流由种子、三鱼环绕峰值到收回消散，轮廓/光尾完整，无跨格截断。source低alpha留白告警保留；统一40px补边后runtime门禁通过。",
+      "sourceQa": "designs/production-v2/fx-gather/fx-gather.visual-qa.json"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-02",
+      "name": "聚鱼金鱼旋流 2",
+      "file": "assets/fx/fx-gather/frame-02.png",
+      "sha256": "7a18731732b82947d3ef88db817cddbd8d48ef144f33efdc9908746427f3f632",
+      "width": 394,
+      "height": 394,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v2/fx-gather/fx-gather-contained.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v2/fx-gather/fx-gather-contained.png",
+          "sha256": "79fc2f68375864f62ccf497d3e1155c16e578d4c90738cd6db99c7b40c7201fb",
+          "generationRecord": "designs/production-v2/fx-gather/fx-gather-contained.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_then_uniform_transparent_padding",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          627,
+          0,
+          940,
+          314
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          313,
+          314
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize",
+        "nativeExtractedFrameSize": [
+          314,
+          314
+        ],
+        "nativeExtractedFramePngSha256": "d6559936e3b0498b05e6b9eeb71bba9ae7d91280cf3284fb5c2384921b478e42",
+        "nativeExtractedRgbaPixelsSha256": "1448d8be9e303395cfcf93938eeb3353fd3390594fda50c55894f0da04faf6a4",
+        "runtimeTransparentPadding": [
+          40,
+          40,
+          40,
+          40
+        ],
+        "paddingOrder": "left,top,right,bottom",
+        "paddingResampled": false,
+        "sourcePixelsRoundtripIdentical": true,
+        "paddingReason": "Provide runtime safe empty border; source cell margin contract remains separately reported, not reclassified as passed.",
+        "nativeDetailClaim": "New canvas dimension is transparent padding only; source native detail remains [314, 314]"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ],
+        "durationMs": 1000,
+        "role": "skill_one_shot"
+      },
+      "visualReview": "已实际查看原生源和最终16帧浅米白/深青Alpha合成：金鱼旋流由种子、三鱼环绕峰值到收回消散，轮廓/光尾完整，无跨格截断。source低alpha留白告警保留；统一40px补边后runtime门禁通过。",
+      "sourceQa": "designs/production-v2/fx-gather/fx-gather.visual-qa.json"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-03",
+      "name": "聚鱼金鱼旋流 3",
+      "file": "assets/fx/fx-gather/frame-03.png",
+      "sha256": "242e3932a8361c331d1019e6d030dda8fbff7a1a6230d22e0a81b39f2f853dd5",
+      "width": 394,
+      "height": 394,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v2/fx-gather/fx-gather-contained.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v2/fx-gather/fx-gather-contained.png",
+          "sha256": "79fc2f68375864f62ccf497d3e1155c16e578d4c90738cd6db99c7b40c7201fb",
+          "generationRecord": "designs/production-v2/fx-gather/fx-gather-contained.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_then_uniform_transparent_padding",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          940,
+          0,
+          1254,
+          314
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          314,
+          314
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "nativeExtractedFrameSize": [
+          314,
+          314
+        ],
+        "nativeExtractedFramePngSha256": "598fe5128cccded776c47c543823dd372d9ed87dbda07b76c317ae3fb8fb2613",
+        "nativeExtractedRgbaPixelsSha256": "632fde4ea3c1e5aafb06f242171c1350c146db7e2bb70411fa26c7d889443a7d",
+        "runtimeTransparentPadding": [
+          40,
+          40,
+          40,
+          40
+        ],
+        "paddingOrder": "left,top,right,bottom",
+        "paddingResampled": false,
+        "sourcePixelsRoundtripIdentical": true,
+        "paddingReason": "Provide runtime safe empty border; source cell margin contract remains separately reported, not reclassified as passed.",
+        "nativeDetailClaim": "New canvas dimension is transparent padding only; source native detail remains [314, 314]"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ],
+        "durationMs": 1000,
+        "role": "skill_one_shot"
+      },
+      "visualReview": "已实际查看原生源和最终16帧浅米白/深青Alpha合成：金鱼旋流由种子、三鱼环绕峰值到收回消散，轮廓/光尾完整，无跨格截断。source低alpha留白告警保留；统一40px补边后runtime门禁通过。",
+      "sourceQa": "designs/production-v2/fx-gather/fx-gather.visual-qa.json"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-04",
+      "name": "聚鱼金鱼旋流 4",
+      "file": "assets/fx/fx-gather/frame-04.png",
+      "sha256": "7c49e00088942be99792ffc9fc5f6f4f3cd20bc5c0430cf47acbb2e8cc76344b",
+      "width": 394,
+      "height": 394,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v2/fx-gather/fx-gather-contained.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v2/fx-gather/fx-gather-contained.png",
+          "sha256": "79fc2f68375864f62ccf497d3e1155c16e578d4c90738cd6db99c7b40c7201fb",
+          "generationRecord": "designs/production-v2/fx-gather/fx-gather-contained.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_then_uniform_transparent_padding",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          0,
+          314,
+          314,
+          627
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          314,
+          313
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize",
+        "nativeExtractedFrameSize": [
+          314,
+          314
+        ],
+        "nativeExtractedFramePngSha256": "2666c2a90d963bbb56b48eeef8eb5d7e57aaed2b4ce6a3b3243378bca5181fc2",
+        "nativeExtractedRgbaPixelsSha256": "3ebf51add00bbc7503ae1bb9c65b192837cd6e9e077e01f7fc756ae56e3a20d4",
+        "runtimeTransparentPadding": [
+          40,
+          40,
+          40,
+          40
+        ],
+        "paddingOrder": "left,top,right,bottom",
+        "paddingResampled": false,
+        "sourcePixelsRoundtripIdentical": true,
+        "paddingReason": "Provide runtime safe empty border; source cell margin contract remains separately reported, not reclassified as passed.",
+        "nativeDetailClaim": "New canvas dimension is transparent padding only; source native detail remains [314, 314]"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ],
+        "durationMs": 1000,
+        "role": "skill_one_shot"
+      },
+      "visualReview": "已实际查看原生源和最终16帧浅米白/深青Alpha合成：金鱼旋流由种子、三鱼环绕峰值到收回消散，轮廓/光尾完整，无跨格截断。source低alpha留白告警保留；统一40px补边后runtime门禁通过。",
+      "sourceQa": "designs/production-v2/fx-gather/fx-gather.visual-qa.json"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-05",
+      "name": "聚鱼金鱼旋流 5",
+      "file": "assets/fx/fx-gather/frame-05.png",
+      "sha256": "d4bff0210efcf1db068baa7e893d2a78a05f85a41dc8b274af6d3a1ef97a2f63",
+      "width": 394,
+      "height": 394,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v2/fx-gather/fx-gather-contained.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v2/fx-gather/fx-gather-contained.png",
+          "sha256": "79fc2f68375864f62ccf497d3e1155c16e578d4c90738cd6db99c7b40c7201fb",
+          "generationRecord": "designs/production-v2/fx-gather/fx-gather-contained.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_then_uniform_transparent_padding",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          314,
+          314,
+          627,
+          627
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          313,
+          313
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize",
+        "nativeExtractedFrameSize": [
+          314,
+          314
+        ],
+        "nativeExtractedFramePngSha256": "cca7607a86c4af8ef59d2bd9d52eeed8b2e5afec7057c5ea7ee778d37a34d21f",
+        "nativeExtractedRgbaPixelsSha256": "f9d18208e448cbd5144b5062006722c294958177a85f8fb97ef9c58825e71382",
+        "runtimeTransparentPadding": [
+          40,
+          40,
+          40,
+          40
+        ],
+        "paddingOrder": "left,top,right,bottom",
+        "paddingResampled": false,
+        "sourcePixelsRoundtripIdentical": true,
+        "paddingReason": "Provide runtime safe empty border; source cell margin contract remains separately reported, not reclassified as passed.",
+        "nativeDetailClaim": "New canvas dimension is transparent padding only; source native detail remains [314, 314]"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ],
+        "durationMs": 1000,
+        "role": "skill_one_shot"
+      },
+      "visualReview": "已实际查看原生源和最终16帧浅米白/深青Alpha合成：金鱼旋流由种子、三鱼环绕峰值到收回消散，轮廓/光尾完整，无跨格截断。source低alpha留白告警保留；统一40px补边后runtime门禁通过。",
+      "sourceQa": "designs/production-v2/fx-gather/fx-gather.visual-qa.json"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-06",
+      "name": "聚鱼金鱼旋流 6",
+      "file": "assets/fx/fx-gather/frame-06.png",
+      "sha256": "4839a269f1cb512f2bad762fea8786caf547ff406f897728926ff7246b861f38",
+      "width": 394,
+      "height": 394,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v2/fx-gather/fx-gather-contained.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v2/fx-gather/fx-gather-contained.png",
+          "sha256": "79fc2f68375864f62ccf497d3e1155c16e578d4c90738cd6db99c7b40c7201fb",
+          "generationRecord": "designs/production-v2/fx-gather/fx-gather-contained.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_then_uniform_transparent_padding",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          627,
+          314,
+          940,
+          627
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          313,
+          313
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize",
+        "nativeExtractedFrameSize": [
+          314,
+          314
+        ],
+        "nativeExtractedFramePngSha256": "e8858f8a1b5a63d49c834d10ad9a41525122d3e07e731b0fabfdec8aa41ea405",
+        "nativeExtractedRgbaPixelsSha256": "1a1a56695e0200a911af7a353702e6d444da5306d98010591ba771de8a77abe5",
+        "runtimeTransparentPadding": [
+          40,
+          40,
+          40,
+          40
+        ],
+        "paddingOrder": "left,top,right,bottom",
+        "paddingResampled": false,
+        "sourcePixelsRoundtripIdentical": true,
+        "paddingReason": "Provide runtime safe empty border; source cell margin contract remains separately reported, not reclassified as passed.",
+        "nativeDetailClaim": "New canvas dimension is transparent padding only; source native detail remains [314, 314]"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ],
+        "durationMs": 1000,
+        "role": "skill_one_shot"
+      },
+      "visualReview": "已实际查看原生源和最终16帧浅米白/深青Alpha合成：金鱼旋流由种子、三鱼环绕峰值到收回消散，轮廓/光尾完整，无跨格截断。source低alpha留白告警保留；统一40px补边后runtime门禁通过。",
+      "sourceQa": "designs/production-v2/fx-gather/fx-gather.visual-qa.json"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-07",
+      "name": "聚鱼金鱼旋流 7",
+      "file": "assets/fx/fx-gather/frame-07.png",
+      "sha256": "cc9ab72d25165c5bda6b6d1598d8b743fa081bcfaf88d70efbe447091dfb8d7f",
+      "width": 394,
+      "height": 394,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v2/fx-gather/fx-gather-contained.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v2/fx-gather/fx-gather-contained.png",
+          "sha256": "79fc2f68375864f62ccf497d3e1155c16e578d4c90738cd6db99c7b40c7201fb",
+          "generationRecord": "designs/production-v2/fx-gather/fx-gather-contained.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_then_uniform_transparent_padding",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          940,
+          314,
+          1254,
+          627
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          314,
+          313
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize",
+        "nativeExtractedFrameSize": [
+          314,
+          314
+        ],
+        "nativeExtractedFramePngSha256": "7e741e487224f486d090ecc459a49c536aa75955ecdaef9c9c985bf3b92e186e",
+        "nativeExtractedRgbaPixelsSha256": "0b4d69faf210b6b185f827adb19dcab3b5396dc4aa7cbcf7be5f76f52319dc3c",
+        "runtimeTransparentPadding": [
+          40,
+          40,
+          40,
+          40
+        ],
+        "paddingOrder": "left,top,right,bottom",
+        "paddingResampled": false,
+        "sourcePixelsRoundtripIdentical": true,
+        "paddingReason": "Provide runtime safe empty border; source cell margin contract remains separately reported, not reclassified as passed.",
+        "nativeDetailClaim": "New canvas dimension is transparent padding only; source native detail remains [314, 314]"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ],
+        "durationMs": 1000,
+        "role": "skill_one_shot"
+      },
+      "visualReview": "已实际查看原生源和最终16帧浅米白/深青Alpha合成：金鱼旋流由种子、三鱼环绕峰值到收回消散，轮廓/光尾完整，无跨格截断。source低alpha留白告警保留；统一40px补边后runtime门禁通过。",
+      "sourceQa": "designs/production-v2/fx-gather/fx-gather.visual-qa.json"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-08",
+      "name": "聚鱼金鱼旋流 8",
+      "file": "assets/fx/fx-gather/frame-08.png",
+      "sha256": "f5980741521a1836db688181477941586f2c87dcad792fff55607c9dc718af45",
+      "width": 394,
+      "height": 394,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v2/fx-gather/fx-gather-contained.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v2/fx-gather/fx-gather-contained.png",
+          "sha256": "79fc2f68375864f62ccf497d3e1155c16e578d4c90738cd6db99c7b40c7201fb",
+          "generationRecord": "designs/production-v2/fx-gather/fx-gather-contained.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_then_uniform_transparent_padding",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          0,
+          627,
+          314,
+          940
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          314,
+          313
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize",
+        "nativeExtractedFrameSize": [
+          314,
+          314
+        ],
+        "nativeExtractedFramePngSha256": "cb832e67eb673d07415daa5cfe3c811db6e330b0f795c2c27321f5afa90e257b",
+        "nativeExtractedRgbaPixelsSha256": "2700fb63724f747dd207967b39f7018f1b5047d5f78a14148ddfe696006f4eca",
+        "runtimeTransparentPadding": [
+          40,
+          40,
+          40,
+          40
+        ],
+        "paddingOrder": "left,top,right,bottom",
+        "paddingResampled": false,
+        "sourcePixelsRoundtripIdentical": true,
+        "paddingReason": "Provide runtime safe empty border; source cell margin contract remains separately reported, not reclassified as passed.",
+        "nativeDetailClaim": "New canvas dimension is transparent padding only; source native detail remains [314, 314]"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ],
+        "durationMs": 1000,
+        "role": "skill_one_shot"
+      },
+      "visualReview": "已实际查看原生源和最终16帧浅米白/深青Alpha合成：金鱼旋流由种子、三鱼环绕峰值到收回消散，轮廓/光尾完整，无跨格截断。source低alpha留白告警保留；统一40px补边后runtime门禁通过。",
+      "sourceQa": "designs/production-v2/fx-gather/fx-gather.visual-qa.json"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-09",
+      "name": "聚鱼金鱼旋流 9",
+      "file": "assets/fx/fx-gather/frame-09.png",
+      "sha256": "7e7079324d8241bdf368f9e5e7467830674fd2f990d4ed62d0af5697763e6ce1",
+      "width": 394,
+      "height": 394,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v2/fx-gather/fx-gather-contained.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v2/fx-gather/fx-gather-contained.png",
+          "sha256": "79fc2f68375864f62ccf497d3e1155c16e578d4c90738cd6db99c7b40c7201fb",
+          "generationRecord": "designs/production-v2/fx-gather/fx-gather-contained.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_then_uniform_transparent_padding",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          314,
+          627,
+          627,
+          940
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          313,
+          313
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize",
+        "nativeExtractedFrameSize": [
+          314,
+          314
+        ],
+        "nativeExtractedFramePngSha256": "989ed3993ebea9d82ecb7f7c61381d3b2d02a73c9a3428bc6affb6fe65cafe27",
+        "nativeExtractedRgbaPixelsSha256": "e7f5587a714ca0e21ae2b4504d64fcc2e6802eb31c92ac1d7add4241f3c48e58",
+        "runtimeTransparentPadding": [
+          40,
+          40,
+          40,
+          40
+        ],
+        "paddingOrder": "left,top,right,bottom",
+        "paddingResampled": false,
+        "sourcePixelsRoundtripIdentical": true,
+        "paddingReason": "Provide runtime safe empty border; source cell margin contract remains separately reported, not reclassified as passed.",
+        "nativeDetailClaim": "New canvas dimension is transparent padding only; source native detail remains [314, 314]"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ],
+        "durationMs": 1000,
+        "role": "skill_one_shot"
+      },
+      "visualReview": "已实际查看原生源和最终16帧浅米白/深青Alpha合成：金鱼旋流由种子、三鱼环绕峰值到收回消散，轮廓/光尾完整，无跨格截断。source低alpha留白告警保留；统一40px补边后runtime门禁通过。",
+      "sourceQa": "designs/production-v2/fx-gather/fx-gather.visual-qa.json"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-10",
+      "name": "聚鱼金鱼旋流 10",
+      "file": "assets/fx/fx-gather/frame-10.png",
+      "sha256": "2487ecf903394be48b6367579c4a6a2a9b7b79bed1ba3bb46855dac82c93169f",
+      "width": 394,
+      "height": 394,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v2/fx-gather/fx-gather-contained.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v2/fx-gather/fx-gather-contained.png",
+          "sha256": "79fc2f68375864f62ccf497d3e1155c16e578d4c90738cd6db99c7b40c7201fb",
+          "generationRecord": "designs/production-v2/fx-gather/fx-gather-contained.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_then_uniform_transparent_padding",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          627,
+          627,
+          940,
+          940
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          313,
+          313
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize",
+        "nativeExtractedFrameSize": [
+          314,
+          314
+        ],
+        "nativeExtractedFramePngSha256": "f6fae563f864f654b75751066a1f342f416526dfad954d809314b837b74413e6",
+        "nativeExtractedRgbaPixelsSha256": "48a53e066f813e06e6d2c237b38047bed3d75520546fdfa797764b19db2779c8",
+        "runtimeTransparentPadding": [
+          40,
+          40,
+          40,
+          40
+        ],
+        "paddingOrder": "left,top,right,bottom",
+        "paddingResampled": false,
+        "sourcePixelsRoundtripIdentical": true,
+        "paddingReason": "Provide runtime safe empty border; source cell margin contract remains separately reported, not reclassified as passed.",
+        "nativeDetailClaim": "New canvas dimension is transparent padding only; source native detail remains [314, 314]"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ],
+        "durationMs": 1000,
+        "role": "skill_one_shot"
+      },
+      "visualReview": "已实际查看原生源和最终16帧浅米白/深青Alpha合成：金鱼旋流由种子、三鱼环绕峰值到收回消散，轮廓/光尾完整，无跨格截断。source低alpha留白告警保留；统一40px补边后runtime门禁通过。",
+      "sourceQa": "designs/production-v2/fx-gather/fx-gather.visual-qa.json"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-11",
+      "name": "聚鱼金鱼旋流 11",
+      "file": "assets/fx/fx-gather/frame-11.png",
+      "sha256": "b8f11f21c3413d1f3db6ae8fd976f28ecac27ee4641a4f6f9e8e0b75ed8c5164",
+      "width": 394,
+      "height": 394,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v2/fx-gather/fx-gather-contained.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v2/fx-gather/fx-gather-contained.png",
+          "sha256": "79fc2f68375864f62ccf497d3e1155c16e578d4c90738cd6db99c7b40c7201fb",
+          "generationRecord": "designs/production-v2/fx-gather/fx-gather-contained.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_then_uniform_transparent_padding",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          940,
+          627,
+          1254,
+          940
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          314,
+          313
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize",
+        "nativeExtractedFrameSize": [
+          314,
+          314
+        ],
+        "nativeExtractedFramePngSha256": "9df40e8b9ede038e7c23349756df1a8f48c9a165e054ac24a82ad8d6effe31e2",
+        "nativeExtractedRgbaPixelsSha256": "9e5fa1507dbbe0e245760ca310577473df32799b54a25a4ec7524f347a4dd885",
+        "runtimeTransparentPadding": [
+          40,
+          40,
+          40,
+          40
+        ],
+        "paddingOrder": "left,top,right,bottom",
+        "paddingResampled": false,
+        "sourcePixelsRoundtripIdentical": true,
+        "paddingReason": "Provide runtime safe empty border; source cell margin contract remains separately reported, not reclassified as passed.",
+        "nativeDetailClaim": "New canvas dimension is transparent padding only; source native detail remains [314, 314]"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ],
+        "durationMs": 1000,
+        "role": "skill_one_shot"
+      },
+      "visualReview": "已实际查看原生源和最终16帧浅米白/深青Alpha合成：金鱼旋流由种子、三鱼环绕峰值到收回消散，轮廓/光尾完整，无跨格截断。source低alpha留白告警保留；统一40px补边后runtime门禁通过。",
+      "sourceQa": "designs/production-v2/fx-gather/fx-gather.visual-qa.json"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-12",
+      "name": "聚鱼金鱼旋流 12",
+      "file": "assets/fx/fx-gather/frame-12.png",
+      "sha256": "1c36f399b4a562cfb9da6de3e93957c2c3c578cf204a111f556d6aaa259f958b",
+      "width": 394,
+      "height": 394,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v2/fx-gather/fx-gather-contained.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v2/fx-gather/fx-gather-contained.png",
+          "sha256": "79fc2f68375864f62ccf497d3e1155c16e578d4c90738cd6db99c7b40c7201fb",
+          "generationRecord": "designs/production-v2/fx-gather/fx-gather-contained.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_then_uniform_transparent_padding",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          0,
+          940,
+          314,
+          1254
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          314,
+          314
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "nativeExtractedFrameSize": [
+          314,
+          314
+        ],
+        "nativeExtractedFramePngSha256": "d137e29bd559a255bfbbc02ab565815297c0b27626820f47fd45627d84136005",
+        "nativeExtractedRgbaPixelsSha256": "bb6c769a1e6d8c900cef07de33258f9ba064e56a192538a61215eb9364e1f629",
+        "runtimeTransparentPadding": [
+          40,
+          40,
+          40,
+          40
+        ],
+        "paddingOrder": "left,top,right,bottom",
+        "paddingResampled": false,
+        "sourcePixelsRoundtripIdentical": true,
+        "paddingReason": "Provide runtime safe empty border; source cell margin contract remains separately reported, not reclassified as passed.",
+        "nativeDetailClaim": "New canvas dimension is transparent padding only; source native detail remains [314, 314]"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ],
+        "durationMs": 1000,
+        "role": "skill_one_shot"
+      },
+      "visualReview": "已实际查看原生源和最终16帧浅米白/深青Alpha合成：金鱼旋流由种子、三鱼环绕峰值到收回消散，轮廓/光尾完整，无跨格截断。source低alpha留白告警保留；统一40px补边后runtime门禁通过。",
+      "sourceQa": "designs/production-v2/fx-gather/fx-gather.visual-qa.json"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-13",
+      "name": "聚鱼金鱼旋流 13",
+      "file": "assets/fx/fx-gather/frame-13.png",
+      "sha256": "4dc66f6b0967fa9db1ed4547a39b93c50673172ef564b6e3a3a983a2ce02e148",
+      "width": 394,
+      "height": 394,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v2/fx-gather/fx-gather-contained.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v2/fx-gather/fx-gather-contained.png",
+          "sha256": "79fc2f68375864f62ccf497d3e1155c16e578d4c90738cd6db99c7b40c7201fb",
+          "generationRecord": "designs/production-v2/fx-gather/fx-gather-contained.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_then_uniform_transparent_padding",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          314,
+          940,
+          627,
+          1254
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          313,
+          314
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize",
+        "nativeExtractedFrameSize": [
+          314,
+          314
+        ],
+        "nativeExtractedFramePngSha256": "3ba6c28d3f4341bd6de4764c05e521e9f5a647c3af244f214c1faac7bc8d0079",
+        "nativeExtractedRgbaPixelsSha256": "e418e80417aa6a4fe1859d63d47897fa477e05a6b660424f62d64bf69802681d",
+        "runtimeTransparentPadding": [
+          40,
+          40,
+          40,
+          40
+        ],
+        "paddingOrder": "left,top,right,bottom",
+        "paddingResampled": false,
+        "sourcePixelsRoundtripIdentical": true,
+        "paddingReason": "Provide runtime safe empty border; source cell margin contract remains separately reported, not reclassified as passed.",
+        "nativeDetailClaim": "New canvas dimension is transparent padding only; source native detail remains [314, 314]"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ],
+        "durationMs": 1000,
+        "role": "skill_one_shot"
+      },
+      "visualReview": "已实际查看原生源和最终16帧浅米白/深青Alpha合成：金鱼旋流由种子、三鱼环绕峰值到收回消散，轮廓/光尾完整，无跨格截断。source低alpha留白告警保留；统一40px补边后runtime门禁通过。",
+      "sourceQa": "designs/production-v2/fx-gather/fx-gather.visual-qa.json"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-14",
+      "name": "聚鱼金鱼旋流 14",
+      "file": "assets/fx/fx-gather/frame-14.png",
+      "sha256": "128af5c1e57edf4358197fdf5fba0113f9dd1b5b0bca050a9589d210138f5e2e",
+      "width": 394,
+      "height": 394,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v2/fx-gather/fx-gather-contained.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v2/fx-gather/fx-gather-contained.png",
+          "sha256": "79fc2f68375864f62ccf497d3e1155c16e578d4c90738cd6db99c7b40c7201fb",
+          "generationRecord": "designs/production-v2/fx-gather/fx-gather-contained.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_then_uniform_transparent_padding",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          627,
+          940,
+          940,
+          1254
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          313,
+          314
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize",
+        "nativeExtractedFrameSize": [
+          314,
+          314
+        ],
+        "nativeExtractedFramePngSha256": "9623325d67668168d163263cbaa6f09ceba06d2bd6fb4befe96f8672c87c297a",
+        "nativeExtractedRgbaPixelsSha256": "4cdc74a41f2479e61ee6e9b973e7ebb43f6109e69366871b5cca53fc5ddd4368",
+        "runtimeTransparentPadding": [
+          40,
+          40,
+          40,
+          40
+        ],
+        "paddingOrder": "left,top,right,bottom",
+        "paddingResampled": false,
+        "sourcePixelsRoundtripIdentical": true,
+        "paddingReason": "Provide runtime safe empty border; source cell margin contract remains separately reported, not reclassified as passed.",
+        "nativeDetailClaim": "New canvas dimension is transparent padding only; source native detail remains [314, 314]"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ],
+        "durationMs": 1000,
+        "role": "skill_one_shot"
+      },
+      "visualReview": "已实际查看原生源和最终16帧浅米白/深青Alpha合成：金鱼旋流由种子、三鱼环绕峰值到收回消散，轮廓/光尾完整，无跨格截断。source低alpha留白告警保留；统一40px补边后runtime门禁通过。",
+      "sourceQa": "designs/production-v2/fx-gather/fx-gather.visual-qa.json"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-15",
+      "name": "聚鱼金鱼旋流 15",
+      "file": "assets/fx/fx-gather/frame-15.png",
+      "sha256": "d20344ce495e3ed8a38aa04ec5858efdbf209bd4f3da03b9c4aa794943bc2126",
+      "width": 394,
+      "height": 394,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v2/fx-gather/fx-gather-contained.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v2/fx-gather/fx-gather-contained.png",
+          "sha256": "79fc2f68375864f62ccf497d3e1155c16e578d4c90738cd6db99c7b40c7201fb",
+          "generationRecord": "designs/production-v2/fx-gather/fx-gather-contained.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_then_uniform_transparent_padding",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          940,
+          940,
+          1254,
+          1254
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          314,
+          314
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "nativeExtractedFrameSize": [
+          314,
+          314
+        ],
+        "nativeExtractedFramePngSha256": "fde64cebaf712a5fbbcfb09eb38f1491ad3f5f0fc5d8b6b305a4f908e0606194",
+        "nativeExtractedRgbaPixelsSha256": "ace10094982d0aa1094021127329b0d5bbedfdc4cdb4da4879ebed19ea2b5429",
+        "runtimeTransparentPadding": [
+          40,
+          40,
+          40,
+          40
+        ],
+        "paddingOrder": "left,top,right,bottom",
+        "paddingResampled": false,
+        "sourcePixelsRoundtripIdentical": true,
+        "paddingReason": "Provide runtime safe empty border; source cell margin contract remains separately reported, not reclassified as passed.",
+        "nativeDetailClaim": "New canvas dimension is transparent padding only; source native detail remains [314, 314]"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ],
+        "durationMs": 1000,
+        "role": "skill_one_shot"
+      },
+      "visualReview": "已实际查看原生源和最终16帧浅米白/深青Alpha合成：金鱼旋流由种子、三鱼环绕峰值到收回消散，轮廓/光尾完整，无跨格截断。source低alpha留白告警保留；统一40px补边后runtime门禁通过。",
+      "sourceQa": "designs/production-v2/fx-gather/fx-gather.visual-qa.json"
+    }
+  ],
+  "warnings": [],
+  "complete": true,
+  "runtimeTransparentPadding": [
+    40,
+    40,
+    40,
+    40
+  ],
+  "paddingPreservesAllNativePixels": true,
+  "sourceWarnings": [
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 2,
+      "value": 0.07961783439490445,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-gather/fx-gather-contained.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 3,
+      "value": 0.03503184713375796,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-gather/fx-gather-contained.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 4,
+      "value": 0.04472843450479233,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-gather/fx-gather-contained.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 5,
+      "value": 0.04792332268370607,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-gather/fx-gather-contained.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 6,
+      "value": 0.04792332268370607,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-gather/fx-gather-contained.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 7,
+      "value": 0.04472843450479233,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-gather/fx-gather-contained.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 8,
+      "value": 0.07667731629392971,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-gather/fx-gather-contained.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 9,
+      "value": 0.08626198083067092,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-gather/fx-gather-contained.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 10,
+      "value": 0.09584664536741214,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-gather/fx-gather-contained.png"
+    }
+  ],
+  "visualReview": "已实际查看原生源和最终16帧浅米白/深青Alpha合成：金鱼旋流由种子、三鱼环绕峰值到收回消散，轮廓/光尾完整，无跨格截断。source低alpha留白告警保留；统一40px补边后runtime门禁通过。",
+  "runtimePaddingMarginPassed": true,
+  "sourceMarginContractPassed": false,
+  "runtimeMarginsMinimum": 0.12944162436548223,
+  "status": "accepted_first_release_art",
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+  "acceptedAt": "2026-10-30T04:07:09.085600+00:00"
+}

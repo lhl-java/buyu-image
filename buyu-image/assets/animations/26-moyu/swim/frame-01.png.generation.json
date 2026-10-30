@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-01",
+  "name": "墨玉章鱼 swim 1",
+  "file": "assets/animations/26-moyu/swim/frame-01.png",
+  "sha256": "98f26f0f9f14259a81706aa2921a72d106e88794a35d7ecaf70c6be62012a694",
+  "width": 640,
+  "height": 640,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/motion-frames-v1/26-moyu/swim/26-moyu-swim.png",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/26-moyu/swim/26-moyu-swim.png",
+      "sha256": "fd07f8724dc23722b0fd601311e6220898eefcdd948638e0ece6964f3647b8f7",
+      "generationRecord": "designs/motion-frames-v1/26-moyu/swim/26-moyu-swim.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_grid_crop_integer_pupil_registration",
+    "grid": {
+      "rows": 2,
+      "cols": 4
+    },
+    "sourceRect": [
+      450,
+      0,
+      887,
+      444
+    ],
+    "registrationOffset": [
+      103,
+      66,
+      540,
+      510
+    ],
+    "registeredCanvas": [
+      640,
+      640
+    ],
+    "registrationReference": {
+      "type": "black_pupil_connected_component_centroid",
+      "sourcePointFloat": [
+        217.40292275574112,
+        214.0125260960334
+      ],
+      "sourcePointRounded": [
+        217,
+        214
+      ],
+      "targetPoint": [
+        320,
+        280
+      ],
+      "pupilBounds": [
+        201,
+        202,
+        233,
+        229
+      ],
+      "detectionRoi": [
+        170,
+        150,
+        270,
+        270
+      ],
+      "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+    },
+    "nominalGridRect": [
+      444,
+      0,
+      887,
+      444
+    ],
+    "sourceRectType": "custom_ownership_between_separated_characters",
+    "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+    "resized": false,
+    "upscaled": false,
+    "poseWarped": false,
+    "sourcePixelsRoundTripVerified": true,
+    "sourceCellClipping": false
+  },
+  "anchor": [
+    0.5,
+    0.4375
+  ],
+  "status": "candidate_pending_root_visual_and_playback_review",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source record; this is a native derivative, not new generation.",
+  "animation": {
+    "id": "26-moyu/swim",
+    "frames": 8,
+    "fps": 12,
+    "loop": true,
+    "order": "row-major",
+    "root": [
+      0.5,
+      0.4375
+    ],
+    "phase": 0.125,
+    "durationMs": 84,
+    "targetBodyBox": [
+      240,
+      180
+    ],
+    "displayCalibration": {
+      "status": "candidate_pending_root_visual_runtime_review",
+      "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+      "nativeMedianPupilWidth": 32.0,
+      "sharedTargetDisplayedPupilWidth": 16.097,
+      "uniformDisplayScale": 0.50303125,
+      "upscale": false,
+      "perFrameBboxFit": false,
+      "sharedVisualPivotPixels": [
+        320,
+        280
+      ],
+      "sharedVisualPivotNormalized": [
+        0.5,
+        0.4375
+      ],
+      "displayBodyMaxPixels": [
+        217.3095,
+        177.067
+      ],
+      "warning": "Pupil is an approximate density proxy; exact outer head and actual action transitions require playback review. Use registered pupil pivot when applying clip scales."
+    }
+  },
+  "qa": {
+    "nativeBodyBoxAlpha16": [
+      11,
+      63,
+      418,
+      414
+    ],
+    "nativeVisibleSize": [
+      407,
+      351
+    ],
+    "rawCellEdgeMaxAlpha": 1,
+    "nominalGridEdgeMaxAlpha": 2,
+    "registeredBoxAlpha16": [
+      114,
+      129,
+      521,
+      480
+    ],
+    "registeredMarginsFraction": [
+      0.178125,
+      0.2015625,
+      0.1859375,
+      0.25
+    ],
+    "finalMargin12PercentPassed": true,
+    "pupilComponent": {
+      "area": 479,
+      "bbox": [
+        201,
+        202,
+        233,
+        229
+      ],
+      "centroid": [
+        217.40292275574112,
+        214.0125260960334
+      ]
+    },
+    "actualSourceViewedByProducer": true,
+    "loopOrRecoveryAccepted": false,
+    "targetClientAccepted": false
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "event-banner",
+  "name": "灵海寻宝活动横幅",
+  "file": "assets/illustrations/event-banner.png",
+  "width": 1942,
+  "height": 809,
+  "sha256": "7a307f034eaad957bba362e3cd6178ba233e3e330abc2bcec86d108c7481c820",
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "displaySize": [
+    960,
+    400
+  ],
+  "nativeSource": "designs/production-v1/event-banner/event-banner.png",
+  "derivedFrom": [
+    {
+      "file": "designs/production-v1/event-banner/event-banner.png",
+      "sha256": "7a307f034eaad957bba362e3cd6178ba233e3e330abc2bcec86d108c7481c820",
+      "generationRecord": "designs/production-v1/event-banner/event-banner.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "byte_identical_copy",
+    "resized": false,
+    "upscaled": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "visual_reviewed_pending_user_and_client_review",
+  "visualReview": "Actual recovered native output inspected: gold-headband Daochild, white fox, pearl-shell net, bamboo rod and long-tail red-gold koi; clear left water area, no baked text or UI frame. Byte-identical recovered output, not a new call."
+}

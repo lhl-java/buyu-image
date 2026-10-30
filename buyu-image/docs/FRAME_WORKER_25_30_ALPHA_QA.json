@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-28",
+  "scope": "25-30 static master alpha fact correction; source pixels unchanged",
+  "method": "Pillow actual alpha histogram/corners, not view_image RGB display",
+  "staticMasterReplacementNeeded": false,
+  "entries": [
+    {
+      "id": "25-yexing",
+      "file": "assets/fish/batch-5/25-yexing.png",
+      "size": [
+        310,
+        245
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alpha0": 33704,
+      "alpha255": 0,
+      "conclusion": "Transparent corners/background; colored RGB under alpha0 does not establish opaque rectangle."
+    },
+    {
+      "id": "26-moyu",
+      "file": "assets/fish/batch-5/26-moyu.png",
+      "size": [
+        309,
+        258
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alpha0": 31898,
+      "alpha255": 0,
+      "conclusion": "Transparent corners/background; colored RGB under alpha0 does not establish opaque rectangle."
+    },
+    {
+      "id": "27-yingguang",
+      "file": "assets/fish/batch-5/27-yingguang.png",
+      "size": [
+        319,
+        238
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alpha0": 39540,
+      "alpha255": 0,
+      "conclusion": "Transparent corners/background; colored RGB under alpha0 does not establish opaque rectangle."
+    },
+    {
+      "id": "28-shenhai",
+      "file": "assets/fish/batch-5/28-shenhai.png",
+      "size": [
+        360,
+        257
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alpha0": 42414,
+      "alpha255": 0,
+      "conclusion": "Transparent corners/background; colored RGB under alpha0 does not establish opaque rectangle."
+    },
+    {
+      "id": "29-hailong",
+      "file": "assets/fish/batch-5/29-hailong.png",
+      "size": [
+        328,
+        308
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alpha0": 42659,
+      "alpha255": 0,
+      "conclusion": "Transparent corners/background; colored RGB under alpha0 does not establish opaque rectangle."
+    },
+    {
+      "id": "30-jinjia",
+      "file": "assets/fish/batch-5/30-jinjia.png",
+      "size": [
+        346,
+        256
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alpha0": 33767,
+      "alpha255": 0,
+      "conclusion": "Transparent corners/background; colored RGB under alpha0 does not establish opaque rectangle."
+    }
+  ],
+  "motionAlphaSamples": [
+    {
+      "id": "25-yexing/swim",
+      "frame": 0,
+      "preview": "designs/motion-frames-v1/25-yexing/swim/alpha-composite-review.png"
+    },
+    {
+      "id": "26-moyu/capture",
+      "frame": 4,
+      "preview": "designs/motion-frames-v1/26-moyu/capture/alpha-composite-review.png"
+    },
+    {
+      "id": "27-yingguang/capture",
+      "frame": 4,
+      "preview": "designs/motion-frames-v1/27-yingguang/capture/registered-alpha-review.png"
+    }
+  ],
+  "motionSampleReview": "Actual ivory/dark-jade alpha composites viewed, no opaque rectangle; samples only, not all-frame/runtime pass."
+}

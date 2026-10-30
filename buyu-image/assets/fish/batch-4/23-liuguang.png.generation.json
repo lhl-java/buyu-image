@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "23-liuguang",
+  "name": "流光鱼",
+  "file": "assets/fish/batch-4/23-liuguang.png",
+  "sha256": "74b5e12039c08d5192fb45b7caa4a826893796700e36863bc963e98d860bddf9",
+  "width": 457,
+  "height": 372,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/production-v1/fish-sheet-4/fish-sheet-4-contained.png",
+  "derivedFrom": [
+    {
+      "file": "designs/production-v1/fish-sheet-4/fish-sheet-4-contained.png",
+      "sha256": "6348eb20faa6655965d42b76baa307f74378a1b5fb097c5d94e2037ff77072e4",
+      "generationRecord": "designs/production-v1/fish-sheet-4/fish-sheet-4-contained.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_grid_crop",
+    "grid": {
+      "rows": 2,
+      "cols": 3
+    },
+    "sourceRect": [
+      512,
+      512,
+      1024,
+      1024
+    ],
+    "cellCropRect": [
+      25,
+      44,
+      482,
+      416
+    ],
+    "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+    "resized": false,
+    "upscaled": false
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "displaySize": [
+    180,
+    130
+  ],
+  "status": "prepared_pending_visual_review",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source generation record; no new model call for this slice."
+}

@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-07",
+  "name": "玄海巨鲸攻击 8/8",
+  "file": "assets/animations/36-xuanjing/attack/frame-07.png",
+  "sha256": "84a30a6fe58d471df6df2a90365091abfe23e8e322ed7962f952956e688400df",
+  "width": 1000,
+  "height": 1000,
+  "format": "RGBA PNG",
+  "derivedAt": "2026-10-28T17:55:06.831262+00:00",
+  "nativeSource": "designs/motion-frames-v1/36-xuanjing/attack/attack-b-v1.png",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/36-xuanjing/attack/attack-b-v1.png",
+      "sha256": "dc6e5dc29cd23c242762676a0b3dad2bd383e8240da7e3086bbfda58a7c09bad",
+      "generationRecord": "designs/motion-frames-v1/36-xuanjing/attack/attack-b-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_extraction_integer_eye_registration_and_padding",
+    "extraction": {
+      "type": "complete_native_actor_ownership",
+      "report": "designs/motion-frames-v1/36-xuanjing/attack/extract-b.json",
+      "sourceRect": [
+        644,
+        727,
+        1219,
+        1073
+      ],
+      "evidence": {
+        "sourceFrame": 3,
+        "file": "designs/motion-frames-v1/36-xuanjing/attack/extract-b-pose-03.png",
+        "sourceRect": [
+          644,
+          727,
+          1219,
+          1073
+        ],
+        "nominalSourceRect": [
+          627,
+          627,
+          1254,
+          1254
+        ],
+        "nominalGridCross": false,
+        "nativeVisibleSize": [
+          575,
+          346
+        ],
+        "ownedPixelCount": 104673,
+        "foreignPixelsRemovedFromCrop": 0,
+        "totalCanvasEdgeMaxAlpha": 0,
+        "nativeOwnedPixelsUnchanged": true,
+        "sourceMainAlphaComponent": 102
+      }
+    },
+    "sourceEyePoint": [
+      398.47186147186153,
+      156.69696969696975
+    ],
+    "globalSourceEye": [
+      1042.4718614718615,
+      883.6969696969697
+    ],
+    "registrationOffset": [
+      282,
+      263
+    ],
+    "registeredCanvas": [
+      1000,
+      1000
+    ],
+    "targetEye": [
+      680,
+      420
+    ],
+    "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+    "sourcePixelsRoundTripVerified": true,
+    "resized": false,
+    "upscaled": false,
+    "rotated": false,
+    "poseWarped": false,
+    "newNativeDetailClaimed": false
+  },
+  "anchor": [
+    0.68,
+    0.42
+  ],
+  "rootPixels": [
+    680,
+    420
+  ],
+  "eyePixels": [
+    680,
+    420
+  ],
+  "registeredAlphaBBox": [
+    282,
+    263,
+    857,
+    609
+  ],
+  "registeredMinMargin": 0.143,
+  "status": "candidate_pending_playback_and_final_visual_review",
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceLandmarkEvidence": {
+    "type": "manually checked dark pupil ROI component center, nearest integer",
+    "qa": "designs/motion-frames-v1/36-xuanjing/attack/source-b-qa.json",
+    "sourceFrame": 3,
+    "candidateIndex": 1,
+    "detection": null,
+    "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+  },
+  "displaySize": [
+    647.6190476190477,
+    647.6190476190477
+  ],
+  "bodyDisplayBox": [
+    340,
+    260
+  ],
+  "uniformDisplayScale": 0.6476190476190476,
+  "displaySizing": {
+    "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+    "sourceVisibleReference": [
+      525,
+      386
+    ],
+    "upscalingAllowed": false,
+    "crossClipDensityReview": "pending_common_head_scale_review"
+  },
+  "animation": {
+    "id": "36-xuanjing/attack",
+    "frames": 8,
+    "fps": 10,
+    "loop": false,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "durationsMs": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "root": [
+      0.68,
+      0.42
+    ],
+    "sourceRoute": "builtin_native_AI_sheet_user_requested",
+    "sourcePixelsNeverResampled": true,
+    "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+    "phase": 7,
+    "durationMs": 100
+  }
+}

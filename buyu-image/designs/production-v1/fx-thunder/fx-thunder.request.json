@@ -1,0 +1,9 @@
+{
+  "prompt": "Use case: stylized-concept. Runtime 2D hand-painted visual effect sprite sheet, genuine transparent RGBA, SQUARE canvas. Exactly4 equal columns x4 equal rows=16 chronological frames, row-major left to right top to bottom. Effect: purple-gold lightning forming a round net burst. Images1/2 approved mail/team are jade/gold Daoist chibi art direction, Image3 skills screen gives effect identity. No characters, animals, scenery, UI, text, grid lines or border. Every effect frame has one shared center exactly at cell center, stays within 70% of cell width/height with transparent 15% margin. Clear complete frame1 tiny seed, frames2-5 expands, frames6-9 peaks with strongest defined structure, frames10-13 dissipates, frames14-16 almost fades to a tiny sparkle; readable distinct stages and no identical duplicates. Fixed camera, same scale maximum, no subject travel across cells, no other objects. Delicate hand-painted luminous purple-gold lightning forming a round net burst, crisp fine readable geometry and sparse particles, controlled glow rather than blur. Real alpha preserves translucent glow, no baked black/white/checkerboard background. Use entire square 4x4 sprite sheet, exactly16 separated sequential frames.",
+  "referenced_image_paths": [
+    "D:\\work\\buyu-image\\designs\\mail-ui-v1\\01-mail-event.png",
+    "D:\\work\\buyu-image\\designs\\team-ui-v2\\team-ui-v2.png",
+    "D:\\work\\buyu-image\\designs\\ui\\full-suite-v1\\08-skills\\08-skills.png"
+  ],
+  "transparent_background": true
+}

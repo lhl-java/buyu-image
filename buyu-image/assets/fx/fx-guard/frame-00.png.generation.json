@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-00",
+  "name": "护持太极葫芦护罩释放 0",
+  "file": "assets/fx/fx-guard/frame-00.png",
+  "sha256": "f1d86898d00f49e1ba8e193b71ac8553d99a5423497724b1a6890e54e68b8954",
+  "width": 394,
+  "height": 394,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/production-v2/fx-guard/fx-guard-contained.png",
+  "derivedFrom": [
+    {
+      "file": "designs/production-v2/fx-guard/fx-guard-contained.png",
+      "sha256": "b98d15447f621408dfb397bbdb83218c8b52ae0b8874454e3943d1973311a5c4",
+      "generationRecord": "designs/production-v2/fx-guard/fx-guard-contained.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_grid_crop_then_uniform_transparent_padding",
+    "grid": {
+      "rows": 4,
+      "cols": 4
+    },
+    "sourceRect": [
+      0,
+      0,
+      314,
+      314
+    ],
+    "cellCropRect": [
+      0,
+      0,
+      314,
+      314
+    ],
+    "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+    "resized": false,
+    "upscaled": false,
+    "nativeExtractedFrameSize": [
+      314,
+      314
+    ],
+    "nativeExtractedFramePngSha256": "ba368a30eb58eb2ceaaae2defa2eaab8bdfc77e362e1d73ab41964409adce106",
+    "nativeExtractedRgbaPixelsSha256": "a9102b40c39b33b33e8b3e77353c8d397cf4363f5af8f381a3b5da0a9d18d0d8",
+    "runtimeTransparentPadding": [
+      40,
+      40,
+      40,
+      40
+    ],
+    "paddingOrder": "left,top,right,bottom",
+    "paddingResampled": false,
+    "sourcePixelsRoundtripIdentical": true,
+    "paddingReason": "Provide runtime safe empty border; source cell margin contract remains separately reported, not reclassified as passed.",
+    "nativeDetailClaim": "New canvas dimension is transparent padding only; source native detail remains [314, 314]"
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "displaySize": [
+    192,
+    192
+  ],
+  "status": "fx_frames_visual_reviewed_pending_runtime_integration",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source generation record; no new model call for this slice.",
+  "animation": {
+    "fps": 16,
+    "loop": false,
+    "order": "row-major",
+    "frames": 16,
+    "root": [
+      0.5,
+      0.5
+    ],
+    "durationMs": 1000,
+    "role": "cast_release_one_shot"
+  },
+  "visualReview": "已实际查看原生源和最终16帧浅米白/深青Alpha合成：太极葫芦及云纹护罩出现、成罩、消散阶段明确，AI-contained修正后cell边告警为空。此为释放one-shot；源留白门禁仍有3帧未满足12%，统一padding后runtime通过，不冒充持续loop。",
+  "sourceQa": "designs/production-v2/fx-guard/fx-guard.visual-qa.json"
+}

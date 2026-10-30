@@ -1,0 +1,10 @@
+{
+  "prompt": "Precise-object-edit for native game action frames. IMAGE1 is the ONE AND ONLY GEOMETRY EDIT TARGET: this exact fish's8-frame SWIM sheet. Keep its exact nativecanvas,4columns2rows, per-cell placements and eye positions, head/front-torso sizes, proportions and orientation. Image2/3 style only;4identity only. Do not inherit still's full-cell framing or enlarge fish. Subject orange/ivory striped tall butterflyfish, black face bands, narrow pointed snout, amber eye, long swept dorsal/anal blades. ALL8FISH MUST FACE RIGHT, including bottom row; never turn LEFT.\nEdit to8 distinct CAPTURE/STRUGGLE poses row-major:0normal swim entry;1startled tail/fin flare with slight mouth startle;2real rear-body C-flex upward, tail curls up and near fin pulls in/far fin spreads;3counterflex down, tail membrane folds opposite and fins reverse;4shorter upward struggle/fins retract;5fatigue tail loosens and fins droop;6settling tail folds down softly;7subdued complete final fish with loose tail/fins and visible eye. Rear anatomy and membranes must change actual silhouette, while protected head/frontbody stay same native scale and position. All poses RIGHT-facing, no whole-sprite translation/rotation/zoom/mirroring/stretching as motion. ONE body scale across clip. Keep every fine fin/tail tip complete inside its cell; curl long tips inward rather than crossing borders. True clean RGBA alpha, no net/FX/particles/water/shadow/fade/shrink-through-time/UI/text/labels/grid/checkerboard or colored background speckles. Engine removes fish after complete last frame. Preserve polished detailed hand-painted gold edges/scales and existing identity exactly.",
+  "referenced_image_paths": [
+    "D:\\work\\buyu-image\\designs\\motion-frames-v1\\09-caidie\\swim\\09-caidie-swim-facing-v2.png",
+    "D:\\work\\buyu-image\\designs\\mail-ui-v1\\01-mail-event.png",
+    "D:\\work\\buyu-image\\designs\\team-ui-v2\\team-ui-v2.png",
+    "D:\\work\\buyu-image\\assets\\fish\\batch-2\\09-caidie.png"
+  ],
+  "transparent_background": true
+}

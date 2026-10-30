@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/ui/full-suite-v1/30-empty-states/30-empty-states.png",
+  "sha256": "20f2d0a03f66a4265293211c95e92402e09ef547873aedd7361f9cbc1eb1338c",
+  "generatedAt": "2026-10-26T08:03:24.779Z",
+  "startedAt": "2026-10-26T08:02:36.672Z",
+  "width": 1672,
+  "height": 941,
+  "format": "PNG",
+  "pixelFormat": "Format24bppRgb",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "builtin_evidence": {
+      "model_parameter_exposed": false,
+      "quality_parameter_exposed": false,
+      "actual_model": null,
+      "actual_quality": null,
+      "note": "Configuration targets only; verify actual model and quality per generated image."
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\buyu-image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\buyu-image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "D:\\work\\buyu-image\\designs\\ui\\fishing-main-v1\\fishing-main-v1.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具未开放 model/quality 参数，本次结果未披露实际型号及质量。",
+  "evidence": {
+    "toolResult": "30-empty-states.tool-result.txt",
+    "sourceOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a17713-70e6-7261-8609-a9eabcbfb0a5\\exec-c0dac0e4-1678-46c4-a3db-7f9d86a87be1.png",
+    "toolResultId": "exec-c0dac0e4-1678-46c4-a3db-7f9d86a87be1",
+    "request": "30-empty-states.request.json"
+  },
+  "prompt": "30-empty-states.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/ui/fishing-main-v1/fishing-main-v1.png",
+      "sha256": "957cfb67b8a26bde70cee652a1c0c4e4e5bcfa05597b6da47f1a73544419e9bf",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    }
+  ],
+  "requestedCanvasInPrompt": "Landscape approx 16:9; native actual dimensions recorded, no size selector exposed.",
+  "resampled": false,
+  "status": "draft_pending_user_review",
+  "visualReview": "已目视：邮件空白、好友空白、加载、获取失败四态齐全，图标和文字可读，留白明确，风格一致。",
+  "scope": "UI art design or state board; example values and features, no runtime integration claimed."
+}

@@ -1,0 +1,1078 @@
+{
+  "schemaVersion": 1,
+  "source": "designs/motion-frames-v1/09-caidie/swim/09-caidie-swim-facing-v2.png",
+  "sourceWidth": 1774,
+  "sourceHeight": 887,
+  "output": "assets/animations/09-caidie/swim",
+  "id": "09-caidie",
+  "action": "swim",
+  "items": [
+    {
+      "schemaVersion": 1,
+      "id": "frame-00",
+      "file": "assets/animations/09-caidie/swim/frame-00.png",
+      "sha256": "5200e1ad28cab1f70d08b78291b27f4039470c87264c59cfae251e5f6935751f",
+      "width": 672,
+      "height": 672,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/09-caidie/swim/09-caidie-swim-facing-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/09-caidie/swim/09-caidie-swim-facing-v2.png",
+          "sha256": "fe6fbcf7e20c5d68bcf4b5175d276e1647866a71cb23c3ab2f1bf1ba7cfd6052",
+          "generationRecord": "designs/motion-frames-v1/09-caidie/swim/09-caidie-swim-facing-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          35,
+          82,
+          439,
+          423
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          404,
+          341
+        ],
+        "registrationOffset": [
+          131,
+          163
+        ],
+        "registeredCanvas": [
+          672,
+          672
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            335.44769874476987,
+            172.63598326359832
+          ],
+          "sourcePointRounded": [
+            335,
+            173
+          ],
+          "targetPoint": [
+            466,
+            336
+          ],
+          "method": "RGBmax<55 and A>220 pupil component; restricted to manually placed radius14px ROI and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          0,
+          0,
+          444,
+          444
+        ],
+        "nominalGridBorderAlpha": 1,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        336,
+        336
+      ],
+      "eyePixels": [
+        466,
+        336
+      ],
+      "displaySize": [
+        165.41538461538462,
+        165.41538461538462
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.24615384615384617,
+      "scaleReference": "rest frame00 native visible box",
+      "registeredAlphaBBox": [
+        139,
+        171,
+        527,
+        496
+      ],
+      "registeredMinMargin": 0.20684523809523808,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-01",
+      "file": "assets/animations/09-caidie/swim/frame-01.png",
+      "sha256": "c59638c6fdebe056c34a7a80bfe2985637ef501df644ec4c3916685b9b160a30",
+      "width": 672,
+      "height": 672,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/09-caidie/swim/09-caidie-swim-facing-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/09-caidie/swim/09-caidie-swim-facing-v2.png",
+          "sha256": "fe6fbcf7e20c5d68bcf4b5175d276e1647866a71cb23c3ab2f1bf1ba7cfd6052",
+          "generationRecord": "designs/motion-frames-v1/09-caidie/swim/09-caidie-swim-facing-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          454,
+          55,
+          879,
+          432
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          425,
+          377
+        ],
+        "registrationOffset": [
+          105,
+          136
+        ],
+        "registeredCanvas": [
+          672,
+          672
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            360.7918552036199,
+            200.47511312217193
+          ],
+          "sourcePointRounded": [
+            361,
+            200
+          ],
+          "targetPoint": [
+            466,
+            336
+          ],
+          "method": "RGBmax<55 and A>220 pupil component; restricted to manually placed radius14px ROI and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          444,
+          0,
+          887,
+          444
+        ],
+        "nominalGridBorderAlpha": 1,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        336,
+        336
+      ],
+      "eyePixels": [
+        466,
+        336
+      ],
+      "displaySize": [
+        165.41538461538462,
+        165.41538461538462
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.24615384615384617,
+      "scaleReference": "rest frame00 native visible box",
+      "registeredAlphaBBox": [
+        113,
+        144,
+        522,
+        505
+      ],
+      "registeredMinMargin": 0.16815476190476192,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-02",
+      "file": "assets/animations/09-caidie/swim/frame-02.png",
+      "sha256": "1703479de382ef1932706f5ff4102d67fd455ba8ad3ecc66c56335339dcfd167",
+      "width": 672,
+      "height": 672,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/09-caidie/swim/09-caidie-swim-facing-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/09-caidie/swim/09-caidie-swim-facing-v2.png",
+          "sha256": "fe6fbcf7e20c5d68bcf4b5175d276e1647866a71cb23c3ab2f1bf1ba7cfd6052",
+          "generationRecord": "designs/motion-frames-v1/09-caidie/swim/09-caidie-swim-facing-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          883,
+          28,
+          1320,
+          443
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          437,
+          415
+        ],
+        "registrationOffset": [
+          96,
+          109
+        ],
+        "registeredCanvas": [
+          672,
+          672
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            369.5021459227469,
+            227.46351931330472
+          ],
+          "sourcePointRounded": [
+            370,
+            227
+          ],
+          "targetPoint": [
+            466,
+            336
+          ],
+          "method": "RGBmax<55 and A>220 pupil component; restricted to manually placed radius14px ROI and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          887,
+          0,
+          1330,
+          444
+        ],
+        "nominalGridBorderAlpha": 1,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        336,
+        336
+      ],
+      "eyePixels": [
+        466,
+        336
+      ],
+      "displaySize": [
+        165.41538461538462,
+        165.41538461538462
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.24615384615384617,
+      "scaleReference": "rest frame00 native visible box",
+      "registeredAlphaBBox": [
+        104,
+        117,
+        525,
+        516
+      ],
+      "registeredMinMargin": 0.15476190476190477,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-03",
+      "file": "assets/animations/09-caidie/swim/frame-03.png",
+      "sha256": "6d59386c42707e3c775d6580c1278d3637e8bfbae8a42a3cc19320d40821d0c0",
+      "width": 672,
+      "height": 672,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/09-caidie/swim/09-caidie-swim-facing-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/09-caidie/swim/09-caidie-swim-facing-v2.png",
+          "sha256": "fe6fbcf7e20c5d68bcf4b5175d276e1647866a71cb23c3ab2f1bf1ba7cfd6052",
+          "generationRecord": "designs/motion-frames-v1/09-caidie/swim/09-caidie-swim-facing-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          1341,
+          58,
+          1760,
+          420
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          419,
+          362
+        ],
+        "registrationOffset": [
+          113,
+          138
+        ],
+        "registeredCanvas": [
+          672,
+          672
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            353.3300970873786,
+            197.98543689320388
+          ],
+          "sourcePointRounded": [
+            353,
+            198
+          ],
+          "targetPoint": [
+            466,
+            336
+          ],
+          "method": "RGBmax<55 and A>220 pupil component; restricted to manually placed radius14px ROI and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          1330,
+          0,
+          1774,
+          444
+        ],
+        "nominalGridBorderAlpha": 1,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        336,
+        336
+      ],
+      "eyePixels": [
+        466,
+        336
+      ],
+      "displaySize": [
+        165.41538461538462,
+        165.41538461538462
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.24615384615384617,
+      "scaleReference": "rest frame00 native visible box",
+      "registeredAlphaBBox": [
+        121,
+        146,
+        524,
+        492
+      ],
+      "registeredMinMargin": 0.1800595238095238,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-04",
+      "file": "assets/animations/09-caidie/swim/frame-04.png",
+      "sha256": "473098ba1e519fe7778f8453bce7f09e774cff8975f8462ea903b5959f4efba6",
+      "width": 672,
+      "height": 672,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/09-caidie/swim/09-caidie-swim-facing-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/09-caidie/swim/09-caidie-swim-facing-v2.png",
+          "sha256": "fe6fbcf7e20c5d68bcf4b5175d276e1647866a71cb23c3ab2f1bf1ba7cfd6052",
+          "generationRecord": "designs/motion-frames-v1/09-caidie/swim/09-caidie-swim-facing-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          21,
+          477,
+          467,
+          832
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          446,
+          355
+        ],
+        "registrationOffset": [
+          87,
+          159
+        ],
+        "registeredCanvas": [
+          672,
+          672
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            379.296875,
+            176.79296875
+          ],
+          "sourcePointRounded": [
+            379,
+            177
+          ],
+          "targetPoint": [
+            466,
+            336
+          ],
+          "method": "RGBmax<55 and A>220 pupil component; restricted to manually placed radius14px ROI and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          0,
+          444,
+          444,
+          887
+        ],
+        "nominalGridBorderAlpha": 254,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        336,
+        336
+      ],
+      "eyePixels": [
+        466,
+        336
+      ],
+      "displaySize": [
+        165.41538461538462,
+        165.41538461538462
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.24615384615384617,
+      "scaleReference": "rest frame00 native visible box",
+      "registeredAlphaBBox": [
+        94,
+        166,
+        526,
+        507
+      ],
+      "registeredMinMargin": 0.13988095238095238,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-05",
+      "file": "assets/animations/09-caidie/swim/frame-05.png",
+      "sha256": "f6d2c86127bb87c23fb1b393244ccfecb320f87d065d49e6db5388fae7bffa1a",
+      "width": 672,
+      "height": 672,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/09-caidie/swim/09-caidie-swim-facing-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/09-caidie/swim/09-caidie-swim-facing-v2.png",
+          "sha256": "fe6fbcf7e20c5d68bcf4b5175d276e1647866a71cb23c3ab2f1bf1ba7cfd6052",
+          "generationRecord": "designs/motion-frames-v1/09-caidie/swim/09-caidie-swim-facing-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          460,
+          477,
+          896,
+          838
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          436,
+          361
+        ],
+        "registrationOffset": [
+          94,
+          159
+        ],
+        "registeredCanvas": [
+          672,
+          672
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            372.2266187050359,
+            177.4460431654676
+          ],
+          "sourcePointRounded": [
+            372,
+            177
+          ],
+          "targetPoint": [
+            466,
+            336
+          ],
+          "method": "RGBmax<55 and A>220 pupil component; restricted to manually placed radius14px ROI and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          444,
+          444,
+          887,
+          887
+        ],
+        "nominalGridBorderAlpha": 252,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        336,
+        336
+      ],
+      "eyePixels": [
+        466,
+        336
+      ],
+      "displaySize": [
+        165.41538461538462,
+        165.41538461538462
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.24615384615384617,
+      "scaleReference": "rest frame00 native visible box",
+      "registeredAlphaBBox": [
+        101,
+        166,
+        523,
+        513
+      ],
+      "registeredMinMargin": 0.15029761904761904,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-06",
+      "file": "assets/animations/09-caidie/swim/frame-06.png",
+      "sha256": "81ab42eb783cd112ab034ae4ab879ed5127712ee6d22ae314e430ed008a6983f",
+      "width": 672,
+      "height": 672,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/09-caidie/swim/09-caidie-swim-facing-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/09-caidie/swim/09-caidie-swim-facing-v2.png",
+          "sha256": "fe6fbcf7e20c5d68bcf4b5175d276e1647866a71cb23c3ab2f1bf1ba7cfd6052",
+          "generationRecord": "designs/motion-frames-v1/09-caidie/swim/09-caidie-swim-facing-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          902,
+          477,
+          1342,
+          847
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          440,
+          370
+        ],
+        "registrationOffset": [
+          97,
+          159
+        ],
+        "registeredCanvas": [
+          672,
+          672
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            369.4384615384615,
+            177.26538461538462
+          ],
+          "sourcePointRounded": [
+            369,
+            177
+          ],
+          "targetPoint": [
+            466,
+            336
+          ],
+          "method": "RGBmax<55 and A>220 pupil component; restricted to manually placed radius14px ROI and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          887,
+          444,
+          1330,
+          887
+        ],
+        "nominalGridBorderAlpha": 212,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        336,
+        336
+      ],
+      "eyePixels": [
+        466,
+        336
+      ],
+      "displaySize": [
+        165.41538461538462,
+        165.41538461538462
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.24615384615384617,
+      "scaleReference": "rest frame00 native visible box",
+      "registeredAlphaBBox": [
+        105,
+        167,
+        529,
+        521
+      ],
+      "registeredMinMargin": 0.15625,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-07",
+      "file": "assets/animations/09-caidie/swim/frame-07.png",
+      "sha256": "865e23a3e34cff9c82b3e7a53d37a64008fcb283ceece8dd57345c0c2b22a52b",
+      "width": 672,
+      "height": 672,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/09-caidie/swim/09-caidie-swim-facing-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/09-caidie/swim/09-caidie-swim-facing-v2.png",
+          "sha256": "fe6fbcf7e20c5d68bcf4b5175d276e1647866a71cb23c3ab2f1bf1ba7cfd6052",
+          "generationRecord": "designs/motion-frames-v1/09-caidie/swim/09-caidie-swim-facing-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          1343,
+          467,
+          1771,
+          841
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          428,
+          374
+        ],
+        "registrationOffset": [
+          105,
+          149
+        ],
+        "registeredCanvas": [
+          672,
+          672
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            361.0226415094339,
+            187.49811320754714
+          ],
+          "sourcePointRounded": [
+            361,
+            187
+          ],
+          "targetPoint": [
+            466,
+            336
+          ],
+          "method": "RGBmax<55 and A>220 pupil component; restricted to manually placed radius14px ROI and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          1330,
+          444,
+          1774,
+          887
+        ],
+        "nominalGridBorderAlpha": 77,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        336,
+        336
+      ],
+      "eyePixels": [
+        466,
+        336
+      ],
+      "displaySize": [
+        165.41538461538462,
+        165.41538461538462
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.24615384615384617,
+      "scaleReference": "rest frame00 native visible box",
+      "registeredAlphaBBox": [
+        113,
+        157,
+        525,
+        515
+      ],
+      "registeredMinMargin": 0.16815476190476192,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    }
+  ],
+  "sourceRects": [
+    [
+      35,
+      82,
+      439,
+      423
+    ],
+    [
+      454,
+      55,
+      879,
+      432
+    ],
+    [
+      883,
+      28,
+      1320,
+      443
+    ],
+    [
+      1341,
+      58,
+      1760,
+      420
+    ],
+    [
+      21,
+      477,
+      467,
+      832
+    ],
+    [
+      460,
+      477,
+      896,
+      838
+    ],
+    [
+      902,
+      477,
+      1342,
+      847
+    ],
+    [
+      1343,
+      467,
+      1771,
+      841
+    ]
+  ],
+  "sharedCanvas": [
+    672,
+    672
+  ],
+  "root": [
+    0.5,
+    0.5
+  ],
+  "rootPixels": [
+    336,
+    336
+  ],
+  "eyePixels": [
+    466,
+    336
+  ],
+  "fps": 12,
+  "loop": true,
+  "durationsMs": [
+    83,
+    84,
+    83,
+    83,
+    84,
+    83,
+    83,
+    84
+  ],
+  "displaySize": [
+    165.41538461538462,
+    165.41538461538462
+  ],
+  "bodyDisplayBox": [
+    120,
+    80
+  ],
+  "uniformDisplayScale": 0.24615384615384617,
+  "displayScaleReference": {
+    "frame": 0,
+    "restVisibleBox": [
+      388,
+      325
+    ],
+    "actualRestDisplayBox": [
+      95.50769230769231,
+      80.0
+    ]
+  },
+  "warnings": [],
+  "runtimeMarginWarnings": [],
+  "sourceMarginWarnings": [
+    {
+      "frame": 0,
+      "actual": 0.02927927927927928,
+      "required": 0.12
+    },
+    {
+      "frame": 1,
+      "actual": 0.03611738148984198,
+      "required": 0.12
+    },
+    {
+      "frame": 2,
+      "actual": 0.009029345372460496,
+      "required": 0.12
+    },
+    {
+      "frame": 3,
+      "actual": 0.04279279279279279,
+      "required": 0.12
+    },
+    {
+      "frame": 4,
+      "actual": 0.0,
+      "required": 0.12
+    },
+    {
+      "frame": 5,
+      "actual": 0.0,
+      "required": 0.12
+    },
+    {
+      "frame": 6,
+      "actual": 0.0,
+      "required": 0.12
+    },
+    {
+      "frame": 7,
+      "actual": 0.0,
+      "required": 0.12
+    }
+  ],
+  "animation": {
+    "frames": 8,
+    "fps": 12,
+    "loop": true,
+    "durationsMs": [
+      83,
+      84,
+      83,
+      83,
+      84,
+      83,
+      83,
+      84
+    ],
+    "order": "row-major",
+    "root": [
+      0.5,
+      0.5
+    ],
+    "rootPixels": [
+      336,
+      336
+    ],
+    "eyePixels": [
+      466,
+      336
+    ],
+    "sharedCanvas": [
+      672,
+      672
+    ],
+    "phaseDegrees": [
+      0,
+      45,
+      90,
+      135,
+      180,
+      225,
+      270,
+      315
+    ],
+    "poseMeaning": "8-phase swim cycle",
+    "identityStatus": "pending_root_visual",
+    "motionStatus": "pending_root_visual",
+    "registrationStatus": "producer_pupil_registered_pending_root_visual",
+    "playbackStatus": "pending_Unity",
+    "timingNote": "12FPS authoritative; integer durations cumulative-boundary rounded",
+    "releaseReady": true
+  },
+  "status": "accepted_first_release_art",
+  "complete": true,
+  "qa": {
+    "trueAlpha": true,
+    "actualPupilROIReviewed": true,
+    "registeredPixelRoundTrip": true,
+    "minimumRuntimeMargin": 0.13988095238095238,
+    "sourceMarginStatus": "nominal_grid_warnings_preserved; complete_ownership_and_registered_margin_verified",
+    "runtimeMarginStatus": "pass",
+    "producerVisualNote": "Orientation fixed by AI: all eight face RIGHT. Orange/ivory/black bands stable, long dorsal/anal curves and tail fold. Bottom-row scale consistency requires root visual attention. Actual native/pupil ROI inspected. Root visual and Unity playback pending.",
+    "rootVisualStatus": "pending",
+    "playbackStatus": "pending_Unity",
+    "producerLightDarkAlphaCompositeActuallyViewed": true,
+    "producerRegisteredPoseStillReview": "candidate_pass",
+    "producerPoseEvidence": "Orientation fixed by AI: all eight face RIGHT. Orange/ivory/black bands stable, long dorsal/anal curves and tail fold. Bottom-row scale consistency requires root visual attention.",
+    "hashUniquenessIsNotMotionEvidence": true,
+    "producerReviewedAt": "2026-10-28T18:52:01.296582+00:00",
+    "originalNominalGridMarginStatus": "fail_preserved"
+  },
+  "nominalGridBorderWarnings": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "ownershipWarnings": [],
+  "clipDensityAdjustment": null,
+  "bodyRootOffsetFromEye": [
+    -130,
+    0
+  ],
+  "producerStage": "candidate_ready_for_root_visual",
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+  "acceptedAt": "2026-10-30T04:07:09.085600+00:00",
+  "releaseReady": true,
+  "playbackReview": "docs/UNITY_FINAL_ACCEPTANCE.json"
+}

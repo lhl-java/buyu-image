@@ -1,0 +1,206 @@
+{
+  "source": "designs/motion-frames-v1/10-qingya/swim/10-qingya-swim-v1.png",
+  "sourceSHA256": "8977502e091ce600338a63c606b58ad46e1a40145848236f1da8225112b2fbdb",
+  "action": "swim",
+  "registeredAt": "2026-10-28T18:27:27.767777+00:00",
+  "sharedCanvas": [
+    736,
+    736
+  ],
+  "rootPixels": [
+    368,
+    368
+  ],
+  "eyePixels": [
+    463,
+    338
+  ],
+  "registration": [
+    {
+      "frame": 0,
+      "pupil": [
+        340,
+        131
+      ],
+      "registeredPupil": [
+        463,
+        338
+      ],
+      "offset": [
+        123,
+        207
+      ],
+      "minMargin": 0.17798913043478262,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 1,
+      "pupil": [
+        353,
+        128
+      ],
+      "registeredPupil": [
+        463,
+        338
+      ],
+      "offset": [
+        110,
+        210
+      ],
+      "minMargin": 0.16032608695652173,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 2,
+      "pupil": [
+        357,
+        175
+      ],
+      "registeredPupil": [
+        463,
+        338
+      ],
+      "offset": [
+        106,
+        163
+      ],
+      "minMargin": 0.15489130434782608,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 3,
+      "pupil": [
+        343,
+        121
+      ],
+      "registeredPupil": [
+        463,
+        338
+      ],
+      "offset": [
+        120,
+        217
+      ],
+      "minMargin": 0.17391304347826086,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 4,
+      "pupil": [
+        345,
+        136
+      ],
+      "registeredPupil": [
+        463,
+        338
+      ],
+      "offset": [
+        118,
+        202
+      ],
+      "minMargin": 0.17119565217391305,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 5,
+      "pupil": [
+        344,
+        124
+      ],
+      "registeredPupil": [
+        463,
+        338
+      ],
+      "offset": [
+        119,
+        214
+      ],
+      "minMargin": 0.17255434782608695,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 6,
+      "pupil": [
+        349,
+        123
+      ],
+      "registeredPupil": [
+        463,
+        338
+      ],
+      "offset": [
+        114,
+        215
+      ],
+      "minMargin": 0.16576086956521738,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 7,
+      "pupil": [
+        336,
+        137
+      ],
+      "registeredPupil": [
+        463,
+        338
+      ],
+      "offset": [
+        127,
+        201
+      ],
+      "minMargin": 0.18342391304347827,
+      "pixelRoundTrip": true
+    }
+  ],
+  "uniformScale": 0.28169014084507044,
+  "sourceMarginWarnings": [
+    {
+      "frame": 0,
+      "actual": 0.02927927927927928,
+      "required": 0.12
+    },
+    {
+      "frame": 1,
+      "actual": 0.0,
+      "required": 0.12
+    },
+    {
+      "frame": 2,
+      "actual": 0.0,
+      "required": 0.12
+    },
+    {
+      "frame": 3,
+      "actual": 0.0,
+      "required": 0.12
+    },
+    {
+      "frame": 4,
+      "actual": 0.024774774774774775,
+      "required": 0.12
+    },
+    {
+      "frame": 5,
+      "actual": 0.0,
+      "required": 0.12
+    },
+    {
+      "frame": 6,
+      "actual": 0.0,
+      "required": 0.12
+    },
+    {
+      "frame": 7,
+      "actual": 0.0,
+      "required": 0.12
+    }
+  ],
+  "runtimeWarnings": [],
+  "producerVisualNote": "Green/gold scale rings and white fangs retained; tail S-wave and pectoral folds, captured posterior C-flex. Actual native/pupil ROI inspected. Root visual and Unity playback pending.",
+  "registeredContactVisual": "producer_actually_viewed_light_dark_and_display_rest_comparison",
+  "identityAndMotion": "pending_root_visual",
+  "playback": "pending_Unity",
+  "references": null,
+  "rootVisual": "pending"
+}

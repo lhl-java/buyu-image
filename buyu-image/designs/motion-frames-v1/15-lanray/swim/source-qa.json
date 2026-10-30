@@ -1,0 +1,301 @@
+{
+  "schemaVersion": 1,
+  "source": "designs/motion-frames-v1/15-lanray/swim/15-lanray-swim.png",
+  "sha256": "140d253193b937282eae579e21492227dbef2219e420705ee8524495db00c989",
+  "nativeSize": [
+    1774,
+    887
+  ],
+  "cellCanvas": [
+    444,
+    444
+  ],
+  "frames": [
+    {
+      "frame": 0,
+      "sourceRect": [
+        0,
+        0,
+        444,
+        444
+      ],
+      "nativeCell": [
+        444,
+        444
+      ],
+      "alphaBBox": [
+        26,
+        63,
+        443,
+        399
+      ],
+      "marginsLTRB": [
+        0.05855855855855856,
+        0.14189189189189189,
+        0.0022522522522522522,
+        0.10135135135135136
+      ],
+      "edgeMaxAlpha": 2
+    },
+    {
+      "frame": 1,
+      "sourceRect": [
+        444,
+        0,
+        887,
+        444
+      ],
+      "nativeCell": [
+        443,
+        444
+      ],
+      "alphaBBox": [
+        24,
+        87,
+        443,
+        400
+      ],
+      "marginsLTRB": [
+        0.05405405405405406,
+        0.19594594594594594,
+        0.0022522522522522522,
+        0.0990990990990991
+      ],
+      "edgeMaxAlpha": 252
+    },
+    {
+      "frame": 2,
+      "sourceRect": [
+        887,
+        0,
+        1330,
+        444
+      ],
+      "nativeCell": [
+        443,
+        444
+      ],
+      "alphaBBox": [
+        0,
+        84,
+        435,
+        383
+      ],
+      "marginsLTRB": [
+        0.0,
+        0.1891891891891892,
+        0.02027027027027027,
+        0.1373873873873874
+      ],
+      "edgeMaxAlpha": 250
+    },
+    {
+      "frame": 3,
+      "sourceRect": [
+        1330,
+        0,
+        1774,
+        444
+      ],
+      "nativeCell": [
+        444,
+        444
+      ],
+      "alphaBBox": [
+        25,
+        86,
+        426,
+        402
+      ],
+      "marginsLTRB": [
+        0.05630630630630631,
+        0.19369369369369369,
+        0.04054054054054054,
+        0.0945945945945946
+      ],
+      "edgeMaxAlpha": 0
+    },
+    {
+      "frame": 4,
+      "sourceRect": [
+        0,
+        444,
+        444,
+        887
+      ],
+      "nativeCell": [
+        444,
+        443
+      ],
+      "alphaBBox": [
+        24,
+        23,
+        444,
+        378
+      ],
+      "marginsLTRB": [
+        0.05405405405405406,
+        0.0518018018018018,
+        0.0,
+        0.14864864864864866
+      ],
+      "edgeMaxAlpha": 253
+    },
+    {
+      "frame": 5,
+      "sourceRect": [
+        444,
+        444,
+        887,
+        887
+      ],
+      "nativeCell": [
+        443,
+        443
+      ],
+      "alphaBBox": [
+        0,
+        34,
+        418,
+        341
+      ],
+      "marginsLTRB": [
+        0.0,
+        0.07657657657657657,
+        0.05855855855855856,
+        0.23198198198198197
+      ],
+      "edgeMaxAlpha": 200
+    },
+    {
+      "frame": 6,
+      "sourceRect": [
+        887,
+        444,
+        1330,
+        887
+      ],
+      "nativeCell": [
+        443,
+        443
+      ],
+      "alphaBBox": [
+        18,
+        93,
+        443,
+        333
+      ],
+      "marginsLTRB": [
+        0.04054054054054054,
+        0.20945945945945946,
+        0.0022522522522522522,
+        0.25
+      ],
+      "edgeMaxAlpha": 7
+    },
+    {
+      "frame": 7,
+      "sourceRect": [
+        1330,
+        444,
+        1774,
+        887
+      ],
+      "nativeCell": [
+        444,
+        443
+      ],
+      "alphaBBox": [
+        0,
+        21,
+        444,
+        362
+      ],
+      "marginsLTRB": [
+        0.0,
+        0.0472972972972973,
+        0.0,
+        0.18468468468468469
+      ],
+      "edgeMaxAlpha": 8
+    }
+  ],
+  "warnings": [
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 0,
+      "actual": 0.0022522522522522522,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_cell_border_alpha",
+      "frame": 1,
+      "actual": 252,
+      "threshold": 16
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 1,
+      "actual": 0.0022522522522522522,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_cell_border_alpha",
+      "frame": 2,
+      "actual": 250,
+      "threshold": 16
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 2,
+      "actual": 0.0,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 3,
+      "actual": 0.04054054054054054,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_cell_border_alpha",
+      "frame": 4,
+      "actual": 253,
+      "threshold": 16
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 4,
+      "actual": 0.0,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_cell_border_alpha",
+      "frame": 5,
+      "actual": 200,
+      "threshold": 16
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 5,
+      "actual": 0.0,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 6,
+      "actual": 0.0022522522522522522,
+      "threshold": 0.12
+    },
+    {
+      "id": "source_margin_lt_12pct",
+      "frame": 7,
+      "actual": 0.0,
+      "threshold": 0.12
+    }
+  ],
+  "actualMotionReview": "Source contact review pending.",
+  "actualMotionApproved": false,
+  "loopPlaybackStatus": "not_run_during_heavy_job_hold",
+  "noResampling": true
+}

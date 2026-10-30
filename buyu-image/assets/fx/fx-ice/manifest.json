@@ -1,0 +1,1035 @@
+{
+  "schemaVersion": 1,
+  "source": "designs/production-v1/fx-ice/fx-ice-v2.png",
+  "sourceWidth": 1254,
+  "sourceHeight": 1254,
+  "output": "assets/fx/fx-ice",
+  "items": [
+    {
+      "schemaVersion": 1,
+      "id": "frame-00",
+      "name": "fx-ice 0",
+      "file": "assets/fx/fx-ice/frame-00.png",
+      "sha256": "e51335d2939719ade9a28fd91174d010cac3d784f4ff9d89056c3914188385f9",
+      "width": 314,
+      "height": 314,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/fx-ice/fx-ice-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/fx-ice/fx-ice-v2.png",
+          "sha256": "5acc295bf5e0c116fa613c8b487451046e5a1d828e7fd4f0c76dedc507ed5d23",
+          "generationRecord": "designs/production-v1/fx-ice/fx-ice-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          0,
+          0,
+          314,
+          314
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          314,
+          314
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ]
+      },
+      "visualReview": "Corrected fixed-cell4x4 sheet reviewed:16ordered charge/peak/dispersal phases; no clipped crystal tips or neighboring fragments in sliced QA; keepCell true."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-01",
+      "name": "fx-ice 1",
+      "file": "assets/fx/fx-ice/frame-01.png",
+      "sha256": "9224b5e9ec2278f6dcd30d8c994fbfd2eb44a97bb99f388fb7da53f3a2778d3f",
+      "width": 314,
+      "height": 314,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/fx-ice/fx-ice-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/fx-ice/fx-ice-v2.png",
+          "sha256": "5acc295bf5e0c116fa613c8b487451046e5a1d828e7fd4f0c76dedc507ed5d23",
+          "generationRecord": "designs/production-v1/fx-ice/fx-ice-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          314,
+          0,
+          627,
+          314
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          313,
+          314
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ]
+      },
+      "visualReview": "Corrected fixed-cell4x4 sheet reviewed:16ordered charge/peak/dispersal phases; no clipped crystal tips or neighboring fragments in sliced QA; keepCell true."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-02",
+      "name": "fx-ice 2",
+      "file": "assets/fx/fx-ice/frame-02.png",
+      "sha256": "f7bf1551af668312eea9097bd95cdd4a8c0e8c292f5a4706604de27f9612f45e",
+      "width": 314,
+      "height": 314,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/fx-ice/fx-ice-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/fx-ice/fx-ice-v2.png",
+          "sha256": "5acc295bf5e0c116fa613c8b487451046e5a1d828e7fd4f0c76dedc507ed5d23",
+          "generationRecord": "designs/production-v1/fx-ice/fx-ice-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          627,
+          0,
+          940,
+          314
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          313,
+          314
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ]
+      },
+      "visualReview": "Corrected fixed-cell4x4 sheet reviewed:16ordered charge/peak/dispersal phases; no clipped crystal tips or neighboring fragments in sliced QA; keepCell true."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-03",
+      "name": "fx-ice 3",
+      "file": "assets/fx/fx-ice/frame-03.png",
+      "sha256": "c9426c77d442e213cadbad9dcca27fbb6d6df9e9089a768c6f3a697e09abf3be",
+      "width": 314,
+      "height": 314,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/fx-ice/fx-ice-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/fx-ice/fx-ice-v2.png",
+          "sha256": "5acc295bf5e0c116fa613c8b487451046e5a1d828e7fd4f0c76dedc507ed5d23",
+          "generationRecord": "designs/production-v1/fx-ice/fx-ice-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          940,
+          0,
+          1254,
+          314
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          314,
+          314
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ]
+      },
+      "visualReview": "Corrected fixed-cell4x4 sheet reviewed:16ordered charge/peak/dispersal phases; no clipped crystal tips or neighboring fragments in sliced QA; keepCell true."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-04",
+      "name": "fx-ice 4",
+      "file": "assets/fx/fx-ice/frame-04.png",
+      "sha256": "4ca8230d5693c2044e10383d406840e9403838b056965aab2d4dc8a56ddab5e1",
+      "width": 314,
+      "height": 314,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/fx-ice/fx-ice-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/fx-ice/fx-ice-v2.png",
+          "sha256": "5acc295bf5e0c116fa613c8b487451046e5a1d828e7fd4f0c76dedc507ed5d23",
+          "generationRecord": "designs/production-v1/fx-ice/fx-ice-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          0,
+          314,
+          314,
+          627
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          314,
+          313
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ]
+      },
+      "visualReview": "Corrected fixed-cell4x4 sheet reviewed:16ordered charge/peak/dispersal phases; no clipped crystal tips or neighboring fragments in sliced QA; keepCell true."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-05",
+      "name": "fx-ice 5",
+      "file": "assets/fx/fx-ice/frame-05.png",
+      "sha256": "cd65bf27eece044d846502aa84518ebf3d1bc04fec145af7f3940532e96655ad",
+      "width": 314,
+      "height": 314,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/fx-ice/fx-ice-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/fx-ice/fx-ice-v2.png",
+          "sha256": "5acc295bf5e0c116fa613c8b487451046e5a1d828e7fd4f0c76dedc507ed5d23",
+          "generationRecord": "designs/production-v1/fx-ice/fx-ice-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          314,
+          314,
+          627,
+          627
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          313,
+          313
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ]
+      },
+      "visualReview": "Corrected fixed-cell4x4 sheet reviewed:16ordered charge/peak/dispersal phases; no clipped crystal tips or neighboring fragments in sliced QA; keepCell true."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-06",
+      "name": "fx-ice 6",
+      "file": "assets/fx/fx-ice/frame-06.png",
+      "sha256": "6ca44648f3b762476df5c90035a86b29439518ef403374fea54654c8165c3a5f",
+      "width": 314,
+      "height": 314,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/fx-ice/fx-ice-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/fx-ice/fx-ice-v2.png",
+          "sha256": "5acc295bf5e0c116fa613c8b487451046e5a1d828e7fd4f0c76dedc507ed5d23",
+          "generationRecord": "designs/production-v1/fx-ice/fx-ice-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          627,
+          314,
+          940,
+          627
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          313,
+          313
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ]
+      },
+      "visualReview": "Corrected fixed-cell4x4 sheet reviewed:16ordered charge/peak/dispersal phases; no clipped crystal tips or neighboring fragments in sliced QA; keepCell true."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-07",
+      "name": "fx-ice 7",
+      "file": "assets/fx/fx-ice/frame-07.png",
+      "sha256": "d227b280b71effeb3257704f450e353500e20bc41973e2ef814cd4304d03310e",
+      "width": 314,
+      "height": 314,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/fx-ice/fx-ice-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/fx-ice/fx-ice-v2.png",
+          "sha256": "5acc295bf5e0c116fa613c8b487451046e5a1d828e7fd4f0c76dedc507ed5d23",
+          "generationRecord": "designs/production-v1/fx-ice/fx-ice-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          940,
+          314,
+          1254,
+          627
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          314,
+          313
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ]
+      },
+      "visualReview": "Corrected fixed-cell4x4 sheet reviewed:16ordered charge/peak/dispersal phases; no clipped crystal tips or neighboring fragments in sliced QA; keepCell true."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-08",
+      "name": "fx-ice 8",
+      "file": "assets/fx/fx-ice/frame-08.png",
+      "sha256": "a02e9d41daaad8e756c646c840fd08b24d4d868cc0a4ec8bde7bac85a79cf1a6",
+      "width": 314,
+      "height": 314,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/fx-ice/fx-ice-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/fx-ice/fx-ice-v2.png",
+          "sha256": "5acc295bf5e0c116fa613c8b487451046e5a1d828e7fd4f0c76dedc507ed5d23",
+          "generationRecord": "designs/production-v1/fx-ice/fx-ice-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          0,
+          627,
+          314,
+          940
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          314,
+          313
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ]
+      },
+      "visualReview": "Corrected fixed-cell4x4 sheet reviewed:16ordered charge/peak/dispersal phases; no clipped crystal tips or neighboring fragments in sliced QA; keepCell true."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-09",
+      "name": "fx-ice 9",
+      "file": "assets/fx/fx-ice/frame-09.png",
+      "sha256": "219b238c1966862281b7a4d56010066960761c940163ccefdf283d49554752ac",
+      "width": 314,
+      "height": 314,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/fx-ice/fx-ice-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/fx-ice/fx-ice-v2.png",
+          "sha256": "5acc295bf5e0c116fa613c8b487451046e5a1d828e7fd4f0c76dedc507ed5d23",
+          "generationRecord": "designs/production-v1/fx-ice/fx-ice-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          314,
+          627,
+          627,
+          940
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          313,
+          313
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ]
+      },
+      "visualReview": "Corrected fixed-cell4x4 sheet reviewed:16ordered charge/peak/dispersal phases; no clipped crystal tips or neighboring fragments in sliced QA; keepCell true."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-10",
+      "name": "fx-ice 10",
+      "file": "assets/fx/fx-ice/frame-10.png",
+      "sha256": "236f1f7123403acb4fc037f3bd7c90bfc87fe8e3441c52565c228594f31fe6a0",
+      "width": 314,
+      "height": 314,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/fx-ice/fx-ice-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/fx-ice/fx-ice-v2.png",
+          "sha256": "5acc295bf5e0c116fa613c8b487451046e5a1d828e7fd4f0c76dedc507ed5d23",
+          "generationRecord": "designs/production-v1/fx-ice/fx-ice-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          627,
+          627,
+          940,
+          940
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          313,
+          313
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ]
+      },
+      "visualReview": "Corrected fixed-cell4x4 sheet reviewed:16ordered charge/peak/dispersal phases; no clipped crystal tips or neighboring fragments in sliced QA; keepCell true."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-11",
+      "name": "fx-ice 11",
+      "file": "assets/fx/fx-ice/frame-11.png",
+      "sha256": "aa28af42ccd013dcf4635b410bffbd6878fb6e4727a1b505370c04fcc12061f4",
+      "width": 314,
+      "height": 314,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/fx-ice/fx-ice-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/fx-ice/fx-ice-v2.png",
+          "sha256": "5acc295bf5e0c116fa613c8b487451046e5a1d828e7fd4f0c76dedc507ed5d23",
+          "generationRecord": "designs/production-v1/fx-ice/fx-ice-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          940,
+          627,
+          1254,
+          940
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          314,
+          313
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ]
+      },
+      "visualReview": "Corrected fixed-cell4x4 sheet reviewed:16ordered charge/peak/dispersal phases; no clipped crystal tips or neighboring fragments in sliced QA; keepCell true."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-12",
+      "name": "fx-ice 12",
+      "file": "assets/fx/fx-ice/frame-12.png",
+      "sha256": "be2668d872a8a45f1aedd88e73df2d099d55e500cc6f6514d0196ae343a7b507",
+      "width": 314,
+      "height": 314,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/fx-ice/fx-ice-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/fx-ice/fx-ice-v2.png",
+          "sha256": "5acc295bf5e0c116fa613c8b487451046e5a1d828e7fd4f0c76dedc507ed5d23",
+          "generationRecord": "designs/production-v1/fx-ice/fx-ice-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          0,
+          940,
+          314,
+          1254
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          314,
+          314
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ]
+      },
+      "visualReview": "Corrected fixed-cell4x4 sheet reviewed:16ordered charge/peak/dispersal phases; no clipped crystal tips or neighboring fragments in sliced QA; keepCell true."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-13",
+      "name": "fx-ice 13",
+      "file": "assets/fx/fx-ice/frame-13.png",
+      "sha256": "2495063f4f6bc0e15a561d3abbc5245bbb55938afa8b231b76922be2284804d3",
+      "width": 314,
+      "height": 314,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/fx-ice/fx-ice-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/fx-ice/fx-ice-v2.png",
+          "sha256": "5acc295bf5e0c116fa613c8b487451046e5a1d828e7fd4f0c76dedc507ed5d23",
+          "generationRecord": "designs/production-v1/fx-ice/fx-ice-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          314,
+          940,
+          627,
+          1254
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          313,
+          314
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ]
+      },
+      "visualReview": "Corrected fixed-cell4x4 sheet reviewed:16ordered charge/peak/dispersal phases; no clipped crystal tips or neighboring fragments in sliced QA; keepCell true."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-14",
+      "name": "fx-ice 14",
+      "file": "assets/fx/fx-ice/frame-14.png",
+      "sha256": "92074d52323c2a2385458c14309943b330d48847265103a8a8acc38d21654b59",
+      "width": 314,
+      "height": 314,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/fx-ice/fx-ice-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/fx-ice/fx-ice-v2.png",
+          "sha256": "5acc295bf5e0c116fa613c8b487451046e5a1d828e7fd4f0c76dedc507ed5d23",
+          "generationRecord": "designs/production-v1/fx-ice/fx-ice-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          627,
+          940,
+          940,
+          1254
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          313,
+          314
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ]
+      },
+      "visualReview": "Corrected fixed-cell4x4 sheet reviewed:16ordered charge/peak/dispersal phases; no clipped crystal tips or neighboring fragments in sliced QA; keepCell true."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-15",
+      "name": "fx-ice 15",
+      "file": "assets/fx/fx-ice/frame-15.png",
+      "sha256": "71e96dcac8c86a3f7012efe281afd89deb6fefd768c524ae3de5835f6557480f",
+      "width": 314,
+      "height": 314,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/fx-ice/fx-ice-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/fx-ice/fx-ice-v2.png",
+          "sha256": "5acc295bf5e0c116fa613c8b487451046e5a1d828e7fd4f0c76dedc507ed5d23",
+          "generationRecord": "designs/production-v1/fx-ice/fx-ice-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          940,
+          940,
+          1254,
+          1254
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          314,
+          314
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ]
+      },
+      "visualReview": "Corrected fixed-cell4x4 sheet reviewed:16ordered charge/peak/dispersal phases; no clipped crystal tips or neighboring fragments in sliced QA; keepCell true."
+    }
+  ],
+  "warnings": [],
+  "complete": true,
+  "visualReview": "Sliced QA visually inspected;16stages preserve fixed cell centers, corrected border alpha warnings now empty. Native1254square yields313/314pixel grid cells through rounding; no per-frame alpha-bbox crop or image resize.",
+  "status": "accepted_first_release_art",
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+  "acceptedAt": "2026-10-30T04:07:09.085600+00:00"
+}

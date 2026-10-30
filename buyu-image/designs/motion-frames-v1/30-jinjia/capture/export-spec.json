@@ -1,0 +1,100 @@
+{
+  "grid": [
+    2,
+    4
+  ],
+  "canvas": [
+    640,
+    640
+  ],
+  "fps": 12,
+  "displayBox": [
+    240,
+    180
+  ],
+  "loop": false,
+  "action": "capture",
+  "pending": [
+    "Root actual playback/recovery and face/appendage identity review.",
+    "Unity runtime not reviewed; registration/PNG counts alone are not motion acceptance."
+  ],
+  "id": "30-jinjia/capture",
+  "name": "金甲蟹",
+  "source": "designs/motion-frames-v1/30-jinjia/capture/30-jinjia-capture.png",
+  "output": "assets/animations/30-jinjia/capture",
+  "sourceRects": [
+    null,
+    [
+      444,
+      0,
+      890,
+      444
+    ],
+    [
+      890,
+      0,
+      1330,
+      444
+    ],
+    null,
+    [
+      0,
+      444,
+      450,
+      887
+    ],
+    [
+      450,
+      444,
+      887,
+      887
+    ],
+    null,
+    null
+  ],
+  "pupilTarget": [
+    320,
+    320
+  ],
+  "pupilRoi": [
+    170,
+    180,
+    270,
+    310
+  ],
+  "pupilExpected": [
+    [
+      213,
+      244
+    ],
+    [
+      213,
+      248
+    ],
+    [
+      205,
+      247
+    ],
+    [
+      210,
+      265
+    ],
+    [
+      228,
+      244
+    ],
+    [
+      208,
+      220
+    ],
+    [
+      209,
+      220
+    ],
+    [
+      210,
+      220
+    ]
+  ],
+  "visualReview": "Actual source viewed: both claw elbows and walking legs tuck; peak shows both large claws folded low in front, then rebound/settle. Same shell, jewels, face and eyes. Custom ownership covers math-boundary crossing, no actual overlap/canvas cutoff observed. Leg/claw topology and recovery pending root visual."
+}

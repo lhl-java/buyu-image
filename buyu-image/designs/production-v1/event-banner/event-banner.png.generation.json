@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/production-v1/event-banner/event-banner.png",
+  "sha256": "7a307f034eaad957bba362e3cd6178ba233e3e330abc2bcec86d108c7481c820",
+  "width": 1942,
+  "height": 809,
+  "format": "PNG",
+  "generatedAt": null,
+  "startedAt": null,
+  "recoveredAt": "2026-10-27T14:55:12.377063+00:00",
+  "sourceFileLastWriteUtc": "2026-10-26T21:22:06.615971+00:00",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "builtin_evidence": {
+      "model_parameter_exposed": false,
+      "quality_parameter_exposed": false,
+      "actual_model": null,
+      "actual_quality": null,
+      "note": "Configuration targets only; verify actual model and quality per generated image."
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\buyu-image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\buyu-image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "D:\\work\\buyu-image\\designs\\ui\\full-suite-v1\\16-events\\16-events.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Original in-flight worker result was interrupted. Native output recovered from that worker image directory; result receipt and precise generation timestamps unavailable. Filename is not proof of returned model/quality.",
+  "evidence": {
+    "sourceOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a17732-5ab6-7fe3-b0d9-546ecf65c47f\\exec-8d43a414-176f-434a-8de2-d1d2681203cc.png",
+    "sourceOutputSha256": "7a307f034eaad957bba362e3cd6178ba233e3e330abc2bcec86d108c7481c820",
+    "sourceFilenameId": "exec-8d43a414-176f-434a-8de2-d1d2681203cc",
+    "toolResultId": null,
+    "receiptStatus": "unavailable_after_interruption",
+    "recoveryNote": "event-banner.recovery.txt",
+    "request": "event-banner.request.json"
+  },
+  "prompt": "event-banner.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Saved submitted request: approved main UI style references and existing event artwork identity."
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Saved submitted request: approved main UI style references and existing event artwork identity."
+    },
+    {
+      "file": "designs/ui/full-suite-v1/16-events/16-events.png",
+      "sha256": "a1b610040a9230a15e75173f93bec703080909e5a50f6b3fd216433cff26e9d1",
+      "role": "Saved submitted request: approved main UI style references and existing event artwork identity."
+    }
+  ],
+  "resampled": false,
+  "status": "visual_reviewed_pending_user_review",
+  "visualReview": "Actual recovered native output inspected: gold-headband Daochild, white fox, pearl-shell net, bamboo rod and long-tail red-gold koi; clear left water area, no baked text or UI frame. Byte-identical recovered output, not a new call."
+}

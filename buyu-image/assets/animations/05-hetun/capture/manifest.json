@@ -1,0 +1,1054 @@
+{
+  "schemaVersion": 1,
+  "source": "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-contained-v3.png",
+  "sourceWidth": 1774,
+  "sourceHeight": 887,
+  "output": "assets/animations/05-hetun/capture",
+  "id": "05-hetun",
+  "action": "capture",
+  "items": [
+    {
+      "schemaVersion": 1,
+      "id": "frame-00",
+      "file": "assets/animations/05-hetun/capture/frame-00.png",
+      "sha256": "d448991f12f20c9fdee63971b071bab6a6361bd5e7159fb2dedde7266f157458",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-contained-v3.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-contained-v3.png",
+          "sha256": "da5f8c5ff18f42393eed9ec4229467e25bfd938b25c4239951a86332745e7aa0",
+          "generationRecord": "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-contained-v3.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          27,
+          100,
+          436,
+          411
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          409,
+          311
+        ],
+        "registrationOffset": [
+          89,
+          147
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            250.69900990099012,
+            103.36435643564357
+          ],
+          "sourcePointRounded": [
+            251,
+            103
+          ],
+          "targetPoint": [
+            340,
+            250
+          ],
+          "method": "RGBmax<55 and A>220 pupil component; restricted to local radius22px and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          0,
+          0,
+          444,
+          444
+        ],
+        "nominalGridBorderAlpha": 1,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        320,
+        320
+      ],
+      "eyePixels": [
+        340,
+        250
+      ],
+      "displaySize": [
+        182.85714285714283,
+        182.85714285714283
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.2857142857142857,
+      "scaleReference": "assets/animations/05-hetun/swim/manifest.json",
+      "registeredAlphaBBox": [
+        97,
+        155,
+        490,
+        450
+      ],
+      "registeredMinMargin": 0.1515625,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-01",
+      "file": "assets/animations/05-hetun/capture/frame-01.png",
+      "sha256": "e51a30496a120ab9146aee4319f9505bc58d67abe32a947001bc3c94f569d53d",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-contained-v3.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-contained-v3.png",
+          "sha256": "da5f8c5ff18f42393eed9ec4229467e25bfd938b25c4239951a86332745e7aa0",
+          "generationRecord": "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-contained-v3.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          454,
+          93,
+          886,
+          417
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          432,
+          324
+        ],
+        "registrationOffset": [
+          73,
+          140
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            267.4769230769231,
+            110.05192307692309
+          ],
+          "sourcePointRounded": [
+            267,
+            110
+          ],
+          "targetPoint": [
+            340,
+            250
+          ],
+          "method": "RGBmax<55 and A>220 pupil component; restricted to local radius22px and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          444,
+          0,
+          887,
+          444
+        ],
+        "nominalGridBorderAlpha": 1,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        320,
+        320
+      ],
+      "eyePixels": [
+        340,
+        250
+      ],
+      "displaySize": [
+        182.85714285714283,
+        182.85714285714283
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.2857142857142857,
+      "scaleReference": "assets/animations/05-hetun/swim/manifest.json",
+      "registeredAlphaBBox": [
+        81,
+        148,
+        497,
+        456
+      ],
+      "registeredMinMargin": 0.1265625,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-02",
+      "file": "assets/animations/05-hetun/capture/frame-02.png",
+      "sha256": "33500d921ceba4bebadcc7070185cc472fd121a0152ea92936fa31c45859cc41",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-contained-v3.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-contained-v3.png",
+          "sha256": "da5f8c5ff18f42393eed9ec4229467e25bfd938b25c4239951a86332745e7aa0",
+          "generationRecord": "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-contained-v3.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          948,
+          75,
+          1329,
+          419
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          381,
+          344
+        ],
+        "registrationOffset": [
+          115,
+          120
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            224.68788501026688,
+            130.4804928131417
+          ],
+          "sourcePointRounded": [
+            225,
+            130
+          ],
+          "targetPoint": [
+            340,
+            250
+          ],
+          "method": "RGBmax<55 and A>220 pupil component; restricted to local radius22px and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          887,
+          0,
+          1330,
+          444
+        ],
+        "nominalGridBorderAlpha": 1,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        320,
+        320
+      ],
+      "eyePixels": [
+        340,
+        250
+      ],
+      "displaySize": [
+        182.85714285714283,
+        182.85714285714283
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.2857142857142857,
+      "scaleReference": "assets/animations/05-hetun/swim/manifest.json",
+      "registeredAlphaBBox": [
+        123,
+        128,
+        488,
+        456
+      ],
+      "registeredMinMargin": 0.1921875,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-03",
+      "file": "assets/animations/05-hetun/capture/frame-03.png",
+      "sha256": "1926bd33ae813d98dec61d75bdc8287dddcf98f174551389fa8efa37b4323986",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-contained-v3.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-contained-v3.png",
+          "sha256": "da5f8c5ff18f42393eed9ec4229467e25bfd938b25c4239951a86332745e7aa0",
+          "generationRecord": "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-contained-v3.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          1366,
+          102,
+          1764,
+          410
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          398,
+          308
+        ],
+        "registrationOffset": [
+          98,
+          148
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            241.88235294117658,
+            102.00392156862745
+          ],
+          "sourcePointRounded": [
+            242,
+            102
+          ],
+          "targetPoint": [
+            340,
+            250
+          ],
+          "method": "RGBmax<55 and A>220 pupil component; restricted to local radius22px and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          1330,
+          0,
+          1774,
+          444
+        ],
+        "nominalGridBorderAlpha": 1,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        320,
+        320
+      ],
+      "eyePixels": [
+        340,
+        250
+      ],
+      "displaySize": [
+        182.85714285714283,
+        182.85714285714283
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.2857142857142857,
+      "scaleReference": "assets/animations/05-hetun/swim/manifest.json",
+      "registeredAlphaBBox": [
+        106,
+        156,
+        488,
+        448
+      ],
+      "registeredMinMargin": 0.165625,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-04",
+      "file": "assets/animations/05-hetun/capture/frame-04.png",
+      "sha256": "47d410ff17d53b97bd726ef67bacfb7341e6fcc8493c6e70d5492df1f96d1e2e",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-contained-v3.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-contained-v3.png",
+          "sha256": "da5f8c5ff18f42393eed9ec4229467e25bfd938b25c4239951a86332745e7aa0",
+          "generationRecord": "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-contained-v3.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          57,
+          493,
+          439,
+          829
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          382,
+          336
+        ],
+        "registrationOffset": [
+          117,
+          124
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            223.19057377049182,
+            125.71926229508199
+          ],
+          "sourcePointRounded": [
+            223,
+            126
+          ],
+          "targetPoint": [
+            340,
+            250
+          ],
+          "method": "RGBmax<55 and A>220 pupil component; restricted to local radius22px and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          0,
+          444,
+          444,
+          887
+        ],
+        "nominalGridBorderAlpha": 1,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        320,
+        320
+      ],
+      "eyePixels": [
+        340,
+        250
+      ],
+      "displaySize": [
+        182.85714285714283,
+        182.85714285714283
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.2857142857142857,
+      "scaleReference": "assets/animations/05-hetun/swim/manifest.json",
+      "registeredAlphaBBox": [
+        125,
+        132,
+        491,
+        452
+      ],
+      "registeredMinMargin": 0.1953125,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-05",
+      "file": "assets/animations/05-hetun/capture/frame-05.png",
+      "sha256": "8e77e60077740cd37b5f36f64ace3aaf79646b18dc2f47b1ab787ea2ce264f06",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-contained-v3.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-contained-v3.png",
+          "sha256": "da5f8c5ff18f42393eed9ec4229467e25bfd938b25c4239951a86332745e7aa0",
+          "generationRecord": "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-contained-v3.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          469,
+          541,
+          888,
+          847
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          419,
+          306
+        ],
+        "registrationOffset": [
+          87,
+          144
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            253.38508064516122,
+            105.97782258064512
+          ],
+          "sourcePointRounded": [
+            253,
+            106
+          ],
+          "targetPoint": [
+            340,
+            250
+          ],
+          "method": "RGBmax<55 and A>220 pupil component; restricted to local radius22px and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          444,
+          444,
+          887,
+          887
+        ],
+        "nominalGridBorderAlpha": 1,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        320,
+        320
+      ],
+      "eyePixels": [
+        340,
+        250
+      ],
+      "displaySize": [
+        182.85714285714283,
+        182.85714285714283
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.2857142857142857,
+      "scaleReference": "assets/animations/05-hetun/swim/manifest.json",
+      "registeredAlphaBBox": [
+        95,
+        152,
+        498,
+        442
+      ],
+      "registeredMinMargin": 0.1484375,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-06",
+      "file": "assets/animations/05-hetun/capture/frame-06.png",
+      "sha256": "3ff3d1cd73d4a5792404e4de533fc7959407f62d92fb3d8fc04487b0091caab5",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-contained-v3.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-contained-v3.png",
+          "sha256": "da5f8c5ff18f42393eed9ec4229467e25bfd938b25c4239951a86332745e7aa0",
+          "generationRecord": "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-contained-v3.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          922,
+          542,
+          1328,
+          851
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          406,
+          309
+        ],
+        "registrationOffset": [
+          93,
+          147
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            246.6700201207243,
+            102.62173038229378
+          ],
+          "sourcePointRounded": [
+            247,
+            103
+          ],
+          "targetPoint": [
+            340,
+            250
+          ],
+          "method": "RGBmax<55 and A>220 pupil component; restricted to local radius22px and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          887,
+          444,
+          1330,
+          887
+        ],
+        "nominalGridBorderAlpha": 1,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        320,
+        320
+      ],
+      "eyePixels": [
+        340,
+        250
+      ],
+      "displaySize": [
+        182.85714285714283,
+        182.85714285714283
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.2857142857142857,
+      "scaleReference": "assets/animations/05-hetun/swim/manifest.json",
+      "registeredAlphaBBox": [
+        101,
+        155,
+        491,
+        448
+      ],
+      "registeredMinMargin": 0.1578125,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-07",
+      "file": "assets/animations/05-hetun/capture/frame-07.png",
+      "sha256": "dcca31353bdfc6187be7c670d09cb40b85b43b12a9c889ad17ed4559b6029a28",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-contained-v3.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-contained-v3.png",
+          "sha256": "da5f8c5ff18f42393eed9ec4229467e25bfd938b25c4239951a86332745e7aa0",
+          "generationRecord": "designs/motion-frames-v1/05-hetun/capture/05-hetun-capture-contained-v3.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          1385,
+          541,
+          1762,
+          849
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          377,
+          308
+        ],
+        "registrationOffset": [
+          116,
+          143
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            224.09690721649486,
+            106.84123711340203
+          ],
+          "sourcePointRounded": [
+            224,
+            107
+          ],
+          "targetPoint": [
+            340,
+            250
+          ],
+          "method": "RGBmax<55 and A>220 pupil component; restricted to local radius22px and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          1330,
+          444,
+          1774,
+          887
+        ],
+        "nominalGridBorderAlpha": 1,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        320,
+        320
+      ],
+      "eyePixels": [
+        340,
+        250
+      ],
+      "displaySize": [
+        182.85714285714283,
+        182.85714285714283
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.2857142857142857,
+      "scaleReference": "assets/animations/05-hetun/swim/manifest.json",
+      "registeredAlphaBBox": [
+        124,
+        151,
+        485,
+        443
+      ],
+      "registeredMinMargin": 0.19375,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    }
+  ],
+  "sourceRects": [
+    [
+      27,
+      100,
+      436,
+      411
+    ],
+    [
+      454,
+      93,
+      886,
+      417
+    ],
+    [
+      948,
+      75,
+      1329,
+      419
+    ],
+    [
+      1366,
+      102,
+      1764,
+      410
+    ],
+    [
+      57,
+      493,
+      439,
+      829
+    ],
+    [
+      469,
+      541,
+      888,
+      847
+    ],
+    [
+      922,
+      542,
+      1328,
+      851
+    ],
+    [
+      1385,
+      541,
+      1762,
+      849
+    ]
+  ],
+  "sharedCanvas": [
+    640,
+    640
+  ],
+  "root": [
+    0.5,
+    0.5
+  ],
+  "rootPixels": [
+    320,
+    320
+  ],
+  "eyePixels": [
+    340,
+    250
+  ],
+  "fps": 12,
+  "loop": false,
+  "durationsMs": [
+    83,
+    84,
+    83,
+    83,
+    84,
+    83,
+    83,
+    84
+  ],
+  "displaySize": [
+    182.85714285714283,
+    182.85714285714283
+  ],
+  "bodyDisplayBox": [
+    120,
+    80
+  ],
+  "uniformDisplayScale": 0.2857142857142857,
+  "displayScaleReference": "assets/animations/05-hetun/swim/manifest.json",
+  "warnings": [],
+  "runtimeMarginWarnings": [],
+  "sourceMarginWarnings": [
+    {
+      "frame": 0,
+      "actual": 0.036036036036036036,
+      "required": 0.12
+    },
+    {
+      "frame": 1,
+      "actual": 0.020316027088036117,
+      "required": 0.12
+    },
+    {
+      "frame": 2,
+      "actual": 0.020316027088036117,
+      "required": 0.12
+    },
+    {
+      "frame": 3,
+      "actual": 0.04054054054054054,
+      "required": 0.12
+    },
+    {
+      "frame": 4,
+      "actual": 0.02927927927927928,
+      "required": 0.12
+    },
+    {
+      "frame": 5,
+      "actual": 0.01580135440180587,
+      "required": 0.12
+    },
+    {
+      "frame": 6,
+      "actual": 0.022573363431151242,
+      "required": 0.12
+    },
+    {
+      "frame": 7,
+      "actual": 0.04504504504504504,
+      "required": 0.12
+    }
+  ],
+  "animation": {
+    "frames": 8,
+    "fps": 12,
+    "loop": false,
+    "durationsMs": [
+      83,
+      84,
+      83,
+      83,
+      84,
+      83,
+      83,
+      84
+    ],
+    "order": "row-major",
+    "root": [
+      0.5,
+      0.5
+    ],
+    "rootPixels": [
+      320,
+      320
+    ],
+    "eyePixels": [
+      340,
+      250
+    ],
+    "sharedCanvas": [
+      640,
+      640
+    ],
+    "phaseDegrees": null,
+    "poseMeaning": "entry, startle, upward struggle, counter-flex, shorter struggle, fatigue, settling, subdued",
+    "identityStatus": "pending_root_visual",
+    "motionStatus": "pending_root_visual",
+    "registrationStatus": "producer_pupil_registered_pending_root_visual",
+    "playbackStatus": "pending_Unity",
+    "timingNote": "12FPS authoritative; integer durations cumulative-boundary rounded",
+    "releaseReady": true
+  },
+  "status": "accepted_first_release_art",
+  "complete": true,
+  "qa": {
+    "trueAlpha": true,
+    "actualPupilROIReviewed": true,
+    "registeredPixelRoundTrip": true,
+    "minimumRuntimeMargin": 0.1265625,
+    "sourceMarginStatus": "nominal_grid_warnings_preserved; complete_ownership_and_registered_margin_verified",
+    "runtimeMarginStatus": "pass",
+    "producerVisualNote": "Round spotted puffer remains three-quarter right-facing. Tail and paired round fans change angles/shapes; capture tail curls and modest posterior inflation is anatomical. Actual native/pupil ROI inspected. Root visual and Unity playback pending.",
+    "rootVisualStatus": "pending",
+    "playbackStatus": "pending_Unity",
+    "producerLightDarkAlphaCompositeActuallyViewed": true,
+    "producerRegisteredPoseStillReview": "candidate_pass",
+    "producerPoseEvidence": "Round spotted puffer remains three-quarter right-facing. Tail and paired round fans change angles/shapes; capture tail curls and modest posterior inflation is anatomical.",
+    "hashUniquenessIsNotMotionEvidence": true,
+    "producerReviewedAt": "2026-10-28T18:52:01.296582+00:00",
+    "originalNominalGridMarginStatus": "fail_preserved"
+  },
+  "nominalGridBorderWarnings": [],
+  "ownershipWarnings": [],
+  "clipDensityAdjustment": null,
+  "bodyRootOffsetFromEye": [
+    -20,
+    70
+  ],
+  "producerStage": "candidate_ready_for_root_visual",
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+  "acceptedAt": "2026-10-30T04:07:09.085600+00:00",
+  "releaseReady": true,
+  "playbackReview": "docs/UNITY_FINAL_ACCEPTANCE.json"
+}

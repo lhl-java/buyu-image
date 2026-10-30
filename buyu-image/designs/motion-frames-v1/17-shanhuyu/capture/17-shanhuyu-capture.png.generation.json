@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/motion-frames-v1/17-shanhuyu/capture/17-shanhuyu-capture.png",
+  "sha256": "c9170543b7a6a94b0b546572cf0425178ab6b2db34bcbba7866e847af3fff394",
+  "generatedAt": "2026-10-28T17:52:29.463Z",
+  "startedAt": "2026-10-28T17:50:55.937Z",
+  "width": 1774,
+  "height": 887,
+  "format": "PNG",
+  "pixelFormat": "Format32bppArgb",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-28",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "builtin_evidence": {
+      "model_parameter_exposed": false,
+      "quality_parameter_exposed": false,
+      "actual_model": null,
+      "actual_quality": null,
+      "note": "Configuration targets only; verify actual model and quality per generated image."
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\buyu-image\\designs\\motion-frames-v1\\17-shanhuyu\\swim\\17-shanhuyu-swim.png",
+      "D:\\work\\buyu-image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\buyu-image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "D:\\work\\buyu-image\\assets\\fish\\batch-3\\17-shanhuyu.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具未开放 model/quality 参数，本次结果未披露实际型号及质量。",
+  "evidence": {
+    "toolResult": "17-shanhuyu-capture.tool-result.txt",
+    "sourceOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a18291-7f9d-7081-8ee8-2bec0f32ff89\\exec-9f0af559-e293-40d1-aa22-c1620d31a79e.png",
+    "toolResultId": "exec-9f0af559-e293-40d1-aa22-c1620d31a79e",
+    "request": "17-shanhuyu-capture.request.json"
+  },
+  "prompt": "17-shanhuyu-capture.prompt.txt",
+  "references": [
+    {
+      "file": "designs/motion-frames-v1/17-shanhuyu/swim/17-shanhuyu-swim.png",
+      "sha256": "a960d1a4dfc8db0d6d771449aa414e67e093fa87c6f2c858f46ab9fcaf40c013",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "assets/fish/batch-3/17-shanhuyu.png",
+      "sha256": "0881e5560323eae29022d6f40f1110b08283870da3bf438599b8a3d79ba5fbaa",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    }
+  ],
+  "requestedCanvasInPrompt": "4x2 native8frames2:1 trueAlpha.",
+  "resampled": false,
+  "status": "draft_pending_user_review",
+  "visualReview": "Real capture fin/tail fold visible; native boundary, head/body scale and continuity pending actual contact review. Candidate only.",
+  "scope": "17-shanhuyu capture8nativeframes12fpssingle-shot, no playback/finalpass."
+}

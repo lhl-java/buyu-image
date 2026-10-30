@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "hanjing-base",
+  "name": "玄冰炮底座",
+  "file": "assets/cannons/batch-2/hanjing-base.png",
+  "sha256": "26631a8bbed3defebce34f74382c9d541f35ffe3087cbcecf4cf104795998386",
+  "width": 512,
+  "height": 512,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/production-v1/cannon-parts-2/cannon-parts-2.png",
+  "derivedFrom": [
+    {
+      "file": "designs/production-v1/cannon-parts-2/cannon-parts-2.png",
+      "sha256": "d65100cb98ea0dda3bca4cd86aaec7710747cbae8da498273c62449013b270c3",
+      "generationRecord": "designs/production-v1/cannon-parts-2/cannon-parts-2.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_grid_crop",
+    "grid": {
+      "rows": 2,
+      "cols": 3
+    },
+    "sourceRect": [
+      512,
+      0,
+      1024,
+      512
+    ],
+    "cellCropRect": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+    "resized": false,
+    "upscaled": false
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "displaySize": [
+    160,
+    160
+  ],
+  "status": "static_asset_visual_reviewed_pending_user_review",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source generation record; no new model call for this slice."
+}

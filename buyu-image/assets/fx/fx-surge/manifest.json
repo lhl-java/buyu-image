@@ -1,0 +1,1444 @@
+{
+  "schemaVersion": 1,
+  "source": "designs/production-v2/fx-surge/fx-surge.png",
+  "sourceWidth": 1254,
+  "sourceHeight": 1254,
+  "output": "assets/fx/fx-surge",
+  "items": [
+    {
+      "schemaVersion": 1,
+      "id": "frame-00",
+      "name": "激流蓝白浪 0",
+      "file": "assets/fx/fx-surge/frame-00.png",
+      "sha256": "21ceaffec1ea96414869178a95e3404147346bc4be22360b62d91ab1894ff416",
+      "width": 394,
+      "height": 394,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v2/fx-surge/fx-surge.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v2/fx-surge/fx-surge.png",
+          "sha256": "90d55ed95e8a98af8b82799864c9c61f526b418af4af641a47b7f638ceabce00",
+          "generationRecord": "designs/production-v2/fx-surge/fx-surge.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_then_uniform_transparent_padding",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          0,
+          0,
+          314,
+          314
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          314,
+          314
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "nativeExtractedFrameSize": [
+          314,
+          314
+        ],
+        "nativeExtractedFramePngSha256": "cc4b0f6a3fcaea04801f067864e902e780a98c240ba98c58dcb317eba477decb",
+        "nativeExtractedRgbaPixelsSha256": "55d9d4824b43bf6d99f9239840a11a9652d24a47eab43d8bb29c243ff5d46bf7",
+        "runtimeTransparentPadding": [
+          40,
+          40,
+          40,
+          40
+        ],
+        "paddingOrder": "left,top,right,bottom",
+        "paddingResampled": false,
+        "sourcePixelsRoundtripIdentical": true,
+        "paddingReason": "Provide runtime safe empty border; source cell margin contract remains separately reported, not reclassified as passed.",
+        "nativeDetailClaim": "New canvas dimension is transparent padding only; source native detail remains [314, 314]"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ],
+        "durationMs": 1000,
+        "role": "skill_one_shot"
+      },
+      "visualReview": "已实际查看原生源和最终16帧浅米白/深青Alpha合成：蓝白浪由水纹、卷浪峰值到水带/水滴消散，泡沫尖端完整，无相邻帧碎片，无截断。source留白告警保留，统一40px透明padding后runtime通过。",
+      "sourceQa": "designs/production-v2/fx-surge/fx-surge.visual-qa.json"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-01",
+      "name": "激流蓝白浪 1",
+      "file": "assets/fx/fx-surge/frame-01.png",
+      "sha256": "75209760375f700a987d0efaadc08a01690af97b8f46184906411e2650abb0a5",
+      "width": 394,
+      "height": 394,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v2/fx-surge/fx-surge.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v2/fx-surge/fx-surge.png",
+          "sha256": "90d55ed95e8a98af8b82799864c9c61f526b418af4af641a47b7f638ceabce00",
+          "generationRecord": "designs/production-v2/fx-surge/fx-surge.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_then_uniform_transparent_padding",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          314,
+          0,
+          627,
+          314
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          313,
+          314
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize",
+        "nativeExtractedFrameSize": [
+          314,
+          314
+        ],
+        "nativeExtractedFramePngSha256": "dde381ee2a178d7e68db1f4709da611ca032e7421de50410c4b5c70c2f406e22",
+        "nativeExtractedRgbaPixelsSha256": "ad780a286d133d90cbff5be19b108f1eb725e15662134e2aeca48612e381dc0b",
+        "runtimeTransparentPadding": [
+          40,
+          40,
+          40,
+          40
+        ],
+        "paddingOrder": "left,top,right,bottom",
+        "paddingResampled": false,
+        "sourcePixelsRoundtripIdentical": true,
+        "paddingReason": "Provide runtime safe empty border; source cell margin contract remains separately reported, not reclassified as passed.",
+        "nativeDetailClaim": "New canvas dimension is transparent padding only; source native detail remains [314, 314]"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ],
+        "durationMs": 1000,
+        "role": "skill_one_shot"
+      },
+      "visualReview": "已实际查看原生源和最终16帧浅米白/深青Alpha合成：蓝白浪由水纹、卷浪峰值到水带/水滴消散，泡沫尖端完整，无相邻帧碎片，无截断。source留白告警保留，统一40px透明padding后runtime通过。",
+      "sourceQa": "designs/production-v2/fx-surge/fx-surge.visual-qa.json"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-02",
+      "name": "激流蓝白浪 2",
+      "file": "assets/fx/fx-surge/frame-02.png",
+      "sha256": "22d8c5ba12362020130772b4a134626f008f4db5fd2863f5311e697ce86b4fa5",
+      "width": 394,
+      "height": 394,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v2/fx-surge/fx-surge.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v2/fx-surge/fx-surge.png",
+          "sha256": "90d55ed95e8a98af8b82799864c9c61f526b418af4af641a47b7f638ceabce00",
+          "generationRecord": "designs/production-v2/fx-surge/fx-surge.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_then_uniform_transparent_padding",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          627,
+          0,
+          940,
+          314
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          313,
+          314
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize",
+        "nativeExtractedFrameSize": [
+          314,
+          314
+        ],
+        "nativeExtractedFramePngSha256": "69d48e02af1f2ab5ecc6ef724e1e7b3ed893a9a806fc61381ac43eff55e870ff",
+        "nativeExtractedRgbaPixelsSha256": "0e96eb68212a334ff60bc62b5e969ab0c492dffff63e8f78e06b9b378d3d2931",
+        "runtimeTransparentPadding": [
+          40,
+          40,
+          40,
+          40
+        ],
+        "paddingOrder": "left,top,right,bottom",
+        "paddingResampled": false,
+        "sourcePixelsRoundtripIdentical": true,
+        "paddingReason": "Provide runtime safe empty border; source cell margin contract remains separately reported, not reclassified as passed.",
+        "nativeDetailClaim": "New canvas dimension is transparent padding only; source native detail remains [314, 314]"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ],
+        "durationMs": 1000,
+        "role": "skill_one_shot"
+      },
+      "visualReview": "已实际查看原生源和最终16帧浅米白/深青Alpha合成：蓝白浪由水纹、卷浪峰值到水带/水滴消散，泡沫尖端完整，无相邻帧碎片，无截断。source留白告警保留，统一40px透明padding后runtime通过。",
+      "sourceQa": "designs/production-v2/fx-surge/fx-surge.visual-qa.json"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-03",
+      "name": "激流蓝白浪 3",
+      "file": "assets/fx/fx-surge/frame-03.png",
+      "sha256": "c176b9d8db1ddd910e49a3c58c9b0e3476e97342145bdbe0ce4826db821244a6",
+      "width": 394,
+      "height": 394,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v2/fx-surge/fx-surge.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v2/fx-surge/fx-surge.png",
+          "sha256": "90d55ed95e8a98af8b82799864c9c61f526b418af4af641a47b7f638ceabce00",
+          "generationRecord": "designs/production-v2/fx-surge/fx-surge.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_then_uniform_transparent_padding",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          940,
+          0,
+          1254,
+          314
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          314,
+          314
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "nativeExtractedFrameSize": [
+          314,
+          314
+        ],
+        "nativeExtractedFramePngSha256": "b4eedb211886d8dea963980014c75dbb95bb31f81c5b296649674d00f011802b",
+        "nativeExtractedRgbaPixelsSha256": "45127c791fdf121242e021efc0c4b505ef700c6a226e284ef785eed7770e8321",
+        "runtimeTransparentPadding": [
+          40,
+          40,
+          40,
+          40
+        ],
+        "paddingOrder": "left,top,right,bottom",
+        "paddingResampled": false,
+        "sourcePixelsRoundtripIdentical": true,
+        "paddingReason": "Provide runtime safe empty border; source cell margin contract remains separately reported, not reclassified as passed.",
+        "nativeDetailClaim": "New canvas dimension is transparent padding only; source native detail remains [314, 314]"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ],
+        "durationMs": 1000,
+        "role": "skill_one_shot"
+      },
+      "visualReview": "已实际查看原生源和最终16帧浅米白/深青Alpha合成：蓝白浪由水纹、卷浪峰值到水带/水滴消散，泡沫尖端完整，无相邻帧碎片，无截断。source留白告警保留，统一40px透明padding后runtime通过。",
+      "sourceQa": "designs/production-v2/fx-surge/fx-surge.visual-qa.json"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-04",
+      "name": "激流蓝白浪 4",
+      "file": "assets/fx/fx-surge/frame-04.png",
+      "sha256": "6e2a61a8a0e052c15dfbf2e2a8270b1e4fa8e5a88f76c49a0b81c25bc4199f8c",
+      "width": 394,
+      "height": 394,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v2/fx-surge/fx-surge.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v2/fx-surge/fx-surge.png",
+          "sha256": "90d55ed95e8a98af8b82799864c9c61f526b418af4af641a47b7f638ceabce00",
+          "generationRecord": "designs/production-v2/fx-surge/fx-surge.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_then_uniform_transparent_padding",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          0,
+          314,
+          314,
+          627
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          314,
+          313
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize",
+        "nativeExtractedFrameSize": [
+          314,
+          314
+        ],
+        "nativeExtractedFramePngSha256": "679d1a5d296b1c9181ce5fbcabc9593e765bc8571e93edd0a4bd6466d36bcfce",
+        "nativeExtractedRgbaPixelsSha256": "a6978432d99efcb2b978c4d809cc0a928d54ea117fd37769e2d8cd0d4a261083",
+        "runtimeTransparentPadding": [
+          40,
+          40,
+          40,
+          40
+        ],
+        "paddingOrder": "left,top,right,bottom",
+        "paddingResampled": false,
+        "sourcePixelsRoundtripIdentical": true,
+        "paddingReason": "Provide runtime safe empty border; source cell margin contract remains separately reported, not reclassified as passed.",
+        "nativeDetailClaim": "New canvas dimension is transparent padding only; source native detail remains [314, 314]"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ],
+        "durationMs": 1000,
+        "role": "skill_one_shot"
+      },
+      "visualReview": "已实际查看原生源和最终16帧浅米白/深青Alpha合成：蓝白浪由水纹、卷浪峰值到水带/水滴消散，泡沫尖端完整，无相邻帧碎片，无截断。source留白告警保留，统一40px透明padding后runtime通过。",
+      "sourceQa": "designs/production-v2/fx-surge/fx-surge.visual-qa.json"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-05",
+      "name": "激流蓝白浪 5",
+      "file": "assets/fx/fx-surge/frame-05.png",
+      "sha256": "520757d2dd7e5ee25b2732047b23305248e03cdb5285f3a705b0fd29aec142e0",
+      "width": 394,
+      "height": 394,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v2/fx-surge/fx-surge.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v2/fx-surge/fx-surge.png",
+          "sha256": "90d55ed95e8a98af8b82799864c9c61f526b418af4af641a47b7f638ceabce00",
+          "generationRecord": "designs/production-v2/fx-surge/fx-surge.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_then_uniform_transparent_padding",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          314,
+          314,
+          627,
+          627
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          313,
+          313
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize",
+        "nativeExtractedFrameSize": [
+          314,
+          314
+        ],
+        "nativeExtractedFramePngSha256": "2d87e819a849d950136e6f86f3c7cd86f80d91ba6f5bc5cbc777120ef3fcb524",
+        "nativeExtractedRgbaPixelsSha256": "5882c120696f2acc846856a3a8786821b2cfcf3a4f0c23c84af46828b7e04fdf",
+        "runtimeTransparentPadding": [
+          40,
+          40,
+          40,
+          40
+        ],
+        "paddingOrder": "left,top,right,bottom",
+        "paddingResampled": false,
+        "sourcePixelsRoundtripIdentical": true,
+        "paddingReason": "Provide runtime safe empty border; source cell margin contract remains separately reported, not reclassified as passed.",
+        "nativeDetailClaim": "New canvas dimension is transparent padding only; source native detail remains [314, 314]"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ],
+        "durationMs": 1000,
+        "role": "skill_one_shot"
+      },
+      "visualReview": "已实际查看原生源和最终16帧浅米白/深青Alpha合成：蓝白浪由水纹、卷浪峰值到水带/水滴消散，泡沫尖端完整，无相邻帧碎片，无截断。source留白告警保留，统一40px透明padding后runtime通过。",
+      "sourceQa": "designs/production-v2/fx-surge/fx-surge.visual-qa.json"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-06",
+      "name": "激流蓝白浪 6",
+      "file": "assets/fx/fx-surge/frame-06.png",
+      "sha256": "69046e679dda01dbd8dc62906b2ff22fe221e50863e3afe2a7e47b5e6a0e95ad",
+      "width": 394,
+      "height": 394,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v2/fx-surge/fx-surge.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v2/fx-surge/fx-surge.png",
+          "sha256": "90d55ed95e8a98af8b82799864c9c61f526b418af4af641a47b7f638ceabce00",
+          "generationRecord": "designs/production-v2/fx-surge/fx-surge.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_then_uniform_transparent_padding",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          627,
+          314,
+          940,
+          627
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          313,
+          313
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize",
+        "nativeExtractedFrameSize": [
+          314,
+          314
+        ],
+        "nativeExtractedFramePngSha256": "b6221984762218dace379cfcf22ebbcd501b0a05af81beb9e352c17242cbadff",
+        "nativeExtractedRgbaPixelsSha256": "79162d5c702531fd28ceb946241ee35ddb80858535ecbfe8e541a0439c22a915",
+        "runtimeTransparentPadding": [
+          40,
+          40,
+          40,
+          40
+        ],
+        "paddingOrder": "left,top,right,bottom",
+        "paddingResampled": false,
+        "sourcePixelsRoundtripIdentical": true,
+        "paddingReason": "Provide runtime safe empty border; source cell margin contract remains separately reported, not reclassified as passed.",
+        "nativeDetailClaim": "New canvas dimension is transparent padding only; source native detail remains [314, 314]"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ],
+        "durationMs": 1000,
+        "role": "skill_one_shot"
+      },
+      "visualReview": "已实际查看原生源和最终16帧浅米白/深青Alpha合成：蓝白浪由水纹、卷浪峰值到水带/水滴消散，泡沫尖端完整，无相邻帧碎片，无截断。source留白告警保留，统一40px透明padding后runtime通过。",
+      "sourceQa": "designs/production-v2/fx-surge/fx-surge.visual-qa.json"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-07",
+      "name": "激流蓝白浪 7",
+      "file": "assets/fx/fx-surge/frame-07.png",
+      "sha256": "d4216a8cc2dac685204ec3fb30681df6714f74af8962281b5f0f339d31ae11de",
+      "width": 394,
+      "height": 394,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v2/fx-surge/fx-surge.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v2/fx-surge/fx-surge.png",
+          "sha256": "90d55ed95e8a98af8b82799864c9c61f526b418af4af641a47b7f638ceabce00",
+          "generationRecord": "designs/production-v2/fx-surge/fx-surge.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_then_uniform_transparent_padding",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          940,
+          314,
+          1254,
+          627
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          314,
+          313
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize",
+        "nativeExtractedFrameSize": [
+          314,
+          314
+        ],
+        "nativeExtractedFramePngSha256": "e017a12af65fc947f6894133369d9cc7bb4f88454389f1dd61d6f141b021fe2a",
+        "nativeExtractedRgbaPixelsSha256": "62bd234ae4350a08838cac38951ffa6dba6b286197d6a04c018edd971d628807",
+        "runtimeTransparentPadding": [
+          40,
+          40,
+          40,
+          40
+        ],
+        "paddingOrder": "left,top,right,bottom",
+        "paddingResampled": false,
+        "sourcePixelsRoundtripIdentical": true,
+        "paddingReason": "Provide runtime safe empty border; source cell margin contract remains separately reported, not reclassified as passed.",
+        "nativeDetailClaim": "New canvas dimension is transparent padding only; source native detail remains [314, 314]"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ],
+        "durationMs": 1000,
+        "role": "skill_one_shot"
+      },
+      "visualReview": "已实际查看原生源和最终16帧浅米白/深青Alpha合成：蓝白浪由水纹、卷浪峰值到水带/水滴消散，泡沫尖端完整，无相邻帧碎片，无截断。source留白告警保留，统一40px透明padding后runtime通过。",
+      "sourceQa": "designs/production-v2/fx-surge/fx-surge.visual-qa.json"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-08",
+      "name": "激流蓝白浪 8",
+      "file": "assets/fx/fx-surge/frame-08.png",
+      "sha256": "0544426eae80b8a61524ff680aed0623fda1e80e307291b48a7e5884e2d0e1a2",
+      "width": 394,
+      "height": 394,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v2/fx-surge/fx-surge.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v2/fx-surge/fx-surge.png",
+          "sha256": "90d55ed95e8a98af8b82799864c9c61f526b418af4af641a47b7f638ceabce00",
+          "generationRecord": "designs/production-v2/fx-surge/fx-surge.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_then_uniform_transparent_padding",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          0,
+          627,
+          314,
+          940
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          314,
+          313
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize",
+        "nativeExtractedFrameSize": [
+          314,
+          314
+        ],
+        "nativeExtractedFramePngSha256": "41d09f867f578c2b666818e94a2de2eda48a08233585bfec3ef4552eb95f2641",
+        "nativeExtractedRgbaPixelsSha256": "4fba8b6fd82134a2e84fa870e502a68445514c9436b2c46d49f49d20255b5587",
+        "runtimeTransparentPadding": [
+          40,
+          40,
+          40,
+          40
+        ],
+        "paddingOrder": "left,top,right,bottom",
+        "paddingResampled": false,
+        "sourcePixelsRoundtripIdentical": true,
+        "paddingReason": "Provide runtime safe empty border; source cell margin contract remains separately reported, not reclassified as passed.",
+        "nativeDetailClaim": "New canvas dimension is transparent padding only; source native detail remains [314, 314]"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ],
+        "durationMs": 1000,
+        "role": "skill_one_shot"
+      },
+      "visualReview": "已实际查看原生源和最终16帧浅米白/深青Alpha合成：蓝白浪由水纹、卷浪峰值到水带/水滴消散，泡沫尖端完整，无相邻帧碎片，无截断。source留白告警保留，统一40px透明padding后runtime通过。",
+      "sourceQa": "designs/production-v2/fx-surge/fx-surge.visual-qa.json"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-09",
+      "name": "激流蓝白浪 9",
+      "file": "assets/fx/fx-surge/frame-09.png",
+      "sha256": "64a5b870cdfbee8170c5d5953c24ac35c32ac0079cde48deb882fad35b50f15d",
+      "width": 394,
+      "height": 394,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v2/fx-surge/fx-surge.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v2/fx-surge/fx-surge.png",
+          "sha256": "90d55ed95e8a98af8b82799864c9c61f526b418af4af641a47b7f638ceabce00",
+          "generationRecord": "designs/production-v2/fx-surge/fx-surge.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_then_uniform_transparent_padding",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          314,
+          627,
+          627,
+          940
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          313,
+          313
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize",
+        "nativeExtractedFrameSize": [
+          314,
+          314
+        ],
+        "nativeExtractedFramePngSha256": "12b901ef5727c4a52bfb841ec866b17c61be675e614185835ff2767da250d8f7",
+        "nativeExtractedRgbaPixelsSha256": "1eb8181781304065489b2b59ecfb03539ec0f3e95190ba273c7eb06e74fe8579",
+        "runtimeTransparentPadding": [
+          40,
+          40,
+          40,
+          40
+        ],
+        "paddingOrder": "left,top,right,bottom",
+        "paddingResampled": false,
+        "sourcePixelsRoundtripIdentical": true,
+        "paddingReason": "Provide runtime safe empty border; source cell margin contract remains separately reported, not reclassified as passed.",
+        "nativeDetailClaim": "New canvas dimension is transparent padding only; source native detail remains [314, 314]"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ],
+        "durationMs": 1000,
+        "role": "skill_one_shot"
+      },
+      "visualReview": "已实际查看原生源和最终16帧浅米白/深青Alpha合成：蓝白浪由水纹、卷浪峰值到水带/水滴消散，泡沫尖端完整，无相邻帧碎片，无截断。source留白告警保留，统一40px透明padding后runtime通过。",
+      "sourceQa": "designs/production-v2/fx-surge/fx-surge.visual-qa.json"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-10",
+      "name": "激流蓝白浪 10",
+      "file": "assets/fx/fx-surge/frame-10.png",
+      "sha256": "aba925eeb9780a14c997032275d7b9ee7d6359bf09836a3e28d101455c5ee8fc",
+      "width": 394,
+      "height": 394,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v2/fx-surge/fx-surge.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v2/fx-surge/fx-surge.png",
+          "sha256": "90d55ed95e8a98af8b82799864c9c61f526b418af4af641a47b7f638ceabce00",
+          "generationRecord": "designs/production-v2/fx-surge/fx-surge.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_then_uniform_transparent_padding",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          627,
+          627,
+          940,
+          940
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          313,
+          313
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize",
+        "nativeExtractedFrameSize": [
+          314,
+          314
+        ],
+        "nativeExtractedFramePngSha256": "714ceb7071ce6a2ebb69900a31774e2009bf31fb1b2cae2870ee5bbdcd6a174f",
+        "nativeExtractedRgbaPixelsSha256": "dbe9271519b285767e1038568298c5402a168169718a4601ee30de3cac0166aa",
+        "runtimeTransparentPadding": [
+          40,
+          40,
+          40,
+          40
+        ],
+        "paddingOrder": "left,top,right,bottom",
+        "paddingResampled": false,
+        "sourcePixelsRoundtripIdentical": true,
+        "paddingReason": "Provide runtime safe empty border; source cell margin contract remains separately reported, not reclassified as passed.",
+        "nativeDetailClaim": "New canvas dimension is transparent padding only; source native detail remains [314, 314]"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ],
+        "durationMs": 1000,
+        "role": "skill_one_shot"
+      },
+      "visualReview": "已实际查看原生源和最终16帧浅米白/深青Alpha合成：蓝白浪由水纹、卷浪峰值到水带/水滴消散，泡沫尖端完整，无相邻帧碎片，无截断。source留白告警保留，统一40px透明padding后runtime通过。",
+      "sourceQa": "designs/production-v2/fx-surge/fx-surge.visual-qa.json"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-11",
+      "name": "激流蓝白浪 11",
+      "file": "assets/fx/fx-surge/frame-11.png",
+      "sha256": "36aa7083eec29b9dadc743ac50323fd70a8fa2c3924862738b3f260a831acdfa",
+      "width": 394,
+      "height": 394,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v2/fx-surge/fx-surge.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v2/fx-surge/fx-surge.png",
+          "sha256": "90d55ed95e8a98af8b82799864c9c61f526b418af4af641a47b7f638ceabce00",
+          "generationRecord": "designs/production-v2/fx-surge/fx-surge.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_then_uniform_transparent_padding",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          940,
+          627,
+          1254,
+          940
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          314,
+          313
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize",
+        "nativeExtractedFrameSize": [
+          314,
+          314
+        ],
+        "nativeExtractedFramePngSha256": "b91c5bc28e47bd68d442198b87c52927dde219773cba24b78ae73b55db047979",
+        "nativeExtractedRgbaPixelsSha256": "6e531c809c1de3f14fcba47367c475724a64ad97780b73d0d3f2ef87973a9209",
+        "runtimeTransparentPadding": [
+          40,
+          40,
+          40,
+          40
+        ],
+        "paddingOrder": "left,top,right,bottom",
+        "paddingResampled": false,
+        "sourcePixelsRoundtripIdentical": true,
+        "paddingReason": "Provide runtime safe empty border; source cell margin contract remains separately reported, not reclassified as passed.",
+        "nativeDetailClaim": "New canvas dimension is transparent padding only; source native detail remains [314, 314]"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ],
+        "durationMs": 1000,
+        "role": "skill_one_shot"
+      },
+      "visualReview": "已实际查看原生源和最终16帧浅米白/深青Alpha合成：蓝白浪由水纹、卷浪峰值到水带/水滴消散，泡沫尖端完整，无相邻帧碎片，无截断。source留白告警保留，统一40px透明padding后runtime通过。",
+      "sourceQa": "designs/production-v2/fx-surge/fx-surge.visual-qa.json"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-12",
+      "name": "激流蓝白浪 12",
+      "file": "assets/fx/fx-surge/frame-12.png",
+      "sha256": "1d533629df5555a9339f00255122afce78c2fe3cda2009cfc621e59663e1baac",
+      "width": 394,
+      "height": 394,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v2/fx-surge/fx-surge.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v2/fx-surge/fx-surge.png",
+          "sha256": "90d55ed95e8a98af8b82799864c9c61f526b418af4af641a47b7f638ceabce00",
+          "generationRecord": "designs/production-v2/fx-surge/fx-surge.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_then_uniform_transparent_padding",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          0,
+          940,
+          314,
+          1254
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          314,
+          314
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "nativeExtractedFrameSize": [
+          314,
+          314
+        ],
+        "nativeExtractedFramePngSha256": "1fb3ca7d2f90a98d6d1d78324d30bf082a0c510d7f6e86dca286c7abc2a419e3",
+        "nativeExtractedRgbaPixelsSha256": "51fc99ae6fe53b5818ef67b4bc42f86377ac8f9e4dfcce73ddfe3fe6e59291a0",
+        "runtimeTransparentPadding": [
+          40,
+          40,
+          40,
+          40
+        ],
+        "paddingOrder": "left,top,right,bottom",
+        "paddingResampled": false,
+        "sourcePixelsRoundtripIdentical": true,
+        "paddingReason": "Provide runtime safe empty border; source cell margin contract remains separately reported, not reclassified as passed.",
+        "nativeDetailClaim": "New canvas dimension is transparent padding only; source native detail remains [314, 314]"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ],
+        "durationMs": 1000,
+        "role": "skill_one_shot"
+      },
+      "visualReview": "已实际查看原生源和最终16帧浅米白/深青Alpha合成：蓝白浪由水纹、卷浪峰值到水带/水滴消散，泡沫尖端完整，无相邻帧碎片，无截断。source留白告警保留，统一40px透明padding后runtime通过。",
+      "sourceQa": "designs/production-v2/fx-surge/fx-surge.visual-qa.json"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-13",
+      "name": "激流蓝白浪 13",
+      "file": "assets/fx/fx-surge/frame-13.png",
+      "sha256": "b0808cc33253f5e77dddb359cbc84b4a7658cd381abb78d90e93762ed502928a",
+      "width": 394,
+      "height": 394,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v2/fx-surge/fx-surge.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v2/fx-surge/fx-surge.png",
+          "sha256": "90d55ed95e8a98af8b82799864c9c61f526b418af4af641a47b7f638ceabce00",
+          "generationRecord": "designs/production-v2/fx-surge/fx-surge.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_then_uniform_transparent_padding",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          314,
+          940,
+          627,
+          1254
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          313,
+          314
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize",
+        "nativeExtractedFrameSize": [
+          314,
+          314
+        ],
+        "nativeExtractedFramePngSha256": "40b2d74d9a3b1c86b500cc6d6e59fbce09342885fe01a0a7554076a48243c53b",
+        "nativeExtractedRgbaPixelsSha256": "6383224bf9aa94f01d01f5d8c2369c9bbbd3f1ae989930ac7accf6b187996bcc",
+        "runtimeTransparentPadding": [
+          40,
+          40,
+          40,
+          40
+        ],
+        "paddingOrder": "left,top,right,bottom",
+        "paddingResampled": false,
+        "sourcePixelsRoundtripIdentical": true,
+        "paddingReason": "Provide runtime safe empty border; source cell margin contract remains separately reported, not reclassified as passed.",
+        "nativeDetailClaim": "New canvas dimension is transparent padding only; source native detail remains [314, 314]"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ],
+        "durationMs": 1000,
+        "role": "skill_one_shot"
+      },
+      "visualReview": "已实际查看原生源和最终16帧浅米白/深青Alpha合成：蓝白浪由水纹、卷浪峰值到水带/水滴消散，泡沫尖端完整，无相邻帧碎片，无截断。source留白告警保留，统一40px透明padding后runtime通过。",
+      "sourceQa": "designs/production-v2/fx-surge/fx-surge.visual-qa.json"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-14",
+      "name": "激流蓝白浪 14",
+      "file": "assets/fx/fx-surge/frame-14.png",
+      "sha256": "9f8a8357cb4ff5fca0db5346a35e63b99eb0060fcd7ae7d41a941ca3638dc507",
+      "width": 394,
+      "height": 394,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v2/fx-surge/fx-surge.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v2/fx-surge/fx-surge.png",
+          "sha256": "90d55ed95e8a98af8b82799864c9c61f526b418af4af641a47b7f638ceabce00",
+          "generationRecord": "designs/production-v2/fx-surge/fx-surge.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_then_uniform_transparent_padding",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          627,
+          940,
+          940,
+          1254
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          313,
+          314
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize",
+        "nativeExtractedFrameSize": [
+          314,
+          314
+        ],
+        "nativeExtractedFramePngSha256": "49a88ba7219f469f2dd6b0acdd7160a6621830c8cb0a73044d94319e63a8073c",
+        "nativeExtractedRgbaPixelsSha256": "d5dcff4a7bdff818778720f41d45581bb498ce33c8ddfbfde916716bf848ed12",
+        "runtimeTransparentPadding": [
+          40,
+          40,
+          40,
+          40
+        ],
+        "paddingOrder": "left,top,right,bottom",
+        "paddingResampled": false,
+        "sourcePixelsRoundtripIdentical": true,
+        "paddingReason": "Provide runtime safe empty border; source cell margin contract remains separately reported, not reclassified as passed.",
+        "nativeDetailClaim": "New canvas dimension is transparent padding only; source native detail remains [314, 314]"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ],
+        "durationMs": 1000,
+        "role": "skill_one_shot"
+      },
+      "visualReview": "已实际查看原生源和最终16帧浅米白/深青Alpha合成：蓝白浪由水纹、卷浪峰值到水带/水滴消散，泡沫尖端完整，无相邻帧碎片，无截断。source留白告警保留，统一40px透明padding后runtime通过。",
+      "sourceQa": "designs/production-v2/fx-surge/fx-surge.visual-qa.json"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-15",
+      "name": "激流蓝白浪 15",
+      "file": "assets/fx/fx-surge/frame-15.png",
+      "sha256": "40dca786ad5fc461068e5b7b6a2dfdd73c860c01944ba31f58b659656fd34492",
+      "width": 394,
+      "height": 394,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v2/fx-surge/fx-surge.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v2/fx-surge/fx-surge.png",
+          "sha256": "90d55ed95e8a98af8b82799864c9c61f526b418af4af641a47b7f638ceabce00",
+          "generationRecord": "designs/production-v2/fx-surge/fx-surge.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_then_uniform_transparent_padding",
+        "grid": {
+          "rows": 4,
+          "cols": 4
+        },
+        "sourceRect": [
+          940,
+          940,
+          1254,
+          1254
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          314,
+          314
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false,
+        "nativeExtractedFrameSize": [
+          314,
+          314
+        ],
+        "nativeExtractedFramePngSha256": "4dfe5f056580fe135506ead95d1ffadc2dae437b1d6408ed713ec0fd034c8f56",
+        "nativeExtractedRgbaPixelsSha256": "f81085801da88e607ea25c16c26e9a7b0cce0d470dd42d63c98af797b48208cb",
+        "runtimeTransparentPadding": [
+          40,
+          40,
+          40,
+          40
+        ],
+        "paddingOrder": "left,top,right,bottom",
+        "paddingResampled": false,
+        "sourcePixelsRoundtripIdentical": true,
+        "paddingReason": "Provide runtime safe empty border; source cell margin contract remains separately reported, not reclassified as passed.",
+        "nativeDetailClaim": "New canvas dimension is transparent padding only; source native detail remains [314, 314]"
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        192,
+        192
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "animation": {
+        "fps": 16,
+        "loop": false,
+        "order": "row-major",
+        "frames": 16,
+        "root": [
+          0.5,
+          0.5
+        ],
+        "durationMs": 1000,
+        "role": "skill_one_shot"
+      },
+      "visualReview": "已实际查看原生源和最终16帧浅米白/深青Alpha合成：蓝白浪由水纹、卷浪峰值到水带/水滴消散，泡沫尖端完整，无相邻帧碎片，无截断。source留白告警保留，统一40px透明padding后runtime通过。",
+      "sourceQa": "designs/production-v2/fx-surge/fx-surge.visual-qa.json"
+    }
+  ],
+  "warnings": [],
+  "complete": true,
+  "runtimeTransparentPadding": [
+    40,
+    40,
+    40,
+    40
+  ],
+  "paddingPreservesAllNativePixels": true,
+  "sourceWarnings": [
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 0,
+      "value": 0.1178343949044586,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-surge/fx-surge.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 1,
+      "value": 0.11464968152866242,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-surge/fx-surge.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 2,
+      "value": 0.08598726114649681,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-surge/fx-surge.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 3,
+      "value": 0.07643312101910828,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-surge/fx-surge.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 4,
+      "value": 0.044585987261146494,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-surge/fx-surge.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 5,
+      "value": 0.025559105431309903,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-surge/fx-surge.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 6,
+      "value": 0.022364217252396165,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-surge/fx-surge.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 7,
+      "value": 0.05732484076433121,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-surge/fx-surge.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 8,
+      "value": 0.044585987261146494,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-surge/fx-surge.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 9,
+      "value": 0.08945686900958466,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-surge/fx-surge.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 10,
+      "value": 0.10543130990415335,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-surge/fx-surge.png"
+    }
+  ],
+  "visualReview": "已实际查看原生源和最终16帧浅米白/深青Alpha合成：蓝白浪由水纹、卷浪峰值到水带/水滴消散，泡沫尖端完整，无相邻帧碎片，无截断。source留白告警保留，统一40px透明padding后runtime通过。",
+  "runtimePaddingMarginPassed": true,
+  "sourceMarginContractPassed": false,
+  "runtimeMarginsMinimum": 0.1218274111675127,
+  "status": "accepted_first_release_art",
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+  "acceptedAt": "2026-10-30T04:07:09.085600+00:00"
+}

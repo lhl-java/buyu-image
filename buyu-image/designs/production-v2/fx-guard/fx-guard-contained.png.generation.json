@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/production-v2/fx-guard/fx-guard-contained.png",
+  "sha256": "b98d15447f621408dfb397bbdb83218c8b52ae0b8874454e3943d1973311a5c4",
+  "generatedAt": "2026-10-28T11:53:42.663Z",
+  "startedAt": "2026-10-28T11:52:21.692Z",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "pixelFormat": "Format32bppArgb",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-28",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "builtin_evidence": {
+      "model_parameter_exposed": false,
+      "quality_parameter_exposed": false,
+      "actual_model": null,
+      "actual_quality": null,
+      "note": "Configuration targets only; verify actual model and quality per generated image."
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\buyu-image\\designs\\production-v2\\fx-guard\\fx-guard.png",
+      "D:\\work\\buyu-image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\buyu-image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "D:\\work\\buyu-image\\designs\\ui\\full-suite-v1\\08-skills\\08-skills.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具未开放 model/quality 参数，本次结果未披露实际型号及质量。",
+  "evidence": {
+    "toolResult": "fx-guard-contained.tool-result.txt",
+    "sourceOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a18186-fd02-7812-b30d-2810b1c9973a\\exec-90ef2e8e-f068-43f0-95a0-e4914e1d7602.png",
+    "toolResultId": "exec-90ef2e8e-f068-43f0-95a0-e4914e1d7602",
+    "request": "fx-guard-contained.request.json"
+  },
+  "prompt": "fx-guard-contained.prompt.txt",
+  "references": [
+    {
+      "file": "designs/production-v2/fx-guard/fx-guard.png",
+      "sha256": "6d2ac4e12c0f3e79fc43fb0052cb500e7882053eabf79a6a29344648cc453ac4",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    },
+    {
+      "file": "designs/ui/full-suite-v1/08-skills/08-skills.png",
+      "sha256": "0bd3b30c84b5a61fa2e0ed9dcea66875d80763fd69aed8c13c88ab667440f9bc",
+      "role": "Actual image input: approved Daoist Q art style and current fishing game continuity; task prompt specifies exact role."
+    }
+  ],
+  "requestedCanvasInPrompt": "Square4x4 actualnativecanvas",
+  "resampled": false,
+  "status": "source_visual_reviewed_runtime_padding_applied_pending_user",
+  "visualReview": "已实际查看原生源和最终16帧浅米白/深青Alpha合成：太极葫芦及云纹护罩出现、成罩、消散阶段明确，AI-contained修正后cell边告警为空。此为释放one-shot；源留白门禁仍有3帧未满足12%，统一padding后runtime通过，不冒充持续loop。",
+  "scope": "AI containment correction of guard spell sheet",
+  "sourceMarginWarnings": [
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 5,
+      "value": 0.11501597444089456,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-guard/fx-guard-contained.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 6,
+      "value": 0.07987220447284345,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-guard/fx-guard-contained.png"
+    },
+    {
+      "id": "cell_margin_below_contract",
+      "frame": 9,
+      "value": 0.11501597444089456,
+      "threshold": 0.12,
+      "file": "designs/production-v2/fx-guard/fx-guard-contained.png"
+    }
+  ]
+}

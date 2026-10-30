@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "frames": {
+    "characters/portraits/fisher": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 420,
+        "h": 403
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 420,
+        "h": 403
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/characters/portraits/fisher.png",
+      "sourceSha256": "a07f4ce63cf9e228ab00a43a5e1c80d705dce9720ac181a9fda8f5b0f6485f47"
+    }
+  },
+  "meta": {
+    "image": "characters-01.png",
+    "size": {
+      "w": 424,
+      "h": 407
+    },
+    "format": "RGBA8888",
+    "scale": 1,
+    "padding": 2,
+    "noRotation": true,
+    "generatedAt": "2026-10-30T03:30:12.489824+00:00",
+    "operation": "native pixel packing; no resampling or redraw"
+  }
+}

@@ -1,0 +1,3653 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-26",
+  "scope": "36 individually planned fish/aquatic creature motion sets, 78 planned actions",
+  "status": "accepted_first_release_art",
+  "capability": {
+    "availableImageRoute": "host image_gen",
+    "availableVideoRoute": null,
+    "evidence": "docs/media-doctor-20261026.json",
+    "reason": "No video generation host tool, configured video API or usable Grok route in current environment."
+  },
+  "generationContract": "User-selected native image-generated action sheets, cut and registered as PNG frames; video optional, not a prerequisite. See ANIMATION_FRAME_CONTRACT.md.",
+  "entries": [
+    {
+      "id": "01-qingqi",
+      "name": "青鳍鱼",
+      "tier": "common",
+      "description": "small streamlined cobalt-blue river fish, jade-blue fin tips",
+      "sourceSprite": "assets/fish/batch-1/01-qingqi.png",
+      "sourceGenerationRecord": "assets/fish/batch-1/01-qingqi.png.generation.json",
+      "sourceSheet": "designs/production-v1/fish-sheet-1/fish-sheet-1.png",
+      "status": "accepted_first_release_art",
+      "actions": [
+        {
+          "id": "swim",
+          "type": "loop",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "Pectoral fins paddle softly and tail performs one smooth alternating sweep; head and torso remain at fixed root, full fin shape preserved.",
+          "startAndEnd": "Same source-rest pose, silhouette and phase at both ends for seamless loop.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-1/01-qingqi.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/01-qingqi/swim/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 32,
+            "durationSeconds": 2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        },
+        {
+          "id": "capture",
+          "type": "one_shot",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "One brief full-body compression and fin/tentacle recoil as caught, gentle settle; keep creature alive and non-graphic. Capture glow/net remains separate FX, never baked into body clip.",
+          "startAndEnd": "Begin in source rest pose; end in a settled visible held pose before runtime removal.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-1/01-qingqi.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/01-qingqi/capture/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 19,
+            "durationSeconds": 1.2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        }
+      ]
+    },
+    {
+      "id": "02-jinwei",
+      "name": "金尾鱼",
+      "tier": "common",
+      "description": "small bright golden yellow fish, broad fan tail",
+      "sourceSprite": "assets/fish/batch-1/02-jinwei.png",
+      "sourceGenerationRecord": "assets/fish/batch-1/02-jinwei.png.generation.json",
+      "sourceSheet": "designs/production-v1/fish-sheet-1/fish-sheet-1.png",
+      "status": "accepted_first_release_art",
+      "actions": [
+        {
+          "id": "swim",
+          "type": "loop",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "Pectoral fins paddle softly and tail performs one smooth alternating sweep; head and torso remain at fixed root, full fin shape preserved.",
+          "startAndEnd": "Same source-rest pose, silhouette and phase at both ends for seamless loop.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-1/02-jinwei.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/02-jinwei/swim/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 32,
+            "durationSeconds": 2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        },
+        {
+          "id": "capture",
+          "type": "one_shot",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "One brief full-body compression and fin/tentacle recoil as caught, gentle settle; keep creature alive and non-graphic. Capture glow/net remains separate FX, never baked into body clip.",
+          "startAndEnd": "Begin in source rest pose; end in a settled visible held pose before runtime removal.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-1/02-jinwei.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/02-jinwei/capture/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 19,
+            "durationSeconds": 1.2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        }
+      ]
+    },
+    {
+      "id": "03-chiyu",
+      "name": "赤羽鱼",
+      "tier": "common",
+      "description": "small coral-orange fish with red feather-like fins",
+      "sourceSprite": "assets/fish/batch-1/03-chiyu.png",
+      "sourceGenerationRecord": "assets/fish/batch-1/03-chiyu.png.generation.json",
+      "sourceSheet": "designs/production-v1/fish-sheet-1/fish-sheet-1.png",
+      "status": "accepted_first_release_art",
+      "actions": [
+        {
+          "id": "swim",
+          "type": "loop",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "Pectoral fins paddle softly and tail performs one smooth alternating sweep; head and torso remain at fixed root, full fin shape preserved.",
+          "startAndEnd": "Same source-rest pose, silhouette and phase at both ends for seamless loop.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-1/03-chiyu.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/03-chiyu/swim/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 32,
+            "durationSeconds": 2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        },
+        {
+          "id": "capture",
+          "type": "one_shot",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "One brief full-body compression and fin/tentacle recoil as caught, gentle settle; keep creature alive and non-graphic. Capture glow/net remains separate FX, never baked into body clip.",
+          "startAndEnd": "Begin in source rest pose; end in a settled visible held pose before runtime removal.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-1/03-chiyu.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/03-chiyu/capture/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 19,
+            "durationSeconds": 1.2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        }
+      ]
+    },
+    {
+      "id": "04-shenxian",
+      "name": "神仙鱼",
+      "tier": "common",
+      "description": "black white and warm yellow angelfish, long triangular dorsal fin",
+      "sourceSprite": "assets/fish/batch-1/04-shenxian.png",
+      "sourceGenerationRecord": "assets/fish/batch-1/04-shenxian.png.generation.json",
+      "sourceSheet": "designs/production-v1/fish-sheet-1/fish-sheet-1.png",
+      "status": "accepted_first_release_art",
+      "actions": [
+        {
+          "id": "swim",
+          "type": "loop",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "Pectoral fins paddle softly and tail performs one smooth alternating sweep; head and torso remain at fixed root, full fin shape preserved.",
+          "startAndEnd": "Same source-rest pose, silhouette and phase at both ends for seamless loop.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-1/04-shenxian.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/04-shenxian/swim/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 32,
+            "durationSeconds": 2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        },
+        {
+          "id": "capture",
+          "type": "one_shot",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "One brief full-body compression and fin/tentacle recoil as caught, gentle settle; keep creature alive and non-graphic. Capture glow/net remains separate FX, never baked into body clip.",
+          "startAndEnd": "Begin in source rest pose; end in a settled visible held pose before runtime removal.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-1/04-shenxian.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/04-shenxian/capture/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 19,
+            "durationSeconds": 1.2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        }
+      ]
+    },
+    {
+      "id": "05-hetun",
+      "name": "河豚",
+      "tier": "common",
+      "description": "round cheerful cream pufferfish with brown dots and short soft spines",
+      "sourceSprite": "assets/fish/batch-1/05-hetun.png",
+      "sourceGenerationRecord": "assets/fish/batch-1/05-hetun.png.generation.json",
+      "sourceSheet": "designs/production-v1/fish-sheet-1/fish-sheet-1.png",
+      "status": "accepted_first_release_art",
+      "actions": [
+        {
+          "id": "swim",
+          "type": "loop",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "Pectoral fins paddle softly and tail performs one smooth alternating sweep; head and torso remain at fixed root, full fin shape preserved.",
+          "startAndEnd": "Same source-rest pose, silhouette and phase at both ends for seamless loop.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-1/05-hetun.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/05-hetun/swim/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 32,
+            "durationSeconds": 2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        },
+        {
+          "id": "capture",
+          "type": "one_shot",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "One brief full-body compression and fin/tentacle recoil as caught, gentle settle; keep creature alive and non-graphic. Capture glow/net remains separate FX, never baked into body clip.",
+          "startAndEnd": "Begin in source rest pose; end in a settled visible held pose before runtime removal.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-1/05-hetun.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/05-hetun/capture/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 19,
+            "durationSeconds": 1.2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        }
+      ]
+    },
+    {
+      "id": "06-haima",
+      "name": "海马",
+      "tier": "common",
+      "description": "pink peach seahorse, curled tail, delicate jade crest",
+      "sourceSprite": "assets/fish/batch-1/06-haima.png",
+      "sourceGenerationRecord": "assets/fish/batch-1/06-haima.png.generation.json",
+      "sourceSheet": "designs/production-v1/fish-sheet-1/fish-sheet-1.png",
+      "status": "accepted_first_release_art",
+      "actions": [
+        {
+          "id": "swim",
+          "type": "loop",
+          "durationSeconds": 1.0,
+          "plannedFps": 8,
+          "plannedFrames": 8,
+          "motion": "Upright seahorse paddles dorsal fin and gently curls tail, snout remains facing right; slight vertical bob at fixed root.",
+          "startAndEnd": "Same source-rest pose, silhouette and phase at both ends for seamless loop.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-1/06-haima.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/06-haima/swim/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 32,
+            "durationSeconds": 2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        },
+        {
+          "id": "capture",
+          "type": "one_shot",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "One brief full-body compression and fin/tentacle recoil as caught, gentle settle; keep creature alive and non-graphic. Capture glow/net remains separate FX, never baked into body clip.",
+          "startAndEnd": "Begin in source rest pose; end in a settled visible held pose before runtime removal.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-1/06-haima.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/06-haima/capture/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 19,
+            "durationSeconds": 1.2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        }
+      ]
+    },
+    {
+      "id": "07-zihai",
+      "name": "紫海鱼",
+      "tier": "common",
+      "description": "lavender oval reef fish with silver stripes and round head",
+      "sourceSprite": "assets/fish/batch-2/07-zihai.png",
+      "sourceGenerationRecord": "assets/fish/batch-2/07-zihai.png.generation.json",
+      "sourceSheet": "designs/production-v1/fish-sheet-2/fish-sheet-2.png",
+      "status": "accepted_first_release_art",
+      "actions": [
+        {
+          "id": "swim",
+          "type": "loop",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "Pectoral fins paddle softly and tail performs one smooth alternating sweep; head and torso remain at fixed root, full fin shape preserved.",
+          "startAndEnd": "Same source-rest pose, silhouette and phase at both ends for seamless loop.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-2/07-zihai.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/07-zihai/swim/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 32,
+            "durationSeconds": 2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        },
+        {
+          "id": "capture",
+          "type": "one_shot",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "One brief full-body compression and fin/tentacle recoil as caught, gentle settle; keep creature alive and non-graphic. Capture glow/net remains separate FX, never baked into body clip.",
+          "startAndEnd": "Begin in source rest pose; end in a settled visible held pose before runtime removal.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-2/07-zihai.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/07-zihai/capture/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 19,
+            "durationSeconds": 1.2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        }
+      ]
+    },
+    {
+      "id": "08-lanbian",
+      "name": "蓝鳊",
+      "tier": "common",
+      "description": "flat round blue bream with ivory belly",
+      "sourceSprite": "assets/fish/batch-2/08-lanbian.png",
+      "sourceGenerationRecord": "assets/fish/batch-2/08-lanbian.png.generation.json",
+      "sourceSheet": "designs/production-v1/fish-sheet-2/fish-sheet-2.png",
+      "status": "accepted_first_release_art",
+      "actions": [
+        {
+          "id": "swim",
+          "type": "loop",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "Pectoral fins paddle softly and tail performs one smooth alternating sweep; head and torso remain at fixed root, full fin shape preserved.",
+          "startAndEnd": "Same source-rest pose, silhouette and phase at both ends for seamless loop.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-2/08-lanbian.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/08-lanbian/swim/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 32,
+            "durationSeconds": 2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        },
+        {
+          "id": "capture",
+          "type": "one_shot",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "One brief full-body compression and fin/tentacle recoil as caught, gentle settle; keep creature alive and non-graphic. Capture glow/net remains separate FX, never baked into body clip.",
+          "startAndEnd": "Begin in source rest pose; end in a settled visible held pose before runtime removal.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-2/08-lanbian.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/08-lanbian/capture/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 19,
+            "durationSeconds": 1.2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        }
+      ]
+    },
+    {
+      "id": "09-caidie",
+      "name": "彩蝶鱼",
+      "tier": "common",
+      "description": "orange and cream butterflyfish with black eye stripe",
+      "sourceSprite": "assets/fish/batch-2/09-caidie.png",
+      "sourceGenerationRecord": "assets/fish/batch-2/09-caidie.png.generation.json",
+      "sourceSheet": "designs/production-v1/fish-sheet-2/fish-sheet-2.png",
+      "status": "accepted_first_release_art",
+      "actions": [
+        {
+          "id": "swim",
+          "type": "loop",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "Pectoral fins paddle softly and tail performs one smooth alternating sweep; head and torso remain at fixed root, full fin shape preserved.",
+          "startAndEnd": "Same source-rest pose, silhouette and phase at both ends for seamless loop.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-2/09-caidie.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/09-caidie/swim/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 32,
+            "durationSeconds": 2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        },
+        {
+          "id": "capture",
+          "type": "one_shot",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "One brief full-body compression and fin/tentacle recoil as caught, gentle settle; keep creature alive and non-graphic. Capture glow/net remains separate FX, never baked into body clip.",
+          "startAndEnd": "Begin in source rest pose; end in a settled visible held pose before runtime removal.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-2/09-caidie.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/09-caidie/capture/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 19,
+            "durationSeconds": 1.2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        }
+      ]
+    },
+    {
+      "id": "10-qingya",
+      "name": "青牙鱼",
+      "tier": "common",
+      "description": "small mint and jade fish with short blunt muzzle and tiny teeth",
+      "sourceSprite": "assets/fish/batch-2/10-qingya.png",
+      "sourceGenerationRecord": "assets/fish/batch-2/10-qingya.png.generation.json",
+      "sourceSheet": "designs/production-v1/fish-sheet-2/fish-sheet-2.png",
+      "status": "accepted_first_release_art",
+      "actions": [
+        {
+          "id": "swim",
+          "type": "loop",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "Pectoral fins paddle softly and tail performs one smooth alternating sweep; head and torso remain at fixed root, full fin shape preserved.",
+          "startAndEnd": "Same source-rest pose, silhouette and phase at both ends for seamless loop.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-2/10-qingya.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/10-qingya/swim/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 32,
+            "durationSeconds": 2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        },
+        {
+          "id": "capture",
+          "type": "one_shot",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "One brief full-body compression and fin/tentacle recoil as caught, gentle settle; keep creature alive and non-graphic. Capture glow/net remains separate FX, never baked into body clip.",
+          "startAndEnd": "Begin in source rest pose; end in a settled visible held pose before runtime removal.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-2/10-qingya.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/10-qingya/capture/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 19,
+            "durationSeconds": 1.2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        }
+      ]
+    },
+    {
+      "id": "11-yinlin",
+      "name": "银鳞鱼",
+      "tier": "common",
+      "description": "silver-blue schooling fish, shimmering scale panels",
+      "sourceSprite": "assets/fish/batch-2/11-yinlin.png",
+      "sourceGenerationRecord": "assets/fish/batch-2/11-yinlin.png.generation.json",
+      "sourceSheet": "designs/production-v1/fish-sheet-2/fish-sheet-2.png",
+      "status": "accepted_first_release_art",
+      "actions": [
+        {
+          "id": "swim",
+          "type": "loop",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "Pectoral fins paddle softly and tail performs one smooth alternating sweep; head and torso remain at fixed root, full fin shape preserved.",
+          "startAndEnd": "Same source-rest pose, silhouette and phase at both ends for seamless loop.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-2/11-yinlin.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/11-yinlin/swim/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 32,
+            "durationSeconds": 2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        },
+        {
+          "id": "capture",
+          "type": "one_shot",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "One brief full-body compression and fin/tentacle recoil as caught, gentle settle; keep creature alive and non-graphic. Capture glow/net remains separate FX, never baked into body clip.",
+          "startAndEnd": "Begin in source rest pose; end in a settled visible held pose before runtime removal.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-2/11-yinlin.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/11-yinlin/capture/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 19,
+            "durationSeconds": 1.2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        }
+      ]
+    },
+    {
+      "id": "12-yuewei",
+      "name": "月尾鱼",
+      "tier": "common",
+      "description": "pearly cream fish with crescent-shaped soft aqua tail",
+      "sourceSprite": "assets/fish/batch-2/12-yuewei.png",
+      "sourceGenerationRecord": "assets/fish/batch-2/12-yuewei.png.generation.json",
+      "sourceSheet": "designs/production-v1/fish-sheet-2/fish-sheet-2.png",
+      "status": "accepted_first_release_art",
+      "actions": [
+        {
+          "id": "swim",
+          "type": "loop",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "Pectoral fins paddle softly and tail performs one smooth alternating sweep; head and torso remain at fixed root, full fin shape preserved.",
+          "startAndEnd": "Same source-rest pose, silhouette and phase at both ends for seamless loop.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-2/12-yuewei.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/12-yuewei/swim/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 32,
+            "durationSeconds": 2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        },
+        {
+          "id": "capture",
+          "type": "one_shot",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "One brief full-body compression and fin/tentacle recoil as caught, gentle settle; keep creature alive and non-graphic. Capture glow/net remains separate FX, never baked into body clip.",
+          "startAndEnd": "Begin in source rest pose; end in a settled visible held pose before runtime removal.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-2/12-yuewei.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/12-yuewei/capture/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 19,
+            "durationSeconds": 1.2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        }
+      ]
+    },
+    {
+      "id": "13-yunwengui",
+      "name": "云纹龟",
+      "tier": "rare",
+      "description": "friendly jade-green sea turtle with gold cloud-pattern shell",
+      "sourceSprite": "assets/fish/batch-3/13-yunwengui.png",
+      "sourceGenerationRecord": "assets/fish/batch-3/13-yunwengui.png.generation.json",
+      "sourceSheet": "designs/production-v1/fish-sheet-3/fish-sheet-3-contained.png",
+      "status": "accepted_first_release_art",
+      "actions": [
+        {
+          "id": "swim",
+          "type": "loop",
+          "durationSeconds": 1.0,
+          "plannedFps": 8,
+          "plannedFrames": 8,
+          "motion": "Turtle alternates NEAR and FAR front flipper sweeps, rear flippers steer gently; shell markings stable.",
+          "startAndEnd": "Same source-rest pose, silhouette and phase at both ends for seamless loop.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-3/13-yunwengui.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/13-yunwengui/swim/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 32,
+            "durationSeconds": 2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 8,
+          "actualFrameCount": 8,
+          "actualDurationMs": 1000
+        },
+        {
+          "id": "capture",
+          "type": "one_shot",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "One brief full-body compression and fin/tentacle recoil as caught, gentle settle; keep creature alive and non-graphic. Capture glow/net remains separate FX, never baked into body clip.",
+          "startAndEnd": "Begin in source rest pose; end in a settled visible held pose before runtime removal.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-3/13-yunwengui.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/13-yunwengui/capture/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 19,
+            "durationSeconds": 1.2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        }
+      ]
+    },
+    {
+      "id": "14-huanyue",
+      "name": "幻月水母",
+      "tier": "rare",
+      "description": "transparent lavender jellyfish with soft moonlike bell and short flowing tentacles",
+      "sourceSprite": "assets/fish/batch-3/14-huanyue.png",
+      "sourceGenerationRecord": "assets/fish/batch-3/14-huanyue.png.generation.json",
+      "sourceSheet": "designs/production-v1/fish-sheet-3/fish-sheet-3-contained.png",
+      "status": "accepted_first_release_art",
+      "actions": [
+        {
+          "id": "swim",
+          "type": "loop",
+          "durationSeconds": 1.0,
+          "plannedFps": 8,
+          "plannedFrames": 8,
+          "motion": "Jellyfish bell contracts and relaxes once, complete tentacles trail then recover; upright body, no camera movement.",
+          "startAndEnd": "Same source-rest pose, silhouette and phase at both ends for seamless loop.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-3/14-huanyue.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/14-huanyue/swim/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 32,
+            "durationSeconds": 2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 8,
+          "actualFrameCount": 8,
+          "actualDurationMs": 1000
+        },
+        {
+          "id": "capture",
+          "type": "one_shot",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "One brief full-body compression and fin/tentacle recoil as caught, gentle settle; keep creature alive and non-graphic. Capture glow/net remains separate FX, never baked into body clip.",
+          "startAndEnd": "Begin in source rest pose; end in a settled visible held pose before runtime removal.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-3/14-huanyue.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/14-huanyue/capture/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 19,
+            "durationSeconds": 1.2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        }
+      ]
+    },
+    {
+      "id": "15-lanray",
+      "name": "蓝鳐",
+      "tier": "rare",
+      "description": "wide deep blue manta ray, ivory tips and long safe tail",
+      "sourceSprite": "assets/fish/batch-3/15-lanray.png",
+      "sourceGenerationRecord": "assets/fish/batch-3/15-lanray.png.generation.json",
+      "sourceSheet": "designs/production-v1/fish-sheet-3/fish-sheet-3-contained.png",
+      "status": "accepted_first_release_art",
+      "actions": [
+        {
+          "id": "swim",
+          "type": "loop",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "Manta wings undulate once from raised to lowered and back, long tail trails without leaving motion envelope.",
+          "startAndEnd": "Same source-rest pose, silhouette and phase at both ends for seamless loop.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-3/15-lanray.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/15-lanray/swim/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 32,
+            "durationSeconds": 2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        },
+        {
+          "id": "capture",
+          "type": "one_shot",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "One brief full-body compression and fin/tentacle recoil as caught, gentle settle; keep creature alive and non-graphic. Capture glow/net remains separate FX, never baked into body clip.",
+          "startAndEnd": "Begin in source rest pose; end in a settled visible held pose before runtime removal.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-3/15-lanray.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/15-lanray/capture/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 19,
+            "durationSeconds": 1.2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        }
+      ]
+    },
+    {
+      "id": "16-shiziyu",
+      "name": "狮子鱼",
+      "tier": "rare",
+      "description": "orange-red striped lionfish with elaborate striped fins",
+      "sourceSprite": "assets/fish/batch-3/16-shiziyu.png",
+      "sourceGenerationRecord": "assets/fish/batch-3/16-shiziyu.png.generation.json",
+      "sourceSheet": "designs/production-v1/fish-sheet-3/fish-sheet-3-contained.png",
+      "status": "accepted_first_release_art",
+      "actions": [
+        {
+          "id": "swim",
+          "type": "loop",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "Lionfish pectoral fan fins pulse softly while tail sweeps; preserve every fin ray silhouette and stripe.",
+          "startAndEnd": "Same source-rest pose, silhouette and phase at both ends for seamless loop.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-3/16-shiziyu.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/16-shiziyu/swim/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 32,
+            "durationSeconds": 2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        },
+        {
+          "id": "capture",
+          "type": "one_shot",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "One brief full-body compression and fin/tentacle recoil as caught, gentle settle; keep creature alive and non-graphic. Capture glow/net remains separate FX, never baked into body clip.",
+          "startAndEnd": "Begin in source rest pose; end in a settled visible held pose before runtime removal.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-3/16-shiziyu.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/16-shiziyu/capture/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 19,
+            "durationSeconds": 1.2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        }
+      ]
+    },
+    {
+      "id": "17-shanhuyu",
+      "name": "珊瑚鱼",
+      "tier": "rare",
+      "description": "pink red compact reef fish with coral-like crest",
+      "sourceSprite": "assets/fish/batch-3/17-shanhuyu.png",
+      "sourceGenerationRecord": "assets/fish/batch-3/17-shanhuyu.png.generation.json",
+      "sourceSheet": "designs/production-v1/fish-sheet-3/fish-sheet-3-contained.png",
+      "status": "accepted_first_release_art",
+      "actions": [
+        {
+          "id": "swim",
+          "type": "loop",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "Pectoral fins paddle softly and tail performs one smooth alternating sweep; head and torso remain at fixed root, full fin shape preserved.",
+          "startAndEnd": "Same source-rest pose, silhouette and phase at both ends for seamless loop.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-3/17-shanhuyu.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/17-shanhuyu/swim/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 32,
+            "durationSeconds": 2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        },
+        {
+          "id": "capture",
+          "type": "one_shot",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "One brief full-body compression and fin/tentacle recoil as caught, gentle settle; keep creature alive and non-graphic. Capture glow/net remains separate FX, never baked into body clip.",
+          "startAndEnd": "Begin in source rest pose; end in a settled visible held pose before runtime removal.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-3/17-shanhuyu.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/17-shanhuyu/capture/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 19,
+            "durationSeconds": 1.2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        }
+      ]
+    },
+    {
+      "id": "18-qinglong",
+      "name": "青龙鱼",
+      "tier": "rare",
+      "description": "long emerald arowana with subtle cloud scales and two whiskers",
+      "sourceSprite": "assets/fish/batch-3/18-qinglong.png",
+      "sourceGenerationRecord": "assets/fish/batch-3/18-qinglong.png.generation.json",
+      "sourceSheet": "designs/production-v1/fish-sheet-3/fish-sheet-3-contained.png",
+      "status": "accepted_first_release_art",
+      "actions": [
+        {
+          "id": "swim",
+          "type": "loop",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "Arowana tail and rear torso produce a shallow S-wave, whiskers sway lightly, head remains stable.",
+          "startAndEnd": "Same source-rest pose, silhouette and phase at both ends for seamless loop.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-3/18-qinglong.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/18-qinglong/swim/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 32,
+            "durationSeconds": 2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        },
+        {
+          "id": "capture",
+          "type": "one_shot",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "One brief full-body compression and fin/tentacle recoil as caught, gentle settle; keep creature alive and non-graphic. Capture glow/net remains separate FX, never baked into body clip.",
+          "startAndEnd": "Begin in source rest pose; end in a settled visible held pose before runtime removal.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-3/18-qinglong.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/18-qinglong/capture/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 19,
+            "durationSeconds": 1.2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        }
+      ]
+    },
+    {
+      "id": "19-lingjinli",
+      "name": "灵锦鲤",
+      "tier": "rare",
+      "description": "large flowing red-gold koi, ivory translucent long tails, identity same as fish detail reference",
+      "sourceSprite": "assets/fish/batch-4/19-lingjinli.png",
+      "sourceGenerationRecord": "assets/fish/batch-4/19-lingjinli.png.generation.json",
+      "sourceSheet": "designs/production-v1/fish-sheet-4/fish-sheet-4-contained.png",
+      "status": "accepted_first_release_art",
+      "actions": [
+        {
+          "id": "swim",
+          "type": "loop",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "Long koi fins ripple continuously, tail sweeps softly, red-gold scales and expressive eye unchanged.",
+          "startAndEnd": "Same source-rest pose, silhouette and phase at both ends for seamless loop.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-4/19-lingjinli.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/19-lingjinli/swim/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 32,
+            "durationSeconds": 2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        },
+        {
+          "id": "capture",
+          "type": "one_shot",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "One brief full-body compression and fin/tentacle recoil as caught, gentle settle; keep creature alive and non-graphic. Capture glow/net remains separate FX, never baked into body clip.",
+          "startAndEnd": "Begin in source rest pose; end in a settled visible held pose before runtime removal.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-4/19-lingjinli.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/19-lingjinli/capture/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 19,
+            "durationSeconds": 1.2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        }
+      ]
+    },
+    {
+      "id": "20-yuban",
+      "name": "玉斑鱼",
+      "tier": "rare",
+      "description": "round cream jade-spotted grouper, dignified short face",
+      "sourceSprite": "assets/fish/batch-4/20-yuban.png",
+      "sourceGenerationRecord": "assets/fish/batch-4/20-yuban.png.generation.json",
+      "sourceSheet": "designs/production-v1/fish-sheet-4/fish-sheet-4-contained.png",
+      "status": "accepted_first_release_art",
+      "actions": [
+        {
+          "id": "swim",
+          "type": "loop",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "Pectoral fins paddle softly and tail performs one smooth alternating sweep; head and torso remain at fixed root, full fin shape preserved.",
+          "startAndEnd": "Same source-rest pose, silhouette and phase at both ends for seamless loop.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-4/20-yuban.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/20-yuban/swim/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 32,
+            "durationSeconds": 2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        },
+        {
+          "id": "capture",
+          "type": "one_shot",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "One brief full-body compression and fin/tentacle recoil as caught, gentle settle; keep creature alive and non-graphic. Capture glow/net remains separate FX, never baked into body clip.",
+          "startAndEnd": "Begin in source rest pose; end in a settled visible held pose before runtime removal.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-4/20-yuban.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/20-yuban/capture/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 19,
+            "durationSeconds": 1.2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        }
+      ]
+    },
+    {
+      "id": "21-haiqiu",
+      "name": "海鳅",
+      "tier": "rare",
+      "description": "slender turquoise loach with flowing gold accented whiskers",
+      "sourceSprite": "assets/fish/batch-4/21-haiqiu.png",
+      "sourceGenerationRecord": "assets/fish/batch-4/21-haiqiu.png.generation.json",
+      "sourceSheet": "designs/production-v1/fish-sheet-4/fish-sheet-4-contained.png",
+      "status": "accepted_first_release_art",
+      "actions": [
+        {
+          "id": "swim",
+          "type": "loop",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "Slender body follows shallow sinusoidal motion with delayed tail and whisker follow-through.",
+          "startAndEnd": "Same source-rest pose, silhouette and phase at both ends for seamless loop.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-4/21-haiqiu.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/21-haiqiu/swim/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 32,
+            "durationSeconds": 2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        },
+        {
+          "id": "capture",
+          "type": "one_shot",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "One brief full-body compression and fin/tentacle recoil as caught, gentle settle; keep creature alive and non-graphic. Capture glow/net remains separate FX, never baked into body clip.",
+          "startAndEnd": "Begin in source rest pose; end in a settled visible held pose before runtime removal.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-4/21-haiqiu.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/21-haiqiu/capture/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 19,
+            "durationSeconds": 1.2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        }
+      ]
+    },
+    {
+      "id": "22-bailian",
+      "name": "白莲鱼",
+      "tier": "rare",
+      "description": "white ivory elegant fish with lotus-shaped peach tail",
+      "sourceSprite": "assets/fish/batch-4/22-bailian.png",
+      "sourceGenerationRecord": "assets/fish/batch-4/22-bailian.png.generation.json",
+      "sourceSheet": "designs/production-v1/fish-sheet-4/fish-sheet-4-contained.png",
+      "status": "accepted_first_release_art",
+      "actions": [
+        {
+          "id": "swim",
+          "type": "loop",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "Lotus-shaped tail petals ripple as fins paddle, ivory and peach identity remains stable.",
+          "startAndEnd": "Same source-rest pose, silhouette and phase at both ends for seamless loop.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-4/22-bailian.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/22-bailian/swim/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 32,
+            "durationSeconds": 2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        },
+        {
+          "id": "capture",
+          "type": "one_shot",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "One brief full-body compression and fin/tentacle recoil as caught, gentle settle; keep creature alive and non-graphic. Capture glow/net remains separate FX, never baked into body clip.",
+          "startAndEnd": "Begin in source rest pose; end in a settled visible held pose before runtime removal.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-4/22-bailian.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/22-bailian/capture/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 19,
+            "durationSeconds": 1.2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        }
+      ]
+    },
+    {
+      "id": "23-liuguang",
+      "name": "流光鱼",
+      "tier": "rare",
+      "description": "blue-green fish with gold bioluminescent dots, restrained glow",
+      "sourceSprite": "assets/fish/batch-4/23-liuguang.png",
+      "sourceGenerationRecord": "assets/fish/batch-4/23-liuguang.png.generation.json",
+      "sourceSheet": "designs/production-v1/fish-sheet-4/fish-sheet-4-contained.png",
+      "status": "accepted_first_release_art",
+      "actions": [
+        {
+          "id": "swim",
+          "type": "loop",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "Pectoral fins paddle softly and tail performs one smooth alternating sweep; head and torso remain at fixed root, full fin shape preserved.",
+          "startAndEnd": "Same source-rest pose, silhouette and phase at both ends for seamless loop.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-4/23-liuguang.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/23-liuguang/swim/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 32,
+            "durationSeconds": 2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        },
+        {
+          "id": "capture",
+          "type": "one_shot",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "One brief full-body compression and fin/tentacle recoil as caught, gentle settle; keep creature alive and non-graphic. Capture glow/net remains separate FX, never baked into body clip.",
+          "startAndEnd": "Begin in source rest pose; end in a settled visible held pose before runtime removal.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-4/23-liuguang.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/23-liuguang/capture/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 19,
+            "durationSeconds": 1.2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        }
+      ]
+    },
+    {
+      "id": "24-jindun",
+      "name": "金盾鱼",
+      "tier": "rare",
+      "description": "sturdy gold-plated armored fish with round jade shields",
+      "sourceSprite": "assets/fish/batch-4/24-jindun.png",
+      "sourceGenerationRecord": "assets/fish/batch-4/24-jindun.png.generation.json",
+      "sourceSheet": "designs/production-v1/fish-sheet-4/fish-sheet-4-contained.png",
+      "status": "accepted_first_release_art",
+      "actions": [
+        {
+          "id": "swim",
+          "type": "loop",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "Pectoral fins paddle softly and tail performs one smooth alternating sweep; head and torso remain at fixed root, full fin shape preserved.",
+          "startAndEnd": "Same source-rest pose, silhouette and phase at both ends for seamless loop.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-4/24-jindun.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/24-jindun/swim/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 32,
+            "durationSeconds": 2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        },
+        {
+          "id": "capture",
+          "type": "one_shot",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "One brief full-body compression and fin/tentacle recoil as caught, gentle settle; keep creature alive and non-graphic. Capture glow/net remains separate FX, never baked into body clip.",
+          "startAndEnd": "Begin in source rest pose; end in a settled visible held pose before runtime removal.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-4/24-jindun.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/24-jindun/capture/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 19,
+            "durationSeconds": 1.2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        }
+      ]
+    },
+    {
+      "id": "25-yexing",
+      "name": "夜星鱼",
+      "tier": "elite",
+      "description": "deep indigo fish with sparse small cyan star spots",
+      "sourceSprite": "assets/fish/batch-5/25-yexing.png",
+      "sourceGenerationRecord": "assets/fish/batch-5/25-yexing.png.generation.json",
+      "sourceSheet": "designs/production-v1/fish-sheet-5/fish-sheet-5-contained.png",
+      "status": "accepted_first_release_art",
+      "actions": [
+        {
+          "id": "swim",
+          "type": "loop",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "Pectoral fins paddle softly and tail performs one smooth alternating sweep; head and torso remain at fixed root, full fin shape preserved.",
+          "startAndEnd": "Same source-rest pose, silhouette and phase at both ends for seamless loop.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-5/25-yexing.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/25-yexing/swim/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 32,
+            "durationSeconds": 2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        },
+        {
+          "id": "capture",
+          "type": "one_shot",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "One brief full-body compression and fin/tentacle recoil as caught, gentle settle; keep creature alive and non-graphic. Capture glow/net remains separate FX, never baked into body clip.",
+          "startAndEnd": "Begin in source rest pose; end in a settled visible held pose before runtime removal.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-5/25-yexing.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/25-yexing/capture/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 19,
+            "durationSeconds": 1.2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        }
+      ]
+    },
+    {
+      "id": "26-moyu",
+      "name": "墨玉章鱼",
+      "tier": "elite",
+      "description": "cute dark-jade octopus with eight readable arms, amber eyes",
+      "sourceSprite": "assets/fish/batch-5/26-moyu.png",
+      "sourceGenerationRecord": "assets/fish/batch-5/26-moyu.png.generation.json",
+      "sourceSheet": "designs/production-v1/fish-sheet-5/fish-sheet-5-contained.png",
+      "status": "accepted_first_release_art",
+      "actions": [
+        {
+          "id": "swim",
+          "type": "loop",
+          "durationSeconds": 1.0,
+          "plannedFps": 8,
+          "plannedFrames": 8,
+          "motion": "Octopus eight arms curl and relax in staggered coherent waves, no duplicated or missing arms, torso root stable.",
+          "startAndEnd": "Same source-rest pose, silhouette and phase at both ends for seamless loop.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-5/26-moyu.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/26-moyu/swim/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 32,
+            "durationSeconds": 2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        },
+        {
+          "id": "capture",
+          "type": "one_shot",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "One brief full-body compression and fin/tentacle recoil as caught, gentle settle; keep creature alive and non-graphic. Capture glow/net remains separate FX, never baked into body clip.",
+          "startAndEnd": "Begin in source rest pose; end in a settled visible held pose before runtime removal.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-5/26-moyu.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/26-moyu/capture/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 19,
+            "durationSeconds": 1.2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        }
+      ]
+    },
+    {
+      "id": "27-yingguang",
+      "name": "荧光乌贼",
+      "tier": "elite",
+      "description": "streamlined teal squid with ivory fins and short tentacles",
+      "sourceSprite": "assets/fish/batch-5/27-yingguang.png",
+      "sourceGenerationRecord": "assets/fish/batch-5/27-yingguang.png.generation.json",
+      "sourceSheet": "designs/production-v1/fish-sheet-5/fish-sheet-5-contained.png",
+      "status": "accepted_first_release_art",
+      "actions": [
+        {
+          "id": "swim",
+          "type": "loop",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "Squid mantle pulses gently and short tentacles trail, ivory side fins undulate without changing body proportions.",
+          "startAndEnd": "Same source-rest pose, silhouette and phase at both ends for seamless loop.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-5/27-yingguang.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/27-yingguang/swim/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 32,
+            "durationSeconds": 2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        },
+        {
+          "id": "capture",
+          "type": "one_shot",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "One brief full-body compression and fin/tentacle recoil as caught, gentle settle; keep creature alive and non-graphic. Capture glow/net remains separate FX, never baked into body clip.",
+          "startAndEnd": "Begin in source rest pose; end in a settled visible held pose before runtime removal.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-5/27-yingguang.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/27-yingguang/capture/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 19,
+            "durationSeconds": 1.2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        }
+      ]
+    },
+    {
+      "id": "28-shenhai",
+      "name": "深海鮟鱇",
+      "tier": "elite",
+      "description": "rounded navy anglerfish, warm lantern lure, friendly fantasy teeth",
+      "sourceSprite": "assets/fish/batch-5/28-shenhai.png",
+      "sourceGenerationRecord": "assets/fish/batch-5/28-shenhai.png.generation.json",
+      "sourceSheet": "designs/production-v1/fish-sheet-5/fish-sheet-5-contained.png",
+      "status": "accepted_first_release_art",
+      "actions": [
+        {
+          "id": "swim",
+          "type": "loop",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "Anglerfish tail sweeps and pectoral fins paddle; entire warm lantern lure sways with restrained light, jaw shape stable.",
+          "startAndEnd": "Same source-rest pose, silhouette and phase at both ends for seamless loop.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-5/28-shenhai.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/28-shenhai/swim/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 32,
+            "durationSeconds": 2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        },
+        {
+          "id": "capture",
+          "type": "one_shot",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "One brief full-body compression and fin/tentacle recoil as caught, gentle settle; keep creature alive and non-graphic. Capture glow/net remains separate FX, never baked into body clip.",
+          "startAndEnd": "Begin in source rest pose; end in a settled visible held pose before runtime removal.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-5/28-shenhai.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/28-shenhai/capture/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 19,
+            "durationSeconds": 1.2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        }
+      ]
+    },
+    {
+      "id": "29-hailong",
+      "name": "海龙",
+      "tier": "elite",
+      "description": "long blue sea-dragon fish, curled body and jade cloud fins",
+      "sourceSprite": "assets/fish/batch-5/29-hailong.png",
+      "sourceGenerationRecord": "assets/fish/batch-5/29-hailong.png.generation.json",
+      "sourceSheet": "designs/production-v1/fish-sheet-5/fish-sheet-5-contained.png",
+      "status": "accepted_first_release_art",
+      "actions": [
+        {
+          "id": "swim",
+          "type": "loop",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "Curled aquatic-dragon body sends a shallow wave to tail, fins and whiskers lag slightly; head and root stay stable.",
+          "startAndEnd": "Same source-rest pose, silhouette and phase at both ends for seamless loop.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-5/29-hailong.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/29-hailong/swim/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 32,
+            "durationSeconds": 2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        },
+        {
+          "id": "capture",
+          "type": "one_shot",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "One brief full-body compression and fin/tentacle recoil as caught, gentle settle; keep creature alive and non-graphic. Capture glow/net remains separate FX, never baked into body clip.",
+          "startAndEnd": "Begin in source rest pose; end in a settled visible held pose before runtime removal.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-5/29-hailong.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/29-hailong/capture/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 19,
+            "durationSeconds": 1.2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        }
+      ]
+    },
+    {
+      "id": "30-jinjia",
+      "name": "金甲蟹",
+      "tier": "elite",
+      "description": "round golden crab with jade shell panels, two distinct claws",
+      "sourceSprite": "assets/fish/batch-5/30-jinjia.png",
+      "sourceGenerationRecord": "assets/fish/batch-5/30-jinjia.png.generation.json",
+      "sourceSheet": "designs/production-v1/fish-sheet-5/fish-sheet-5-contained.png",
+      "status": "accepted_first_release_art",
+      "actions": [
+        {
+          "id": "swim",
+          "type": "loop",
+          "durationSeconds": 1.0,
+          "plannedFps": 8,
+          "plannedFrames": 8,
+          "motion": "Crab legs paddle in alternating pairs with gentle claw motion, both claws remain present and torso fixed.",
+          "startAndEnd": "Same source-rest pose, silhouette and phase at both ends for seamless loop.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-5/30-jinjia.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/30-jinjia/swim/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 32,
+            "durationSeconds": 2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        },
+        {
+          "id": "capture",
+          "type": "one_shot",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "One brief full-body compression and fin/tentacle recoil as caught, gentle settle; keep creature alive and non-graphic. Capture glow/net remains separate FX, never baked into body clip.",
+          "startAndEnd": "Begin in source rest pose; end in a settled visible held pose before runtime removal.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-5/30-jinjia.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/30-jinjia/capture/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 19,
+            "durationSeconds": 1.2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        }
+      ]
+    },
+    {
+      "id": "31-bingjing",
+      "name": "冰晶鲨",
+      "tier": "elite",
+      "description": "icy blue chibi shark with crystal fin, broad clean silhouette",
+      "sourceSprite": "assets/fish/batch-6/31-bingjing.png",
+      "sourceGenerationRecord": "assets/fish/batch-6/31-bingjing.png.generation.json",
+      "sourceSheet": "designs/production-v1/fish-sheet-6/fish-sheet-6-contained.png",
+      "status": "accepted_first_release_art",
+      "actions": [
+        {
+          "id": "swim",
+          "type": "loop",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "Shark tail swings rhythmically and side fins stabilize; crystal fin rigid identity preserved.",
+          "startAndEnd": "Same source-rest pose, silhouette and phase at both ends for seamless loop.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-6/31-bingjing.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/31-bingjing/swim/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 32,
+            "durationSeconds": 2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        },
+        {
+          "id": "capture",
+          "type": "one_shot",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "One brief full-body compression and fin/tentacle recoil as caught, gentle settle; keep creature alive and non-graphic. Capture glow/net remains separate FX, never baked into body clip.",
+          "startAndEnd": "Begin in source rest pose; end in a settled visible held pose before runtime removal.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-6/31-bingjing.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/31-bingjing/capture/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 19,
+            "durationSeconds": 1.2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        }
+      ]
+    },
+    {
+      "id": "32-honglian",
+      "name": "红莲鳐",
+      "tier": "elite",
+      "description": "large crimson manta with lotus motifs and ivory belly",
+      "sourceSprite": "assets/fish/batch-6/32-honglian.png",
+      "sourceGenerationRecord": "assets/fish/batch-6/32-honglian.png.generation.json",
+      "sourceSheet": "designs/production-v1/fish-sheet-6/fish-sheet-6-contained.png",
+      "status": "accepted_first_release_art",
+      "actions": [
+        {
+          "id": "swim",
+          "type": "loop",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "Crimson manta wings undulate smoothly, lotus markings stay attached and tail follows.",
+          "startAndEnd": "Same source-rest pose, silhouette and phase at both ends for seamless loop.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-6/32-honglian.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/32-honglian/swim/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 32,
+            "durationSeconds": 2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        },
+        {
+          "id": "capture",
+          "type": "one_shot",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "One brief full-body compression and fin/tentacle recoil as caught, gentle settle; keep creature alive and non-graphic. Capture glow/net remains separate FX, never baked into body clip.",
+          "startAndEnd": "Begin in source rest pose; end in a settled visible held pose before runtime removal.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-6/32-honglian.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/32-honglian/capture/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 19,
+            "durationSeconds": 1.2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        }
+      ]
+    },
+    {
+      "id": "33-xuanwu",
+      "name": "玄武灵龟",
+      "tier": "elite",
+      "description": "elite large dark-jade tortoise with refined gold cloud armor, no snakes",
+      "sourceSprite": "assets/fish/batch-6/33-xuanwu.png",
+      "sourceGenerationRecord": "assets/fish/batch-6/33-xuanwu.png.generation.json",
+      "sourceSheet": "designs/production-v1/fish-sheet-6/fish-sheet-6-contained.png",
+      "status": "accepted_first_release_art",
+      "actions": [
+        {
+          "id": "swim",
+          "type": "loop",
+          "durationSeconds": 1.0,
+          "plannedFps": 8,
+          "plannedFrames": 8,
+          "motion": "Armored turtle alternating flipper paddles, heavy shell remains stable, cloud armor unchanged.",
+          "startAndEnd": "Same source-rest pose, silhouette and phase at both ends for seamless loop.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-6/33-xuanwu.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/33-xuanwu/swim/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 32,
+            "durationSeconds": 2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        },
+        {
+          "id": "capture",
+          "type": "one_shot",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "One brief full-body compression and fin/tentacle recoil as caught, gentle settle; keep creature alive and non-graphic. Capture glow/net remains separate FX, never baked into body clip.",
+          "startAndEnd": "Begin in source rest pose; end in a settled visible held pose before runtime removal.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-6/33-xuanwu.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/33-xuanwu/capture/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 19,
+            "durationSeconds": 1.2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        }
+      ]
+    },
+    {
+      "id": "34-jinlongli",
+      "name": "金龙锦鲤",
+      "tier": "boss",
+      "description": "boss grand gold and red dragon koi with jade whiskers and crownlike fin",
+      "sourceSprite": "assets/fish/batch-6/34-jinlongli.png",
+      "sourceGenerationRecord": "assets/fish/batch-6/34-jinlongli.png.generation.json",
+      "sourceSheet": "designs/production-v1/fish-sheet-6/fish-sheet-6-contained.png",
+      "status": "accepted_first_release_art",
+      "actions": [
+        {
+          "id": "swim",
+          "type": "loop",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "Boss dragon koi tail and flowing fins ripple in one seamless wave, crown fin and jade whiskers preserve identity.",
+          "startAndEnd": "Same source-rest pose, silhouette and phase at both ends for seamless loop.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-6/34-jinlongli.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.28,
+              0.28,
+              0.28,
+              0.28
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/34-jinlongli/swim/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 32,
+            "durationSeconds": 2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        },
+        {
+          "id": "capture",
+          "type": "one_shot",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "One brief full-body compression and fin/tentacle recoil as caught, gentle settle; keep creature alive and non-graphic. Capture glow/net remains separate FX, never baked into body clip.",
+          "startAndEnd": "Begin in source rest pose; end in a settled visible held pose before runtime removal.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-6/34-jinlongli.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.28,
+              0.28,
+              0.28,
+              0.28
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/34-jinlongli/capture/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 19,
+            "durationSeconds": 1.2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        },
+        {
+          "id": "attack",
+          "type": "one_shot",
+          "durationSeconds": 0.8,
+          "plannedFps": 10,
+          "plannedFrames": 8,
+          "motion": "One readable windup, a single strong tail/body surge, then recover; keep whole body within fixed motion envelope.",
+          "startAndEnd": "Begin and end at approved master rest pose; one attack cycle.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-6/34-jinlongli.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.28,
+              0.28,
+              0.28,
+              0.28
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/34-jinlongli/attack/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 29,
+            "durationSeconds": 1.8
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 10,
+          "actualFrameCount": 8,
+          "actualDurationMs": 800
+        },
+        {
+          "id": "enrage",
+          "type": "one_shot",
+          "durationSeconds": 1.0,
+          "plannedFps": 8,
+          "plannedFrames": 8,
+          "motion": "One restrained power-up body/fin flare and expression change followed by settling; preserve colors, anatomy and identity. Aura and particles exported as separate FX, not body.",
+          "startAndEnd": "Begin at normal rest; finish at a stable alert rest. A later alert swim requires a separately approved clip.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-6/34-jinlongli.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.28,
+              0.28,
+              0.28,
+              0.28
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/34-jinlongli/enrage/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 40,
+            "durationSeconds": 2.5
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 8,
+          "actualFrameCount": 8,
+          "actualDurationMs": 1000
+        }
+      ]
+    },
+    {
+      "id": "35-longwang",
+      "name": "龙王海龙",
+      "tier": "boss",
+      "description": "boss serpentine turquoise aquatic dragon with ivory antler horns and pearl, chibi rounded head",
+      "sourceSprite": "assets/fish/batch-6/35-longwang.png",
+      "sourceGenerationRecord": "assets/fish/batch-6/35-longwang.png.generation.json",
+      "sourceSheet": "designs/production-v1/fish-sheet-6/fish-sheet-6-contained.png",
+      "status": "accepted_first_release_art",
+      "actions": [
+        {
+          "id": "swim",
+          "type": "loop",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "Boss sea dragon sends a controlled wave down serpentine body, horns rigid, whiskers and fins trail; pearl stable.",
+          "startAndEnd": "Same source-rest pose, silhouette and phase at both ends for seamless loop.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-6/35-longwang.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.28,
+              0.28,
+              0.28,
+              0.28
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/35-longwang/swim/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 32,
+            "durationSeconds": 2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        },
+        {
+          "id": "capture",
+          "type": "one_shot",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "One brief full-body compression and fin/tentacle recoil as caught, gentle settle; keep creature alive and non-graphic. Capture glow/net remains separate FX, never baked into body clip.",
+          "startAndEnd": "Begin in source rest pose; end in a settled visible held pose before runtime removal.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-6/35-longwang.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.28,
+              0.28,
+              0.28,
+              0.28
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/35-longwang/capture/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 19,
+            "durationSeconds": 1.2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        },
+        {
+          "id": "attack",
+          "type": "one_shot",
+          "durationSeconds": 0.8,
+          "plannedFps": 10,
+          "plannedFrames": 8,
+          "motion": "Coil body slightly, one controlled forward head thrust, then recover; no new projectile or extra limb.",
+          "startAndEnd": "Begin and end at approved master rest pose; one attack cycle.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-6/35-longwang.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.28,
+              0.28,
+              0.28,
+              0.28
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/35-longwang/attack/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 29,
+            "durationSeconds": 1.8
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 10,
+          "actualFrameCount": 8,
+          "actualDurationMs": 800
+        },
+        {
+          "id": "enrage",
+          "type": "one_shot",
+          "durationSeconds": 1.0,
+          "plannedFps": 8,
+          "plannedFrames": 8,
+          "motion": "One restrained power-up body/fin flare and expression change followed by settling; preserve colors, anatomy and identity. Aura and particles exported as separate FX, not body.",
+          "startAndEnd": "Begin at normal rest; finish at a stable alert rest. A later alert swim requires a separately approved clip.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-6/35-longwang.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.28,
+              0.28,
+              0.28,
+              0.28
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/35-longwang/enrage/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 40,
+            "durationSeconds": 2.5
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 8,
+          "actualFrameCount": 8,
+          "actualDurationMs": 1000
+        }
+      ]
+    },
+    {
+      "id": "36-xuanjing",
+      "name": "玄海巨鲸",
+      "tier": "boss",
+      "description": "boss massive rounded navy whale with soft jade cloud markings and ivory belly",
+      "sourceSprite": "assets/fish/batch-6/36-xuanjing.png",
+      "sourceGenerationRecord": "assets/fish/batch-6/36-xuanjing.png.generation.json",
+      "sourceSheet": "designs/production-v1/fish-sheet-6/fish-sheet-6-contained.png",
+      "status": "accepted_first_release_art",
+      "actions": [
+        {
+          "id": "swim",
+          "type": "loop",
+          "durationSeconds": 1.0,
+          "plannedFps": 8,
+          "plannedFrames": 8,
+          "motion": "Whale tail and pectoral flippers sweep slowly, soft torso breathing; stable navy cloud pattern, no scale drift.",
+          "startAndEnd": "Same source-rest pose, silhouette and phase at both ends for seamless loop.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-6/36-xuanjing.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.28,
+              0.28,
+              0.28,
+              0.28
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/36-xuanjing/swim/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 32,
+            "durationSeconds": 2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 8,
+          "actualFrameCount": 8,
+          "actualDurationMs": 1000
+        },
+        {
+          "id": "capture",
+          "type": "one_shot",
+          "durationSeconds": 0.6666666666666666,
+          "plannedFps": 12,
+          "plannedFrames": 8,
+          "motion": "One brief full-body compression and fin/tentacle recoil as caught, gentle settle; keep creature alive and non-graphic. Capture glow/net remains separate FX, never baked into body clip.",
+          "startAndEnd": "Begin in source rest pose; end in a settled visible held pose before runtime removal.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-6/36-xuanjing.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.28,
+              0.28,
+              0.28,
+              0.28
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/36-xuanjing/capture/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 19,
+            "durationSeconds": 1.2
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 12,
+          "actualFrameCount": 8,
+          "actualDurationMs": 667
+        },
+        {
+          "id": "attack",
+          "type": "one_shot",
+          "durationSeconds": 1.0,
+          "plannedFps": 8,
+          "plannedFrames": 8,
+          "motion": "One readable windup, a single strong tail/body surge, then recover; keep whole body within fixed motion envelope.",
+          "startAndEnd": "Begin and end at approved master rest pose; one attack cycle.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-6/36-xuanjing.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.28,
+              0.28,
+              0.28,
+              0.28
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/36-xuanjing/attack/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 29,
+            "durationSeconds": 1.8
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 10,
+          "actualFrameCount": 8,
+          "actualDurationMs": 800
+        },
+        {
+          "id": "enrage",
+          "type": "one_shot",
+          "durationSeconds": 1.0,
+          "plannedFps": 8,
+          "plannedFrames": 8,
+          "motion": "One restrained power-up body/fin flare and expression change followed by settling; preserve colors, anatomy and identity. Aura and particles exported as separate FX, not body.",
+          "startAndEnd": "Begin at normal rest; finish at a stable alert rest. A later alert swim requires a separately approved clip.",
+          "status": "accepted_Unity_art",
+          "sourceMaster": "assets/fish/batch-6/36-xuanjing.png",
+          "rootAnchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "rootLock": "source master center; no per-frame bbox recentering",
+          "facing": "right; naturally upright for seahorse/jellyfish, preserve original sprite camera",
+          "camera": "locked, same projection, no pan/zoom/turn",
+          "motionEnvelope": {
+            "canvasPaddingRatio": [
+              0.28,
+              0.28,
+              0.28,
+              0.28
+            ],
+            "maxRootTranslationRatio": 0.02,
+            "appendagesFullyContained": true
+          },
+          "alpha": "native alpha or measured matte; no painted checkerboard",
+          "output": "assets/animations/36-xuanjing/enrage/manifest.json",
+          "acceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+          "previousVideoSamplingPlan": {
+            "fps": 16,
+            "frames": 40,
+            "durationSeconds": 2.5
+          },
+          "generationRoute": "builtin_native_action_sheet",
+          "releaseReady": true,
+          "actualFps": 8,
+          "actualFrameCount": 8,
+          "actualDurationMs": 1000
+        }
+      ]
+    }
+  ],
+  "methodChoice": {
+    "date": "2026-10-28",
+    "route": "builtin image_gen native action sheets",
+    "reference": "https://github.com/0x0funky/agent-sprite-forge",
+    "selectedBy": "explicit_user_instruction",
+    "videoApiAuthorized": false
+  },
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json"
+}

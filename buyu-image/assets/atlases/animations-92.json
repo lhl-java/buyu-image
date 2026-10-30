@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "frames": {
+    "animations/dao-child/idle/frame-00": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 800,
+        "h": 800
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 800,
+        "h": 800
+      },
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "source": "assets/animations/dao-child/idle/frame-00.png",
+      "sourceSha256": "315311fdd8497cf76f20cd7258d4da160387e2346849eff520720a37a29a27da"
+    },
+    "animations/dao-child/idle/frame-01": {
+      "frame": {
+        "x": 806,
+        "y": 2,
+        "w": 800,
+        "h": 800
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 800,
+        "h": 800
+      },
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "source": "assets/animations/dao-child/idle/frame-01.png",
+      "sourceSha256": "504a6290c0335d5d9d4fad544bcdacf6b6ec291475106bffad2ffae614295be4"
+    },
+    "animations/dao-child/idle/frame-02": {
+      "frame": {
+        "x": 2,
+        "y": 806,
+        "w": 800,
+        "h": 800
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 800,
+        "h": 800
+      },
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "source": "assets/animations/dao-child/idle/frame-02.png",
+      "sourceSha256": "8525551894da9519eb3715d4f2fb6481ac2e221c4ccbff3843a23adb07955684"
+    },
+    "animations/dao-child/idle/frame-03": {
+      "frame": {
+        "x": 806,
+        "y": 806,
+        "w": 800,
+        "h": 800
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 800,
+        "h": 800
+      },
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "source": "assets/animations/dao-child/idle/frame-03.png",
+      "sourceSha256": "c6e05f42d97f80276d0cf43bddfa75605d16d669a35c9b44d7dbf51d3707d0b4"
+    }
+  },
+  "meta": {
+    "image": "animations-92.png",
+    "size": {
+      "w": 1608,
+      "h": 1608
+    },
+    "format": "RGBA8888",
+    "scale": 1,
+    "padding": 2,
+    "noRotation": true,
+    "generatedAt": "2026-10-30T03:30:12.489824+00:00",
+    "operation": "native pixel packing; no resampling or redraw"
+  }
+}

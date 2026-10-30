@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-10",
+  "name": "fx-net 10",
+  "file": "assets/fx/fx-net/frame-10.png",
+  "sha256": "c65dc73bc3df72970dba1844db3242664b5d5d7873dbd949ae527b5ecce52445",
+  "width": 314,
+  "height": 314,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/production-v1/fx-net/fx-net.png",
+  "derivedFrom": [
+    {
+      "file": "designs/production-v1/fx-net/fx-net.png",
+      "sha256": "42466e795a17b0b78ff908a61bba69c4e750fe04aadf76ad12bd4777e7484feb",
+      "generationRecord": "designs/production-v1/fx-net/fx-net.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_grid_crop",
+    "grid": {
+      "rows": 4,
+      "cols": 4
+    },
+    "sourceRect": [
+      627,
+      627,
+      940,
+      940
+    ],
+    "cellCropRect": [
+      0,
+      0,
+      313,
+      313
+    ],
+    "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+    "resized": false,
+    "upscaled": false,
+    "canvasNormalization": "right/bottom transparent pad to shared ceil grid canvas; no resize"
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "displaySize": [
+    192,
+    192
+  ],
+  "status": "static_asset_visual_reviewed_pending_user_review",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source generation record; no new model call for this slice.",
+  "animation": {
+    "fps": 16,
+    "loop": false,
+    "order": "row-major",
+    "frames": 16,
+    "root": [
+      0.5,
+      0.5
+    ]
+  }
+}

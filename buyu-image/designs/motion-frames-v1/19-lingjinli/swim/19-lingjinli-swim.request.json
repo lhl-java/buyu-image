@@ -1,0 +1,10 @@
+{
+  "prompt": "EDIT IMAGE1's layout into a REAL8FRAME ANIMATION. Image1 is only a 4columns×2rows reference arrangement of the approved master; its repeated static copies are NOT the requested output. KEEP EXACTLY the normalized cell positions, generous transparent spaces, constant head/body size and orientation from image1. Generate native2:1 trueAlpha landscape at highest native quality. Maintain4columns×2rows8completecreatures. Images2and3 are STYLE ONLY; image4 exactidentity ONLY. Do NOT enlarge creatures tofillcells. Do NOT fit everypose toitsownbbox. Same eye/head/root/bodylength and camera in all8cells. Allanatomicalparts fullyinsideowncellwithtransparentgutter; nevercrossgrid. Preserve allgoldornament/scalepatterns/colors. Need real articulated posechanges in tail/fins/tentacles, NEVER eight rigid translations/rotations/scales ofthewholecreature. Row-majorphases0,45,90,135,180,225,270,315; uniquephase7notduplicate0. No labels/numbers/UI/gridlines/bubbles/water/background/groundshadow/checkerboard. Complete transparent silhouettes.\nThe exact red and ivory spirit koi in image4, with bright gold scale rims, flowing split tail, long white-red ribbon fins and thin golden barbels. Keep the head facing upper-right and keep the eye, face and front body fixed in the same local place. Eight successive swimming poses: the tail root bends left, left-mid, center, right-mid, right, right-mid returning, center with opposite S curvature, left-mid returning. The broad tail fans fold and reopen as they sweep, and the long pectoral/pelvic ribbons follow one phase behind. Barbels curl gently from fixed mouth roots. Do not move or rotate the whole fish or morph the red/white scale pattern. A real coherent loop, not eight near-identical copies.",
+  "transparent_background": true,
+  "referenced_image_paths": [
+    "D:\\work\\buyu-image\\designs\\motion-frames-v1\\19-lingjinli\\geometry-reference.png",
+    "D:\\work\\buyu-image\\designs\\mail-ui-v1\\01-mail-event.png",
+    "D:\\work\\buyu-image\\designs\\team-ui-v2\\team-ui-v2.png",
+    "D:\\work\\buyu-image\\assets\\fish\\batch-4\\19-lingjinli.png"
+  ]
+}

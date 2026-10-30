@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/motion-frames-v1/36-xuanjing/swim/extract-v1-pose-07.png",
+  "sha256": "329d13206dea2588d296feed96dca229627c2e5f5d38d307ef824c81ef5e6bb5",
+  "width": 379,
+  "height": 293,
+  "format": "RGBA PNG",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/36-xuanjing/swim/36-xuanjing-swim-v1.png",
+      "sha256": "60d81f0ce436138be11ccdcd7c84cfe2145bbc73f550dfcd7c5ed2fa41267943",
+      "generationRecord": "designs/motion-frames-v1/36-xuanjing/swim/36-xuanjing-swim-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_complete_actor_ownership_crop",
+    "evidence": {
+      "sourceFrame": 7,
+      "file": "designs/motion-frames-v1/36-xuanjing/swim/extract-v1-pose-07.png",
+      "sourceRect": [
+        1365,
+        520,
+        1744,
+        813
+      ],
+      "nominalSourceRect": [
+        1330,
+        444,
+        1773,
+        887
+      ],
+      "nominalGridCross": false,
+      "nativeVisibleSize": [
+        379,
+        293
+      ],
+      "ownedPixelCount": 56137,
+      "foreignPixelsRemovedFromCrop": 0,
+      "totalCanvasEdgeMaxAlpha": 0,
+      "nativeOwnedPixelsUnchanged": true,
+      "sourceMainAlphaComponent": 102
+    },
+    "alphaCleanup": "alpha<=3 discarded, other owned RGBA unchanged",
+    "resized": false,
+    "upscaled": false,
+    "newNativeDetailClaimed": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "intermediate_pending_semantic_review"
+}

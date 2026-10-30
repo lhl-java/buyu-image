@@ -1,0 +1,91 @@
+{
+  "grid": [
+    2,
+    4
+  ],
+  "canvas": [
+    640,
+    640
+  ],
+  "pupilTarget": [
+    320,
+    280
+  ],
+  "fps": 12,
+  "displayBox": [
+    240,
+    180
+  ],
+  "pupilRoi": [
+    170,
+    150,
+    270,
+    270
+  ],
+  "pending": [
+    "Root actual playback/loop or capture recovery review.",
+    "Eight-arm topology and suction-cup continuity need root visual review; source has natural overlapping arms.",
+    "Actual target Unity review; geometry/PNG count alone is not an animation pass."
+  ],
+  "id": "26-moyu/swim",
+  "name": "墨玉章鱼",
+  "action": "swim",
+  "source": "designs/motion-frames-v1/26-moyu/swim/26-moyu-swim.png",
+  "output": "assets/animations/26-moyu/swim",
+  "loop": true,
+  "sourceRects": [
+    [
+      0,
+      0,
+      450,
+      444
+    ],
+    [
+      450,
+      0,
+      887,
+      444
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "pupilExpected": [
+    [
+      219,
+      218
+    ],
+    [
+      216,
+      218
+    ],
+    [
+      223,
+      218
+    ],
+    [
+      218,
+      218
+    ],
+    [
+      230,
+      203
+    ],
+    [
+      215,
+      202
+    ],
+    [
+      215,
+      202
+    ],
+    [
+      217,
+      203
+    ]
+  ],
+  "visualReview": "Actual source viewed: alternating arms bend/curl while jade dome/face/gold ornaments retain identity. Native source no rectangle background. Small fringe crosses nominal frame0 line; custom ownership chosen in empty gap, not genuine shape cutoff. Eight-arm anatomy and loop remain candidate pending visual playback."
+}

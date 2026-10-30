@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/motion-frames-v1/35-longwang/attack/extract-a-pose-02.png",
+  "sha256": "b10c769ca69c84c2dbd6d1c70c39e63583f236e78712f3c67961d41be005f7c7",
+  "width": 549,
+  "height": 462,
+  "format": "RGBA PNG",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/35-longwang/attack/attack-a-contained-v2.png",
+      "sha256": "206b5c5d2f92ef3e88a45a627673dbba48a2a0717e6cb8bed81cc11e3155d06a",
+      "generationRecord": "designs/motion-frames-v1/35-longwang/attack/attack-a-contained-v2.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_complete_actor_ownership_crop",
+    "evidence": {
+      "sourceFrame": 2,
+      "file": "designs/motion-frames-v1/35-longwang/attack/extract-a-pose-02.png",
+      "sourceRect": [
+        96,
+        697,
+        645,
+        1159
+      ],
+      "nominalSourceRect": [
+        0,
+        627,
+        627,
+        1254
+      ],
+      "nominalGridCross": true,
+      "nativeVisibleSize": [
+        549,
+        462
+      ],
+      "ownedPixelCount": 166333,
+      "foreignPixelsRemovedFromCrop": 0,
+      "totalCanvasEdgeMaxAlpha": 0,
+      "nativeOwnedPixelsUnchanged": true,
+      "sourceMainAlphaComponent": 114
+    },
+    "alphaCleanup": "alpha<=3 discarded, other owned RGBA unchanged",
+    "resized": false,
+    "upscaled": false,
+    "newNativeDetailClaimed": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "intermediate_pending_semantic_review"
+}

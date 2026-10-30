@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-03",
+  "file": "assets/animations/02-jinwei/capture/frame-03.png",
+  "sha256": "15eb9436f3099a54e751becc39a3408949e03d644709ccca6e2be18d1e5468c2",
+  "width": 672,
+  "height": 672,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/motion-frames-v1/02-jinwei/capture/02-jinwei-capture-v3.png",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/02-jinwei/capture/02-jinwei-capture-v3.png",
+      "sha256": "cbef31ec6d106adf7bd288d93f77a96e9929c9081dc3c99b6751a3d991663b63",
+      "generationRecord": "designs/motion-frames-v1/02-jinwei/capture/02-jinwei-capture-v3.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_grid_crop_integer_pupil_registration",
+    "sourceRect": [
+      1337,
+      146,
+      1756,
+      455
+    ],
+    "cellCropRect": [
+      0,
+      0,
+      419,
+      309
+    ],
+    "registrationOffset": [
+      80,
+      212
+    ],
+    "registeredCanvas": [
+      672,
+      672
+    ],
+    "registrationReference": {
+      "type": "black_pupil_component_centroid",
+      "sourcePointFloat": [
+        362.5342465753424,
+        102.5376712328767
+      ],
+      "sourcePointRounded": [
+        363,
+        103
+      ],
+      "targetPoint": [
+        443,
+        315
+      ],
+      "method": "RGBmax<55 and A>220 pupil component; restricted to manually placed radius22px ROI and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+      "roiActuallyInspected": true
+    },
+    "resized": false,
+    "upscaled": false,
+    "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+    "sourcePixelsRoundTripVerified": true,
+    "nominalGridRect": [
+      1330,
+      0,
+      1774,
+      444
+    ],
+    "nominalGridBorderAlpha": 142,
+    "ownershipType": "complete_nonoverlapping_pose_rectangle",
+    "foreignFishAlphaPixels": 0,
+    "allAssignedPixelsInsideRect": true
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "rootPixels": [
+    336,
+    336
+  ],
+  "eyePixels": [
+    443,
+    315
+  ],
+  "displaySize": [
+    201.70064761060485,
+    201.70064761060485
+  ],
+  "bodyDisplayBox": [
+    120,
+    80
+  ],
+  "uniformDisplayScale": 0.30014977323006675,
+  "scaleReference": "assets/animations/02-jinwei/swim/manifest.json",
+  "registeredAlphaBBox": [
+    88,
+    220,
+    491,
+    513
+  ],
+  "registeredMinMargin": 0.13095238095238096,
+  "status": "producer_candidate_pending_root_visual",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+  "clipDensityAdjustment": {
+    "method": "one clip-level density estimate from matching entry/rest pose native visible width and height; never per-frame bbox fitting",
+    "referenceNativeRestBox": [
+      375,
+      249
+    ],
+    "clipNativeRestBox": [
+      399,
+      266
+    ],
+    "axisRatios": [
+      1.064,
+      1.0682730923694779
+    ],
+    "uniformDensityRatio": 1.066134405354749,
+    "referenceScale": 0.32,
+    "clipScale": 0.30014977323006675,
+    "referenceEyeOffset": [
+      100,
+      -20
+    ],
+    "clipNativeEyeOffset": [
+      107,
+      -21
+    ],
+    "reasonEyeOffsetAdjusted": "same displayed eye-to-body-root offset after clip density adjustment; nearest integer native registration",
+    "visualIdentityReview": "pending_root"
+  },
+  "producerLightDarkStillReview": "viewed_candidate_pass"
+}

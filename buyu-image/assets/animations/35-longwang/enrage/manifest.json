@@ -1,0 +1,1500 @@
+{
+  "schemaVersion": 1,
+  "source": [
+    "designs/motion-frames-v1/35-longwang/enrage/enrage-a-contained-v2.png",
+    "designs/motion-frames-v1/35-longwang/enrage/enrage-b-v1.png"
+  ],
+  "output": "assets/animations/35-longwang/enrage",
+  "sourceEvidence": [
+    {
+      "file": "designs/motion-frames-v1/35-longwang/enrage/enrage-a-contained-v2.png",
+      "sha256": "7257dbfe250f2ceb31a8e9a6861c45b9786ef83058c289e94067cef29b09d284",
+      "generationRecord": "designs/motion-frames-v1/35-longwang/enrage/enrage-a-contained-v2.png.generation.json"
+    },
+    {
+      "file": "designs/motion-frames-v1/35-longwang/enrage/enrage-b-v1.png",
+      "sha256": "abecd473e9155fe4ec414baff1294fddf53ca0e080ace32f4e36ee7b182d87a6",
+      "generationRecord": "designs/motion-frames-v1/35-longwang/enrage/enrage-b-v1.png.generation.json"
+    }
+  ],
+  "frameCount": 8,
+  "items": [
+    {
+      "schemaVersion": 1,
+      "id": "frame-00",
+      "name": "龙王海龙怒态 1/8",
+      "file": "assets/animations/35-longwang/enrage/frame-00.png",
+      "sha256": "ddea16d3213f45ac18061efdd327bf18ae07919bf4359a6e677d79b89924fc2d",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T17:55:06.185747+00:00",
+      "nativeSource": "designs/motion-frames-v1/35-longwang/enrage/enrage-a-contained-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/35-longwang/enrage/enrage-a-contained-v2.png",
+          "sha256": "7257dbfe250f2ceb31a8e9a6861c45b9786ef83058c289e94067cef29b09d284",
+          "generationRecord": "designs/motion-frames-v1/35-longwang/enrage/enrage-a-contained-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/35-longwang/enrage/extract-a.json",
+          "sourceRect": [
+            105,
+            239,
+            603,
+            625
+          ],
+          "evidence": {
+            "sourceFrame": 0,
+            "file": "designs/motion-frames-v1/35-longwang/enrage/extract-a-pose-00.png",
+            "sourceRect": [
+              105,
+              239,
+              603,
+              625
+            ],
+            "nominalSourceRect": [
+              0,
+              0,
+              627,
+              627
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              498,
+              386
+            ],
+            "ownedPixelCount": 124873,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 6
+          }
+        },
+        "sourceEyePoint": [
+          409.6181818181818,
+          152.05454545454546
+        ],
+        "globalSourceEye": [
+          514.6181818181818,
+          391.05454545454546
+        ],
+        "registrationOffset": [
+          270,
+          268
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        270,
+        268,
+        768,
+        654
+      ],
+      "registeredMinMargin": 0.232,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "manually checked dark pupil ROI component center, nearest integer",
+        "qa": "designs/motion-frames-v1/35-longwang/enrage/source-a-qa.json",
+        "sourceFrame": 0,
+        "candidateIndex": 0,
+        "detection": null,
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+      },
+      "displaySize": [
+        673.5751295336787,
+        673.5751295336787
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.6735751295336787,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          498,
+          386
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "35-longwang/enrage",
+        "frames": 8,
+        "fps": 8,
+        "loop": true,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 0,
+        "durationMs": 125
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-01",
+      "name": "龙王海龙怒态 2/8",
+      "file": "assets/animations/35-longwang/enrage/frame-01.png",
+      "sha256": "cca12caceb7375246f5b2071f34b4db1d6c70a7d2a6f6f72ce0b848032ee942f",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T17:55:06.185747+00:00",
+      "nativeSource": "designs/motion-frames-v1/35-longwang/enrage/enrage-a-contained-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/35-longwang/enrage/enrage-a-contained-v2.png",
+          "sha256": "7257dbfe250f2ceb31a8e9a6861c45b9786ef83058c289e94067cef29b09d284",
+          "generationRecord": "designs/motion-frames-v1/35-longwang/enrage/enrage-a-contained-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/35-longwang/enrage/extract-a.json",
+          "sourceRect": [
+            703,
+            195,
+            1205,
+            641
+          ],
+          "evidence": {
+            "sourceFrame": 1,
+            "file": "designs/motion-frames-v1/35-longwang/enrage/extract-a-pose-01.png",
+            "sourceRect": [
+              703,
+              195,
+              1205,
+              641
+            ],
+            "nominalSourceRect": [
+              627,
+              0,
+              1254,
+              627
+            ],
+            "nominalGridCross": true,
+            "nativeVisibleSize": [
+              502,
+              446
+            ],
+            "ownedPixelCount": 145700,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 1
+          }
+        },
+        "sourceEyePoint": [
+          413.5769230769231,
+          205.9230769230769
+        ],
+        "globalSourceEye": [
+          1116.576923076923,
+          400.9230769230769
+        ],
+        "registrationOffset": [
+          266,
+          214
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        266,
+        214,
+        768,
+        660
+      ],
+      "registeredMinMargin": 0.214,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "manually checked dark pupil ROI component center, nearest integer",
+        "qa": "designs/motion-frames-v1/35-longwang/enrage/source-a-qa.json",
+        "sourceFrame": 1,
+        "candidateIndex": 0,
+        "detection": null,
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+      },
+      "displaySize": [
+        673.5751295336787,
+        673.5751295336787
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.6735751295336787,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          498,
+          386
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "35-longwang/enrage",
+        "frames": 8,
+        "fps": 8,
+        "loop": true,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 1,
+        "durationMs": 125
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-02",
+      "name": "龙王海龙怒态 3/8",
+      "file": "assets/animations/35-longwang/enrage/frame-02.png",
+      "sha256": "c46aa706c7ae5f21d8d725762146ca82675913bf30ac0395d298693f19cd3516",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T17:55:06.185747+00:00",
+      "nativeSource": "designs/motion-frames-v1/35-longwang/enrage/enrage-a-contained-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/35-longwang/enrage/enrage-a-contained-v2.png",
+          "sha256": "7257dbfe250f2ceb31a8e9a6861c45b9786ef83058c289e94067cef29b09d284",
+          "generationRecord": "designs/motion-frames-v1/35-longwang/enrage/enrage-a-contained-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/35-longwang/enrage/extract-a.json",
+          "sourceRect": [
+            32,
+            737,
+            630,
+            1106
+          ],
+          "evidence": {
+            "sourceFrame": 2,
+            "file": "designs/motion-frames-v1/35-longwang/enrage/extract-a-pose-02.png",
+            "sourceRect": [
+              32,
+              737,
+              630,
+              1106
+            ],
+            "nominalSourceRect": [
+              0,
+              627,
+              627,
+              1254
+            ],
+            "nominalGridCross": true,
+            "nativeVisibleSize": [
+              598,
+              369
+            ],
+            "ownedPixelCount": 129574,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 87
+          }
+        },
+        "sourceEyePoint": [
+          510.36428571428576,
+          154.57857142857142
+        ],
+        "globalSourceEye": [
+          542.3642857142858,
+          891.5785714285714
+        ],
+        "registrationOffset": [
+          170,
+          265
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        170,
+        265,
+        768,
+        634
+      ],
+      "registeredMinMargin": 0.17,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "manually checked dark pupil ROI component center, nearest integer",
+        "qa": "designs/motion-frames-v1/35-longwang/enrage/source-a-qa.json",
+        "sourceFrame": 2,
+        "candidateIndex": 0,
+        "detection": null,
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+      },
+      "displaySize": [
+        673.5751295336787,
+        673.5751295336787
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.6735751295336787,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          498,
+          386
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "35-longwang/enrage",
+        "frames": 8,
+        "fps": 8,
+        "loop": true,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 2,
+        "durationMs": 125
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-03",
+      "name": "龙王海龙怒态 4/8",
+      "file": "assets/animations/35-longwang/enrage/frame-03.png",
+      "sha256": "4b89bf7e6c9ed7bc71bd5bac8c2cec3e03058c444d7f9b434cfa75ed02e3ada9",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T17:55:06.185747+00:00",
+      "nativeSource": "designs/motion-frames-v1/35-longwang/enrage/enrage-a-contained-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/35-longwang/enrage/enrage-a-contained-v2.png",
+          "sha256": "7257dbfe250f2ceb31a8e9a6861c45b9786ef83058c289e94067cef29b09d284",
+          "generationRecord": "designs/motion-frames-v1/35-longwang/enrage/enrage-a-contained-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/35-longwang/enrage/extract-a.json",
+          "sourceRect": [
+            738,
+            738,
+            1220,
+            1123
+          ],
+          "evidence": {
+            "sourceFrame": 3,
+            "file": "designs/motion-frames-v1/35-longwang/enrage/extract-a-pose-03.png",
+            "sourceRect": [
+              738,
+              738,
+              1220,
+              1123
+            ],
+            "nominalSourceRect": [
+              627,
+              627,
+              1254,
+              1254
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              482,
+              385
+            ],
+            "ownedPixelCount": 122437,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 88
+          }
+        },
+        "sourceEyePoint": [
+          391.91379310344837,
+          159.8275862068965
+        ],
+        "globalSourceEye": [
+          1129.9137931034484,
+          897.8275862068965
+        ],
+        "registrationOffset": [
+          288,
+          260
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        288,
+        260,
+        770,
+        645
+      ],
+      "registeredMinMargin": 0.23,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "manually checked dark pupil ROI component center, nearest integer",
+        "qa": "designs/motion-frames-v1/35-longwang/enrage/source-a-qa.json",
+        "sourceFrame": 3,
+        "candidateIndex": 0,
+        "detection": null,
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+      },
+      "displaySize": [
+        673.5751295336787,
+        673.5751295336787
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.6735751295336787,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          498,
+          386
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "35-longwang/enrage",
+        "frames": 8,
+        "fps": 8,
+        "loop": true,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 3,
+        "durationMs": 125
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-04",
+      "name": "龙王海龙怒态 5/8",
+      "file": "assets/animations/35-longwang/enrage/frame-04.png",
+      "sha256": "cd320391ea5e4fce5f0749c8a6418ef42a29365d9719d5df998564c6e9b0c2e5",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T17:55:06.185747+00:00",
+      "nativeSource": "designs/motion-frames-v1/35-longwang/enrage/enrage-b-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/35-longwang/enrage/enrage-b-v1.png",
+          "sha256": "abecd473e9155fe4ec414baff1294fddf53ca0e080ace32f4e36ee7b182d87a6",
+          "generationRecord": "designs/motion-frames-v1/35-longwang/enrage/enrage-b-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/35-longwang/enrage/extract-b.json",
+          "sourceRect": [
+            39,
+            237,
+            612,
+            614
+          ],
+          "evidence": {
+            "sourceFrame": 0,
+            "file": "designs/motion-frames-v1/35-longwang/enrage/extract-b-pose-00.png",
+            "sourceRect": [
+              39,
+              237,
+              612,
+              614
+            ],
+            "nominalSourceRect": [
+              0,
+              0,
+              627,
+              627
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              573,
+              377
+            ],
+            "ownedPixelCount": 122782,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 1
+          }
+        },
+        "sourceEyePoint": [
+          487.69230769230774,
+          155.47692307692307
+        ],
+        "globalSourceEye": [
+          526.6923076923077,
+          392.4769230769231
+        ],
+        "registrationOffset": [
+          192,
+          265
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        192,
+        265,
+        765,
+        642
+      ],
+      "registeredMinMargin": 0.192,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "manually checked dark pupil ROI component center, nearest integer",
+        "qa": "designs/motion-frames-v1/35-longwang/enrage/source-b-qa.json",
+        "sourceFrame": 0,
+        "candidateIndex": 0,
+        "detection": null,
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+      },
+      "displaySize": [
+        673.5751295336787,
+        673.5751295336787
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.6735751295336787,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          498,
+          386
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "35-longwang/enrage",
+        "frames": 8,
+        "fps": 8,
+        "loop": true,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 4,
+        "durationMs": 125
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-05",
+      "name": "龙王海龙怒态 6/8",
+      "file": "assets/animations/35-longwang/enrage/frame-05.png",
+      "sha256": "20eaf140ad0aa96c1e11bd116bc2d332032a8b0423e4b1dbb0c82abfcbfe7f26",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T17:55:06.185747+00:00",
+      "nativeSource": "designs/motion-frames-v1/35-longwang/enrage/enrage-b-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/35-longwang/enrage/enrage-b-v1.png",
+          "sha256": "abecd473e9155fe4ec414baff1294fddf53ca0e080ace32f4e36ee7b182d87a6",
+          "generationRecord": "designs/motion-frames-v1/35-longwang/enrage/enrage-b-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/35-longwang/enrage/extract-b.json",
+          "sourceRect": [
+            622,
+            237,
+            1238,
+            611
+          ],
+          "evidence": {
+            "sourceFrame": 1,
+            "file": "designs/motion-frames-v1/35-longwang/enrage/extract-b-pose-01.png",
+            "sourceRect": [
+              622,
+              237,
+              1238,
+              611
+            ],
+            "nominalSourceRect": [
+              627,
+              0,
+              1254,
+              627
+            ],
+            "nominalGridCross": true,
+            "nativeVisibleSize": [
+              616,
+              374
+            ],
+            "ownedPixelCount": 129890,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 2
+          }
+        },
+        "sourceEyePoint": [
+          531.1315789473683,
+          153.94736842105266
+        ],
+        "globalSourceEye": [
+          1153.1315789473683,
+          390.94736842105266
+        ],
+        "registrationOffset": [
+          149,
+          266
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        149,
+        266,
+        765,
+        640
+      ],
+      "registeredMinMargin": 0.149,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "manually checked dark pupil ROI component center, nearest integer",
+        "qa": "designs/motion-frames-v1/35-longwang/enrage/source-b-qa.json",
+        "sourceFrame": 1,
+        "candidateIndex": 2,
+        "detection": null,
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+      },
+      "displaySize": [
+        673.5751295336787,
+        673.5751295336787
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.6735751295336787,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          498,
+          386
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "35-longwang/enrage",
+        "frames": 8,
+        "fps": 8,
+        "loop": true,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 5,
+        "durationMs": 125
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-06",
+      "name": "龙王海龙怒态 7/8",
+      "file": "assets/animations/35-longwang/enrage/frame-06.png",
+      "sha256": "034abe363547811e4e1706ea0314a47aaf3bce0d4f602d7e03a6f4ebef20b550",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T17:55:06.185747+00:00",
+      "nativeSource": "designs/motion-frames-v1/35-longwang/enrage/enrage-b-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/35-longwang/enrage/enrage-b-v1.png",
+          "sha256": "abecd473e9155fe4ec414baff1294fddf53ca0e080ace32f4e36ee7b182d87a6",
+          "generationRecord": "designs/motion-frames-v1/35-longwang/enrage/enrage-b-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/35-longwang/enrage/extract-b.json",
+          "sourceRect": [
+            74,
+            715,
+            623,
+            1109
+          ],
+          "evidence": {
+            "sourceFrame": 2,
+            "file": "designs/motion-frames-v1/35-longwang/enrage/extract-b-pose-02.png",
+            "sourceRect": [
+              74,
+              715,
+              623,
+              1109
+            ],
+            "nominalSourceRect": [
+              0,
+              627,
+              627,
+              1254
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              549,
+              394
+            ],
+            "ownedPixelCount": 144588,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 84
+          }
+        },
+        "sourceEyePoint": [
+          461.0121951219512,
+          179.14634146341461
+        ],
+        "globalSourceEye": [
+          535.0121951219512,
+          894.1463414634146
+        ],
+        "registrationOffset": [
+          219,
+          241
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        219,
+        241,
+        768,
+        635
+      ],
+      "registeredMinMargin": 0.219,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "manually checked dark pupil ROI component center, nearest integer",
+        "qa": "designs/motion-frames-v1/35-longwang/enrage/source-b-qa.json",
+        "sourceFrame": 2,
+        "candidateIndex": 0,
+        "detection": null,
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+      },
+      "displaySize": [
+        673.5751295336787,
+        673.5751295336787
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.6735751295336787,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          498,
+          386
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "35-longwang/enrage",
+        "frames": 8,
+        "fps": 8,
+        "loop": true,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 6,
+        "durationMs": 125
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-07",
+      "name": "龙王海龙怒态 8/8",
+      "file": "assets/animations/35-longwang/enrage/frame-07.png",
+      "sha256": "bcd2ce522b03e04a7cec4c24c61c6b2b59e0352c310098579f6f50f4c9c21cf2",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T17:55:06.185747+00:00",
+      "nativeSource": "designs/motion-frames-v1/35-longwang/enrage/enrage-b-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/35-longwang/enrage/enrage-b-v1.png",
+          "sha256": "abecd473e9155fe4ec414baff1294fddf53ca0e080ace32f4e36ee7b182d87a6",
+          "generationRecord": "designs/motion-frames-v1/35-longwang/enrage/enrage-b-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/35-longwang/enrage/extract-b.json",
+          "sourceRect": [
+            678,
+            739,
+            1245,
+            1115
+          ],
+          "evidence": {
+            "sourceFrame": 3,
+            "file": "designs/motion-frames-v1/35-longwang/enrage/extract-b-pose-03.png",
+            "sourceRect": [
+              678,
+              739,
+              1245,
+              1115
+            ],
+            "nominalSourceRect": [
+              627,
+              627,
+              1254,
+              1254
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              567,
+              376
+            ],
+            "ownedPixelCount": 121285,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 90
+          }
+        },
+        "sourceEyePoint": [
+          481.2586206896551,
+          156.62068965517244
+        ],
+        "globalSourceEye": [
+          1159.2586206896551,
+          895.6206896551724
+        ],
+        "registrationOffset": [
+          199,
+          263
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        199,
+        263,
+        766,
+        639
+      ],
+      "registeredMinMargin": 0.199,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "manually checked dark pupil ROI component center, nearest integer",
+        "qa": "designs/motion-frames-v1/35-longwang/enrage/source-b-qa.json",
+        "sourceFrame": 3,
+        "candidateIndex": 1,
+        "detection": null,
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+      },
+      "displaySize": [
+        673.5751295336787,
+        673.5751295336787
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.6735751295336787,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          498,
+          386
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "35-longwang/enrage",
+        "frames": 8,
+        "fps": 8,
+        "loop": true,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125,
+          125
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 7,
+        "durationMs": 125
+      }
+    }
+  ],
+  "animation": {
+    "id": "35-longwang/enrage",
+    "frames": 8,
+    "fps": 8,
+    "loop": true,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "durationsMs": [
+      125,
+      125,
+      125,
+      125,
+      125,
+      125,
+      125,
+      125
+    ],
+    "root": [
+      0.68,
+      0.42
+    ],
+    "sourceRoute": "builtin_native_AI_sheet_user_requested",
+    "sourcePixelsNeverResampled": true,
+    "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+    "releaseReady": true
+  },
+  "sharedCanvas": [
+    1000,
+    1000
+  ],
+  "rootPixels": [
+    680,
+    420
+  ],
+  "eyePixels": [
+    680,
+    420
+  ],
+  "anchor": [
+    0.68,
+    0.42
+  ],
+  "uniformDisplayScale": 0.6735751295336787,
+  "bodyDisplayBox": [
+    340,
+    260
+  ],
+  "displaySize": [
+    673.5751295336787,
+    673.5751295336787
+  ],
+  "warnings": [
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 0,
+      "sourceMinMargin": 0.003189792663476874,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 1,
+      "sourceMinMargin": 0.0,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 2,
+      "sourceMinMargin": 0.0,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 3,
+      "sourceMinMargin": 0.0,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 4,
+      "sourceMinMargin": 0.0,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 5,
+      "sourceMinMargin": 0.0,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 6,
+      "sourceMinMargin": 0.006379585326953748,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 7,
+      "sourceMinMargin": 0.014354066985645933,
+      "retained": true
+    },
+    {
+      "id": "native_head_shape_and_inter_sheet_density",
+      "severity": "pending_playback_review",
+      "note": "Integer translation cannot correct generated head contour or native scale drift; do not treat pixel bounds as motion approval."
+    }
+  ],
+  "contactSheets": [
+    "tmp/art-qa/35-longwang-enrage-registered-light.jpg",
+    "tmp/art-qa/35-longwang-enrage-registered-dark.jpg"
+  ],
+  "qa": {
+    "nativeOwnedPixelsPreserved": true,
+    "registeredMarginStatus": "pass_12pct",
+    "sourceMarginStatus": "warnings_preserved",
+    "sourceCanvasClipping": "none_for_adopted_extractions",
+    "semanticOwnershipStatus": "pending_root_contact_sheet_review",
+    "poseAndIdentityStatus": "native_source_stills_observed_pending_registered_review",
+    "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+    "unityPlaybackStatus": "not_run"
+  },
+  "status": "accepted_first_release_art",
+  "releaseReady": true,
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+  "acceptedAt": "2026-10-30T04:07:09.085600+00:00",
+  "playbackReview": "docs/UNITY_FINAL_ACCEPTANCE.json"
+}

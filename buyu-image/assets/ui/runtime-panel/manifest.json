@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "source": "designs/production-v1/kit-panel-runtime/kit-panel-runtime-v2.png",
+  "sourceWidth": 1536,
+  "sourceHeight": 1024,
+  "output": "assets/ui/runtime-panel",
+  "items": [
+    {
+      "schemaVersion": 1,
+      "id": "panel-runtime",
+      "name": "运行主窗框",
+      "file": "assets/ui/runtime-panel/panel-runtime.png",
+      "sha256": "35e8b2895262a41586bab388068d74b6dfad44481795dc7e346b63dd6da4cfc2",
+      "width": 1123,
+      "height": 643,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/production-v1/kit-panel-runtime/kit-panel-runtime-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/production-v1/kit-panel-runtime/kit-panel-runtime-v2.png",
+          "sha256": "d6844fb97a42f8bc88a04800851b269a41be6bfbef06eaf9d3267c7e7cfa6f9a",
+          "generationRecord": "designs/production-v1/kit-panel-runtime/kit-panel-runtime-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop",
+        "grid": {
+          "rows": 1,
+          "cols": 1
+        },
+        "sourceRect": [
+          0,
+          0,
+          1536,
+          1024
+        ],
+        "cellCropRect": [
+          207,
+          182,
+          1330,
+          825
+        ],
+        "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+        "resized": false,
+        "upscaled": false
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "displaySize": [
+        1120,
+        720
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source generation record; no new model call for this slice.",
+      "nineSlice": [
+        112,
+        104,
+        112,
+        104
+      ],
+      "visualReview": {
+        "reviewedAt": "2026-10-26T21:26:56.999258+00:00",
+        "result": "pass_for_static_visual_asset",
+        "notes": "已实际查看源图及导出PNG：只有完整单框，四角小云纹，四边中段规则直边，无顶部中央徽章/标题/太极/人物/流苏。中间米白纸绢填充、纸纹极淡，无图样。外围真实透明，原生切出不放大。安全cap覆盖全部角装饰，标题牌需独立等比叠层。",
+        "runtimeIntegrationVerified": false
+      },
+      "nineSliceOrder": "left,top,right,bottom",
+      "nineSliceUsage": {
+        "units": "native PNG pixels",
+        "left": 112,
+        "top": 104,
+        "right": 112,
+        "bottom": 104,
+        "minimumSize": [
+          240,
+          224
+        ],
+        "titlePlaque": "assets/ui/panels/title-plaque.png",
+        "titlePlaqueScaling": "uniform overlay; do not stretch with the panel",
+        "reason": "Corner cloud ornaments lie wholly within fixed caps; remaining edge strips are regular straight jade/gold borders and center is nearly uniform ivory."
+      }
+    }
+  ],
+  "warnings": [],
+  "complete": true,
+  "visualReview": {
+    "reviewedAt": "2026-10-26T21:26:56.999258+00:00",
+    "result": "pass_for_static_visual_asset",
+    "notes": "已实际查看源图及导出PNG：只有完整单框，四角小云纹，四边中段规则直边，无顶部中央徽章/标题/太极/人物/流苏。中间米白纸绢填充、纸纹极淡，无图样。外围真实透明，原生切出不放大。安全cap覆盖全部角装饰，标题牌需独立等比叠层。",
+    "runtimeIntegrationVerified": false
+  },
+  "status": "accepted_first_release_art",
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+  "acceptedAt": "2026-10-30T04:07:09.085600+00:00"
+}

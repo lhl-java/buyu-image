@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "frames": {
+    "ornaments/medal-gold": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 272,
+        "h": 301
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 272,
+        "h": 301
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ornaments/medal-gold.png",
+      "sourceSha256": "951b772cd73a828d3d740684d7a30383219fbbf087d6da77cd1c6bceaa864483"
+    },
+    "ornaments/medal-bronze": {
+      "frame": {
+        "x": 278,
+        "y": 2,
+        "w": 270,
+        "h": 299
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 270,
+        "h": 299
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ornaments/medal-bronze.png",
+      "sourceSha256": "b64ba9d4362223111e5e4c8ad327c353697323fad564b92bc90f7545efe86e63"
+    },
+    "ornaments/medal-silver": {
+      "frame": {
+        "x": 552,
+        "y": 2,
+        "w": 269,
+        "h": 297
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 269,
+        "h": 297
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ornaments/medal-silver.png",
+      "sourceSha256": "39bfebabf80fd30a65f1f5c938a6cdbcc39ae3a0afcce1fa619bc409c944ebb0"
+    },
+    "ornaments/aim-jade": {
+      "frame": {
+        "x": 825,
+        "y": 2,
+        "w": 275,
+        "h": 289
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 275,
+        "h": 289
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ornaments/aim-jade.png",
+      "sourceSha256": "5cc39a3ab24e7709f1d68e2de69331186ea28b89119824d7dba8060c487fffa2"
+    },
+    "ornaments/aim-gold": {
+      "frame": {
+        "x": 1104,
+        "y": 2,
+        "w": 285,
+        "h": 275
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 285,
+        "h": 275
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ornaments/aim-gold.png",
+      "sourceSha256": "db08214b0aa19fb877319c38ebb9d1f966eb8464579f7b680b53cd794654ca3c"
+    },
+    "ornaments/brand-emblem": {
+      "frame": {
+        "x": 1393,
+        "y": 2,
+        "w": 264,
+        "h": 263
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 264,
+        "h": 263
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ornaments/brand-emblem.png",
+      "sourceSha256": "d48fcc754d406587a86f9fe4d7f78860a52261987895b67a7a3034c49a8f6336"
+    },
+    "ornaments/skill-speed": {
+      "frame": {
+        "x": 1661,
+        "y": 2,
+        "w": 257,
+        "h": 259
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 257,
+        "h": 259
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ornaments/skill-speed.png",
+      "sourceSha256": "f049f14f3a07959a9800f61369f0dd18da866b118cd319823766348a16dd51d4"
+    },
+    "ornaments/stage-marker": {
+      "frame": {
+        "x": 2,
+        "y": 307,
+        "w": 208,
+        "h": 247
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 208,
+        "h": 247
+      },
+      "pivot": [
+        0.5,
+        0.96
+      ],
+      "source": "assets/ornaments/stage-marker.png",
+      "sourceSha256": "5f1ece07aa0b2679d119a29e19c474538f4dced5272dc81e5ce198b9f583f2e3"
+    },
+    "ornaments/rarity-star": {
+      "frame": {
+        "x": 214,
+        "y": 307,
+        "w": 249,
+        "h": 233
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 249,
+        "h": 233
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "source": "assets/ornaments/rarity-star.png",
+      "sourceSha256": "5eeeeec1ed80973c88345ea494f7c91e8ab1d01065ab92f0473fd243fe39c320"
+    }
+  },
+  "meta": {
+    "image": "ornaments-00.png",
+    "size": {
+      "w": 1920,
+      "h": 556
+    },
+    "format": "RGBA8888",
+    "scale": 1,
+    "padding": 2,
+    "noRotation": true,
+    "generatedAt": "2026-10-30T03:30:12.489824+00:00",
+    "operation": "native pixel packing; no resampling or redraw"
+  }
+}

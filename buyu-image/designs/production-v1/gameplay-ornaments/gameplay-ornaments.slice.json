@@ -1,0 +1,171 @@
+{
+  "items": [
+    {
+      "displaySize": [
+        112,
+        112
+      ],
+      "id": "aim-jade",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "name": "玉环准星",
+      "sourceRect": [
+        52,
+        67,
+        417,
+        450
+      ]
+    },
+    {
+      "displaySize": [
+        112,
+        112
+      ],
+      "id": "aim-gold",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "name": "金环锁定",
+      "sourceRect": [
+        439,
+        78,
+        816,
+        443
+      ]
+    },
+    {
+      "displaySize": [
+        96,
+        96
+      ],
+      "id": "skill-speed",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "name": "迅捷",
+      "sourceRect": [
+        847,
+        90,
+        1186,
+        433
+      ]
+    },
+    {
+      "displaySize": [
+        60,
+        60
+      ],
+      "id": "medal-gold",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "name": "金牌",
+      "sourceRect": [
+        54,
+        439,
+        414,
+        838
+      ]
+    },
+    {
+      "displaySize": [
+        60,
+        60
+      ],
+      "id": "medal-silver",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "name": "银牌",
+      "sourceRect": [
+        452,
+        444,
+        807,
+        839
+      ]
+    },
+    {
+      "displaySize": [
+        60,
+        60
+      ],
+      "id": "medal-bronze",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "name": "铜牌",
+      "sourceRect": [
+        850,
+        442,
+        1208,
+        839
+      ]
+    },
+    {
+      "displaySize": [
+        32,
+        32
+      ],
+      "id": "rarity-star",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "name": "品质星",
+      "sourceRect": [
+        70,
+        862,
+        399,
+        1169
+      ]
+    },
+    {
+      "displaySize": [
+        256,
+        256
+      ],
+      "id": "brand-emblem",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "name": "锦鲤太极徽记",
+      "sourceRect": [
+        451,
+        839,
+        801,
+        1186
+      ]
+    },
+    {
+      "displaySize": [
+        72,
+        96
+      ],
+      "id": "stage-marker",
+      "anchor": [
+        0.5,
+        0.96
+      ],
+      "name": "关卡标记",
+      "sourceRect": [
+        887,
+        844,
+        1159,
+        1171
+      ]
+    }
+  ],
+  "source": "designs/production-v1/gameplay-ornaments/gameplay-ornaments-v2.png",
+  "rows": 3,
+  "output": "assets/ornaments",
+  "keepCell": false,
+  "cols": 3
+}

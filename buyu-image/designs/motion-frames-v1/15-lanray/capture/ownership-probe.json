@@ -1,0 +1,127 @@
+{
+  "source": "designs/motion-frames-v1/15-lanray/capture/15-lanray-capture.png",
+  "threshold": 16,
+  "largest8Components": [
+    {
+      "label": 3,
+      "area": 50572,
+      "bbox": [
+        40,
+        105,
+        428,
+        413
+      ],
+      "center": [
+        247.20034801866646,
+        275.0557027604208
+      ],
+      "touchesTotalCanvas": false
+    },
+    {
+      "label": 2,
+      "area": 56148,
+      "bbox": [
+        492,
+        97,
+        876,
+        417
+      ],
+      "center": [
+        698.4903469402294,
+        265.11827669729996
+      ],
+      "touchesTotalCanvas": false
+    },
+    {
+      "label": 4,
+      "area": 48460,
+      "bbox": [
+        917,
+        135,
+        1315,
+        412
+      ],
+      "center": [
+        1133.0512381345438,
+        284.3852455633512
+      ],
+      "touchesTotalCanvas": false
+    },
+    {
+      "label": 1,
+      "area": 51548,
+      "bbox": [
+        1393,
+        93,
+        1754,
+        455
+      ],
+      "center": [
+        1593.0521261736633,
+        277.4334212772561
+      ],
+      "touchesTotalCanvas": false
+    },
+    {
+      "label": 5,
+      "area": 46928,
+      "bbox": [
+        49,
+        508,
+        443,
+        817
+      ],
+      "center": [
+        260.0338390726219,
+        673.8596147289464
+      ],
+      "touchesTotalCanvas": false
+    },
+    {
+      "label": 8,
+      "area": 42136,
+      "bbox": [
+        484,
+        570,
+        888,
+        804
+      ],
+      "center": [
+        707.1613584583254,
+        682.2324615530663
+      ],
+      "touchesTotalCanvas": false
+    },
+    {
+      "label": 6,
+      "area": 48753,
+      "bbox": [
+        923,
+        540,
+        1324,
+        805
+      ],
+      "center": [
+        1139.7783726129674,
+        675.5646831989826
+      ],
+      "touchesTotalCanvas": false
+    },
+    {
+      "label": 7,
+      "area": 36811,
+      "bbox": [
+        1371,
+        553,
+        1745,
+        807
+      ],
+      "center": [
+        1591.0425144657847,
+        695.7721876612969
+      ],
+      "touchesTotalCanvas": false
+    }
+  ],
+  "meaning": "Connectivity evidence only: no automatic motion pass, component deletion, or clipping repair."
+}

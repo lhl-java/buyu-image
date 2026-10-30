@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-07",
+  "file": "assets/animations/07-zihai/swim/frame-07.png",
+  "sha256": "3c371279d158fa42f98ef1924c7d0962bc039fc74d72868edac459ce79dd7d4e",
+  "width": 704,
+  "height": 704,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/motion-frames-v1/07-zihai/swim/07-zihai-swim-v1.png",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/07-zihai/swim/07-zihai-swim-v1.png",
+      "sha256": "bd794b58bc937a76d228be7d5f741e6c8fe9e3fae90c3cf6ab412f42d879dc2b",
+      "generationRecord": "designs/motion-frames-v1/07-zihai/swim/07-zihai-swim-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_grid_crop_integer_pupil_registration",
+    "sourceRect": [
+      1351,
+      491,
+      1754,
+      797
+    ],
+    "cellCropRect": [
+      0,
+      0,
+      403,
+      306
+    ],
+    "registrationOffset": [
+      104,
+      183
+    ],
+    "registeredCanvas": [
+      704,
+      704
+    ],
+    "registrationReference": {
+      "type": "black_pupil_component_centroid",
+      "sourcePointFloat": [
+        337.5423197492164,
+        154.23197492163013
+      ],
+      "sourcePointRounded": [
+        338,
+        154
+      ],
+      "targetPoint": [
+        442,
+        337
+      ],
+      "method": "RGBmax<55 and A>220 pupil component; restricted to manually placed radius22px ROI and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+      "roiActuallyInspected": true
+    },
+    "resized": false,
+    "upscaled": false,
+    "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+    "sourcePixelsRoundTripVerified": true,
+    "nominalGridRect": [
+      1330,
+      444,
+      1774,
+      887
+    ],
+    "nominalGridBorderAlpha": 1,
+    "ownershipType": "complete_nonoverlapping_pose_rectangle",
+    "foreignFishAlphaPixels": 0,
+    "allAssignedPixelsInsideRect": true
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "rootPixels": [
+    352,
+    352
+  ],
+  "eyePixels": [
+    442,
+    337
+  ],
+  "displaySize": [
+    190.2702702702703,
+    190.2702702702703
+  ],
+  "bodyDisplayBox": [
+    120,
+    80
+  ],
+  "uniformDisplayScale": 0.2702702702702703,
+  "scaleReference": "rest frame00 native visible box",
+  "registeredAlphaBBox": [
+    112,
+    191,
+    499,
+    481
+  ],
+  "registeredMinMargin": 0.1590909090909091,
+  "status": "producer_candidate_pending_root_visual",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+  "clipDensityAdjustment": null,
+  "producerLightDarkStillReview": "viewed_candidate_pass"
+}

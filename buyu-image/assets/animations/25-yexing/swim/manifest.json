@@ -1,0 +1,1390 @@
+{
+  "schemaVersion": 1,
+  "source": "designs/motion-frames-v1/25-yexing/swim/25-yexing-swim-contained.png",
+  "sourceWidth": 1774,
+  "sourceHeight": 887,
+  "output": "assets/animations/25-yexing/swim",
+  "status": "accepted_first_release_art",
+  "items": [
+    {
+      "schemaVersion": 1,
+      "id": "frame-00",
+      "name": "夜星鱼 swim 0",
+      "file": "assets/animations/25-yexing/swim/frame-00.png",
+      "sha256": "8a3967efe73f8a328ca149ceb034ce42a9534666f5056b8f887743882ede0039",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/25-yexing/swim/25-yexing-swim-contained.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/25-yexing/swim/25-yexing-swim-contained.png",
+          "sha256": "466be1c1c4c7b6af4df03514143b801c0c333e2eb80862a8d731cf2dddd3c896",
+          "generationRecord": "designs/motion-frames-v1/25-yexing/swim/25-yexing-swim-contained.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          0,
+          0,
+          444,
+          444
+        ],
+        "registrationOffset": [
+          77,
+          77,
+          521,
+          521
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_connected_component_centroid",
+          "sourcePointFloat": [
+            362.7356076759062,
+            243.20042643923242
+          ],
+          "sourcePointRounded": [
+            363,
+            243
+          ],
+          "targetPoint": [
+            440,
+            320
+          ],
+          "pupilBounds": [
+            342,
+            230,
+            377,
+            258
+          ],
+          "detectionRoi": [
+            300,
+            150,
+            435,
+            290
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+        },
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceCellClipping": false
+      },
+      "anchor": [
+        0.6875,
+        0.5
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "25-yexing/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "root": [
+          0.6875,
+          0.5
+        ],
+        "phase": 0.0,
+        "durationMs": 83,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+          "nativeMedianPupilWidth": 36.0,
+          "targetDisplayedPupilWidth": 20,
+          "uniformDisplayScale": 0.5555555555555556,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            440,
+            320
+          ],
+          "sharedVisualPivotNormalized": [
+            0.6875,
+            0.5
+          ],
+          "displayBodyMaxPixels": [
+            216.66666666666669,
+            163.88888888888889
+          ],
+          "warning": "Pupil is an approximate density proxy, not exact outer head geometry; root playback review still required. Pivot must use registered pupil when applying different clip scales, otherwise head shifts."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          36,
+          113,
+          410,
+          393
+        ],
+        "nativeVisibleSize": [
+          374,
+          280
+        ],
+        "rawCellEdgeMaxAlpha": 1,
+        "registeredBoxAlpha16": [
+          113,
+          190,
+          487,
+          470
+        ],
+        "registeredMarginsFraction": [
+          0.1765625,
+          0.296875,
+          0.2390625,
+          0.265625
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 469,
+          "bbox": [
+            342,
+            230,
+            377,
+            258
+          ],
+          "centroid": [
+            362.7356076759062,
+            243.20042643923242
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-01",
+      "name": "夜星鱼 swim 1",
+      "file": "assets/animations/25-yexing/swim/frame-01.png",
+      "sha256": "8bebb9b3321ce19139a962b751825b716149fa476f7582027668f4a10d45a0d4",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/25-yexing/swim/25-yexing-swim-contained.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/25-yexing/swim/25-yexing-swim-contained.png",
+          "sha256": "466be1c1c4c7b6af4df03514143b801c0c333e2eb80862a8d731cf2dddd3c896",
+          "generationRecord": "designs/motion-frames-v1/25-yexing/swim/25-yexing-swim-contained.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          444,
+          0,
+          887,
+          444
+        ],
+        "registrationOffset": [
+          70,
+          77,
+          513,
+          521
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_connected_component_centroid",
+          "sourcePointFloat": [
+            369.95095948827293,
+            243.16417910447763
+          ],
+          "sourcePointRounded": [
+            370,
+            243
+          ],
+          "targetPoint": [
+            440,
+            320
+          ],
+          "pupilBounds": [
+            349,
+            230,
+            385,
+            257
+          ],
+          "detectionRoi": [
+            300,
+            150,
+            435,
+            290
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+        },
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceCellClipping": false
+      },
+      "anchor": [
+        0.6875,
+        0.5
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "25-yexing/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "root": [
+          0.6875,
+          0.5
+        ],
+        "phase": 0.125,
+        "durationMs": 84,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+          "nativeMedianPupilWidth": 36.0,
+          "targetDisplayedPupilWidth": 20,
+          "uniformDisplayScale": 0.5555555555555556,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            440,
+            320
+          ],
+          "sharedVisualPivotNormalized": [
+            0.6875,
+            0.5
+          ],
+          "displayBodyMaxPixels": [
+            216.66666666666669,
+            163.88888888888889
+          ],
+          "warning": "Pupil is an approximate density proxy, not exact outer head geometry; root playback review still required. Pivot must use registered pupil when applying different clip scales, otherwise head shifts."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          45,
+          105,
+          417,
+          400
+        ],
+        "nativeVisibleSize": [
+          372,
+          295
+        ],
+        "rawCellEdgeMaxAlpha": 1,
+        "registeredBoxAlpha16": [
+          115,
+          182,
+          487,
+          477
+        ],
+        "registeredMarginsFraction": [
+          0.1796875,
+          0.284375,
+          0.2390625,
+          0.2546875
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 469,
+          "bbox": [
+            349,
+            230,
+            385,
+            257
+          ],
+          "centroid": [
+            369.95095948827293,
+            243.16417910447763
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-02",
+      "name": "夜星鱼 swim 2",
+      "file": "assets/animations/25-yexing/swim/frame-02.png",
+      "sha256": "f82131e023a6a83876946dc17bbb35a2cd637292da7d8cac3f0ff3a254d469e4",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/25-yexing/swim/25-yexing-swim-contained.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/25-yexing/swim/25-yexing-swim-contained.png",
+          "sha256": "466be1c1c4c7b6af4df03514143b801c0c333e2eb80862a8d731cf2dddd3c896",
+          "generationRecord": "designs/motion-frames-v1/25-yexing/swim/25-yexing-swim-contained.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          887,
+          0,
+          1330,
+          444
+        ],
+        "registrationOffset": [
+          65,
+          77,
+          508,
+          521
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_connected_component_centroid",
+          "sourcePointFloat": [
+            375.14460285132384,
+            243.33401221995928
+          ],
+          "sourcePointRounded": [
+            375,
+            243
+          ],
+          "targetPoint": [
+            440,
+            320
+          ],
+          "pupilBounds": [
+            354,
+            230,
+            390,
+            259
+          ],
+          "detectionRoi": [
+            300,
+            150,
+            435,
+            290
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+        },
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceCellClipping": false
+      },
+      "anchor": [
+        0.6875,
+        0.5
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "25-yexing/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "root": [
+          0.6875,
+          0.5
+        ],
+        "phase": 0.25,
+        "durationMs": 83,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+          "nativeMedianPupilWidth": 36.0,
+          "targetDisplayedPupilWidth": 20,
+          "uniformDisplayScale": 0.5555555555555556,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            440,
+            320
+          ],
+          "sharedVisualPivotNormalized": [
+            0.6875,
+            0.5
+          ],
+          "displayBodyMaxPixels": [
+            216.66666666666669,
+            163.88888888888889
+          ],
+          "warning": "Pupil is an approximate density proxy, not exact outer head geometry; root playback review still required. Pivot must use registered pupil when applying different clip scales, otherwise head shifts."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          47,
+          101,
+          423,
+          394
+        ],
+        "nativeVisibleSize": [
+          376,
+          293
+        ],
+        "rawCellEdgeMaxAlpha": 1,
+        "registeredBoxAlpha16": [
+          112,
+          178,
+          488,
+          471
+        ],
+        "registeredMarginsFraction": [
+          0.175,
+          0.278125,
+          0.2375,
+          0.2640625
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 491,
+          "bbox": [
+            354,
+            230,
+            390,
+            259
+          ],
+          "centroid": [
+            375.14460285132384,
+            243.33401221995928
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-03",
+      "name": "夜星鱼 swim 3",
+      "file": "assets/animations/25-yexing/swim/frame-03.png",
+      "sha256": "050871eda60dcaf0ffa877fc38910a6436db9d0a711d4c80f01922a4359408ee",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/25-yexing/swim/25-yexing-swim-contained.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/25-yexing/swim/25-yexing-swim-contained.png",
+          "sha256": "466be1c1c4c7b6af4df03514143b801c0c333e2eb80862a8d731cf2dddd3c896",
+          "generationRecord": "designs/motion-frames-v1/25-yexing/swim/25-yexing-swim-contained.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          1330,
+          0,
+          1774,
+          444
+        ],
+        "registrationOffset": [
+          69,
+          76,
+          513,
+          520
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_connected_component_centroid",
+          "sourcePointFloat": [
+            370.6074561403509,
+            244.25438596491227
+          ],
+          "sourcePointRounded": [
+            371,
+            244
+          ],
+          "targetPoint": [
+            440,
+            320
+          ],
+          "pupilBounds": [
+            350,
+            231,
+            385,
+            258
+          ],
+          "detectionRoi": [
+            300,
+            150,
+            435,
+            290
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+        },
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceCellClipping": false
+      },
+      "anchor": [
+        0.6875,
+        0.5
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "25-yexing/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "root": [
+          0.6875,
+          0.5
+        ],
+        "phase": 0.375,
+        "durationMs": 83,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+          "nativeMedianPupilWidth": 36.0,
+          "targetDisplayedPupilWidth": 20,
+          "uniformDisplayScale": 0.5555555555555556,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            440,
+            320
+          ],
+          "sharedVisualPivotNormalized": [
+            0.6875,
+            0.5
+          ],
+          "displayBodyMaxPixels": [
+            216.66666666666669,
+            163.88888888888889
+          ],
+          "warning": "Pupil is an approximate density proxy, not exact outer head geometry; root playback review still required. Pivot must use registered pupil when applying different clip scales, otherwise head shifts."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          49,
+          108,
+          417,
+          395
+        ],
+        "nativeVisibleSize": [
+          368,
+          287
+        ],
+        "rawCellEdgeMaxAlpha": 1,
+        "registeredBoxAlpha16": [
+          118,
+          184,
+          486,
+          471
+        ],
+        "registeredMarginsFraction": [
+          0.184375,
+          0.2875,
+          0.240625,
+          0.2640625
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 456,
+          "bbox": [
+            350,
+            231,
+            385,
+            258
+          ],
+          "centroid": [
+            370.6074561403509,
+            244.25438596491227
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-04",
+      "name": "夜星鱼 swim 4",
+      "file": "assets/animations/25-yexing/swim/frame-04.png",
+      "sha256": "f190f25654c03e837d9aea0cef7f1d128750dbebe279080acd09f6ac89ae090d",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/25-yexing/swim/25-yexing-swim-contained.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/25-yexing/swim/25-yexing-swim-contained.png",
+          "sha256": "466be1c1c4c7b6af4df03514143b801c0c333e2eb80862a8d731cf2dddd3c896",
+          "generationRecord": "designs/motion-frames-v1/25-yexing/swim/25-yexing-swim-contained.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          0,
+          444,
+          444,
+          887
+        ],
+        "registrationOffset": [
+          66,
+          128,
+          510,
+          571
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_connected_component_centroid",
+          "sourcePointFloat": [
+            373.87090163934425,
+            192.17827868852459
+          ],
+          "sourcePointRounded": [
+            374,
+            192
+          ],
+          "targetPoint": [
+            440,
+            320
+          ],
+          "pupilBounds": [
+            353,
+            179,
+            389,
+            208
+          ],
+          "detectionRoi": [
+            300,
+            150,
+            435,
+            290
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+        },
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceCellClipping": false
+      },
+      "anchor": [
+        0.6875,
+        0.5
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "25-yexing/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "root": [
+          0.6875,
+          0.5
+        ],
+        "phase": 0.5,
+        "durationMs": 84,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+          "nativeMedianPupilWidth": 36.0,
+          "targetDisplayedPupilWidth": 20,
+          "uniformDisplayScale": 0.5555555555555556,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            440,
+            320
+          ],
+          "sharedVisualPivotNormalized": [
+            0.6875,
+            0.5
+          ],
+          "displayBodyMaxPixels": [
+            216.66666666666669,
+            163.88888888888889
+          ],
+          "warning": "Pupil is an approximate density proxy, not exact outer head geometry; root playback review still required. Pivot must use registered pupil when applying different clip scales, otherwise head shifts."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          32,
+          56,
+          422,
+          343
+        ],
+        "nativeVisibleSize": [
+          390,
+          287
+        ],
+        "rawCellEdgeMaxAlpha": 1,
+        "registeredBoxAlpha16": [
+          98,
+          184,
+          488,
+          471
+        ],
+        "registeredMarginsFraction": [
+          0.153125,
+          0.2875,
+          0.2375,
+          0.2640625
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 488,
+          "bbox": [
+            353,
+            179,
+            389,
+            208
+          ],
+          "centroid": [
+            373.87090163934425,
+            192.17827868852459
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-05",
+      "name": "夜星鱼 swim 5",
+      "file": "assets/animations/25-yexing/swim/frame-05.png",
+      "sha256": "a14d9eafe835da26973fda48f2090e8a9a5e6d62cb2def87f40b706da18e0016",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/25-yexing/swim/25-yexing-swim-contained.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/25-yexing/swim/25-yexing-swim-contained.png",
+          "sha256": "466be1c1c4c7b6af4df03514143b801c0c333e2eb80862a8d731cf2dddd3c896",
+          "generationRecord": "designs/motion-frames-v1/25-yexing/swim/25-yexing-swim-contained.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          444,
+          444,
+          887,
+          887
+        ],
+        "registrationOffset": [
+          56,
+          131,
+          499,
+          574
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_connected_component_centroid",
+          "sourcePointFloat": [
+            383.7649325626204,
+            188.9865125240848
+          ],
+          "sourcePointRounded": [
+            384,
+            189
+          ],
+          "targetPoint": [
+            440,
+            320
+          ],
+          "pupilBounds": [
+            363,
+            175,
+            399,
+            205
+          ],
+          "detectionRoi": [
+            300,
+            150,
+            435,
+            290
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+        },
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceCellClipping": false
+      },
+      "anchor": [
+        0.6875,
+        0.5
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "25-yexing/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "root": [
+          0.6875,
+          0.5
+        ],
+        "phase": 0.625,
+        "durationMs": 83,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+          "nativeMedianPupilWidth": 36.0,
+          "targetDisplayedPupilWidth": 20,
+          "uniformDisplayScale": 0.5555555555555556,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            440,
+            320
+          ],
+          "sharedVisualPivotNormalized": [
+            0.6875,
+            0.5
+          ],
+          "displayBodyMaxPixels": [
+            216.66666666666669,
+            163.88888888888889
+          ],
+          "warning": "Pupil is an approximate density proxy, not exact outer head geometry; root playback review still required. Pivot must use registered pupil when applying different clip scales, otherwise head shifts."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          51,
+          63,
+          432,
+          345
+        ],
+        "nativeVisibleSize": [
+          381,
+          282
+        ],
+        "rawCellEdgeMaxAlpha": 1,
+        "registeredBoxAlpha16": [
+          107,
+          194,
+          488,
+          476
+        ],
+        "registeredMarginsFraction": [
+          0.1671875,
+          0.303125,
+          0.2375,
+          0.25625
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 519,
+          "bbox": [
+            363,
+            175,
+            399,
+            205
+          ],
+          "centroid": [
+            383.7649325626204,
+            188.9865125240848
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-06",
+      "name": "夜星鱼 swim 6",
+      "file": "assets/animations/25-yexing/swim/frame-06.png",
+      "sha256": "c8f97f8c40620a523965ee4cb6e117af48011a48b9f09b97da25bcd5adb091b7",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/25-yexing/swim/25-yexing-swim-contained.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/25-yexing/swim/25-yexing-swim-contained.png",
+          "sha256": "466be1c1c4c7b6af4df03514143b801c0c333e2eb80862a8d731cf2dddd3c896",
+          "generationRecord": "designs/motion-frames-v1/25-yexing/swim/25-yexing-swim-contained.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          887,
+          444,
+          1330,
+          887
+        ],
+        "registrationOffset": [
+          70,
+          126,
+          513,
+          569
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_connected_component_centroid",
+          "sourcePointFloat": [
+            369.7092783505155,
+            194.10515463917525
+          ],
+          "sourcePointRounded": [
+            370,
+            194
+          ],
+          "targetPoint": [
+            440,
+            320
+          ],
+          "pupilBounds": [
+            349,
+            181,
+            385,
+            210
+          ],
+          "detectionRoi": [
+            300,
+            150,
+            435,
+            290
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+        },
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceCellClipping": false
+      },
+      "anchor": [
+        0.6875,
+        0.5
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "25-yexing/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "root": [
+          0.6875,
+          0.5
+        ],
+        "phase": 0.75,
+        "durationMs": 83,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+          "nativeMedianPupilWidth": 36.0,
+          "targetDisplayedPupilWidth": 20,
+          "uniformDisplayScale": 0.5555555555555556,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            440,
+            320
+          ],
+          "sharedVisualPivotNormalized": [
+            0.6875,
+            0.5
+          ],
+          "displayBodyMaxPixels": [
+            216.66666666666669,
+            163.88888888888889
+          ],
+          "warning": "Pupil is an approximate density proxy, not exact outer head geometry; root playback review still required. Pivot must use registered pupil when applying different clip scales, otherwise head shifts."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          45,
+          54,
+          418,
+          343
+        ],
+        "nativeVisibleSize": [
+          373,
+          289
+        ],
+        "rawCellEdgeMaxAlpha": 1,
+        "registeredBoxAlpha16": [
+          115,
+          180,
+          488,
+          469
+        ],
+        "registeredMarginsFraction": [
+          0.1796875,
+          0.28125,
+          0.2375,
+          0.2671875
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 485,
+          "bbox": [
+            349,
+            181,
+            385,
+            210
+          ],
+          "centroid": [
+            369.7092783505155,
+            194.10515463917525
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-07",
+      "name": "夜星鱼 swim 7",
+      "file": "assets/animations/25-yexing/swim/frame-07.png",
+      "sha256": "9156d628f26954ff8dfdcbd9e63b0ef5dba7886cc2c8a56400ea614e7a2b1a9c",
+      "width": 640,
+      "height": 640,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/25-yexing/swim/25-yexing-swim-contained.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/25-yexing/swim/25-yexing-swim-contained.png",
+          "sha256": "466be1c1c4c7b6af4df03514143b801c0c333e2eb80862a8d731cf2dddd3c896",
+          "generationRecord": "designs/motion-frames-v1/25-yexing/swim/25-yexing-swim-contained.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "grid": {
+          "rows": 2,
+          "cols": 4
+        },
+        "sourceRect": [
+          1330,
+          444,
+          1774,
+          887
+        ],
+        "registrationOffset": [
+          71,
+          128,
+          515,
+          571
+        ],
+        "registeredCanvas": [
+          640,
+          640
+        ],
+        "registrationReference": {
+          "type": "black_pupil_connected_component_centroid",
+          "sourcePointFloat": [
+            368.79303278688525,
+            191.6372950819672
+          ],
+          "sourcePointRounded": [
+            369,
+            192
+          ],
+          "targetPoint": [
+            440,
+            320
+          ],
+          "pupilBounds": [
+            348,
+            178,
+            384,
+            207
+          ],
+          "detectionRoi": [
+            300,
+            150,
+            435,
+            290
+          ],
+          "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+        },
+        "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+        "resized": false,
+        "upscaled": false,
+        "poseWarped": false,
+        "sourcePixelsRoundTripVerified": true,
+        "sourceCellClipping": false
+      },
+      "anchor": [
+        0.6875,
+        0.5
+      ],
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "See source record; this is a native derivative, not new generation.",
+      "animation": {
+        "id": "25-yexing/swim",
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "order": "row-major",
+        "root": [
+          0.6875,
+          0.5
+        ],
+        "phase": 0.875,
+        "durationMs": 84,
+        "targetBodyBox": [
+          240,
+          180
+        ],
+        "displayCalibration": {
+          "status": "candidate_pending_root_visual_runtime_review",
+          "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+          "nativeMedianPupilWidth": 36.0,
+          "targetDisplayedPupilWidth": 20,
+          "uniformDisplayScale": 0.5555555555555556,
+          "upscale": false,
+          "perFrameBboxFit": false,
+          "sharedVisualPivotPixels": [
+            440,
+            320
+          ],
+          "sharedVisualPivotNormalized": [
+            0.6875,
+            0.5
+          ],
+          "displayBodyMaxPixels": [
+            216.66666666666669,
+            163.88888888888889
+          ],
+          "warning": "Pupil is an approximate density proxy, not exact outer head geometry; root playback review still required. Pivot must use registered pupil when applying different clip scales, otherwise head shifts."
+        }
+      },
+      "qa": {
+        "nativeBodyBoxAlpha16": [
+          41,
+          56,
+          417,
+          344
+        ],
+        "nativeVisibleSize": [
+          376,
+          288
+        ],
+        "rawCellEdgeMaxAlpha": 0,
+        "registeredBoxAlpha16": [
+          112,
+          184,
+          488,
+          472
+        ],
+        "registeredMarginsFraction": [
+          0.175,
+          0.2875,
+          0.2375,
+          0.2625
+        ],
+        "finalMargin12PercentPassed": true,
+        "pupilComponent": {
+          "area": 488,
+          "bbox": [
+            348,
+            178,
+            384,
+            207
+          ],
+          "centroid": [
+            368.79303278688525,
+            191.6372950819672
+          ]
+        },
+        "actualSourceViewedByProducer": true,
+        "loopOrRecoveryAccepted": false,
+        "targetClientAccepted": false
+      }
+    }
+  ],
+  "animation": {
+    "id": "25-yexing/swim",
+    "frameCount": 8,
+    "fps": 12,
+    "loop": true,
+    "canvas": [
+      640,
+      640
+    ],
+    "pupilRegistrationTarget": [
+      440,
+      320
+    ],
+    "root": [
+      0.6875,
+      0.5
+    ],
+    "durationMs": 667,
+    "durationsMs": [
+      83,
+      84,
+      83,
+      83,
+      84,
+      83,
+      83,
+      84
+    ],
+    "sourceScale": "Uniform native pixels, no per-frame bbox normalization.",
+    "visualReview": "Actual source viewed: head and eye identity retained; tail upper/lower curves and pectoral fins articulate in distinct phases. All eight fish complete; background transparent. Playback not reviewed.",
+    "pending": [
+      "Root actual playback/loop or capture recovery review.",
+      "Actual target Unity review; metadata/PNG count is not an animation pass.",
+      "Uniform per-clip density calibration and shared pupil pivot need actual runtime review; no per-frame fit."
+    ],
+    "releaseReady": true,
+    "displayCalibration": {
+      "status": "candidate_pending_root_visual_runtime_review",
+      "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+      "nativeMedianPupilWidth": 36.0,
+      "targetDisplayedPupilWidth": 20,
+      "uniformDisplayScale": 0.5555555555555556,
+      "upscale": false,
+      "perFrameBboxFit": false,
+      "sharedVisualPivotPixels": [
+        440,
+        320
+      ],
+      "sharedVisualPivotNormalized": [
+        0.6875,
+        0.5
+      ],
+      "displayBodyMaxPixels": [
+        216.66666666666669,
+        163.88888888888889
+      ],
+      "warning": "Pupil is an approximate density proxy, not exact outer head geometry; root playback review still required. Pivot must use registered pupil when applying different clip scales, otherwise head shifts."
+    }
+  },
+  "notes": [
+    "Native AI articulated body/appendage frames; crop/translation/padding only aligns layout and does not create animation.",
+    "Raw source padding may be smaller than final contract; only final transparent padding meets12%.",
+    "No PNG upsample, full-image rotation/scale or per-frame body warp."
+  ],
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+  "acceptedAt": "2026-10-30T04:07:09.085600+00:00",
+  "releaseReady": true,
+  "playbackReview": "docs/UNITY_FINAL_ACCEPTANCE.json"
+}

@@ -1,0 +1,12662 @@
+{
+  "source": "D:\\work\\buyu-image\\designs\\motion-frames-v1\\10-qingya\\swim\\10-qingya-swim-v1.png",
+  "sha256": "8977502e091ce600338a63c606b58ad46e1a40145848236f1da8225112b2fbdb",
+  "size": [
+    1774,
+    887
+  ],
+  "alpha": [
+    0,
+    255
+  ],
+  "frames": [
+    {
+      "frame": 0,
+      "sourceRect": [
+        16,
+        108,
+        439,
+        408
+      ],
+      "nativeCell": [
+        423,
+        300
+      ],
+      "bbox": [
+        24,
+        116,
+        431,
+        400
+      ],
+      "minMargin": 0.02927927927927928,
+      "edgeAlphaMax": 1,
+      "pupilFloat": [
+        340.055,
+        131.1575
+      ],
+      "pupil": [
+        340,
+        131
+      ],
+      "pupilComponentPixels": 400,
+      "pupilSearchRadius": null,
+      "pupilSearchCenter": null,
+      "pupilMethod": "RGBmax<55 and A>220 pupil component; restricted to local radius22px and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+      "nominalGridRect": [
+        0,
+        0,
+        444,
+        444
+      ],
+      "nominalGridPupil": [
+        356,
+        239
+      ],
+      "ownershipAlphaBBoxGlobal": [
+        24,
+        116,
+        431,
+        400
+      ],
+      "ownershipType": "complete_nonoverlapping_pose_rectangle",
+      "ownPixelCount": 60941,
+      "allAssignedPixelsInsideRect": true,
+      "foreignFishAlphaPixels": 0,
+      "nominalGridBorderAlpha": 1
+    },
+    {
+      "frame": 1,
+      "sourceRect": [
+        473,
+        107,
+        906,
+        405
+      ],
+      "nativeCell": [
+        433,
+        298
+      ],
+      "bbox": [
+        37,
+        115,
+        443,
+        397
+      ],
+      "minMargin": 0.0,
+      "edgeAlphaMax": 252,
+      "pupilFloat": [
+        352.7425474254742,
+        128.07588075880759
+      ],
+      "pupil": [
+        353,
+        128
+      ],
+      "pupilComponentPixels": 369,
+      "pupilSearchRadius": null,
+      "pupilSearchCenter": null,
+      "pupilMethod": "RGBmax<55 and A>220 pupil component; restricted to local radius22px and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+      "nominalGridRect": [
+        444,
+        0,
+        887,
+        444
+      ],
+      "nominalGridPupil": [
+        382,
+        235
+      ],
+      "ownershipAlphaBBoxGlobal": [
+        481,
+        115,
+        898,
+        397
+      ],
+      "ownershipType": "complete_nonoverlapping_pose_rectangle",
+      "ownPixelCount": 60073,
+      "allAssignedPixelsInsideRect": true,
+      "foreignFishAlphaPixels": 0,
+      "nominalGridBorderAlpha": 252
+    },
+    {
+      "frame": 2,
+      "sourceRect": [
+        909,
+        72,
+        1344,
+        411
+      ],
+      "nativeCell": [
+        435,
+        339
+      ],
+      "bbox": [
+        0,
+        80,
+        443,
+        403
+      ],
+      "minMargin": 0.0,
+      "edgeAlphaMax": 254,
+      "pupilFloat": [
+        357.4060606060607,
+        175.33333333333334
+      ],
+      "pupil": [
+        357,
+        175
+      ],
+      "pupilComponentPixels": 330,
+      "pupilSearchRadius": null,
+      "pupilSearchCenter": null,
+      "pupilMethod": "RGBmax<55 and A>220 pupil component; restricted to local radius22px and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+      "nominalGridRect": [
+        887,
+        0,
+        1330,
+        444
+      ],
+      "nominalGridPupil": [
+        379,
+        247
+      ],
+      "ownershipAlphaBBoxGlobal": [
+        917,
+        80,
+        1336,
+        403
+      ],
+      "ownershipType": "complete_nonoverlapping_pose_rectangle",
+      "ownPixelCount": 63539,
+      "allAssignedPixelsInsideRect": true,
+      "foreignFishAlphaPixels": 0,
+      "nominalGridBorderAlpha": 254
+    },
+    {
+      "frame": 3,
+      "sourceRect": [
+        1355,
+        121,
+        1774,
+        411
+      ],
+      "nativeCell": [
+        419,
+        290
+      ],
+      "bbox": [
+        0,
+        129,
+        438,
+        403
+      ],
+      "minMargin": 0.0,
+      "edgeAlphaMax": 254,
+      "pupilFloat": [
+        343.09239130434776,
+        120.88315217391303
+      ],
+      "pupil": [
+        343,
+        121
+      ],
+      "pupilComponentPixels": 368,
+      "pupilSearchRadius": null,
+      "pupilSearchCenter": null,
+      "pupilMethod": "RGBmax<55 and A>220 pupil component; restricted to local radius22px and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+      "nominalGridRect": [
+        1330,
+        0,
+        1774,
+        444
+      ],
+      "nominalGridPupil": [
+        368,
+        242
+      ],
+      "ownershipAlphaBBoxGlobal": [
+        1363,
+        129,
+        1768,
+        403
+      ],
+      "ownershipType": "complete_nonoverlapping_pose_rectangle",
+      "ownPixelCount": 58591,
+      "allAssignedPixelsInsideRect": true,
+      "foreignFishAlphaPixels": 0,
+      "nominalGridBorderAlpha": 254
+    },
+    {
+      "frame": 4,
+      "sourceRect": [
+        15,
+        508,
+        441,
+        797
+      ],
+      "nativeCell": [
+        426,
+        289
+      ],
+      "bbox": [
+        23,
+        72,
+        433,
+        345
+      ],
+      "minMargin": 0.024774774774774775,
+      "edgeAlphaMax": 1,
+      "pupilFloat": [
+        344.92151898734176,
+        136.28607594936716
+      ],
+      "pupil": [
+        345,
+        136
+      ],
+      "pupilComponentPixels": 395,
+      "pupilSearchRadius": null,
+      "pupilSearchCenter": null,
+      "pupilMethod": "RGBmax<55 and A>220 pupil component; restricted to local radius22px and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+      "nominalGridRect": [
+        0,
+        444,
+        444,
+        887
+      ],
+      "nominalGridPupil": [
+        360,
+        200
+      ],
+      "ownershipAlphaBBoxGlobal": [
+        23,
+        516,
+        433,
+        789
+      ],
+      "ownershipType": "complete_nonoverlapping_pose_rectangle",
+      "ownPixelCount": 56047,
+      "allAssignedPixelsInsideRect": true,
+      "foreignFishAlphaPixels": 0,
+      "nominalGridBorderAlpha": 1
+    },
+    {
+      "frame": 5,
+      "sourceRect": [
+        483,
+        520,
+        907,
+        795
+      ],
+      "nativeCell": [
+        424,
+        275
+      ],
+      "bbox": [
+        47,
+        84,
+        443,
+        343
+      ],
+      "minMargin": 0.0,
+      "edgeAlphaMax": 252,
+      "pupilFloat": [
+        343.5652173913044,
+        123.6624040920716
+      ],
+      "pupil": [
+        344,
+        124
+      ],
+      "pupilComponentPixels": 391,
+      "pupilSearchRadius": null,
+      "pupilSearchCenter": null,
+      "pupilMethod": "RGBmax<55 and A>220 pupil component; restricted to local radius22px and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+      "nominalGridRect": [
+        444,
+        444,
+        887,
+        887
+      ],
+      "nominalGridPupil": [
+        383,
+        200
+      ],
+      "ownershipAlphaBBoxGlobal": [
+        491,
+        528,
+        899,
+        787
+      ],
+      "ownershipType": "complete_nonoverlapping_pose_rectangle",
+      "ownPixelCount": 57117,
+      "allAssignedPixelsInsideRect": true,
+      "foreignFishAlphaPixels": 0,
+      "nominalGridBorderAlpha": 252
+    },
+    {
+      "frame": 6,
+      "sourceRect": [
+        912,
+        526,
+        1340,
+        817
+      ],
+      "nativeCell": [
+        428,
+        291
+      ],
+      "bbox": [
+        0,
+        90,
+        443,
+        365
+      ],
+      "minMargin": 0.0,
+      "edgeAlphaMax": 252,
+      "pupilFloat": [
+        348.8141809290953,
+        123.22004889975551
+      ],
+      "pupil": [
+        349,
+        123
+      ],
+      "pupilComponentPixels": 409,
+      "pupilSearchRadius": null,
+      "pupilSearchCenter": null,
+      "pupilMethod": "RGBmax<55 and A>220 pupil component; restricted to local radius22px and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+      "nominalGridRect": [
+        887,
+        444,
+        1330,
+        887
+      ],
+      "nominalGridPupil": [
+        374,
+        205
+      ],
+      "ownershipAlphaBBoxGlobal": [
+        920,
+        534,
+        1332,
+        809
+      ],
+      "ownershipType": "complete_nonoverlapping_pose_rectangle",
+      "ownPixelCount": 59361,
+      "allAssignedPixelsInsideRect": true,
+      "foreignFishAlphaPixels": 0,
+      "nominalGridBorderAlpha": 252
+    },
+    {
+      "frame": 7,
+      "sourceRect": [
+        1354,
+        505,
+        1771,
+        791
+      ],
+      "nativeCell": [
+        417,
+        286
+      ],
+      "bbox": [
+        0,
+        69,
+        433,
+        339
+      ],
+      "minMargin": 0.0,
+      "edgeAlphaMax": 4,
+      "pupilFloat": [
+        335.56049382716037,
+        136.53086419753083
+      ],
+      "pupil": [
+        336,
+        137
+      ],
+      "pupilComponentPixels": 405,
+      "pupilSearchRadius": null,
+      "pupilSearchCenter": null,
+      "pupilMethod": "RGBmax<55 and A>220 pupil component; restricted to local radius22px and nearest centroid when eye guesses supplied, otherwise largest right48percent component below1000px; actual ROI visual confirmation required",
+      "nominalGridRect": [
+        1330,
+        444,
+        1774,
+        887
+      ],
+      "nominalGridPupil": [
+        360,
+        198
+      ],
+      "ownershipAlphaBBoxGlobal": [
+        1362,
+        513,
+        1763,
+        783
+      ],
+      "ownershipType": "complete_nonoverlapping_pose_rectangle",
+      "ownPixelCount": 59467,
+      "allAssignedPixelsInsideRect": true,
+      "foreignFishAlphaPixels": 0,
+      "nominalGridBorderAlpha": 4
+    }
+  ],
+  "sourceMarginWarnings": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "borderWarnings": [],
+  "pupilROIVisual": "pending",
+  "nominalGridBorderWarnings": [
+    1,
+    2,
+    3,
+    5,
+    6
+  ],
+  "ownership": [
+    {
+      "frame": 0,
+      "nominalGridRect": [
+        0,
+        0,
+        444,
+        444
+      ],
+      "ownershipRect": [
+        16,
+        108,
+        439,
+        408
+      ],
+      "completeBBox": [
+        24,
+        116,
+        431,
+        400
+      ],
+      "foreignFishAlphaPixels": 0,
+      "alphaPixelCount": 60941,
+      "sourceCanvasTouch": false,
+      "gridBorderWarningPreserved": false
+    },
+    {
+      "frame": 1,
+      "nominalGridRect": [
+        444,
+        0,
+        887,
+        444
+      ],
+      "ownershipRect": [
+        473,
+        107,
+        906,
+        405
+      ],
+      "completeBBox": [
+        481,
+        115,
+        898,
+        397
+      ],
+      "foreignFishAlphaPixels": 0,
+      "alphaPixelCount": 60073,
+      "sourceCanvasTouch": false,
+      "gridBorderWarningPreserved": true
+    },
+    {
+      "frame": 2,
+      "nominalGridRect": [
+        887,
+        0,
+        1330,
+        444
+      ],
+      "ownershipRect": [
+        909,
+        72,
+        1344,
+        411
+      ],
+      "completeBBox": [
+        917,
+        80,
+        1336,
+        403
+      ],
+      "foreignFishAlphaPixels": 0,
+      "alphaPixelCount": 63539,
+      "sourceCanvasTouch": false,
+      "gridBorderWarningPreserved": true
+    },
+    {
+      "frame": 3,
+      "nominalGridRect": [
+        1330,
+        0,
+        1774,
+        444
+      ],
+      "ownershipRect": [
+        1355,
+        121,
+        1774,
+        411
+      ],
+      "completeBBox": [
+        1363,
+        129,
+        1768,
+        403
+      ],
+      "foreignFishAlphaPixels": 0,
+      "alphaPixelCount": 58591,
+      "sourceCanvasTouch": false,
+      "gridBorderWarningPreserved": true
+    },
+    {
+      "frame": 4,
+      "nominalGridRect": [
+        0,
+        444,
+        444,
+        887
+      ],
+      "ownershipRect": [
+        15,
+        508,
+        441,
+        797
+      ],
+      "completeBBox": [
+        23,
+        516,
+        433,
+        789
+      ],
+      "foreignFishAlphaPixels": 0,
+      "alphaPixelCount": 56047,
+      "sourceCanvasTouch": false,
+      "gridBorderWarningPreserved": false
+    },
+    {
+      "frame": 5,
+      "nominalGridRect": [
+        444,
+        444,
+        887,
+        887
+      ],
+      "ownershipRect": [
+        483,
+        520,
+        907,
+        795
+      ],
+      "completeBBox": [
+        491,
+        528,
+        899,
+        787
+      ],
+      "foreignFishAlphaPixels": 0,
+      "alphaPixelCount": 57117,
+      "sourceCanvasTouch": false,
+      "gridBorderWarningPreserved": true
+    },
+    {
+      "frame": 6,
+      "nominalGridRect": [
+        887,
+        444,
+        1330,
+        887
+      ],
+      "ownershipRect": [
+        912,
+        526,
+        1340,
+        817
+      ],
+      "completeBBox": [
+        920,
+        534,
+        1332,
+        809
+      ],
+      "foreignFishAlphaPixels": 0,
+      "alphaPixelCount": 59361,
+      "sourceCanvasTouch": false,
+      "gridBorderWarningPreserved": true
+    },
+    {
+      "frame": 7,
+      "nominalGridRect": [
+        1330,
+        444,
+        1774,
+        887
+      ],
+      "ownershipRect": [
+        1354,
+        505,
+        1771,
+        791
+      ],
+      "completeBBox": [
+        1362,
+        513,
+        1763,
+        783
+      ],
+      "foreignFishAlphaPixels": 0,
+      "alphaPixelCount": 59467,
+      "sourceCanvasTouch": false,
+      "gridBorderWarningPreserved": false
+    }
+  ],
+  "ownershipWarnings": [],
+  "ownershipNote": "Only mathematical cell-line crossing is recovered. All source alpha>3 components assigned once, actual pose rectangles contain zero other-fish alpha. No painted pixel moved/scaled/erased; <=3 cleanup already declared. Source-grid margin and edge warnings remain historical source gates.",
+  "componentOwnership": [
+    {
+      "component": 1,
+      "owner": 2,
+      "box": [
+        1009,
+        80,
+        1010,
+        81
+      ]
+    },
+    {
+      "component": 3,
+      "owner": 2,
+      "box": [
+        1012,
+        81,
+        1013,
+        82
+      ]
+    },
+    {
+      "component": 4,
+      "owner": 2,
+      "box": [
+        1017,
+        83,
+        1018,
+        84
+      ]
+    },
+    {
+      "component": 5,
+      "owner": 2,
+      "box": [
+        1019,
+        84,
+        1020,
+        85
+      ]
+    },
+    {
+      "component": 6,
+      "owner": 2,
+      "box": [
+        1021,
+        85,
+        1022,
+        86
+      ]
+    },
+    {
+      "component": 7,
+      "owner": 2,
+      "box": [
+        1022,
+        86,
+        1024,
+        87
+      ]
+    },
+    {
+      "component": 8,
+      "owner": 2,
+      "box": [
+        1007,
+        89,
+        1008,
+        91
+      ]
+    },
+    {
+      "component": 9,
+      "owner": 2,
+      "box": [
+        1011,
+        98,
+        1012,
+        99
+      ]
+    },
+    {
+      "component": 10,
+      "owner": 2,
+      "box": [
+        1012,
+        102,
+        1013,
+        103
+      ]
+    },
+    {
+      "component": 13,
+      "owner": 2,
+      "box": [
+        1051,
+        118,
+        1052,
+        119
+      ]
+    },
+    {
+      "component": 14,
+      "owner": 0,
+      "box": [
+        181,
+        119,
+        182,
+        122
+      ]
+    },
+    {
+      "component": 15,
+      "owner": 2,
+      "box": [
+        1052,
+        120,
+        1053,
+        121
+      ]
+    },
+    {
+      "component": 16,
+      "owner": 1,
+      "box": [
+        652,
+        121,
+        653,
+        122
+      ]
+    },
+    {
+      "component": 17,
+      "owner": 0,
+      "box": [
+        182,
+        122,
+        183,
+        123
+      ]
+    },
+    {
+      "component": 18,
+      "owner": 2,
+      "box": [
+        1053,
+        123,
+        1054,
+        124
+      ]
+    },
+    {
+      "component": 19,
+      "owner": 1,
+      "box": [
+        656,
+        124,
+        657,
+        125
+      ]
+    },
+    {
+      "component": 20,
+      "owner": 0,
+      "box": [
+        189,
+        126,
+        190,
+        127
+      ]
+    },
+    {
+      "component": 21,
+      "owner": 1,
+      "box": [
+        659,
+        128,
+        660,
+        129
+      ]
+    },
+    {
+      "component": 23,
+      "owner": 1,
+      "box": [
+        660,
+        130,
+        661,
+        131
+      ]
+    },
+    {
+      "component": 24,
+      "owner": 1,
+      "box": [
+        661,
+        131,
+        662,
+        133
+      ]
+    },
+    {
+      "component": 25,
+      "owner": 1,
+      "box": [
+        662,
+        133,
+        663,
+        135
+      ]
+    },
+    {
+      "component": 26,
+      "owner": 2,
+      "box": [
+        1057,
+        133,
+        1060,
+        147
+      ]
+    },
+    {
+      "component": 27,
+      "owner": 0,
+      "box": [
+        195,
+        134,
+        196,
+        136
+      ]
+    },
+    {
+      "component": 28,
+      "owner": 2,
+      "box": [
+        996,
+        134,
+        998,
+        135
+      ]
+    },
+    {
+      "component": 29,
+      "owner": 1,
+      "box": [
+        663,
+        135,
+        664,
+        138
+      ]
+    },
+    {
+      "component": 30,
+      "owner": 2,
+      "box": [
+        1096,
+        135,
+        1097,
+        136
+      ]
+    },
+    {
+      "component": 31,
+      "owner": 0,
+      "box": [
+        196,
+        136,
+        198,
+        149
+      ]
+    },
+    {
+      "component": 32,
+      "owner": 1,
+      "box": [
+        747,
+        138,
+        748,
+        139
+      ]
+    },
+    {
+      "component": 33,
+      "owner": 2,
+      "box": [
+        974,
+        140,
+        975,
+        141
+      ]
+    },
+    {
+      "component": 34,
+      "owner": 3,
+      "box": [
+        1621,
+        140,
+        1623,
+        141
+      ]
+    },
+    {
+      "component": 35,
+      "owner": 2,
+      "box": [
+        972,
+        141,
+        974,
+        142
+      ]
+    },
+    {
+      "component": 36,
+      "owner": 0,
+      "box": [
+        278,
+        142,
+        279,
+        143
+      ]
+    },
+    {
+      "component": 37,
+      "owner": 0,
+      "box": [
+        279,
+        143,
+        280,
+        144
+      ]
+    },
+    {
+      "component": 38,
+      "owner": 0,
+      "box": [
+        280,
+        144,
+        281,
+        145
+      ]
+    },
+    {
+      "component": 39,
+      "owner": 2,
+      "box": [
+        1181,
+        145,
+        1182,
+        146
+      ]
+    },
+    {
+      "component": 40,
+      "owner": 3,
+      "box": [
+        1544,
+        146,
+        1545,
+        147
+      ]
+    },
+    {
+      "component": 41,
+      "owner": 3,
+      "box": [
+        1545,
+        147,
+        1546,
+        149
+      ]
+    },
+    {
+      "component": 42,
+      "owner": 0,
+      "box": [
+        196,
+        149,
+        197,
+        153
+      ]
+    },
+    {
+      "component": 43,
+      "owner": 3,
+      "box": [
+        1546,
+        149,
+        1547,
+        152
+      ]
+    },
+    {
+      "component": 44,
+      "owner": 3,
+      "box": [
+        1634,
+        150,
+        1635,
+        151
+      ]
+    },
+    {
+      "component": 45,
+      "owner": 3,
+      "box": [
+        1635,
+        151,
+        1636,
+        152
+      ]
+    },
+    {
+      "component": 46,
+      "owner": 0,
+      "box": [
+        294,
+        152,
+        296,
+        153
+      ]
+    },
+    {
+      "component": 47,
+      "owner": 2,
+      "box": [
+        1207,
+        153,
+        1208,
+        154
+      ]
+    },
+    {
+      "component": 48,
+      "owner": 0,
+      "box": [
+        194,
+        155,
+        195,
+        156
+      ]
+    },
+    {
+      "component": 49,
+      "owner": 2,
+      "box": [
+        1111,
+        156,
+        1112,
+        158
+      ]
+    },
+    {
+      "component": 50,
+      "owner": 0,
+      "box": [
+        192,
+        157,
+        194,
+        159
+      ]
+    },
+    {
+      "component": 51,
+      "owner": 3,
+      "box": [
+        1387,
+        158,
+        1390,
+        159
+      ]
+    },
+    {
+      "component": 52,
+      "owner": 0,
+      "box": [
+        191,
+        159,
+        192,
+        160
+      ]
+    },
+    {
+      "component": 53,
+      "owner": 1,
+      "box": [
+        513,
+        159,
+        514,
+        160
+      ]
+    },
+    {
+      "component": 54,
+      "owner": 1,
+      "box": [
+        549,
+        159,
+        551,
+        160
+      ]
+    },
+    {
+      "component": 55,
+      "owner": 1,
+      "box": [
+        779,
+        159,
+        780,
+        160
+      ]
+    },
+    {
+      "component": 56,
+      "owner": 2,
+      "box": [
+        1222,
+        159,
+        1224,
+        160
+      ]
+    },
+    {
+      "component": 57,
+      "owner": 3,
+      "box": [
+        1384,
+        159,
+        1386,
+        160
+      ]
+    },
+    {
+      "component": 58,
+      "owner": 3,
+      "box": [
+        1435,
+        159,
+        1438,
+        160
+      ]
+    },
+    {
+      "component": 59,
+      "owner": 0,
+      "box": [
+        190,
+        160,
+        191,
+        161
+      ]
+    },
+    {
+      "component": 60,
+      "owner": 1,
+      "box": [
+        510,
+        160,
+        512,
+        161
+      ]
+    },
+    {
+      "component": 61,
+      "owner": 1,
+      "box": [
+        552,
+        160,
+        554,
+        161
+      ]
+    },
+    {
+      "component": 62,
+      "owner": 3,
+      "box": [
+        1382,
+        160,
+        1383,
+        161
+      ]
+    },
+    {
+      "component": 63,
+      "owner": 3,
+      "box": [
+        1438,
+        160,
+        1441,
+        161
+      ]
+    },
+    {
+      "component": 64,
+      "owner": 1,
+      "box": [
+        555,
+        161,
+        557,
+        162
+      ]
+    },
+    {
+      "component": 65,
+      "owner": 3,
+      "box": [
+        1379,
+        161,
+        1381,
+        162
+      ]
+    },
+    {
+      "component": 66,
+      "owner": 3,
+      "box": [
+        1441,
+        161,
+        1443,
+        162
+      ]
+    },
+    {
+      "component": 67,
+      "owner": 3,
+      "box": [
+        1644,
+        161,
+        1645,
+        162
+      ]
+    },
+    {
+      "component": 68,
+      "owner": 0,
+      "box": [
+        186,
+        162,
+        188,
+        163
+      ]
+    },
+    {
+      "component": 69,
+      "owner": 1,
+      "box": [
+        507,
+        162,
+        508,
+        163
+      ]
+    },
+    {
+      "component": 70,
+      "owner": 1,
+      "box": [
+        505,
+        163,
+        507,
+        164
+      ]
+    },
+    {
+      "component": 71,
+      "owner": 3,
+      "box": [
+        1544,
+        164,
+        1545,
+        165
+      ]
+    },
+    {
+      "component": 72,
+      "owner": 1,
+      "box": [
+        785,
+        165,
+        786,
+        166
+      ]
+    },
+    {
+      "component": 73,
+      "owner": 3,
+      "box": [
+        1543,
+        165,
+        1544,
+        166
+      ]
+    },
+    {
+      "component": 74,
+      "owner": 1,
+      "box": [
+        565,
+        166,
+        566,
+        167
+      ]
+    },
+    {
+      "component": 75,
+      "owner": 3,
+      "box": [
+        1368,
+        167,
+        1371,
+        169
+      ]
+    },
+    {
+      "component": 76,
+      "owner": 1,
+      "box": [
+        568,
+        168,
+        570,
+        169
+      ]
+    },
+    {
+      "component": 77,
+      "owner": 0,
+      "box": [
+        177,
+        169,
+        178,
+        170
+      ]
+    },
+    {
+      "component": 78,
+      "owner": 1,
+      "box": [
+        570,
+        169,
+        571,
+        170
+      ]
+    },
+    {
+      "component": 79,
+      "owner": 3,
+      "box": [
+        1367,
+        169,
+        1368,
+        170
+      ]
+    },
+    {
+      "component": 80,
+      "owner": 1,
+      "box": [
+        513,
+        170,
+        514,
+        171
+      ]
+    },
+    {
+      "component": 81,
+      "owner": 3,
+      "box": [
+        1366,
+        170,
+        1367,
+        171
+      ]
+    },
+    {
+      "component": 82,
+      "owner": 1,
+      "box": [
+        517,
+        171,
+        518,
+        172
+      ]
+    },
+    {
+      "component": 83,
+      "owner": 3,
+      "box": [
+        1365,
+        171,
+        1366,
+        172
+      ]
+    },
+    {
+      "component": 84,
+      "owner": 3,
+      "box": [
+        1532,
+        171,
+        1534,
+        172
+      ]
+    },
+    {
+      "component": 85,
+      "owner": 0,
+      "box": [
+        174,
+        172,
+        175,
+        173
+      ]
+    },
+    {
+      "component": 86,
+      "owner": 2,
+      "box": [
+        1084,
+        172,
+        1086,
+        173
+      ]
+    },
+    {
+      "component": 87,
+      "owner": 3,
+      "box": [
+        1364,
+        172,
+        1365,
+        173
+      ]
+    },
+    {
+      "component": 88,
+      "owner": 3,
+      "box": [
+        1531,
+        172,
+        1532,
+        173
+      ]
+    },
+    {
+      "component": 89,
+      "owner": 0,
+      "box": [
+        173,
+        173,
+        174,
+        174
+      ]
+    },
+    {
+      "component": 90,
+      "owner": 2,
+      "box": [
+        952,
+        173,
+        953,
+        176
+      ]
+    },
+    {
+      "component": 91,
+      "owner": 3,
+      "box": [
+        1530,
+        173,
+        1531,
+        174
+      ]
+    },
+    {
+      "component": 92,
+      "owner": 0,
+      "box": [
+        172,
+        174,
+        173,
+        175
+      ]
+    },
+    {
+      "component": 93,
+      "owner": 1,
+      "box": [
+        644,
+        174,
+        645,
+        175
+      ]
+    },
+    {
+      "component": 94,
+      "owner": 2,
+      "box": [
+        1235,
+        174,
+        1236,
+        176
+      ]
+    },
+    {
+      "component": 95,
+      "owner": 3,
+      "box": [
+        1529,
+        174,
+        1530,
+        175
+      ]
+    },
+    {
+      "component": 96,
+      "owner": 0,
+      "box": [
+        171,
+        175,
+        172,
+        176
+      ]
+    },
+    {
+      "component": 97,
+      "owner": 1,
+      "box": [
+        643,
+        175,
+        644,
+        176
+      ]
+    },
+    {
+      "component": 98,
+      "owner": 2,
+      "box": [
+        1236,
+        176,
+        1237,
+        178
+      ]
+    },
+    {
+      "component": 99,
+      "owner": 3,
+      "box": [
+        1526,
+        176,
+        1527,
+        177
+      ]
+    },
+    {
+      "component": 100,
+      "owner": 0,
+      "box": [
+        170,
+        177,
+        171,
+        179
+      ]
+    },
+    {
+      "component": 101,
+      "owner": 0,
+      "box": [
+        69,
+        178,
+        78,
+        179
+      ]
+    },
+    {
+      "component": 102,
+      "owner": 1,
+      "box": [
+        529,
+        178,
+        530,
+        179
+      ]
+    },
+    {
+      "component": 103,
+      "owner": 3,
+      "box": [
+        1373,
+        178,
+        1374,
+        179
+      ]
+    },
+    {
+      "component": 104,
+      "owner": 0,
+      "box": [
+        60,
+        179,
+        66,
+        180
+      ]
+    },
+    {
+      "component": 105,
+      "owner": 0,
+      "box": [
+        169,
+        179,
+        170,
+        181
+      ]
+    },
+    {
+      "component": 106,
+      "owner": 1,
+      "box": [
+        530,
+        179,
+        531,
+        180
+      ]
+    },
+    {
+      "component": 107,
+      "owner": 2,
+      "box": [
+        953,
+        179,
+        954,
+        184
+      ]
+    },
+    {
+      "component": 108,
+      "owner": 3,
+      "box": [
+        1380,
+        179,
+        1381,
+        180
+      ]
+    },
+    {
+      "component": 109,
+      "owner": 1,
+      "box": [
+        531,
+        180,
+        532,
+        182
+      ]
+    },
+    {
+      "component": 110,
+      "owner": 3,
+      "box": [
+        1383,
+        180,
+        1385,
+        181
+      ]
+    },
+    {
+      "component": 111,
+      "owner": 0,
+      "box": [
+        168,
+        181,
+        169,
+        182
+      ]
+    },
+    {
+      "component": 112,
+      "owner": 1,
+      "box": [
+        583,
+        181,
+        584,
+        182
+      ]
+    },
+    {
+      "component": 113,
+      "owner": 3,
+      "box": [
+        1385,
+        181,
+        1387,
+        182
+      ]
+    },
+    {
+      "component": 114,
+      "owner": 3,
+      "box": [
+        1387,
+        182,
+        1389,
+        183
+      ]
+    },
+    {
+      "component": 115,
+      "owner": 0,
+      "box": [
+        47,
+        183,
+        49,
+        184
+      ]
+    },
+    {
+      "component": 116,
+      "owner": 0,
+      "box": [
+        97,
+        183,
+        99,
+        184
+      ]
+    },
+    {
+      "component": 117,
+      "owner": 0,
+      "box": [
+        167,
+        183,
+        168,
+        184
+      ]
+    },
+    {
+      "component": 118,
+      "owner": 3,
+      "box": [
+        1389,
+        183,
+        1390,
+        184
+      ]
+    },
+    {
+      "component": 119,
+      "owner": 3,
+      "box": [
+        1669,
+        183,
+        1670,
+        184
+      ]
+    },
+    {
+      "component": 120,
+      "owner": 0,
+      "box": [
+        45,
+        184,
+        47,
+        185
+      ]
+    },
+    {
+      "component": 121,
+      "owner": 0,
+      "box": [
+        100,
+        184,
+        101,
+        185
+      ]
+    },
+    {
+      "component": 122,
+      "owner": 0,
+      "box": [
+        43,
+        185,
+        45,
+        186
+      ]
+    },
+    {
+      "component": 123,
+      "owner": 0,
+      "box": [
+        102,
+        185,
+        103,
+        186
+      ]
+    },
+    {
+      "component": 124,
+      "owner": 0,
+      "box": [
+        42,
+        186,
+        43,
+        187
+      ]
+    },
+    {
+      "component": 125,
+      "owner": 0,
+      "box": [
+        104,
+        186,
+        106,
+        187
+      ]
+    },
+    {
+      "component": 126,
+      "owner": 0,
+      "box": [
+        40,
+        187,
+        42,
+        188
+      ]
+    },
+    {
+      "component": 127,
+      "owner": 0,
+      "box": [
+        106,
+        187,
+        108,
+        188
+      ]
+    },
+    {
+      "component": 128,
+      "owner": 0,
+      "box": [
+        108,
+        188,
+        109,
+        189
+      ]
+    },
+    {
+      "component": 129,
+      "owner": 0,
+      "box": [
+        109,
+        189,
+        111,
+        190
+      ]
+    },
+    {
+      "component": 130,
+      "owner": 2,
+      "box": [
+        1241,
+        189,
+        1242,
+        192
+      ]
+    },
+    {
+      "component": 131,
+      "owner": 0,
+      "box": [
+        111,
+        190,
+        112,
+        191
+      ]
+    },
+    {
+      "component": 132,
+      "owner": 0,
+      "box": [
+        35,
+        191,
+        36,
+        192
+      ]
+    },
+    {
+      "component": 133,
+      "owner": 0,
+      "box": [
+        113,
+        191,
+        114,
+        192
+      ]
+    },
+    {
+      "component": 134,
+      "owner": 1,
+      "box": [
+        793,
+        191,
+        797,
+        193
+      ]
+    },
+    {
+      "component": 135,
+      "owner": 0,
+      "box": [
+        34,
+        192,
+        35,
+        193
+      ]
+    },
+    {
+      "component": 136,
+      "owner": 0,
+      "box": [
+        114,
+        192,
+        115,
+        193
+      ]
+    },
+    {
+      "component": 137,
+      "owner": 0,
+      "box": [
+        33,
+        193,
+        34,
+        194
+      ]
+    },
+    {
+      "component": 138,
+      "owner": 0,
+      "box": [
+        116,
+        193,
+        117,
+        194
+      ]
+    },
+    {
+      "component": 139,
+      "owner": 1,
+      "box": [
+        800,
+        193,
+        806,
+        194
+      ]
+    },
+    {
+      "component": 140,
+      "owner": 1,
+      "box": [
+        811,
+        193,
+        816,
+        194
+      ]
+    },
+    {
+      "component": 141,
+      "owner": 1,
+      "box": [
+        817,
+        193,
+        822,
+        194
+      ]
+    },
+    {
+      "component": 142,
+      "owner": 0,
+      "box": [
+        32,
+        194,
+        33,
+        195
+      ]
+    },
+    {
+      "component": 143,
+      "owner": 0,
+      "box": [
+        118,
+        194,
+        119,
+        195
+      ]
+    },
+    {
+      "component": 144,
+      "owner": 1,
+      "box": [
+        825,
+        194,
+        827,
+        195
+      ]
+    },
+    {
+      "component": 145,
+      "owner": 0,
+      "box": [
+        31,
+        195,
+        32,
+        196
+      ]
+    },
+    {
+      "component": 146,
+      "owner": 0,
+      "box": [
+        161,
+        195,
+        162,
+        196
+      ]
+    },
+    {
+      "component": 147,
+      "owner": 0,
+      "box": [
+        328,
+        195,
+        333,
+        196
+      ]
+    },
+    {
+      "component": 148,
+      "owner": 1,
+      "box": [
+        830,
+        195,
+        832,
+        196
+      ]
+    },
+    {
+      "component": 149,
+      "owner": 0,
+      "box": [
+        345,
+        196,
+        352,
+        197
+      ]
+    },
+    {
+      "component": 150,
+      "owner": 1,
+      "box": [
+        834,
+        196,
+        836,
+        197
+      ]
+    },
+    {
+      "component": 151,
+      "owner": 0,
+      "box": [
+        160,
+        197,
+        161,
+        199
+      ]
+    },
+    {
+      "component": 152,
+      "owner": 0,
+      "box": [
+        354,
+        197,
+        357,
+        198
+      ]
+    },
+    {
+      "component": 153,
+      "owner": 1,
+      "box": [
+        837,
+        197,
+        839,
+        198
+      ]
+    },
+    {
+      "component": 154,
+      "owner": 0,
+      "box": [
+        29,
+        198,
+        30,
+        200
+      ]
+    },
+    {
+      "component": 155,
+      "owner": 0,
+      "box": [
+        359,
+        198,
+        361,
+        199
+      ]
+    },
+    {
+      "component": 156,
+      "owner": 3,
+      "box": [
+        1485,
+        198,
+        1486,
+        200
+      ]
+    },
+    {
+      "component": 157,
+      "owner": 0,
+      "box": [
+        365,
+        199,
+        366,
+        200
+      ]
+    },
+    {
+      "component": 158,
+      "owner": 1,
+      "box": [
+        532,
+        199,
+        533,
+        200
+      ]
+    },
+    {
+      "component": 159,
+      "owner": 0,
+      "box": [
+        367,
+        200,
+        370,
+        201
+      ]
+    },
+    {
+      "component": 160,
+      "owner": 3,
+      "box": [
+        1399,
+        200,
+        1400,
+        219
+      ]
+    },
+    {
+      "component": 161,
+      "owner": 3,
+      "box": [
+        1486,
+        200,
+        1487,
+        202
+      ]
+    },
+    {
+      "component": 162,
+      "owner": 3,
+      "box": [
+        1680,
+        201,
+        1691,
+        202
+      ]
+    },
+    {
+      "component": 163,
+      "owner": 0,
+      "box": [
+        32,
+        202,
+        49,
+        204
+      ]
+    },
+    {
+      "component": 164,
+      "owner": 3,
+      "box": [
+        1487,
+        202,
+        1488,
+        204
+      ]
+    },
+    {
+      "component": 165,
+      "owner": 0,
+      "box": [
+        377,
+        203,
+        378,
+        204
+      ]
+    },
+    {
+      "component": 166,
+      "owner": 1,
+      "box": [
+        598,
+        203,
+        599,
+        204
+      ]
+    },
+    {
+      "component": 167,
+      "owner": 2,
+      "box": [
+        950,
+        203,
+        951,
+        204
+      ]
+    },
+    {
+      "component": 168,
+      "owner": 3,
+      "box": [
+        1512,
+        203,
+        1513,
+        204
+      ]
+    },
+    {
+      "component": 169,
+      "owner": 0,
+      "box": [
+        128,
+        204,
+        129,
+        205
+      ]
+    },
+    {
+      "component": 170,
+      "owner": 0,
+      "box": [
+        380,
+        204,
+        381,
+        205
+      ]
+    },
+    {
+      "component": 171,
+      "owner": 1,
+      "box": [
+        599,
+        204,
+        600,
+        206
+      ]
+    },
+    {
+      "component": 172,
+      "owner": 3,
+      "box": [
+        1488,
+        204,
+        1489,
+        206
+      ]
+    },
+    {
+      "component": 173,
+      "owner": 3,
+      "box": [
+        1704,
+        204,
+        1706,
+        205
+      ]
+    },
+    {
+      "component": 174,
+      "owner": 0,
+      "box": [
+        382,
+        205,
+        383,
+        206
+      ]
+    },
+    {
+      "component": 175,
+      "owner": 1,
+      "box": [
+        858,
+        205,
+        859,
+        206
+      ]
+    },
+    {
+      "component": 176,
+      "owner": 2,
+      "box": [
+        949,
+        205,
+        950,
+        207
+      ]
+    },
+    {
+      "component": 177,
+      "owner": 0,
+      "box": [
+        384,
+        206,
+        385,
+        207
+      ]
+    },
+    {
+      "component": 178,
+      "owner": 1,
+      "box": [
+        600,
+        206,
+        601,
+        208
+      ]
+    },
+    {
+      "component": 179,
+      "owner": 2,
+      "box": [
+        917,
+        206,
+        918,
+        215
+      ]
+    },
+    {
+      "component": 180,
+      "owner": 2,
+      "box": [
+        1249,
+        206,
+        1252,
+        207
+      ]
+    },
+    {
+      "component": 181,
+      "owner": 0,
+      "box": [
+        158,
+        207,
+        159,
+        208
+      ]
+    },
+    {
+      "component": 182,
+      "owner": 1,
+      "box": [
+        864,
+        208,
+        865,
+        209
+      ]
+    },
+    {
+      "component": 183,
+      "owner": 0,
+      "box": [
+        159,
+        211,
+        160,
+        216
+      ]
+    },
+    {
+      "component": 184,
+      "owner": 0,
+      "box": [
+        57,
+        212,
+        58,
+        214
+      ]
+    },
+    {
+      "component": 185,
+      "owner": 0,
+      "box": [
+        396,
+        212,
+        397,
+        213
+      ]
+    },
+    {
+      "component": 186,
+      "owner": 1,
+      "box": [
+        870,
+        212,
+        871,
+        213
+      ]
+    },
+    {
+      "component": 187,
+      "owner": 3,
+      "box": [
+        1726,
+        212,
+        1727,
+        213
+      ]
+    },
+    {
+      "component": 188,
+      "owner": 0,
+      "box": [
+        398,
+        213,
+        399,
+        214
+      ]
+    },
+    {
+      "component": 189,
+      "owner": 1,
+      "box": [
+        871,
+        213,
+        872,
+        214
+      ]
+    },
+    {
+      "component": 190,
+      "owner": 2,
+      "box": [
+        1282,
+        213,
+        1284,
+        214
+      ]
+    },
+    {
+      "component": 191,
+      "owner": 3,
+      "box": [
+        1728,
+        213,
+        1729,
+        214
+      ]
+    },
+    {
+      "component": 192,
+      "owner": 0,
+      "box": [
+        58,
+        214,
+        59,
+        216
+      ]
+    },
+    {
+      "component": 193,
+      "owner": 1,
+      "box": [
+        872,
+        214,
+        873,
+        215
+      ]
+    },
+    {
+      "component": 194,
+      "owner": 2,
+      "box": [
+        1284,
+        214,
+        1286,
+        215
+      ]
+    },
+    {
+      "component": 195,
+      "owner": 1,
+      "box": [
+        873,
+        215,
+        874,
+        216
+      ]
+    },
+    {
+      "component": 196,
+      "owner": 2,
+      "box": [
+        1287,
+        215,
+        1288,
+        216
+      ]
+    },
+    {
+      "component": 197,
+      "owner": 0,
+      "box": [
+        160,
+        216,
+        161,
+        218
+      ]
+    },
+    {
+      "component": 198,
+      "owner": 2,
+      "box": [
+        918,
+        216,
+        919,
+        220
+      ]
+    },
+    {
+      "component": 199,
+      "owner": 2,
+      "box": [
+        1289,
+        216,
+        1290,
+        217
+      ]
+    },
+    {
+      "component": 200,
+      "owner": 0,
+      "box": [
+        59,
+        218,
+        60,
+        223
+      ]
+    },
+    {
+      "component": 201,
+      "owner": 0,
+      "box": [
+        161,
+        219,
+        162,
+        221
+      ]
+    },
+    {
+      "component": 202,
+      "owner": 1,
+      "box": [
+        878,
+        219,
+        879,
+        220
+      ]
+    },
+    {
+      "component": 203,
+      "owner": 1,
+      "box": [
+        879,
+        220,
+        882,
+        222
+      ]
+    },
+    {
+      "component": 204,
+      "owner": 0,
+      "box": [
+        162,
+        222,
+        163,
+        224
+      ]
+    },
+    {
+      "component": 205,
+      "owner": 1,
+      "box": [
+        882,
+        222,
+        883,
+        223
+      ]
+    },
+    {
+      "component": 206,
+      "owner": 0,
+      "box": [
+        60,
+        223,
+        61,
+        238
+      ]
+    },
+    {
+      "component": 207,
+      "owner": 1,
+      "box": [
+        632,
+        223,
+        633,
+        224
+      ]
+    },
+    {
+      "component": 208,
+      "owner": 1,
+      "box": [
+        883,
+        223,
+        884,
+        224
+      ]
+    },
+    {
+      "component": 209,
+      "owner": 1,
+      "box": [
+        633,
+        225,
+        634,
+        226
+      ]
+    },
+    {
+      "component": 210,
+      "owner": 3,
+      "box": [
+        1514,
+        225,
+        1515,
+        226
+      ]
+    },
+    {
+      "component": 211,
+      "owner": 0,
+      "box": [
+        165,
+        227,
+        166,
+        228
+      ]
+    },
+    {
+      "component": 212,
+      "owner": 1,
+      "box": [
+        634,
+        227,
+        635,
+        228
+      ]
+    },
+    {
+      "component": 213,
+      "owner": 0,
+      "box": [
+        148,
+        231,
+        149,
+        232
+      ]
+    },
+    {
+      "component": 214,
+      "owner": 3,
+      "box": [
+        1502,
+        231,
+        1503,
+        232
+      ]
+    },
+    {
+      "component": 215,
+      "owner": 1,
+      "box": [
+        530,
+        232,
+        531,
+        236
+      ]
+    },
+    {
+      "component": 216,
+      "owner": 0,
+      "box": [
+        149,
+        233,
+        150,
+        234
+      ]
+    },
+    {
+      "component": 217,
+      "owner": 0,
+      "box": [
+        171,
+        233,
+        172,
+        234
+      ]
+    },
+    {
+      "component": 218,
+      "owner": 1,
+      "box": [
+        638,
+        233,
+        639,
+        234
+      ]
+    },
+    {
+      "component": 219,
+      "owner": 3,
+      "box": [
+        1503,
+        233,
+        1504,
+        234
+      ]
+    },
+    {
+      "component": 220,
+      "owner": 3,
+      "box": [
+        1755,
+        233,
+        1756,
+        234
+      ]
+    },
+    {
+      "component": 221,
+      "owner": 3,
+      "box": [
+        1756,
+        234,
+        1757,
+        235
+      ]
+    },
+    {
+      "component": 222,
+      "owner": 0,
+      "box": [
+        150,
+        235,
+        151,
+        236
+      ]
+    },
+    {
+      "component": 223,
+      "owner": 1,
+      "box": [
+        531,
+        236,
+        532,
+        238
+      ]
+    },
+    {
+      "component": 224,
+      "owner": 1,
+      "box": [
+        897,
+        236,
+        898,
+        241
+      ]
+    },
+    {
+      "component": 225,
+      "owner": 2,
+      "box": [
+        1319,
+        237,
+        1320,
+        238
+      ]
+    },
+    {
+      "component": 226,
+      "owner": 3,
+      "box": [
+        1507,
+        237,
+        1508,
+        238
+      ]
+    },
+    {
+      "component": 227,
+      "owner": 0,
+      "box": [
+        429,
+        238,
+        430,
+        239
+      ]
+    },
+    {
+      "component": 228,
+      "owner": 0,
+      "box": [
+        61,
+        239,
+        62,
+        242
+      ]
+    },
+    {
+      "component": 229,
+      "owner": 1,
+      "box": [
+        532,
+        239,
+        533,
+        241
+      ]
+    },
+    {
+      "component": 230,
+      "owner": 2,
+      "box": [
+        1321,
+        239,
+        1322,
+        240
+      ]
+    },
+    {
+      "component": 231,
+      "owner": 2,
+      "box": [
+        1322,
+        240,
+        1323,
+        241
+      ]
+    },
+    {
+      "component": 232,
+      "owner": 2,
+      "box": [
+        931,
+        241,
+        932,
+        242
+      ]
+    },
+    {
+      "component": 233,
+      "owner": 2,
+      "box": [
+        932,
+        242,
+        933,
+        243
+      ]
+    },
+    {
+      "component": 234,
+      "owner": 1,
+      "box": [
+        896,
+        243,
+        897,
+        244
+      ]
+    },
+    {
+      "component": 235,
+      "owner": 2,
+      "box": [
+        933,
+        243,
+        934,
+        244
+      ]
+    },
+    {
+      "component": 236,
+      "owner": 0,
+      "box": [
+        62,
+        244,
+        63,
+        245
+      ]
+    },
+    {
+      "component": 237,
+      "owner": 0,
+      "box": [
+        63,
+        246,
+        64,
+        248
+      ]
+    },
+    {
+      "component": 238,
+      "owner": 3,
+      "box": [
+        1767,
+        246,
+        1768,
+        247
+      ]
+    },
+    {
+      "component": 239,
+      "owner": 1,
+      "box": [
+        642,
+        247,
+        643,
+        248
+      ]
+    },
+    {
+      "component": 240,
+      "owner": 2,
+      "box": [
+        1330,
+        247,
+        1331,
+        248
+      ]
+    },
+    {
+      "component": 241,
+      "owner": 1,
+      "box": [
+        640,
+        248,
+        641,
+        249
+      ]
+    },
+    {
+      "component": 242,
+      "owner": 0,
+      "box": [
+        430,
+        249,
+        431,
+        250
+      ]
+    },
+    {
+      "component": 243,
+      "owner": 1,
+      "box": [
+        535,
+        249,
+        536,
+        250
+      ]
+    },
+    {
+      "component": 244,
+      "owner": 0,
+      "box": [
+        65,
+        250,
+        66,
+        251
+      ]
+    },
+    {
+      "component": 245,
+      "owner": 0,
+      "box": [
+        429,
+        251,
+        430,
+        252
+      ]
+    },
+    {
+      "component": 246,
+      "owner": 3,
+      "box": [
+        1766,
+        251,
+        1767,
+        252
+      ]
+    },
+    {
+      "component": 247,
+      "owner": 0,
+      "box": [
+        428,
+        252,
+        429,
+        253
+      ]
+    },
+    {
+      "component": 248,
+      "owner": 3,
+      "box": [
+        1764,
+        253,
+        1765,
+        254
+      ]
+    },
+    {
+      "component": 249,
+      "owner": 3,
+      "box": [
+        1763,
+        254,
+        1764,
+        256
+      ]
+    },
+    {
+      "component": 250,
+      "owner": 1,
+      "box": [
+        881,
+        257,
+        882,
+        258
+      ]
+    },
+    {
+      "component": 251,
+      "owner": 1,
+      "box": [
+        886,
+        257,
+        887,
+        258
+      ]
+    },
+    {
+      "component": 252,
+      "owner": 2,
+      "box": [
+        959,
+        260,
+        960,
+        261
+      ]
+    },
+    {
+      "component": 253,
+      "owner": 2,
+      "box": [
+        1035,
+        260,
+        1036,
+        261
+      ]
+    },
+    {
+      "component": 254,
+      "owner": 2,
+      "box": [
+        1041,
+        262,
+        1042,
+        263
+      ]
+    },
+    {
+      "component": 255,
+      "owner": 3,
+      "box": [
+        1753,
+        262,
+        1754,
+        263
+      ]
+    },
+    {
+      "component": 256,
+      "owner": 2,
+      "box": [
+        1331,
+        263,
+        1332,
+        265
+      ]
+    },
+    {
+      "component": 257,
+      "owner": 0,
+      "box": [
+        67,
+        265,
+        68,
+        266
+      ]
+    },
+    {
+      "component": 258,
+      "owner": 2,
+      "box": [
+        1330,
+        266,
+        1331,
+        268
+      ]
+    },
+    {
+      "component": 259,
+      "owner": 2,
+      "box": [
+        974,
+        267,
+        975,
+        268
+      ]
+    },
+    {
+      "component": 260,
+      "owner": 2,
+      "box": [
+        1048,
+        267,
+        1049,
+        268
+      ]
+    },
+    {
+      "component": 261,
+      "owner": 2,
+      "box": [
+        1329,
+        269,
+        1330,
+        270
+      ]
+    },
+    {
+      "component": 262,
+      "owner": 1,
+      "box": [
+        884,
+        270,
+        885,
+        271
+      ]
+    },
+    {
+      "component": 263,
+      "owner": 0,
+      "box": [
+        63,
+        272,
+        64,
+        273
+      ]
+    },
+    {
+      "component": 264,
+      "owner": 3,
+      "box": [
+        1742,
+        272,
+        1743,
+        273
+      ]
+    },
+    {
+      "component": 265,
+      "owner": 0,
+      "box": [
+        62,
+        273,
+        63,
+        274
+      ]
+    },
+    {
+      "component": 266,
+      "owner": 2,
+      "box": [
+        1318,
+        273,
+        1320,
+        275
+      ]
+    },
+    {
+      "component": 267,
+      "owner": 0,
+      "box": [
+        419,
+        275,
+        420,
+        276
+      ]
+    },
+    {
+      "component": 268,
+      "owner": 2,
+      "box": [
+        1317,
+        275,
+        1318,
+        276
+      ]
+    },
+    {
+      "component": 269,
+      "owner": 1,
+      "box": [
+        514,
+        278,
+        515,
+        281
+      ]
+    },
+    {
+      "component": 270,
+      "owner": 0,
+      "box": [
+        56,
+        284,
+        57,
+        287
+      ]
+    },
+    {
+      "component": 271,
+      "owner": 2,
+      "box": [
+        1320,
+        286,
+        1321,
+        287
+      ]
+    },
+    {
+      "component": 272,
+      "owner": 0,
+      "box": [
+        55,
+        288,
+        56,
+        292
+      ]
+    },
+    {
+      "component": 273,
+      "owner": 3,
+      "box": [
+        1504,
+        288,
+        1505,
+        290
+      ]
+    },
+    {
+      "component": 274,
+      "owner": 3,
+      "box": [
+        1394,
+        289,
+        1395,
+        290
+      ]
+    },
+    {
+      "component": 275,
+      "owner": 3,
+      "box": [
+        1484,
+        291,
+        1485,
+        292
+      ]
+    },
+    {
+      "component": 276,
+      "owner": 3,
+      "box": [
+        1483,
+        292,
+        1484,
+        293
+      ]
+    },
+    {
+      "component": 277,
+      "owner": 1,
+      "box": [
+        875,
+        293,
+        876,
+        294
+      ]
+    },
+    {
+      "component": 278,
+      "owner": 3,
+      "box": [
+        1482,
+        293,
+        1483,
+        294
+      ]
+    },
+    {
+      "component": 279,
+      "owner": 3,
+      "box": [
+        1481,
+        294,
+        1482,
+        295
+      ]
+    },
+    {
+      "component": 280,
+      "owner": 0,
+      "box": [
+        145,
+        295,
+        146,
+        296
+      ]
+    },
+    {
+      "component": 281,
+      "owner": 1,
+      "box": [
+        871,
+        295,
+        872,
+        296
+      ]
+    },
+    {
+      "component": 282,
+      "owner": 3,
+      "box": [
+        1479,
+        295,
+        1481,
+        297
+      ]
+    },
+    {
+      "component": 283,
+      "owner": 0,
+      "box": [
+        144,
+        296,
+        145,
+        297
+      ]
+    },
+    {
+      "component": 284,
+      "owner": 1,
+      "box": [
+        483,
+        296,
+        484,
+        297
+      ]
+    },
+    {
+      "component": 285,
+      "owner": 1,
+      "box": [
+        869,
+        296,
+        870,
+        297
+      ]
+    },
+    {
+      "component": 286,
+      "owner": 0,
+      "box": [
+        143,
+        297,
+        144,
+        298
+      ]
+    },
+    {
+      "component": 287,
+      "owner": 0,
+      "box": [
+        163,
+        297,
+        164,
+        298
+      ]
+    },
+    {
+      "component": 288,
+      "owner": 1,
+      "box": [
+        867,
+        297,
+        869,
+        298
+      ]
+    },
+    {
+      "component": 289,
+      "owner": 3,
+      "box": [
+        1504,
+        297,
+        1505,
+        298
+      ]
+    },
+    {
+      "component": 290,
+      "owner": 0,
+      "box": [
+        162,
+        298,
+        163,
+        299
+      ]
+    },
+    {
+      "component": 291,
+      "owner": 1,
+      "box": [
+        485,
+        298,
+        486,
+        299
+      ]
+    },
+    {
+      "component": 292,
+      "owner": 1,
+      "box": [
+        625,
+        298,
+        627,
+        299
+      ]
+    },
+    {
+      "component": 293,
+      "owner": 2,
+      "box": [
+        1030,
+        298,
+        1031,
+        299
+      ]
+    },
+    {
+      "component": 294,
+      "owner": 2,
+      "box": [
+        1323,
+        298,
+        1324,
+        299
+      ]
+    },
+    {
+      "component": 295,
+      "owner": 3,
+      "box": [
+        1476,
+        298,
+        1477,
+        299
+      ]
+    },
+    {
+      "component": 296,
+      "owner": 3,
+      "box": [
+        1745,
+        298,
+        1746,
+        299
+      ]
+    },
+    {
+      "component": 297,
+      "owner": 0,
+      "box": [
+        160,
+        299,
+        161,
+        301
+      ]
+    },
+    {
+      "component": 298,
+      "owner": 1,
+      "box": [
+        486,
+        299,
+        487,
+        300
+      ]
+    },
+    {
+      "component": 299,
+      "owner": 1,
+      "box": [
+        863,
+        299,
+        865,
+        300
+      ]
+    },
+    {
+      "component": 300,
+      "owner": 2,
+      "box": [
+        1031,
+        299,
+        1032,
+        300
+      ]
+    },
+    {
+      "component": 301,
+      "owner": 3,
+      "box": [
+        1475,
+        299,
+        1476,
+        300
+      ]
+    },
+    {
+      "component": 302,
+      "owner": 1,
+      "box": [
+        487,
+        300,
+        489,
+        301
+      ]
+    },
+    {
+      "component": 303,
+      "owner": 2,
+      "box": [
+        1322,
+        300,
+        1323,
+        301
+      ]
+    },
+    {
+      "component": 304,
+      "owner": 0,
+      "box": [
+        159,
+        301,
+        160,
+        302
+      ]
+    },
+    {
+      "component": 305,
+      "owner": 3,
+      "box": [
+        1739,
+        301,
+        1740,
+        302
+      ]
+    },
+    {
+      "component": 306,
+      "owner": 0,
+      "box": [
+        158,
+        302,
+        159,
+        303
+      ]
+    },
+    {
+      "component": 307,
+      "owner": 0,
+      "box": [
+        399,
+        302,
+        401,
+        303
+      ]
+    },
+    {
+      "component": 308,
+      "owner": 3,
+      "box": [
+        1737,
+        302,
+        1738,
+        303
+      ]
+    },
+    {
+      "component": 309,
+      "owner": 0,
+      "box": [
+        156,
+        303,
+        157,
+        304
+      ]
+    },
+    {
+      "component": 310,
+      "owner": 0,
+      "box": [
+        397,
+        303,
+        399,
+        304
+      ]
+    },
+    {
+      "component": 311,
+      "owner": 1,
+      "box": [
+        852,
+        303,
+        854,
+        304
+      ]
+    },
+    {
+      "component": 312,
+      "owner": 2,
+      "box": [
+        1033,
+        303,
+        1034,
+        305
+      ]
+    },
+    {
+      "component": 313,
+      "owner": 3,
+      "box": [
+        1734,
+        303,
+        1735,
+        304
+      ]
+    },
+    {
+      "component": 314,
+      "owner": 0,
+      "box": [
+        395,
+        304,
+        396,
+        305
+      ]
+    },
+    {
+      "component": 315,
+      "owner": 1,
+      "box": [
+        624,
+        304,
+        625,
+        305
+      ]
+    },
+    {
+      "component": 316,
+      "owner": 1,
+      "box": [
+        849,
+        304,
+        851,
+        305
+      ]
+    },
+    {
+      "component": 317,
+      "owner": 3,
+      "box": [
+        1732,
+        304,
+        1733,
+        305
+      ]
+    },
+    {
+      "component": 318,
+      "owner": 0,
+      "box": [
+        391,
+        305,
+        393,
+        306
+      ]
+    },
+    {
+      "component": 319,
+      "owner": 1,
+      "box": [
+        845,
+        305,
+        847,
+        306
+      ]
+    },
+    {
+      "component": 320,
+      "owner": 2,
+      "box": [
+        1317,
+        305,
+        1318,
+        306
+      ]
+    },
+    {
+      "component": 321,
+      "owner": 3,
+      "box": [
+        1468,
+        305,
+        1469,
+        306
+      ]
+    },
+    {
+      "component": 322,
+      "owner": 3,
+      "box": [
+        1729,
+        305,
+        1730,
+        306
+      ]
+    },
+    {
+      "component": 323,
+      "owner": 0,
+      "box": [
+        154,
+        306,
+        155,
+        307
+      ]
+    },
+    {
+      "component": 324,
+      "owner": 2,
+      "box": [
+        1315,
+        306,
+        1316,
+        307
+      ]
+    },
+    {
+      "component": 325,
+      "owner": 3,
+      "box": [
+        1385,
+        306,
+        1387,
+        307
+      ]
+    },
+    {
+      "component": 326,
+      "owner": 3,
+      "box": [
+        1467,
+        306,
+        1468,
+        307
+      ]
+    },
+    {
+      "component": 327,
+      "owner": 3,
+      "box": [
+        1726,
+        306,
+        1727,
+        307
+      ]
+    },
+    {
+      "component": 328,
+      "owner": 1,
+      "box": [
+        598,
+        307,
+        599,
+        308
+      ]
+    },
+    {
+      "component": 329,
+      "owner": 1,
+      "box": [
+        836,
+        307,
+        837,
+        308
+      ]
+    },
+    {
+      "component": 330,
+      "owner": 2,
+      "box": [
+        1313,
+        307,
+        1314,
+        308
+      ]
+    },
+    {
+      "component": 331,
+      "owner": 0,
+      "box": [
+        153,
+        308,
+        154,
+        309
+      ]
+    },
+    {
+      "component": 332,
+      "owner": 1,
+      "box": [
+        596,
+        308,
+        597,
+        309
+      ]
+    },
+    {
+      "component": 333,
+      "owner": 1,
+      "box": [
+        832,
+        308,
+        834,
+        309
+      ]
+    },
+    {
+      "component": 334,
+      "owner": 2,
+      "box": [
+        1311,
+        308,
+        1313,
+        309
+      ]
+    },
+    {
+      "component": 335,
+      "owner": 3,
+      "box": [
+        1720,
+        308,
+        1721,
+        309
+      ]
+    },
+    {
+      "component": 336,
+      "owner": 0,
+      "box": [
+        130,
+        309,
+        131,
+        310
+      ]
+    },
+    {
+      "component": 337,
+      "owner": 1,
+      "box": [
+        595,
+        309,
+        596,
+        310
+      ]
+    },
+    {
+      "component": 338,
+      "owner": 1,
+      "box": [
+        621,
+        309,
+        622,
+        311
+      ]
+    },
+    {
+      "component": 339,
+      "owner": 2,
+      "box": [
+        1308,
+        309,
+        1310,
+        310
+      ]
+    },
+    {
+      "component": 340,
+      "owner": 3,
+      "box": [
+        1462,
+        309,
+        1463,
+        310
+      ]
+    },
+    {
+      "component": 341,
+      "owner": 3,
+      "box": [
+        1715,
+        309,
+        1717,
+        310
+      ]
+    },
+    {
+      "component": 342,
+      "owner": 0,
+      "box": [
+        129,
+        310,
+        130,
+        311
+      ]
+    },
+    {
+      "component": 343,
+      "owner": 1,
+      "box": [
+        594,
+        310,
+        595,
+        311
+      ]
+    },
+    {
+      "component": 344,
+      "owner": 1,
+      "box": [
+        828,
+        310,
+        829,
+        311
+      ]
+    },
+    {
+      "component": 345,
+      "owner": 2,
+      "box": [
+        1306,
+        310,
+        1308,
+        311
+      ]
+    },
+    {
+      "component": 346,
+      "owner": 3,
+      "box": [
+        1461,
+        310,
+        1462,
+        311
+      ]
+    },
+    {
+      "component": 347,
+      "owner": 3,
+      "box": [
+        1710,
+        310,
+        1712,
+        311
+      ]
+    },
+    {
+      "component": 348,
+      "owner": 0,
+      "box": [
+        369,
+        311,
+        370,
+        312
+      ]
+    },
+    {
+      "component": 349,
+      "owner": 1,
+      "box": [
+        592,
+        311,
+        594,
+        312
+      ]
+    },
+    {
+      "component": 350,
+      "owner": 1,
+      "box": [
+        826,
+        311,
+        827,
+        312
+      ]
+    },
+    {
+      "component": 351,
+      "owner": 2,
+      "box": [
+        1304,
+        311,
+        1305,
+        312
+      ]
+    },
+    {
+      "component": 352,
+      "owner": 3,
+      "box": [
+        1459,
+        311,
+        1460,
+        312
+      ]
+    },
+    {
+      "component": 353,
+      "owner": 3,
+      "box": [
+        1705,
+        311,
+        1708,
+        312
+      ]
+    },
+    {
+      "component": 354,
+      "owner": 0,
+      "box": [
+        127,
+        312,
+        128,
+        313
+      ]
+    },
+    {
+      "component": 355,
+      "owner": 0,
+      "box": [
+        364,
+        312,
+        367,
+        313
+      ]
+    },
+    {
+      "component": 356,
+      "owner": 1,
+      "box": [
+        591,
+        312,
+        592,
+        313
+      ]
+    },
+    {
+      "component": 357,
+      "owner": 1,
+      "box": [
+        825,
+        312,
+        826,
+        313
+      ]
+    },
+    {
+      "component": 358,
+      "owner": 2,
+      "box": [
+        1301,
+        312,
+        1303,
+        313
+      ]
+    },
+    {
+      "component": 359,
+      "owner": 3,
+      "box": [
+        1458,
+        312,
+        1459,
+        313
+      ]
+    },
+    {
+      "component": 360,
+      "owner": 3,
+      "box": [
+        1703,
+        312,
+        1705,
+        313
+      ]
+    },
+    {
+      "component": 361,
+      "owner": 0,
+      "box": [
+        151,
+        313,
+        152,
+        315
+      ]
+    },
+    {
+      "component": 362,
+      "owner": 0,
+      "box": [
+        362,
+        313,
+        364,
+        314
+      ]
+    },
+    {
+      "component": 363,
+      "owner": 1,
+      "box": [
+        588,
+        313,
+        591,
+        315
+      ]
+    },
+    {
+      "component": 364,
+      "owner": 1,
+      "box": [
+        822,
+        313,
+        824,
+        314
+      ]
+    },
+    {
+      "component": 365,
+      "owner": 2,
+      "box": [
+        1298,
+        313,
+        1301,
+        314
+      ]
+    },
+    {
+      "component": 366,
+      "owner": 3,
+      "box": [
+        1451,
+        313,
+        1457,
+        317
+      ]
+    },
+    {
+      "component": 367,
+      "owner": 3,
+      "box": [
+        1701,
+        313,
+        1702,
+        314
+      ]
+    },
+    {
+      "component": 368,
+      "owner": 0,
+      "box": [
+        358,
+        314,
+        361,
+        316
+      ]
+    },
+    {
+      "component": 369,
+      "owner": 1,
+      "box": [
+        821,
+        314,
+        822,
+        315
+      ]
+    },
+    {
+      "component": 370,
+      "owner": 2,
+      "box": [
+        1295,
+        314,
+        1297,
+        315
+      ]
+    },
+    {
+      "component": 371,
+      "owner": 3,
+      "box": [
+        1376,
+        314,
+        1377,
+        315
+      ]
+    },
+    {
+      "component": 372,
+      "owner": 0,
+      "box": [
+        45,
+        315,
+        46,
+        316
+      ]
+    },
+    {
+      "component": 373,
+      "owner": 1,
+      "box": [
+        587,
+        315,
+        588,
+        316
+      ]
+    },
+    {
+      "component": 374,
+      "owner": 1,
+      "box": [
+        819,
+        315,
+        820,
+        316
+      ]
+    },
+    {
+      "component": 375,
+      "owner": 2,
+      "box": [
+        1291,
+        315,
+        1294,
+        316
+      ]
+    },
+    {
+      "component": 376,
+      "owner": 3,
+      "box": [
+        1377,
+        315,
+        1380,
+        317
+      ]
+    },
+    {
+      "component": 377,
+      "owner": 3,
+      "box": [
+        1697,
+        315,
+        1698,
+        316
+      ]
+    },
+    {
+      "component": 378,
+      "owner": 0,
+      "box": [
+        150,
+        316,
+        151,
+        327
+      ]
+    },
+    {
+      "component": 379,
+      "owner": 0,
+      "box": [
+        356,
+        316,
+        357,
+        317
+      ]
+    },
+    {
+      "component": 380,
+      "owner": 1,
+      "box": [
+        585,
+        316,
+        587,
+        317
+      ]
+    },
+    {
+      "component": 381,
+      "owner": 1,
+      "box": [
+        816,
+        316,
+        818,
+        317
+      ]
+    },
+    {
+      "component": 382,
+      "owner": 2,
+      "box": [
+        1287,
+        316,
+        1290,
+        317
+      ]
+    },
+    {
+      "component": 383,
+      "owner": 3,
+      "box": [
+        1694,
+        316,
+        1696,
+        317
+      ]
+    },
+    {
+      "component": 384,
+      "owner": 0,
+      "box": [
+        351,
+        317,
+        355,
+        319
+      ]
+    },
+    {
+      "component": 385,
+      "owner": 1,
+      "box": [
+        584,
+        317,
+        585,
+        318
+      ]
+    },
+    {
+      "component": 386,
+      "owner": 1,
+      "box": [
+        814,
+        317,
+        816,
+        318
+      ]
+    },
+    {
+      "component": 387,
+      "owner": 2,
+      "box": [
+        1281,
+        317,
+        1286,
+        318
+      ]
+    },
+    {
+      "component": 388,
+      "owner": 3,
+      "box": [
+        1380,
+        317,
+        1382,
+        318
+      ]
+    },
+    {
+      "component": 389,
+      "owner": 3,
+      "box": [
+        1692,
+        317,
+        1694,
+        318
+      ]
+    },
+    {
+      "component": 390,
+      "owner": 1,
+      "box": [
+        811,
+        318,
+        813,
+        319
+      ]
+    },
+    {
+      "component": 391,
+      "owner": 2,
+      "box": [
+        1275,
+        318,
+        1280,
+        319
+      ]
+    },
+    {
+      "component": 392,
+      "owner": 3,
+      "box": [
+        1382,
+        318,
+        1384,
+        319
+      ]
+    },
+    {
+      "component": 393,
+      "owner": 3,
+      "box": [
+        1690,
+        318,
+        1692,
+        319
+      ]
+    },
+    {
+      "component": 394,
+      "owner": 0,
+      "box": [
+        349,
+        319,
+        351,
+        320
+      ]
+    },
+    {
+      "component": 395,
+      "owner": 1,
+      "box": [
+        581,
+        319,
+        582,
+        320
+      ]
+    },
+    {
+      "component": 396,
+      "owner": 1,
+      "box": [
+        809,
+        319,
+        811,
+        320
+      ]
+    },
+    {
+      "component": 397,
+      "owner": 2,
+      "box": [
+        1270,
+        319,
+        1275,
+        320
+      ]
+    },
+    {
+      "component": 398,
+      "owner": 3,
+      "box": [
+        1384,
+        319,
+        1385,
+        320
+      ]
+    },
+    {
+      "component": 399,
+      "owner": 3,
+      "box": [
+        1688,
+        319,
+        1689,
+        320
+      ]
+    },
+    {
+      "component": 400,
+      "owner": 0,
+      "box": [
+        347,
+        320,
+        349,
+        321
+      ]
+    },
+    {
+      "component": 401,
+      "owner": 1,
+      "box": [
+        580,
+        320,
+        581,
+        321
+      ]
+    },
+    {
+      "component": 402,
+      "owner": 1,
+      "box": [
+        806,
+        320,
+        808,
+        321
+      ]
+    },
+    {
+      "component": 403,
+      "owner": 2,
+      "box": [
+        1268,
+        320,
+        1270,
+        321
+      ]
+    },
+    {
+      "component": 404,
+      "owner": 3,
+      "box": [
+        1386,
+        320,
+        1387,
+        321
+      ]
+    },
+    {
+      "component": 405,
+      "owner": 3,
+      "box": [
+        1685,
+        320,
+        1687,
+        321
+      ]
+    },
+    {
+      "component": 406,
+      "owner": 0,
+      "box": [
+        345,
+        321,
+        346,
+        322
+      ]
+    },
+    {
+      "component": 407,
+      "owner": 1,
+      "box": [
+        804,
+        321,
+        806,
+        322
+      ]
+    },
+    {
+      "component": 408,
+      "owner": 2,
+      "box": [
+        1266,
+        321,
+        1268,
+        322
+      ]
+    },
+    {
+      "component": 409,
+      "owner": 3,
+      "box": [
+        1388,
+        321,
+        1389,
+        322
+      ]
+    },
+    {
+      "component": 410,
+      "owner": 3,
+      "box": [
+        1438,
+        321,
+        1441,
+        322
+      ]
+    },
+    {
+      "component": 411,
+      "owner": 3,
+      "box": [
+        1683,
+        321,
+        1685,
+        322
+      ]
+    },
+    {
+      "component": 412,
+      "owner": 0,
+      "box": [
+        342,
+        322,
+        344,
+        323
+      ]
+    },
+    {
+      "component": 413,
+      "owner": 1,
+      "box": [
+        577,
+        322,
+        578,
+        323
+      ]
+    },
+    {
+      "component": 414,
+      "owner": 1,
+      "box": [
+        800,
+        322,
+        804,
+        329
+      ]
+    },
+    {
+      "component": 415,
+      "owner": 2,
+      "box": [
+        1108,
+        322,
+        1109,
+        323
+      ]
+    },
+    {
+      "component": 416,
+      "owner": 2,
+      "box": [
+        1263,
+        322,
+        1265,
+        323
+      ]
+    },
+    {
+      "component": 417,
+      "owner": 3,
+      "box": [
+        1390,
+        322,
+        1393,
+        323
+      ]
+    },
+    {
+      "component": 418,
+      "owner": 3,
+      "box": [
+        1436,
+        322,
+        1437,
+        323
+      ]
+    },
+    {
+      "component": 419,
+      "owner": 0,
+      "box": [
+        114,
+        323,
+        115,
+        324
+      ]
+    },
+    {
+      "component": 420,
+      "owner": 0,
+      "box": [
+        339,
+        323,
+        341,
+        324
+      ]
+    },
+    {
+      "component": 421,
+      "owner": 1,
+      "box": [
+        494,
+        323,
+        495,
+        324
+      ]
+    },
+    {
+      "component": 422,
+      "owner": 1,
+      "box": [
+        575,
+        323,
+        576,
+        324
+      ]
+    },
+    {
+      "component": 423,
+      "owner": 2,
+      "box": [
+        1103,
+        323,
+        1104,
+        324
+      ]
+    },
+    {
+      "component": 424,
+      "owner": 2,
+      "box": [
+        1110,
+        323,
+        1111,
+        324
+      ]
+    },
+    {
+      "component": 425,
+      "owner": 2,
+      "box": [
+        1261,
+        323,
+        1262,
+        324
+      ]
+    },
+    {
+      "component": 426,
+      "owner": 3,
+      "box": [
+        1394,
+        323,
+        1397,
+        324
+      ]
+    },
+    {
+      "component": 427,
+      "owner": 3,
+      "box": [
+        1430,
+        323,
+        1433,
+        324
+      ]
+    },
+    {
+      "component": 428,
+      "owner": 0,
+      "box": [
+        24,
+        324,
+        25,
+        325
+      ]
+    },
+    {
+      "component": 429,
+      "owner": 0,
+      "box": [
+        113,
+        324,
+        114,
+        325
+      ]
+    },
+    {
+      "component": 430,
+      "owner": 0,
+      "box": [
+        221,
+        324,
+        224,
+        325
+      ]
+    },
+    {
+      "component": 431,
+      "owner": 1,
+      "box": [
+        495,
+        324,
+        496,
+        325
+      ]
+    },
+    {
+      "component": 432,
+      "owner": 1,
+      "box": [
+        573,
+        324,
+        575,
+        325
+      ]
+    },
+    {
+      "component": 433,
+      "owner": 2,
+      "box": [
+        1101,
+        324,
+        1102,
+        325
+      ]
+    },
+    {
+      "component": 434,
+      "owner": 2,
+      "box": [
+        1259,
+        324,
+        1260,
+        325
+      ]
+    },
+    {
+      "component": 435,
+      "owner": 3,
+      "box": [
+        1399,
+        324,
+        1405,
+        325
+      ]
+    },
+    {
+      "component": 436,
+      "owner": 3,
+      "box": [
+        1424,
+        324,
+        1428,
+        325
+      ]
+    },
+    {
+      "component": 437,
+      "owner": 3,
+      "box": [
+        1564,
+        324,
+        1567,
+        325
+      ]
+    },
+    {
+      "component": 438,
+      "owner": 0,
+      "box": [
+        111,
+        325,
+        113,
+        326
+      ]
+    },
+    {
+      "component": 439,
+      "owner": 0,
+      "box": [
+        224,
+        325,
+        230,
+        327
+      ]
+    },
+    {
+      "component": 440,
+      "owner": 1,
+      "box": [
+        496,
+        325,
+        497,
+        326
+      ]
+    },
+    {
+      "component": 441,
+      "owner": 1,
+      "box": [
+        571,
+        325,
+        573,
+        326
+      ]
+    },
+    {
+      "component": 442,
+      "owner": 2,
+      "box": [
+        1032,
+        325,
+        1033,
+        326
+      ]
+    },
+    {
+      "component": 443,
+      "owner": 2,
+      "box": [
+        1100,
+        325,
+        1101,
+        326
+      ]
+    },
+    {
+      "component": 444,
+      "owner": 2,
+      "box": [
+        1115,
+        325,
+        1117,
+        326
+      ]
+    },
+    {
+      "component": 445,
+      "owner": 2,
+      "box": [
+        1256,
+        325,
+        1257,
+        326
+      ]
+    },
+    {
+      "component": 446,
+      "owner": 3,
+      "box": [
+        1408,
+        325,
+        1421,
+        326
+      ]
+    },
+    {
+      "component": 447,
+      "owner": 3,
+      "box": [
+        1562,
+        325,
+        1563,
+        326
+      ]
+    },
+    {
+      "component": 448,
+      "owner": 3,
+      "box": [
+        1568,
+        325,
+        1570,
+        326
+      ]
+    },
+    {
+      "component": 449,
+      "owner": 0,
+      "box": [
+        110,
+        326,
+        111,
+        327
+      ]
+    },
+    {
+      "component": 450,
+      "owner": 1,
+      "box": [
+        498,
+        326,
+        499,
+        327
+      ]
+    },
+    {
+      "component": 451,
+      "owner": 1,
+      "box": [
+        569,
+        326,
+        571,
+        327
+      ]
+    },
+    {
+      "component": 452,
+      "owner": 1,
+      "box": [
+        693,
+        326,
+        705,
+        327
+      ]
+    },
+    {
+      "component": 453,
+      "owner": 2,
+      "box": [
+        1031,
+        326,
+        1032,
+        327
+      ]
+    },
+    {
+      "component": 454,
+      "owner": 2,
+      "box": [
+        1099,
+        326,
+        1100,
+        327
+      ]
+    },
+    {
+      "component": 455,
+      "owner": 2,
+      "box": [
+        1118,
+        326,
+        1119,
+        327
+      ]
+    },
+    {
+      "component": 456,
+      "owner": 2,
+      "box": [
+        1253,
+        326,
+        1255,
+        327
+      ]
+    },
+    {
+      "component": 457,
+      "owner": 3,
+      "box": [
+        1571,
+        326,
+        1573,
+        327
+      ]
+    },
+    {
+      "component": 458,
+      "owner": 3,
+      "box": [
+        1681,
+        326,
+        1682,
+        328
+      ]
+    },
+    {
+      "component": 459,
+      "owner": 0,
+      "box": [
+        26,
+        327,
+        27,
+        328
+      ]
+    },
+    {
+      "component": 460,
+      "owner": 1,
+      "box": [
+        499,
+        327,
+        500,
+        328
+      ]
+    },
+    {
+      "component": 461,
+      "owner": 1,
+      "box": [
+        567,
+        327,
+        569,
+        328
+      ]
+    },
+    {
+      "component": 462,
+      "owner": 1,
+      "box": [
+        706,
+        327,
+        712,
+        328
+      ]
+    },
+    {
+      "component": 463,
+      "owner": 2,
+      "box": [
+        1029,
+        327,
+        1030,
+        328
+      ]
+    },
+    {
+      "component": 464,
+      "owner": 2,
+      "box": [
+        1098,
+        327,
+        1099,
+        328
+      ]
+    },
+    {
+      "component": 465,
+      "owner": 2,
+      "box": [
+        1120,
+        327,
+        1122,
+        328
+      ]
+    },
+    {
+      "component": 466,
+      "owner": 2,
+      "box": [
+        1251,
+        327,
+        1252,
+        328
+      ]
+    },
+    {
+      "component": 467,
+      "owner": 3,
+      "box": [
+        1574,
+        327,
+        1577,
+        328
+      ]
+    },
+    {
+      "component": 468,
+      "owner": 0,
+      "box": [
+        27,
+        328,
+        28,
+        329
+      ]
+    },
+    {
+      "component": 469,
+      "owner": 1,
+      "box": [
+        563,
+        328,
+        567,
+        330
+      ]
+    },
+    {
+      "component": 470,
+      "owner": 1,
+      "box": [
+        712,
+        328,
+        720,
+        329
+      ]
+    },
+    {
+      "component": 471,
+      "owner": 2,
+      "box": [
+        1026,
+        328,
+        1028,
+        329
+      ]
+    },
+    {
+      "component": 472,
+      "owner": 2,
+      "box": [
+        1096,
+        328,
+        1098,
+        329
+      ]
+    },
+    {
+      "component": 473,
+      "owner": 2,
+      "box": [
+        1123,
+        328,
+        1125,
+        329
+      ]
+    },
+    {
+      "component": 474,
+      "owner": 2,
+      "box": [
+        1248,
+        328,
+        1250,
+        329
+      ]
+    },
+    {
+      "component": 475,
+      "owner": 3,
+      "box": [
+        1577,
+        328,
+        1581,
+        329
+      ]
+    },
+    {
+      "component": 476,
+      "owner": 0,
+      "box": [
+        28,
+        329,
+        29,
+        330
+      ]
+    },
+    {
+      "component": 477,
+      "owner": 0,
+      "box": [
+        104,
+        329,
+        107,
+        331
+      ]
+    },
+    {
+      "component": 478,
+      "owner": 1,
+      "box": [
+        799,
+        329,
+        800,
+        332
+      ]
+    },
+    {
+      "component": 479,
+      "owner": 2,
+      "box": [
+        1126,
+        329,
+        1128,
+        330
+      ]
+    },
+    {
+      "component": 480,
+      "owner": 2,
+      "box": [
+        1245,
+        329,
+        1248,
+        330
+      ]
+    },
+    {
+      "component": 481,
+      "owner": 3,
+      "box": [
+        1581,
+        329,
+        1586,
+        330
+      ]
+    },
+    {
+      "component": 482,
+      "owner": 0,
+      "box": [
+        29,
+        330,
+        30,
+        331
+      ]
+    },
+    {
+      "component": 483,
+      "owner": 1,
+      "box": [
+        503,
+        330,
+        505,
+        331
+      ]
+    },
+    {
+      "component": 484,
+      "owner": 1,
+      "box": [
+        561,
+        330,
+        563,
+        331
+      ]
+    },
+    {
+      "component": 485,
+      "owner": 1,
+      "box": [
+        691,
+        330,
+        692,
+        331
+      ]
+    },
+    {
+      "component": 486,
+      "owner": 2,
+      "box": [
+        1128,
+        330,
+        1130,
+        331
+      ]
+    },
+    {
+      "component": 487,
+      "owner": 2,
+      "box": [
+        1243,
+        330,
+        1245,
+        331
+      ]
+    },
+    {
+      "component": 488,
+      "owner": 3,
+      "box": [
+        1587,
+        330,
+        1593,
+        331
+      ]
+    },
+    {
+      "component": 489,
+      "owner": 3,
+      "box": [
+        1682,
+        330,
+        1683,
+        331
+      ]
+    },
+    {
+      "component": 490,
+      "owner": 0,
+      "box": [
+        31,
+        331,
+        32,
+        332
+      ]
+    },
+    {
+      "component": 491,
+      "owner": 0,
+      "box": [
+        102,
+        331,
+        104,
+        332
+      ]
+    },
+    {
+      "component": 492,
+      "owner": 0,
+      "box": [
+        237,
+        331,
+        239,
+        333
+      ]
+    },
+    {
+      "component": 493,
+      "owner": 1,
+      "box": [
+        687,
+        331,
+        688,
+        332
+      ]
+    },
+    {
+      "component": 494,
+      "owner": 2,
+      "box": [
+        1130,
+        331,
+        1133,
+        332
+      ]
+    },
+    {
+      "component": 495,
+      "owner": 2,
+      "box": [
+        1240,
+        331,
+        1242,
+        332
+      ]
+    },
+    {
+      "component": 496,
+      "owner": 0,
+      "box": [
+        32,
+        332,
+        33,
+        333
+      ]
+    },
+    {
+      "component": 497,
+      "owner": 0,
+      "box": [
+        100,
+        332,
+        102,
+        333
+      ]
+    },
+    {
+      "component": 498,
+      "owner": 1,
+      "box": [
+        798,
+        332,
+        799,
+        335
+      ]
+    },
+    {
+      "component": 499,
+      "owner": 2,
+      "box": [
+        1133,
+        332,
+        1137,
+        333
+      ]
+    },
+    {
+      "component": 500,
+      "owner": 2,
+      "box": [
+        1237,
+        332,
+        1240,
+        333
+      ]
+    },
+    {
+      "component": 501,
+      "owner": 0,
+      "box": [
+        33,
+        333,
+        34,
+        334
+      ]
+    },
+    {
+      "component": 502,
+      "owner": 0,
+      "box": [
+        235,
+        333,
+        236,
+        334
+      ]
+    },
+    {
+      "component": 503,
+      "owner": 2,
+      "box": [
+        1137,
+        333,
+        1146,
+        335
+      ]
+    },
+    {
+      "component": 504,
+      "owner": 2,
+      "box": [
+        1232,
+        333,
+        1236,
+        334
+      ]
+    },
+    {
+      "component": 505,
+      "owner": 3,
+      "box": [
+        1594,
+        333,
+        1595,
+        334
+      ]
+    },
+    {
+      "component": 506,
+      "owner": 3,
+      "box": [
+        1682,
+        333,
+        1683,
+        334
+      ]
+    },
+    {
+      "component": 507,
+      "owner": 0,
+      "box": [
+        35,
+        334,
+        36,
+        335
+      ]
+    },
+    {
+      "component": 508,
+      "owner": 2,
+      "box": [
+        1090,
+        334,
+        1091,
+        335
+      ]
+    },
+    {
+      "component": 509,
+      "owner": 3,
+      "box": [
+        1496,
+        334,
+        1497,
+        341
+      ]
+    },
+    {
+      "component": 510,
+      "owner": 3,
+      "box": [
+        1593,
+        334,
+        1594,
+        335
+      ]
+    },
+    {
+      "component": 511,
+      "owner": 0,
+      "box": [
+        36,
+        335,
+        37,
+        336
+      ]
+    },
+    {
+      "component": 512,
+      "owner": 0,
+      "box": [
+        233,
+        335,
+        234,
+        336
+      ]
+    },
+    {
+      "component": 513,
+      "owner": 1,
+      "box": [
+        797,
+        335,
+        798,
+        337
+      ]
+    },
+    {
+      "component": 514,
+      "owner": 2,
+      "box": [
+        1023,
+        335,
+        1024,
+        336
+      ]
+    },
+    {
+      "component": 515,
+      "owner": 0,
+      "box": [
+        37,
+        336,
+        39,
+        337
+      ]
+    },
+    {
+      "component": 516,
+      "owner": 0,
+      "box": [
+        231,
+        336,
+        232,
+        337
+      ]
+    },
+    {
+      "component": 517,
+      "owner": 2,
+      "box": [
+        1024,
+        336,
+        1026,
+        337
+      ]
+    },
+    {
+      "component": 518,
+      "owner": 3,
+      "box": [
+        1591,
+        336,
+        1592,
+        337
+      ]
+    },
+    {
+      "component": 519,
+      "owner": 0,
+      "box": [
+        39,
+        337,
+        41,
+        338
+      ]
+    },
+    {
+      "component": 520,
+      "owner": 2,
+      "box": [
+        1026,
+        337,
+        1027,
+        338
+      ]
+    },
+    {
+      "component": 521,
+      "owner": 3,
+      "box": [
+        1590,
+        337,
+        1591,
+        338
+      ]
+    },
+    {
+      "component": 522,
+      "owner": 0,
+      "box": [
+        42,
+        338,
+        44,
+        339
+      ]
+    },
+    {
+      "component": 523,
+      "owner": 0,
+      "box": [
+        229,
+        338,
+        230,
+        339
+      ]
+    },
+    {
+      "component": 524,
+      "owner": 1,
+      "box": [
+        678,
+        338,
+        679,
+        339
+      ]
+    },
+    {
+      "component": 525,
+      "owner": 1,
+      "box": [
+        796,
+        338,
+        797,
+        339
+      ]
+    },
+    {
+      "component": 526,
+      "owner": 2,
+      "box": [
+        1079,
+        338,
+        1080,
+        339
+      ]
+    },
+    {
+      "component": 527,
+      "owner": 3,
+      "box": [
+        1548,
+        338,
+        1549,
+        339
+      ]
+    },
+    {
+      "component": 528,
+      "owner": 3,
+      "box": [
+        1589,
+        338,
+        1590,
+        339
+      ]
+    },
+    {
+      "component": 529,
+      "owner": 0,
+      "box": [
+        45,
+        339,
+        47,
+        340
+      ]
+    },
+    {
+      "component": 530,
+      "owner": 0,
+      "box": [
+        84,
+        339,
+        87,
+        340
+      ]
+    },
+    {
+      "component": 531,
+      "owner": 1,
+      "box": [
+        677,
+        339,
+        678,
+        340
+      ]
+    },
+    {
+      "component": 532,
+      "owner": 2,
+      "box": [
+        1030,
+        339,
+        1031,
+        340
+      ]
+    },
+    {
+      "component": 533,
+      "owner": 2,
+      "box": [
+        1075,
+        339,
+        1078,
+        340
+      ]
+    },
+    {
+      "component": 534,
+      "owner": 2,
+      "box": [
+        1228,
+        339,
+        1229,
+        342
+      ]
+    },
+    {
+      "component": 535,
+      "owner": 3,
+      "box": [
+        1547,
+        339,
+        1548,
+        340
+      ]
+    },
+    {
+      "component": 536,
+      "owner": 0,
+      "box": [
+        48,
+        340,
+        51,
+        341
+      ]
+    },
+    {
+      "component": 537,
+      "owner": 0,
+      "box": [
+        79,
+        340,
+        83,
+        341
+      ]
+    },
+    {
+      "component": 538,
+      "owner": 0,
+      "box": [
+        227,
+        340,
+        228,
+        341
+      ]
+    },
+    {
+      "component": 539,
+      "owner": 1,
+      "box": [
+        675,
+        340,
+        676,
+        341
+      ]
+    },
+    {
+      "component": 540,
+      "owner": 1,
+      "box": [
+        720,
+        340,
+        721,
+        341
+      ]
+    },
+    {
+      "component": 541,
+      "owner": 1,
+      "box": [
+        795,
+        340,
+        796,
+        341
+      ]
+    },
+    {
+      "component": 542,
+      "owner": 2,
+      "box": [
+        1032,
+        340,
+        1034,
+        341
+      ]
+    },
+    {
+      "component": 543,
+      "owner": 2,
+      "box": [
+        1072,
+        340,
+        1075,
+        341
+      ]
+    },
+    {
+      "component": 544,
+      "owner": 3,
+      "box": [
+        1545,
+        340,
+        1546,
+        341
+      ]
+    },
+    {
+      "component": 545,
+      "owner": 0,
+      "box": [
+        52,
+        341,
+        57,
+        342
+      ]
+    },
+    {
+      "component": 546,
+      "owner": 0,
+      "box": [
+        74,
+        341,
+        78,
+        342
+      ]
+    },
+    {
+      "component": 547,
+      "owner": 0,
+      "box": [
+        226,
+        341,
+        227,
+        342
+      ]
+    },
+    {
+      "component": 548,
+      "owner": 1,
+      "box": [
+        673,
+        341,
+        675,
+        342
+      ]
+    },
+    {
+      "component": 549,
+      "owner": 1,
+      "box": [
+        719,
+        341,
+        720,
+        342
+      ]
+    },
+    {
+      "component": 550,
+      "owner": 2,
+      "box": [
+        1035,
+        341,
+        1038,
+        342
+      ]
+    },
+    {
+      "component": 551,
+      "owner": 2,
+      "box": [
+        1067,
+        341,
+        1070,
+        342
+      ]
+    },
+    {
+      "component": 552,
+      "owner": 3,
+      "box": [
+        1544,
+        341,
+        1545,
+        342
+      ]
+    },
+    {
+      "component": 553,
+      "owner": 0,
+      "box": [
+        61,
+        342,
+        71,
+        343
+      ]
+    },
+    {
+      "component": 554,
+      "owner": 1,
+      "box": [
+        672,
+        342,
+        673,
+        343
+      ]
+    },
+    {
+      "component": 555,
+      "owner": 2,
+      "box": [
+        1039,
+        342,
+        1043,
+        343
+      ]
+    },
+    {
+      "component": 556,
+      "owner": 2,
+      "box": [
+        1062,
+        342,
+        1066,
+        343
+      ]
+    },
+    {
+      "component": 557,
+      "owner": 3,
+      "box": [
+        1542,
+        342,
+        1543,
+        343
+      ]
+    },
+    {
+      "component": 558,
+      "owner": 3,
+      "box": [
+        1683,
+        342,
+        1684,
+        343
+      ]
+    },
+    {
+      "component": 559,
+      "owner": 1,
+      "box": [
+        670,
+        343,
+        672,
+        344
+      ]
+    },
+    {
+      "component": 560,
+      "owner": 2,
+      "box": [
+        1043,
+        343,
+        1060,
+        344
+      ]
+    },
+    {
+      "component": 561,
+      "owner": 2,
+      "box": [
+        1227,
+        343,
+        1228,
+        347
+      ]
+    },
+    {
+      "component": 562,
+      "owner": 3,
+      "box": [
+        1539,
+        343,
+        1542,
+        345
+      ]
+    },
+    {
+      "component": 563,
+      "owner": 1,
+      "box": [
+        669,
+        344,
+        670,
+        345
+      ]
+    },
+    {
+      "component": 564,
+      "owner": 1,
+      "box": [
+        667,
+        345,
+        668,
+        346
+      ]
+    },
+    {
+      "component": 565,
+      "owner": 2,
+      "box": [
+        1158,
+        345,
+        1159,
+        346
+      ]
+    },
+    {
+      "component": 566,
+      "owner": 1,
+      "box": [
+        665,
+        346,
+        667,
+        347
+      ]
+    },
+    {
+      "component": 567,
+      "owner": 2,
+      "box": [
+        1157,
+        346,
+        1158,
+        348
+      ]
+    },
+    {
+      "component": 568,
+      "owner": 0,
+      "box": [
+        144,
+        347,
+        145,
+        348
+      ]
+    },
+    {
+      "component": 569,
+      "owner": 0,
+      "box": [
+        193,
+        347,
+        194,
+        348
+      ]
+    },
+    {
+      "component": 570,
+      "owner": 1,
+      "box": [
+        663,
+        347,
+        665,
+        348
+      ]
+    },
+    {
+      "component": 571,
+      "owner": 2,
+      "box": [
+        1225,
+        347,
+        1227,
+        352
+      ]
+    },
+    {
+      "component": 572,
+      "owner": 3,
+      "box": [
+        1493,
+        347,
+        1494,
+        349
+      ]
+    },
+    {
+      "component": 573,
+      "owner": 3,
+      "box": [
+        1534,
+        347,
+        1536,
+        348
+      ]
+    },
+    {
+      "component": 574,
+      "owner": 0,
+      "box": [
+        143,
+        348,
+        144,
+        349
+      ]
+    },
+    {
+      "component": 575,
+      "owner": 0,
+      "box": [
+        333,
+        348,
+        334,
+        352
+      ]
+    },
+    {
+      "component": 576,
+      "owner": 1,
+      "box": [
+        661,
+        348,
+        663,
+        349
+      ]
+    },
+    {
+      "component": 577,
+      "owner": 1,
+      "box": [
+        716,
+        348,
+        717,
+        349
+      ]
+    },
+    {
+      "component": 578,
+      "owner": 3,
+      "box": [
+        1532,
+        348,
+        1534,
+        349
+      ]
+    },
+    {
+      "component": 579,
+      "owner": 3,
+      "box": [
+        1492,
+        349,
+        1493,
+        350
+      ]
+    },
+    {
+      "component": 580,
+      "owner": 3,
+      "box": [
+        1491,
+        350,
+        1492,
+        351
+      ]
+    },
+    {
+      "component": 581,
+      "owner": 3,
+      "box": [
+        1682,
+        350,
+        1683,
+        353
+      ]
+    },
+    {
+      "component": 582,
+      "owner": 0,
+      "box": [
+        332,
+        352,
+        333,
+        355
+      ]
+    },
+    {
+      "component": 583,
+      "owner": 1,
+      "box": [
+        648,
+        353,
+        650,
+        354
+      ]
+    },
+    {
+      "component": 584,
+      "owner": 0,
+      "box": [
+        178,
+        354,
+        180,
+        355
+      ]
+    },
+    {
+      "component": 585,
+      "owner": 1,
+      "box": [
+        645,
+        354,
+        647,
+        355
+      ]
+    },
+    {
+      "component": 586,
+      "owner": 3,
+      "box": [
+        1518,
+        354,
+        1521,
+        355
+      ]
+    },
+    {
+      "component": 587,
+      "owner": 0,
+      "box": [
+        331,
+        355,
+        332,
+        358
+      ]
+    },
+    {
+      "component": 588,
+      "owner": 1,
+      "box": [
+        617,
+        355,
+        620,
+        356
+      ]
+    },
+    {
+      "component": 589,
+      "owner": 1,
+      "box": [
+        639,
+        355,
+        642,
+        356
+      ]
+    },
+    {
+      "component": 590,
+      "owner": 3,
+      "box": [
+        1515,
+        355,
+        1517,
+        356
+      ]
+    },
+    {
+      "component": 591,
+      "owner": 0,
+      "box": [
+        141,
+        356,
+        143,
+        357
+      ]
+    },
+    {
+      "component": 592,
+      "owner": 0,
+      "box": [
+        170,
+        356,
+        173,
+        357
+      ]
+    },
+    {
+      "component": 593,
+      "owner": 0,
+      "box": [
+        221,
+        356,
+        222,
+        357
+      ]
+    },
+    {
+      "component": 594,
+      "owner": 1,
+      "box": [
+        623,
+        356,
+        635,
+        357
+      ]
+    },
+    {
+      "component": 595,
+      "owner": 1,
+      "box": [
+        784,
+        356,
+        785,
+        357
+      ]
+    },
+    {
+      "component": 596,
+      "owner": 3,
+      "box": [
+        1509,
+        356,
+        1513,
+        357
+      ]
+    },
+    {
+      "component": 597,
+      "owner": 3,
+      "box": [
+        1681,
+        356,
+        1682,
+        357
+      ]
+    },
+    {
+      "component": 598,
+      "owner": 0,
+      "box": [
+        144,
+        357,
+        147,
+        358
+      ]
+    },
+    {
+      "component": 599,
+      "owner": 0,
+      "box": [
+        163,
+        357,
+        168,
+        358
+      ]
+    },
+    {
+      "component": 600,
+      "owner": 2,
+      "box": [
+        1221,
+        357,
+        1222,
+        359
+      ]
+    },
+    {
+      "component": 601,
+      "owner": 3,
+      "box": [
+        1491,
+        357,
+        1507,
+        358
+      ]
+    },
+    {
+      "component": 602,
+      "owner": 0,
+      "box": [
+        152,
+        358,
+        158,
+        359
+      ]
+    },
+    {
+      "component": 603,
+      "owner": 0,
+      "box": [
+        330,
+        358,
+        331,
+        360
+      ]
+    },
+    {
+      "component": 604,
+      "owner": 1,
+      "box": [
+        717,
+        358,
+        718,
+        359
+      ]
+    },
+    {
+      "component": 605,
+      "owner": 2,
+      "box": [
+        1220,
+        359,
+        1221,
+        361
+      ]
+    },
+    {
+      "component": 606,
+      "owner": 0,
+      "box": [
+        329,
+        360,
+        330,
+        362
+      ]
+    },
+    {
+      "component": 607,
+      "owner": 1,
+      "box": [
+        780,
+        360,
+        781,
+        361
+      ]
+    },
+    {
+      "component": 608,
+      "owner": 1,
+      "box": [
+        718,
+        361,
+        719,
+        365
+      ]
+    },
+    {
+      "component": 609,
+      "owner": 2,
+      "box": [
+        1219,
+        361,
+        1220,
+        362
+      ]
+    },
+    {
+      "component": 610,
+      "owner": 0,
+      "box": [
+        328,
+        362,
+        329,
+        364
+      ]
+    },
+    {
+      "component": 611,
+      "owner": 2,
+      "box": [
+        1218,
+        362,
+        1219,
+        364
+      ]
+    },
+    {
+      "component": 612,
+      "owner": 3,
+      "box": [
+        1679,
+        362,
+        1680,
+        363
+      ]
+    },
+    {
+      "component": 613,
+      "owner": 0,
+      "box": [
+        327,
+        364,
+        328,
+        366
+      ]
+    },
+    {
+      "component": 614,
+      "owner": 2,
+      "box": [
+        1217,
+        364,
+        1218,
+        365
+      ]
+    },
+    {
+      "component": 615,
+      "owner": 1,
+      "box": [
+        774,
+        365,
+        775,
+        366
+      ]
+    },
+    {
+      "component": 616,
+      "owner": 2,
+      "box": [
+        1216,
+        365,
+        1217,
+        367
+      ]
+    },
+    {
+      "component": 617,
+      "owner": 0,
+      "box": [
+        326,
+        366,
+        327,
+        368
+      ]
+    },
+    {
+      "component": 618,
+      "owner": 1,
+      "box": [
+        719,
+        366,
+        720,
+        367
+      ]
+    },
+    {
+      "component": 619,
+      "owner": 2,
+      "box": [
+        1215,
+        367,
+        1216,
+        368
+      ]
+    },
+    {
+      "component": 620,
+      "owner": 0,
+      "box": [
+        325,
+        368,
+        326,
+        369
+      ]
+    },
+    {
+      "component": 621,
+      "owner": 2,
+      "box": [
+        1214,
+        368,
+        1215,
+        369
+      ]
+    },
+    {
+      "component": 622,
+      "owner": 0,
+      "box": [
+        217,
+        369,
+        218,
+        370
+      ]
+    },
+    {
+      "component": 623,
+      "owner": 2,
+      "box": [
+        1213,
+        369,
+        1214,
+        370
+      ]
+    },
+    {
+      "component": 624,
+      "owner": 0,
+      "box": [
+        216,
+        370,
+        217,
+        371
+      ]
+    },
+    {
+      "component": 625,
+      "owner": 0,
+      "box": [
+        273,
+        370,
+        274,
+        371
+      ]
+    },
+    {
+      "component": 626,
+      "owner": 0,
+      "box": [
+        324,
+        370,
+        325,
+        371
+      ]
+    },
+    {
+      "component": 627,
+      "owner": 1,
+      "box": [
+        721,
+        370,
+        722,
+        371
+      ]
+    },
+    {
+      "component": 628,
+      "owner": 0,
+      "box": [
+        271,
+        371,
+        272,
+        372
+      ]
+    },
+    {
+      "component": 629,
+      "owner": 3,
+      "box": [
+        1590,
+        371,
+        1591,
+        372
+      ]
+    },
+    {
+      "component": 630,
+      "owner": 0,
+      "box": [
+        269,
+        372,
+        270,
+        373
+      ]
+    },
+    {
+      "component": 631,
+      "owner": 1,
+      "box": [
+        722,
+        372,
+        723,
+        373
+      ]
+    },
+    {
+      "component": 632,
+      "owner": 3,
+      "box": [
+        1591,
+        372,
+        1592,
+        373
+      ]
+    },
+    {
+      "component": 633,
+      "owner": 0,
+      "box": [
+        267,
+        373,
+        268,
+        374
+      ]
+    },
+    {
+      "component": 634,
+      "owner": 3,
+      "box": [
+        1592,
+        373,
+        1593,
+        374
+      ]
+    },
+    {
+      "component": 635,
+      "owner": 0,
+      "box": [
+        264,
+        374,
+        266,
+        375
+      ]
+    },
+    {
+      "component": 636,
+      "owner": 3,
+      "box": [
+        1593,
+        374,
+        1594,
+        375
+      ]
+    },
+    {
+      "component": 637,
+      "owner": 3,
+      "box": [
+        1633,
+        374,
+        1634,
+        375
+      ]
+    },
+    {
+      "component": 638,
+      "owner": 3,
+      "box": [
+        1658,
+        374,
+        1659,
+        375
+      ]
+    },
+    {
+      "component": 639,
+      "owner": 0,
+      "box": [
+        263,
+        375,
+        264,
+        376
+      ]
+    },
+    {
+      "component": 640,
+      "owner": 0,
+      "box": [
+        286,
+        375,
+        287,
+        377
+      ]
+    },
+    {
+      "component": 641,
+      "owner": 0,
+      "box": [
+        261,
+        376,
+        262,
+        377
+      ]
+    },
+    {
+      "component": 642,
+      "owner": 0,
+      "box": [
+        320,
+        376,
+        321,
+        377
+      ]
+    },
+    {
+      "component": 643,
+      "owner": 2,
+      "box": [
+        1207,
+        376,
+        1208,
+        377
+      ]
+    },
+    {
+      "component": 644,
+      "owner": 3,
+      "box": [
+        1632,
+        376,
+        1633,
+        377
+      ]
+    },
+    {
+      "component": 645,
+      "owner": 3,
+      "box": [
+        1659,
+        376,
+        1660,
+        378
+      ]
+    },
+    {
+      "component": 646,
+      "owner": 0,
+      "box": [
+        287,
+        377,
+        288,
+        381
+      ]
+    },
+    {
+      "component": 647,
+      "owner": 2,
+      "box": [
+        1206,
+        377,
+        1207,
+        378
+      ]
+    },
+    {
+      "component": 648,
+      "owner": 3,
+      "box": [
+        1631,
+        377,
+        1632,
+        378
+      ]
+    },
+    {
+      "component": 649,
+      "owner": 3,
+      "box": [
+        1595,
+        378,
+        1596,
+        379
+      ]
+    },
+    {
+      "component": 650,
+      "owner": 3,
+      "box": [
+        1660,
+        379,
+        1661,
+        383
+      ]
+    },
+    {
+      "component": 651,
+      "owner": 3,
+      "box": [
+        1596,
+        380,
+        1597,
+        381
+      ]
+    },
+    {
+      "component": 652,
+      "owner": 3,
+      "box": [
+        1629,
+        380,
+        1630,
+        381
+      ]
+    },
+    {
+      "component": 653,
+      "owner": 1,
+      "box": [
+        755,
+        382,
+        756,
+        383
+      ]
+    },
+    {
+      "component": 654,
+      "owner": 0,
+      "box": [
+        248,
+        384,
+        249,
+        385
+      ]
+    },
+    {
+      "component": 655,
+      "owner": 0,
+      "box": [
+        313,
+        384,
+        314,
+        385
+      ]
+    },
+    {
+      "component": 656,
+      "owner": 0,
+      "box": [
+        312,
+        385,
+        313,
+        386
+      ]
+    },
+    {
+      "component": 657,
+      "owner": 2,
+      "box": [
+        1196,
+        385,
+        1197,
+        386
+      ]
+    },
+    {
+      "component": 658,
+      "owner": 3,
+      "box": [
+        1598,
+        388,
+        1599,
+        395
+      ]
+    },
+    {
+      "component": 659,
+      "owner": 0,
+      "box": [
+        303,
+        393,
+        304,
+        394
+      ]
+    },
+    {
+      "component": 660,
+      "owner": 0,
+      "box": [
+        302,
+        394,
+        303,
+        395
+      ]
+    },
+    {
+      "component": 661,
+      "owner": 0,
+      "box": [
+        286,
+        396,
+        287,
+        398
+      ]
+    },
+    {
+      "component": 662,
+      "owner": 3,
+      "box": [
+        1597,
+        396,
+        1598,
+        398
+      ]
+    },
+    {
+      "component": 663,
+      "owner": 2,
+      "box": [
+        1178,
+        397,
+        1179,
+        398
+      ]
+    },
+    {
+      "component": 664,
+      "owner": 0,
+      "box": [
+        295,
+        398,
+        296,
+        399
+      ]
+    },
+    {
+      "component": 665,
+      "owner": 2,
+      "box": [
+        1176,
+        398,
+        1177,
+        399
+      ]
+    },
+    {
+      "component": 666,
+      "owner": 3,
+      "box": [
+        1596,
+        398,
+        1597,
+        399
+      ]
+    },
+    {
+      "component": 669,
+      "owner": 4,
+      "box": [
+        214,
+        516,
+        216,
+        517
+      ]
+    },
+    {
+      "component": 670,
+      "owner": 7,
+      "box": [
+        1554,
+        517,
+        1555,
+        518
+      ]
+    },
+    {
+      "component": 671,
+      "owner": 4,
+      "box": [
+        207,
+        523,
+        208,
+        524
+      ]
+    },
+    {
+      "component": 672,
+      "owner": 7,
+      "box": [
+        1518,
+        524,
+        1519,
+        525
+      ]
+    },
+    {
+      "component": 673,
+      "owner": 4,
+      "box": [
+        208,
+        525,
+        209,
+        526
+      ]
+    },
+    {
+      "component": 674,
+      "owner": 4,
+      "box": [
+        251,
+        528,
+        253,
+        529
+      ]
+    },
+    {
+      "component": 676,
+      "owner": 4,
+      "box": [
+        253,
+        529,
+        255,
+        530
+      ]
+    },
+    {
+      "component": 677,
+      "owner": 7,
+      "box": [
+        1520,
+        529,
+        1522,
+        530
+      ]
+    },
+    {
+      "component": 678,
+      "owner": 7,
+      "box": [
+        1581,
+        529,
+        1582,
+        530
+      ]
+    },
+    {
+      "component": 679,
+      "owner": 4,
+      "box": [
+        255,
+        530,
+        256,
+        531
+      ]
+    },
+    {
+      "component": 680,
+      "owner": 5,
+      "box": [
+        641,
+        530,
+        644,
+        531
+      ]
+    },
+    {
+      "component": 681,
+      "owner": 7,
+      "box": [
+        1582,
+        530,
+        1584,
+        531
+      ]
+    },
+    {
+      "component": 682,
+      "owner": 4,
+      "box": [
+        257,
+        531,
+        258,
+        532
+      ]
+    },
+    {
+      "component": 683,
+      "owner": 7,
+      "box": [
+        1584,
+        531,
+        1586,
+        532
+      ]
+    },
+    {
+      "component": 684,
+      "owner": 7,
+      "box": [
+        1600,
+        531,
+        1604,
+        532
+      ]
+    },
+    {
+      "component": 685,
+      "owner": 7,
+      "box": [
+        1586,
+        532,
+        1587,
+        533
+      ]
+    },
+    {
+      "component": 686,
+      "owner": 7,
+      "box": [
+        1604,
+        532,
+        1606,
+        533
+      ]
+    },
+    {
+      "component": 687,
+      "owner": 7,
+      "box": [
+        1587,
+        533,
+        1588,
+        534
+      ]
+    },
+    {
+      "component": 688,
+      "owner": 7,
+      "box": [
+        1606,
+        533,
+        1607,
+        534
+      ]
+    },
+    {
+      "component": 689,
+      "owner": 4,
+      "box": [
+        211,
+        534,
+        212,
+        535
+      ]
+    },
+    {
+      "component": 691,
+      "owner": 7,
+      "box": [
+        1607,
+        534,
+        1608,
+        535
+      ]
+    },
+    {
+      "component": 692,
+      "owner": 6,
+      "box": [
+        1082,
+        535,
+        1083,
+        536
+      ]
+    },
+    {
+      "component": 693,
+      "owner": 6,
+      "box": [
+        1078,
+        536,
+        1081,
+        537
+      ]
+    },
+    {
+      "component": 694,
+      "owner": 4,
+      "box": [
+        281,
+        537,
+        284,
+        538
+      ]
+    },
+    {
+      "component": 695,
+      "owner": 6,
+      "box": [
+        1073,
+        537,
+        1077,
+        538
+      ]
+    },
+    {
+      "component": 696,
+      "owner": 4,
+      "box": [
+        284,
+        538,
+        285,
+        539
+      ]
+    },
+    {
+      "component": 697,
+      "owner": 5,
+      "box": [
+        727,
+        538,
+        729,
+        539
+      ]
+    },
+    {
+      "component": 698,
+      "owner": 6,
+      "box": [
+        1070,
+        538,
+        1072,
+        539
+      ]
+    },
+    {
+      "component": 699,
+      "owner": 4,
+      "box": [
+        285,
+        539,
+        287,
+        540
+      ]
+    },
+    {
+      "component": 700,
+      "owner": 5,
+      "box": [
+        729,
+        539,
+        730,
+        540
+      ]
+    },
+    {
+      "component": 701,
+      "owner": 4,
+      "box": [
+        287,
+        540,
+        288,
+        541
+      ]
+    },
+    {
+      "component": 702,
+      "owner": 4,
+      "box": [
+        211,
+        541,
+        212,
+        544
+      ]
+    },
+    {
+      "component": 703,
+      "owner": 4,
+      "box": [
+        288,
+        541,
+        289,
+        542
+      ]
+    },
+    {
+      "component": 704,
+      "owner": 6,
+      "box": [
+        1067,
+        541,
+        1068,
+        542
+      ]
+    },
+    {
+      "component": 705,
+      "owner": 6,
+      "box": [
+        1141,
+        541,
+        1143,
+        542
+      ]
+    },
+    {
+      "component": 706,
+      "owner": 4,
+      "box": [
+        272,
+        542,
+        273,
+        543
+      ]
+    },
+    {
+      "component": 707,
+      "owner": 4,
+      "box": [
+        289,
+        542,
+        290,
+        543
+      ]
+    },
+    {
+      "component": 708,
+      "owner": 4,
+      "box": [
+        290,
+        543,
+        291,
+        544
+      ]
+    },
+    {
+      "component": 709,
+      "owner": 6,
+      "box": [
+        1069,
+        543,
+        1070,
+        544
+      ]
+    },
+    {
+      "component": 710,
+      "owner": 4,
+      "box": [
+        210,
+        544,
+        211,
+        546
+      ]
+    },
+    {
+      "component": 711,
+      "owner": 4,
+      "box": [
+        291,
+        544,
+        292,
+        545
+      ]
+    },
+    {
+      "component": 712,
+      "owner": 6,
+      "box": [
+        1071,
+        544,
+        1072,
+        545
+      ]
+    },
+    {
+      "component": 713,
+      "owner": 4,
+      "box": [
+        292,
+        545,
+        293,
+        546
+      ]
+    },
+    {
+      "component": 714,
+      "owner": 6,
+      "box": [
+        1072,
+        545,
+        1074,
+        546
+      ]
+    },
+    {
+      "component": 715,
+      "owner": 6,
+      "box": [
+        1148,
+        545,
+        1150,
+        546
+      ]
+    },
+    {
+      "component": 716,
+      "owner": 4,
+      "box": [
+        293,
+        546,
+        294,
+        547
+      ]
+    },
+    {
+      "component": 717,
+      "owner": 6,
+      "box": [
+        1150,
+        546,
+        1152,
+        547
+      ]
+    },
+    {
+      "component": 718,
+      "owner": 4,
+      "box": [
+        294,
+        547,
+        295,
+        548
+      ]
+    },
+    {
+      "component": 719,
+      "owner": 4,
+      "box": [
+        295,
+        548,
+        296,
+        549
+      ]
+    },
+    {
+      "component": 720,
+      "owner": 5,
+      "box": [
+        741,
+        548,
+        742,
+        549
+      ]
+    },
+    {
+      "component": 721,
+      "owner": 6,
+      "box": [
+        1078,
+        548,
+        1079,
+        549
+      ]
+    },
+    {
+      "component": 722,
+      "owner": 6,
+      "box": [
+        1177,
+        548,
+        1178,
+        549
+      ]
+    },
+    {
+      "component": 723,
+      "owner": 7,
+      "box": [
+        1633,
+        549,
+        1635,
+        550
+      ]
+    },
+    {
+      "component": 724,
+      "owner": 6,
+      "box": [
+        1080,
+        550,
+        1081,
+        551
+      ]
+    },
+    {
+      "component": 725,
+      "owner": 7,
+      "box": [
+        1636,
+        550,
+        1637,
+        551
+      ]
+    },
+    {
+      "component": 726,
+      "owner": 6,
+      "box": [
+        1081,
+        551,
+        1082,
+        552
+      ]
+    },
+    {
+      "component": 727,
+      "owner": 5,
+      "box": [
+        745,
+        552,
+        746,
+        553
+      ]
+    },
+    {
+      "component": 728,
+      "owner": 5,
+      "box": [
+        746,
+        553,
+        747,
+        554
+      ]
+    },
+    {
+      "component": 729,
+      "owner": 6,
+      "box": [
+        1185,
+        555,
+        1186,
+        556
+      ]
+    },
+    {
+      "component": 730,
+      "owner": 6,
+      "box": [
+        1186,
+        556,
+        1187,
+        557
+      ]
+    },
+    {
+      "component": 731,
+      "owner": 5,
+      "box": [
+        760,
+        557,
+        762,
+        558
+      ]
+    },
+    {
+      "component": 732,
+      "owner": 4,
+      "box": [
+        179,
+        560,
+        183,
+        562
+      ]
+    },
+    {
+      "component": 733,
+      "owner": 6,
+      "box": [
+        1200,
+        560,
+        1201,
+        561
+      ]
+    },
+    {
+      "component": 734,
+      "owner": 6,
+      "box": [
+        1201,
+        561,
+        1203,
+        562
+      ]
+    },
+    {
+      "component": 735,
+      "owner": 7,
+      "box": [
+        1516,
+        561,
+        1518,
+        562
+      ]
+    },
+    {
+      "component": 736,
+      "owner": 4,
+      "box": [
+        178,
+        562,
+        179,
+        563
+      ]
+    },
+    {
+      "component": 737,
+      "owner": 6,
+      "box": [
+        1203,
+        562,
+        1204,
+        563
+      ]
+    },
+    {
+      "component": 738,
+      "owner": 7,
+      "box": [
+        1515,
+        562,
+        1516,
+        563
+      ]
+    },
+    {
+      "component": 739,
+      "owner": 4,
+      "box": [
+        177,
+        563,
+        178,
+        564
+      ]
+    },
+    {
+      "component": 740,
+      "owner": 6,
+      "box": [
+        1204,
+        563,
+        1205,
+        564
+      ]
+    },
+    {
+      "component": 741,
+      "owner": 6,
+      "box": [
+        1205,
+        564,
+        1206,
+        565
+      ]
+    },
+    {
+      "component": 742,
+      "owner": 7,
+      "box": [
+        1511,
+        564,
+        1512,
+        565
+      ]
+    },
+    {
+      "component": 743,
+      "owner": 7,
+      "box": [
+        1509,
+        565,
+        1510,
+        566
+      ]
+    },
+    {
+      "component": 744,
+      "owner": 7,
+      "box": [
+        1508,
+        566,
+        1509,
+        567
+      ]
+    },
+    {
+      "component": 745,
+      "owner": 6,
+      "box": [
+        1208,
+        567,
+        1209,
+        568
+      ]
+    },
+    {
+      "component": 746,
+      "owner": 6,
+      "box": [
+        1087,
+        568,
+        1089,
+        575
+      ]
+    },
+    {
+      "component": 747,
+      "owner": 6,
+      "box": [
+        1209,
+        568,
+        1210,
+        569
+      ]
+    },
+    {
+      "component": 748,
+      "owner": 4,
+      "box": [
+        321,
+        569,
+        322,
+        570
+      ]
+    },
+    {
+      "component": 749,
+      "owner": 6,
+      "box": [
+        1210,
+        569,
+        1211,
+        571
+      ]
+    },
+    {
+      "component": 750,
+      "owner": 4,
+      "box": [
+        322,
+        571,
+        323,
+        572
+      ]
+    },
+    {
+      "component": 751,
+      "owner": 6,
+      "box": [
+        1211,
+        571,
+        1212,
+        573
+      ]
+    },
+    {
+      "component": 752,
+      "owner": 7,
+      "box": [
+        1501,
+        572,
+        1502,
+        573
+      ]
+    },
+    {
+      "component": 753,
+      "owner": 6,
+      "box": [
+        1212,
+        573,
+        1213,
+        574
+      ]
+    },
+    {
+      "component": 754,
+      "owner": 6,
+      "box": [
+        1214,
+        576,
+        1215,
+        577
+      ]
+    },
+    {
+      "component": 755,
+      "owner": 4,
+      "box": [
+        325,
+        577,
+        326,
+        579
+      ]
+    },
+    {
+      "component": 756,
+      "owner": 4,
+      "box": [
+        326,
+        579,
+        327,
+        581
+      ]
+    },
+    {
+      "component": 757,
+      "owner": 5,
+      "box": [
+        635,
+        580,
+        636,
+        581
+      ]
+    },
+    {
+      "component": 758,
+      "owner": 5,
+      "box": [
+        778,
+        580,
+        779,
+        581
+      ]
+    },
+    {
+      "component": 759,
+      "owner": 4,
+      "box": [
+        160,
+        582,
+        161,
+        583
+      ]
+    },
+    {
+      "component": 760,
+      "owner": 4,
+      "box": [
+        159,
+        584,
+        160,
+        586
+      ]
+    },
+    {
+      "component": 761,
+      "owner": 7,
+      "box": [
+        1396,
+        586,
+        1401,
+        587
+      ]
+    },
+    {
+      "component": 762,
+      "owner": 7,
+      "box": [
+        1407,
+        586,
+        1414,
+        587
+      ]
+    },
+    {
+      "component": 763,
+      "owner": 7,
+      "box": [
+        1392,
+        587,
+        1393,
+        588
+      ]
+    },
+    {
+      "component": 764,
+      "owner": 7,
+      "box": [
+        1415,
+        587,
+        1420,
+        588
+      ]
+    },
+    {
+      "component": 765,
+      "owner": 7,
+      "box": [
+        1388,
+        588,
+        1389,
+        589
+      ]
+    },
+    {
+      "component": 766,
+      "owner": 7,
+      "box": [
+        1421,
+        588,
+        1424,
+        589
+      ]
+    },
+    {
+      "component": 767,
+      "owner": 7,
+      "box": [
+        1425,
+        589,
+        1427,
+        590
+      ]
+    },
+    {
+      "component": 768,
+      "owner": 7,
+      "box": [
+        1382,
+        590,
+        1383,
+        591
+      ]
+    },
+    {
+      "component": 769,
+      "owner": 7,
+      "box": [
+        1436,
+        594,
+        1437,
+        595
+      ]
+    },
+    {
+      "component": 770,
+      "owner": 7,
+      "box": [
+        1438,
+        595,
+        1439,
+        596
+      ]
+    },
+    {
+      "component": 771,
+      "owner": 7,
+      "box": [
+        1662,
+        595,
+        1663,
+        596
+      ]
+    },
+    {
+      "component": 772,
+      "owner": 5,
+      "box": [
+        511,
+        598,
+        512,
+        599
+      ]
+    },
+    {
+      "component": 773,
+      "owner": 5,
+      "box": [
+        509,
+        599,
+        511,
+        600
+      ]
+    },
+    {
+      "component": 774,
+      "owner": 6,
+      "box": [
+        1063,
+        599,
+        1064,
+        600
+      ]
+    },
+    {
+      "component": 775,
+      "owner": 5,
+      "box": [
+        815,
+        601,
+        816,
+        602
+      ]
+    },
+    {
+      "component": 776,
+      "owner": 5,
+      "box": [
+        818,
+        601,
+        819,
+        602
+      ]
+    },
+    {
+      "component": 777,
+      "owner": 5,
+      "box": [
+        624,
+        602,
+        625,
+        604
+      ]
+    },
+    {
+      "component": 778,
+      "owner": 4,
+      "box": [
+        362,
+        603,
+        364,
+        604
+      ]
+    },
+    {
+      "component": 779,
+      "owner": 6,
+      "box": [
+        1226,
+        603,
+        1227,
+        604
+      ]
+    },
+    {
+      "component": 780,
+      "owner": 4,
+      "box": [
+        366,
+        604,
+        368,
+        605
+      ]
+    },
+    {
+      "component": 781,
+      "owner": 5,
+      "box": [
+        623,
+        604,
+        624,
+        605
+      ]
+    },
+    {
+      "component": 782,
+      "owner": 4,
+      "box": [
+        368,
+        605,
+        369,
+        606
+      ]
+    },
+    {
+      "component": 783,
+      "owner": 4,
+      "box": [
+        370,
+        605,
+        371,
+        606
+      ]
+    },
+    {
+      "component": 784,
+      "owner": 4,
+      "box": [
+        156,
+        606,
+        157,
+        607
+      ]
+    },
+    {
+      "component": 785,
+      "owner": 4,
+      "box": [
+        372,
+        606,
+        373,
+        607
+      ]
+    },
+    {
+      "component": 786,
+      "owner": 5,
+      "box": [
+        623,
+        606,
+        624,
+        607
+      ]
+    },
+    {
+      "component": 787,
+      "owner": 4,
+      "box": [
+        91,
+        607,
+        93,
+        608
+      ]
+    },
+    {
+      "component": 788,
+      "owner": 4,
+      "box": [
+        94,
+        607,
+        95,
+        608
+      ]
+    },
+    {
+      "component": 789,
+      "owner": 4,
+      "box": [
+        96,
+        608,
+        98,
+        609
+      ]
+    },
+    {
+      "component": 790,
+      "owner": 4,
+      "box": [
+        99,
+        608,
+        102,
+        609
+      ]
+    },
+    {
+      "component": 791,
+      "owner": 7,
+      "box": [
+        1363,
+        610,
+        1367,
+        611
+      ]
+    },
+    {
+      "component": 792,
+      "owner": 7,
+      "box": [
+        1487,
+        610,
+        1489,
+        614
+      ]
+    },
+    {
+      "component": 793,
+      "owner": 7,
+      "box": [
+        1378,
+        612,
+        1380,
+        613
+      ]
+    },
+    {
+      "component": 794,
+      "owner": 7,
+      "box": [
+        1381,
+        613,
+        1382,
+        614
+      ]
+    },
+    {
+      "component": 795,
+      "owner": 4,
+      "box": [
+        159,
+        614,
+        160,
+        616
+      ]
+    },
+    {
+      "component": 796,
+      "owner": 5,
+      "box": [
+        622,
+        614,
+        623,
+        615
+      ]
+    },
+    {
+      "component": 797,
+      "owner": 4,
+      "box": [
+        160,
+        616,
+        161,
+        618
+      ]
+    },
+    {
+      "component": 798,
+      "owner": 6,
+      "box": [
+        1055,
+        616,
+        1056,
+        618
+      ]
+    },
+    {
+      "component": 799,
+      "owner": 4,
+      "box": [
+        161,
+        618,
+        162,
+        619
+      ]
+    },
+    {
+      "component": 800,
+      "owner": 5,
+      "box": [
+        499,
+        618,
+        507,
+        619
+      ]
+    },
+    {
+      "component": 801,
+      "owner": 6,
+      "box": [
+        1054,
+        618,
+        1055,
+        620
+      ]
+    },
+    {
+      "component": 802,
+      "owner": 5,
+      "box": [
+        871,
+        622,
+        872,
+        623
+      ]
+    },
+    {
+      "component": 803,
+      "owner": 4,
+      "box": [
+        163,
+        624,
+        164,
+        625
+      ]
+    },
+    {
+      "component": 804,
+      "owner": 5,
+      "box": [
+        625,
+        624,
+        626,
+        625
+      ]
+    },
+    {
+      "component": 805,
+      "owner": 5,
+      "box": [
+        873,
+        624,
+        874,
+        625
+      ]
+    },
+    {
+      "component": 806,
+      "owner": 4,
+      "box": [
+        41,
+        625,
+        42,
+        626
+      ]
+    },
+    {
+      "component": 807,
+      "owner": 4,
+      "box": [
+        165,
+        625,
+        166,
+        626
+      ]
+    },
+    {
+      "component": 808,
+      "owner": 4,
+      "box": [
+        164,
+        626,
+        165,
+        627
+      ]
+    },
+    {
+      "component": 809,
+      "owner": 4,
+      "box": [
+        166,
+        626,
+        167,
+        627
+      ]
+    },
+    {
+      "component": 810,
+      "owner": 5,
+      "box": [
+        626,
+        626,
+        627,
+        627
+      ]
+    },
+    {
+      "component": 811,
+      "owner": 6,
+      "box": [
+        1303,
+        627,
+        1304,
+        628
+      ]
+    },
+    {
+      "component": 812,
+      "owner": 7,
+      "box": [
+        1743,
+        627,
+        1744,
+        628
+      ]
+    },
+    {
+      "component": 813,
+      "owner": 4,
+      "box": [
+        165,
+        628,
+        166,
+        629
+      ]
+    },
+    {
+      "component": 814,
+      "owner": 7,
+      "box": [
+        1495,
+        628,
+        1496,
+        629
+      ]
+    },
+    {
+      "component": 815,
+      "owner": 4,
+      "box": [
+        166,
+        630,
+        167,
+        631
+      ]
+    },
+    {
+      "component": 816,
+      "owner": 7,
+      "box": [
+        1391,
+        630,
+        1392,
+        631
+      ]
+    },
+    {
+      "component": 817,
+      "owner": 4,
+      "box": [
+        167,
+        631,
+        168,
+        632
+      ]
+    },
+    {
+      "component": 818,
+      "owner": 4,
+      "box": [
+        166,
+        632,
+        167,
+        633
+      ]
+    },
+    {
+      "component": 819,
+      "owner": 4,
+      "box": [
+        168,
+        632,
+        169,
+        634
+      ]
+    },
+    {
+      "component": 820,
+      "owner": 4,
+      "box": [
+        32,
+        634,
+        33,
+        635
+      ]
+    },
+    {
+      "component": 821,
+      "owner": 4,
+      "box": [
+        31,
+        635,
+        32,
+        637
+      ]
+    },
+    {
+      "component": 822,
+      "owner": 6,
+      "box": [
+        1313,
+        635,
+        1314,
+        636
+      ]
+    },
+    {
+      "component": 823,
+      "owner": 7,
+      "box": [
+        1392,
+        636,
+        1393,
+        637
+      ]
+    },
+    {
+      "component": 824,
+      "owner": 4,
+      "box": [
+        423,
+        637,
+        424,
+        638
+      ]
+    },
+    {
+      "component": 825,
+      "owner": 7,
+      "box": [
+        1392,
+        638,
+        1393,
+        639
+      ]
+    },
+    {
+      "component": 826,
+      "owner": 4,
+      "box": [
+        28,
+        640,
+        29,
+        642
+      ]
+    },
+    {
+      "component": 827,
+      "owner": 4,
+      "box": [
+        428,
+        640,
+        429,
+        641
+      ]
+    },
+    {
+      "component": 828,
+      "owner": 6,
+      "box": [
+        1319,
+        640,
+        1320,
+        641
+      ]
+    },
+    {
+      "component": 829,
+      "owner": 7,
+      "box": [
+        1759,
+        640,
+        1760,
+        641
+      ]
+    },
+    {
+      "component": 830,
+      "owner": 4,
+      "box": [
+        429,
+        641,
+        430,
+        642
+      ]
+    },
+    {
+      "component": 831,
+      "owner": 7,
+      "box": [
+        1500,
+        641,
+        1501,
+        642
+      ]
+    },
+    {
+      "component": 832,
+      "owner": 4,
+      "box": [
+        27,
+        642,
+        28,
+        644
+      ]
+    },
+    {
+      "component": 833,
+      "owner": 4,
+      "box": [
+        430,
+        642,
+        431,
+        643
+      ]
+    },
+    {
+      "component": 834,
+      "owner": 5,
+      "box": [
+        639,
+        642,
+        640,
+        643
+      ]
+    },
+    {
+      "component": 835,
+      "owner": 6,
+      "box": [
+        1321,
+        642,
+        1322,
+        643
+      ]
+    },
+    {
+      "component": 836,
+      "owner": 4,
+      "box": [
+        431,
+        643,
+        432,
+        644
+      ]
+    },
+    {
+      "component": 837,
+      "owner": 6,
+      "box": [
+        1322,
+        643,
+        1323,
+        644
+      ]
+    },
+    {
+      "component": 838,
+      "owner": 7,
+      "box": [
+        1492,
+        643,
+        1496,
+        644
+      ]
+    },
+    {
+      "component": 839,
+      "owner": 4,
+      "box": [
+        26,
+        644,
+        27,
+        646
+      ]
+    },
+    {
+      "component": 840,
+      "owner": 4,
+      "box": [
+        432,
+        644,
+        433,
+        645
+      ]
+    },
+    {
+      "component": 841,
+      "owner": 6,
+      "box": [
+        1001,
+        644,
+        1002,
+        645
+      ]
+    },
+    {
+      "component": 842,
+      "owner": 7,
+      "box": [
+        1762,
+        645,
+        1763,
+        651
+      ]
+    },
+    {
+      "component": 843,
+      "owner": 6,
+      "box": [
+        1057,
+        646,
+        1058,
+        647
+      ]
+    },
+    {
+      "component": 844,
+      "owner": 5,
+      "box": [
+        898,
+        647,
+        899,
+        650
+      ]
+    },
+    {
+      "component": 845,
+      "owner": 7,
+      "box": [
+        1394,
+        649,
+        1395,
+        651
+      ]
+    },
+    {
+      "component": 846,
+      "owner": 4,
+      "box": [
+        42,
+        650,
+        43,
+        651
+      ]
+    },
+    {
+      "component": 847,
+      "owner": 4,
+      "box": [
+        38,
+        651,
+        41,
+        652
+      ]
+    },
+    {
+      "component": 848,
+      "owner": 6,
+      "box": [
+        1331,
+        651,
+        1332,
+        653
+      ]
+    },
+    {
+      "component": 849,
+      "owner": 4,
+      "box": [
+        23,
+        652,
+        24,
+        655
+      ]
+    },
+    {
+      "component": 850,
+      "owner": 4,
+      "box": [
+        36,
+        652,
+        37,
+        653
+      ]
+    },
+    {
+      "component": 851,
+      "owner": 4,
+      "box": [
+        41,
+        652,
+        42,
+        653
+      ]
+    },
+    {
+      "component": 852,
+      "owner": 4,
+      "box": [
+        43,
+        652,
+        45,
+        653
+      ]
+    },
+    {
+      "component": 853,
+      "owner": 6,
+      "box": [
+        950,
+        652,
+        951,
+        653
+      ]
+    },
+    {
+      "component": 854,
+      "owner": 7,
+      "box": [
+        1761,
+        652,
+        1762,
+        653
+      ]
+    },
+    {
+      "component": 855,
+      "owner": 7,
+      "box": [
+        1759,
+        654,
+        1760,
+        655
+      ]
+    },
+    {
+      "component": 856,
+      "owner": 4,
+      "box": [
+        30,
+        655,
+        31,
+        656
+      ]
+    },
+    {
+      "component": 857,
+      "owner": 6,
+      "box": [
+        945,
+        655,
+        946,
+        656
+      ]
+    },
+    {
+      "component": 858,
+      "owner": 4,
+      "box": [
+        23,
+        656,
+        24,
+        657
+      ]
+    },
+    {
+      "component": 859,
+      "owner": 4,
+      "box": [
+        29,
+        656,
+        30,
+        657
+      ]
+    },
+    {
+      "component": 860,
+      "owner": 6,
+      "box": [
+        1331,
+        656,
+        1332,
+        659
+      ]
+    },
+    {
+      "component": 861,
+      "owner": 7,
+      "box": [
+        1758,
+        656,
+        1759,
+        658
+      ]
+    },
+    {
+      "component": 862,
+      "owner": 4,
+      "box": [
+        430,
+        657,
+        431,
+        659
+      ]
+    },
+    {
+      "component": 863,
+      "owner": 6,
+      "box": [
+        942,
+        657,
+        943,
+        658
+      ]
+    },
+    {
+      "component": 864,
+      "owner": 6,
+      "box": [
+        941,
+        658,
+        942,
+        659
+      ]
+    },
+    {
+      "component": 865,
+      "owner": 6,
+      "box": [
+        1035,
+        658,
+        1037,
+        659
+      ]
+    },
+    {
+      "component": 866,
+      "owner": 6,
+      "box": [
+        1037,
+        659,
+        1039,
+        660
+      ]
+    },
+    {
+      "component": 867,
+      "owner": 6,
+      "box": [
+        1330,
+        659,
+        1331,
+        660
+      ]
+    },
+    {
+      "component": 868,
+      "owner": 6,
+      "box": [
+        938,
+        660,
+        939,
+        661
+      ]
+    },
+    {
+      "component": 869,
+      "owner": 6,
+      "box": [
+        1063,
+        660,
+        1064,
+        661
+      ]
+    },
+    {
+      "component": 870,
+      "owner": 6,
+      "box": [
+        1329,
+        661,
+        1330,
+        662
+      ]
+    },
+    {
+      "component": 871,
+      "owner": 4,
+      "box": [
+        64,
+        662,
+        65,
+        663
+      ]
+    },
+    {
+      "component": 872,
+      "owner": 4,
+      "box": [
+        428,
+        662,
+        429,
+        663
+      ]
+    },
+    {
+      "component": 873,
+      "owner": 6,
+      "box": [
+        1059,
+        662,
+        1061,
+        663
+      ]
+    },
+    {
+      "component": 874,
+      "owner": 6,
+      "box": [
+        1328,
+        662,
+        1329,
+        663
+      ]
+    },
+    {
+      "component": 875,
+      "owner": 5,
+      "box": [
+        530,
+        664,
+        531,
+        665
+      ]
+    },
+    {
+      "component": 876,
+      "owner": 6,
+      "box": [
+        1327,
+        664,
+        1328,
+        667
+      ]
+    },
+    {
+      "component": 877,
+      "owner": 5,
+      "box": [
+        531,
+        665,
+        532,
+        666
+      ]
+    },
+    {
+      "component": 878,
+      "owner": 4,
+      "box": [
+        419,
+        666,
+        421,
+        668
+      ]
+    },
+    {
+      "component": 879,
+      "owner": 5,
+      "box": [
+        532,
+        666,
+        533,
+        667
+      ]
+    },
+    {
+      "component": 880,
+      "owner": 4,
+      "box": [
+        418,
+        668,
+        419,
+        669
+      ]
+    },
+    {
+      "component": 881,
+      "owner": 4,
+      "box": [
+        421,
+        668,
+        422,
+        669
+      ]
+    },
+    {
+      "component": 882,
+      "owner": 6,
+      "box": [
+        1326,
+        668,
+        1327,
+        669
+      ]
+    },
+    {
+      "component": 883,
+      "owner": 7,
+      "box": [
+        1745,
+        668,
+        1746,
+        669
+      ]
+    },
+    {
+      "component": 884,
+      "owner": 5,
+      "box": [
+        881,
+        670,
+        882,
+        671
+      ]
+    },
+    {
+      "component": 885,
+      "owner": 5,
+      "box": [
+        534,
+        672,
+        535,
+        673
+      ]
+    },
+    {
+      "component": 886,
+      "owner": 5,
+      "box": [
+        876,
+        672,
+        880,
+        673
+      ]
+    },
+    {
+      "component": 887,
+      "owner": 5,
+      "box": [
+        875,
+        673,
+        876,
+        674
+      ]
+    },
+    {
+      "component": 888,
+      "owner": 7,
+      "box": [
+        1402,
+        673,
+        1403,
+        674
+      ]
+    },
+    {
+      "component": 889,
+      "owner": 6,
+      "box": [
+        926,
+        674,
+        927,
+        676
+      ]
+    },
+    {
+      "component": 890,
+      "owner": 7,
+      "box": [
+        1401,
+        674,
+        1402,
+        675
+      ]
+    },
+    {
+      "component": 891,
+      "owner": 7,
+      "box": [
+        1737,
+        674,
+        1740,
+        675
+      ]
+    },
+    {
+      "component": 892,
+      "owner": 5,
+      "box": [
+        878,
+        675,
+        879,
+        676
+      ]
+    },
+    {
+      "component": 893,
+      "owner": 7,
+      "box": [
+        1748,
+        677,
+        1749,
+        678
+      ]
+    },
+    {
+      "component": 894,
+      "owner": 4,
+      "box": [
+        76,
+        678,
+        77,
+        679
+      ]
+    },
+    {
+      "component": 895,
+      "owner": 6,
+      "box": [
+        924,
+        678,
+        925,
+        680
+      ]
+    },
+    {
+      "component": 896,
+      "owner": 7,
+      "box": [
+        1749,
+        678,
+        1750,
+        679
+      ]
+    },
+    {
+      "component": 897,
+      "owner": 4,
+      "box": [
+        79,
+        679,
+        80,
+        680
+      ]
+    },
+    {
+      "component": 898,
+      "owner": 4,
+      "box": [
+        81,
+        680,
+        83,
+        681
+      ]
+    },
+    {
+      "component": 899,
+      "owner": 4,
+      "box": [
+        171,
+        680,
+        173,
+        681
+      ]
+    },
+    {
+      "component": 900,
+      "owner": 6,
+      "box": [
+        1311,
+        680,
+        1312,
+        681
+      ]
+    },
+    {
+      "component": 901,
+      "owner": 4,
+      "box": [
+        170,
+        681,
+        171,
+        682
+      ]
+    },
+    {
+      "component": 902,
+      "owner": 4,
+      "box": [
+        169,
+        682,
+        170,
+        683
+      ]
+    },
+    {
+      "component": 903,
+      "owner": 6,
+      "box": [
+        1308,
+        682,
+        1313,
+        684
+      ]
+    },
+    {
+      "component": 904,
+      "owner": 4,
+      "box": [
+        168,
+        683,
+        169,
+        684
+      ]
+    },
+    {
+      "component": 905,
+      "owner": 4,
+      "box": [
+        421,
+        684,
+        422,
+        685
+      ]
+    },
+    {
+      "component": 906,
+      "owner": 5,
+      "box": [
+        531,
+        686,
+        532,
+        688
+      ]
+    },
+    {
+      "component": 907,
+      "owner": 6,
+      "box": [
+        920,
+        688,
+        921,
+        693
+      ]
+    },
+    {
+      "component": 908,
+      "owner": 4,
+      "box": [
+        178,
+        689,
+        179,
+        690
+      ]
+    },
+    {
+      "component": 909,
+      "owner": 5,
+      "box": [
+        530,
+        689,
+        531,
+        691
+      ]
+    },
+    {
+      "component": 910,
+      "owner": 4,
+      "box": [
+        82,
+        690,
+        83,
+        693
+      ]
+    },
+    {
+      "component": 911,
+      "owner": 4,
+      "box": [
+        177,
+        690,
+        178,
+        691
+      ]
+    },
+    {
+      "component": 912,
+      "owner": 4,
+      "box": [
+        162,
+        691,
+        165,
+        697
+      ]
+    },
+    {
+      "component": 913,
+      "owner": 7,
+      "box": [
+        1751,
+        691,
+        1752,
+        692
+      ]
+    },
+    {
+      "component": 914,
+      "owner": 6,
+      "box": [
+        927,
+        692,
+        928,
+        693
+      ]
+    },
+    {
+      "component": 915,
+      "owner": 7,
+      "box": [
+        1391,
+        692,
+        1392,
+        696
+      ]
+    },
+    {
+      "component": 916,
+      "owner": 6,
+      "box": [
+        1322,
+        693,
+        1323,
+        695
+      ]
+    },
+    {
+      "component": 917,
+      "owner": 7,
+      "box": [
+        1489,
+        693,
+        1490,
+        694
+      ]
+    },
+    {
+      "component": 918,
+      "owner": 4,
+      "box": [
+        174,
+        694,
+        175,
+        695
+      ]
+    },
+    {
+      "component": 919,
+      "owner": 7,
+      "box": [
+        1487,
+        694,
+        1488,
+        695
+      ]
+    },
+    {
+      "component": 920,
+      "owner": 7,
+      "box": [
+        1749,
+        694,
+        1750,
+        695
+      ]
+    },
+    {
+      "component": 921,
+      "owner": 7,
+      "box": [
+        1748,
+        695,
+        1749,
+        696
+      ]
+    },
+    {
+      "component": 922,
+      "owner": 6,
+      "box": [
+        949,
+        696,
+        950,
+        699
+      ]
+    },
+    {
+      "component": 923,
+      "owner": 7,
+      "box": [
+        1747,
+        696,
+        1748,
+        697
+      ]
+    },
+    {
+      "component": 924,
+      "owner": 7,
+      "box": [
+        1746,
+        697,
+        1747,
+        698
+      ]
+    },
+    {
+      "component": 925,
+      "owner": 4,
+      "box": [
+        418,
+        698,
+        419,
+        699
+      ]
+    },
+    {
+      "component": 926,
+      "owner": 5,
+      "box": [
+        882,
+        698,
+        883,
+        699
+      ]
+    },
+    {
+      "component": 927,
+      "owner": 7,
+      "box": [
+        1744,
+        698,
+        1745,
+        699
+      ]
+    },
+    {
+      "component": 928,
+      "owner": 4,
+      "box": [
+        417,
+        699,
+        418,
+        700
+      ]
+    },
+    {
+      "component": 929,
+      "owner": 5,
+      "box": [
+        631,
+        699,
+        632,
+        700
+      ]
+    },
+    {
+      "component": 930,
+      "owner": 5,
+      "box": [
+        880,
+        699,
+        881,
+        700
+      ]
+    },
+    {
+      "component": 931,
+      "owner": 6,
+      "box": [
+        1320,
+        699,
+        1321,
+        700
+      ]
+    },
+    {
+      "component": 932,
+      "owner": 7,
+      "box": [
+        1742,
+        699,
+        1744,
+        700
+      ]
+    },
+    {
+      "component": 933,
+      "owner": 4,
+      "box": [
+        168,
+        700,
+        169,
+        702
+      ]
+    },
+    {
+      "component": 934,
+      "owner": 4,
+      "box": [
+        415,
+        700,
+        417,
+        701
+      ]
+    },
+    {
+      "component": 935,
+      "owner": 6,
+      "box": [
+        1318,
+        700,
+        1320,
+        703
+      ]
+    },
+    {
+      "component": 936,
+      "owner": 7,
+      "box": [
+        1741,
+        700,
+        1742,
+        701
+      ]
+    },
+    {
+      "component": 937,
+      "owner": 4,
+      "box": [
+        414,
+        701,
+        415,
+        702
+      ]
+    },
+    {
+      "component": 938,
+      "owner": 5,
+      "box": [
+        622,
+        701,
+        623,
+        702
+      ]
+    },
+    {
+      "component": 939,
+      "owner": 6,
+      "box": [
+        950,
+        701,
+        951,
+        703
+      ]
+    },
+    {
+      "component": 940,
+      "owner": 7,
+      "box": [
+        1739,
+        701,
+        1740,
+        702
+      ]
+    },
+    {
+      "component": 941,
+      "owner": 4,
+      "box": [
+        412,
+        702,
+        414,
+        703
+      ]
+    },
+    {
+      "component": 942,
+      "owner": 7,
+      "box": [
+        1737,
+        702,
+        1739,
+        703
+      ]
+    },
+    {
+      "component": 943,
+      "owner": 4,
+      "box": [
+        410,
+        703,
+        412,
+        704
+      ]
+    },
+    {
+      "component": 944,
+      "owner": 5,
+      "box": [
+        872,
+        703,
+        874,
+        704
+      ]
+    },
+    {
+      "component": 945,
+      "owner": 6,
+      "box": [
+        1316,
+        703,
+        1317,
+        704
+      ]
+    },
+    {
+      "component": 946,
+      "owner": 7,
+      "box": [
+        1735,
+        703,
+        1737,
+        704
+      ]
+    },
+    {
+      "component": 947,
+      "owner": 4,
+      "box": [
+        160,
+        704,
+        161,
+        706
+      ]
+    },
+    {
+      "component": 948,
+      "owner": 4,
+      "box": [
+        407,
+        704,
+        410,
+        705
+      ]
+    },
+    {
+      "component": 949,
+      "owner": 5,
+      "box": [
+        866,
+        704,
+        872,
+        707
+      ]
+    },
+    {
+      "component": 950,
+      "owner": 6,
+      "box": [
+        1314,
+        704,
+        1316,
+        705
+      ]
+    },
+    {
+      "component": 951,
+      "owner": 7,
+      "box": [
+        1730,
+        704,
+        1735,
+        706
+      ]
+    },
+    {
+      "component": 952,
+      "owner": 4,
+      "box": [
+        405,
+        705,
+        407,
+        706
+      ]
+    },
+    {
+      "component": 953,
+      "owner": 6,
+      "box": [
+        951,
+        705,
+        952,
+        706
+      ]
+    },
+    {
+      "component": 954,
+      "owner": 4,
+      "box": [
+        403,
+        706,
+        405,
+        707
+      ]
+    },
+    {
+      "component": 955,
+      "owner": 4,
+      "box": [
+        401,
+        707,
+        403,
+        708
+      ]
+    },
+    {
+      "component": 956,
+      "owner": 5,
+      "box": [
+        863,
+        707,
+        866,
+        708
+      ]
+    },
+    {
+      "component": 957,
+      "owner": 4,
+      "box": [
+        398,
+        708,
+        401,
+        709
+      ]
+    },
+    {
+      "component": 958,
+      "owner": 5,
+      "box": [
+        860,
+        708,
+        863,
+        709
+      ]
+    },
+    {
+      "component": 959,
+      "owner": 7,
+      "box": [
+        1723,
+        708,
+        1725,
+        709
+      ]
+    },
+    {
+      "component": 960,
+      "owner": 4,
+      "box": [
+        156,
+        709,
+        157,
+        710
+      ]
+    },
+    {
+      "component": 961,
+      "owner": 4,
+      "box": [
+        395,
+        709,
+        397,
+        710
+      ]
+    },
+    {
+      "component": 962,
+      "owner": 5,
+      "box": [
+        856,
+        709,
+        860,
+        710
+      ]
+    },
+    {
+      "component": 963,
+      "owner": 6,
+      "box": [
+        1305,
+        709,
+        1306,
+        710
+      ]
+    },
+    {
+      "component": 964,
+      "owner": 7,
+      "box": [
+        1719,
+        709,
+        1722,
+        710
+      ]
+    },
+    {
+      "component": 965,
+      "owner": 4,
+      "box": [
+        391,
+        710,
+        394,
+        711
+      ]
+    },
+    {
+      "component": 966,
+      "owner": 5,
+      "box": [
+        853,
+        710,
+        855,
+        711
+      ]
+    },
+    {
+      "component": 967,
+      "owner": 6,
+      "box": [
+        1302,
+        710,
+        1304,
+        711
+      ]
+    },
+    {
+      "component": 968,
+      "owner": 7,
+      "box": [
+        1472,
+        710,
+        1473,
+        711
+      ]
+    },
+    {
+      "component": 969,
+      "owner": 7,
+      "box": [
+        1714,
+        710,
+        1717,
+        711
+      ]
+    },
+    {
+      "component": 970,
+      "owner": 4,
+      "box": [
+        155,
+        711,
+        156,
+        712
+      ]
+    },
+    {
+      "component": 971,
+      "owner": 4,
+      "box": [
+        388,
+        711,
+        391,
+        712
+      ]
+    },
+    {
+      "component": 972,
+      "owner": 5,
+      "box": [
+        609,
+        711,
+        610,
+        712
+      ]
+    },
+    {
+      "component": 973,
+      "owner": 5,
+      "box": [
+        848,
+        711,
+        851,
+        712
+      ]
+    },
+    {
+      "component": 974,
+      "owner": 6,
+      "box": [
+        1300,
+        711,
+        1302,
+        712
+      ]
+    },
+    {
+      "component": 975,
+      "owner": 7,
+      "box": [
+        1471,
+        711,
+        1472,
+        712
+      ]
+    },
+    {
+      "component": 976,
+      "owner": 7,
+      "box": [
+        1710,
+        711,
+        1713,
+        712
+      ]
+    },
+    {
+      "component": 977,
+      "owner": 4,
+      "box": [
+        383,
+        712,
+        387,
+        713
+      ]
+    },
+    {
+      "component": 978,
+      "owner": 5,
+      "box": [
+        842,
+        712,
+        846,
+        713
+      ]
+    },
+    {
+      "component": 979,
+      "owner": 6,
+      "box": [
+        1297,
+        712,
+        1299,
+        713
+      ]
+    },
+    {
+      "component": 980,
+      "owner": 7,
+      "box": [
+        1470,
+        712,
+        1471,
+        714
+      ]
+    },
+    {
+      "component": 981,
+      "owner": 7,
+      "box": [
+        1706,
+        712,
+        1709,
+        713
+      ]
+    },
+    {
+      "component": 982,
+      "owner": 4,
+      "box": [
+        154,
+        713,
+        155,
+        714
+      ]
+    },
+    {
+      "component": 983,
+      "owner": 4,
+      "box": [
+        231,
+        713,
+        234,
+        714
+      ]
+    },
+    {
+      "component": 984,
+      "owner": 4,
+      "box": [
+        378,
+        713,
+        383,
+        714
+      ]
+    },
+    {
+      "component": 985,
+      "owner": 5,
+      "box": [
+        836,
+        713,
+        841,
+        714
+      ]
+    },
+    {
+      "component": 986,
+      "owner": 6,
+      "box": [
+        1294,
+        713,
+        1295,
+        714
+      ]
+    },
+    {
+      "component": 987,
+      "owner": 7,
+      "box": [
+        1702,
+        713,
+        1705,
+        714
+      ]
+    },
+    {
+      "component": 988,
+      "owner": 4,
+      "box": [
+        235,
+        714,
+        236,
+        715
+      ]
+    },
+    {
+      "component": 989,
+      "owner": 4,
+      "box": [
+        373,
+        714,
+        377,
+        715
+      ]
+    },
+    {
+      "component": 990,
+      "owner": 5,
+      "box": [
+        607,
+        714,
+        608,
+        715
+      ]
+    },
+    {
+      "component": 991,
+      "owner": 5,
+      "box": [
+        829,
+        714,
+        833,
+        715
+      ]
+    },
+    {
+      "component": 992,
+      "owner": 6,
+      "box": [
+        1291,
+        714,
+        1292,
+        715
+      ]
+    },
+    {
+      "component": 993,
+      "owner": 7,
+      "box": [
+        1469,
+        714,
+        1470,
+        715
+      ]
+    },
+    {
+      "component": 994,
+      "owner": 7,
+      "box": [
+        1695,
+        714,
+        1698,
+        715
+      ]
+    },
+    {
+      "component": 995,
+      "owner": 4,
+      "box": [
+        153,
+        715,
+        154,
+        716
+      ]
+    },
+    {
+      "component": 996,
+      "owner": 4,
+      "box": [
+        236,
+        715,
+        237,
+        716
+      ]
+    },
+    {
+      "component": 997,
+      "owner": 4,
+      "box": [
+        368,
+        715,
+        372,
+        716
+      ]
+    },
+    {
+      "component": 998,
+      "owner": 5,
+      "box": [
+        826,
+        715,
+        828,
+        716
+      ]
+    },
+    {
+      "component": 999,
+      "owner": 6,
+      "box": [
+        1288,
+        715,
+        1290,
+        716
+      ]
+    },
+    {
+      "component": 1000,
+      "owner": 7,
+      "box": [
+        1693,
+        715,
+        1695,
+        716
+      ]
+    },
+    {
+      "component": 1001,
+      "owner": 4,
+      "box": [
+        237,
+        716,
+        239,
+        717
+      ]
+    },
+    {
+      "component": 1002,
+      "owner": 4,
+      "box": [
+        361,
+        716,
+        368,
+        717
+      ]
+    },
+    {
+      "component": 1003,
+      "owner": 5,
+      "box": [
+        823,
+        716,
+        825,
+        717
+      ]
+    },
+    {
+      "component": 1004,
+      "owner": 6,
+      "box": [
+        1284,
+        716,
+        1288,
+        717
+      ]
+    },
+    {
+      "component": 1005,
+      "owner": 7,
+      "box": [
+        1691,
+        716,
+        1693,
+        717
+      ]
+    },
+    {
+      "component": 1006,
+      "owner": 4,
+      "box": [
+        152,
+        717,
+        153,
+        718
+      ]
+    },
+    {
+      "component": 1007,
+      "owner": 4,
+      "box": [
+        239,
+        717,
+        240,
+        718
+      ]
+    },
+    {
+      "component": 1008,
+      "owner": 4,
+      "box": [
+        358,
+        717,
+        361,
+        718
+      ]
+    },
+    {
+      "component": 1009,
+      "owner": 5,
+      "box": [
+        821,
+        717,
+        823,
+        718
+      ]
+    },
+    {
+      "component": 1010,
+      "owner": 6,
+      "box": [
+        962,
+        717,
+        963,
+        718
+      ]
+    },
+    {
+      "component": 1011,
+      "owner": 6,
+      "box": [
+        1279,
+        717,
+        1284,
+        718
+      ]
+    },
+    {
+      "component": 1012,
+      "owner": 7,
+      "box": [
+        1689,
+        717,
+        1691,
+        718
+      ]
+    },
+    {
+      "component": 1013,
+      "owner": 4,
+      "box": [
+        356,
+        718,
+        357,
+        719
+      ]
+    },
+    {
+      "component": 1014,
+      "owner": 5,
+      "box": [
+        818,
+        718,
+        820,
+        719
+      ]
+    },
+    {
+      "component": 1015,
+      "owner": 6,
+      "box": [
+        963,
+        718,
+        965,
+        719
+      ]
+    },
+    {
+      "component": 1016,
+      "owner": 6,
+      "box": [
+        1274,
+        718,
+        1279,
+        719
+      ]
+    },
+    {
+      "component": 1017,
+      "owner": 7,
+      "box": [
+        1687,
+        718,
+        1689,
+        719
+      ]
+    },
+    {
+      "component": 1018,
+      "owner": 4,
+      "box": [
+        151,
+        719,
+        152,
+        720
+      ]
+    },
+    {
+      "component": 1019,
+      "owner": 4,
+      "box": [
+        352,
+        719,
+        355,
+        720
+      ]
+    },
+    {
+      "component": 1020,
+      "owner": 5,
+      "box": [
+        815,
+        719,
+        818,
+        720
+      ]
+    },
+    {
+      "component": 1021,
+      "owner": 6,
+      "box": [
+        1262,
+        719,
+        1273,
+        721
+      ]
+    },
+    {
+      "component": 1022,
+      "owner": 4,
+      "box": [
+        349,
+        720,
+        351,
+        721
+      ]
+    },
+    {
+      "component": 1023,
+      "owner": 5,
+      "box": [
+        811,
+        720,
+        814,
+        721
+      ]
+    },
+    {
+      "component": 1024,
+      "owner": 6,
+      "box": [
+        1067,
+        720,
+        1068,
+        721
+      ]
+    },
+    {
+      "component": 1025,
+      "owner": 4,
+      "box": [
+        149,
+        721,
+        150,
+        722
+      ]
+    },
+    {
+      "component": 1026,
+      "owner": 4,
+      "box": [
+        345,
+        721,
+        348,
+        722
+      ]
+    },
+    {
+      "component": 1027,
+      "owner": 5,
+      "box": [
+        807,
+        721,
+        811,
+        722
+      ]
+    },
+    {
+      "component": 1028,
+      "owner": 6,
+      "box": [
+        1260,
+        721,
+        1262,
+        722
+      ]
+    },
+    {
+      "component": 1029,
+      "owner": 4,
+      "box": [
+        341,
+        722,
+        345,
+        723
+      ]
+    },
+    {
+      "component": 1030,
+      "owner": 5,
+      "box": [
+        803,
+        722,
+        807,
+        723
+      ]
+    },
+    {
+      "component": 1031,
+      "owner": 6,
+      "box": [
+        1258,
+        722,
+        1260,
+        723
+      ]
+    },
+    {
+      "component": 1032,
+      "owner": 4,
+      "box": [
+        338,
+        723,
+        341,
+        724
+      ]
+    },
+    {
+      "component": 1033,
+      "owner": 5,
+      "box": [
+        798,
+        723,
+        802,
+        724
+      ]
+    },
+    {
+      "component": 1034,
+      "owner": 7,
+      "box": [
+        1671,
+        723,
+        1677,
+        725
+      ]
+    },
+    {
+      "component": 1035,
+      "owner": 5,
+      "box": [
+        599,
+        724,
+        600,
+        725
+      ]
+    },
+    {
+      "component": 1036,
+      "owner": 5,
+      "box": [
+        794,
+        724,
+        797,
+        725
+      ]
+    },
+    {
+      "component": 1037,
+      "owner": 7,
+      "box": [
+        1561,
+        724,
+        1564,
+        725
+      ]
+    },
+    {
+      "component": 1038,
+      "owner": 5,
+      "box": [
+        598,
+        725,
+        599,
+        726
+      ]
+    },
+    {
+      "component": 1039,
+      "owner": 6,
+      "box": [
+        1061,
+        725,
+        1062,
+        726
+      ]
+    },
+    {
+      "component": 1040,
+      "owner": 6,
+      "box": [
+        1250,
+        725,
+        1252,
+        726
+      ]
+    },
+    {
+      "component": 1041,
+      "owner": 7,
+      "box": [
+        1564,
+        725,
+        1567,
+        726
+      ]
+    },
+    {
+      "component": 1042,
+      "owner": 5,
+      "box": [
+        597,
+        726,
+        598,
+        727
+      ]
+    },
+    {
+      "component": 1043,
+      "owner": 6,
+      "box": [
+        1058,
+        726,
+        1059,
+        729
+      ]
+    },
+    {
+      "component": 1044,
+      "owner": 6,
+      "box": [
+        1246,
+        726,
+        1248,
+        727
+      ]
+    },
+    {
+      "component": 1045,
+      "owner": 7,
+      "box": [
+        1458,
+        726,
+        1459,
+        727
+      ]
+    },
+    {
+      "component": 1046,
+      "owner": 4,
+      "box": [
+        219,
+        727,
+        220,
+        728
+      ]
+    },
+    {
+      "component": 1047,
+      "owner": 5,
+      "box": [
+        596,
+        727,
+        597,
+        728
+      ]
+    },
+    {
+      "component": 1048,
+      "owner": 6,
+      "box": [
+        1243,
+        727,
+        1245,
+        728
+      ]
+    },
+    {
+      "component": 1049,
+      "owner": 7,
+      "box": [
+        1457,
+        727,
+        1458,
+        728
+      ]
+    },
+    {
+      "component": 1050,
+      "owner": 7,
+      "box": [
+        1668,
+        727,
+        1669,
+        728
+      ]
+    },
+    {
+      "component": 1051,
+      "owner": 7,
+      "box": [
+        1670,
+        727,
+        1671,
+        728
+      ]
+    },
+    {
+      "component": 1052,
+      "owner": 5,
+      "box": [
+        595,
+        728,
+        596,
+        729
+      ]
+    },
+    {
+      "component": 1053,
+      "owner": 7,
+      "box": [
+        1455,
+        728,
+        1457,
+        729
+      ]
+    },
+    {
+      "component": 1054,
+      "owner": 4,
+      "box": [
+        216,
+        729,
+        217,
+        730
+      ]
+    },
+    {
+      "component": 1055,
+      "owner": 5,
+      "box": [
+        594,
+        729,
+        595,
+        730
+      ]
+    },
+    {
+      "component": 1056,
+      "owner": 6,
+      "box": [
+        1057,
+        729,
+        1058,
+        732
+      ]
+    },
+    {
+      "component": 1057,
+      "owner": 7,
+      "box": [
+        1556,
+        729,
+        1557,
+        730
+      ]
+    },
+    {
+      "component": 1058,
+      "owner": 4,
+      "box": [
+        80,
+        730,
+        81,
+        732
+      ]
+    },
+    {
+      "component": 1059,
+      "owner": 4,
+      "box": [
+        215,
+        730,
+        216,
+        731
+      ]
+    },
+    {
+      "component": 1060,
+      "owner": 5,
+      "box": [
+        593,
+        730,
+        594,
+        731
+      ]
+    },
+    {
+      "component": 1061,
+      "owner": 4,
+      "box": [
+        141,
+        731,
+        142,
+        732
+      ]
+    },
+    {
+      "component": 1062,
+      "owner": 5,
+      "box": [
+        592,
+        731,
+        593,
+        732
+      ]
+    },
+    {
+      "component": 1063,
+      "owner": 7,
+      "box": [
+        1452,
+        731,
+        1453,
+        732
+      ]
+    },
+    {
+      "component": 1064,
+      "owner": 7,
+      "box": [
+        1554,
+        731,
+        1555,
+        732
+      ]
+    },
+    {
+      "component": 1065,
+      "owner": 7,
+      "box": [
+        1668,
+        731,
+        1669,
+        732
+      ]
+    },
+    {
+      "component": 1066,
+      "owner": 4,
+      "box": [
+        140,
+        732,
+        141,
+        733
+      ]
+    },
+    {
+      "component": 1067,
+      "owner": 5,
+      "box": [
+        591,
+        732,
+        592,
+        733
+      ]
+    },
+    {
+      "component": 1068,
+      "owner": 5,
+      "box": [
+        793,
+        732,
+        794,
+        735
+      ]
+    },
+    {
+      "component": 1069,
+      "owner": 6,
+      "box": [
+        1056,
+        732,
+        1057,
+        734
+      ]
+    },
+    {
+      "component": 1070,
+      "owner": 7,
+      "box": [
+        1451,
+        732,
+        1452,
+        733
+      ]
+    },
+    {
+      "component": 1071,
+      "owner": 7,
+      "box": [
+        1553,
+        732,
+        1554,
+        733
+      ]
+    },
+    {
+      "component": 1072,
+      "owner": 4,
+      "box": [
+        139,
+        733,
+        140,
+        734
+      ]
+    },
+    {
+      "component": 1073,
+      "owner": 5,
+      "box": [
+        590,
+        733,
+        591,
+        734
+      ]
+    },
+    {
+      "component": 1074,
+      "owner": 6,
+      "box": [
+        966,
+        733,
+        967,
+        734
+      ]
+    },
+    {
+      "component": 1075,
+      "owner": 7,
+      "box": [
+        1450,
+        733,
+        1451,
+        734
+      ]
+    },
+    {
+      "component": 1076,
+      "owner": 7,
+      "box": [
+        1552,
+        733,
+        1553,
+        734
+      ]
+    },
+    {
+      "component": 1077,
+      "owner": 4,
+      "box": [
+        138,
+        734,
+        139,
+        735
+      ]
+    },
+    {
+      "component": 1078,
+      "owner": 5,
+      "box": [
+        589,
+        734,
+        590,
+        735
+      ]
+    },
+    {
+      "component": 1079,
+      "owner": 7,
+      "box": [
+        1449,
+        734,
+        1450,
+        735
+      ]
+    },
+    {
+      "component": 1080,
+      "owner": 4,
+      "box": [
+        78,
+        735,
+        79,
+        736
+      ]
+    },
+    {
+      "component": 1081,
+      "owner": 4,
+      "box": [
+        137,
+        735,
+        138,
+        736
+      ]
+    },
+    {
+      "component": 1082,
+      "owner": 5,
+      "box": [
+        495,
+        735,
+        496,
+        736
+      ]
+    },
+    {
+      "component": 1083,
+      "owner": 5,
+      "box": [
+        588,
+        735,
+        589,
+        736
+      ]
+    },
+    {
+      "component": 1084,
+      "owner": 6,
+      "box": [
+        1065,
+        735,
+        1066,
+        736
+      ]
+    },
+    {
+      "component": 1085,
+      "owner": 4,
+      "box": [
+        77,
+        736,
+        78,
+        737
+      ]
+    },
+    {
+      "component": 1086,
+      "owner": 6,
+      "box": [
+        1055,
+        736,
+        1056,
+        738
+      ]
+    },
+    {
+      "component": 1087,
+      "owner": 4,
+      "box": [
+        76,
+        737,
+        77,
+        738
+      ]
+    },
+    {
+      "component": 1088,
+      "owner": 4,
+      "box": [
+        209,
+        737,
+        210,
+        738
+      ]
+    },
+    {
+      "component": 1089,
+      "owner": 5,
+      "box": [
+        585,
+        737,
+        586,
+        738
+      ]
+    },
+    {
+      "component": 1090,
+      "owner": 5,
+      "box": [
+        792,
+        737,
+        793,
+        738
+      ]
+    },
+    {
+      "component": 1091,
+      "owner": 4,
+      "box": [
+        75,
+        738,
+        76,
+        739
+      ]
+    },
+    {
+      "component": 1092,
+      "owner": 5,
+      "box": [
+        584,
+        738,
+        585,
+        739
+      ]
+    },
+    {
+      "component": 1093,
+      "owner": 4,
+      "box": [
+        74,
+        739,
+        75,
+        740
+      ]
+    },
+    {
+      "component": 1094,
+      "owner": 5,
+      "box": [
+        583,
+        739,
+        584,
+        740
+      ]
+    },
+    {
+      "component": 1095,
+      "owner": 6,
+      "box": [
+        1054,
+        739,
+        1055,
+        740
+      ]
+    },
+    {
+      "component": 1096,
+      "owner": 7,
+      "box": [
+        1578,
+        739,
+        1579,
+        740
+      ]
+    },
+    {
+      "component": 1097,
+      "owner": 5,
+      "box": [
+        582,
+        740,
+        583,
+        741
+      ]
+    },
+    {
+      "component": 1098,
+      "owner": 7,
+      "box": [
+        1366,
+        740,
+        1367,
+        741
+      ]
+    },
+    {
+      "component": 1099,
+      "owner": 7,
+      "box": [
+        1577,
+        740,
+        1578,
+        742
+      ]
+    },
+    {
+      "component": 1100,
+      "owner": 4,
+      "box": [
+        195,
+        741,
+        196,
+        742
+      ]
+    },
+    {
+      "component": 1101,
+      "owner": 4,
+      "box": [
+        326,
+        741,
+        327,
+        742
+      ]
+    },
+    {
+      "component": 1102,
+      "owner": 5,
+      "box": [
+        491,
+        741,
+        493,
+        742
+      ]
+    },
+    {
+      "component": 1103,
+      "owner": 7,
+      "box": [
+        1367,
+        741,
+        1368,
+        742
+      ]
+    },
+    {
+      "component": 1104,
+      "owner": 5,
+      "box": [
+        579,
+        742,
+        580,
+        743
+      ]
+    },
+    {
+      "component": 1105,
+      "owner": 5,
+      "box": [
+        712,
+        742,
+        713,
+        744
+      ]
+    },
+    {
+      "component": 1106,
+      "owner": 4,
+      "box": [
+        186,
+        743,
+        189,
+        744
+      ]
+    },
+    {
+      "component": 1107,
+      "owner": 4,
+      "box": [
+        325,
+        743,
+        326,
+        745
+      ]
+    },
+    {
+      "component": 1108,
+      "owner": 5,
+      "box": [
+        577,
+        743,
+        578,
+        744
+      ]
+    },
+    {
+      "component": 1109,
+      "owner": 5,
+      "box": [
+        674,
+        743,
+        675,
+        744
+      ]
+    },
+    {
+      "component": 1110,
+      "owner": 7,
+      "box": [
+        1370,
+        743,
+        1371,
+        744
+      ]
+    },
+    {
+      "component": 1111,
+      "owner": 7,
+      "box": [
+        1541,
+        743,
+        1542,
+        744
+      ]
+    },
+    {
+      "component": 1112,
+      "owner": 4,
+      "box": [
+        125,
+        744,
+        126,
+        745
+      ]
+    },
+    {
+      "component": 1113,
+      "owner": 4,
+      "box": [
+        179,
+        744,
+        183,
+        745
+      ]
+    },
+    {
+      "component": 1114,
+      "owner": 5,
+      "box": [
+        575,
+        744,
+        576,
+        745
+      ]
+    },
+    {
+      "component": 1115,
+      "owner": 5,
+      "box": [
+        671,
+        744,
+        673,
+        745
+      ]
+    },
+    {
+      "component": 1116,
+      "owner": 5,
+      "box": [
+        711,
+        744,
+        712,
+        745
+      ]
+    },
+    {
+      "component": 1117,
+      "owner": 6,
+      "box": [
+        1120,
+        744,
+        1122,
+        745
+      ]
+    },
+    {
+      "component": 1118,
+      "owner": 7,
+      "box": [
+        1372,
+        744,
+        1373,
+        745
+      ]
+    },
+    {
+      "component": 1119,
+      "owner": 7,
+      "box": [
+        1431,
+        744,
+        1433,
+        745
+      ]
+    },
+    {
+      "component": 1120,
+      "owner": 4,
+      "box": [
+        123,
+        745,
+        125,
+        746
+      ]
+    },
+    {
+      "component": 1121,
+      "owner": 4,
+      "box": [
+        324,
+        745,
+        325,
+        747
+      ]
+    },
+    {
+      "component": 1122,
+      "owner": 5,
+      "box": [
+        574,
+        745,
+        575,
+        746
+      ]
+    },
+    {
+      "component": 1123,
+      "owner": 5,
+      "box": [
+        669,
+        745,
+        670,
+        746
+      ]
+    },
+    {
+      "component": 1124,
+      "owner": 6,
+      "box": [
+        1119,
+        745,
+        1120,
+        746
+      ]
+    },
+    {
+      "component": 1125,
+      "owner": 7,
+      "box": [
+        1429,
+        745,
+        1431,
+        746
+      ]
+    },
+    {
+      "component": 1126,
+      "owner": 7,
+      "box": [
+        1538,
+        745,
+        1539,
+        746
+      ]
+    },
+    {
+      "component": 1127,
+      "owner": 4,
+      "box": [
+        122,
+        746,
+        123,
+        747
+      ]
+    },
+    {
+      "component": 1128,
+      "owner": 5,
+      "box": [
+        497,
+        746,
+        498,
+        747
+      ]
+    },
+    {
+      "component": 1129,
+      "owner": 5,
+      "box": [
+        572,
+        746,
+        573,
+        747
+      ]
+    },
+    {
+      "component": 1130,
+      "owner": 5,
+      "box": [
+        667,
+        746,
+        668,
+        747
+      ]
+    },
+    {
+      "component": 1131,
+      "owner": 7,
+      "box": [
+        1376,
+        746,
+        1378,
+        747
+      ]
+    },
+    {
+      "component": 1132,
+      "owner": 7,
+      "box": [
+        1536,
+        746,
+        1538,
+        747
+      ]
+    },
+    {
+      "component": 1133,
+      "owner": 4,
+      "box": [
+        60,
+        747,
+        61,
+        748
+      ]
+    },
+    {
+      "component": 1134,
+      "owner": 4,
+      "box": [
+        120,
+        747,
+        121,
+        748
+      ]
+    },
+    {
+      "component": 1135,
+      "owner": 4,
+      "box": [
+        323,
+        747,
+        324,
+        748
+      ]
+    },
+    {
+      "component": 1136,
+      "owner": 5,
+      "box": [
+        498,
+        747,
+        499,
+        748
+      ]
+    },
+    {
+      "component": 1137,
+      "owner": 5,
+      "box": [
+        665,
+        747,
+        667,
+        748
+      ]
+    },
+    {
+      "component": 1138,
+      "owner": 6,
+      "box": [
+        1116,
+        747,
+        1117,
+        748
+      ]
+    },
+    {
+      "component": 1139,
+      "owner": 7,
+      "box": [
+        1378,
+        747,
+        1381,
+        748
+      ]
+    },
+    {
+      "component": 1140,
+      "owner": 7,
+      "box": [
+        1535,
+        747,
+        1536,
+        748
+      ]
+    },
+    {
+      "component": 1141,
+      "owner": 4,
+      "box": [
+        118,
+        748,
+        119,
+        749
+      ]
+    },
+    {
+      "component": 1142,
+      "owner": 5,
+      "box": [
+        662,
+        748,
+        664,
+        749
+      ]
+    },
+    {
+      "component": 1143,
+      "owner": 6,
+      "box": [
+        1240,
+        748,
+        1241,
+        753
+      ]
+    },
+    {
+      "component": 1144,
+      "owner": 7,
+      "box": [
+        1533,
+        748,
+        1534,
+        749
+      ]
+    },
+    {
+      "component": 1145,
+      "owner": 4,
+      "box": [
+        116,
+        749,
+        118,
+        750
+      ]
+    },
+    {
+      "component": 1146,
+      "owner": 4,
+      "box": [
+        322,
+        749,
+        323,
+        750
+      ]
+    },
+    {
+      "component": 1147,
+      "owner": 5,
+      "box": [
+        501,
+        749,
+        502,
+        750
+      ]
+    },
+    {
+      "component": 1148,
+      "owner": 5,
+      "box": [
+        623,
+        749,
+        624,
+        750
+      ]
+    },
+    {
+      "component": 1149,
+      "owner": 4,
+      "box": [
+        114,
+        750,
+        116,
+        751
+      ]
+    },
+    {
+      "component": 1150,
+      "owner": 5,
+      "box": [
+        502,
+        750,
+        504,
+        752
+      ]
+    },
+    {
+      "component": 1151,
+      "owner": 5,
+      "box": [
+        564,
+        750,
+        565,
+        751
+      ]
+    },
+    {
+      "component": 1152,
+      "owner": 5,
+      "box": [
+        626,
+        750,
+        628,
+        751
+      ]
+    },
+    {
+      "component": 1153,
+      "owner": 7,
+      "box": [
+        1573,
+        750,
+        1574,
+        753
+      ]
+    },
+    {
+      "component": 1154,
+      "owner": 4,
+      "box": [
+        111,
+        751,
+        113,
+        752
+      ]
+    },
+    {
+      "component": 1155,
+      "owner": 5,
+      "box": [
+        505,
+        751,
+        506,
+        752
+      ]
+    },
+    {
+      "component": 1156,
+      "owner": 5,
+      "box": [
+        561,
+        751,
+        563,
+        752
+      ]
+    },
+    {
+      "component": 1157,
+      "owner": 7,
+      "box": [
+        1396,
+        751,
+        1397,
+        752
+      ]
+    },
+    {
+      "component": 1158,
+      "owner": 7,
+      "box": [
+        1398,
+        751,
+        1402,
+        752
+      ]
+    },
+    {
+      "component": 1159,
+      "owner": 6,
+      "box": [
+        966,
+        753,
+        967,
+        754
+      ]
+    },
+    {
+      "component": 1160,
+      "owner": 6,
+      "box": [
+        1061,
+        754,
+        1062,
+        755
+      ]
+    },
+    {
+      "component": 1161,
+      "owner": 5,
+      "box": [
+        515,
+        755,
+        516,
+        756
+      ]
+    },
+    {
+      "component": 1162,
+      "owner": 6,
+      "box": [
+        1128,
+        755,
+        1129,
+        756
+      ]
+    },
+    {
+      "component": 1163,
+      "owner": 5,
+      "box": [
+        709,
+        756,
+        710,
+        758
+      ]
+    },
+    {
+      "component": 1164,
+      "owner": 6,
+      "box": [
+        1166,
+        758,
+        1167,
+        759
+      ]
+    },
+    {
+      "component": 1165,
+      "owner": 6,
+      "box": [
+        970,
+        760,
+        971,
+        761
+      ]
+    },
+    {
+      "component": 1166,
+      "owner": 6,
+      "box": [
+        1043,
+        761,
+        1044,
+        762
+      ]
+    },
+    {
+      "component": 1167,
+      "owner": 6,
+      "box": [
+        971,
+        762,
+        972,
+        763
+      ]
+    },
+    {
+      "component": 1168,
+      "owner": 6,
+      "box": [
+        1144,
+        762,
+        1145,
+        763
+      ]
+    },
+    {
+      "component": 1169,
+      "owner": 7,
+      "box": [
+        1620,
+        762,
+        1621,
+        763
+      ]
+    },
+    {
+      "component": 1170,
+      "owner": 4,
+      "box": [
+        246,
+        763,
+        247,
+        764
+      ]
+    },
+    {
+      "component": 1171,
+      "owner": 6,
+      "box": [
+        1042,
+        763,
+        1043,
+        764
+      ]
+    },
+    {
+      "component": 1172,
+      "owner": 6,
+      "box": [
+        1235,
+        764,
+        1236,
+        766
+      ]
+    },
+    {
+      "component": 1173,
+      "owner": 7,
+      "box": [
+        1625,
+        765,
+        1626,
+        766
+      ]
+    },
+    {
+      "component": 1174,
+      "owner": 6,
+      "box": [
+        1234,
+        766,
+        1235,
+        768
+      ]
+    },
+    {
+      "component": 1175,
+      "owner": 4,
+      "box": [
+        247,
+        767,
+        248,
+        768
+      ]
+    },
+    {
+      "component": 1176,
+      "owner": 5,
+      "box": [
+        707,
+        768,
+        708,
+        770
+      ]
+    },
+    {
+      "component": 1177,
+      "owner": 6,
+      "box": [
+        1233,
+        768,
+        1234,
+        770
+      ]
+    },
+    {
+      "component": 1178,
+      "owner": 7,
+      "box": [
+        1613,
+        768,
+        1614,
+        769
+      ]
+    },
+    {
+      "component": 1179,
+      "owner": 4,
+      "box": [
+        247,
+        769,
+        248,
+        770
+      ]
+    },
+    {
+      "component": 1180,
+      "owner": 6,
+      "box": [
+        1232,
+        770,
+        1233,
+        771
+      ]
+    },
+    {
+      "component": 1181,
+      "owner": 5,
+      "box": [
+        706,
+        771,
+        707,
+        773
+      ]
+    },
+    {
+      "component": 1182,
+      "owner": 5,
+      "box": [
+        705,
+        773,
+        706,
+        774
+      ]
+    },
+    {
+      "component": 1183,
+      "owner": 6,
+      "box": [
+        1230,
+        773,
+        1231,
+        774
+      ]
+    },
+    {
+      "component": 1184,
+      "owner": 6,
+      "box": [
+        1229,
+        775,
+        1230,
+        776
+      ]
+    },
+    {
+      "component": 1185,
+      "owner": 6,
+      "box": [
+        1228,
+        776,
+        1229,
+        777
+      ]
+    },
+    {
+      "component": 1186,
+      "owner": 5,
+      "box": [
+        700,
+        777,
+        702,
+        778
+      ]
+    },
+    {
+      "component": 1187,
+      "owner": 6,
+      "box": [
+        1192,
+        779,
+        1193,
+        780
+      ]
+    },
+    {
+      "component": 1188,
+      "owner": 6,
+      "box": [
+        1226,
+        779,
+        1227,
+        780
+      ]
+    },
+    {
+      "component": 1189,
+      "owner": 5,
+      "box": [
+        731,
+        780,
+        732,
+        781
+      ]
+    },
+    {
+      "component": 1190,
+      "owner": 6,
+      "box": [
+        1193,
+        781,
+        1194,
+        782
+      ]
+    },
+    {
+      "component": 1191,
+      "owner": 6,
+      "box": [
+        1224,
+        782,
+        1225,
+        783
+      ]
+    },
+    {
+      "component": 1192,
+      "owner": 7,
+      "box": [
+        1569,
+        782,
+        1570,
+        783
+      ]
+    },
+    {
+      "component": 1193,
+      "owner": 7,
+      "box": [
+        1575,
+        782,
+        1577,
+        783
+      ]
+    },
+    {
+      "component": 1194,
+      "owner": 6,
+      "box": [
+        1194,
+        783,
+        1195,
+        785
+      ]
+    },
+    {
+      "component": 1195,
+      "owner": 6,
+      "box": [
+        1223,
+        783,
+        1224,
+        784
+      ]
+    },
+    {
+      "component": 1196,
+      "owner": 5,
+      "box": [
+        706,
+        784,
+        708,
+        785
+      ]
+    },
+    {
+      "component": 1197,
+      "owner": 5,
+      "box": [
+        725,
+        784,
+        726,
+        785
+      ]
+    },
+    {
+      "component": 1198,
+      "owner": 5,
+      "box": [
+        723,
+        785,
+        724,
+        786
+      ]
+    },
+    {
+      "component": 1199,
+      "owner": 6,
+      "box": [
+        1195,
+        785,
+        1196,
+        787
+      ]
+    },
+    {
+      "component": 1200,
+      "owner": 4,
+      "box": [
+        265,
+        786,
+        266,
+        787
+      ]
+    },
+    {
+      "component": 1201,
+      "owner": 6,
+      "box": [
+        1196,
+        788,
+        1197,
+        796
+      ]
+    },
+    {
+      "component": 1202,
+      "owner": 6,
+      "box": [
+        1008,
+        797,
+        1009,
+        798
+      ]
+    },
+    {
+      "component": 1203,
+      "owner": 6,
+      "box": [
+        1195,
+        797,
+        1196,
+        799
+      ]
+    },
+    {
+      "component": 1204,
+      "owner": 6,
+      "box": [
+        1004,
+        799,
+        1005,
+        800
+      ]
+    },
+    {
+      "component": 1205,
+      "owner": 6,
+      "box": [
+        1001,
+        801,
+        1002,
+        802
+      ]
+    },
+    {
+      "component": 1206,
+      "owner": 6,
+      "box": [
+        995,
+        804,
+        997,
+        805
+      ]
+    },
+    {
+      "component": 1207,
+      "owner": 6,
+      "box": [
+        981,
+        808,
+        982,
+        809
+      ]
+    }
+  ],
+  "originalInspectionSHA256": "8977502e091ce600338a63c606b58ad46e1a40145848236f1da8225112b2fbdb"
+}

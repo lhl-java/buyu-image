@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "elder",
+  "name": "灵海长者",
+  "file": "assets/characters/portraits/elder.png",
+  "sha256": "bc7d3ebe00e979dc623b47f1906fb512df1f7981184ab64ca88cf960f0f57c40",
+  "width": 462,
+  "height": 436,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/production-v1/portraits/portraits-v2.png",
+  "derivedFrom": [
+    {
+      "file": "designs/production-v1/portraits/portraits-v2.png",
+      "sha256": "b05fa8788eaf7f7c45449617921447ff5c55c1af98f2226b534bf4a6c02e8431",
+      "generationRecord": "designs/production-v1/portraits/portraits-v2.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_grid_crop",
+    "grid": {
+      "rows": 2,
+      "cols": 3
+    },
+    "sourceRect": [
+      1024,
+      512,
+      1536,
+      1024
+    ],
+    "cellCropRect": [
+      11,
+      14,
+      473,
+      450
+    ],
+    "alphaCleanup": "Values <=3 set to zero; all other alpha and RGB preserved",
+    "resized": false,
+    "upscaled": false
+  },
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "displaySize": [
+    128,
+    128
+  ],
+  "status": "prepared_visual_reviewed_pending_user_review",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source generation record; no new model call for this slice.",
+  "visualReview": "Reviewed actual sliced QA: isolated complete head/shoulders, no neighboring fragments or visible clipped hats/ornaments; native-alpha RGBA, no resizing."
+}

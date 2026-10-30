@@ -1,0 +1,1073 @@
+{
+  "schemaVersion": 1,
+  "source": "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-contained-v2.png",
+  "sourceWidth": 1774,
+  "sourceHeight": 887,
+  "output": "assets/animations/02-jinwei/swim",
+  "id": "02-jinwei",
+  "action": "swim",
+  "items": [
+    {
+      "schemaVersion": 1,
+      "id": "frame-00",
+      "file": "assets/animations/02-jinwei/swim/frame-00.png",
+      "sha256": "96d0ef44263c0f82cef28fb0b624cb2b9217b7361383c5f3e18d6cd0c12b25c7",
+      "width": 672,
+      "height": 672,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-contained-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-contained-v2.png",
+          "sha256": "3c1746a4a2bdc3bd471f2b59f271563bebb3ee8f8327b62f5bb6f56024e885d1",
+          "generationRecord": "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-contained-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          33,
+          145,
+          424,
+          410
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          391,
+          265
+        ],
+        "registrationOffset": [
+          103,
+          209
+        ],
+        "registeredCanvas": [
+          672,
+          672
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            333.47435897435895,
+            107.5
+          ],
+          "sourcePointRounded": [
+            333,
+            107
+          ],
+          "targetPoint": [
+            436,
+            316
+          ],
+          "method": "largest RGBmax<55 and A>220 component within right48percent cell; requires actual ROI visual confirmation",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          0,
+          0,
+          444,
+          444
+        ],
+        "nominalGridBorderAlpha": 1,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        336,
+        336
+      ],
+      "eyePixels": [
+        436,
+        316
+      ],
+      "displaySize": [
+        215.04,
+        215.04
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.32,
+      "scaleReference": "rest frame00 native visible box",
+      "registeredAlphaBBox": [
+        111,
+        217,
+        486,
+        466
+      ],
+      "registeredMinMargin": 0.16517857142857142,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-01",
+      "file": "assets/animations/02-jinwei/swim/frame-01.png",
+      "sha256": "947f55b9b70ba3b4a263b649e72077dd348e189b49636f2f78802334757a25db",
+      "width": 672,
+      "height": 672,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-contained-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-contained-v2.png",
+          "sha256": "3c1746a4a2bdc3bd471f2b59f271563bebb3ee8f8327b62f5bb6f56024e885d1",
+          "generationRecord": "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-contained-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          477,
+          108,
+          860,
+          417
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          383,
+          309
+        ],
+        "registrationOffset": [
+          109,
+          168
+        ],
+        "registeredCanvas": [
+          672,
+          672
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            327.28688524590166,
+            147.7827868852459
+          ],
+          "sourcePointRounded": [
+            327,
+            148
+          ],
+          "targetPoint": [
+            436,
+            316
+          ],
+          "method": "largest RGBmax<55 and A>220 component within right48percent cell; requires actual ROI visual confirmation",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          444,
+          0,
+          887,
+          444
+        ],
+        "nominalGridBorderAlpha": 1,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        336,
+        336
+      ],
+      "eyePixels": [
+        436,
+        316
+      ],
+      "displaySize": [
+        215.04,
+        215.04
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.32,
+      "scaleReference": "rest frame00 native visible box",
+      "registeredAlphaBBox": [
+        117,
+        176,
+        484,
+        469
+      ],
+      "registeredMinMargin": 0.17410714285714285,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-02",
+      "file": "assets/animations/02-jinwei/swim/frame-02.png",
+      "sha256": "8dff327ae3421a082c03ae816a6e5a33746620b979f4abc11dd8df50278d474c",
+      "width": 672,
+      "height": 672,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-contained-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-contained-v2.png",
+          "sha256": "3c1746a4a2bdc3bd471f2b59f271563bebb3ee8f8327b62f5bb6f56024e885d1",
+          "generationRecord": "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-contained-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          914,
+          89,
+          1285,
+          417
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          371,
+          328
+        ],
+        "registrationOffset": [
+          119,
+          152
+        ],
+        "registeredCanvas": [
+          672,
+          672
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            317.47619047619037,
+            163.73809523809524
+          ],
+          "sourcePointRounded": [
+            317,
+            164
+          ],
+          "targetPoint": [
+            436,
+            316
+          ],
+          "method": "largest RGBmax<55 and A>220 component within right48percent cell; requires actual ROI visual confirmation",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          887,
+          0,
+          1330,
+          444
+        ],
+        "nominalGridBorderAlpha": 1,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        336,
+        336
+      ],
+      "eyePixels": [
+        436,
+        316
+      ],
+      "displaySize": [
+        215.04,
+        215.04
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.32,
+      "scaleReference": "rest frame00 native visible box",
+      "registeredAlphaBBox": [
+        127,
+        160,
+        482,
+        472
+      ],
+      "registeredMinMargin": 0.18898809523809523,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-03",
+      "file": "assets/animations/02-jinwei/swim/frame-03.png",
+      "sha256": "da16f36a130c53bb0085b3edcd93bc33eae62342699756a68d5a0897d1280564",
+      "width": 672,
+      "height": 672,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-contained-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-contained-v2.png",
+          "sha256": "3c1746a4a2bdc3bd471f2b59f271563bebb3ee8f8327b62f5bb6f56024e885d1",
+          "generationRecord": "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-contained-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          1353,
+          146,
+          1740,
+          403
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          387,
+          257
+        ],
+        "registrationOffset": [
+          104,
+          211
+        ],
+        "registeredCanvas": [
+          672,
+          672
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            332.45306122448983,
+            105.08571428571429
+          ],
+          "sourcePointRounded": [
+            332,
+            105
+          ],
+          "targetPoint": [
+            436,
+            316
+          ],
+          "method": "largest RGBmax<55 and A>220 component within right48percent cell; requires actual ROI visual confirmation",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          1330,
+          0,
+          1774,
+          444
+        ],
+        "nominalGridBorderAlpha": 1,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        336,
+        336
+      ],
+      "eyePixels": [
+        436,
+        316
+      ],
+      "displaySize": [
+        215.04,
+        215.04
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.32,
+      "scaleReference": "rest frame00 native visible box",
+      "registeredAlphaBBox": [
+        112,
+        219,
+        483,
+        460
+      ],
+      "registeredMinMargin": 0.16666666666666666,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-04",
+      "file": "assets/animations/02-jinwei/swim/frame-04.png",
+      "sha256": "dd554f4d8fa7593b58b867a9a59aae04f3304fa3b7e3913d6eefd35eb59f009f",
+      "width": 672,
+      "height": 672,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-contained-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-contained-v2.png",
+          "sha256": "3c1746a4a2bdc3bd471f2b59f271563bebb3ee8f8327b62f5bb6f56024e885d1",
+          "generationRecord": "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-contained-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          26,
+          526,
+          424,
+          785
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          398,
+          259
+        ],
+        "registrationOffset": [
+          95,
+          209
+        ],
+        "registeredCanvas": [
+          672,
+          672
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            340.61475409836066,
+            106.57377049180332
+          ],
+          "sourcePointRounded": [
+            341,
+            107
+          ],
+          "targetPoint": [
+            436,
+            316
+          ],
+          "method": "largest RGBmax<55 and A>220 component within right48percent cell; requires actual ROI visual confirmation",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          0,
+          444,
+          444,
+          887
+        ],
+        "nominalGridBorderAlpha": 1,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        336,
+        336
+      ],
+      "eyePixels": [
+        436,
+        316
+      ],
+      "displaySize": [
+        215.04,
+        215.04
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.32,
+      "scaleReference": "rest frame00 native visible box",
+      "registeredAlphaBBox": [
+        103,
+        217,
+        485,
+        460
+      ],
+      "registeredMinMargin": 0.15327380952380953,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-05",
+      "file": "assets/animations/02-jinwei/swim/frame-05.png",
+      "sha256": "e2328b7e7b70327fbddf2bf5dd8a9f4f9f419bd00ca0fd3a0bbf52565c04dbe8",
+      "width": 672,
+      "height": 672,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-contained-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-contained-v2.png",
+          "sha256": "3c1746a4a2bdc3bd471f2b59f271563bebb3ee8f8327b62f5bb6f56024e885d1",
+          "generationRecord": "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-contained-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          475,
+          535,
+          864,
+          785
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          389,
+          250
+        ],
+        "registrationOffset": [
+          104,
+          219
+        ],
+        "registeredCanvas": [
+          672,
+          672
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            332.0254237288136,
+            97.46186440677968
+          ],
+          "sourcePointRounded": [
+            332,
+            97
+          ],
+          "targetPoint": [
+            436,
+            316
+          ],
+          "method": "largest RGBmax<55 and A>220 component within right48percent cell; requires actual ROI visual confirmation",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          444,
+          444,
+          887,
+          887
+        ],
+        "nominalGridBorderAlpha": 1,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        336,
+        336
+      ],
+      "eyePixels": [
+        436,
+        316
+      ],
+      "displaySize": [
+        215.04,
+        215.04
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.32,
+      "scaleReference": "rest frame00 native visible box",
+      "registeredAlphaBBox": [
+        112,
+        227,
+        485,
+        461
+      ],
+      "registeredMinMargin": 0.16666666666666666,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-06",
+      "file": "assets/animations/02-jinwei/swim/frame-06.png",
+      "sha256": "e6a2ddd1c0e3468e18531d9529acf1ffab3c6bcea55c3c5f6e71f867968ddbc8",
+      "width": 672,
+      "height": 672,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-contained-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-contained-v2.png",
+          "sha256": "3c1746a4a2bdc3bd471f2b59f271563bebb3ee8f8327b62f5bb6f56024e885d1",
+          "generationRecord": "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-contained-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          909,
+          535,
+          1295,
+          794
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          386,
+          259
+        ],
+        "registrationOffset": [
+          106,
+          219
+        ],
+        "registeredCanvas": [
+          672,
+          672
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            329.60683760683764,
+            96.90170940170947
+          ],
+          "sourcePointRounded": [
+            330,
+            97
+          ],
+          "targetPoint": [
+            436,
+            316
+          ],
+          "method": "largest RGBmax<55 and A>220 component within right48percent cell; requires actual ROI visual confirmation",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          887,
+          444,
+          1330,
+          887
+        ],
+        "nominalGridBorderAlpha": 1,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        336,
+        336
+      ],
+      "eyePixels": [
+        436,
+        316
+      ],
+      "displaySize": [
+        215.04,
+        215.04
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.32,
+      "scaleReference": "rest frame00 native visible box",
+      "registeredAlphaBBox": [
+        114,
+        227,
+        484,
+        470
+      ],
+      "registeredMinMargin": 0.16964285714285715,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-07",
+      "file": "assets/animations/02-jinwei/swim/frame-07.png",
+      "sha256": "6af0a77b3c143c8316158a3b6363c56c5c02b85f10250e97c2769c3715272ccd",
+      "width": 672,
+      "height": 672,
+      "format": "RGBA PNG",
+      "nativeSource": "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-contained-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-contained-v2.png",
+          "sha256": "3c1746a4a2bdc3bd471f2b59f271563bebb3ee8f8327b62f5bb6f56024e885d1",
+          "generationRecord": "designs/motion-frames-v1/02-jinwei/swim/02-jinwei-swim-contained-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_grid_crop_integer_pupil_registration",
+        "sourceRect": [
+          1364,
+          535,
+          1748,
+          785
+        ],
+        "cellCropRect": [
+          0,
+          0,
+          384,
+          250
+        ],
+        "registrationOffset": [
+          110,
+          219
+        ],
+        "registeredCanvas": [
+          672,
+          672
+        ],
+        "registrationReference": {
+          "type": "black_pupil_component_centroid",
+          "sourcePointFloat": [
+            325.8557692307693,
+            97.37019230769238
+          ],
+          "sourcePointRounded": [
+            326,
+            97
+          ],
+          "targetPoint": [
+            436,
+            316
+          ],
+          "method": "largest RGBmax<55 and A>220 component within right48percent cell; requires actual ROI visual confirmation",
+          "roiActuallyInspected": true
+        },
+        "resized": false,
+        "upscaled": false,
+        "alphaCleanup": "<=3 set0; all other RGBA pixels preserved",
+        "sourcePixelsRoundTripVerified": true,
+        "nominalGridRect": [
+          1330,
+          444,
+          1774,
+          887
+        ],
+        "nominalGridBorderAlpha": 1,
+        "ownershipType": "complete_nonoverlapping_pose_rectangle",
+        "foreignFishAlphaPixels": 0,
+        "allAssignedPixelsInsideRect": true
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "rootPixels": [
+        336,
+        336
+      ],
+      "eyePixels": [
+        436,
+        316
+      ],
+      "displaySize": [
+        215.04,
+        215.04
+      ],
+      "bodyDisplayBox": [
+        120,
+        80
+      ],
+      "uniformDisplayScale": 0.32,
+      "scaleReference": "rest frame00 native visible box",
+      "registeredAlphaBBox": [
+        118,
+        227,
+        486,
+        461
+      ],
+      "registeredMinMargin": 0.17559523809523808,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "No model call for crop/translation. Source record preserves actual unknown builtin model/quality.",
+      "clipDensityAdjustment": null
+    }
+  ],
+  "sourceRects": [
+    [
+      33,
+      145,
+      424,
+      410
+    ],
+    [
+      477,
+      108,
+      860,
+      417
+    ],
+    [
+      914,
+      89,
+      1285,
+      417
+    ],
+    [
+      1353,
+      146,
+      1740,
+      403
+    ],
+    [
+      26,
+      526,
+      424,
+      785
+    ],
+    [
+      475,
+      535,
+      864,
+      785
+    ],
+    [
+      909,
+      535,
+      1295,
+      794
+    ],
+    [
+      1364,
+      535,
+      1748,
+      785
+    ]
+  ],
+  "sharedCanvas": [
+    672,
+    672
+  ],
+  "root": [
+    0.5,
+    0.5
+  ],
+  "rootPixels": [
+    336,
+    336
+  ],
+  "eyePixels": [
+    436,
+    316
+  ],
+  "fps": 12,
+  "loop": true,
+  "durationsMs": [
+    83,
+    84,
+    83,
+    83,
+    84,
+    83,
+    83,
+    84
+  ],
+  "displaySize": [
+    215.04,
+    215.04
+  ],
+  "bodyDisplayBox": [
+    120,
+    80
+  ],
+  "uniformDisplayScale": 0.32,
+  "displayScaleReference": {
+    "frame": 0,
+    "restVisibleBox": [
+      375,
+      249
+    ],
+    "actualRestDisplayBox": [
+      120.0,
+      79.68
+    ]
+  },
+  "warnings": [],
+  "runtimeMarginWarnings": [],
+  "sourceMarginWarnings": [
+    {
+      "frame": 0,
+      "actual": 0.06306306306306306,
+      "required": 0.12
+    },
+    {
+      "frame": 1,
+      "actual": 0.07882882882882883,
+      "required": 0.12
+    },
+    {
+      "frame": 2,
+      "actual": 0.07882882882882883,
+      "required": 0.12
+    },
+    {
+      "frame": 3,
+      "actual": 0.06981981981981981,
+      "required": 0.12
+    },
+    {
+      "frame": 4,
+      "actual": 0.06306306306306306,
+      "required": 0.12
+    },
+    {
+      "frame": 5,
+      "actual": 0.06997742663656885,
+      "required": 0.12
+    },
+    {
+      "frame": 6,
+      "actual": 0.06772009029345373,
+      "required": 0.12
+    },
+    {
+      "frame": 7,
+      "actual": 0.07657657657657657,
+      "required": 0.12
+    }
+  ],
+  "animation": {
+    "frames": 8,
+    "fps": 12,
+    "loop": true,
+    "durationsMs": [
+      83,
+      84,
+      83,
+      83,
+      84,
+      83,
+      83,
+      84
+    ],
+    "order": "row-major",
+    "root": [
+      0.5,
+      0.5
+    ],
+    "rootPixels": [
+      336,
+      336
+    ],
+    "eyePixels": [
+      436,
+      316
+    ],
+    "sharedCanvas": [
+      672,
+      672
+    ],
+    "phaseDegrees": [
+      0,
+      45,
+      90,
+      135,
+      180,
+      225,
+      270,
+      315
+    ],
+    "poseMeaning": "8-phase swim cycle",
+    "identityStatus": "pending_root_visual",
+    "motionStatus": "pending_root_visual",
+    "registrationStatus": "producer_pupil_registered_pending_root_visual",
+    "playbackStatus": "pending_Unity",
+    "timingNote": "12FPS authoritative; integer durations cumulative-boundary rounded",
+    "releaseReady": true
+  },
+  "status": "accepted_first_release_art",
+  "complete": true,
+  "qa": {
+    "trueAlpha": true,
+    "actualPupilROIReviewed": true,
+    "registeredPixelRoundTrip": true,
+    "minimumRuntimeMargin": 0.15327380952380953,
+    "sourceMarginStatus": "nominal_grid_warnings_preserved; complete_ownership_and_registered_margin_verified",
+    "runtimeMarginStatus": "pass",
+    "producerVisualNote": "Actual native and eye ROI reviewed; real tail/fin membrane curve changes, identity preserved. Ownership retains every assigned pixel, no foreign fish. Pending root contact review and Unity playback.",
+    "rootVisualStatus": "pending",
+    "playbackStatus": "pending_Unity",
+    "producerLightDarkAlphaCompositeActuallyViewed": true,
+    "producerRegisteredPoseStillReview": "candidate_pass",
+    "producerPoseEvidence": "Gold/ivory fan tail changes upper/lower curvature; capture strong curling and relaxed final tail. Clip rest native density differs and is adjusted once.",
+    "hashUniquenessIsNotMotionEvidence": true,
+    "producerReviewedAt": "2026-10-28T18:52:01.296582+00:00",
+    "originalNominalGridMarginStatus": "fail_preserved"
+  },
+  "nominalGridBorderWarnings": [],
+  "ownershipWarnings": [],
+  "clipDensityAdjustment": null,
+  "bodyRootOffsetFromEye": [
+    -100,
+    20
+  ],
+  "producerStage": "candidate_ready_for_root_visual",
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+  "acceptedAt": "2026-10-30T04:07:09.085600+00:00",
+  "releaseReady": true,
+  "playbackReview": "docs/UNITY_FINAL_ACCEPTANCE.json"
+}

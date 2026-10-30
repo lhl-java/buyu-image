@@ -1,0 +1,54 @@
+{
+  "id": "08-lanbian",
+  "source": {
+    "swim": "designs/motion-frames-v1/08-lanbian/swim/08-lanbian-swim-v1.png",
+    "capture": "designs/motion-frames-v1/08-lanbian/capture/08-lanbian-capture-v1.png"
+  },
+  "canvas": 640,
+  "eyeOffset": [
+    110,
+    -30
+  ],
+  "eyeTarget": [
+    430,
+    290
+  ],
+  "root": [
+    320,
+    320
+  ],
+  "ownershipWarnings": {},
+  "nominalGridWarnings": {
+    "swim": [],
+    "capture": [
+      1,
+      2
+    ]
+  },
+  "sourceGridMarginWarnings": {
+    "swim": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "capture": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "actualPupilVisual": "producer_inspected_combined_ROI",
+  "eyeReviewImage": "designs/motion-frames-v1/08-lanbian/source-eye-review.png",
+  "notes": "Blue bream spiky dorsal identity retained, short fork-tail up/down and fan pectoral shape changes; capture posterior C-flex and droop.",
+  "registeredContactVisual": "pending_actual_view"
+}

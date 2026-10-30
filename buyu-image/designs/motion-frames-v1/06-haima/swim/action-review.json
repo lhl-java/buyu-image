@@ -1,0 +1,206 @@
+{
+  "source": "designs/motion-frames-v1/06-haima/swim/06-haima-swim-v1.png",
+  "sourceSHA256": "b495beb0da8e6671072997379c5a0d6da91b5cb5a2a94b4da82473a2e1f2aca5",
+  "action": "swim",
+  "registeredAt": "2026-10-28T18:16:42.968431+00:00",
+  "sharedCanvas": [
+    608,
+    608
+  ],
+  "rootPixels": [
+    304,
+    304
+  ],
+  "eyePixels": [
+    334,
+    204
+  ],
+  "registration": [
+    {
+      "frame": 0,
+      "pupil": [
+        187,
+        101
+      ],
+      "registeredPupil": [
+        334,
+        204
+      ],
+      "offset": [
+        147,
+        103
+      ],
+      "minMargin": 0.14802631578947367,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 1,
+      "pupil": [
+        183,
+        101
+      ],
+      "registeredPupil": [
+        334,
+        204
+      ],
+      "offset": [
+        151,
+        103
+      ],
+      "minMargin": 0.15789473684210525,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 2,
+      "pupil": [
+        205,
+        104
+      ],
+      "registeredPupil": [
+        334,
+        204
+      ],
+      "offset": [
+        129,
+        100
+      ],
+      "minMargin": 0.13651315789473684,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 3,
+      "pupil": [
+        179,
+        100
+      ],
+      "registeredPupil": [
+        334,
+        204
+      ],
+      "offset": [
+        155,
+        104
+      ],
+      "minMargin": 0.14967105263157895,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 4,
+      "pupil": [
+        189,
+        102
+      ],
+      "registeredPupil": [
+        334,
+        204
+      ],
+      "offset": [
+        145,
+        102
+      ],
+      "minMargin": 0.15460526315789475,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 5,
+      "pupil": [
+        175,
+        102
+      ],
+      "registeredPupil": [
+        334,
+        204
+      ],
+      "offset": [
+        159,
+        102
+      ],
+      "minMargin": 0.17434210526315788,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 6,
+      "pupil": [
+        207,
+        102
+      ],
+      "registeredPupil": [
+        334,
+        204
+      ],
+      "offset": [
+        127,
+        102
+      ],
+      "minMargin": 0.15625,
+      "pixelRoundTrip": true
+    },
+    {
+      "frame": 7,
+      "pupil": [
+        190,
+        101
+      ],
+      "registeredPupil": [
+        334,
+        204
+      ],
+      "offset": [
+        144,
+        103
+      ],
+      "minMargin": 0.15460526315789475,
+      "pixelRoundTrip": true
+    }
+  ],
+  "uniformScale": 0.19656019656019655,
+  "sourceMarginWarnings": [
+    {
+      "frame": 0,
+      "actual": 0.024774774774774775,
+      "required": 0.12
+    },
+    {
+      "frame": 1,
+      "actual": 0.038288288288288286,
+      "required": 0.12
+    },
+    {
+      "frame": 2,
+      "actual": 0.01126126126126126,
+      "required": 0.12
+    },
+    {
+      "frame": 3,
+      "actual": 0.02702702702702703,
+      "required": 0.12
+    },
+    {
+      "frame": 4,
+      "actual": 0.03160270880361174,
+      "required": 0.12
+    },
+    {
+      "frame": 5,
+      "actual": 0.056433408577878104,
+      "required": 0.12
+    },
+    {
+      "frame": 6,
+      "actual": 0.033860045146726865,
+      "required": 0.12
+    },
+    {
+      "frame": 7,
+      "actual": 0.03160270880361174,
+      "required": 0.12
+    }
+  ],
+  "runtimeWarnings": [],
+  "producerVisualNote": "PINK seahorse identity and upright view preserved; back fan folds/flutters and spiral tail tightens/loosens, capture curl amplitude distinct. Actual native/pupil ROI inspected. Root visual and Unity playback pending.",
+  "registeredContactVisual": "producer_actually_viewed_light_dark_and_display_rest_comparison",
+  "identityAndMotion": "pending_root_visual",
+  "playback": "pending_Unity",
+  "references": null,
+  "rootVisual": "pending"
+}

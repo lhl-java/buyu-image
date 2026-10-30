@@ -1,0 +1,26 @@
+{
+  "actor": "36-xuanjing",
+  "action": "swim",
+  "name": "玄海巨鲸游动",
+  "canvas": [
+    1000,
+    1000
+  ],
+  "eyeRoot": [
+    680,
+    420
+  ],
+  "fps": 8,
+  "loop": true,
+  "bodyDisplayBox": [
+    340,
+    260
+  ],
+  "sheets": [
+    {
+      "qa": "designs/motion-frames-v1/36-xuanjing/swim/source-v1-qa.json",
+      "ownership": "designs/motion-frames-v1/36-xuanjing/swim/extract-v1.json",
+      "closedEyeFrames": []
+    }
+  ]
+}

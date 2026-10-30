@@ -1,0 +1,1500 @@
+{
+  "schemaVersion": 1,
+  "source": [
+    "designs/motion-frames-v1/36-xuanjing/attack/attack-a-contained-v2.png",
+    "designs/motion-frames-v1/36-xuanjing/attack/attack-b-v1.png"
+  ],
+  "output": "assets/animations/36-xuanjing/attack",
+  "sourceEvidence": [
+    {
+      "file": "designs/motion-frames-v1/36-xuanjing/attack/attack-a-contained-v2.png",
+      "sha256": "db7934e6638218ca44f13a11e029c36afcaf7bf803411a9689ef0015872c87a4",
+      "generationRecord": "designs/motion-frames-v1/36-xuanjing/attack/attack-a-contained-v2.png.generation.json"
+    },
+    {
+      "file": "designs/motion-frames-v1/36-xuanjing/attack/attack-b-v1.png",
+      "sha256": "dc6e5dc29cd23c242762676a0b3dad2bd383e8240da7e3086bbfda58a7c09bad",
+      "generationRecord": "designs/motion-frames-v1/36-xuanjing/attack/attack-b-v1.png.generation.json"
+    }
+  ],
+  "frameCount": 8,
+  "items": [
+    {
+      "schemaVersion": 1,
+      "id": "frame-00",
+      "name": "玄海巨鲸攻击 1/8",
+      "file": "assets/animations/36-xuanjing/attack/frame-00.png",
+      "sha256": "2cf622fe50062c3c82f9cbf24e5143c2f0377736d2f479d193192cfc3a80bcf5",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T17:55:06.831262+00:00",
+      "nativeSource": "designs/motion-frames-v1/36-xuanjing/attack/attack-a-contained-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/36-xuanjing/attack/attack-a-contained-v2.png",
+          "sha256": "db7934e6638218ca44f13a11e029c36afcaf7bf803411a9689ef0015872c87a4",
+          "generationRecord": "designs/motion-frames-v1/36-xuanjing/attack/attack-a-contained-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/36-xuanjing/attack/extract-a.json",
+          "sourceRect": [
+            82,
+            198,
+            607,
+            584
+          ],
+          "evidence": {
+            "sourceFrame": 0,
+            "file": "designs/motion-frames-v1/36-xuanjing/attack/extract-a-pose-00.png",
+            "sourceRect": [
+              82,
+              198,
+              607,
+              584
+            ],
+            "nominalSourceRect": [
+              0,
+              0,
+              627,
+              627
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              525,
+              386
+            ],
+            "ownedPixelCount": 106246,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 1
+          }
+        },
+        "sourceEyePoint": [
+          349.6270022883295,
+          188.14645308924486
+        ],
+        "globalSourceEye": [
+          431.6270022883295,
+          386.14645308924486
+        ],
+        "registrationOffset": [
+          330,
+          232
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        330,
+        232,
+        855,
+        618
+      ],
+      "registeredMinMargin": 0.145,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "manually checked dark pupil ROI component center, nearest integer",
+        "qa": "designs/motion-frames-v1/36-xuanjing/attack/source-a-qa.json",
+        "sourceFrame": 0,
+        "candidateIndex": 0,
+        "detection": null,
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+      },
+      "displaySize": [
+        647.6190476190477,
+        647.6190476190477
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.6476190476190476,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          525,
+          386
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "36-xuanjing/attack",
+        "frames": 8,
+        "fps": 10,
+        "loop": false,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 0,
+        "durationMs": 100
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-01",
+      "name": "玄海巨鲸攻击 2/8",
+      "file": "assets/animations/36-xuanjing/attack/frame-01.png",
+      "sha256": "c272a997133207c5cd763ce46b97030e02fde8795eac16abbccdfebe82136a13",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T17:55:06.831262+00:00",
+      "nativeSource": "designs/motion-frames-v1/36-xuanjing/attack/attack-a-contained-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/36-xuanjing/attack/attack-a-contained-v2.png",
+          "sha256": "db7934e6638218ca44f13a11e029c36afcaf7bf803411a9689ef0015872c87a4",
+          "generationRecord": "designs/motion-frames-v1/36-xuanjing/attack/attack-a-contained-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/36-xuanjing/attack/extract-a.json",
+          "sourceRect": [
+            652,
+            279,
+            1171,
+            575
+          ],
+          "evidence": {
+            "sourceFrame": 1,
+            "file": "designs/motion-frames-v1/36-xuanjing/attack/extract-a-pose-01.png",
+            "sourceRect": [
+              652,
+              279,
+              1171,
+              575
+            ],
+            "nominalSourceRect": [
+              627,
+              0,
+              1254,
+              627
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              519,
+              296
+            ],
+            "ownedPixelCount": 87319,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 11
+          }
+        },
+        "sourceEyePoint": [
+          350.4487471526196,
+          107.30068337129842
+        ],
+        "globalSourceEye": [
+          1002.4487471526196,
+          386.3006833712984
+        ],
+        "registrationOffset": [
+          330,
+          313
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        330,
+        313,
+        849,
+        609
+      ],
+      "registeredMinMargin": 0.151,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "manually checked dark pupil ROI component center, nearest integer",
+        "qa": "designs/motion-frames-v1/36-xuanjing/attack/source-a-qa.json",
+        "sourceFrame": 1,
+        "candidateIndex": 0,
+        "detection": null,
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+      },
+      "displaySize": [
+        647.6190476190477,
+        647.6190476190477
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.6476190476190476,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          525,
+          386
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "36-xuanjing/attack",
+        "frames": 8,
+        "fps": 10,
+        "loop": false,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 1,
+        "durationMs": 100
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-02",
+      "name": "玄海巨鲸攻击 3/8",
+      "file": "assets/animations/36-xuanjing/attack/frame-02.png",
+      "sha256": "061478d08843baf907bd28e833762f42393f113fab8dff3e46cee63fb592320c",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T17:55:06.831262+00:00",
+      "nativeSource": "designs/motion-frames-v1/36-xuanjing/attack/attack-a-contained-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/36-xuanjing/attack/attack-a-contained-v2.png",
+          "sha256": "db7934e6638218ca44f13a11e029c36afcaf7bf803411a9689ef0015872c87a4",
+          "generationRecord": "designs/motion-frames-v1/36-xuanjing/attack/attack-a-contained-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/36-xuanjing/attack/extract-a.json",
+          "sourceRect": [
+            84,
+            688,
+            599,
+            1067
+          ],
+          "evidence": {
+            "sourceFrame": 2,
+            "file": "designs/motion-frames-v1/36-xuanjing/attack/extract-a-pose-02.png",
+            "sourceRect": [
+              84,
+              688,
+              599,
+              1067
+            ],
+            "nominalSourceRect": [
+              0,
+              627,
+              627,
+              1254
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              515,
+              379
+            ],
+            "ownedPixelCount": 108233,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 131
+          }
+        },
+        "sourceEyePoint": [
+          345.1905882352941,
+          173.8494117647059
+        ],
+        "globalSourceEye": [
+          429.1905882352941,
+          861.8494117647059
+        ],
+        "registrationOffset": [
+          335,
+          246
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        335,
+        246,
+        850,
+        625
+      ],
+      "registeredMinMargin": 0.15,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "manually checked dark pupil ROI component center, nearest integer",
+        "qa": "designs/motion-frames-v1/36-xuanjing/attack/source-a-qa.json",
+        "sourceFrame": 2,
+        "candidateIndex": 0,
+        "detection": null,
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+      },
+      "displaySize": [
+        647.6190476190477,
+        647.6190476190477
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.6476190476190476,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          525,
+          386
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "36-xuanjing/attack",
+        "frames": 8,
+        "fps": 10,
+        "loop": false,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 2,
+        "durationMs": 100
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-03",
+      "name": "玄海巨鲸攻击 4/8",
+      "file": "assets/animations/36-xuanjing/attack/frame-03.png",
+      "sha256": "fd6ff403d46341fb5a08d4cf043e57507a5ec4a36d0df69aa6cecf3ad60ff05b",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T17:55:06.831262+00:00",
+      "nativeSource": "designs/motion-frames-v1/36-xuanjing/attack/attack-a-contained-v2.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/36-xuanjing/attack/attack-a-contained-v2.png",
+          "sha256": "db7934e6638218ca44f13a11e029c36afcaf7bf803411a9689ef0015872c87a4",
+          "generationRecord": "designs/motion-frames-v1/36-xuanjing/attack/attack-a-contained-v2.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/36-xuanjing/attack/extract-a.json",
+          "sourceRect": [
+            652,
+            751,
+            1186,
+            1081
+          ],
+          "evidence": {
+            "sourceFrame": 3,
+            "file": "designs/motion-frames-v1/36-xuanjing/attack/extract-a-pose-03.png",
+            "sourceRect": [
+              652,
+              751,
+              1186,
+              1081
+            ],
+            "nominalSourceRect": [
+              627,
+              627,
+              1254,
+              1254
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              534,
+              330
+            ],
+            "ownedPixelCount": 99714,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 157
+          }
+        },
+        "sourceEyePoint": [
+          363.83641160949867,
+          104.19261213720313
+        ],
+        "globalSourceEye": [
+          1015.8364116094987,
+          855.1926121372031
+        ],
+        "registrationOffset": [
+          316,
+          316
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        316,
+        316,
+        850,
+        646
+      ],
+      "registeredMinMargin": 0.15,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "manually checked dark pupil ROI component center, nearest integer",
+        "qa": "designs/motion-frames-v1/36-xuanjing/attack/source-a-qa.json",
+        "sourceFrame": 3,
+        "candidateIndex": 0,
+        "detection": null,
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+      },
+      "displaySize": [
+        647.6190476190477,
+        647.6190476190477
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.6476190476190476,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          525,
+          386
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "36-xuanjing/attack",
+        "frames": 8,
+        "fps": 10,
+        "loop": false,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 3,
+        "durationMs": 100
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-04",
+      "name": "玄海巨鲸攻击 5/8",
+      "file": "assets/animations/36-xuanjing/attack/frame-04.png",
+      "sha256": "3fbed4967a4916d36239e4de46f4efc4749c02e3bc095c86a0729e1d1dc575c5",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T17:55:06.831262+00:00",
+      "nativeSource": "designs/motion-frames-v1/36-xuanjing/attack/attack-b-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/36-xuanjing/attack/attack-b-v1.png",
+          "sha256": "dc6e5dc29cd23c242762676a0b3dad2bd383e8240da7e3086bbfda58a7c09bad",
+          "generationRecord": "designs/motion-frames-v1/36-xuanjing/attack/attack-b-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/36-xuanjing/attack/extract-b.json",
+          "sourceRect": [
+            45,
+            231,
+            607,
+            591
+          ],
+          "evidence": {
+            "sourceFrame": 0,
+            "file": "designs/motion-frames-v1/36-xuanjing/attack/extract-b-pose-00.png",
+            "sourceRect": [
+              45,
+              231,
+              607,
+              591
+            ],
+            "nominalSourceRect": [
+              0,
+              0,
+              627,
+              627
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              562,
+              360
+            ],
+            "ownedPixelCount": 106610,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 1
+          }
+        },
+        "sourceEyePoint": [
+          388.68260869565216,
+          156.52608695652174
+        ],
+        "globalSourceEye": [
+          433.68260869565216,
+          387.52608695652174
+        ],
+        "registrationOffset": [
+          291,
+          263
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        291,
+        263,
+        853,
+        623
+      ],
+      "registeredMinMargin": 0.147,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "manually checked dark pupil ROI component center, nearest integer",
+        "qa": "designs/motion-frames-v1/36-xuanjing/attack/source-b-qa.json",
+        "sourceFrame": 0,
+        "candidateIndex": 0,
+        "detection": null,
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+      },
+      "displaySize": [
+        647.6190476190477,
+        647.6190476190477
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.6476190476190476,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          525,
+          386
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "36-xuanjing/attack",
+        "frames": 8,
+        "fps": 10,
+        "loop": false,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 4,
+        "durationMs": 100
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-05",
+      "name": "玄海巨鲸攻击 6/8",
+      "file": "assets/animations/36-xuanjing/attack/frame-05.png",
+      "sha256": "742c9ace06bf12e478a2f8caba5c5c191165756aebdde28dd575ec81b689416b",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T17:55:06.831262+00:00",
+      "nativeSource": "designs/motion-frames-v1/36-xuanjing/attack/attack-b-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/36-xuanjing/attack/attack-b-v1.png",
+          "sha256": "dc6e5dc29cd23c242762676a0b3dad2bd383e8240da7e3086bbfda58a7c09bad",
+          "generationRecord": "designs/motion-frames-v1/36-xuanjing/attack/attack-b-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/36-xuanjing/attack/extract-b.json",
+          "sourceRect": [
+            646,
+            296,
+            1183,
+            576
+          ],
+          "evidence": {
+            "sourceFrame": 1,
+            "file": "designs/motion-frames-v1/36-xuanjing/attack/extract-b-pose-01.png",
+            "sourceRect": [
+              646,
+              296,
+              1183,
+              576
+            ],
+            "nominalSourceRect": [
+              627,
+              0,
+              1254,
+              627
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              537,
+              280
+            ],
+            "ownedPixelCount": 90163,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 12
+          }
+        },
+        "sourceEyePoint": [
+          361.3987473903967,
+          93.12108559498955
+        ],
+        "globalSourceEye": [
+          1007.3987473903967,
+          389.12108559498955
+        ],
+        "registrationOffset": [
+          319,
+          327
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        319,
+        327,
+        856,
+        607
+      ],
+      "registeredMinMargin": 0.144,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "manually checked dark pupil ROI component center, nearest integer",
+        "qa": "designs/motion-frames-v1/36-xuanjing/attack/source-b-qa.json",
+        "sourceFrame": 1,
+        "candidateIndex": 0,
+        "detection": null,
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+      },
+      "displaySize": [
+        647.6190476190477,
+        647.6190476190477
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.6476190476190476,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          525,
+          386
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "36-xuanjing/attack",
+        "frames": 8,
+        "fps": 10,
+        "loop": false,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 5,
+        "durationMs": 100
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-06",
+      "name": "玄海巨鲸攻击 7/8",
+      "file": "assets/animations/36-xuanjing/attack/frame-06.png",
+      "sha256": "d35cb9966ef7287ec1985a9c6c88bcb42d94d914ff07479659204651b744d53b",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T17:55:06.831262+00:00",
+      "nativeSource": "designs/motion-frames-v1/36-xuanjing/attack/attack-b-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/36-xuanjing/attack/attack-b-v1.png",
+          "sha256": "dc6e5dc29cd23c242762676a0b3dad2bd383e8240da7e3086bbfda58a7c09bad",
+          "generationRecord": "designs/motion-frames-v1/36-xuanjing/attack/attack-b-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/36-xuanjing/attack/extract-b.json",
+          "sourceRect": [
+            53,
+            698,
+            608,
+            1062
+          ],
+          "evidence": {
+            "sourceFrame": 2,
+            "file": "designs/motion-frames-v1/36-xuanjing/attack/extract-b-pose-02.png",
+            "sourceRect": [
+              53,
+              698,
+              608,
+              1062
+            ],
+            "nominalSourceRect": [
+              0,
+              627,
+              627,
+              1254
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              555,
+              364
+            ],
+            "ownedPixelCount": 105065,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 97
+          }
+        },
+        "sourceEyePoint": [
+          380.5652173913044,
+          176.51739130434783
+        ],
+        "globalSourceEye": [
+          433.5652173913044,
+          874.5173913043478
+        ],
+        "registrationOffset": [
+          299,
+          243
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        299,
+        243,
+        854,
+        607
+      ],
+      "registeredMinMargin": 0.146,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "manually checked dark pupil ROI component center, nearest integer",
+        "qa": "designs/motion-frames-v1/36-xuanjing/attack/source-b-qa.json",
+        "sourceFrame": 2,
+        "candidateIndex": 1,
+        "detection": null,
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+      },
+      "displaySize": [
+        647.6190476190477,
+        647.6190476190477
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.6476190476190476,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          525,
+          386
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "36-xuanjing/attack",
+        "frames": 8,
+        "fps": 10,
+        "loop": false,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 6,
+        "durationMs": 100
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "frame-07",
+      "name": "玄海巨鲸攻击 8/8",
+      "file": "assets/animations/36-xuanjing/attack/frame-07.png",
+      "sha256": "84a30a6fe58d471df6df2a90365091abfe23e8e322ed7962f952956e688400df",
+      "width": 1000,
+      "height": 1000,
+      "format": "RGBA PNG",
+      "derivedAt": "2026-10-28T17:55:06.831262+00:00",
+      "nativeSource": "designs/motion-frames-v1/36-xuanjing/attack/attack-b-v1.png",
+      "derivedFrom": [
+        {
+          "file": "designs/motion-frames-v1/36-xuanjing/attack/attack-b-v1.png",
+          "sha256": "dc6e5dc29cd23c242762676a0b3dad2bd383e8240da7e3086bbfda58a7c09bad",
+          "generationRecord": "designs/motion-frames-v1/36-xuanjing/attack/attack-b-v1.png.generation.json"
+        }
+      ],
+      "operation": {
+        "type": "native_extraction_integer_eye_registration_and_padding",
+        "extraction": {
+          "type": "complete_native_actor_ownership",
+          "report": "designs/motion-frames-v1/36-xuanjing/attack/extract-b.json",
+          "sourceRect": [
+            644,
+            727,
+            1219,
+            1073
+          ],
+          "evidence": {
+            "sourceFrame": 3,
+            "file": "designs/motion-frames-v1/36-xuanjing/attack/extract-b-pose-03.png",
+            "sourceRect": [
+              644,
+              727,
+              1219,
+              1073
+            ],
+            "nominalSourceRect": [
+              627,
+              627,
+              1254,
+              1254
+            ],
+            "nominalGridCross": false,
+            "nativeVisibleSize": [
+              575,
+              346
+            ],
+            "ownedPixelCount": 104673,
+            "foreignPixelsRemovedFromCrop": 0,
+            "totalCanvasEdgeMaxAlpha": 0,
+            "nativeOwnedPixelsUnchanged": true,
+            "sourceMainAlphaComponent": 102
+          }
+        },
+        "sourceEyePoint": [
+          398.47186147186153,
+          156.69696969696975
+        ],
+        "globalSourceEye": [
+          1042.4718614718615,
+          883.6969696969697
+        ],
+        "registrationOffset": [
+          282,
+          263
+        ],
+        "registeredCanvas": [
+          1000,
+          1000
+        ],
+        "targetEye": [
+          680,
+          420
+        ],
+        "alphaCleanup": "alpha<=3 removed; other native pixels unchanged",
+        "sourcePixelsRoundTripVerified": true,
+        "resized": false,
+        "upscaled": false,
+        "rotated": false,
+        "poseWarped": false,
+        "newNativeDetailClaimed": false
+      },
+      "anchor": [
+        0.68,
+        0.42
+      ],
+      "rootPixels": [
+        680,
+        420
+      ],
+      "eyePixels": [
+        680,
+        420
+      ],
+      "registeredAlphaBBox": [
+        282,
+        263,
+        857,
+        609
+      ],
+      "registeredMinMargin": 0.143,
+      "status": "accepted_first_release_art",
+      "actualModel": null,
+      "actualQuality": null,
+      "sourceLandmarkEvidence": {
+        "type": "manually checked dark pupil ROI component center, nearest integer",
+        "qa": "designs/motion-frames-v1/36-xuanjing/attack/source-b-qa.json",
+        "sourceFrame": 3,
+        "candidateIndex": 1,
+        "detection": null,
+        "limitation": "Eye registration removes layout drift; native head contour/scale changes remain for visual playback review."
+      },
+      "displaySize": [
+        647.6190476190477,
+        647.6190476190477
+      ],
+      "bodyDisplayBox": [
+        340,
+        260
+      ],
+      "uniformDisplayScale": 0.6476190476190476,
+      "displaySizing": {
+        "method": "One scale from first full rest silhouette, reused across all8 frames; no per-frame bbox normalization",
+        "sourceVisibleReference": [
+          525,
+          386
+        ],
+        "upscalingAllowed": false,
+        "crossClipDensityReview": "pending_common_head_scale_review"
+      },
+      "animation": {
+        "id": "36-xuanjing/attack",
+        "frames": 8,
+        "fps": 10,
+        "loop": false,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "durationsMs": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "root": [
+          0.68,
+          0.42
+        ],
+        "sourceRoute": "builtin_native_AI_sheet_user_requested",
+        "sourcePixelsNeverResampled": true,
+        "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+        "phase": 7,
+        "durationMs": 100
+      }
+    }
+  ],
+  "animation": {
+    "id": "36-xuanjing/attack",
+    "frames": 8,
+    "fps": 10,
+    "loop": false,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "durationsMs": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "root": [
+      0.68,
+      0.42
+    ],
+    "sourceRoute": "builtin_native_AI_sheet_user_requested",
+    "sourcePixelsNeverResampled": true,
+    "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+    "releaseReady": true
+  },
+  "sharedCanvas": [
+    1000,
+    1000
+  ],
+  "rootPixels": [
+    680,
+    420
+  ],
+  "eyePixels": [
+    680,
+    420
+  ],
+  "anchor": [
+    0.68,
+    0.42
+  ],
+  "uniformDisplayScale": 0.6476190476190476,
+  "bodyDisplayBox": [
+    340,
+    260
+  ],
+  "displaySize": [
+    647.6190476190477,
+    647.6190476190477
+  ],
+  "warnings": [
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 0,
+      "sourceMinMargin": 0.03189792663476874,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 1,
+      "sourceMinMargin": 0.03987240829346093,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 2,
+      "sourceMinMargin": 0.044657097288676235,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 3,
+      "sourceMinMargin": 0.03987240829346093,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 4,
+      "sourceMinMargin": 0.03189792663476874,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 5,
+      "sourceMinMargin": 0.030303030303030304,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 6,
+      "sourceMinMargin": 0.030303030303030304,
+      "retained": true
+    },
+    {
+      "id": "raw_nominal_source_margin_lt_12pct",
+      "frame": 7,
+      "sourceMinMargin": 0.02711323763955343,
+      "retained": true
+    },
+    {
+      "id": "native_head_shape_and_inter_sheet_density",
+      "severity": "pending_playback_review",
+      "note": "Integer translation cannot correct generated head contour or native scale drift; do not treat pixel bounds as motion approval."
+    }
+  ],
+  "contactSheets": [
+    "tmp/art-qa/36-xuanjing-attack-registered-light.jpg",
+    "tmp/art-qa/36-xuanjing-attack-registered-dark.jpg"
+  ],
+  "qa": {
+    "nativeOwnedPixelsPreserved": true,
+    "registeredMarginStatus": "pass_12pct",
+    "sourceMarginStatus": "warnings_preserved",
+    "sourceCanvasClipping": "none_for_adopted_extractions",
+    "semanticOwnershipStatus": "pending_root_contact_sheet_review",
+    "poseAndIdentityStatus": "native_source_stills_observed_pending_registered_review",
+    "loopPlaybackStatus": "not_run_during_local_heavy_job_hold",
+    "unityPlaybackStatus": "not_run"
+  },
+  "status": "accepted_first_release_art",
+  "releaseReady": true,
+  "finalAcceptance": "docs/UNITY_FINAL_ACCEPTANCE.json",
+  "acceptedAt": "2026-10-30T04:07:09.085600+00:00",
+  "playbackReview": "docs/UNITY_FINAL_ACCEPTANCE.json"
+}

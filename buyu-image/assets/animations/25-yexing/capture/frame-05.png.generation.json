@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "frame-05",
+  "name": "夜星鱼 capture 5",
+  "file": "assets/animations/25-yexing/capture/frame-05.png",
+  "sha256": "d9b9962d17684539bd44cac6203a4f5993f061bce8f9ac700835104dbe6f640f",
+  "width": 640,
+  "height": 640,
+  "format": "RGBA PNG",
+  "nativeSource": "designs/motion-frames-v1/25-yexing/capture/25-yexing-capture-contained-v2.png",
+  "derivedFrom": [
+    {
+      "file": "designs/motion-frames-v1/25-yexing/capture/25-yexing-capture-contained-v2.png",
+      "sha256": "a84bcb6ed98b468baff61af464d841ed7365f2221c1a24508445ef4be66364d3",
+      "generationRecord": "designs/motion-frames-v1/25-yexing/capture/25-yexing-capture-contained-v2.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_grid_crop_integer_pupil_registration",
+    "grid": {
+      "rows": 2,
+      "cols": 4
+    },
+    "sourceRect": [
+      444,
+      444,
+      887,
+      887
+    ],
+    "registrationOffset": [
+      73,
+      111,
+      516,
+      554
+    ],
+    "registeredCanvas": [
+      640,
+      640
+    ],
+    "registrationReference": {
+      "type": "black_pupil_connected_component_centroid",
+      "sourcePointFloat": [
+        366.78740157480314,
+        208.753280839895
+      ],
+      "sourcePointRounded": [
+        367,
+        209
+      ],
+      "targetPoint": [
+        440,
+        320
+      ],
+      "pupilBounds": [
+        349,
+        197,
+        380,
+        222
+      ],
+      "detectionRoi": [
+        300,
+        150,
+        435,
+        290
+      ],
+      "detection": "RGB max<55,alpha>220; compact connected component nearest manually viewed pupil seed"
+    },
+    "alphaCleanup": "Values<=3 set to zero; all other RGB and alpha preserved",
+    "resized": false,
+    "upscaled": false,
+    "poseWarped": false,
+    "sourcePixelsRoundTripVerified": true,
+    "sourceCellClipping": false
+  },
+  "anchor": [
+    0.6875,
+    0.5
+  ],
+  "status": "candidate_pending_root_visual_and_playback_review",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source record; this is a native derivative, not new generation.",
+  "animation": {
+    "id": "25-yexing/capture",
+    "frames": 8,
+    "fps": 12,
+    "loop": false,
+    "order": "row-major",
+    "root": [
+      0.6875,
+      0.5
+    ],
+    "phase": 0.625,
+    "durationMs": 83,
+    "targetBodyBox": [
+      240,
+      180
+    ],
+    "displayCalibration": {
+      "status": "candidate_pending_root_visual_runtime_review",
+      "method": "one_uniform_scale_per_clip_from_median_native_black_pupil_width_as_head_size_proxy",
+      "nativeMedianPupilWidth": 30.5,
+      "targetDisplayedPupilWidth": 20,
+      "uniformDisplayScale": 0.6557377049180327,
+      "upscale": false,
+      "perFrameBboxFit": false,
+      "sharedVisualPivotPixels": [
+        440,
+        320
+      ],
+      "sharedVisualPivotNormalized": [
+        0.6875,
+        0.5
+      ],
+      "displayBodyMaxPixels": [
+        222.95081967213113,
+        162.62295081967213
+      ],
+      "warning": "Pupil is an approximate density proxy, not exact outer head geometry; root playback review still required. Pivot must use registered pupil when applying different clip scales, otherwise head shifts."
+    }
+  },
+  "qa": {
+    "nativeBodyBoxAlpha16": [
+      93,
+      92,
+      408,
+      336
+    ],
+    "nativeVisibleSize": [
+      315,
+      244
+    ],
+    "rawCellEdgeMaxAlpha": 1,
+    "registeredBoxAlpha16": [
+      166,
+      203,
+      481,
+      447
+    ],
+    "registeredMarginsFraction": [
+      0.259375,
+      0.3171875,
+      0.2484375,
+      0.3015625
+    ],
+    "finalMargin12PercentPassed": true,
+    "pupilComponent": {
+      "area": 381,
+      "bbox": [
+        349,
+        197,
+        380,
+        222
+      ],
+      "centroid": [
+        366.78740157480314,
+        208.753280839895
+      ]
+    },
+    "actualSourceViewedByProducer": true,
+    "loopOrRecoveryAccepted": false,
+    "targetClientAccepted": false
+  }
+}
